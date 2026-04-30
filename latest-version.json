@@ -1,6 +1,6 @@
 {
-  "version": "0.6.37",
-  "downloadUrl": "https://drive.google.com/uc?export=download&id=1FY5EDzz-U2VnCxnuBNGtwHYIdlIv3Njn",
+  "version": "0.6.38",
+  "downloadUrl": "https://drive.google.com/uc?export=download&id=14YTcgPl1uB28l_ZdD5IzxmLVe3mOK8xR",
   "notes": [
     "Fixed packaged scan path",
     "Added CSV logging",
