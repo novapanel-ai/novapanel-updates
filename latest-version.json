@@ -1,7 +1,7 @@
 {
-  "version": "0.6.43",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.43/NovaPanel-v0.6.43.zip",
+  "version": "0.6.44",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.44/NovaPanel-v0.6.44.zip",
   "notes": [
-    "Added install + restart updater"
+    "Fixed updater install path and restart logic"
   ]
 }
