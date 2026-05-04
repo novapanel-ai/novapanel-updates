@@ -1,13 +1,5 @@
 {
-  "version": "0.6.45",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.45/NovaPanel-v0.6.45.zip",
-  "notes": [
-    "Updater system stabilization pass",
-    "Fixed install path to use process.execPath (correct target directory)",
-    "Fixed app not fully closing during update (tray + background processes)",
-    "Implemented proper shutdown integrity before file replacement",
-    "Improved extraction flow (temp → replace → restart)",
-    "Restart reliability improvements after install",
-    "General updater reliability + logging improvements"
-  ]
+  "version": "0.6.46",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.46/NovaPanel-v0.6.46.zip",
+  "notes": "NovaPanel v0.6.46\n\n- Release notes here"
 }
