@@ -1,5 +1,5 @@
 {
-  "version": "0.6.48",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.48/NovaPanel-v0.6.48.zip",
-  "notes": "NovaPanel v0.6.48\n\n- Fixed multi-instance bug (single instance lock)\n- Fixed updater shutdown not terminating all processes\n- Fixed tray background instance persistence\n- Fixed SensorBridge orphan processes\n- Clean rebuild after corrupted artifact\n- Improved updater reliability and logging"
+  "version": "0.6.50",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.50/NovaPanel-v0.6.50.zip",
+  "notes": "NovaPanel v0.6.50\n\n- Final manual updater stability attempt\n- Enforces single-instance app startup\n- Prevents duplicate NovaPanel background processes\n- Hardens update shutdown before file replacement\n- Adds UpdaterHelper process-exit waiting\n- Improves logs for updater failure diagnosis"
 }
