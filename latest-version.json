@@ -1,10 +1,6 @@
 {
-  "version": "0.6.52",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.52/NovaPanel-v0.6.52.zip",
-  "notes": [
-    "Version bump for updater validation.",
-    "No functional changes in this build.",
-    "Used to test release automation and update pipeline (v0.6.51 → v0.6.52)."
-  ],
+  "version": "0.6.53",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.53/NovaPanel-v0.6.53.zip",
+  "notes": "NovaPanel v0.6.53\n\n- release-update.js: hardcoded fallback paths (C:\\np-duel\\novapanel-updates, C:\\np-exe) so no env vars required.\n- latest-version.json notes is now a STRING not an array — matches what updater.js expects.\n- Git commit message changed to 'update to vX.Y.Z' (matching repo convention).\n- Step 9: optional auto-deploy to C:\\np-exe via PowerShell Expand-Archive with wrapper-folder flattening.\n- Removed all 'copy file manually' fallback text — script aborts with clear error if updates repo is missing.\n- All manual steps eliminated from the release workflow.",
   "required": false
 }
