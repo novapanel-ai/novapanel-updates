@@ -1,5 +1,5 @@
 {
-  "version": "0.6.50",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.50/NovaPanel-v0.6.50.zip",
-  "notes": "NovaPanel v0.6.50\n\n- Final manual updater stability attempt\n- Enforces single-instance app startup\n- Prevents duplicate NovaPanel background processes\n- Hardens update shutdown before file replacement\n- Adds UpdaterHelper process-exit waiting\n- Improves logs for updater failure diagnosis"
+  "version": "0.6.51",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.51/NovaPanel-v0.6.51.zip",
+  "notes": "NovaPanel v0.6.51\n\n- Adds one-command release automation\n- Automates build, GitHub release, and update feed\n- Validates version consistency before release\n- Validates tester ZIP exists and is non-empty\n- Reduces manual updater test friction"
 }
