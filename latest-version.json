@@ -1,6 +1,6 @@
 {
-  "version": "0.6.59",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.59/NovaPanel-v0.6.59.zip",
-  "notes": "NovaPanel v0.6.59\n\n- Fix: updater-helper no longer fails to overwrite NovaPanel.exe when running inside it (EPERM/EBUSY).\n- Workaround: rename existing NovaPanel.exe → NovaPanel.exe.old before copying new one; delete .old after copy.\n- All other files continue to copy normally; .old cleanup is best-effort (Windows releases the lock when helper exits).\n- Added: extracted file count log, zip exists/size logs, final exe exists log — all required instrumentation present.\n- Log files use flag 'w' (truncate) for a fresh log each run — easier to read than appended logs.",
+  "version": "0.6.60",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.60/NovaPanel-v0.6.60.zip",
+  "notes": "NovaPanel v0.6.60\n\n- Validation target for updater test (v0.6.59 → v0.6.60).\n- Preserves v0.6.59 updater helper fixes: NovaPanel.exe rename workaround, extracted file count logging, fresh log per run.\n- No functional changes beyond version increment.",
   "required": false
 }
