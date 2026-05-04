@@ -1,5 +1,10 @@
 {
-  "version": "0.6.51",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.51/NovaPanel-v0.6.51.zip",
-  "notes": "NovaPanel v0.6.51\n\n- Adds one-command release automation\n- Automates build, GitHub release, and update feed\n- Validates version consistency before release\n- Validates tester ZIP exists and is non-empty\n- Reduces manual updater test friction"
+  "version": "0.6.52",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.52/NovaPanel-v0.6.52.zip",
+  "notes": [
+    "Version bump for updater validation.",
+    "No functional changes in this build.",
+    "Used to test release automation and update pipeline (v0.6.51 → v0.6.52)."
+  ],
+  "required": false
 }
