@@ -1,6 +1,6 @@
 {
-  "version": "0.6.57",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.57/NovaPanel-v0.6.57.zip",
-  "notes": "NovaPanel v0.6.57\n\n- Update checker now fetches latest-version.json fresh on every check.\n- Cache-busting: ?t=Date.now() appended to feed URL so CDN/proxies treat each request as unique.\n- Request headers: Cache-Control: no-cache + Pragma: no-cache sent with every version check.\n- Feed URL logged before request: [updater] fetching update feed: <url>?t=<timestamp>.\n- Both installed and fetched versions logged: [updater] fetched version / installed.\n- Update-available log includes both versions: [updater] update available: 0.6.56 → 0.6.57.",
+  "version": "0.6.58",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.58/NovaPanel-v0.6.58.zip",
+  "notes": "NovaPanel v0.6.58\n\n- Validation build for updater test (0.6.57 → 0.6.58).\n- Preserves updater shutdown and helper instrumentation from v0.6.57.\n- No functional changes beyond version increment.",
   "required": false
 }
