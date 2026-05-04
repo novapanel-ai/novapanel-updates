@@ -1,6 +1,6 @@
 {
-  "version": "0.6.55",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.55/NovaPanel-v0.6.55.zip",
-  "notes": "NovaPanel v0.6.55\n\n- Validation target for updater test: v0.6.54 → v0.6.55.\n- Preserves all v0.6.54 fixes: process role logging, updater-helper dual log files, hard 15s timeout with force-kill, taskkill /F SensorBridge, before-quit immediate exit when _forceQuitCalled.\n- No functional changes beyond version increment.",
+  "version": "0.6.57",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.57/NovaPanel-v0.6.57.zip",
+  "notes": "NovaPanel v0.6.57\n\n- Update checker now fetches latest-version.json fresh on every check.\n- Cache-busting: ?t=Date.now() appended to feed URL so CDN/proxies treat each request as unique.\n- Request headers: Cache-Control: no-cache + Pragma: no-cache sent with every version check.\n- Feed URL logged before request: [updater] fetching update feed: <url>?t=<timestamp>.\n- Both installed and fetched versions logged: [updater] fetched version / installed.\n- Update-available log includes both versions: [updater] update available: 0.6.56 → 0.6.57.",
   "required": false
 }
