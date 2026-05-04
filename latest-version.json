@@ -1,6 +1,6 @@
 {
-  "version": "0.6.54",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.54/NovaPanel-v0.6.54.zip",
-  "notes": "NovaPanel v0.6.54\n\n- Fix: before-quit no longer calls event.preventDefault() when _forceQuitCalled — update quit now exits Electron immediately without waiting for async cleanup.\n- Fix: SensorBridge.exe force-killed via taskkill /F in update shutdown path — graceful .stop() with unref'd timer was not guaranteeing process termination.\n- Fix: BrowserWindow.getAllWindows().forEach(w => w.destroy()) added as belt-and-suspenders alongside named window references.\n- Fix: app.exit(0) fallback reduced from 3000ms to 1500ms.\n- All required shutdown logs present: update shutdown start, SensorBridge stopped, tray destroyed, windows destroyed, app quit called, app exit forced.",
+  "version": "0.6.55",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.55/NovaPanel-v0.6.55.zip",
+  "notes": "NovaPanel v0.6.55\n\n- Validation target for updater test: v0.6.54 → v0.6.55.\n- Preserves all v0.6.54 fixes: process role logging, updater-helper dual log files, hard 15s timeout with force-kill, taskkill /F SensorBridge, before-quit immediate exit when _forceQuitCalled.\n- No functional changes beyond version increment.",
   "required": false
 }
