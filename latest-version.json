@@ -1,6 +1,6 @@
 {
-  "version": "0.6.97",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.97/NovaPanel-v0.6.97.zip",
-  "notes": "NovaPanel v0.6.97\n\n- Validation target for v0.6.96 updater fixes.\n- Updates from v0.6.96 to v0.6.97 to validate download, shutdown, install, and relaunch.\n- No functional changes beyond version increment.",
+  "version": "0.6.99",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.6.99/NovaPanel-v0.6.99.zip",
+  "notes": "NovaPanel v0.6.99\n\n- Validation target for v0.6.98 updater fixes.\n- Updates from v0.6.98 to v0.6.99 to validate download, shutdown, install, and relaunch.\n- No functional changes beyond version increment.",
   "required": false
 }
