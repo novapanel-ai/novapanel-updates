@@ -1,6 +1,6 @@
 {
-  "version": "0.7.23",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.23/NovaPanel-v0.7.23.zip",
-  "notes": "NovaPanel v0.7.23\n\n- Updater target build for v0.7.22 -> v0.7.23 validation cycle. Pure version bump only. No code changes.\n- package.json version 0.7.22 -> 0.7.23. versions.json mainVersion 0.7.22 -> 0.7.23. No module versions changed.\n- Updater logic, helper, test agent, release-pair, build gate, UI: byte-identical to v0.7.22.",
+  "version": "0.7.25",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.25/NovaPanel-v0.7.25.zip",
+  "notes": "NovaPanel v0.7.25\n\n- Helper copy phase: resources/app.asar is now treated like NovaPanel.exe - atomic rename + copy + fatal on failure. v0.7.22->v0.7.23 cycle revealed that copyDirRecursive sent every non-exe entry through a best-effort branch that logged EBUSY/EPERM as optional missing - skipped, so app.asar lock failures (typically a memory-mapped image-section ref held by an orphaned renderer) were swallowed and the copy phase reported SUCCESS while resources/app.asar stayed at the pre-update bytes. PHASE 5 verify then correctly caught root=0.7.23 vs asar=0.7.22 and emitted PHASE FAIL name=verify.\n- New explicit branch logs: source path + size, destination path + pre-copy size + mtime, post-copy size + mtime. Throws if post-size != src-size, or if pre/post size+mtime are unchanged (stale-detect). Errors propagate to the phase wrapper as PHASE FAIL name=copy.\n- Belt-and-braces: after _copy returns, skipped[] is scanned for any case-insensitive match of resources/app.asar; if found, copy phase throws even if the special branch was bypassed.\n- PHASE 5 verify unchanged - already reads root versions.json + asar versions.json + asar package.json (v0.7.18+v0.7.19). Test harness, release, downloader, relaunch, UI: byte-identical to v0.7.24.",
   "required": false
 }
