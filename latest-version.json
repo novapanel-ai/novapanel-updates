@@ -1,6 +1,6 @@
 {
-  "version": "0.7.22",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.22/NovaPanel-v0.7.22.zip",
-  "notes": "NovaPanel v0.7.22\n\n- Validation target for v0.7.21 updater fixes.\n- Updates from v0.7.21 to v0.7.22 to validate download, shutdown, install, and relaunch.\n- No functional changes beyond version increment.",
+  "version": "0.7.23",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.23/NovaPanel-v0.7.23.zip",
+  "notes": "NovaPanel v0.7.23\n\n- Updater target build for v0.7.22 -> v0.7.23 validation cycle. Pure version bump only. No code changes.\n- package.json version 0.7.22 -> 0.7.23. versions.json mainVersion 0.7.22 -> 0.7.23. No module versions changed.\n- Updater logic, helper, test agent, release-pair, build gate, UI: byte-identical to v0.7.22.",
   "required": false
 }
