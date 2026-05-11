@@ -1,6 +1,6 @@
 {
-  "version": "0.7.29",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.29/NovaPanel-v0.7.29.zip",
-  "notes": "NovaPanel v0.7.29\n\n- Replaced PowerShell Expand-Archive with native Node ZIP extractor. v0.7.28 evidence proved Expand-Archive truncates resources/app.asar to 0 bytes despite the ZIP entry being valid (CD reports uncompressed size 866773, on-disk size after extract 0). New extractZipToDir walks central directory entries, seeks to each local file header, reads compressed bytes, decompresses via zlib.inflateRawSync (method 8 deflate) or copies directly (method 0 stored), verifies per-entry size parity (writeBuf.length == uncompressed size from CD), writes to destDir preserving directory structure. Path traversal guard refuses entries that resolve outside destDir.\n- ZIP64 size/offset escape sentinels handled. Directory-only entries (filenames ending /) create the directory. Unsupported compression methods throw. inspectZipEntries pre-extract gate unchanged - if ZIP itself is bad, extract still fails before write.\n- extract-integrity logging preserved verbatim. PHASE FAIL behavior preserved. contentRoot / nested-root detection (findContentRoot) preserved. extraction method log line now reads node-native (zlib.inflateRawSync) instead of PowerShell Expand-Archive.\n- No changes to copy / verify / relaunch / deep-link / release / build pipeline.",
+  "version": "0.7.30",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.30/NovaPanel-v0.7.30.zip",
+  "notes": "NovaPanel v0.7.30\n\n- Updater target build for v0.7.29 -> v0.7.30 validation of the node-native extractor. Pure version bump only.\n- package.json version 0.7.29 -> 0.7.30. versions.json mainVersion 0.7.29 -> 0.7.30. No module versions changed.\n- Updater helper, extraction logic, test-update, release scripts, build scripts, UI: byte-identical to v0.7.29.",
   "required": false
 }
