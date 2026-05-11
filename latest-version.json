@@ -1,6 +1,6 @@
 {
-  "version": "0.7.32",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.32/NovaPanel-v0.7.32.zip",
-  "notes": "NovaPanel v0.7.32\n\n- Updater target build for v0.7.31 -> v0.7.32 validation of the per-entry CRC32 + ASAR-open extract checks. Pure version bump only.\n- package.json version 0.7.31 -> 0.7.32. versions.json mainVersion 0.7.31 -> 0.7.32. No module versions changed.\n- Updater-helper, extraction, trigger, runner staging, copy, verify, relaunch, test-update, build scripts, UI: byte-identical to v0.7.31.",
+  "version": "0.7.34",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.34/NovaPanel-v0.7.34.zip",
+  "notes": "NovaPanel v0.7.34\n\n- Updater target build for v0.7.33 -> v0.7.34 validation of the yauzl-based extractor. Pure version bump only.\n- package.json version 0.7.33 -> 0.7.34. versions.json mainVersion 0.7.33 -> 0.7.34. No module versions changed.\n- Updater-helper, extraction, trigger, runner staging, wait, copy, verify, relaunch, test-update, build scripts, UI: byte-identical to v0.7.33.",
   "required": false
 }
