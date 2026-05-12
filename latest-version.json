@@ -1,6 +1,9 @@
 {
-  "version": "0.7.47",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.47/NovaPanel-v0.7.47.zip",
-  "notes": "NovaPanel v0.7.47\n\n- Validation target for v0.7.46 updater fixes.\n- Updates from v0.7.46 to v0.7.47 to validate download, shutdown, install, and relaunch.\n- No functional changes beyond version increment.",
-  "required": false
+  "version": "0.6.36",
+  "downloadUrl": "https://drive.google.com/uc?export=download&id=1kuBU6Zx3MEDLI0rg0JeSljY8id01BwZE",
+  "notes": [
+    "Fixed packaged scan path",
+    "Added CSV logging",
+    "Improved testing workflow"
+  ]
 }
