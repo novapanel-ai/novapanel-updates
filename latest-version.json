@@ -1,6 +1,6 @@
 {
-  "version": "0.7.49",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.49/NovaPanel-v0.7.49.zip",
-  "notes": "NovaPanel v0.7.49\n\n- Relaunched child stability fix.\n- Spawn option detached:false -> detached:true gives the relaunched NovaPanel.exe its own process group on Windows.\n- Decouples the child from the helper / original-parent process chain so it survives after the original NovaPanel.exe finishes its update-quit.\n- Single-character semantic change in updater-helper/index.js. No extract/copy/verify changes.",
+  "version": "0.7.50",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.50/NovaPanel-v0.7.50.zip",
+  "notes": "NovaPanel v0.7.50`n`n- Relaunched-child stability retry loop.`n- Helper verifies relaunched process and retries up to 3 times.`n- No extract/copy/verify changes.",
   "required": false
 }
