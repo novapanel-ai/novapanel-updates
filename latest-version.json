@@ -1,9 +1,6 @@
-{
-  "version": "0.6.36",
-  "downloadUrl": "https://drive.google.com/uc?export=download&id=1kuBU6Zx3MEDLI0rg0JeSljY8id01BwZE",
-  "notes": [
-    "Fixed packaged scan path",
-    "Added CSV logging",
-    "Improved testing workflow"
-  ]
+﻿{
+  "version": "0.7.48",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.48/NovaPanel-v0.7.48.zip",
+  "notes": "NovaPanel v0.7.48",
+  "required": false
 }
