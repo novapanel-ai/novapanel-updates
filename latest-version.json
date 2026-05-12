@@ -1,6 +1,6 @@
 {
-  "version": "0.7.50",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.50/NovaPanel-v0.7.50.zip",
-  "notes": "NovaPanel v0.7.50`n`n- Relaunched-child stability retry loop.`n- Helper verifies relaunched process and retries up to 3 times.`n- No extract/copy/verify changes.",
+  "version": "0.7.51",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.51/NovaPanel-v0.7.51.zip",
+  "notes": "NovaPanel v0.7.51\n\n- Regression-hop validation target.\n- Pure version bump - no code changes from v0.7.50.",
   "required": false
 }
