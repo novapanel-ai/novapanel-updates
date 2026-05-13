@@ -1,6 +1,6 @@
 {
-  "version": "0.7.52",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.52/NovaPanel-v0.7.52.zip",
-  "notes": "NovaPanel v0.7.52\n\n- Test session / operations validation target.",
+  "version": "0.7.54",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.54/NovaPanel-v0.7.54.zip",
+  "notes": "NovaPanel v0.7.54\n\n- Fixes tester name export for NovaOps test sessions.",
   "required": false
 }
