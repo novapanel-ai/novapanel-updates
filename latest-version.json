@@ -1,6 +1,6 @@
 {
-  "version": "0.7.51",
-  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.51/NovaPanel-v0.7.51.zip",
-  "notes": "NovaPanel v0.7.51\n\n- Regression-hop validation target.\n- Pure version bump - no code changes from v0.7.50.",
+  "version": "0.7.52",
+  "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.52/NovaPanel-v0.7.52.zip",
+  "notes": "NovaPanel v0.7.52\n\n- Test session / operations validation target.",
   "required": false
 }
