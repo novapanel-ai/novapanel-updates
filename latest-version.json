@@ -1,5 +1,6 @@
-﻿{
-    "version":  "0.7.67",
-    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v0.7.67/NovaPanel-v0.7.67.zip",
-    "notes":  "NovaPanel v0.7.67"
+{
+    "version":  "1.1.145",
+    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.145/NovaPanel-v1.1.145.zip",
+    "notes":  "NovaPanel v1.1.145 - CEO polish pass: System Scan identity card, button spacing fix, Recommended Install labeling, Hardware Panel reachable from Settings with working resolution/customization, sensor fill indicators, alignment audit, updater feed corrected + drift guardrail added.",
+    "required": false
 }
