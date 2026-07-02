@@ -1,6 +1,6 @@
 {
-    "version":  "1.1.145",
-    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.145/NovaPanel-v1.1.145.zip",
-    "notes":  "NovaPanel v1.1.145 - CEO polish pass: System Scan identity card, button spacing fix, Recommended Install labeling, Hardware Panel reachable from Settings with working resolution/customization, sensor fill indicators, alignment audit, updater feed corrected + drift guardrail added.",
+    "version":  "1.1.146",
+    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.146/NovaPanel-v1.1.146.zip",
+    "notes":  "NovaPanel v1.1.146 - Card system polish: fixed font-setting live-apply, fixed rounded corners/border-sides/border-gradient/card-image rendering (real gaps in applyCardSurface), new default card material (depth/border/shadow, no longer flat), improved portrait composition balance, removed a startup pass that was wiping card customization.",
     "required": false
 }
