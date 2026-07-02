@@ -1,6 +1,6 @@
 {
-    "version":  "1.1.146",
-    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.146/NovaPanel-v1.1.146.zip",
-    "notes":  "NovaPanel v1.1.146 - Card system polish: fixed font-setting live-apply, fixed rounded corners/border-sides/border-gradient/card-image rendering (real gaps in applyCardSurface), new default card material (depth/border/shadow, no longer flat), improved portrait composition balance, removed a startup pass that was wiping card customization.",
+    "version":  "1.1.147",
+    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.147/NovaPanel-v1.1.147.zip",
+    "notes":  "NovaPanel v1.1.147 - Panel stability reset: panel open/close status now reflects real BrowserWindow state (not stale config), single-active-surface enforced across Hardware/Classic/custom panels, fixed ~96px 4K display fill offset, fixed card background image via the real Browse-file UI path, reorganized card settings UI into labeled sections (Background/Image/Border/Corners/Shadow-Depth/Typography). No new features, no visual redesign this round.",
     "required": false
 }
