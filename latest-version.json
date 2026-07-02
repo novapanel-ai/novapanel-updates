@@ -1,6 +1,6 @@
 {
-    "version":  "1.1.147",
-    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.147/NovaPanel-v1.1.147.zip",
-    "notes":  "NovaPanel v1.1.147 - Panel stability reset: panel open/close status now reflects real BrowserWindow state (not stale config), single-active-surface enforced across Hardware/Classic/custom panels, fixed ~96px 4K display fill offset, fixed card background image via the real Browse-file UI path, reorganized card settings UI into labeled sections (Background/Image/Border/Corners/Shadow-Depth/Typography). No new features, no visual redesign this round.",
+    "version":  "1.1.149",
+    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.149/NovaPanel-v1.1.149.zip",
+    "notes":  "NovaPanel v1.1.149 - First clean production Hardware Panel: new grid-first visual layout (Canvas/Grid/Zone/Card/Content), cards reverted to fully cardless by default, an always-visible live-data-truth indicator (Live/Connecting/Simulated), and the Themes tab removed from production UI. One production panel confirmed; restart and regression proofs re-verified.",
     "required": false
 }
