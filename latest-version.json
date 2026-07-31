@@ -1,6 +1,12 @@
 {
-    "version":  "1.1.149",
-    "downloadUrl":  "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.149/NovaPanel-v1.1.149.zip",
-    "notes":  "NovaPanel v1.1.149 - First clean production Hardware Panel: new grid-first visual layout (Canvas/Grid/Zone/Card/Content), cards reverted to fully cardless by default, an always-visible live-data-truth indicator (Live/Connecting/Simulated), and the Themes tab removed from production UI. One production panel confirmed; restart and regression proofs re-verified.",
+    "version": "1.1.166",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.166/NovaPanel-v1.1.166.zip",
+    "notes": [
+        "PHASE5-STRUCTURAL-CORROBORATION-01: Interface Intelligence Phase 5, Capability 3 (Object Type Resolution) — implements Structural Corroboration as a second, INDEPENDENT evidence family, per engineering review of the Capability 3…",
+        "Root cause addressed: the prior 4-gate model derived every gate from ONE evidence family (Phase 4's per-primitive classification vote). The audit found this insufficient — obj-05 and obj-23 on the weather-icon reference image both passed…",
+        "New 5th gate 'structural_corroboration' in resolve_object_type.py, fully independent of the original 3 gates: evaluated every time, never short-circuited by an earlier gate's failure (verified by a dedicated fixture where…",
+        "Typography's Structural Corroboration rule (baseline coherence, glyph-height consistency, horizontal/vertical spread) implemented with thresholds empirically derived from real data: TYPOGRAPHY_MIN_BASELINE_COHERENCE=0.50…",
+        "Icon (and every other object type) intentionally gets the FRAMEWORK ONLY this round, per explicit instruction not to overfit a rule to the single clean Icon example available (obj-17) — the gate honestly reports FAIL with a cited…"
+    ],
     "required": false
 }
