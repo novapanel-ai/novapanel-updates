@@ -1,12 +1,12 @@
 {
-    "version": "1.1.166",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.166/NovaPanel-v1.1.166.zip",
+    "version": "1.1.167",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.167/NovaPanel-v1.1.167.zip",
     "notes": [
-        "PHASE5-STRUCTURAL-CORROBORATION-01: Interface Intelligence Phase 5, Capability 3 (Object Type Resolution) — implements Structural Corroboration as a second, INDEPENDENT evidence family, per engineering review of the Capability 3…",
-        "Root cause addressed: the prior 4-gate model derived every gate from ONE evidence family (Phase 4's per-primitive classification vote). The audit found this insufficient — obj-05 and obj-23 on the weather-icon reference image both passed…",
-        "New 5th gate 'structural_corroboration' in resolve_object_type.py, fully independent of the original 3 gates: evaluated every time, never short-circuited by an earlier gate's failure (verified by a dedicated fixture where…",
-        "Typography's Structural Corroboration rule (baseline coherence, glyph-height consistency, horizontal/vertical spread) implemented with thresholds empirically derived from real data: TYPOGRAPHY_MIN_BASELINE_COHERENCE=0.50…",
-        "Icon (and every other object type) intentionally gets the FRAMEWORK ONLY this round, per explicit instruction not to overfit a rule to the single clean Icon example available (obj-17) — the gate honestly reports FAIL with a cited…"
+        "Fixes the Flow theme rendering completely blank on real hardware, restores the Hardware Panel to the original Foundation panel while keeping Blackfield as its own panel, and adds a Theme Tester for previewing themes at every screen shape.",
+        "Flow theme: cards never appeared with live sensor data. They ship hidden and only the simulation path ever revealed them, so with a real sensor feed the panel showed its status dot and nothing else — while reporting \"Live\", since \"all…",
+        "Hardware Panel restored to the original Foundation panel (gauge2). Blackfield is not removed — it keeps its registry entry and gains its own panel entry, so both are available under Settings > Panels. Applied as a one-time migration on…",
+        "Settings: sidebar reordered (General, Panels, Themes, System Scan, Subscription, Appearance). Appearance is hidden below Plus; the Advisor is Prime and above; Installed Modules is Creator only. Installed Modules also stopped showing raw…",
+        "Tray menu cleaned up: five internal Interface Intelligence proof windows and Runtime Observability were visible to every user and are now Creator only. Fixed corrupted em-dashes in the menu labels."
     ],
     "required": false
 }
