@@ -1,12 +1,12 @@
 {
-    "version": "1.1.167",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.167/NovaPanel-v1.1.167.zip",
+    "version": "1.1.168",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.168/NovaPanel-v1.1.168.zip",
     "notes": [
-        "Fixes the Flow theme rendering completely blank on real hardware, restores the Hardware Panel to the original Foundation panel while keeping Blackfield as its own panel, and adds a Theme Tester for previewing themes at every screen shape.",
-        "Flow theme: cards never appeared with live sensor data. They ship hidden and only the simulation path ever revealed them, so with a real sensor feed the panel showed its status dot and nothing else — while reporting \"Live\", since \"all…",
-        "Hardware Panel restored to the original Foundation panel (gauge2). Blackfield is not removed — it keeps its registry entry and gains its own panel entry, so both are available under Settings > Panels. Applied as a one-time migration on…",
-        "Settings: sidebar reordered (General, Panels, Themes, System Scan, Subscription, Appearance). Appearance is hidden below Plus; the Advisor is Prime and above; Installed Modules is Creator only. Installed Modules also stopped showing raw…",
-        "Tray menu cleaned up: five internal Interface Intelligence proof windows and Runtime Observability were visible to every user and are now Creator only. Fixed corrupted em-dashes in the menu labels."
+        "CPU temperature and package power: root cause was the sensor service lacking administrator permission, not a missing third-party tool. Fixed by elevating the sensor service. Every place that told users to install/configure HWiNFO for this…",
+        "Fixed a bug where that same sensor-readiness advisory text could get frozen from an old scan and keep reappearing on every app relaunch even after the underlying issue was fixed in code - it was being cached to disk and replayed verbatim…",
+        "Fixed the actual cause of \"rescan once it's running\" showing up on a normal first scan: the sensor bridge is a native process that gets spawned at scan time, and the app only gave it a blind 1.8-second head start before checking readiness.…",
+        "System Scan (Settings and first-run): removed the repeated \"Available: Model, Load, Clock...\" listing on every fully-ready sensor card - it added nothing over the green Ready badge and just forced re-reading the same confirmed fields on…",
+        "System Scan (Settings and first-run): consolidated all laptop-specific facts (Manufacturer, Model, Battery) into one dedicated Laptop section instead of splitting them across two separate cards, the same way a desktop would get one…"
     ],
     "required": false
 }
