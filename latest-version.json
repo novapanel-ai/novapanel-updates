@@ -1,12 +1,11 @@
 {
-    "version": "1.1.168",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.168/NovaPanel-v1.1.168.zip",
+    "version": "1.1.169",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.169/NovaPanel-v1.1.169.zip",
     "notes": [
-        "CPU temperature and package power: root cause was the sensor service lacking administrator permission, not a missing third-party tool. Fixed by elevating the sensor service. Every place that told users to install/configure HWiNFO for this…",
-        "Fixed a bug where that same sensor-readiness advisory text could get frozen from an old scan and keep reappearing on every app relaunch even after the underlying issue was fixed in code - it was being cached to disk and replayed verbatim…",
-        "Fixed the actual cause of \"rescan once it's running\" showing up on a normal first scan: the sensor bridge is a native process that gets spawned at scan time, and the app only gave it a blind 1.8-second head start before checking readiness.…",
-        "System Scan (Settings and first-run): removed the repeated \"Available: Model, Load, Clock...\" listing on every fully-ready sensor card - it added nothing over the green Ready badge and just forced re-reading the same confirmed fields on…",
-        "System Scan (Settings and first-run): consolidated all laptop-specific facts (Manufacturer, Model, Battery) into one dedicated Laptop section instead of splitting them across two separate cards, the same way a desktop would get one…"
+        "Fixed a real bug found during CEO hands-on testing of the new sensor service: SensorBridge prints its backend-availability banner exactly once, right after it starts. Under the old direct-spawn model that was fine (fresh spawn every…",
+        "Installer upgrade safety: the service is now stopped before files are copied during an upgrade, not just started after. Previously an upgrade could silently copy a new NovaSensorService.exe while the old version kept running from the…",
+        "Removed a dead-end duplicate: sensor gaps (like the one above) were being shown twice — once correctly on the actual CPU/GPU card, and again as a 'Setup Action' in the Recommended Tools list with no button, since it never had a URL.…",
+        "Fixed 'Needs Setup' being shown for gaps nothing can actually fix — e.g. a GPU that genuinely doesn't expose temperature/clock/power to any sensor interface NovaPanel can read. That's a hardware/driver ceiling, not a setup problem. Now…"
     ],
     "required": false
 }
