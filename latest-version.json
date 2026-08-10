@@ -1,12 +1,10 @@
 {
-    "version": "1.1.191",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.191/NovaPanel-v1.1.191.zip",
+    "version": "1.1.192",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.192/NovaPanel-v1.1.192.zip",
     "notes": [
-        "OG Widget spacing is now driven by a system rather than tuned element by element. Every vertical gap comes from one of four values - between sections, heading to first reading, reading to reading, and the air above a progress bar - applied…",
-        "OG Widget now shows time, day of week and date at the top, driven by the same feed as the readings so it cannot drift away from them.",
-        "OG Widget has its own settings, opened from the gear icon: font (three choices), layout (dense, relaxed or minimal), main and sub colours for section headings and progress bars, and separate switches for the title and the clock. Minimal…",
-        "OG Widget adds a Laptop section showing the machine make and model with its battery, instead of the battery standing alone.",
-        "OG Widget window controls are smaller, thinner and spaced further apart, and the title can now be hidden independently of them."
+        "OG Widget spacing now follows the requested proportions exactly: readings sit close together, a progress bar gets double that space above and below it, and sections are separated by triple. These are written as multiples of a single base…",
+        "OG Widget reading labels are now the same brightness as their values.",
+        "OG Widget values are left aligned and sit closer to their labels. They still line up down the strip, because the label column is a fixed width, but each number now starts at that edge with its unit immediately after instead of floating at…"
     ],
     "required": false
 }
