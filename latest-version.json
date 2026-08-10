@@ -1,8 +1,12 @@
 {
-    "version": "1.1.182",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.182/NovaPanel-v1.1.182.zip",
+    "version": "1.1.183",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.183/NovaPanel-v1.1.183.zip",
     "notes": [
-        "The OG Widget theme card in Settings now carries a proper name and description instead of an empty tile."
+        "Fixed the integrated GPU showing the discrete card temperature, clock and power on every panel. When a reading was requested for a specific device that does not report it, the lookup silently fell back to the first matching sensor from ANY…",
+        "Fixed CPU clock reading 2 MHz on the OG Widget. CPU clock is supplied in GHz while GPU clock is supplied in MHz; the widget formatted both the same way, rounding 2.3GHz to 2 and labelling it MHz.",
+        "The OG Widget is now a panel rather than a theme - it appears on the Panels tab instead of the Themes list, since it is its own instrument and does not restyle the Hardware Panel.",
+        "The OG Widget can now be resized by dragging, and opens at a widget-sized 260x560 instead of the 1024x768 full-panel default.",
+        "OG Widget layout: rows are left-aligned with a fixed label column instead of spreading the value to the far edge, progress bars are hidden, and each hardware model name now sits under its group name rather than stretched across the width."
     ],
     "required": false
 }
