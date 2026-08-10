@@ -1,9 +1,8 @@
 {
-    "version": "1.1.181",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.181/NovaPanel-v1.1.181.zip",
+    "version": "1.1.182",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.182/NovaPanel-v1.1.182.zip",
     "notes": [
-        "New panel theme: OG Widget. A return to the original widget shape - a narrow vertical strip that simply lists the live sensors grouped by hardware, with a label on the left and a value on the right, no gauges or meters. Percent readings…",
-        "The OG Widget only ever shows readings the hardware genuinely reports. Every row is driven by the same availability signal System Scan uses, so a sensor the machine does not emit is not rendered at all - it does not appear blank, greyed…"
+        "The OG Widget theme card in Settings now carries a proper name and description instead of an empty tile."
     ],
     "required": false
 }
