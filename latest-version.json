@@ -1,12 +1,9 @@
 {
-    "version": "1.1.184",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.184/NovaPanel-v1.1.184.zip",
+    "version": "1.1.185",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.185/NovaPanel-v1.1.185.zip",
     "notes": [
-        "Fixed the OG Widget not appearing on the Panels tab. The code that adds it ran before the settings file was loaded, so it failed immediately and the error went to a log nobody reads. It now runs after the config is available.",
-        "Fixed the Add Panel button appearing to do nothing. Two faults: the eight-panel limit counted theme entries, which are created automatically the first time each theme is opened and are not even listed on the Panels tab - four of the eight…",
-        "Removed the Proof Gates dashboard from the Testing tab. It was internal development scaffolding for the Interface Intelligence phase work, shown to every user, with nothing a customer could act on.",
-        "Removed Runtime Observability from the system tray menu, along with its keyboard shortcut. It was an internal dev tool and it was broken - opening it reported an error with every section blank.",
-        "Removed three further keyboard shortcuts that opened internal proof windows from the same Interface Intelligence family, including the one documented as the secondary way into the Proof Gates dashboard removed above."
+        "Text across Settings and the Panel Editor is readable again. Nothing had changed about the type sizes - a change on 24 July shrank both windows to 70 percent at the display level, so text written at 16 pixels was reaching the screen at…",
+        "Removed NovaPanelLauncher.exe, a 65 MB program that was still being installed on every machine but is no longer called from anywhere in the app. It handled shutting down helper processes when the app exited, which the sensor service now…"
     ],
     "required": false
 }
