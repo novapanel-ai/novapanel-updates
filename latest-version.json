@@ -1,9 +1,8 @@
 {
-    "version": "1.1.174",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.174/NovaPanel-v1.1.174.zip",
+    "version": "1.1.175",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.175/NovaPanel-v1.1.175.zip",
     "notes": [
-        "Fixed System Scan reporting CPU Temperature as missing when it was working. The scan judged which sensors exist from a single line of output from a short-lived helper it starts itself - which runs without administrator rights and so only…",
-        "Stopped System Scan telling you to report a bug for readings your hardware simply doesn't expose. When the sensor service is connected, a missing reading is not a permission problem - permission is the one thing the service guarantees - so…"
+        "Fixed System Scan still reporting sensors as missing while the panel displayed them. The 1.1.174 fix read telemetry too early in the pipeline - it captured each reading batch as it arrived, before the step that adds CPU package power…"
     ],
     "required": false
 }
