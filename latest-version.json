@@ -1,11 +1,8 @@
 {
-    "version": "1.1.186",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.186/NovaPanel-v1.1.186.zip",
+    "version": "1.1.187",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.187/NovaPanel-v1.1.187.zip",
     "notes": [
-        "Settings and the Panel Editor open at a smaller size again. The previous release fixed the text being too small but also restored the original larger window, which was not wanted - text size and window size are separate, so the text stays…",
-        "OG Widget is now genuinely narrow, opening at the size it was sized to by hand (205 by 600). The panel size limit that applies to full panels was preventing anything under 320 wide, so a declared widget size was being silently widened.",
-        "OG Widget window controls now appear only when the mouse is over it, so at rest the strip shows sensors and nothing else. A fourth button was added to open the Control Panel directly from the widget - there was previously no way back to it…",
-        "OG Widget now uses the Control Panel palette rather than its own separate colours, so it follows the app theme instead of drifting from it. Spacing tightened throughout, progress bars restored on percentage readings, and long hardware…"
+        "OG Widget density pass. Padding was what the strip was spending its space on, not text size - so horizontal padding came down from 8 to 5 pixels, the vertical gaps between and inside groups went to one or two pixels, and line spacing was…"
     ],
     "required": false
 }
