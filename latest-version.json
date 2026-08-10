@@ -1,11 +1,11 @@
 {
-    "version": "1.1.193",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.193/NovaPanel-v1.1.193.zip",
+    "version": "1.1.194",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.194/NovaPanel-v1.1.194.zip",
     "notes": [
-        "Fixed panel position never being remembered. The code that saves a panel position referred to a variable that does not exist anywhere in the file, so it failed every single time a panel was moved - and because that failure was caught and…",
-        "Fixed the panel window buttons vanishing before you could click them. They appeared while the pointer was over the readings and disappeared the moment it moved up to the title bar, which is where the buttons are. The title bar is a…",
-        "The OG Widget now measures its own content and grows to fit it, instead of opening at a height calculated in advance. The previous two heights were both worked out from the stylesheet rather than observed, and both were short, which is why…",
-        "OG Widget now reads Sigil rather than a truncated NovaPanel."
+        "Fixed the app forgetting which panels were open and always reopening the Hardware Panel instead. Only the first eight panels in the settings file survived being loaded, and everything past that was discarded without warning. Seven of those…",
+        "OG Widget now re-measures and resizes itself when the layout is changed, so dense, relaxed and minimal each fit their content exactly instead of inheriting the previous height. A brief loader covers the change so the panel is not seen…",
+        "OG Widget left and right padding doubled.",
+        "OG Widget labels now use exactly the same colour as their values and are separated by opacity alone, at 80 percent, so they track the value colour under any theme instead of being a separate shade."
     ],
     "required": false
 }
