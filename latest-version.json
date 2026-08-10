@@ -1,8 +1,8 @@
 {
-    "version": "1.1.178",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.178/NovaPanel-v1.1.178.zip",
+    "version": "1.1.179",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.179/NovaPanel-v1.1.179.zip",
     "notes": [
-        "Fixed System Scan labelling working hardware as unavailable. Each card carries one badge summarising the whole component, but it was being decided by a single missing reading - so a fully working RTX 4090 reporting model, temperature…"
+        "Fixed System Scan reporting CPU Package power as missing while the panel displayed it. The cause was a sampling problem, not a wrong data source: readings arrive at different rates on the same connection - the main sensor batch about once…"
     ],
     "required": false
 }
