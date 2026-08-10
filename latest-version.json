@@ -1,8 +1,9 @@
 {
-    "version": "1.1.179",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.179/NovaPanel-v1.1.179.zip",
+    "version": "1.1.180",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.180/NovaPanel-v1.1.180.zip",
     "notes": [
-        "Fixed System Scan reporting CPU Package power as missing while the panel displayed it. The cause was a sampling problem, not a wrong data source: readings arrive at different rates on the same connection - the main sensor batch about once…"
+        "Fixed the CPU card in System Scan rendering its Sensors block outside the card, stranded underneath it, while every other card kept it neatly inside. The sensor list had been placed just past the CPU card closing tag during an earlier…",
+        "Rewrote the discrete GPU voltage explanation, which said only that vendor or direct telemetry could unlock it - accurate but useless, since it named no tool and gave no way to act on or dismiss it. It now states plainly that voltage is…"
     ],
     "required": false
 }
