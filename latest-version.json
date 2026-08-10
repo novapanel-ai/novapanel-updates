@@ -1,9 +1,8 @@
 {
-    "version": "1.1.177",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.177/NovaPanel-v1.1.177.zip",
+    "version": "1.1.178",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.178/NovaPanel-v1.1.178.zip",
     "notes": [
-        "Fixed CPU Package power being reported as missing by System Scan while the panel displayed it. CPU power does not travel inside the main reading batch - it is supplied separately by NovaPowerBridge and attached to the frame afterwards. The…",
-        "Fixed the Settings Sensor Service row showing a permanent dash. It was reading connection state out of the last scan result, which only carries it once a scan has run in the current session - so on a cold launch, or straight after the…"
+        "Fixed System Scan labelling working hardware as unavailable. Each card carries one badge summarising the whole component, but it was being decided by a single missing reading - so a fully working RTX 4090 reporting model, temperature…"
     ],
     "required": false
 }
