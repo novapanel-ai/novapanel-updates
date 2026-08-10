@@ -1,12 +1,10 @@
 {
-    "version": "1.1.189",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.189/NovaPanel-v1.1.189.zip",
+    "version": "1.1.190",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.190/NovaPanel-v1.1.190.zip",
     "notes": [
-        "Panels now reopen where and how you left them. The app recorded which panels were open but never acted on it at startup, and panel size was never saved at all - saving position only was correct while every panel was a fixed size, but not…",
-        "Control Panel and Panel Editor are properly smaller now. The previous two attempts stopped short because of a claimed minimum width that was never actually measured; measuring it showed the layout reflows cleanly far below where I had…",
-        "OG Widget values now line up in a single column. The progress bar used to sit inside the row and push the percentage to the far edge, so one row in each group broke the alignment; bars now sit above their row at full width, which also…",
-        "OG Widget hides meaningless part numbers in hardware names, so a memory module reading \"Samsung K3KL9L90CM-MGCT 8x4GB 7467MHz\" now shows as \"Samsung 8x4GB 7467MHz\", and a drive reading \"NVMe SAMSUNG MZVL22T0HDLB-00BT7\" shows as \"NVMe…",
-        "OG Widget opens tall enough to show every reading without a scrollbar, and stays resizable."
+        "OG Widget spacing rebalanced: more room vertically, less horizontally. Rows had been squeezed almost to touching, so row height and line spacing come back up and the gaps around each hardware heading return. The horizontal slack was coming…",
+        "OG Widget labels are now slightly dimmer than the values so the readings lead, without the labels dropping to grey.",
+        "OG Widget default height raised to fit the taller rows, so it still opens without a scrollbar."
     ],
     "required": false
 }
