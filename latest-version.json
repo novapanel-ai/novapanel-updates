@@ -1,10 +1,12 @@
 {
-    "version": "1.1.171",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.171/NovaPanel-v1.1.171.zip",
+    "version": "1.1.173",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.173/NovaPanel-v1.1.173.zip",
     "notes": [
-        "Fixed the per-user installer still offering an 'install for all users' option that self-elevated and landed back in Program Files. Root cause wasn't the elevation macro fixed in 1.1.169/1.1.170 - electron-builder's installer has its own…",
-        "Fixed a real bug found during the sensor service's first genuine end-to-end install/run: readiness still reported 'sensor service has not reported yet' even though real telemetry (CPU temp, GPU data, everything) was flowing correctly the…",
-        "Removed 5 leftover tester-only \"Phase 1-5\" Interface Intelligence proof window links from the tray/taskbar menu. The underlying proof windows are untouched - only their tray reachability was removed."
+        "Fixed a real defect introduced with the new sensor service: telemetry could start twice. Making startMod3() async (to try the service pipe first) silently defeated its 'already running' guard, because the guard checks a value that is now…",
+        "System Scan no longer tells you to report a bug when the sensor service simply reconnects. A dropped pipe left the recorded state as 'connected', so the scan took its service-is-running branch and said the missing reading 'shouldn't…",
+        "Fixed corrupted characters throughout the app. Text that should read '—' was displaying as 'â€”' in about 600 places, including game titles used for session detection: '3DMark — Time Spy' and '3DMark — System Info' could never be matched…",
+        "Sensor service hardening (Windows service): fixed three faults that only appear under real conditions. Broadcast writes from its three independent producer threads were not serialised, so two lines could interleave into one corrupt line on…",
+        "Fixed sensor path resolution crashing outside the app runtime, which took out several test suites and would have affected any non-Electron tooling."
     ],
     "required": false
 }
