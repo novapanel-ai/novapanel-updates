@@ -1,8 +1,11 @@
 {
-    "version": "1.1.187",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.187/NovaPanel-v1.1.187.zip",
+    "version": "1.1.188",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.188/NovaPanel-v1.1.188.zip",
     "notes": [
-        "OG Widget density pass. Padding was what the strip was spending its space on, not text size - so horizontal padding came down from 8 to 5 pixels, the vertical gaps between and inside groups went to one or two pixels, and line spacing was…"
+        "OG Widget text is back to its previous size - the last release enlarged it, which was not asked for. The tightening stays, so the strip is now around 50 pixels shorter than before at the same text size rather than the same height with…",
+        "OG Widget reading text is brighter and easier to scan. Every level of text moved up one step on the app palette, with labels in particular coming off the dimmest grey, which was too faint at this size.",
+        "OG Widget no longer bolds every value. Bold is now reserved for titles, so the group headings actually stand out instead of competing with the numbers.",
+        "Removed the dividing lines between OG Widget sections. The group heading already marks where each section starts, so the rule was saying the same thing twice; a small gap separates them instead."
     ],
     "required": false
 }
