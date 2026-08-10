@@ -1,11 +1,10 @@
 {
-    "version": "1.1.195",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.195/NovaPanel-v1.1.195.zip",
+    "version": "1.1.196",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.196/NovaPanel-v1.1.196.zip",
     "notes": [
-        "Fixed OG Widget settings being forgotten every time the app restarted. They were being kept in browser storage belonging to the panel window, and a panel is loaded as a local file, which the browser engine does not treat as permanent…",
-        "OG Widget settings have moved into the Control Panel, under Appearance: font, layout, section heading and progress bar colours, show title, show clock, and 24-hour time. Changes apply to the open widget immediately as you make them. The…",
-        "The clock now shows AM and PM by default, with 24-hour time available as a setting.",
-        "OG Widget readings sit closer together - the base spacing dropped from 3 to 2 pixels. Because bar and section spacing are multiples of that base, they tightened in proportion automatically and the intended two-to-one and three-to-one…"
+        "OG Widget supporting text now shares one treatment: the hardware model name, the reading label and the unit all sit at the same opacity, with the reading itself left at full strength so it clearly leads. Previously these were three…",
+        "OG Widget layouts now change what is shown, not just the spacing. Dense shows everything the machine reports. Relaxed shows at most two readings per section and drops the integrated GPU, network and memory sections. Minimal shows a single…",
+        "The OG Widget resizes itself to fit whichever layout is selected, so switching between them does not leave a scrollbar or empty space."
     ],
     "required": false
 }
