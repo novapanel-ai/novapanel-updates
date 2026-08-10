@@ -1,8 +1,10 @@
 {
-    "version": "1.1.170",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.170/NovaPanel-v1.1.170.zip",
+    "version": "1.1.171",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.171/NovaPanel-v1.1.171.zip",
     "notes": [
-        "Fixed the first-run System Scan window requiring a scroll to see its own content, sometimes showing more than one state's text stacked at once (e.g. idle's body copy above the scanning spinner). Root cause: #state-idle, #state-scanning and…"
+        "Fixed the per-user installer still offering an 'install for all users' option that self-elevated and landed back in Program Files. Root cause wasn't the elevation macro fixed in 1.1.169/1.1.170 - electron-builder's installer has its own…",
+        "Fixed a real bug found during the sensor service's first genuine end-to-end install/run: readiness still reported 'sensor service has not reported yet' even though real telemetry (CPU temp, GPU data, everything) was flowing correctly the…",
+        "Removed 5 leftover tester-only \"Phase 1-5\" Interface Intelligence proof window links from the tray/taskbar menu. The underlying proof windows are untouched - only their tray reachability was removed."
     ],
     "required": false
 }
