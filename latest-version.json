@@ -1,12 +1,9 @@
 {
-    "version": "1.1.173",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.173/NovaPanel-v1.1.173.zip",
+    "version": "1.1.174",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.174/NovaPanel-v1.1.174.zip",
     "notes": [
-        "Fixed a real defect introduced with the new sensor service: telemetry could start twice. Making startMod3() async (to try the service pipe first) silently defeated its 'already running' guard, because the guard checks a value that is now…",
-        "System Scan no longer tells you to report a bug when the sensor service simply reconnects. A dropped pipe left the recorded state as 'connected', so the scan took its service-is-running branch and said the missing reading 'shouldn't…",
-        "Fixed corrupted characters throughout the app. Text that should read '—' was displaying as 'â€”' in about 600 places, including game titles used for session detection: '3DMark — Time Spy' and '3DMark — System Info' could never be matched…",
-        "Sensor service hardening (Windows service): fixed three faults that only appear under real conditions. Broadcast writes from its three independent producer threads were not serialised, so two lines could interleave into one corrupt line on…",
-        "Fixed sensor path resolution crashing outside the app runtime, which took out several test suites and would have affected any non-Electron tooling."
+        "Fixed System Scan reporting CPU Temperature as missing when it was working. The scan judged which sensors exist from a single line of output from a short-lived helper it starts itself - which runs without administrator rights and so only…",
+        "Stopped System Scan telling you to report a bug for readings your hardware simply doesn't expose. When the sensor service is connected, a missing reading is not a permission problem - permission is the one thing the service guarantees - so…"
     ],
     "required": false
 }
