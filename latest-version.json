@@ -1,10 +1,10 @@
 {
-    "version": "1.1.196",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.196/NovaPanel-v1.1.196.zip",
+    "version": "1.1.197",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.197/NovaPanel-v1.1.197.zip",
     "notes": [
-        "OG Widget supporting text now shares one treatment: the hardware model name, the reading label and the unit all sit at the same opacity, with the reading itself left at full strength so it clearly leads. Previously these were three…",
-        "OG Widget layouts now change what is shown, not just the spacing. Dense shows everything the machine reports. Relaxed shows at most two readings per section and drops the integrated GPU, network and memory sections. Minimal shows a single…",
-        "The OG Widget resizes itself to fit whichever layout is selected, so switching between them does not leave a scrollbar or empty space."
+        "Fixed the app reopening the panel you closed and not reopening the one you left open. Restoring panels was destroying the very record it was reading from: opening the first panel makes the app re-check which windows are currently on screen…",
+        "Fixed multiple open panels collapsing to one on restart. The single-panel rule was being applied once per panel while restoring, so each panel being opened hid the one before it. It is now applied once, after the whole set is restored.",
+        "The OG Widget now sizes itself to its content in both directions on open, not just when it is too small. It previously only ever grew, so a window that opened taller than its readings simply stayed that way."
     ],
     "required": false
 }
