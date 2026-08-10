@@ -1,12 +1,12 @@
 {
-    "version": "1.1.183",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.183/NovaPanel-v1.1.183.zip",
+    "version": "1.1.184",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.184/NovaPanel-v1.1.184.zip",
     "notes": [
-        "Fixed the integrated GPU showing the discrete card temperature, clock and power on every panel. When a reading was requested for a specific device that does not report it, the lookup silently fell back to the first matching sensor from ANY…",
-        "Fixed CPU clock reading 2 MHz on the OG Widget. CPU clock is supplied in GHz while GPU clock is supplied in MHz; the widget formatted both the same way, rounding 2.3GHz to 2 and labelling it MHz.",
-        "The OG Widget is now a panel rather than a theme - it appears on the Panels tab instead of the Themes list, since it is its own instrument and does not restyle the Hardware Panel.",
-        "The OG Widget can now be resized by dragging, and opens at a widget-sized 260x560 instead of the 1024x768 full-panel default.",
-        "OG Widget layout: rows are left-aligned with a fixed label column instead of spreading the value to the far edge, progress bars are hidden, and each hardware model name now sits under its group name rather than stretched across the width."
+        "Fixed the OG Widget not appearing on the Panels tab. The code that adds it ran before the settings file was loaded, so it failed immediately and the error went to a log nobody reads. It now runs after the config is available.",
+        "Fixed the Add Panel button appearing to do nothing. Two faults: the eight-panel limit counted theme entries, which are created automatically the first time each theme is opened and are not even listed on the Panels tab - four of the eight…",
+        "Removed the Proof Gates dashboard from the Testing tab. It was internal development scaffolding for the Interface Intelligence phase work, shown to every user, with nothing a customer could act on.",
+        "Removed Runtime Observability from the system tray menu, along with its keyboard shortcut. It was an internal dev tool and it was broken - opening it reported an error with every section blank.",
+        "Removed three further keyboard shortcuts that opened internal proof windows from the same Interface Intelligence family, including the one documented as the secondary way into the Proof Gates dashboard removed above."
     ],
     "required": false
 }
