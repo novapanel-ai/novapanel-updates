@@ -1,9 +1,9 @@
 {
-    "version": "1.1.180",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.180/NovaPanel-v1.1.180.zip",
+    "version": "1.1.181",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.181/NovaPanel-v1.1.181.zip",
     "notes": [
-        "Fixed the CPU card in System Scan rendering its Sensors block outside the card, stranded underneath it, while every other card kept it neatly inside. The sensor list had been placed just past the CPU card closing tag during an earlier…",
-        "Rewrote the discrete GPU voltage explanation, which said only that vendor or direct telemetry could unlock it - accurate but useless, since it named no tool and gave no way to act on or dismiss it. It now states plainly that voltage is…"
+        "New panel theme: OG Widget. A return to the original widget shape - a narrow vertical strip that simply lists the live sensors grouped by hardware, with a label on the left and a value on the right, no gauges or meters. Percent readings…",
+        "The OG Widget only ever shows readings the hardware genuinely reports. Every row is driven by the same availability signal System Scan uses, so a sensor the machine does not emit is not rendered at all - it does not appear blank, greyed…"
     ],
     "required": false
 }
