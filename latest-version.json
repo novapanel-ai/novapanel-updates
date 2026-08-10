@@ -1,8 +1,9 @@
 {
-    "version": "1.1.176",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.176/NovaPanel-v1.1.176.zip",
+    "version": "1.1.177",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.177/NovaPanel-v1.1.177.zip",
     "notes": [
-        "Fixed System Scan reporting sensors as missing that the panel was displaying. Three separate faults were involved and all three are fixed. First and most important: the scan waited for the sensor service to say hello, not for an actual…"
+        "Fixed CPU Package power being reported as missing by System Scan while the panel displayed it. CPU power does not travel inside the main reading batch - it is supplied separately by NovaPowerBridge and attached to the frame afterwards. The…",
+        "Fixed the Settings Sensor Service row showing a permanent dash. It was reading connection state out of the last scan result, which only carries it once a scan has run in the current session - so on a cold launch, or straight after the…"
     ],
     "required": false
 }
