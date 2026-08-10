@@ -1,8 +1,8 @@
 {
-    "version": "1.1.175",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.175/NovaPanel-v1.1.175.zip",
+    "version": "1.1.176",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.176/NovaPanel-v1.1.176.zip",
     "notes": [
-        "Fixed System Scan still reporting sensors as missing while the panel displayed them. The 1.1.174 fix read telemetry too early in the pipeline - it captured each reading batch as it arrived, before the step that adds CPU package power…"
+        "Fixed System Scan reporting sensors as missing that the panel was displaying. Three separate faults were involved and all three are fixed. First and most important: the scan waited for the sensor service to say hello, not for an actual…"
     ],
     "required": false
 }
