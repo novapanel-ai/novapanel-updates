@@ -1,11 +1,10 @@
 {
-    "version": "1.1.209",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.209/NovaPanel-v1.1.209.zip",
+    "version": "1.1.210",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.210/NovaPanel-v1.1.210.zip",
     "notes": [
-        "Panel Settings now uses the real design system controls. The previous version used class names that are written throughout the app but are not actually styled anywhere, so every row rendered as raw unformatted text with its description…",
-        "Fixed the settings button on a panel doing nothing. Panels were never told which panel they are, so the button had no id to open. Each panel window now carries its own id, which is what the previous release assumed was already there.",
-        "Renaming a panel now reports failure instead of silently reverting, and refreshes the window when it succeeds.",
-        "The Panel Settings window sizes itself to its content rather than opening at a fixed height with empty space below the last setting."
+        "Panel Settings lays its controls out across the available width instead of one per row. The controls are only around 170 to 220 pixels wide, so a single stacked column left most of every row empty and pushed the window far taller than it…",
+        "The reset button no longer carries a text label beside it, which repeated the same word twice. It sits on its own full-width row, aligned right, using the standard button treatment.",
+        "Removed the panel Name field. Renaming is not supported for these panels, so the field was an input that could not do anything."
     ],
     "required": false
 }
