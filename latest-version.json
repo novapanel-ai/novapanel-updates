@@ -1,8 +1,8 @@
 {
-    "version": "1.1.202",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.202/NovaPanel-v1.1.202.zip",
+    "version": "1.1.203",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.203/NovaPanel-v1.1.203.zip",
     "notes": [
-        "Fixed the Hardware Panel reopening after being closed. Startup was opening it every single time, unconditionally - a rule written before panels remembered anything, when opening the main panel on launch was simply what the app did. Once…"
+        "The Hardware Panel now stays closed when you close it, even if you leave nothing else open. The previous release only skipped the automatic startup open when some other panel had been left open, so closing everything looked the same to the…"
     ],
     "required": false
 }
