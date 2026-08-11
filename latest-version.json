@@ -1,10 +1,10 @@
 {
-    "version": "1.1.210",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.210/NovaPanel-v1.1.210.zip",
+    "version": "1.1.211",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.211/NovaPanel-v1.1.211.zip",
     "notes": [
-        "Panel Settings lays its controls out across the available width instead of one per row. The controls are only around 170 to 220 pixels wide, so a single stacked column left most of every row empty and pushed the window far taller than it…",
-        "The reset button no longer carries a text label beside it, which repeated the same word twice. It sits on its own full-width row, aligned right, using the standard button treatment.",
-        "Removed the panel Name field. Renaming is not supported for these panels, so the field was an input that could not do anything."
+        "OLED protection now actually works, and has a control in Panel Settings. It was not working before: the setting has been saved and restored for many versions, and the app still carried the code to receive a screen-shift instruction, but…",
+        "Colour settings now show the colour in use. The swatches always displayed black, because a colour control accepts only a full six-digit hex value and these settings are unset by default, meaning follow the theme. They now show the theme…",
+        "Removed Size units from the OG Widget. It is a full-screen panel concept and does not apply to a resizable widget; the panels it does apply to still have it."
     ],
     "required": false
 }
