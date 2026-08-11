@@ -1,10 +1,11 @@
 {
-    "version": "1.1.208",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.208/NovaPanel-v1.1.208.zip",
+    "version": "1.1.209",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.209/NovaPanel-v1.1.209.zip",
     "notes": [
-        "Fixed the settings button on a panel opening the wrong panel's settings. It had the Foundation Panel written into it directly, so every panel opened those settings regardless of which panel you pressed it on. It now opens the settings for…",
-        "The Panel Settings window header now reads Panel Settings rather than the name of the panel. The panel name belongs in the Name field, not the window title.",
-        "Settings are no longer split into several bracketed cards. The design system section is a framed card with a large heading, correct for a full content block but out of proportion around a group of one or two rows. The settings now sit in a…"
+        "Panel Settings now uses the real design system controls. The previous version used class names that are written throughout the app but are not actually styled anywhere, so every row rendered as raw unformatted text with its description…",
+        "Fixed the settings button on a panel doing nothing. Panels were never told which panel they are, so the button had no id to open. Each panel window now carries its own id, which is what the previous release assumed was already there.",
+        "Renaming a panel now reports failure instead of silently reverting, and refreshes the window when it succeeds.",
+        "The Panel Settings window sizes itself to its content rather than opening at a fixed height with empty space below the last setting."
     ],
     "required": false
 }
