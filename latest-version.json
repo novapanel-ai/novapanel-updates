@@ -1,11 +1,10 @@
 {
-    "version": "1.1.207",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.207/NovaPanel-v1.1.207.zip",
+    "version": "1.1.208",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.208/NovaPanel-v1.1.208.zip",
     "notes": [
-        "Panel Settings now uses the same controls as the Control Panel. The previous version re-implemented its own inputs, dropdowns, switches and buttons instead of using the ones the design system already provides, so it looked nothing like the…",
-        "Font, colour and content-amount choices are visible again. They had been marked as requiring a paid plan - an assumption that was never a product decision - which hid the very settings that were asked for. Nothing is plan-gated now.",
-        "Removed the theme picker from Panel Settings. It does not belong on this surface.",
-        "The panel name shown is the one from the panel list rather than a separate copy kept by the settings window."
+        "Fixed the settings button on a panel opening the wrong panel's settings. It had the Foundation Panel written into it directly, so every panel opened those settings regardless of which panel you pressed it on. It now opens the settings for…",
+        "The Panel Settings window header now reads Panel Settings rather than the name of the panel. The panel name belongs in the Name field, not the window title.",
+        "Settings are no longer split into several bracketed cards. The design system section is a framed card with a large heading, correct for a full content block but out of proportion around a group of one or two rows. The settings now sit in a…"
     ],
     "required": false
 }
