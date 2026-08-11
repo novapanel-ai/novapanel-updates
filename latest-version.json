@@ -1,10 +1,11 @@
 {
-    "version": "1.1.205",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.205/NovaPanel-v1.1.205.zip",
+    "version": "1.1.206",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.206/NovaPanel-v1.1.206.zip",
     "notes": [
-        "New Panel Settings tab in the Control Panel, holding the OG Widget options: font, layout, section heading and progress bar colours, title, clock and 24-hour time. Panels get their own settings home rather than a section inside Appearance…",
-        "Dragging windows is smoother. Drags are handled in the main process, so any work happening there shows up directly as stutter. Two sources removed: telemetry frames were being scanned event by event several times a second to feed a rolling…",
-        "Startup no longer waits on a fixed timer. The pause before panels are restored existed to let tray, menu and telemetry wiring finish first; it was a guess - 1.2 seconds, then 0.35 - padded around work nobody had measured. Panels now…"
+        "Panel Settings rebuilt. The old surface had nine tabs and around 120 controls, most of which did not apply to whatever panel you had open. The new one is a single short list showing only what that panel actually offers. No capability was…",
+        "One settings system instead of one per panel. Every setting is defined exactly once, and a panel declares which of them it shows rather than shipping its own copy. Adding a panel or theme is now a single list of setting names, not new code.",
+        "Settings withheld by your plan are shown rather than hidden, labelled with the plan that unlocks them. The panel genuinely has the capability; the plan is what gates it, and an absence you cannot interpret reads as though the panel cannot…",
+        "Fixed the OG Widget keeping a second, separate copy of the dense/relaxed/minimal setting that every other panel already shared. Changing it in one place had no effect on the other. There is now one setting, and existing OG preferences are…"
     ],
     "required": false
 }
