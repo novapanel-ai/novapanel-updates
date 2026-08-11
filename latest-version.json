@@ -1,11 +1,11 @@
 {
-    "version": "1.1.206",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.206/NovaPanel-v1.1.206.zip",
+    "version": "1.1.207",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.207/NovaPanel-v1.1.207.zip",
     "notes": [
-        "Panel Settings rebuilt. The old surface had nine tabs and around 120 controls, most of which did not apply to whatever panel you had open. The new one is a single short list showing only what that panel actually offers. No capability was…",
-        "One settings system instead of one per panel. Every setting is defined exactly once, and a panel declares which of them it shows rather than shipping its own copy. Adding a panel or theme is now a single list of setting names, not new code.",
-        "Settings withheld by your plan are shown rather than hidden, labelled with the plan that unlocks them. The panel genuinely has the capability; the plan is what gates it, and an absence you cannot interpret reads as though the panel cannot…",
-        "Fixed the OG Widget keeping a second, separate copy of the dense/relaxed/minimal setting that every other panel already shared. Changing it in one place had no effect on the other. There is now one setting, and existing OG preferences are…"
+        "Panel Settings now uses the same controls as the Control Panel. The previous version re-implemented its own inputs, dropdowns, switches and buttons instead of using the ones the design system already provides, so it looked nothing like the…",
+        "Font, colour and content-amount choices are visible again. They had been marked as requiring a paid plan - an assumption that was never a product decision - which hid the very settings that were asked for. Nothing is plan-gated now.",
+        "Removed the theme picker from Panel Settings. It does not belong on this surface.",
+        "The panel name shown is the one from the panel list rather than a separate copy kept by the settings window."
     ],
     "required": false
 }
