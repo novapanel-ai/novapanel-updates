@@ -1,9 +1,10 @@
 {
-    "version": "1.1.212",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.212/NovaPanel-v1.1.212.zip",
+    "version": "1.1.213",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.213/NovaPanel-v1.1.213.zip",
     "notes": [
-        "Font choices are now the three faces the design system defines - Kanit for body, Offside for display, Space Mono for monospace - rather than generic system fonts. Both the picker and the panel read the design system directly, so changing…",
-        "Removed the duplicate panel settings section from the Control Panel. The same settings existed both there and in the Panel Settings window, and the two copies had already drifted apart - the Control Panel copy still offered font options…"
+        "Panel Settings controls now line up. Fields were packed across the row without accounting for them being different heights, so a setting with a two-line description pushed its control well below the one beside it and nothing shared a…",
+        "Removed the band of empty space above the reset button. The button was taking a full row inside the settings card, leaving up to three empty cells beside the last setting. It now sits below the card, aligned right.",
+        "The window no longer opens oversized and then visibly shrink. It measured itself in the same frame it built the layout, before the browser had positioned anything and before fonts had loaded, so the size it asked for described a page that…"
     ],
     "required": false
 }
