@@ -1,8 +1,9 @@
 {
-    "version": "1.1.199",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.199/NovaPanel-v1.1.199.zip",
+    "version": "1.1.200",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.200/NovaPanel-v1.1.200.zip",
     "notes": [
-        "Fixed the OG Widget opening too short for its readings after a restart. The panel measured itself once, about a second after opening, and never again - but sensors do not all report at the same moment, so on a restored window it sized…"
+        "Fixed the app still not remembering open panels. The guard added last release checked a flag that was only being switched on part-way through shutdown - after the panel windows had already closed and already overwritten the record with…",
+        "Fixed the OG Widget briefly collapsing to a sliver. It measured its content while readings were still arriving, sized itself to a half-empty list, then sprang back. It now shows a loader and keeps whatever height it opened at until the…"
     ],
     "required": false
 }
