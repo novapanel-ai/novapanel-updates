@@ -1,10 +1,8 @@
 {
-    "version": "1.1.201",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.201/NovaPanel-v1.1.201.zip",
+    "version": "1.1.202",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.202/NovaPanel-v1.1.202.zip",
     "notes": [
-        "Fixed the OG Widget settings appearing to be missing from the Control Panel. They were present, but the section deleted itself from the page whenever it could not reach the panel settings service, so any failure to connect looked identical…",
-        "The OG Widget now fades its readings in and eases its height change instead of snapping, so it no longer jumps when it finishes loading.",
-        "Added diagnostics that record what opens the Hardware Panel. It is still opening after being closed, and the cause has not been identified yet - this records the exact origin so the next launch identifies it rather than another guess."
+        "Fixed the Hardware Panel reopening after being closed. Startup was opening it every single time, unconditionally - a rule written before panels remembered anything, when opening the main panel on launch was simply what the app did. Once…"
     ],
     "required": false
 }
