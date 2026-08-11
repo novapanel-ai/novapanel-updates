@@ -1,10 +1,9 @@
 {
-    "version": "1.1.211",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.211/NovaPanel-v1.1.211.zip",
+    "version": "1.1.212",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.212/NovaPanel-v1.1.212.zip",
     "notes": [
-        "OLED protection now actually works, and has a control in Panel Settings. It was not working before: the setting has been saved and restored for many versions, and the app still carried the code to receive a screen-shift instruction, but…",
-        "Colour settings now show the colour in use. The swatches always displayed black, because a colour control accepts only a full six-digit hex value and these settings are unset by default, meaning follow the theme. They now show the theme…",
-        "Removed Size units from the OG Widget. It is a full-screen panel concept and does not apply to a resizable widget; the panels it does apply to still have it."
+        "Font choices are now the three faces the design system defines - Kanit for body, Offside for display, Space Mono for monospace - rather than generic system fonts. Both the picker and the panel read the design system directly, so changing…",
+        "Removed the duplicate panel settings section from the Control Panel. The same settings existed both there and in the Panel Settings window, and the two copies had already drifted apart - the Control Panel copy still offered font options…"
     ],
     "required": false
 }
