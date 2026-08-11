@@ -1,10 +1,10 @@
 {
-    "version": "1.1.213",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.213/NovaPanel-v1.1.213.zip",
+    "version": "1.1.214",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.214/NovaPanel-v1.1.214.zip",
     "notes": [
-        "Panel Settings controls now line up. Fields were packed across the row without accounting for them being different heights, so a setting with a two-line description pushed its control well below the one beside it and nothing shared a…",
-        "Removed the band of empty space above the reset button. The button was taking a full row inside the settings card, leaving up to three empty cells beside the last setting. It now sits below the card, aligned right.",
-        "The window no longer opens oversized and then visibly shrink. It measured itself in the same frame it built the layout, before the browser had positioned anything and before fonts had loaded, so the size it asked for described a page that…"
+        "The monitor setting is a display arrangement map again, not a dropdown. Your screens are drawn to scale in their real positions, numbered the way Windows numbers them, so choosing one is the same gesture as choosing one in Windows display…",
+        "NovaPanel now detects OLED displays and switches burn-in protection on for you the first time it finds one, then tells you which display it found. Windows exposes no panel-type field, so this reads the display name reported by the monitor…",
+        "OLED displays are marked on the arrangement map, so you can see which of your screens the protection applies to."
     ],
     "required": false
 }
