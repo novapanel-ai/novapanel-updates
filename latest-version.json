@@ -1,8 +1,10 @@
 {
-    "version": "1.1.203",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.203/NovaPanel-v1.1.203.zip",
+    "version": "1.1.204",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.204/NovaPanel-v1.1.204.zip",
     "notes": [
-        "The Hardware Panel now stays closed when you close it, even if you leave nothing else open. The previous release only skipped the automatic startup open when some other panel had been left open, so closing everything looked the same to the…"
+        "The Control Panel now reopens where you left it, like any other window: whether it was open, which tab you were on, and its size and position. Its size and position were already remembered, but whether it was open was not - so it could…",
+        "Reduced startup and restart delays. Waits that were added while fixing panel restore have been cut: the pause before panels are restored drops from 1.2 seconds to 0.35, and the OG Widget settles and measures itself in a third of the time…",
+        "Fixed the OG Widget still cutting off its last readings. Sections that report later than the processor - storage and network in particular - arrived after the panel had already measured itself, and it had no way to grow again, so the final…"
     ],
     "required": false
 }
