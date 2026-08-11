@@ -1,9 +1,8 @@
 {
-    "version": "1.1.198",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.198/NovaPanel-v1.1.198.zip",
+    "version": "1.1.199",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.199/NovaPanel-v1.1.199.zip",
     "notes": [
-        "Fixed the app never remembering which panels were open. The record was being erased on the way out: as the app quits, every panel window closes, and each closing window told the app to re-check what was on screen and save that as the…",
-        "Fixed the OG Widget staying taller than its readings. It measured the height of the scrolling area rather than the readings inside it, and that area always stretches to fill the window - so the measurement could only ever match or exceed…"
+        "Fixed the OG Widget opening too short for its readings after a restart. The panel measured itself once, about a second after opening, and never again - but sensors do not all report at the same moment, so on a restored window it sized…"
     ],
     "required": false
 }
