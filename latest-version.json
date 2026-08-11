@@ -1,9 +1,10 @@
 {
-    "version": "1.1.215",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.215/NovaPanel-v1.1.215.zip",
+    "version": "1.1.216",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.216/NovaPanel-v1.1.216.zip",
     "notes": [
-        "The update buttons now show one action at a time. Check for Updates stayed on screen next to Download Update and again next to Install Update and Restart, even though pressing it would only re-find the update you had already found. You now…",
-        "The Install Update and Restart button is no longer styled as a destructive action. It was red, directly beneath green text confirming the download had succeeded, which read as a warning about the very thing that had just gone right.…"
+        "Monitor is now the first section in Panel Settings, since where a panel lives is the first thing you set.",
+        "The display map is smaller and no longer stretches the width of the window.",
+        "Reset to defaults has its own section rather than trailing the display toggles, and no longer sits flush against the window edge where it read as cut off."
     ],
     "required": false
 }
