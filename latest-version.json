@@ -1,10 +1,9 @@
 {
-    "version": "1.1.197",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.197/NovaPanel-v1.1.197.zip",
+    "version": "1.1.198",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.198/NovaPanel-v1.1.198.zip",
     "notes": [
-        "Fixed the app reopening the panel you closed and not reopening the one you left open. Restoring panels was destroying the very record it was reading from: opening the first panel makes the app re-check which windows are currently on screen…",
-        "Fixed multiple open panels collapsing to one on restart. The single-panel rule was being applied once per panel while restoring, so each panel being opened hid the one before it. It is now applied once, after the whole set is restored.",
-        "The OG Widget now sizes itself to its content in both directions on open, not just when it is too small. It previously only ever grew, so a window that opened taller than its readings simply stayed that way."
+        "Fixed the app never remembering which panels were open. The record was being erased on the way out: as the app quits, every panel window closes, and each closing window told the app to re-check what was on screen and save that as the…",
+        "Fixed the OG Widget staying taller than its readings. It measured the height of the scrolling area rather than the readings inside it, and that area always stretches to fill the window - so the measurement could only ever match or exceed…"
     ],
     "required": false
 }
