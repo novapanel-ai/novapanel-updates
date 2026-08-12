@@ -1,10 +1,9 @@
 {
-    "version": "1.1.227",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.227/NovaPanel-v1.1.227.zip",
+    "version": "1.1.228",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.228/NovaPanel-v1.1.228.zip",
     "notes": [
-        "Merged four functions that existed as identical copies in all five Interface Intelligence proof windows into one shared file, removing nineteen duplicate copies. Behaviour is unchanged; a fix to any of them now applies everywhere instead…",
-        "Removed three leftover files with no way to reach them: a development Card Composer window whose backend had already been deleted, a Sensor Inventory developer panel that was never installed, and a truncated stray copy of a runtime file.…",
-        "All four automated checks now run on every build. Three of them, including the one added after the recent launch failure, were only running when invoked by hand."
+        "Removed the Interface Intelligence proof review system. This was the mechanism that required each phase of that work to produce a reviewable proof window before the next phase could start. All five phases are finished and the ways to open…",
+        "The analysis files behind it are kept on disk as research material; they simply no longer ship."
     ],
     "required": false
 }
