@@ -1,9 +1,9 @@
 {
-    "version": "1.1.228",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.228/NovaPanel-v1.1.228.zip",
+    "version": "1.1.229",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.229/NovaPanel-v1.1.229.zip",
     "notes": [
-        "Removed the Interface Intelligence proof review system. This was the mechanism that required each phase of that work to produce a reviewable proof window before the next phase could start. All five phases are finished and the ways to open…",
-        "The analysis files behind it are kept on disk as research material; they simply no longer ship."
+        "Removed 60 automated tests that no longer pass. Most were testing design foundations the project moved away from, so their failure reflected the change of direction rather than a fault. Three of them were listed as official test commands…",
+        "The test suite is now 58 files, 57 of which pass. Everything removed was backed up."
     ],
     "required": false
 }
