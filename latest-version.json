@@ -1,8 +1,9 @@
 {
-    "version": "1.1.217",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.217/NovaPanel-v1.1.217.zip",
+    "version": "1.1.218",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.218/NovaPanel-v1.1.218.zip",
     "notes": [
-        "Restored the original Panel Editor. The replacement settings panel is no longer used. Fixes made along the way are kept: the settings button on a panel opens that panel rather than always the Foundation Panel, OLED displays are detected…"
+        "Trimmed the Panel Editor. The NovaPanel logo and wordmark are gone from its titlebar - the window already says what it is. The Appearance, Layers, Cards, Visuals and Panels tabs are hidden, as are Name, the extra size presets and Position…",
+        "Nothing was deleted to achieve this. Every hidden item is a working capability with live wiring behind it, so it is hidden rather than removed and can be brought back by undoing a single line."
     ],
     "required": false
 }
