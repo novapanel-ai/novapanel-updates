@@ -1,8 +1,10 @@
 {
-    "version": "1.1.219",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.219/NovaPanel-v1.1.219.zip",
+    "version": "1.1.220",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.220/NovaPanel-v1.1.220.zip",
     "notes": [
-        "The Panel, Position and extra size sections under Window are now properly hidden. Each section is two separate pieces - a heading and a body - and only the body was hidden last time, so the headings stayed on screen and the sections looked…"
+        "Every section of the Control Panel and the Panel Editor now has a stable identifier and is declared in one place, with the plan required to see it and the condition under which it appears. Which sections a user sees is decided once…",
+        "Replaced the stylesheet rules that were hiding parts of the Panel Editor. Hiding things in a stylesheet meant the rest of the app could not tell they were hidden, and the decisions about what a user should see were buried in a file about…",
+        "Added a check that fails the build if the section list is malformed, if it points at an element that no longer exists, or if a stylesheet tries to hide a section behind the system back. It found two duplicate rules already in the Control…"
     ],
     "required": false
 }
