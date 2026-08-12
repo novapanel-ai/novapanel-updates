@@ -1,9 +1,10 @@
 {
-    "version": "1.1.225",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.225/NovaPanel-v1.1.225.zip",
+    "version": "1.1.226",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.226/NovaPanel-v1.1.226.zip",
     "notes": [
-        "Fixed a fault that stopped the app launching. A file added in 1.1.220 was never included in the packaged build, and the app loads it at startup, so versions 1.1.220 through 1.1.224 would fail to start after installing. Anyone on one of…",
-        "Added a check that traces every file the app loads at startup and fails the build if any of them would be missing from the package. Nothing previously covered the gap between the source being correct and the shipped copy containing it."
+        "The hidden Panel Editor tabs stay hidden. Hiding an element relies on a browser default rule that any styling of its own overrides, and the tab buttons are styled as flexible boxes - so their contents disappeared while the buttons…",
+        "OLED burn-in protection has a control again, under Window then Behaviour, with a line underneath saying what was actually detected on your displays. The feature was running with nothing to show or change it, because its only control lived…",
+        "Choosing a monitor no longer resizes the OG Widget to fill that screen. The check for which panels are widgets read information that was only ever loaded for the Foundation Panel, so for every other panel it answered no and resized anyway."
     ],
     "required": false
 }
