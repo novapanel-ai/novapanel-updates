@@ -1,9 +1,8 @@
 {
-    "version": "1.1.218",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.218/NovaPanel-v1.1.218.zip",
+    "version": "1.1.219",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.219/NovaPanel-v1.1.219.zip",
     "notes": [
-        "Trimmed the Panel Editor. The NovaPanel logo and wordmark are gone from its titlebar - the window already says what it is. The Appearance, Layers, Cards, Visuals and Panels tabs are hidden, as are Name, the extra size presets and Position…",
-        "Nothing was deleted to achieve this. Every hidden item is a working capability with live wiring behind it, so it is hidden rather than removed and can be brought back by undoing a single line."
+        "The Panel, Position and extra size sections under Window are now properly hidden. Each section is two separate pieces - a heading and a body - and only the body was hidden last time, so the headings stayed on screen and the sections looked…"
     ],
     "required": false
 }
