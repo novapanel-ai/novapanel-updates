@@ -1,10 +1,10 @@
 {
-    "version": "1.1.230",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.230/NovaPanel-v1.1.230.zip",
+    "version": "1.1.231",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.231/NovaPanel-v1.1.231.zip",
     "notes": [
-        "Consolidated repeated style rules in the Control Panel and Panel Settings stylesheets. Both files had accumulated layers of override passes over months, so a single element could have its appearance set in four separate places hundreds of…",
-        "The other 34 were deliberately left alone. In those cases the repetition is load-bearing: another rule sits between the copies and depends on the ordering, so merging them would silently change how something looks. Each one is recorded…",
-        "Nothing about the app should look any different, and that was measured rather than assumed: every element on every Control Panel tab and on Panel Settings was compared before and after, across all 366 style properties, and all 17,301 of…"
+        "Consolidated a further 8 repeated style rules in the Control Panel and Panel Settings stylesheets, finishing the pass started in 1.1.230.",
+        "What unblocked them: deciding whether two repeated rules can be merged depends on knowing which style classes can end up on the same element, and the previous release had to guess for 107 of them because they are attached while the app is…",
+        "As before, nothing should look different, and it was measured rather than assumed: 17,301 element-and-property comparisons across every Control Panel tab and Panel Settings, all identical."
     ],
     "required": false
 }
