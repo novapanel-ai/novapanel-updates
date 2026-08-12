@@ -1,10 +1,8 @@
 {
-    "version": "1.1.220",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.220/NovaPanel-v1.1.220.zip",
+    "version": "1.1.221",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.221/NovaPanel-v1.1.221.zip",
     "notes": [
-        "Every section of the Control Panel and the Panel Editor now has a stable identifier and is declared in one place, with the plan required to see it and the condition under which it appears. Which sections a user sees is decided once…",
-        "Replaced the stylesheet rules that were hiding parts of the Panel Editor. Hiding things in a stylesheet meant the rest of the app could not tell they were hidden, and the decisions about what a user should see were buried in a file about…",
-        "Added a check that fails the build if the section list is malformed, if it points at an element that no longer exists, or if a stylesheet tries to hide a section behind the system back. It found two duplicate rules already in the Control…"
+        "Choosing a monitor now places a widget panel on that screen without resizing it. Picking a monitor also set the panel to that screen resolution, which is right for a full-screen panel but turned a narrow corner widget like the OG Widget…"
     ],
     "required": false
 }
