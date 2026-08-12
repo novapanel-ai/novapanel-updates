@@ -1,8 +1,10 @@
 {
-    "version": "1.1.221",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.221/NovaPanel-v1.1.221.zip",
+    "version": "1.1.222",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.222/NovaPanel-v1.1.222.zip",
     "notes": [
-        "Choosing a monitor now places a widget panel on that screen without resizing it. Picking a monitor also set the panel to that screen resolution, which is right for a full-screen panel but turned a narrow corner widget like the OG Widget…"
+        "The design system now defines text sizes, motion timing, opacity, icon and control sizes, the remaining corner radii and layering depths - 41 new values across six families that were missing, taking it from 56 to 97. Text size was the…",
+        "Converted 275 hand-written style values across the four management stylesheets to use the design system. Every value converted matches its replacement exactly, so nothing looks different - the point is that changing a size or timing is now…",
+        "The new values were taken from what the app already used, ranked by how often each appeared, rather than invented. A tidier scale would have meant a redesign disguised as a cleanup."
     ],
     "required": false
 }
