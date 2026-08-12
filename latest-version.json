@@ -1,9 +1,10 @@
 {
-    "version": "1.1.223",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.223/NovaPanel-v1.1.223.zip",
+    "version": "1.1.224",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.224/NovaPanel-v1.1.224.zip",
     "notes": [
-        "The build now fails if hand-written text sizes, corner radii, opacity values or timings creep back into the management screens. Last release converted 275 of them to the design system; without this check the next one written by hand would…",
-        "Removed the abandoned settings-panel files. They had not been loaded since the original Panel Editor was restored. The settings storage behind them stays - the OG Widget still uses it - so only the unused screens were deleted."
+        "Fixed a stray closing bracket in the Control Panel stylesheet. It closed nothing, and browsers recover from it silently, but every rule after it was being read from a recovered state rather than as written.",
+        "The last 27 odd style values are now on the design system scale. Text at 15, 17, 10.5, 12.5, 9.5, 19 and 8 pixels moved to the nearest standard size, two corner radii and eight opacity values likewise. A few pieces of text shift by a…",
+        "There is now no hand-written text size, corner radius, opacity or timing anywhere in the management screens, and the build fails if one is added."
     ],
     "required": false
 }
