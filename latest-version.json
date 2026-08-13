@@ -1,12 +1,11 @@
 {
-    "version": "1.1.240",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.240/NovaPanel-v1.1.240.zip",
+    "version": "1.1.241",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.241/NovaPanel-v1.1.241.zip",
     "notes": [
-        "NovaPanel no longer starts a PowerShell process every few seconds while a panel is open. The sensor service now reads those values itself.",
-        "What it was doing: five readings - battery level, battery status, processor core count, and network up/down speed - were not provided by the sensor bridge, so the app launched powershell.exe roughly every 7.5 seconds to fetch them. That…",
-        "The sensor service already runs all the time, so it now samples those five itself and adds them to the sensor data it already sends. Network speed is measured by comparing one second to the next, so the 750ms pause is gone entirely. Core…",
-        "Checked before building rather than assumed: memory used/total and drive used/total were ALREADY being supplied by the sensor bridge, so those four were never worth fetching again - only the five genuinely missing ones were added.",
-        "The app keeps the old PowerShell method as an automatic fallback. If the sensor service is stopped, is an older version, or is unreachable, the values keep working exactly as before within a few seconds. Nothing was deleted."
+        "Installer fix: the upgrade now waits for the sensor service to actually stop before replacing its program file.",
+        "Cause: the installer asked Windows to stop the service and then immediately began extracting files. 'sc stop' returns as soon as the request is accepted, not when the service has finished stopping - and this service shuts down two child…",
+        "This is the same class of problem as the updater silently skipping locked sensor files, and it is worth stating plainly: an install that reports success is not proof the new files landed.",
+        "No change to the app itself in this version. The sensor-service performance work from 1.1.240 is unchanged and still arrives by running the installer."
     ],
     "required": false
 }
