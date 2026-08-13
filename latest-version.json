@@ -1,11 +1,11 @@
 {
-    "version": "1.1.241",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.241/NovaPanel-v1.1.241.zip",
+    "version": "1.1.242",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.242/NovaPanel-v1.1.242.zip",
     "notes": [
-        "Installer fix: the upgrade now waits for the sensor service to actually stop before replacing its program file.",
-        "Cause: the installer asked Windows to stop the service and then immediately began extracting files. 'sc stop' returns as soon as the request is accepted, not when the service has finished stopping - and this service shuts down two child…",
-        "This is the same class of problem as the updater silently skipping locked sensor files, and it is worth stating plainly: an install that reports success is not proof the new files landed.",
-        "No change to the app itself in this version. The sensor-service performance work from 1.1.240 is unchanged and still arrives by running the installer."
+        "The OG Widget keeps its size and its corner when you send it to another monitor. It was arriving wider and shorter, sitting slightly off the top and hanging past the right edge of the screen it moved to.",
+        "The move itself was never at fault — it places the widget flush in the corner correctly. The damage came from the settings save that follows a moment later: two minimum-size rules, 240 and 320 pixels, both written back when every panel…",
+        "A minimum size is the right rule for a panel you size yourself and the wrong one for a panel that sizes itself, so widgets are now exempt rather than the minimum being lowered for everything. Saving any setting can no longer change a…",
+        "Sizes already scrambled by this are corrected automatically the first time this version runs."
     ],
     "required": false
 }
