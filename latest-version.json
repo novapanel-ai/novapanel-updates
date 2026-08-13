@@ -1,11 +1,11 @@
 {
-    "version": "1.1.233",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.233/NovaPanel-v1.1.233.zip",
+    "version": "1.1.234",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.234/NovaPanel-v1.1.234.zip",
     "notes": [
-        "Consolidated a further 10 repeated style rules in the Control Panel stylesheet, completing the three-part cleanup started in 1.1.230. 44 of the original 60 groups are now defined once each.",
-        "The remaining 16 are staying as they are: in each case another rule sits between the copies and depends on the ordering, so merging them would change how something looks. That is now a measured conclusion rather than an assumption.",
-        "Verified the same way as the previous two releases: every element on every Control Panel tab and on Panel Settings compared before and after across all 366 style properties, all 17,301 identical.",
-        "Released as 1.1.233 rather than 1.1.232: another change set claimed 1.1.232 first, so this one moved up a number to keep each release describing exactly what it contains."
+        "Snap to Edge no longer parks a panel partly off the screen. Snapping the OG Widget to the top pushed its first 32 pixels above the display, cutting off its title bar; left and right were off by the same amount. It now sits flush against…",
+        "Cause: every panel window can reserve a margin around its visible surface for glow and shadow effects, and each theme declares its own — the Gauge 2 theme reserves 50 pixels, while OG, Gauge, Flow and Blackfield reserve none. The snap was…",
+        "The same wrong figure was also being used when resetting a panel's appearance, which sized those windows 64 pixels larger than their contents and left a dead transparent border. Both are fixed by the same change.",
+        "Fixed in one place rather than at each point of use. The identical mistake had already been corrected once, on its own, in the code that moves a panel to another monitor — leaving every other caller still wrong. That local correction now…"
     ],
     "required": false
 }
