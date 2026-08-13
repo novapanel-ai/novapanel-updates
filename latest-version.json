@@ -1,10 +1,10 @@
 {
-    "version": "1.1.251",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.251/NovaPanel-v1.1.251.zip",
+    "version": "1.1.252",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.252/NovaPanel-v1.1.252.zip",
     "notes": [
-        "Choosing a weather icon set now shows you the icons. It shipped as a dropdown listing the words Line, Solid and Emoji, which tells you nothing about what you are picking.",
-        "It is now three tiles, each drawing the real icons that set will use — clear, rain and storm, because those differ most between the sets and a set should not be judged on its sunny day alone. The chosen tile is marked, and the drawn sets…",
-        "This is the standard the Visuals tab already arrived at: a style choice is shown, not named. That rule existed and was not followed here."
+        "Choosing a clock face now shows you the clocks. It was a dropdown listing six words — Digital, Minimal, Classic, Bars, Dots, Ring — which asked you to guess what each one looked like.",
+        "It is now a gallery of six tiles, each running a real, ticking clock built by the same renderer the panel uses. What you preview is exactly what you get, and turning the second hand on or off redraws the previews so that choice can be…",
+        "The weather icon and temperature now sit together as one centred group. The temperature had been pushed to the far side of the panel, leaving a gap in the middle and reading as two unrelated things at opposite ends rather than one reading."
     ],
     "required": false
 }
