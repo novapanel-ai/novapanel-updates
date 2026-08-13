@@ -1,10 +1,12 @@
 {
-    "version": "1.1.231",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.231/NovaPanel-v1.1.231.zip",
+    "version": "1.1.232",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.232/NovaPanel-v1.1.232.zip",
     "notes": [
-        "Consolidated a further 8 repeated style rules in the Control Panel and Panel Settings stylesheets, finishing the pass started in 1.1.230.",
-        "What unblocked them: deciding whether two repeated rules can be merged depends on knowing which style classes can end up on the same element, and the previous release had to guess for 107 of them because they are attached while the app is…",
-        "As before, nothing should look different, and it was measured rather than assumed: 17,301 element-and-property comparisons across every Control Panel tab and Panel Settings, all identical."
+        "Content amount (Dense / Relaxed / Minimal) now works on the OG Widget, and is remembered per panel instead of being one shared setting. Choosing it reopens the panel you are actually looking at.",
+        "Why it had never worked there: OG is its own panel with its own window, but the setting was stored as a single app-wide value that only the Hardware Panel's reopen path ever read — so the choice was saved, a different window was reopened…",
+        "Removed a retired panel's leftover window handle from the main process. It had been declared but never filled in since the old Classic panel was withdrawn, and around forty places still read it — each one quietly doing nothing. That is the…",
+        "Two of those places were reconnected to the real panel window rather than deleted: which monitor the panel occupies now informs layout selection, and the primary panel refreshes its generated content again.",
+        "The Panel Settings capability check was counting channels that do not exist. It resolved shorthand variable names across a whole file at once, so two different groups of settings borrowed each other's methods and it reported thirty-five…"
     ],
     "required": false
 }
