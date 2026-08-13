@@ -1,11 +1,12 @@
 {
-    "version": "1.1.237",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.237/NovaPanel-v1.1.237.zip",
+    "version": "1.1.238",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.238/NovaPanel-v1.1.238.zip",
     "notes": [
-        "The OG Widget no longer starts partly above the top of the screen. Its default startup position was off-screen until you snapped it somewhere, which then stuck.",
-        "Cause: a size left over from when the widget could be dragged to any size. That old size is still in the settings file — 480 by 1920 — and 1920 of those pixels is taller than the screen once display scaling is applied, so the window was…",
-        "The widget is fixed-width with a content-driven height, so a remembered size is meaningless for it. Both dimensions are now ignored on startup and the stale numbers are cleared out of the settings file the first time this version runs, so…",
-        "The previous release fixed the width this way but still trusted the remembered height, which is the half that was causing this."
+        "The app no longer freezes for up to a second at a time while a panel is open. Opening Settings, opening a panel and clicking controls all had to wait behind those freezes, which is what made everything feel like it had a delay before it…",
+        "Cause: NovaPanel checks whether HWiNFO is running so it can borrow its CPU temperature and power readings. That check ran a PowerShell script which compiles code as it starts, so one check cost between 0.4 and 1.1 seconds - and it ran on…",
+        "The check no longer runs on the drawing thread. It runs in the background and the panel uses the last answer it got, which is what it was already doing by design. Repeated failures now back off as well, from every 2.5 seconds to at most…",
+        "Measured on this machine with a panel open: the worst pause drops from 1,150ms to 86ms, and the repeated background checks drop from around 24 a minute to none.",
+        "Worth recording: this was not introduced by a recent release. The same code is in builds going back months - v1.1.167 reproduces the identical freeze - so it never showed up as a regression in any one version. What changed is that…"
     ],
     "required": false
 }
