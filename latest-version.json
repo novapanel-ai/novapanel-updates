@@ -1,11 +1,10 @@
 {
-    "version": "1.1.250",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.250/NovaPanel-v1.1.250.zip",
+    "version": "1.1.251",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.251/NovaPanel-v1.1.251.zip",
     "notes": [
-        "Fixed the weather block running off the right edge of the OG Widget, which cut the temperature in half and left a pointless gap in the middle.",
-        "Cause: the block was given no left or right inset, while every other row in the widget is inset from the edges. It therefore spanned the full width, and the temperature was then pushed hard right — straight past the edge of the panel. The…",
-        "The reading now takes whatever space is left beside the icon instead of being shoved to the edge, and the icon and numerals are sized for a 176-pixel strip rather than for the wider mock-up they were designed against.",
-        "Checked by measurement rather than by eye: the panel is now tested for anything crossing its edges, in the worst realistic case of a three-figure temperature, a three-figure high and low, and a long town name."
+        "Choosing a weather icon set now shows you the icons. It shipped as a dropdown listing the words Line, Solid and Emoji, which tells you nothing about what you are picking.",
+        "It is now three tiles, each drawing the real icons that set will use — clear, rain and storm, because those differ most between the sets and a set should not be judged on its sunny day alone. The chosen tile is marked, and the drawn sets…",
+        "This is the standard the Visuals tab already arrived at: a style choice is shown, not named. That rule existed and was not followed here."
     ],
     "required": false
 }
