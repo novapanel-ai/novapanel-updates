@@ -1,10 +1,12 @@
 {
-    "version": "1.1.245",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.245/NovaPanel-v1.1.245.zip",
+    "version": "1.1.246",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.246/NovaPanel-v1.1.246.zip",
     "notes": [
-        "Reset panel to defaults no longer blows the OG Widget up to full width. It was coming back at 1280 pixels wide instead of 215.",
-        "This was a different fault from the sizing bugs fixed in 1.1.242 and 1.1.244, which is why those did not catch it. Reset does not adjust the current size — it substitutes a whole different one, the 1024x768 baseline every full-size panel…",
-        "A widget now resets to the size its own design declares, converted for whichever display it is on, keeping its position and letting its height follow its content as usual."
+        "Weather now appears on your panels. The weather service shipped a few releases ago but nothing was ever built to set it up or draw it, so there was no way to see it and no location for it to read.",
+        "Control Panel, General tab, has a new Weather section: type a town, pick it from the results, choose Celsius or Fahrenheit. That is set once for the machine.",
+        "Panel Settings has a Show weather switch on each panel, because which panels show it is a per-panel choice. Turn it on for as many panels as you like.",
+        "The OG Widget draws it as a group alongside CPU and GPU — temperature, sky, feels-like, humidity and wind, under the town name. Content amount applies to it as it does to everything else: Minimal shows the temperature alone, Relaxed adds…",
+        "It follows the same honesty rule as the sensors: if no location is set, the fetch failed, or the reading has aged out, nothing is drawn at all. No placeholder, and never an old temperature presented as current."
     ],
     "required": false
 }
