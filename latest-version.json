@@ -1,10 +1,10 @@
 {
-    "version": "1.1.244",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.244/NovaPanel-v1.1.244.zip",
+    "version": "1.1.245",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.245/NovaPanel-v1.1.245.zip",
     "notes": [
-        "Resetting a widget to its defaults no longer changes its size. This was the last of four places that pushed a self-sizing widget through the minimum-size rules meant for panels you size yourself — the other three were fixed in 1.1.242…",
-        "Added a standing test for where a panel lands when you send it to another monitor. This had been reported wrong four times with four different symptoms, and each round was worked out by hand against a three-screen setup with mixed display…",
-        "Also included: the weather service built alongside this, with its own tests."
+        "Reset panel to defaults no longer blows the OG Widget up to full width. It was coming back at 1280 pixels wide instead of 215.",
+        "This was a different fault from the sizing bugs fixed in 1.1.242 and 1.1.244, which is why those did not catch it. Reset does not adjust the current size — it substitutes a whole different one, the 1024x768 baseline every full-size panel…",
+        "A widget now resets to the size its own design declares, converted for whichever display it is on, keeping its position and letting its height follow its content as usual."
     ],
     "required": false
 }
