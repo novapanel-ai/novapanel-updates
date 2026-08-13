@@ -1,12 +1,11 @@
 {
-    "version": "1.1.238",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.238/NovaPanel-v1.1.238.zip",
+    "version": "1.1.239",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.239/NovaPanel-v1.1.239.zip",
     "notes": [
-        "The app no longer freezes for up to a second at a time while a panel is open. Opening Settings, opening a panel and clicking controls all had to wait behind those freezes, which is what made everything feel like it had a delay before it…",
-        "Cause: NovaPanel checks whether HWiNFO is running so it can borrow its CPU temperature and power readings. That check ran a PowerShell script which compiles code as it starts, so one check cost between 0.4 and 1.1 seconds - and it ran on…",
-        "The check no longer runs on the drawing thread. It runs in the background and the panel uses the last answer it got, which is what it was already doing by design. Repeated failures now back off as well, from every 2.5 seconds to at most…",
-        "Measured on this machine with a panel open: the worst pause drops from 1,150ms to 86ms, and the repeated background checks drop from around 24 a minute to none.",
-        "Worth recording: this was not introduced by a recent release. The same code is in builds going back months - v1.1.167 reproduces the identical freeze - so it never showed up as a regression in any one version. What changed is that…"
+        "Fixed a black console window that could flash up on screen during a hardware scan.",
+        "Cause: to find which games are installed, the app runs the Windows registry tool reg.exe. That one call was missing the flag that hides the console. NovaPanel's main process is a windowed program with no console of its own, so Windows…",
+        "Added a new build check that fails the build if any helper program is started without hiding its window, so this cannot come back. It is checked on every build alongside the existing four checks.",
+        "Note in the interest of accuracy: the flash could not be reproduced under observation - 175 seconds of watching for a visible console window, both idle and through a full hardware scan, caught none. This fixes the one call that was…"
     ],
     "required": false
 }
