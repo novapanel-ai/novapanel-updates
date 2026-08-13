@@ -1,12 +1,10 @@
 {
-    "version": "1.1.243",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.243/NovaPanel-v1.1.243.zip",
+    "version": "1.1.244",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.244/NovaPanel-v1.1.244.zip",
     "notes": [
-        "A widget sent to a monitor with different display scaling now arrives at the right size, worked out for the destination screen before it appears there rather than corrected afterwards. Previously it carried the old screen's size across and…",
-        "Why it needed doing first: where the widget sits is calculated from how wide it is, so pinning it to a corner and then resizing it leaves it hanging off the edge it was just pinned to. The width for the destination is resolved up front…",
-        "The move is now checked rather than assumed, at each step. Windows silently ignores size changes on a window that cannot be resized, and re-rounds window positions when one crosses between screens of different scaling, so the result is…",
-        "The widget also re-measures its height when its width changes. Its height depends on its width — a narrower strip wraps onto more lines — and nothing was watching for that, so it would have arrived at the correct width on the new screen…",
-        "A closed widget sent to another monitor no longer opens full screen there; it opens at its own size."
+        "Resetting a widget to its defaults no longer changes its size. This was the last of four places that pushed a self-sizing widget through the minimum-size rules meant for panels you size yourself — the other three were fixed in 1.1.242…",
+        "Added a standing test for where a panel lands when you send it to another monitor. This had been reported wrong four times with four different symptoms, and each round was worked out by hand against a three-screen setup with mixed display…",
+        "Also included: the weather service built alongside this, with its own tests."
     ],
     "required": false
 }
