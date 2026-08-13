@@ -1,11 +1,11 @@
 {
-    "version": "1.1.247",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.247/NovaPanel-v1.1.247.zip",
+    "version": "1.1.248",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.248/NovaPanel-v1.1.248.zip",
     "notes": [
-        "Weather now works out where you are on its own. On a machine that has never had a location set it finds the nearest town and switches to Fahrenheit or Celsius to match the country, so weather works without being configured. Anything you…",
-        "Weather has an icon, and there are three sets to pick from in Control Panel, General, Weather: Line (thin outlines), Solid (filled) and Emoji (the colourful system ones). The picker previews three different conditions so a set can be…",
-        "Three location providers are tried rather than one. The first choice turned out to refuse requests once its free daily limit is reached, which would have left new installs with no location and a feature that looked broken. If none of them…",
-        "Location, units and icon choice are all remembered across restarts."
+        "Weather is now a proper face rather than a list: a large icon beside a large temperature, with today's high and low and the town underneath. Sized against the clock face so the two read as a matched pair instead of competing for the same…",
+        "The icon is drawn from geometry rather than a picture, so it stays sharp at the larger size on any display scaling. All three icon sets work at that size.",
+        "Temperature and sky no longer repeat as rows underneath — the face already shows both, and saying it twice in the space of an inch wasted the room the readings needed. What remains below is what the face has no space for: feels-like…",
+        "Content amount still applies: Minimal is the face on its own, Relaxed adds two readings, Dense adds all three."
     ],
     "required": false
 }
