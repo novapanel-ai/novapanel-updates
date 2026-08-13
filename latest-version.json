@@ -1,10 +1,12 @@
 {
-    "version": "1.1.252",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.252/NovaPanel-v1.1.252.zip",
+    "version": "1.1.253",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.253/NovaPanel-v1.1.253.zip",
     "notes": [
-        "Choosing a clock face now shows you the clocks. It was a dropdown listing six words — Digital, Minimal, Classic, Bars, Dots, Ring — which asked you to guess what each one looked like.",
-        "It is now a gallery of six tiles, each running a real, ticking clock built by the same renderer the panel uses. What you preview is exactly what you get, and turning the second hand on or off redraws the previews so that choice can be…",
-        "The weather icon and temperature now sit together as one centred group. The temperature had been pushed to the far side of the panel, leaving a gap in the middle and reading as two unrelated things at opposite ends rather than one reading."
+        "New Options tab in Panel Settings, holding what the panel SHOWS: clock, weather, layout type, and colours. Window goes back to being about the window — where it is, how big, which screen.",
+        "Panel colours can now be changed, and they work. The Text tab could never affect a widget: it writes card values a widget theme does not subscribe to. Accent, bar colour and font have existed in the theme registry since the widget shipped…",
+        "Resetting a panel now resets its colours too, instead of leaving the accent exactly as it was.",
+        "Corner radius is adjustable from the Window tab.",
+        "Switching between the time and a clock face now resizes the panel to suit, and the face grows into place instead of appearing at full size in one frame. Choosing a face also takes effect immediately — it had been waiting for the next…"
     ],
     "required": false
 }
