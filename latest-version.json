@@ -1,11 +1,11 @@
 {
-    "version": "1.1.236",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.236/NovaPanel-v1.1.236.zip",
+    "version": "1.1.237",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.237/NovaPanel-v1.1.237.zip",
     "notes": [
-        "Snapping a panel to an edge is now remembered. Snap it, close the app, reopen it, and it comes back against that edge instead of wherever it was last dragged — which is why a snapped panel kept reappearing back out in the middle of the…",
-        "Cause: the position is saved by a handler that only fires when YOU move a window. Snapping moves it from inside the app, which that handler never hears, so the panel was moved and nothing was written down. Snapping now records the position…",
-        "A panel snapped to the bottom now stays against the bottom when its height changes. The OG Widget resizes itself as sensors appear, and the snap had been worked out from its earlier height — so it drifted off the edge by however much it…",
-        "Fixed the OG Widget drifting away from its saved position on startup, introduced in 1.1.235. Allowing the window to resize itself meant briefly unlocking it, and Windows repositions a window when its lock changes: a panel saved at one spot…"
+        "The OG Widget no longer starts partly above the top of the screen. Its default startup position was off-screen until you snapped it somewhere, which then stuck.",
+        "Cause: a size left over from when the widget could be dragged to any size. That old size is still in the settings file — 480 by 1920 — and 1920 of those pixels is taller than the screen once display scaling is applied, so the window was…",
+        "The widget is fixed-width with a content-driven height, so a remembered size is meaningless for it. Both dimensions are now ignored on startup and the stale numbers are cleared out of the settings file the first time this version runs, so…",
+        "The previous release fixed the width this way but still trusted the remembered height, which is the half that was causing this."
     ],
     "required": false
 }
