@@ -1,11 +1,11 @@
 {
-    "version": "1.1.249",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.249/NovaPanel-v1.1.249.zip",
+    "version": "1.1.250",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.250/NovaPanel-v1.1.250.zip",
     "notes": [
-        "Weather now shows on a panel without having to be switched on first. It shipped switched off, on the reasoning that a panel should not silently grow a row — which was wrong in practice: the feature was asked for, released, and appeared to…",
-        "The Weather settings show the chosen location in the field itself, at full size, instead of in small grey text underneath while the box advertised somewhere else entirely. The example town has been removed from the placeholder — it was…",
-        "Added a Use mine button that detects your location on demand. Automatic detection only ever runs on a machine that has none, so it never overwrites a town you chose — which is exactly why it appeared not to work for anyone who had already…",
-        "The location field now takes the full width of the row, so a long town name reads completely instead of being cut off mid-word."
+        "Fixed the weather block running off the right edge of the OG Widget, which cut the temperature in half and left a pointless gap in the middle.",
+        "Cause: the block was given no left or right inset, while every other row in the widget is inset from the edges. It therefore spanned the full width, and the temperature was then pushed hard right — straight past the edge of the panel. The…",
+        "The reading now takes whatever space is left beside the icon instead of being shoved to the edge, and the icon and numerals are sized for a 176-pixel strip rather than for the wider mock-up they were designed against.",
+        "Checked by measurement rather than by eye: the panel is now tested for anything crossing its edges, in the worst realistic case of a three-figure temperature, a three-figure high and low, and a long town name."
     ],
     "required": false
 }
