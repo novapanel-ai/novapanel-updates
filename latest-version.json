@@ -1,11 +1,11 @@
 {
-    "version": "1.1.248",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.248/NovaPanel-v1.1.248.zip",
+    "version": "1.1.249",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.249/NovaPanel-v1.1.249.zip",
     "notes": [
-        "Weather is now a proper face rather than a list: a large icon beside a large temperature, with today's high and low and the town underneath. Sized against the clock face so the two read as a matched pair instead of competing for the same…",
-        "The icon is drawn from geometry rather than a picture, so it stays sharp at the larger size on any display scaling. All three icon sets work at that size.",
-        "Temperature and sky no longer repeat as rows underneath — the face already shows both, and saying it twice in the space of an inch wasted the room the readings needed. What remains below is what the face has no space for: feels-like…",
-        "Content amount still applies: Minimal is the face on its own, Relaxed adds two readings, Dense adds all three."
+        "Weather now shows on a panel without having to be switched on first. It shipped switched off, on the reasoning that a panel should not silently grow a row — which was wrong in practice: the feature was asked for, released, and appeared to…",
+        "The Weather settings show the chosen location in the field itself, at full size, instead of in small grey text underneath while the box advertised somewhere else entirely. The example town has been removed from the placeholder — it was…",
+        "Added a Use mine button that detects your location on demand. Automatic detection only ever runs on a machine that has none, so it never overwrites a town you chose — which is exactly why it appeared not to work for anyone who had already…",
+        "The location field now takes the full width of the row, so a long town name reads completely instead of being cut off mid-word."
     ],
     "required": false
 }
