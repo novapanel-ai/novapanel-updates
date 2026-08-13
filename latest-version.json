@@ -1,11 +1,11 @@
 {
-    "version": "1.1.234",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.234/NovaPanel-v1.1.234.zip",
+    "version": "1.1.235",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.235/NovaPanel-v1.1.235.zip",
     "notes": [
-        "Snap to Edge no longer parks a panel partly off the screen. Snapping the OG Widget to the top pushed its first 32 pixels above the display, cutting off its title bar; left and right were off by the same amount. It now sits flush against…",
-        "Cause: every panel window can reserve a margin around its visible surface for glow and shadow effects, and each theme declares its own — the Gauge 2 theme reserves 50 pixels, while OG, Gauge, Flow and Blackfield reserve none. The snap was…",
-        "The same wrong figure was also being used when resetting a panel's appearance, which sized those windows 64 pixels larger than their contents and left a dead transparent border. Both are fixed by the same change.",
-        "Fixed in one place rather than at each point of use. The identical mistake had already been corrected once, on its own, in the code that moves a panel to another monitor — leaving every other caller still wrong. That local correction now…"
+        "The OG Widget shows its resolution in the footer again, on the right beside the sensor count, in the same physical pixels the size presets are labelled with — so it reads 220x168 rather than the smaller figure a scaled display actually…",
+        "The OG Widget is now fixed-width with a height that follows its content, and that is no longer something that can be changed. It is a narrow strip whose job is to list whatever sensors the machine reports; a width the user could drag was…",
+        "Its size controls have been removed from Panel Settings to match. Offering a choice the panel then overrules is worse than not offering it. The Displays and Theme sections are unchanged, so it can still be moved to another monitor and…",
+        "This is declared by the theme rather than hardcoded for OG, so a future widget-style theme gets the same behaviour by saying so, and the full-stage themes keep their resolution presets exactly as they were."
     ],
     "required": false
 }
