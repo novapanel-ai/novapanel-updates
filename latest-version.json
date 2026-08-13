@@ -1,11 +1,11 @@
 {
-    "version": "1.1.235",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.235/NovaPanel-v1.1.235.zip",
+    "version": "1.1.236",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.236/NovaPanel-v1.1.236.zip",
     "notes": [
-        "The OG Widget shows its resolution in the footer again, on the right beside the sensor count, in the same physical pixels the size presets are labelled with — so it reads 220x168 rather than the smaller figure a scaled display actually…",
-        "The OG Widget is now fixed-width with a height that follows its content, and that is no longer something that can be changed. It is a narrow strip whose job is to list whatever sensors the machine reports; a width the user could drag was…",
-        "Its size controls have been removed from Panel Settings to match. Offering a choice the panel then overrules is worse than not offering it. The Displays and Theme sections are unchanged, so it can still be moved to another monitor and…",
-        "This is declared by the theme rather than hardcoded for OG, so a future widget-style theme gets the same behaviour by saying so, and the full-stage themes keep their resolution presets exactly as they were."
+        "Snapping a panel to an edge is now remembered. Snap it, close the app, reopen it, and it comes back against that edge instead of wherever it was last dragged — which is why a snapped panel kept reappearing back out in the middle of the…",
+        "Cause: the position is saved by a handler that only fires when YOU move a window. Snapping moves it from inside the app, which that handler never hears, so the panel was moved and nothing was written down. Snapping now records the position…",
+        "A panel snapped to the bottom now stays against the bottom when its height changes. The OG Widget resizes itself as sensors appear, and the snap had been worked out from its earlier height — so it drifted off the edge by however much it…",
+        "Fixed the OG Widget drifting away from its saved position on startup, introduced in 1.1.235. Allowing the window to resize itself meant briefly unlocking it, and Windows repositions a window when its lock changes: a panel saved at one spot…"
     ],
     "required": false
 }
