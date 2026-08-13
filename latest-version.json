@@ -1,11 +1,12 @@
 {
-    "version": "1.1.239",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.239/NovaPanel-v1.1.239.zip",
+    "version": "1.1.240",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.240/NovaPanel-v1.1.240.zip",
     "notes": [
-        "Fixed a black console window that could flash up on screen during a hardware scan.",
-        "Cause: to find which games are installed, the app runs the Windows registry tool reg.exe. That one call was missing the flag that hides the console. NovaPanel's main process is a windowed program with no console of its own, so Windows…",
-        "Added a new build check that fails the build if any helper program is started without hiding its window, so this cannot come back. It is checked on every build alongside the existing four checks.",
-        "Note in the interest of accuracy: the flash could not be reproduced under observation - 175 seconds of watching for a visible console window, both idle and through a full hardware scan, caught none. This fixes the one call that was…"
+        "NovaPanel no longer starts a PowerShell process every few seconds while a panel is open. The sensor service now reads those values itself.",
+        "What it was doing: five readings - battery level, battery status, processor core count, and network up/down speed - were not provided by the sensor bridge, so the app launched powershell.exe roughly every 7.5 seconds to fetch them. That…",
+        "The sensor service already runs all the time, so it now samples those five itself and adds them to the sensor data it already sends. Network speed is measured by comparing one second to the next, so the 750ms pause is gone entirely. Core…",
+        "Checked before building rather than assumed: memory used/total and drive used/total were ALREADY being supplied by the sensor bridge, so those four were never worth fetching again - only the five genuinely missing ones were added.",
+        "The app keeps the old PowerShell method as an automatic fallback. If the sensor service is stopped, is an older version, or is unreachable, the values keep working exactly as before within a few seconds. Nothing was deleted."
     ],
     "required": false
 }
