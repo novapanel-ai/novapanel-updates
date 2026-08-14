@@ -1,10 +1,11 @@
 {
-    "version": "1.1.254",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.254/NovaPanel-v1.1.254.zip",
+    "version": "1.1.255",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.255/NovaPanel-v1.1.255.zip",
     "notes": [
-        "Real weather icons. The Line and Solid sets were shapes drawn by hand here, and the cloud in particular did not read as a cloud. Both sets are now Bootstrap Icons — a proper icon family with matched outline and filled versions, so the two…",
-        "The clock face now takes the accent colour, matching the weather icon. Both are graphics rather than readings, so both follow the accent; the digital time stays text-coloured, because it is text.",
-        "A saved clock face now appears when the panel opens. It was drawn once using the defaults before the stored settings arrived, and nothing drew it again — so a chosen face only appeared if it was changed again after launch."
+        "Choosing a weather icon set now actually changes the icons. Nothing told a panel that the weather settings had changed, so a new set sat unused until the panel next refreshed on its own — up to ten minutes, or until it was reopened.…",
+        "A second fault underneath it: the list of valid icon sets was written out a second time in the background, and still named only the original three. Choosing the fourth was quietly rewritten back to the first. There is now one list, held by…",
+        "The sets are genuinely different now. Two of the three were previously the same drawings in outline and filled form, which is one set shown twice rather than a choice. They are now three separate icon families — Line, Rounded and Solid…",
+        "The fog emoji has been changed. The old one renders as a featureless pale smudge at panel size with nothing in it to recognise. Emoji coverage for fog is poor in general; all three drawn sets have a proper fog icon."
     ],
     "required": false
 }
