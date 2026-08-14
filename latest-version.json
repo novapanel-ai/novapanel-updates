@@ -1,12 +1,10 @@
 {
-    "version": "1.1.253",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.253/NovaPanel-v1.1.253.zip",
+    "version": "1.1.254",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.254/NovaPanel-v1.1.254.zip",
     "notes": [
-        "New Options tab in Panel Settings, holding what the panel SHOWS: clock, weather, layout type, and colours. Window goes back to being about the window — where it is, how big, which screen.",
-        "Panel colours can now be changed, and they work. The Text tab could never affect a widget: it writes card values a widget theme does not subscribe to. Accent, bar colour and font have existed in the theme registry since the widget shipped…",
-        "Resetting a panel now resets its colours too, instead of leaving the accent exactly as it was.",
-        "Corner radius is adjustable from the Window tab.",
-        "Switching between the time and a clock face now resizes the panel to suit, and the face grows into place instead of appearing at full size in one frame. Choosing a face also takes effect immediately — it had been waiting for the next…"
+        "Real weather icons. The Line and Solid sets were shapes drawn by hand here, and the cloud in particular did not read as a cloud. Both sets are now Bootstrap Icons — a proper icon family with matched outline and filled versions, so the two…",
+        "The clock face now takes the accent colour, matching the weather icon. Both are graphics rather than readings, so both follow the accent; the digital time stays text-coloured, because it is text.",
+        "A saved clock face now appears when the panel opens. It was drawn once using the defaults before the stored settings arrived, and nothing drew it again — so a chosen face only appeared if it was changed again after launch."
     ],
     "required": false
 }
