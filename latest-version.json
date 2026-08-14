@@ -1,11 +1,11 @@
 {
-    "version": "1.1.255",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.255/NovaPanel-v1.1.255.zip",
+    "version": "1.1.256",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.256/NovaPanel-v1.1.256.zip",
     "notes": [
-        "Choosing a weather icon set now actually changes the icons. Nothing told a panel that the weather settings had changed, so a new set sat unused until the panel next refreshed on its own — up to ten minutes, or until it was reopened.…",
-        "A second fault underneath it: the list of valid icon sets was written out a second time in the background, and still named only the original three. Choosing the fourth was quietly rewritten back to the first. There is now one list, held by…",
-        "The sets are genuinely different now. Two of the three were previously the same drawings in outline and filled form, which is one set shown twice rather than a choice. They are now three separate icon families — Line, Rounded and Solid…",
-        "The fog emoji has been changed. The old one renders as a featureless pale smudge at panel size with nothing in it to recognise. Emoji coverage for fog is poor in general; all three drawn sets have a proper fog icon."
+        "The weather icons are now the three supplied sets: Line, Bronze and 3D. They replace the previous stock icon families entirely.",
+        "Every icon in every set is exactly the same size on screen, so changing weather can never nudge anything around it. Each set is kept as one sheet and each icon shows a fixed window onto it, which means the size is decided by the panel…",
+        "The Line set is drawn as a stencil, so it takes the panel accent colour like the clock face does. Bronze and 3D keep their own colours, which is the point of choosing them.",
+        "Four conditions have no exact artwork in their set and use the closest true image rather than an invented one: Bronze shows cloud for a partly cloudy night and rain for showers; 3D shows moon-with-cloud for a clear night and heavy overcast…"
     ],
     "required": false
 }
