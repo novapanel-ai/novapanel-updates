@@ -1,11 +1,12 @@
 {
-    "version": "1.1.258",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.258/NovaPanel-v1.1.258.zip",
+    "version": "1.1.259",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.259/NovaPanel-v1.1.259.zip",
     "notes": [
-        "The 3D icon set has its fog icon back. It was there all along — the set has a dense grey haze picture that was misread as another cloud, so v1.1.257 removed a perfectly good icon. Restored.",
-        "The 3D clear-night icon is the crescent moon with stars, and is exact rather than a stand-in as previously listed.",
-        "Showers in the 3D set now use a pale cloud with light rain instead of the sun-and-rain picture, which showed a sun during night-time showers.",
-        "All three sets now cover all ten sky conditions with a real image; only one stand-in remains, in Bronze, which has no moon-behind-cloud picture for a partly cloudy night and shows the cloud."
+        "If the sensor service ever stops, NovaPanel now says so plainly and offers to start it — a Start sensor service button appears in Settings, System Scan, next to Sensor Service. It asks for administrator permission once, for that one…",
+        "The reason given for missing CPU Temperature and Package power is now the real one. It used to say the service needed administrator permission even when permission was already granted and the service was simply not running — which sent you…",
+        "Declining the permission prompt now answers in about seven seconds instead of nineteen, and leaves everything exactly as it was.",
+        "System Scan no longer shows Sensor service needs administrator permission beside a reading it has correctly identified as one this hardware does not expose. The two lines could disagree; now they cannot.",
+        "If Windows refuses to show the permission prompt at all, that is now reported as its own fault rather than as you having declined it."
     ],
     "required": false
 }
