@@ -1,12 +1,10 @@
 {
-    "version": "1.1.259",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.259/NovaPanel-v1.1.259.zip",
+    "version": "1.1.260",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.260/NovaPanel-v1.1.260.zip",
     "notes": [
-        "If the sensor service ever stops, NovaPanel now says so plainly and offers to start it — a Start sensor service button appears in Settings, System Scan, next to Sensor Service. It asks for administrator permission once, for that one…",
-        "The reason given for missing CPU Temperature and Package power is now the real one. It used to say the service needed administrator permission even when permission was already granted and the service was simply not running — which sent you…",
-        "Declining the permission prompt now answers in about seven seconds instead of nineteen, and leaves everything exactly as it was.",
-        "System Scan no longer shows Sensor service needs administrator permission beside a reading it has correctly identified as one this hardware does not expose. The two lines could disagree; now they cannot.",
-        "If Windows refuses to show the permission prompt at all, that is now reported as its own fault rather than as you having declined it."
+        "New Options tab in Settings, sitting just under Panels. It is the home for the things a panel can show that are not your machine's own readings.",
+        "Weather has moved into it, out of General. Nothing about weather changed — same location, same units, same icons, same place to set them, just an easier one to find.",
+        "The tab is built to grow: shortcuts, video and other item links are meant to live here next to weather, and each will appear as its own section as it is built. Nothing is shown until it actually works."
     ],
     "required": false
 }
