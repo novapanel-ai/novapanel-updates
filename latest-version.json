@@ -2,11 +2,16 @@
     "version": "1.1.261",
     "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.261/NovaPanel-v1.1.261.zip",
     "notes": [
-        "Two panel pages were loading a file that was never included in the download, so a piece of each quietly did nothing. The Panel Editor's Spacing tab and the original Gauge theme both ask the same component which shape a panel is…",
-        "The build now refuses to ship a page that loads a file the download does not contain. The existing check only followed the app's own code and could not see a page's scripts and stylesheets, which is how the above went unnoticed through…",
-        "Filling in the panel capability sheet now changes the app directly. Until now the sheet wrote its answers to a file nothing read, and someone had to copy them into the code by hand for anything to happen. The app reads that file itself…",
+        "Two panel pages were loading a file that was never included in the download, so a piece of each quietly did nothing. The Panel Editor's Spacing tab and the original Gauge theme both ask the same component which shape a panel is — landscape, portrait, square, ultrawide or tall — and that component was missing from every release so far. Both fell back to guessing landscape instead of saying anything was wrong. It is now included.",
+        "The build now refuses to ship a page that loads a file the download does not contain. The existing check only followed the app's own code and could not see a page's scripts and stylesheets, which is how the above went unnoticed through every release.",
+        "Filling in the panel capability sheet now changes the app directly. Until now the sheet wrote its answers to a file nothing read, and someone had to copy them into the code by hand for anything to happen. The app reads that file itself now, so ticking a setting on and off is the change. A panel with nothing filled in yet behaves exactly as it does today.",
         "The lowest-tier dropdown on that sheet now does something. It used to record a choice nothing acted on; a setting set above your plan is shown locked rather than simply appearing.",
-        "Corner radius was a working panel setting that was missing from the capability sheet entirely. It is on the list now, so it cannot be dropped by accident."
+        "Corner radius was a working panel setting that was missing from the capability sheet entirely. It is on the list now, so it cannot be dropped by accident.",
+        "The Control Panel has a new look. Obsidian Glint is Sigil's own design system — true black, a single rustic gold, and the instrument-panel density of the hardware panel. It is the default now, on every plan including the free one, so it is simply what the app looks like.",
+        "The previous look, Obsidian Gold, has been retired from the theme picker. If you were on it you will be moved to the new default automatically; nothing needs doing.",
+        "NovaPanel is now Sigil everywhere in the Control Panel — the titlebar, Settings, the Panel Editor and the first-run scan. The old NovaPanel mark has been removed until Sigil's own is ready, so the wordmark now stands on its own, set in the brand face.",
+        "The plan ladder gained an owner-only level above the rest, for internal tools that are never sold and never appear on a pricing page.",
+        "Developer surfaces — the Debug and Testing tabs and Installed Modules — now ask for that owner level by name rather than for whatever happens to sit at the top of the ladder. That is what stops them drifting into a paying customer's reach the day the plan names change. Installs already at the old top are moved up once, automatically, so nothing you could reach before goes missing."
     ],
     "required": false
 }
