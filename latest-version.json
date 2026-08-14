@@ -1,9 +1,11 @@
 {
-    "version": "1.1.257",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.257/NovaPanel-v1.1.257.zip",
+    "version": "1.1.258",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.258/NovaPanel-v1.1.258.zip",
     "notes": [
-        "The 3D icon set no longer shows an icon for fog. That set has no fog picture, and the heavy overcast it was borrowing is a different sky — so it now shows the temperature and location with no icon rather than a near miss. The Line set has…",
-        "The other three stand-ins are kept as they were: Bronze shows cloud for a partly cloudy night and rain for showers, and 3D shows moon-with-cloud for a clear night."
+        "The 3D icon set has its fog icon back. It was there all along — the set has a dense grey haze picture that was misread as another cloud, so v1.1.257 removed a perfectly good icon. Restored.",
+        "The 3D clear-night icon is the crescent moon with stars, and is exact rather than a stand-in as previously listed.",
+        "Showers in the 3D set now use a pale cloud with light rain instead of the sun-and-rain picture, which showed a sun during night-time showers.",
+        "All three sets now cover all ten sky conditions with a real image; only one stand-in remains, in Bronze, which has no moon-behind-cloud picture for a partly cloudy night and shows the cloud."
     ],
     "required": false
 }
