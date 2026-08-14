@@ -1,10 +1,12 @@
 {
-    "version": "1.1.260",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.260/NovaPanel-v1.1.260.zip",
+    "version": "1.1.261",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.261/NovaPanel-v1.1.261.zip",
     "notes": [
-        "New Options tab in Settings, sitting just under Panels. It is the home for the things a panel can show that are not your machine's own readings.",
-        "Weather has moved into it, out of General. Nothing about weather changed — same location, same units, same icons, same place to set them, just an easier one to find.",
-        "The tab is built to grow: shortcuts, video and other item links are meant to live here next to weather, and each will appear as its own section as it is built. Nothing is shown until it actually works."
+        "Two panel pages were loading a file that was never included in the download, so a piece of each quietly did nothing. The Panel Editor's Spacing tab and the original Gauge theme both ask the same component which shape a panel is…",
+        "The build now refuses to ship a page that loads a file the download does not contain. The existing check only followed the app's own code and could not see a page's scripts and stylesheets, which is how the above went unnoticed through…",
+        "Filling in the panel capability sheet now changes the app directly. Until now the sheet wrote its answers to a file nothing read, and someone had to copy them into the code by hand for anything to happen. The app reads that file itself…",
+        "The lowest-tier dropdown on that sheet now does something. It used to record a choice nothing acted on; a setting set above your plan is shown locked rather than simply appearing.",
+        "Corner radius was a working panel setting that was missing from the capability sheet entirely. It is on the list now, so it cannot be dropped by accident."
     ],
     "required": false
 }
