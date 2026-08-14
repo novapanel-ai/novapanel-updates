@@ -1,11 +1,9 @@
 {
-    "version": "1.1.256",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.256/NovaPanel-v1.1.256.zip",
+    "version": "1.1.257",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.257/NovaPanel-v1.1.257.zip",
     "notes": [
-        "The weather icons are now the three supplied sets: Line, Bronze and 3D. They replace the previous stock icon families entirely.",
-        "Every icon in every set is exactly the same size on screen, so changing weather can never nudge anything around it. Each set is kept as one sheet and each icon shows a fixed window onto it, which means the size is decided by the panel…",
-        "The Line set is drawn as a stencil, so it takes the panel accent colour like the clock face does. Bronze and 3D keep their own colours, which is the point of choosing them.",
-        "Four conditions have no exact artwork in their set and use the closest true image rather than an invented one: Bronze shows cloud for a partly cloudy night and rain for showers; 3D shows moon-with-cloud for a clear night and heavy overcast…"
+        "The 3D icon set no longer shows an icon for fog. That set has no fog picture, and the heavy overcast it was borrowing is a different sky — so it now shows the temperature and location with no icon rather than a near miss. The Line set has…",
+        "The other three stand-ins are kept as they were: Bronze shows cloud for a partly cloudy night and rain for showers, and 3D shows moon-with-cloud for a clear night."
     ],
     "required": false
 }
