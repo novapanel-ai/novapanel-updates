@@ -1,10 +1,8 @@
 {
-    "version": "1.1.271",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.271/NovaPanel-v1.1.271.zip",
+    "version": "1.1.272",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.272/NovaPanel-v1.1.272.zip",
     "notes": [
-        "The Control Panel now matches its design exactly. Comparing the theme’s own reference drawing against the running app found nine differences; all of them are gone.",
-        "Text weight is now part of the theme. Ninety-eight weights were fixed in place, which is why the whole window read lighter than the design intended no matter what else changed.",
-        "Section panels, list rows and sidebar headings now take their surface, height and lettering from the theme rather than from the app."
+        "Updated Control Panel theme — Obsidian Glint 1.2.0, a typography pass from its designer. Headings and small text sit at lighter weights, small labels are a step larger, and letter-spacing is now a proper scale rather than a single setting…"
     ],
     "required": false
 }
