@@ -1,10 +1,10 @@
 {
-    "version": "1.1.266",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.266/NovaPanel-v1.1.266.zip",
+    "version": "1.1.267",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.267/NovaPanel-v1.1.267.zip",
     "notes": [
-        "Text now follows the theme. Headings were rendering at 22 pixels against a design drawn to a 17 pixel ceiling, because the app kept its own type scale and the theme had no way to reach it.",
-        "Spacing now follows the theme too. Roughly half the padding in Settings was measured in fixed pixels that no theme could change, which is why the layout stayed loose no matter which theme was selected.",
-        "Buttons now take the theme’s styling. They were using an older class name than the one themes are written against, so every button quietly kept the default look."
+        "Every measurement in Settings and the scan panel now comes from the design system. 347 padding, margin, spacing and text-size values were written as fixed pixels that no theme could reach; they are all bound to the shared scale now, so the…",
+        "Nothing looks different on the default theme. The change was checked by comparing every measurement of every element on both screens before and after — 4,771 values on one, 2,093 on the other, with no difference at all.",
+        "The build now refuses any new fixed measurement in those screens, so this cannot creep back one value at a time."
     ],
     "required": false
 }
