@@ -1,11 +1,10 @@
 {
-    "version": "1.1.265",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.265/NovaPanel-v1.1.265.zip",
+    "version": "1.1.266",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.266/NovaPanel-v1.1.266.zip",
     "notes": [
-        "Icons are now part of the design system. Every icon in Settings — the sidebar, the section headings and the buttons — is a named shape the active theme can replace, one of them or all thirty-six, instead of being drawn into the page where…",
-        "The icons in the section headings were not icons at all. They were text characters pasted into the page, four of them colour emoji that no theme could recolour and which sat oddly against a black-and-gold design. They are real icons now.",
-        "The last of the gold diamonds are gone. Four more were being drawn as clipped shapes rather than decoration, which is why they survived the previous pass.",
-        "Icons take their colour from the text beside them, so they follow whichever theme is active without the theme having to say anything about colour."
+        "Text now follows the theme. Headings were rendering at 22 pixels against a design drawn to a 17 pixel ceiling, because the app kept its own type scale and the theme had no way to reach it.",
+        "Spacing now follows the theme too. Roughly half the padding in Settings was measured in fixed pixels that no theme could change, which is why the layout stayed loose no matter which theme was selected.",
+        "Buttons now take the theme’s styling. They were using an older class name than the one themes are written against, so every button quietly kept the default look."
     ],
     "required": false
 }
