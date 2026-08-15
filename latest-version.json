@@ -1,10 +1,9 @@
 {
-    "version": "1.1.267",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.267/NovaPanel-v1.1.267.zip",
+    "version": "1.1.268",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.268/NovaPanel-v1.1.268.zip",
     "notes": [
-        "Every measurement in Settings and the scan panel now comes from the design system. 347 padding, margin, spacing and text-size values were written as fixed pixels that no theme could reach; they are all bound to the shared scale now, so the…",
-        "Nothing looks different on the default theme. The change was checked by comparing every measurement of every element on both screens before and after — 4,771 values on one, 2,093 on the other, with no difference at all.",
-        "The build now refuses any new fixed measurement in those screens, so this cannot creep back one value at a time."
+        "Design systems can now be updated over time without breaking the themes already written against them. A theme records which version of the system it was built for; if the system has moved on since, the theme still loads and simply uses the…",
+        "A theme is never refused for being old. If it predates something, the app says exactly what it fell back to rather than leaving you to guess why part of a theme looks untouched."
     ],
     "required": false
 }
