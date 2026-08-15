@@ -1,10 +1,9 @@
 {
-    "version": "1.1.262",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.262/NovaPanel-v1.1.262.zip",
+    "version": "1.1.263",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.263/NovaPanel-v1.1.263.zip",
     "notes": [
-        "The new Control Panel look is no longer drawn over by the old one. The previous design had gold brackets at every panel corner and a gold diamond before every heading; those are its signature, not the new theme's, and they were still being…",
-        "The Control Panel theme picker now offers one theme: Obsidian Glint. The three older looks — Slate Cyan, Ash Copper and Monolith — have been retired. They were designed against the previous design system, so next to the new one they read…",
-        "If you had one of them selected, you are moved to the new default automatically and nothing needs doing. They are held rather than deleted, so any of them can be brought back later if it is ever rebuilt against the current design system."
+        "Updated Control Panel theme — Obsidian Glint 1.0.11, a refinement pass from its designer covering panel, row and state-block treatments.",
+        "The Sigil wordmark stays on its own typeface across all the management windows. The updated theme did not carry that rule, so it has been re-applied."
     ],
     "required": false
 }
