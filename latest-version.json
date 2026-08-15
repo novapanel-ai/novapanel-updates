@@ -1,9 +1,10 @@
 {
-    "version": "1.1.263",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.263/NovaPanel-v1.1.263.zip",
+    "version": "1.1.264",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.264/NovaPanel-v1.1.264.zip",
     "notes": [
-        "Updated Control Panel theme — Obsidian Glint 1.0.11, a refinement pass from its designer covering panel, row and state-block treatments.",
-        "The Sigil wordmark stays on its own typeface across all the management windows. The updated theme did not carry that rule, so it has been re-applied."
+        "The app no longer draws decoration of its own over the top of your theme. The gold diamonds before every heading and the gold brackets at every panel corner are gone — they belonged to the previous design, had no way to be switched off by…",
+        "Page titles no longer carry a 26-pixel indent that existed purely to leave room for a diamond that is no longer there.",
+        "The build now refuses any change that reintroduces decoration the design system does not ask for, so this cannot quietly come back."
     ],
     "required": false
 }
