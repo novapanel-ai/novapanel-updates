@@ -1,9 +1,10 @@
 {
-    "version": "1.1.268",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.268/NovaPanel-v1.1.268.zip",
+    "version": "1.1.269",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.269/NovaPanel-v1.1.269.zip",
     "notes": [
-        "Design systems can now be updated over time without breaking the themes already written against them. A theme records which version of the system it was built for; if the system has moved on since, the theme still loads and simply uses the…",
-        "A theme is never refused for being old. If it predates something, the app says exactly what it fell back to rather than leaving you to guess why part of a theme looks untouched."
+        "Rows in Settings are no longer held open at a fixed height. Lists like Installed Modules were locked to 54 pixels a row regardless of the theme, which is why they stayed tall and loose while everything around them tightened up. Row height…",
+        "Corner rounding and the sizes of small elements now come from the theme as well. Another 61 measurements were still fixed in place.",
+        "The build check that guards all of this was rebuilt. It used to look at four kinds of measurement and pass everything else silently, which is how the row height went unnoticed through three rounds of fixes. It now checks every kind, and…"
     ],
     "required": false
 }
