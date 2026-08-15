@@ -1,10 +1,10 @@
 {
-    "version": "1.1.270",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.270/NovaPanel-v1.1.270.zip",
+    "version": "1.1.271",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.271/NovaPanel-v1.1.271.zip",
     "notes": [
-        "New version of the Control Panel theme. It now sets every one of the 90 values the design system exposes, so the whole window follows it rather than just the colours.",
-        "The theme brings its own icons. All thirty are Phosphor Regular, supplied by the theme itself, which means a future theme can replace the entire icon set the same way it replaces colours.",
-        "List rows follow the theme now. They were held at a fixed height that no theme could change, which is why lists stayed loose while everything around them tightened."
+        "The Control Panel now matches its design exactly. Comparing the theme’s own reference drawing against the running app found nine differences; all of them are gone.",
+        "Text weight is now part of the theme. Ninety-eight weights were fixed in place, which is why the whole window read lighter than the design intended no matter what else changed.",
+        "Section panels, list rows and sidebar headings now take their surface, height and lettering from the theme rather than from the app."
     ],
     "required": false
 }
