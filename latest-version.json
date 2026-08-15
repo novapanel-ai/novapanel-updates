@@ -1,10 +1,11 @@
 {
-    "version": "1.1.264",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.264/NovaPanel-v1.1.264.zip",
+    "version": "1.1.265",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.265/NovaPanel-v1.1.265.zip",
     "notes": [
-        "The app no longer draws decoration of its own over the top of your theme. The gold diamonds before every heading and the gold brackets at every panel corner are gone — they belonged to the previous design, had no way to be switched off by…",
-        "Page titles no longer carry a 26-pixel indent that existed purely to leave room for a diamond that is no longer there.",
-        "The build now refuses any change that reintroduces decoration the design system does not ask for, so this cannot quietly come back."
+        "Icons are now part of the design system. Every icon in Settings — the sidebar, the section headings and the buttons — is a named shape the active theme can replace, one of them or all thirty-six, instead of being drawn into the page where…",
+        "The icons in the section headings were not icons at all. They were text characters pasted into the page, four of them colour emoji that no theme could recolour and which sat oddly against a black-and-gold design. They are real icons now.",
+        "The last of the gold diamonds are gone. Four more were being drawn as clipped shapes rather than decoration, which is why they survived the previous pass.",
+        "Icons take their colour from the text beside them, so they follow whichever theme is active without the theme having to say anything about colour."
     ],
     "required": false
 }
