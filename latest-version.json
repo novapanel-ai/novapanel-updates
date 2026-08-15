@@ -1,10 +1,10 @@
 {
-    "version": "1.1.269",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.269/NovaPanel-v1.1.269.zip",
+    "version": "1.1.270",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.270/NovaPanel-v1.1.270.zip",
     "notes": [
-        "Rows in Settings are no longer held open at a fixed height. Lists like Installed Modules were locked to 54 pixels a row regardless of the theme, which is why they stayed tall and loose while everything around them tightened up. Row height…",
-        "Corner rounding and the sizes of small elements now come from the theme as well. Another 61 measurements were still fixed in place.",
-        "The build check that guards all of this was rebuilt. It used to look at four kinds of measurement and pass everything else silently, which is how the row height went unnoticed through three rounds of fixes. It now checks every kind, and…"
+        "New version of the Control Panel theme. It now sets every one of the 90 values the design system exposes, so the whole window follows it rather than just the colours.",
+        "The theme brings its own icons. All thirty are Phosphor Regular, supplied by the theme itself, which means a future theme can replace the entire icon set the same way it replaces colours.",
+        "List rows follow the theme now. They were held at a fixed height that no theme could change, which is why lists stayed loose while everything around them tightened."
     ],
     "required": false
 }
