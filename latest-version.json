@@ -1,10 +1,8 @@
 {
-    "version": "1.1.274",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.274/NovaPanel-v1.1.274.zip",
+    "version": "1.1.275",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.275/NovaPanel-v1.1.275.zip",
     "notes": [
-        "The Hardware Scan now follows the current theme. It was using a different set of names for the same rows as the rest of Settings, so no theme rule ever reached it and it kept the old look.",
-        "Less repeated text. Where a card is headed CPU, the row beneath no longer also says Model — the same for the graphics cards and memory. Cards listing several different things keep their labels, because there the label is what tells the…",
-        "No more sentences in capitals. Section subtitles and the hardware discovery descriptions were being shouted; capitals are now kept for short labels only."
+        "The smaller Control Panel window now actually applies. The new size only affected brand-new installs, because a window you had ever resized kept its saved size instead. It is applied once now, and any resize you make after that is kept for…"
     ],
     "required": false
 }
