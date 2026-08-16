@@ -1,11 +1,8 @@
 {
-    "version": "1.1.287",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.287/NovaPanel-v1.1.287.zip",
+    "version": "1.1.288",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.288/NovaPanel-v1.1.288.zip",
     "notes": [
-        "The 3D weather icons can now actually be chosen. Selecting them appeared to work and never saved: the check that validates the setting required the name to begin with a letter, and this one begins with a 3. The picker also lit up the tile…",
-        "The subscription tiers carry their proper names: Cantrip, Glamour, Seer, Warden, Artificer and God Mode. What each one includes is described properly too; the top two tiers previously had no description at all.",
-        "Fixed the theme chooser again. One theme's description ran seven times longer than the others, so its card towered over them. Descriptions are now capped at three lines with the full text on hover, and the cards sit as an even block of…",
-        "About no longer renders in a heavy monospaced face. It was built from the element used for sensor readouts, where that face exists to line numbers up in a column; it now uses one meant for sentences."
+        "Theme updates from an outside author no longer undo two fixes made here. A new theme file replaces everything in it, so a corrected card width and a shortened description were both being reintroduced on every drop; the import step now…"
     ],
     "required": false
 }
