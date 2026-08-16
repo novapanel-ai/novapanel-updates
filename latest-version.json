@@ -1,8 +1,8 @@
 {
-    "version": "1.1.277",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.277/NovaPanel-v1.1.277.zip",
+    "version": "1.1.278",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.278/NovaPanel-v1.1.278.zip",
     "notes": [
-        "Spacing fixes where things were touching. The note above the tier buttons sat flush against them, and the navigation items had no separation from each other or from their group heading."
+        "Removed styling for parts of the interface that no longer exist, left behind when the page headings were simplified."
     ],
     "required": false
 }
