@@ -1,11 +1,11 @@
 {
-    "version": "1.1.286",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.286/NovaPanel-v1.1.286.zip",
+    "version": "1.1.287",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.287/NovaPanel-v1.1.287.zip",
     "notes": [
-        "Three new Control Panel themes: Vellum — bone paper, ink black and oxblood, light and roomy. Cobalt Works — blueprint steel, cobalt and signal orange, set entirely in a monospaced face. Ultraviolet — glass surfaces, violet to magenta, soft…",
-        "Each carries a different feel, not just a different palette: Vellum uses sentence-case labels and taller rows, Cobalt Works squares off every corner, Ultraviolet rounds them. None of that was possible until this week — those were fixed in…",
-        "Vellum is the first light theme. The interface was built dark-first, and it reads correctly on paper without a second set of rules.",
-        "All three failed the readability standard when first written, at ratios low enough to make footer text hard to read. Corrected, and the build now measures contrast on every theme rather than trusting that someone checked."
+        "The 3D weather icons can now actually be chosen. Selecting them appeared to work and never saved: the check that validates the setting required the name to begin with a letter, and this one begins with a 3. The picker also lit up the tile…",
+        "The subscription tiers carry their proper names: Cantrip, Glamour, Seer, Warden, Artificer and God Mode. What each one includes is described properly too; the top two tiers previously had no description at all.",
+        "Fixed the theme chooser again. One theme's description ran seven times longer than the others, so its card towered over them. Descriptions are now capped at three lines with the full text on hover, and the cards sit as an even block of…",
+        "About no longer renders in a heavy monospaced face. It was built from the element used for sensor readouts, where that face exists to line numbers up in a column; it now uses one meant for sentences."
     ],
     "required": false
 }
