@@ -1,9 +1,9 @@
 {
-    "version": "1.1.281",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.281/NovaPanel-v1.1.281.zip",
+    "version": "1.1.282",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.282/NovaPanel-v1.1.282.zip",
     "notes": [
-        "Letter spacing and line height are now part of the theme. Ninety-one typographic values were fixed in place, so a theme could change every colour and size in the window and still not change how tightly the letters sit or how paragraphs…",
-        "Nothing looks different — every value maps to the one it replaced, checked across both windows with no difference at all."
+        "Sigil no longer contacts Google to draw its own interface. All three Control Panel windows were fetching fonts from the internet every time they opened, and were asking for five typefaces while using two. Both are now included with the app.",
+        "The Control Panel works the same offline as online, and is no longer permitted to load anything from an outside address."
     ],
     "required": false
 }
