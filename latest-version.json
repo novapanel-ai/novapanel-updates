@@ -1,8 +1,9 @@
 {
-    "version": "1.1.278",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.278/NovaPanel-v1.1.278.zip",
+    "version": "1.1.279",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.279/NovaPanel-v1.1.279.zip",
     "notes": [
-        "Removed styling for parts of the interface that no longer exist, left behind when the page headings were simplified."
+        "The design system now owns how the Control Panel looks. Twelve hundred styling rules lived in the application rather than the design system, which is why a new theme could recolour the window but never really replace its design. They have…",
+        "Nothing looks different. The move was checked by comparing every measurement of every element on both windows before and after — just under thirty thousand values, with no difference at all."
     ],
     "required": false
 }
