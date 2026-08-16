@@ -1,11 +1,11 @@
 {
-    "version": "1.1.284",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.284/NovaPanel-v1.1.284.zip",
+    "version": "1.1.285",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.285/NovaPanel-v1.1.285.zip",
     "notes": [
-        "Every colour in the Control Panel is now something a theme can change. Fifty-one were written into the code directly — including a gold the theme could not reach, a second shade of red, and a set of status colours borrowed from an…",
-        "The same was true of 183 more settings a theme had no way to touch: whether labels are capitalised, how heavy a shadow falls, how fast things fade, and how an empty value reads. All are now part of the design system, with the build…",
-        "Fixed a fault introduced while making that change: three of the new settings were defined for some themes and not others, so under the theme you are running they did nothing at all. Found by reading the running app rather than the code.…",
-        "Two controls were defined twice in different places and disagreed — the window close button and the footer text. Both resolved to a single definition."
+        "The Control Panel now opens at the narrower width you set. Your current height is kept — the update changes only the width you asked about.",
+        "Removed the large version number beside the title. It was the third place the version appeared; the footer keeps the one that stays.",
+        "That number was already marked 'never show' in the app's own visibility register and had been rendering anyway for four days, because a stylesheet forced it visible in a way the register could not override. The element is deleted rather…",
+        "Rewrote About. It said one sentence and had been marked a placeholder since the 9th. It now says what reads your sensors, that nothing about your machine leaves it, and exactly what does connect out — update checks, and weather if you turn…"
     ],
     "required": false
 }
