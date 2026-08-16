@@ -1,11 +1,8 @@
 {
-    "version": "1.1.290",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.290/NovaPanel-v1.1.290.zip",
+    "version": "1.1.291",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.291/NovaPanel-v1.1.291.zip",
     "notes": [
-        "The three new themes are colour changes only. They were also changing typeface, corner shape, row height and label case — which is what an installed design system does, not a palette. The rule was already written down and this build did…",
-        "They move to Glamour, where a recolour belongs, and their descriptions no longer promise changes they do not make.",
-        "Card buttons sit below the thumbnail instead of on top of it. A thumbnail shows whatever that panel actually looks like, so no amount of shading makes a button reliably readable over it.",
-        "The Control Panel opens at the size you set."
+        "The Control Panel opens at 800 by 752 — the size on screen, measured rather than estimated."
     ],
     "required": false
 }
