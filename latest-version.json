@@ -1,8 +1,10 @@
 {
-    "version": "1.1.272",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.272/NovaPanel-v1.1.272.zip",
+    "version": "1.1.273",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.273/NovaPanel-v1.1.273.zip",
     "notes": [
-        "Updated Control Panel theme — Obsidian Glint 1.2.0, a typography pass from its designer. Headings and small text sit at lighter weights, small labels are a step larger, and letter-spacing is now a proper scale rather than a single setting…"
+        "Section headings no longer carry icons. The theme does not use them there, and it now says so itself rather than the app deciding — a theme that wants heading icons simply leaves that out.",
+        "Icons inside buttons take the colour of the button’s own text. On the gold primary button the icon was rendering white against a light fill, which was hard to read.",
+        "The Control Panel window opens smaller, matching the tighter spacing of the current theme. It can still be dragged smaller than before if you want it out of the way."
     ],
     "required": false
 }
