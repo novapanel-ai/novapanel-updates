@@ -1,11 +1,11 @@
 {
-    "version": "1.1.285",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.285/NovaPanel-v1.1.285.zip",
+    "version": "1.1.286",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.286/NovaPanel-v1.1.286.zip",
     "notes": [
-        "The Control Panel now opens at the narrower width you set. Your current height is kept — the update changes only the width you asked about.",
-        "Removed the large version number beside the title. It was the third place the version appeared; the footer keeps the one that stays.",
-        "That number was already marked 'never show' in the app's own visibility register and had been rendering anyway for four days, because a stylesheet forced it visible in a way the register could not override. The element is deleted rather…",
-        "Rewrote About. It said one sentence and had been marked a placeholder since the 9th. It now says what reads your sensors, that nothing about your machine leaves it, and exactly what does connect out — update checks, and weather if you turn…"
+        "Three new Control Panel themes: Vellum — bone paper, ink black and oxblood, light and roomy. Cobalt Works — blueprint steel, cobalt and signal orange, set entirely in a monospaced face. Ultraviolet — glass surfaces, violet to magenta, soft…",
+        "Each carries a different feel, not just a different palette: Vellum uses sentence-case labels and taller rows, Cobalt Works squares off every corner, Ultraviolet rounds them. None of that was possible until this week — those were fixed in…",
+        "Vellum is the first light theme. The interface was built dark-first, and it reads correctly on paper without a second set of rules.",
+        "All three failed the readability standard when first written, at ratios low enough to make footer text hard to read. Corrected, and the build now measures contrast on every theme rather than trusting that someone checked."
     ],
     "required": false
 }
