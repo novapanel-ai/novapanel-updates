@@ -1,10 +1,8 @@
 {
-    "version": "1.1.276",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.276/NovaPanel-v1.1.276.zip",
+    "version": "1.1.277",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.277/NovaPanel-v1.1.277.zip",
     "notes": [
-        "The page heading now lines up with the content below it. The General tab was built from a different heading structure than every other tab, and a leftover spacer inside it pushed the whole block to the right.",
-        "Every page is down to a single heading. The line above it repeated the tab you had just clicked, and the line below it described the page in words the heading already said.",
-        "The navigation icons are gone and the sidebar is narrower — 170 pixels instead of 240, for text that is only 72 pixels wide."
+        "Spacing fixes where things were touching. The note above the tier buttons sat flush against them, and the navigation items had no separation from each other or from their group heading."
     ],
     "required": false
 }
