@@ -1,10 +1,10 @@
 {
-    "version": "1.1.273",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.273/NovaPanel-v1.1.273.zip",
+    "version": "1.1.274",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.274/NovaPanel-v1.1.274.zip",
     "notes": [
-        "Section headings no longer carry icons. The theme does not use them there, and it now says so itself rather than the app deciding — a theme that wants heading icons simply leaves that out.",
-        "Icons inside buttons take the colour of the button’s own text. On the gold primary button the icon was rendering white against a light fill, which was hard to read.",
-        "The Control Panel window opens smaller, matching the tighter spacing of the current theme. It can still be dragged smaller than before if you want it out of the way."
+        "The Hardware Scan now follows the current theme. It was using a different set of names for the same rows as the rest of Settings, so no theme rule ever reached it and it kept the old look.",
+        "Less repeated text. Where a card is headed CPU, the row beneath no longer also says Model — the same for the graphics cards and memory. Cards listing several different things keep their labels, because there the label is what tells the…",
+        "No more sentences in capitals. Section subtitles and the hardware discovery descriptions were being shouted; capitals are now kept for short labels only."
     ],
     "required": false
 }
