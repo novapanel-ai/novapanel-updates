@@ -1,11 +1,11 @@
 {
-    "version": "1.1.283",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.283/NovaPanel-v1.1.283.zip",
+    "version": "1.1.284",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.284/NovaPanel-v1.1.284.zip",
     "notes": [
-        "Fixed the Appearance tab, which drew the theme chooser as a narrow strip of wrapped text inside a full-width panel. The card grid reserved three fixed columns and kept the two it could not fill, which only looked right while four themes…",
-        "The cause sat in the theme file, not the app: a theme was defining the grid itself, and theme styling is applied last, so the app's own correction had no effect. Themes now state card width as a value the app reads, and a build check…",
-        "Removed the 'np' naming layer left over from the product's former name — 44 duplicate style names and 40 pass-through values that forwarded to another value and decided nothing. Proven to change nothing visible: 211,680 measured style…",
-        "Collapsing that layer exposed two genuine defects it had been hiding. The window close button was defined twice with different sizes, so it rendered at 14px in Settings and 13px in the Panel Editor; both now match. And an icon rule could…"
+        "Every colour in the Control Panel is now something a theme can change. Fifty-one were written into the code directly — including a gold the theme could not reach, a second shade of red, and a set of status colours borrowed from an…",
+        "The same was true of 183 more settings a theme had no way to touch: whether labels are capitalised, how heavy a shadow falls, how fast things fade, and how an empty value reads. All are now part of the design system, with the build…",
+        "Fixed a fault introduced while making that change: three of the new settings were defined for some themes and not others, so under the theme you are running they did nothing at all. Found by reading the running app rather than the code.…",
+        "Two controls were defined twice in different places and disagreed — the window close button and the footer text. Both resolved to a single definition."
     ],
     "required": false
 }
