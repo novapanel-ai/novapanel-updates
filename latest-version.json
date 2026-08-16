@@ -1,9 +1,11 @@
 {
-    "version": "1.1.282",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.282/NovaPanel-v1.1.282.zip",
+    "version": "1.1.283",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.283/NovaPanel-v1.1.283.zip",
     "notes": [
-        "Sigil no longer contacts Google to draw its own interface. All three Control Panel windows were fetching fonts from the internet every time they opened, and were asking for five typefaces while using two. Both are now included with the app.",
-        "The Control Panel works the same offline as online, and is no longer permitted to load anything from an outside address."
+        "Fixed the Appearance tab, which drew the theme chooser as a narrow strip of wrapped text inside a full-width panel. The card grid reserved three fixed columns and kept the two it could not fill, which only looked right while four themes…",
+        "The cause sat in the theme file, not the app: a theme was defining the grid itself, and theme styling is applied last, so the app's own correction had no effect. Themes now state card width as a value the app reads, and a build check…",
+        "Removed the 'np' naming layer left over from the product's former name — 44 duplicate style names and 40 pass-through values that forwarded to another value and decided nothing. Proven to change nothing visible: 211,680 measured style…",
+        "Collapsing that layer exposed two genuine defects it had been hiding. The window close button was defined twice with different sizes, so it rendered at 14px in Settings and 13px in the Panel Editor; both now match. And an icon rule could…"
     ],
     "required": false
 }
