@@ -1,10 +1,11 @@
 {
-    "version": "1.1.289",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.289/NovaPanel-v1.1.289.zip",
+    "version": "1.1.290",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.290/NovaPanel-v1.1.290.zip",
     "notes": [
-        "Every theme other than Obsidian Glint was showing large blocks of the old default's gold behind panels. Four small corner marks were being stretched to the full size of the panel they decorated, and their colour was written into the app in…",
-        "The marks are removed rather than recoloured. They were decoration the app drew for itself, they were supposed to have gone on the 15th, and the only way a theme could ever have switched them off was a setting that turned out to be…",
-        "Nothing had reported this because the default theme happened to paint over the area entirely — so the one theme in daily use was hiding a fault that every other theme exposed. The build now checks for colour written inside embedded images…"
+        "The three new themes are colour changes only. They were also changing typeface, corner shape, row height and label case — which is what an installed design system does, not a palette. The rule was already written down and this build did…",
+        "They move to Glamour, where a recolour belongs, and their descriptions no longer promise changes they do not make.",
+        "Card buttons sit below the thumbnail instead of on top of it. A thumbnail shows whatever that panel actually looks like, so no amount of shading makes a button reliably readable over it.",
+        "The Control Panel opens at the size you set."
     ],
     "required": false
 }
