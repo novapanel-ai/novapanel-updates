@@ -1,8 +1,10 @@
 {
-    "version": "1.1.288",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.288/NovaPanel-v1.1.288.zip",
+    "version": "1.1.289",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.289/NovaPanel-v1.1.289.zip",
     "notes": [
-        "Theme updates from an outside author no longer undo two fixes made here. A new theme file replaces everything in it, so a corrected card width and a shortened description were both being reintroduced on every drop; the import step now…"
+        "Every theme other than Obsidian Glint was showing large blocks of the old default's gold behind panels. Four small corner marks were being stretched to the full size of the panel they decorated, and their colour was written into the app in…",
+        "The marks are removed rather than recoloured. They were decoration the app drew for itself, they were supposed to have gone on the 15th, and the only way a theme could ever have switched them off was a setting that turned out to be…",
+        "Nothing had reported this because the default theme happened to paint over the area entirely — so the one theme in daily use was hiding a fault that every other theme exposed. The build now checks for colour written inside embedded images…"
     ],
     "required": false
 }
