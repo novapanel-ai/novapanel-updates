@@ -1,10 +1,10 @@
 {
-    "version": "1.1.305",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.305/NovaPanel-v1.1.305.zip",
+    "version": "1.1.306",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.306/NovaPanel-v1.1.306.zip",
     "notes": [
-        "Fixed the thin text. The Control Panel had been setting its whole window to Light (300) because of a line left over from the first design system, when the reading font was Kanit 300. It has not been Kanit for two revisions — it is Segoe UI…",
-        "Labels now have one setting instead of forty-nine. There were 49 classes doing the job of a label and five different answers to how heavy one should be, and 38 of them gave no answer at all. A design system can now set two values — one for…",
-        "Measured in the running app: 4,900 pieces of text changed weight and nothing else moved. A control pass with no change to the styling confirmed the difference was the styling and not the app drifting between runs."
+        "Three pieces of the Control Panel were rendering in fonts the design system never chose, because form controls do not inherit type from the page. The minimise and close buttons were in Arial. The debug roles table was in a generic…",
+        "Fixed the cause rather than the three symptoms: buttons, inputs, selects and textareas now inherit type, so the next control anyone adds is correct by default instead of joining that list. The debug table also had its font hardcoded…",
+        "Verified in the running app: Arial gone, generic monospace gone, the browser size gone, and the fields that already had a design-system font kept it."
     ],
     "required": false
 }
