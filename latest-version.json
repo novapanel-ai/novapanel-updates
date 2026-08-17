@@ -1,9 +1,10 @@
 {
-    "version": "1.1.303",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.303/NovaPanel-v1.1.303.zip",
+    "version": "1.1.304",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.304/NovaPanel-v1.1.304.zip",
     "notes": [
-        "Cut down what the System Scan screen says about data. It now says the one thing that matters — nothing personal leaves your PC; Sigil looks at your hardware and how it behaves, never your files, accounts, or what you type or browse — and…",
-        "Fitted that screen to its window. The text had grown about 100px past the bottom, so the last few lines sat below the fold behind a scrollbar. Measured in the running app: nothing is cut off now."
+        "Merged eight duplicated style rules in the Control Panel. Where two rules defined the same thing, the first one never rendered and nothing in the codebase could say so — now there is one rule each. Checked against the running app: 442,260…",
+        "Found that the count of remaining duplicates was wrong. It said 45; there are 9. The check that produced it was counting ordinary CSS as a duplicate, so the number looked like debt that was not there. It now counts the three real cases…",
+        "Found something worse while doing it: the tool that proves a style change is safe had been running at the lowest tier, so three tabs — Appearance, Advisor and Themes — were never actually checked. It now runs with everything unlocked, and…"
     ],
     "required": false
 }
