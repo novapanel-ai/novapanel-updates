@@ -1,10 +1,9 @@
 {
-    "version": "1.1.300",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.300/NovaPanel-v1.1.300.zip",
+    "version": "1.1.301",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.301/NovaPanel-v1.1.301.zip",
     "notes": [
-        "Corrected the System Scan introduction. The previous version said components and sensors only, and that was wrong: the scan also looks at the monitoring, benchmarking and game software you have installed — including individual game titles…",
-        "It now says so up front, and explains why it matters: some of those tools unlock readings Sigil cannot get on its own, and Sigil will recommend the ones worth adding.",
-        "The privacy wording is narrower and checkable. Sigil records what is installed, never what you do with it, and nothing leaves the machine — the scan makes no outbound connections at all, and the snapshot is a file on your PC you can open."
+        "Started clearing a backlog of styles defined twice in the same file — pairs of rules that disagreed, where the second silently won and the first had never rendered. Fourteen are now single definitions, with no visible change: 421,632…",
+        "Four were deliberately left alone. In each case another rule sits between the two definitions, and merging them would quietly change which one wins — the kind of one-in-a-thousand change that does not show up in a spot check."
     ],
     "required": false
 }
