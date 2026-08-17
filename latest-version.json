@@ -1,11 +1,10 @@
 {
-    "version": "1.1.298",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.298/NovaPanel-v1.1.298.zip",
+    "version": "1.1.299",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.299/NovaPanel-v1.1.299.zip",
     "notes": [
-        "Appearance now has two controls: a dropdown to choose the design system, and colour palettes below it. They are two different decisions and until this week the app could not tell them apart.",
-        "A new card, 'Design system colours', returns to whatever palette the design system ships with — without it, choosing a palette was a one-way door.",
-        "Installing a design system is now one command. Three corrections that had to be run by hand on every incoming theme are part of the install and report what they changed; on the last drop that was 83 out-of-date names, 521 rules rescoped…",
-        "Your existing choice carries over: whatever you had selected becomes either the design system or the palette, whichever it actually was."
+        "Rewrote the System Scan introduction. It now introduces what a glint is, says plainly that nothing personal is collected — components and sensors only, and it stays on your machine — tells you the snapshot is written to a file you can open…",
+        "It no longer lists what the scan looks for. Sigil reads considerably more than the three things that sentence named.",
+        "The version number moved to the bottom left, replacing text that repeated the title bar. The scan icon was painted in the colour of the theme retired on the 14th, written into the page itself where no theme could reach it; it now follows…"
     ],
     "required": false
 }
