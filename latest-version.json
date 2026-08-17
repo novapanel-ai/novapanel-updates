@@ -1,10 +1,10 @@
 {
-    "version": "1.1.304",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.304/NovaPanel-v1.1.304.zip",
+    "version": "1.1.305",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.305/NovaPanel-v1.1.305.zip",
     "notes": [
-        "Merged eight duplicated style rules in the Control Panel. Where two rules defined the same thing, the first one never rendered and nothing in the codebase could say so — now there is one rule each. Checked against the running app: 442,260…",
-        "Found that the count of remaining duplicates was wrong. It said 45; there are 9. The check that produced it was counting ordinary CSS as a duplicate, so the number looked like debt that was not there. It now counts the three real cases…",
-        "Found something worse while doing it: the tool that proves a style change is safe had been running at the lowest tier, so three tabs — Appearance, Advisor and Themes — were never actually checked. It now runs with everything unlocked, and…"
+        "Fixed the thin text. The Control Panel had been setting its whole window to Light (300) because of a line left over from the first design system, when the reading font was Kanit 300. It has not been Kanit for two revisions — it is Segoe UI…",
+        "Labels now have one setting instead of forty-nine. There were 49 classes doing the job of a label and five different answers to how heavy one should be, and 38 of them gave no answer at all. A design system can now set two values — one for…",
+        "Measured in the running app: 4,900 pieces of text changed weight and nothing else moved. A control pass with no change to the styling confirmed the difference was the styling and not the app drifting between runs."
     ],
     "required": false
 }
