@@ -1,11 +1,9 @@
 {
-    "version": "1.1.307",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.307/NovaPanel-v1.1.307.zip",
+    "version": "1.1.308",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.308/NovaPanel-v1.1.308.zip",
     "notes": [
-        "Cut the number of different text treatments down so the Control Panel reads as one thing instead of many. 97 style declarations were changed to sit on the ladder the design system already describes: sizes 11/12/13/14/17, four weights, and…",
-        "Light text is retired. The design system says outright that it is not consumed, and the app was using it in 27 places, most of which were secondary copy that now sits at normal weight.",
-        "Removed tracking from body text. Values like 0.015em are a difference nobody can see and a variation everybody counts; they were multiplying the number of distinct styles for no visible benefit.",
-        "Found and fixed a whole stylesheet that had never been checked by anything. The theme tab has its own stylesheet which was not in any of the design-system checks, and it was carrying nine hardcoded font sizes. The checks now read the…"
+        "Removed two false claims from the About section. It said sensor readings are never uploaded and that nothing else contacts the network. Neither is true: Sigil sends occasional snapshots and it verifies a licence. Those lines were written…",
+        "About is now about the product — what Sigil is, what it does with your hardware, how far you can take the look, and where it is heading. The accurate account of what is collected lives on the System Scan screen, where you meet it before…"
     ],
     "required": false
 }
