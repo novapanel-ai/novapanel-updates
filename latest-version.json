@@ -1,8 +1,10 @@
 {
-    "version": "1.1.291",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.291/NovaPanel-v1.1.291.zip",
+    "version": "1.1.292",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.292/NovaPanel-v1.1.292.zip",
     "notes": [
-        "The Control Panel opens at 800 by 752 — the size on screen, measured rather than estimated."
+        "The Debug tab was reporting a system that no longer exists. Five readings — archetype, density, hero, surface role and reason — came from a placeholder left behind when that subsystem was removed in July; it returned the same five fixed…",
+        "Two other readings there were printed as internal codes rather than words, and now read as sentences.",
+        "Checked the text on every tab. Everything a customer sees reads correctly; the problems were confined to the developer tab."
     ],
     "required": false
 }
