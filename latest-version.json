@@ -1,9 +1,9 @@
 {
-    "version": "1.1.308",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.308/NovaPanel-v1.1.308.zip",
+    "version": "1.1.309",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.309/NovaPanel-v1.1.309.zip",
     "notes": [
-        "Removed two false claims from the About section. It said sensor readings are never uploaded and that nothing else contacts the network. Neither is true: Sigil sends occasional snapshots and it verifies a licence. Those lines were written…",
-        "About is now about the product — what Sigil is, what it does with your hardware, how far you can take the look, and where it is heading. The accurate account of what is collected lives on the System Scan screen, where you meet it before…"
+        "Rewrote the About section as marketing rather than a spec sheet. It now leads with what is actually happening under the glass and why anyone would want to look at it, and it leans on the language the product already speaks — Sigil, glints…",
+        "The theme is sold as the thing it is: not a colour picker, but a switch that transfigures type, spacing, shape and motion across the Control Panel and your glints at once. Same machine, same numbers, different spell."
     ],
     "required": false
 }
