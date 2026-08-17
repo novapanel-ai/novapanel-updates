@@ -1,10 +1,11 @@
 {
-    "version": "1.1.296",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.296/NovaPanel-v1.1.296.zip",
+    "version": "1.1.297",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.297/NovaPanel-v1.1.297.zip",
     "notes": [
-        "The theme tester now shows the theme you are actually using. It was locked to the palette retired on the 14th — not a styling problem: nothing in that window was ever told which design system was live, so it kept rendering the previous…",
-        "System Scan had two titles saying the same thing in different words. One is gone.",
-        "Debug labels are no longer shouted in capitals, and their values are no longer bold — forty rows of bold emphasises nothing."
+        "Colour palettes now change only colour. Vellum turns the Control Panel to bone paper, Cobalt Works to blueprint steel, Ultraviolet to violet — and the typeface, spacing, corners and motion stay exactly as the design system sets them.",
+        "This was not possible before. Choosing a palette used to switch off the design system entirely, because one setting was carrying two jobs at once — which design system is in force, and which colours it uses. They are separate now.",
+        "The shipped theme also wrote pure black into thirty of its own rules instead of asking for the background colour, so no palette could change the page. Those now go through the design system, and incoming themes are corrected the same way…",
+        "All three palettes checked for readability against the new styling: no failures."
     ],
     "required": false
 }
