@@ -1,10 +1,9 @@
 {
-    "version": "1.1.302",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.302/NovaPanel-v1.1.302.zip",
+    "version": "1.1.303",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.303/NovaPanel-v1.1.303.zip",
     "notes": [
-        "Corrected the privacy line on the System Scan screen. It said nothing leaves your machine, which is not true — a hardware summary is shared with us, and that is how Sigil gets better. What never leaves is anything personal: your files…",
-        "Trimmed the rest of that screen and rewrote the closing line, and dropped the stray dot before the version number.",
-        "Fixed a real fault behind the scan screen: if the Control Panel had been open when you last quit, it reopened on a timer during the scan step — straight past the rule that the scan must finish first. The scan screen now stands alone, and…"
+        "Cut down what the System Scan screen says about data. It now says the one thing that matters — nothing personal leaves your PC; Sigil looks at your hardware and how it behaves, never your files, accounts, or what you type or browse — and…",
+        "Fitted that screen to its window. The text had grown about 100px past the bottom, so the last few lines sat below the fold behind a scrollbar. Measured in the running app: nothing is cut off now."
     ],
     "required": false
 }
