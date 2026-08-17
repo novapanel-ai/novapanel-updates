@@ -1,10 +1,11 @@
 {
-    "version": "1.1.294",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.294/NovaPanel-v1.1.294.zip",
+    "version": "1.1.295",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.295/NovaPanel-v1.1.295.zip",
     "notes": [
-        "Obsidian Glint 1.4.0, and the whole Control Panel now moves at the theme's pace. Every animation in the app was timed by numbers no theme could reach; the theme's own timings — noticeably quicker than the defaults — now drive all of them.",
-        "Arriving and leaving are no longer the same motion. One curve was doing both jobs, which made anything being dismissed look like it faded rather than left.",
-        "The theme author raised these as a formal report rather than working around them quietly. Two of the three are fixed here; the third needs a product decision and is written down rather than guessed at."
+        "The primary button has its gold fill back. The theme was styling two button names the app no longer uses, so none of its button styling reached them — and its general button rule then overrode the app's own. 83 out-of-date names in the…",
+        "Buttons were 19 pixels tall — the height of their text and nothing more, because the theme removes the padding and expects a height that was never applied. Buttons now have a floor, set from the height the theme itself asks for.",
+        "Machine names like ASUSTeK and ROG Zephyrus were rendering in a typewriter face. That value style was defined twice in our own design system, disagreeing, and the second one won. It is one definition now, on the reading face.",
+        "Tier descriptions were set at label size. They are body size now — the contrast was always fine, which is why nothing flagged it."
     ],
     "required": false
 }
