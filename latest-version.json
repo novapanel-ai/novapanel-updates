@@ -1,10 +1,10 @@
 {
-    "version": "1.1.293",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.293/NovaPanel-v1.1.293.zip",
+    "version": "1.1.294",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.294/NovaPanel-v1.1.294.zip",
     "notes": [
-        "Obsidian Glint updated to 1.3.1. It now sets its own shadow colour, status colours, label casing and the styling for missing values — all things the app decided for it until this week.",
-        "It also stopped defining layout it does not own: 72 of those instructions are gone, and the theme chooser's grid is left to the app, which is what broke the Appearance tab yesterday.",
-        "The import check that re-applies our own fixes to an incoming theme had two tests that could never pass — they looked for a comment only we write, so they would have kept adding rules this theme already had. They now test the styling…"
+        "Obsidian Glint 1.4.0, and the whole Control Panel now moves at the theme's pace. Every animation in the app was timed by numbers no theme could reach; the theme's own timings — noticeably quicker than the defaults — now drive all of them.",
+        "Arriving and leaving are no longer the same motion. One curve was doing both jobs, which made anything being dismissed look like it faded rather than left.",
+        "The theme author raised these as a formal report rather than working around them quietly. Two of the three are fixed here; the third needs a product decision and is written down rather than guessed at."
     ],
     "required": false
 }
