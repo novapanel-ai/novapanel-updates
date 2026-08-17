@@ -1,11 +1,10 @@
 {
-    "version": "1.1.295",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.295/NovaPanel-v1.1.295.zip",
+    "version": "1.1.296",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.296/NovaPanel-v1.1.296.zip",
     "notes": [
-        "The primary button has its gold fill back. The theme was styling two button names the app no longer uses, so none of its button styling reached them — and its general button rule then overrode the app's own. 83 out-of-date names in the…",
-        "Buttons were 19 pixels tall — the height of their text and nothing more, because the theme removes the padding and expects a height that was never applied. Buttons now have a floor, set from the height the theme itself asks for.",
-        "Machine names like ASUSTeK and ROG Zephyrus were rendering in a typewriter face. That value style was defined twice in our own design system, disagreeing, and the second one won. It is one definition now, on the reading face.",
-        "Tier descriptions were set at label size. They are body size now — the contrast was always fine, which is why nothing flagged it."
+        "The theme tester now shows the theme you are actually using. It was locked to the palette retired on the 14th — not a styling problem: nothing in that window was ever told which design system was live, so it kept rendering the previous…",
+        "System Scan had two titles saying the same thing in different words. One is gone.",
+        "Debug labels are no longer shouted in capitals, and their values are no longer bold — forty rows of bold emphasises nothing."
     ],
     "required": false
 }
