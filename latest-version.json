@@ -1,9 +1,10 @@
 {
-    "version": "1.1.301",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.301/NovaPanel-v1.1.301.zip",
+    "version": "1.1.302",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.302/NovaPanel-v1.1.302.zip",
     "notes": [
-        "Started clearing a backlog of styles defined twice in the same file — pairs of rules that disagreed, where the second silently won and the first had never rendered. Fourteen are now single definitions, with no visible change: 421,632…",
-        "Four were deliberately left alone. In each case another rule sits between the two definitions, and merging them would quietly change which one wins — the kind of one-in-a-thousand change that does not show up in a spot check."
+        "Corrected the privacy line on the System Scan screen. It said nothing leaves your machine, which is not true — a hardware summary is shared with us, and that is how Sigil gets better. What never leaves is anything personal: your files…",
+        "Trimmed the rest of that screen and rewrote the closing line, and dropped the stray dot before the version number.",
+        "Fixed a real fault behind the scan screen: if the Control Panel had been open when you last quit, it reopened on a timer during the scan step — straight past the rule that the scan must finish first. The scan screen now stands alone, and…"
     ],
     "required": false
 }
