@@ -1,9 +1,9 @@
 {
-    "version": "1.1.310",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.310/NovaPanel-v1.1.310.zip",
+    "version": "1.1.311",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.311/NovaPanel-v1.1.311.zip",
     "notes": [
-        "Added a second design system, Kyrr — a flat ink surface in Spectral and IBM Plex Mono, with tick scales, hairline rules and corner registration marks. Obsidian Glint is untouched and still the default; pick either from the dropdown at the…",
-        "This was the real test of the design-system pipeline, and it held: one command to install, one dropdown to switch. Kyrr was written against an older revision of the design system and still needed no changes to the app — the installer…"
+        "The Appearance tab is now God Mode only. It had been visible from the second tier up, which was never the intent — switching the design system is an internal tool, not a customer feature.",
+        "Verified at four tiers rather than one: hidden at Cantrip, Glamour and Seer, visible only at God Mode. The gate now asks for the internal tier by meaning rather than by name, so it cannot go stale while the tier names are still being…"
     ],
     "required": false
 }
