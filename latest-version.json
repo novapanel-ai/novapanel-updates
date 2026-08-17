@@ -1,11 +1,11 @@
 {
-    "version": "1.1.297",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.297/NovaPanel-v1.1.297.zip",
+    "version": "1.1.298",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.298/NovaPanel-v1.1.298.zip",
     "notes": [
-        "Colour palettes now change only colour. Vellum turns the Control Panel to bone paper, Cobalt Works to blueprint steel, Ultraviolet to violet — and the typeface, spacing, corners and motion stay exactly as the design system sets them.",
-        "This was not possible before. Choosing a palette used to switch off the design system entirely, because one setting was carrying two jobs at once — which design system is in force, and which colours it uses. They are separate now.",
-        "The shipped theme also wrote pure black into thirty of its own rules instead of asking for the background colour, so no palette could change the page. Those now go through the design system, and incoming themes are corrected the same way…",
-        "All three palettes checked for readability against the new styling: no failures."
+        "Appearance now has two controls: a dropdown to choose the design system, and colour palettes below it. They are two different decisions and until this week the app could not tell them apart.",
+        "A new card, 'Design system colours', returns to whatever palette the design system ships with — without it, choosing a palette was a one-way door.",
+        "Installing a design system is now one command. Three corrections that had to be run by hand on every incoming theme are part of the install and report what they changed; on the last drop that was 83 out-of-date names, 521 rules rescoped…",
+        "Your existing choice carries over: whatever you had selected becomes either the design system or the palette, whichever it actually was."
     ],
     "required": false
 }
