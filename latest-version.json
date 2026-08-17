@@ -1,10 +1,10 @@
 {
-    "version": "1.1.292",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.292/NovaPanel-v1.1.292.zip",
+    "version": "1.1.293",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.293/NovaPanel-v1.1.293.zip",
     "notes": [
-        "The Debug tab was reporting a system that no longer exists. Five readings — archetype, density, hero, surface role and reason — came from a placeholder left behind when that subsystem was removed in July; it returned the same five fixed…",
-        "Two other readings there were printed as internal codes rather than words, and now read as sentences.",
-        "Checked the text on every tab. Everything a customer sees reads correctly; the problems were confined to the developer tab."
+        "Obsidian Glint updated to 1.3.1. It now sets its own shadow colour, status colours, label casing and the styling for missing values — all things the app decided for it until this week.",
+        "It also stopped defining layout it does not own: 72 of those instructions are gone, and the theme chooser's grid is left to the app, which is what broke the Appearance tab yesterday.",
+        "The import check that re-applies our own fixes to an incoming theme had two tests that could never pass — they looked for a comment only we write, so they would have kept adding rules this theme already had. They now test the styling…"
     ],
     "required": false
 }
