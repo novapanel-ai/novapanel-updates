@@ -1,9 +1,9 @@
 {
-    "version": "1.1.309",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.309/NovaPanel-v1.1.309.zip",
+    "version": "1.1.310",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.310/NovaPanel-v1.1.310.zip",
     "notes": [
-        "Rewrote the About section as marketing rather than a spec sheet. It now leads with what is actually happening under the glass and why anyone would want to look at it, and it leans on the language the product already speaks — Sigil, glints…",
-        "The theme is sold as the thing it is: not a colour picker, but a switch that transfigures type, spacing, shape and motion across the Control Panel and your glints at once. Same machine, same numbers, different spell."
+        "Added a second design system, Kyrr — a flat ink surface in Spectral and IBM Plex Mono, with tick scales, hairline rules and corner registration marks. Obsidian Glint is untouched and still the default; pick either from the dropdown at the…",
+        "This was the real test of the design-system pipeline, and it held: one command to install, one dropdown to switch. Kyrr was written against an older revision of the design system and still needed no changes to the app — the installer…"
     ],
     "required": false
 }
