@@ -1,10 +1,11 @@
 {
-    "version": "1.1.306",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.306/NovaPanel-v1.1.306.zip",
+    "version": "1.1.307",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.307/NovaPanel-v1.1.307.zip",
     "notes": [
-        "Three pieces of the Control Panel were rendering in fonts the design system never chose, because form controls do not inherit type from the page. The minimise and close buttons were in Arial. The debug roles table was in a generic…",
-        "Fixed the cause rather than the three symptoms: buttons, inputs, selects and textareas now inherit type, so the next control anyone adds is correct by default instead of joining that list. The debug table also had its font hardcoded…",
-        "Verified in the running app: Arial gone, generic monospace gone, the browser size gone, and the fields that already had a design-system font kept it."
+        "Cut the number of different text treatments down so the Control Panel reads as one thing instead of many. 97 style declarations were changed to sit on the ladder the design system already describes: sizes 11/12/13/14/17, four weights, and…",
+        "Light text is retired. The design system says outright that it is not consumed, and the app was using it in 27 places, most of which were secondary copy that now sits at normal weight.",
+        "Removed tracking from body text. Values like 0.015em are a difference nobody can see and a variation everybody counts; they were multiplying the number of distinct styles for no visible benefit.",
+        "Found and fixed a whole stylesheet that had never been checked by anything. The theme tab has its own stylesheet which was not in any of the design-system checks, and it was carrying nine hardcoded font sizes. The checks now read the…"
     ],
     "required": false
 }
