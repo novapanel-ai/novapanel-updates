@@ -1,10 +1,10 @@
 {
-    "version": "1.1.319",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.319/NovaPanel-v1.1.319.zip",
+    "version": "1.1.320",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.320/NovaPanel-v1.1.320.zip",
     "notes": [
-        "The loader now actually shows. It was leaving after one second while the sigil takes 1.4 seconds to draw itself, so what you saw was a half-finished mark for under a second - a flicker, not a loading state. It now holds for three seconds…",
-        "Removed the second flicker. A separate loader inside the OG widget blanks every row and restores them a quarter-second later. It is meant for when you change the layout by hand, but it was also firing on startup when the weather arrived…",
-        "The arrival itself is slower and smoother, and a late-arriving reading now extends the wait rather than appearing after the panel has already settled."
+        "The loader is now actually visible, and the reason it was not is worth saying plainly: it was being drawn every time, but the panel kept resizing itself underneath it. The loader was sitting in a window changing height around it. The panel…",
+        "The word below the mark is Summoning, centred in the panel, and it holds for about four and a half seconds.",
+        "The arrival is now in two steps rather than all at once: the loader and its text fade out first, on their own, and only once they are gone does the panel begin growing and the contents fade in. Both are slower - nine tenths of a second…"
     ],
     "required": false
 }
