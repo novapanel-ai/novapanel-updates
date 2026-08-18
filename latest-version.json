@@ -1,9 +1,10 @@
 {
-    "version": "1.1.339",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.339/NovaPanel-v1.1.339.zip",
+    "version": "1.1.340",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.340/NovaPanel-v1.1.340.zip",
     "notes": [
-        "Panels appear once instead of twice. The window is transparent and frameless, and since the previous build made panels start hidden, the first painted frame was empty - so the window was revealed showing nothing, the loader then appeared…",
-        "The window is now revealed at the moment the loader has actually been drawn, so it arrives once with the loader already on it. If a panel raises no loader the window is shown regardless after a short wait, so nothing can be left invisible."
+        "The panel no longer jumps height after the loader appears. The previous build was meant to open the window at the loading height, but it checked the app-wide theme rather than the theme of the panel being opened - so for the OG widget it…",
+        "Removed the second fade. The OG widget has its own reflow cover that blanks every row and restores it a quarter second later, and the weather arriving just after the loader finished was triggering it - so the contents faded in, out, and in…",
+        "The first loader word no longer arrives late. It was being crossfaded in like a rotation, so it appeared a third of a second after the loader itself. There is nothing to fade from on the first word; it is now painted immediately."
     ],
     "required": false
 }
