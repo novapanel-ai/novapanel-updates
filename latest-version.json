@@ -1,10 +1,9 @@
 {
-    "version": "1.1.325",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.325/NovaPanel-v1.1.325.zip",
+    "version": "1.1.326",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.326/NovaPanel-v1.1.326.zip",
     "notes": [
-        "Loader lifetime now actually works. Weather was tearing the loader down the instant it arrived - and it arrives almost immediately, because it answers from cache - so the loader was gone in a few hundred milliseconds no matter what the…",
-        "Nothing but the loader shows while a panel loads. The clock, the title bar and the footer were never being held - only the readings list was - so they sat there through the whole load. Every part of the panel is now held and every part…",
-        "Closed a second route around the lifetime, and removed the shortcut both of them used. Only the loader itself can now decide when a panel appears, which is what makes the setting mean something."
+        "Your tuned loader values are now the shipped ones: the panel holds at 300 pixels while loading, and the contents fade in and the panel grows over 450 milliseconds. A fresh install starts here rather than on the old numbers.",
+        "Loader lifetime, animation speed and fade-out are unchanged from the shipped values, which is what you settled on."
     ],
     "required": false
 }
