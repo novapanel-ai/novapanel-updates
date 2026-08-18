@@ -1,10 +1,10 @@
 {
-    "version": "1.1.335",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.335/NovaPanel-v1.1.335.zip",
+    "version": "1.1.336",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.336/NovaPanel-v1.1.336.zip",
     "notes": [
-        "Fixed the words running together in the Loader Studio. The studio used the shared text piece but never loaded the stylesheet that piece depends on, so the two crossfading words stopped stacking and sat side by side instead - Summoning and…",
-        "Choosing the built-in sigil in the studio now shows the sigil instead of the words 'Sigil (built-in)'. It was a caption standing in for a preview, because the mark lived inside the entrance where nothing else could reach it. It is now its…",
-        "Every timing in Options is a slider with a live readout rather than a box to type numbers into, and the five loader timings save on release like the text rows already did."
+        "Fixed the broken sliders. They were carrying a style built for text boxes, which fought the slider styling underneath it. Separately, the design system paints a slider track as a filled portion up to the handle and nothing in the app had…",
+        "The loader words and their controls moved into the Loader Studio, next to the animation they run over. Add and remove lines, set the round and the crossfade, and see it in the specimen as you change it. Options keeps the loader timing and…",
+        "New control: Gap to animation. Moves the word closer to or further from the swirl, 0 to 80 pixels."
     ],
     "required": false
 }
