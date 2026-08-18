@@ -1,9 +1,10 @@
 {
-    "version": "1.1.344",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.344/NovaPanel-v1.1.344.zip",
+    "version": "1.1.345",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.345/NovaPanel-v1.1.345.zip",
     "notes": [
-        "The swirl now dissolves into the panel edges instead of being cut off by them. The field is wider than the panel, so its outer dust and glow were being sliced by the boundary - a straight edge where a diffuse thing should fade out. It…",
-        "The Loader Studio preview uses the same falloff, so what is tuned there is what a panel shows."
+        "Removed the block behind the loader text. The wrapper was inheriting the shimmer gradient meant for the letters, and having no letters of its own it painted as a solid panel behind the words.",
+        "Redesigned the sliders again, deliberately plainly. The previous three were stylish and unreadable - a clipped diamond, a hole in the line, then a thin bar that did not look grabbable. They are now the ordinary shape everyone knows: a…",
+        "The OG panel no longer fades in twice when opened from the Control Panel. A trace showed the window appearing at 26ms while the loader only mounted at 133ms, so an empty panel appeared first and the loader arrived second. The cover is now…"
     ],
     "required": false
 }
