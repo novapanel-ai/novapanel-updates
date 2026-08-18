@@ -1,9 +1,11 @@
 {
-    "version": "1.1.322",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.322/NovaPanel-v1.1.322.zip",
+    "version": "1.1.323",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.323/NovaPanel-v1.1.323.zip",
     "notes": [
-        "Groundwork so tuned loader values can become the shipped ones. The defaults were written in four places; the Defaults button now asks the app for them rather than keeping its own list, and the two remaining copies are marked as fallbacks…",
-        "Nothing looks different. This is so that promoting a set of values you have settled on is a single change rather than four that have to agree."
+        "Make default. Once you have loader values you are happy with, one button makes them the baseline on this machine - they are what Defaults restores to and what survives a config reset.",
+        "It promotes what is saved rather than what is typed in the boxes, so a number that was never actually applied and looked at cannot become the default.",
+        "Factory sits beside it as the way back to the values the app shipped with. A promoted set becomes the baseline, and some legal values are bad ones - a zero-length loader is allowed and skips the loader entirely - so there needed to be a…",
+        "Said plainly on the screen: this sets the baseline on this machine. A fresh install elsewhere still starts on the values built into the app."
     ],
     "required": false
 }
