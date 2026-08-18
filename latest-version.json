@@ -1,8 +1,8 @@
 {
-    "version": "1.1.342",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.342/NovaPanel-v1.1.342.zip",
+    "version": "1.1.343",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.343/NovaPanel-v1.1.343.zip",
     "notes": [
-        "New control: Swirl size. Sets the height of the animation itself, with zero meaning fill the space above the word. It is in the Loader Studio with the gap and text size, and the preview obeys it."
+        "Redesigned the sliders. The diamond handle is gone - three attempts to make it render produced a clipped stub, then a hole punched in the line, then a handle you could not tell was a handle. They now use your own slider design from the…"
     ],
     "required": false
 }
