@@ -1,10 +1,10 @@
 {
-    "version": "1.1.337",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.337/NovaPanel-v1.1.337.zip",
+    "version": "1.1.338",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.338/NovaPanel-v1.1.338.zip",
     "notes": [
-        "Sliders are fixed properly this time. The design system was setting the whole control to the height of its 3 pixel track and then drawing a 12 pixel handle inside it, so the handle was cropped to a sliver. The track is now drawn where it…",
-        "The loader word was invisible in the studio preview. It is painted as a colour gradient clipped to the letters, which needs the text itself to be transparent - and the fallback colour was set to the current text colour, which is that same…",
-        "The panel no longer flickers as it opens. It was painting its title bar, clock and footer for a frame or two before the loader appeared over them - that first painted frame was the flicker. Panels now start hidden and nothing is shown…"
+        "The panel no longer shrinks after the loader appears. It was opening at its remembered height - 820 pixels - and then being pinned to the 300 pixel loading height once the page started, a visible drop with the loader already on screen.…",
+        "The loader word is bigger, no longer all capitals, and ends with an ellipsis. Its size is a slider in the studio alongside the gap.",
+        "The Gap to animation slider now actually moves the word in the studio preview. The preview had its own fixed spacing and was ignoring the control."
     ],
     "required": false
 }
