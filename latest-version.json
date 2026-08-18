@@ -1,9 +1,9 @@
 {
-    "version": "1.1.312",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.312/NovaPanel-v1.1.312.zip",
+    "version": "1.1.313",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.313/NovaPanel-v1.1.313.zip",
     "notes": [
-        "Finished renaming the second paid tier from Prime to Seer. The name had been changed in one place and left alone in another, so the app called the same tier two different things depending on which part of it you asked.",
-        "Themes you already have keep working. The old name still resolves, which matters more than it sounds: the lookup treats an unrecognised tier as god-mode-only, so a plain find-and-replace would have made every installed theme quietly vanish…"
+        "Removed a sixth text size that had no business existing. The design system defines five, and five page titles were reaching for a stray one between two of them. It rendered nowhere under the current look, so nothing on screen moves — but…",
+        "Merged the last duplicated style rule. There are now zero duplicate definitions across all four Control Panel stylesheets, down from what was first counted as fifty-four."
     ],
     "required": false
 }
