@@ -1,9 +1,12 @@
 {
-    "version": "1.1.333",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.333/NovaPanel-v1.1.333.zip",
+    "version": "1.1.334",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.334/NovaPanel-v1.1.334.zip",
     "notes": [
-        "Your five loader words now ship as the default: Summoning, Waving Hands, Conjuring, Chanting Spell, Referencing Tome. They share the 4500ms round, so each holds for about nine tenths of a second.",
-        "This build also carries the previous one's fix, which you have not seen yet - the word sits below the animation again rather than on top of it."
+        "The loader is now your v1.1 with the mirror: a gold-framed plate holding a star field, a nebula wash and an edge-on galaxy, with live glints twinkling in the glass, sitting behind the swirl so the dust runs across it. Four new controls…",
+        "The Loader Studio builds its controls from the renderer's own table now, so a future version of the artwork brings its sliders with it instead of needing the studio edited to match.",
+        "Under the Colour slider there is now Use theme accent. On, the loader takes the panel's accent colour and the slider is disabled; off, your chosen hue is used. The duplicate of this that had crept into the Options tab is gone - one…",
+        "The loader text is no longer limited to five lines. Add line extends the list up to twenty-four, each row has a remove button, and the round is still divided evenly between whatever words are there.",
+        "Fixed a fault in the Options section that would have disabled every control in it, Save included, the moment the text rows were built. Worth naming because it is the same shape as the failure that lost your first five lines."
     ],
     "required": false
 }
