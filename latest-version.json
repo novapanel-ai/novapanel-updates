@@ -1,10 +1,10 @@
 {
-    "version": "1.1.336",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.336/NovaPanel-v1.1.336.zip",
+    "version": "1.1.337",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.337/NovaPanel-v1.1.337.zip",
     "notes": [
-        "Fixed the broken sliders. They were carrying a style built for text boxes, which fought the slider styling underneath it. Separately, the design system paints a slider track as a filled portion up to the handle and nothing in the app had…",
-        "The loader words and their controls moved into the Loader Studio, next to the animation they run over. Add and remove lines, set the round and the crossfade, and see it in the specimen as you change it. Options keeps the loader timing and…",
-        "New control: Gap to animation. Moves the word closer to or further from the swirl, 0 to 80 pixels."
+        "Sliders are fixed properly this time. The design system was setting the whole control to the height of its 3 pixel track and then drawing a 12 pixel handle inside it, so the handle was cropped to a sliver. The track is now drawn where it…",
+        "The loader word was invisible in the studio preview. It is painted as a colour gradient clipped to the letters, which needs the text itself to be transparent - and the fallback colour was set to the current text colour, which is that same…",
+        "The panel no longer flickers as it opens. It was painting its title bar, clock and footer for a frame or two before the loader appeared over them - that first painted frame was the flicker. Panels now start hidden and nothing is shown…"
     ],
     "required": false
 }
