@@ -1,10 +1,11 @@
 {
-    "version": "1.1.316",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.316/NovaPanel-v1.1.316.zip",
+    "version": "1.1.317",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.317/NovaPanel-v1.1.317.zip",
     "notes": [
-        "The OG panel no longer jiggles while it loads. It now holds still until the sensors have settled, then fades in and grows to fit in one movement, instead of appearing first and jumping afterwards.",
-        "The cause was five pixels. When the list grew long enough to need a scrollbar, the bar took five pixels of width, which reflowed the content, which changed the height, which resized the window - and round again, each pass saving the nudged…",
-        "The slower fade-in has actually been switched on. It was written back in August but never took effect - two rules set the timing on the same elements and the shorter one quietly won, so it had been fading twice as fast as intended ever…"
+        "Fixed the real cause of the panel jiggle. Every time a panel asked to resize itself to fit its contents, it started a fresh resize animation - and nothing stopped the one already running. Your log from the last build shows six of them…",
+        "There is now one resize animation per panel. A new request takes over from wherever the panel currently is instead of starting a competing one, and a request for a height it is already moving to is ignored rather than restarting the motion.",
+        "This lived in the shared panel code, so it was never an OG problem - every panel that sizes itself to its contents had it.",
+        "Honest note on the previous build: lengthening the fade also lengthened each resize, so the competing animations overlapped for longer. 1.1.316 made this worse, not better."
     ],
     "required": false
 }
