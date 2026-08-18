@@ -1,11 +1,10 @@
 {
-    "version": "1.1.330",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.330/NovaPanel-v1.1.330.zip",
+    "version": "1.1.331",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.331/NovaPanel-v1.1.331.zip",
     "notes": [
-        "Your tuned gold cloud is now the shipped default - the density, size, core, speed, drag, tilt and colour you settled on.",
-        "The loader text rows now save as you type rather than waiting for a Save press, so words typed in Options cannot be lost by opening another window.",
-        "Removed a shadow from behind the loader word. The word is painted as a gradient clipped to its letters, and a shadow under that combination is a known way to end up with nothing visible - which is the most likely reason the text was not…",
-        "The Loader Studio window now takes its colours from the design system instead of the palette that came with the artwork file, so it follows the active theme like every other screen. The vortex's own black ground is deliberately left alone…"
+        "The Save button in the loader section now sits below the fields it saves, instead of above them with six unrelated controls in between. From the text rows there was no visible way to save, which made the text feature unusable even though…",
+        "It also says what it covers - the timing, the loader choice and the text rows - rather than leaving you to guess its reach.",
+        "The text rows still save as you type, added in the previous build. Between the two, typing words and having them stick no longer depends on finding a button."
     ],
     "required": false
 }
