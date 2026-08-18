@@ -1,9 +1,10 @@
 {
-    "version": "1.1.315",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.315/NovaPanel-v1.1.315.zip",
+    "version": "1.1.316",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.316/NovaPanel-v1.1.316.zip",
     "notes": [
-        "Spelling cleanup finished in the code notes as well - 548 words across 114 files. Nothing you can see changed; this is housekeeping so the codebase reads in one voice.",
-        "Checked rather than assumed: every source file was hashed with its notes stripped out, before and after. Not one file had a single line of actual code change."
+        "The OG panel no longer jiggles while it loads. It now holds still until the sensors have settled, then fades in and grows to fit in one movement, instead of appearing first and jumping afterwards.",
+        "The cause was five pixels. When the list grew long enough to need a scrollbar, the bar took five pixels of width, which reflowed the content, which changed the height, which resized the window - and round again, each pass saving the nudged…",
+        "The slower fade-in has actually been switched on. It was written back in August but never took effect - two rules set the timing on the same elements and the shorter one quietly won, so it had been fading twice as fast as intended ever…"
     ],
     "required": false
 }
