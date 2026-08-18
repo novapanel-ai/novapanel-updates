@@ -1,11 +1,10 @@
 {
-    "version": "1.1.318",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.318/NovaPanel-v1.1.318.zip",
+    "version": "1.1.319",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.319/NovaPanel-v1.1.319.zip",
     "notes": [
-        "Panels now conjure while they wait. Instead of sitting blank or filling in piece by piece, a panel holds behind a sigil that inscribes itself, then arrives all at once when its readings are in.",
-        "The wait is deliberate, not overhead - it is the time the sensors need to report, so the panel can arrive complete instead of growing three times on its way to the right size.",
-        "A panel now waits for what it is showing to stop changing before it appears. Previously it decided it was ready when the sensor count held steady, which meant weather arriving a couple of seconds later grew the OG widget from 284 to 924…",
-        "The loading state is one shared piece rather than each panel's own. Every panel gets the same conjuring and the same arrival, and a theme restyles all of them by setting a handful of values once - colour, glow, size, and how long the…"
+        "The loader now actually shows. It was leaving after one second while the sigil takes 1.4 seconds to draw itself, so what you saw was a half-finished mark for under a second - a flicker, not a loading state. It now holds for three seconds…",
+        "Removed the second flicker. A separate loader inside the OG widget blanks every row and restores them a quarter-second later. It is meant for when you change the layout by hand, but it was also firing on startup when the weather arrived…",
+        "The arrival itself is slower and smoother, and a late-arriving reading now extends the wait rather than appearing after the panel has already settled."
     ],
     "required": false
 }
