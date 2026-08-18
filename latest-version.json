@@ -1,10 +1,10 @@
 {
-    "version": "1.1.324",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.324/NovaPanel-v1.1.324.zip",
+    "version": "1.1.325",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.325/NovaPanel-v1.1.325.zip",
     "notes": [
-        "The loader's shipped defaults now live in a small data file rather than being written into the code, so promoting a tuned set is five numbers moving between two files instead of an edit to the app.",
-        "Added the tool that does the moving: it reads the values you saved in Options, shows exactly what would change, and writes them only when told to - then reads the file back to confirm. That way the values that ship are provably the ones…",
-        "No visible change. This is the machinery behind define it, save it, and it becomes what a fresh install starts with."
+        "Loader lifetime now actually works. Weather was tearing the loader down the instant it arrived - and it arrives almost immediately, because it answers from cache - so the loader was gone in a few hundred milliseconds no matter what the…",
+        "Nothing but the loader shows while a panel loads. The clock, the title bar and the footer were never being held - only the readings list was - so they sat there through the whole load. Every part of the panel is now held and every part…",
+        "Closed a second route around the lifetime, and removed the shortcut both of them used. Only the loader itself can now decide when a panel appears, which is what makes the setting mean something."
     ],
     "required": false
 }
