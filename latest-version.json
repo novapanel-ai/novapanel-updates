@@ -1,10 +1,8 @@
 {
-    "version": "1.1.345",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.345/NovaPanel-v1.1.345.zip",
+    "version": "1.1.346",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.346/NovaPanel-v1.1.346.zip",
     "notes": [
-        "Removed the block behind the loader text. The wrapper was inheriting the shimmer gradient meant for the letters, and having no letters of its own it painted as a solid panel behind the words.",
-        "Redesigned the sliders again, deliberately plainly. The previous three were stylish and unreadable - a clipped diamond, a hole in the line, then a thin bar that did not look grabbable. They are now the ordinary shape everyone knows: a…",
-        "The OG panel no longer fades in twice when opened from the Control Panel. A trace showed the window appearing at 26ms while the loader only mounted at 133ms, so an empty panel appeared first and the loader arrived second. The cover is now…"
+        "Completes the previous build. The loader was meant to take over the cover already present in the panel markup, but it was still adding its own on top - which would have made the double fade worse rather than better. It now adopts the…"
     ],
     "required": false
 }
