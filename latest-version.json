@@ -1,11 +1,11 @@
 {
-    "version": "1.1.327",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.327/NovaPanel-v1.1.327.zip",
+    "version": "1.1.328",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.328/NovaPanel-v1.1.328.zip",
     "notes": [
-        "The gold dust vortex is now the panel loader. Motes spun on the z axis around a hollow core, seven drifting clumps, the outer edge lagging behind the inner - the piece you built, running at panel size.",
-        "New Loader Studio, owner-only, opened from Options. Every control from your original: density, size, concentration, core, speed, drag, tilt, colour and glow, with reseed and pause. It renders at the real panel width and the loader height…",
-        "Save writes the values into the app, so open panels pick them up. Replay entrance plays it on the live panels. Tell Claude and the next build ships them as the default - the same route the timing values took.",
-        "The sigil loader is kept. A toggle in Options switches back to it, and it is also the automatic fallback if the dust cannot draw - a loading state that can fail to appear is worse than a plain one."
+        "The loader's words now change as it waits. Five rows in Options, typed by you, rotating in order and starting again at the first. Summoning is row one by default. Blank rows are skipped, so filling two gives a two-word cycle.",
+        "You set how long each word holds and how long it takes to crossfade. The shimmer, size and weight are unchanged - only which word is showing changes.",
+        "The dust now takes its colour from the theme's accent rather than a fixed hue, so a panel's loader matches the panel. A toggle in Options switches back to the saved hue if you want to pin it.",
+        "The rotating text is built as its own piece, independent of panels - so the same thing can carry the system scan later without dragging panel machinery with it."
     ],
     "required": false
 }
