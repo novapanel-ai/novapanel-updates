@@ -1,10 +1,9 @@
 {
-    "version": "1.1.321",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.321/NovaPanel-v1.1.321.zip",
+    "version": "1.1.322",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.322/NovaPanel-v1.1.322.zip",
     "notes": [
-        "The panel loader can now be tuned from the Options tab, owner-only. Five dials: how tall the panel sits while loading, how long the loader stays up, how fast its animation runs, how long it takes to fade out, and how long the contents take…",
-        "Save keeps the values. Save & restart keeps them and replays the loader on every open panel - a genuine reload, so what you are judging is the real startup sequence rather than a re-enactment of it. Defaults puts everything back.",
-        "The five numbers used to be written into three different files that had to be changed together. They now live in one place and both the panel and the window-resize animation read the same values."
+        "Groundwork so tuned loader values can become the shipped ones. The defaults were written in four places; the Defaults button now asks the app for them rather than keeping its own list, and the two remaining copies are marked as fallbacks…",
+        "Nothing looks different. This is so that promoting a set of values you have settled on is a single change rather than four that have to agree."
     ],
     "required": false
 }
