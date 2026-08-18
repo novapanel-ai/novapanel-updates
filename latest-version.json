@@ -1,12 +1,10 @@
 {
-    "version": "1.1.334",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.334/NovaPanel-v1.1.334.zip",
+    "version": "1.1.335",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.335/NovaPanel-v1.1.335.zip",
     "notes": [
-        "The loader is now your v1.1 with the mirror: a gold-framed plate holding a star field, a nebula wash and an edge-on galaxy, with live glints twinkling in the glass, sitting behind the swirl so the dust runs across it. Four new controls…",
-        "The Loader Studio builds its controls from the renderer's own table now, so a future version of the artwork brings its sliders with it instead of needing the studio edited to match.",
-        "Under the Colour slider there is now Use theme accent. On, the loader takes the panel's accent colour and the slider is disabled; off, your chosen hue is used. The duplicate of this that had crept into the Options tab is gone - one…",
-        "The loader text is no longer limited to five lines. Add line extends the list up to twenty-four, each row has a remove button, and the round is still divided evenly between whatever words are there.",
-        "Fixed a fault in the Options section that would have disabled every control in it, Save included, the moment the text rows were built. Worth naming because it is the same shape as the failure that lost your first five lines."
+        "Fixed the words running together in the Loader Studio. The studio used the shared text piece but never loaded the stylesheet that piece depends on, so the two crossfading words stopped stacking and sat side by side instead - Summoning and…",
+        "Choosing the built-in sigil in the studio now shows the sigil instead of the words 'Sigil (built-in)'. It was a caption standing in for a preview, because the mark lived inside the entrance where nothing else could reach it. It is now its…",
+        "Every timing in Options is a slider with a live readout rather than a box to type numbers into, and the five loader timings save on release like the text rows already did."
     ],
     "required": false
 }
