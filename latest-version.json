@@ -1,10 +1,11 @@
 {
-    "version": "1.1.331",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.331/NovaPanel-v1.1.331.zip",
+    "version": "1.1.332",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.332/NovaPanel-v1.1.332.zip",
     "notes": [
-        "The Save button in the loader section now sits below the fields it saves, instead of above them with six unrelated controls in between. From the text rows there was no visible way to save, which made the text feature unusable even though…",
-        "It also says what it covers - the timing, the loader choice and the text rows - rather than leaving you to guess its reach.",
-        "The text rows still save as you type, added in the previous build. Between the two, typing words and having them stick no longer depends on finding a button."
+        "The loader text sits below the animation again, not on top of it. The dust had been made a full-bleed backdrop with the word centred over it, which was both a change nobody asked for and unreadable - gold text on moving gold.",
+        "The animation now takes the space above the word and the two never overlap. Measured: a ten pixel gap between them and sixteen clear of the panel's bottom edge.",
+        "The dark patch added behind the word last build is gone with it. It only existed to make the word survive being drawn over the dust, so the treatment is once again exactly the approved one - the shimmer, the size, the weight, and nothing…",
+        "The Loader Studio preview was showing the word over the animation too. It now mirrors the panel exactly, so what is tuned there is what a panel draws."
     ],
     "required": false
 }
