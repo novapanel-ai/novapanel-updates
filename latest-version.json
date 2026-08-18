@@ -1,10 +1,10 @@
 {
-    "version": "1.1.320",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.320/NovaPanel-v1.1.320.zip",
+    "version": "1.1.321",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.321/NovaPanel-v1.1.321.zip",
     "notes": [
-        "The loader is now actually visible, and the reason it was not is worth saying plainly: it was being drawn every time, but the panel kept resizing itself underneath it. The loader was sitting in a window changing height around it. The panel…",
-        "The word below the mark is Summoning, centred in the panel, and it holds for about four and a half seconds.",
-        "The arrival is now in two steps rather than all at once: the loader and its text fade out first, on their own, and only once they are gone does the panel begin growing and the contents fade in. Both are slower - nine tenths of a second…"
+        "The panel loader can now be tuned from the Options tab, owner-only. Five dials: how tall the panel sits while loading, how long the loader stays up, how fast its animation runs, how long it takes to fade out, and how long the contents take…",
+        "Save keeps the values. Save & restart keeps them and replays the loader on every open panel - a genuine reload, so what you are judging is the real startup sequence rather than a re-enactment of it. Defaults puts everything back.",
+        "The five numbers used to be written into three different files that had to be changed together. They now live in one place and both the panel and the window-resize animation read the same values."
     ],
     "required": false
 }
