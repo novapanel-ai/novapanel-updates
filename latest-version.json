@@ -1,9 +1,8 @@
 {
-    "version": "1.1.341",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.341/NovaPanel-v1.1.341.zip",
+    "version": "1.1.342",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.342/NovaPanel-v1.1.342.zip",
     "notes": [
-        "The panel now opens at the loading height instead of opening tall and shrinking for a second while the loader is up. A trace of the real app showed it opening at 656 pixels and animating down to 300 - the previous two attempts at this both…",
-        "The height is now taken from the theme whose file is about to be rendered, so it cannot disagree with what appears, and it falls back to the shipped loading height when a panel is opened without one rather than falling back to the…"
+        "New control: Swirl size. Sets the height of the animation itself, with zero meaning fill the space above the word. It is in the Loader Studio with the gap and text size, and the preview obeys it."
     ],
     "required": false
 }
