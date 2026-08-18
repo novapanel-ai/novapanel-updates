@@ -1,9 +1,11 @@
 {
-    "version": "1.1.326",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.326/NovaPanel-v1.1.326.zip",
+    "version": "1.1.327",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.327/NovaPanel-v1.1.327.zip",
     "notes": [
-        "Your tuned loader values are now the shipped ones: the panel holds at 300 pixels while loading, and the contents fade in and the panel grows over 450 milliseconds. A fresh install starts here rather than on the old numbers.",
-        "Loader lifetime, animation speed and fade-out are unchanged from the shipped values, which is what you settled on."
+        "The gold dust vortex is now the panel loader. Motes spun on the z axis around a hollow core, seven drifting clumps, the outer edge lagging behind the inner - the piece you built, running at panel size.",
+        "New Loader Studio, owner-only, opened from Options. Every control from your original: density, size, concentration, core, speed, drag, tilt, colour and glow, with reseed and pause. It renders at the real panel width and the loader height…",
+        "Save writes the values into the app, so open panels pick them up. Replay entrance plays it on the live panels. Tell Claude and the next build ships them as the default - the same route the timing values took.",
+        "The sigil loader is kept. A toggle in Options switches back to it, and it is also the automatic fallback if the dust cannot draw - a loading state that can fail to appear is worse than a plain one."
     ],
     "required": false
 }
