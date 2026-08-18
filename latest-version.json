@@ -1,10 +1,9 @@
 {
-    "version": "1.1.338",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.338/NovaPanel-v1.1.338.zip",
+    "version": "1.1.339",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.339/NovaPanel-v1.1.339.zip",
     "notes": [
-        "The panel no longer shrinks after the loader appears. It was opening at its remembered height - 820 pixels - and then being pinned to the 300 pixel loading height once the page started, a visible drop with the loader already on screen.…",
-        "The loader word is bigger, no longer all capitals, and ends with an ellipsis. Its size is a slider in the studio alongside the gap.",
-        "The Gap to animation slider now actually moves the word in the studio preview. The preview had its own fixed spacing and was ignoring the control."
+        "Panels appear once instead of twice. The window is transparent and frameless, and since the previous build made panels start hidden, the first painted frame was empty - so the window was revealed showing nothing, the loader then appeared…",
+        "The window is now revealed at the moment the loader has actually been drawn, so it arrives once with the loader already on it. If a panel raises no loader the window is shown regardless after a short wait, so nothing can be left invisible."
     ],
     "required": false
 }
