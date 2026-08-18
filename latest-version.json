@@ -1,11 +1,9 @@
 {
-    "version": "1.1.332",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.332/NovaPanel-v1.1.332.zip",
+    "version": "1.1.333",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.333/NovaPanel-v1.1.333.zip",
     "notes": [
-        "The loader text sits below the animation again, not on top of it. The dust had been made a full-bleed backdrop with the word centred over it, which was both a change nobody asked for and unreadable - gold text on moving gold.",
-        "The animation now takes the space above the word and the two never overlap. Measured: a ten pixel gap between them and sixteen clear of the panel's bottom edge.",
-        "The dark patch added behind the word last build is gone with it. It only existed to make the word survive being drawn over the dust, so the treatment is once again exactly the approved one - the shimmer, the size, the weight, and nothing…",
-        "The Loader Studio preview was showing the word over the animation too. It now mirrors the panel exactly, so what is tuned there is what a panel draws."
+        "Your five loader words now ship as the default: Summoning, Waving Hands, Conjuring, Chanting Spell, Referencing Tome. They share the 4500ms round, so each holds for about nine tenths of a second.",
+        "This build also carries the previous one's fix, which you have not seen yet - the word sits below the animation again rather than on top of it."
     ],
     "required": false
 }
