@@ -1,10 +1,9 @@
 {
-    "version": "1.1.340",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.340/NovaPanel-v1.1.340.zip",
+    "version": "1.1.341",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.341/NovaPanel-v1.1.341.zip",
     "notes": [
-        "The panel no longer jumps height after the loader appears. The previous build was meant to open the window at the loading height, but it checked the app-wide theme rather than the theme of the panel being opened - so for the OG widget it…",
-        "Removed the second fade. The OG widget has its own reflow cover that blanks every row and restores it a quarter second later, and the weather arriving just after the loader finished was triggering it - so the contents faded in, out, and in…",
-        "The first loader word no longer arrives late. It was being crossfaded in like a rotation, so it appeared a third of a second after the loader itself. There is nothing to fade from on the first word; it is now painted immediately."
+        "The panel now opens at the loading height instead of opening tall and shrinking for a second while the loader is up. A trace of the real app showed it opening at 656 pixels and animating down to 300 - the previous two attempts at this both…",
+        "The height is now taken from the theme whose file is about to be rendered, so it cannot disagree with what appears, and it falls back to the shipped loading height when a panel is opened without one rather than falling back to the…"
     ],
     "required": false
 }
