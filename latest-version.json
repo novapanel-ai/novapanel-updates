@@ -1,11 +1,10 @@
 {
-    "version": "1.1.328",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.328/NovaPanel-v1.1.328.zip",
+    "version": "1.1.329",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.329/NovaPanel-v1.1.329.zip",
     "notes": [
-        "The loader's words now change as it waits. Five rows in Options, typed by you, rotating in order and starting again at the first. Summoning is row one by default. Blank rows are skipped, so filling two gives a two-word cycle.",
-        "You set how long each word holds and how long it takes to crossfade. The shimmer, size and weight are unchanged - only which word is showing changes.",
-        "The dust now takes its colour from the theme's accent rather than a fixed hue, so a panel's loader matches the panel. A toggle in Options switches back to the saved hue if you want to pin it.",
-        "The rotating text is built as its own piece, independent of panels - so the same thing can carry the system scan later without dragging panel machinery with it."
+        "The loader text timing is now one number for the whole round rather than a hold per word. The words share the round equally, so adding or removing one changes how long each is shown instead of quietly making the whole cycle longer.",
+        "Defaults to 4500ms - one complete pass per load at the current loader lifetime.",
+        "A very short round with several words is floored at 140ms per word, so a long list reads as words rather than a flicker."
     ],
     "required": false
 }
