@@ -1,10 +1,10 @@
 {
-    "version": "1.1.347",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.347/NovaPanel-v1.1.347.zip",
+    "version": "1.1.348",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.348/NovaPanel-v1.1.348.zip",
     "notes": [
-        "The word now sits directly under the swirl. The animation box was filling the whole panel while the swirl drew centred inside it, so there was dead space between the visible dust and the word that no gap setting could close - the gap was…",
-        "Everything is 25 percent slower: the loader lifetime, its animation, the fade out, the arrival, the word round and the crossfade. The swirl turns 25 percent slower too.",
-        "These are the shipped defaults. A machine with its own saved loader values keeps them - press Factory in Options to take the new pace, then Save."
+        "Your tuned loader is now the shipped default: a denser, larger-moted swirl with a wider clear centre, no mirror plate, a squared bezel, and a faster brighter spin. The animation sits at a fixed 260 pixels with the word directly beneath it.",
+        "The words now take twenty seconds for a full round with a longer crossfade, so each of the five holds for about four seconds.",
+        "A fresh install starts here rather than on the values the artwork shipped with."
     ],
     "required": false
 }
