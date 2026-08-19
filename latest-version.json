@@ -1,11 +1,10 @@
 {
-    "version": "1.1.350",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.350/NovaPanel-v1.1.350.zip",
+    "version": "1.1.351",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.351/NovaPanel-v1.1.351.zip",
     "notes": [
-        "The sensor service now repairs itself. If it stops for any reason - an update, a crash, a manual stop - a background task registered by Setup notices within five minutes and starts it again. No prompt, nothing to click, nothing to find.…",
-        "This one arrives through the installer, not the in-app update. The recovery task is registered during the permission step Setup already performs, so it costs no extra prompt - but updating the app on its own will not add it. Run the…",
-        "Windows was previously the only thing that could bring the service back, and only at boot: its built-in recovery fires on a crash, never on a service that was stopped cleanly. That was the gap that let two sensors disappear for days at a…",
-        "The Start sensor service button in Settings, System Scan remains as a last resort. It should now be unnecessary."
+        "Upgrade installs could fail outright, and the message blamed the wrong thing. NovaPowerBridge.sys is a kernel driver image that stays loaded even after the sensor service stops, so Windows refused to overwrite it and Setup gave up with…",
+        "The sensor-service recovery task is now verified, not assumed. Setup reads the task back after creating it, retries once with a different form if it did not take, and writes every step to a log at ProgramData, NovaPanel, install-log.txt.",
+        "If the recovery task still cannot be registered, Setup now says so instead of reporting success. The previous installer wrote its files, skipped the task, and reported a clean install - there was no error, no log, and no way to tell."
     ],
     "required": false
 }
