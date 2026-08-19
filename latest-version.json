@@ -1,10 +1,11 @@
 {
-    "version": "1.1.359",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.359/NovaPanel-v1.1.359.zip",
+    "version": "1.1.360",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.360/NovaPanel-v1.1.360.zip",
     "notes": [
-        "The media player card now actually appears. It was asking Windows for the current track before your saved panel settings had loaded, at which point it still believed the card was switched off - so it never asked again, and the card stayed…",
-        "Turning the card off now also stops the part that reads what is playing, rather than leaving it running invisibly.",
-        "The position is re-checked every ten seconds while playing. Some sources, YouTube in a browser among them, only publish their position occasionally, so the scrubber moves along on its own between updates and is corrected against the real…"
+        "Panels no longer fade every so often. The media card was asking the window to re-measure itself on every update, including ones where only the playing position had moved - and a re-measure briefly blanks and restores the rows. It now…",
+        "The scrubber bar is visible now. The track was drawn in the same near-invisible hairline the panel uses for borders, so the dot appeared to float in space. It is taller, has its own colour, and the played portion is filled in - it reads as…",
+        "Cover art is retried a few times before giving up, because some players publish the picture a moment after the track starts.",
+        "Worth knowing about YouTube in a browser: Chrome does not hand Windows any cover art at all, so a YouTube video shows its title and controls but no picture. There is nothing to display rather than something being lost. Players that do…"
     ],
     "required": false
 }
