@@ -1,10 +1,10 @@
 {
-    "version": "1.1.367",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.367/NovaPanel-v1.1.367.zip",
+    "version": "1.1.368",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.368/NovaPanel-v1.1.368.zip",
     "notes": [
-        "YouTube videos work in the video card after all. The obstacle was that panels are local pages with no web address, and YouTube will not send a video to a page it cannot identify. The app now serves one tiny page from your own machine for…",
-        "That small local page is only running while a YouTube video is actually set, answers exactly one request, requires a key generated fresh each time the app starts, and is reachable only from this computer.",
-        "The message shown when a video will not play no longer runs into the edges of its frame."
+        "YouTube videos loop without the pause. The usual way to loop an embedded video asks YouTube to start it over once it ends, which tears the player down and builds it again - that was the half second gap. The player is now told to jump back…",
+        "Measured on the real player: it now carries straight on through the wrap without ever leaving the playing state.",
+        "A short clip loops most smoothly, because its opening is already loaded. A very long video may still hesitate at the wrap, since jumping to the start of something hours long can mean fetching it again."
     ],
     "required": false
 }
