@@ -1,9 +1,10 @@
 {
-    "version": "1.1.358",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.358/NovaPanel-v1.1.358.zip",
+    "version": "1.1.359",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.359/NovaPanel-v1.1.359.zip",
     "notes": [
-        "The widget switches now live under a section called Widgets. Show weather, Show shortcuts and Show media player were all sitting inside a collapsed section titled Weather, because that is where the first one happened to be added - so there…",
-        "This is where the next widgets will appear too, rather than each one being tucked wherever there was room."
+        "The media player card now actually appears. It was asking Windows for the current track before your saved panel settings had loaded, at which point it still believed the card was switched off - so it never asked again, and the card stayed…",
+        "Turning the card off now also stops the part that reads what is playing, rather than leaving it running invisibly.",
+        "The position is re-checked every ten seconds while playing. Some sources, YouTube in a browser among them, only publish their position occasionally, so the scrubber moves along on its own between updates and is corrected against the real…"
     ],
     "required": false
 }
