@@ -1,10 +1,12 @@
 {
-    "version": "1.1.351",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.351/NovaPanel-v1.1.351.zip",
+    "version": "1.1.352",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.352/NovaPanel-v1.1.352.zip",
     "notes": [
-        "Upgrade installs could fail outright, and the message blamed the wrong thing. NovaPowerBridge.sys is a kernel driver image that stays loaded even after the sensor service stops, so Windows refused to overwrite it and Setup gave up with…",
-        "The sensor-service recovery task is now verified, not assumed. Setup reads the task back after creating it, retries once with a different form if it did not take, and writes every step to a log at ProgramData, NovaPanel, install-log.txt.",
-        "If the recovery task still cannot be registered, Setup now says so instead of reporting success. The previous installer wrote its files, skipped the task, and reported a clean install - there was no error, no log, and no way to tell."
+        "Panels no longer come back empty after a restart. A panel used to decide it was finished loading when its contents simply stopped changing - and on a fresh restart nothing is changing, because the sensor service has not started reporting…",
+        "If a reading has not arrived within twelve seconds, the panel stops waiting and shows everything it has. Anything still missing appears with its own label, a zero, and a small exclamation mark beside it. Hovering it explains that the…",
+        "A reading that freezes keeps its last number and gains the same exclamation mark, rather than vanishing. A value disappearing from a panel you were watching looks like the panel broke; keeping it and marking it says both things honestly…",
+        "A sensor your machine has never reported is still not shown at all. The app now remembers which sensors this machine has genuinely produced, so it can tell the difference between hardware that cannot report something and a reading that is…",
+        "The app no longer highlights itself in the taskbar when you restart. Windows flashes a taskbar button when a window asks for attention, and the Control Panel was asking for it every time it reopened at startup. It still opens exactly as…"
     ],
     "required": false
 }
