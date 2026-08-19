@@ -1,11 +1,12 @@
 {
-    "version": "1.1.354",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.354/NovaPanel-v1.1.354.zip",
+    "version": "1.1.355",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.355/NovaPanel-v1.1.355.zip",
     "notes": [
-        "Shortcuts. A panel can now show a card of shortcuts that open a program, a folder, or a web address - sized for a fingertip, so it works on a touchscreen as well as with a mouse.",
-        "Add them once in Control Panel, Options, Shortcuts. Type a name and a target, or use Choose file to pick a program or folder. Each panel then has its own Show shortcuts switch in Panel Settings, the same way weather works - one list, and…",
-        "A shortcut that cannot be opened says so on the button itself for a moment rather than doing nothing. Usually that means the program or folder has moved.",
-        "Shortcuts that open a program, a folder or a link are supported. Running an arbitrary command is deliberately not, because the shortcut list is an ordinary settings file and anything able to edit it could otherwise make a tap run code."
+        "Shortcuts are now icons, not words. Each one shows the program’s own icon, so a glance is enough - a row of small tiles rather than a row of text that did not look like anything you could press. On the OG widget they are deliberately tiny;…",
+        "You now pick from your own apps and folders instead of hunting through File Explorer. Control Panel, Options, Shortcuts lists what is installed on this machine, each with its icon, and adding one is a single click. There is a search box…",
+        "The list is filtered rather than dumped. Uninstallers, licence and readme entries, vendor web links, Windows administrative tools and duplicates are left out - on the machine this was built against that is 209 Start Menu entries reduced to…",
+        "A web address can still be typed in, and gets the site’s name automatically. Links have no icon to read, so they show a letter mark instead of a borrowed picture that would be pretending to be the site.",
+        "A shortcut that cannot be opened marks itself briefly and explains why on hover, instead of silently doing nothing."
     ],
     "required": false
 }
