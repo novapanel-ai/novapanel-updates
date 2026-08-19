@@ -1,10 +1,10 @@
 {
-    "version": "1.1.373",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.373/NovaPanel-v1.1.373.zip",
+    "version": "1.1.374",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.374/NovaPanel-v1.1.374.zip",
     "notes": [
-        "A panel’s settings window now wears that panel’s own look. Open Panel Settings on the OG widget and the window arrives in OG’s colours, type, spacing and corners instead of the Control Panel’s.",
-        "The OG theme is now complete rather than colours alone: title bar, sidebar, tabs, headings, rows, labels, cards, inputs, buttons and scrollbars are all styled in OG’s language - one hairline, one accent heading, and nothing else, because…",
-        "The rule is general, not a special case for OG. Any panel whose theme also exists as a Control Panel theme gets this automatically; every other panel opens exactly as before, and the main Settings window is untouched."
+        "Panel Settings is tighter and opens smaller when a panel brings its own look. Rows are the height of the control in them rather than a fixed 38 pixels, the label column and the side rail are narrower, and the content sits in one spacing…",
+        "The window now opens at 560 by 520 for a themed panel instead of 780 by 640, and can be dragged considerably smaller. A size you have already set for yourself is kept - the new numbers only affect a window you have not sized.",
+        "The window also opens in the panel’s own background colour, so there is no flash of the Control Panel grey before the styling arrives."
     ],
     "required": false
 }
