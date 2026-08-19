@@ -1,10 +1,9 @@
 {
-    "version": "1.1.348",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.348/NovaPanel-v1.1.348.zip",
+    "version": "1.1.349",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.349/NovaPanel-v1.1.349.zip",
     "notes": [
-        "Your tuned loader is now the shipped default: a denser, larger-moted swirl with a wider clear centre, no mirror plate, a squared bezel, and a faster brighter spin. The animation sits at a fixed 260 pixels with the word directly beneath it.",
-        "The words now take twenty seconds for a full round with a longer crossfade, so each of the five holds for about four seconds.",
-        "A fresh install starts here rather than on the values the artwork shipped with."
+        "Re-opening a panel from the Control Panel is now a real open. Closing a panel hides its window rather than destroying it, and re-opening simply showed that hidden window again - so what appeared was the previous session content, not a…",
+        "A hidden panel window is now discarded and rebuilt when you open it, so it opens at the loading height and plays the loader exactly as a first open does. Focusing a panel that is already on screen is unchanged."
     ],
     "required": false
 }
