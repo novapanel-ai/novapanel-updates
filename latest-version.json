@@ -1,12 +1,11 @@
 {
-    "version": "1.1.355",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.355/NovaPanel-v1.1.355.zip",
+    "version": "1.1.356",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.356/NovaPanel-v1.1.356.zip",
     "notes": [
-        "Shortcuts are now icons, not words. Each one shows the program’s own icon, so a glance is enough - a row of small tiles rather than a row of text that did not look like anything you could press. On the OG widget they are deliberately tiny;…",
-        "You now pick from your own apps and folders instead of hunting through File Explorer. Control Panel, Options, Shortcuts lists what is installed on this machine, each with its icon, and adding one is a single click. There is a search box…",
-        "The list is filtered rather than dumped. Uninstallers, licence and readme entries, vendor web links, Windows administrative tools and duplicates are left out - on the machine this was built against that is 209 Start Menu entries reduced to…",
-        "A web address can still be typed in, and gets the site’s name automatically. Links have no icon to read, so they show a letter mark instead of a borrowed picture that would be pretending to be the site.",
-        "A shortcut that cannot be opened marks itself briefly and explains why on hover, instead of silently doing nothing."
+        "Shortcuts now show the real program icon. They were all showing the same generic page symbol, which made a row of them useless - asking Windows for the icon of a Start Menu shortcut returns the icon of the shortcut FILE, not of the program…",
+        "Shortcuts sit in their own card. Its own border, its own padding and its own spacing, with the tiles centred - a row of buttons sharing the spacing of a list of readings looked like loose furniture rather than a group of things to press.",
+        "A web link, which has no icon to read, gets a lettered tile in a colour taken from its own name. Each one differs, and the same link keeps the same colour every time rather than changing on each launch.",
+        "The card and its tiles are sized from a single value, so panels larger than the OG widget will show bigger shortcuts without anything being rebuilt."
     ],
     "required": false
 }
