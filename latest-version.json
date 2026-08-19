@@ -1,10 +1,10 @@
 {
-    "version": "1.1.366",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.366/NovaPanel-v1.1.366.zip",
+    "version": "1.1.367",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.367/NovaPanel-v1.1.367.zip",
     "notes": [
-        "YouTube links are no longer accepted for the video card, and the app now says so instead of taking the link and showing an error on the panel. Panels are local pages, which means a YouTube embed has no web address YouTube will accept, and…",
-        "When a video will not play, the card now says why. A file whose format is not supported reads differently from one that could not be loaded at all - the previous message said only Video unavailable, which pointed at the app when the real…",
-        "Most modern video works: MP4 with H.264, H.265 or AV1, and WebM with VP8 or VP9. Very old phone recordings, the kind that use H.263 with AMR audio in an .mp4 wrapper, are not playable in any browser and will now say so."
+        "YouTube videos work in the video card after all. The obstacle was that panels are local pages with no web address, and YouTube will not send a video to a page it cannot identify. The app now serves one tiny page from your own machine for…",
+        "That small local page is only running while a YouTube video is actually set, answers exactly one request, requires a key generated fresh each time the app starts, and is reachable only from this computer.",
+        "The message shown when a video will not play no longer runs into the edges of its frame."
     ],
     "required": false
 }
