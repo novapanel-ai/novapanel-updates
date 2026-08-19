@@ -1,11 +1,9 @@
 {
-    "version": "1.1.357",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.357/NovaPanel-v1.1.357.zip",
+    "version": "1.1.358",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.358/NovaPanel-v1.1.358.zip",
     "notes": [
-        "A media player card. It shows whatever is playing on this machine - Spotify, a browser tab, the Media Player app - with play and pause, previous and next, a scrubber you can drag, the track and artist, cover art when the source provides…",
-        "It only appears while something is playing. There is no empty player sitting on your panel waiting for music.",
-        "Only the controls that actually work are shown. Windows tells us what each source allows, so a source that cannot skip tracks simply has no skip button rather than one that does nothing when pressed. The same goes for the scrubber - it is…",
-        "Nothing runs until a panel asks for it. The part that reads what is playing starts when the first panel shows the card and stops when the last one hides it, so if you do not use the widget it costs nothing at all."
+        "The widget switches now live under a section called Widgets. Show weather, Show shortcuts and Show media player were all sitting inside a collapsed section titled Weather, because that is where the first one happened to be added - so there…",
+        "This is where the next widgets will appear too, rather than each one being tucked wherever there was room."
     ],
     "required": false
 }
