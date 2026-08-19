@@ -1,10 +1,10 @@
 {
-    "version": "1.1.362",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.362/NovaPanel-v1.1.362.zip",
+    "version": "1.1.363",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.363/NovaPanel-v1.1.363.zip",
     "notes": [
-        "The media controls are drawn icons now, as one set. They were plain keyboard characters, and Windows renders several of those from its colour emoji font - so the row was a mix of styles, weights and colours sitting in a panel drawn…",
-        "All five are now drawn to the same grid at the same line weight, in the panel accent colour, and they take the colour of whatever they sit in - so hovering or dimming a button carries its icon with it.",
-        "They live in a shared file, so any panel that shows a media card gets the same five rather than its own near-copies."
+        "The gold cloud turns continuously now instead of jumping back to the start every second. The panel redraws its contents once a second as new readings arrive, and the cloud was being rebuilt along with everything else - so it never got more…",
+        "The same cause made it disappear when paused: a freshly built cloud that starts stopped never draws its first frame, leaving an empty black square. A paused cloud now holds its picture.",
+        "Related fix in the same animation used by the loading screen: it repaints itself once after being resized while stopped. Changing a canvas size erases it, and with the animation halted there was nothing left to draw it back."
     ],
     "required": false
 }
