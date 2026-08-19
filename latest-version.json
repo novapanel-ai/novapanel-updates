@@ -1,11 +1,10 @@
 {
-    "version": "1.1.360",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.360/NovaPanel-v1.1.360.zip",
+    "version": "1.1.361",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.361/NovaPanel-v1.1.361.zip",
     "notes": [
-        "Panels no longer fade every so often. The media card was asking the window to re-measure itself on every update, including ones where only the playing position had moved - and a re-measure briefly blanks and restores the rows. It now…",
-        "The scrubber bar is visible now. The track was drawn in the same near-invisible hairline the panel uses for borders, so the dot appeared to float in space. It is taller, has its own colour, and the played portion is filled in - it reads as…",
-        "Cover art is retried a few times before giving up, because some players publish the picture a moment after the track starts.",
-        "Worth knowing about YouTube in a browser: Chrome does not hand Windows any cover art at all, so a YouTube video shows its title and controls but no picture. There is nothing to display rather than something being lost. Players that do…"
+        "The media card always has a picture now. When a source publishes cover art you see the art; when it does not - YouTube in a browser never does - you get the gold cloud on black instead, turning while the track plays and holding still when…",
+        "It is the same cloud as the loading animation, from the same file and the same settings, so tuning the loader in Options tunes this with it. The card no longer changes shape depending on whether a picture happened to be available.",
+        "The cloud genuinely stops when paused rather than quietly redrawing itself forever. That also fixes the loader preview in the Loader Studio, which had the same behaviour."
     ],
     "required": false
 }
