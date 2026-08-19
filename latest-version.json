@@ -1,10 +1,10 @@
 {
-    "version": "1.1.363",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.363/NovaPanel-v1.1.363.zip",
+    "version": "1.1.364",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.364/NovaPanel-v1.1.364.zip",
     "notes": [
-        "The gold cloud turns continuously now instead of jumping back to the start every second. The panel redraws its contents once a second as new readings arrive, and the cloud was being rebuilt along with everything else - so it never got more…",
-        "The same cause made it disappear when paused: a freshly built cloud that starts stopped never draws its first frame, leaving an empty black square. A paused cloud now holds its picture.",
-        "Related fix in the same animation used by the loading screen: it repaints itself once after being resized while stopped. Changing a canvas size erases it, and with the animation halted there was nothing left to draw it back."
+        "The spinning cloud on the media card now drifts through colour as it turns. It starts on your chosen gold, travels out through the spectrum and comes back the same way, taking about a minute for the round trip.",
+        "It uses the same colour dial the Loader Studio slider writes, so this is the existing control being given a journey rather than a second colour system.",
+        "The colour holds still while paused, along with the rotation. A paused card that carried on changing colour would not really be paused."
     ],
     "required": false
 }
