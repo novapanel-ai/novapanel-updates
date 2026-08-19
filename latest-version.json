@@ -1,10 +1,10 @@
 {
-    "version": "1.1.368",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.368/NovaPanel-v1.1.368.zip",
+    "version": "1.1.369",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.369/NovaPanel-v1.1.369.zip",
     "notes": [
-        "YouTube videos loop without the pause. The usual way to loop an embedded video asks YouTube to start it over once it ends, which tears the player down and builds it again - that was the half second gap. The player is now told to jump back…",
-        "Measured on the real player: it now carries straight on through the wrap without ever leaving the playing state.",
-        "A short clip loops most smoothly, because its opening is already loaded. A very long video may still hesitate at the wrap, since jumping to the start of something hours long can mean fetching it again."
+        "Fixes the black YouTube card introduced in the previous build. The loop asked the player to jump back to the start, but the player keeps reporting its old position for a moment afterwards - so the app thought it was still at the end and…",
+        "It now asks once and waits until the video has genuinely returned to the start before it will ask again, with a safety timer so a jump that never lands cannot stall the loop.",
+        "Verified on the real player: one jump per loop instead of a continuous stream of them, and the video carries on playing afterwards."
     ],
     "required": false
 }
