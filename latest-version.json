@@ -1,10 +1,10 @@
 {
-    "version": "1.1.370",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.370/NovaPanel-v1.1.370.zip",
+    "version": "1.1.371",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.371/NovaPanel-v1.1.371.zip",
     "notes": [
-        "The YouTube card works. The fault was never the player - it was where the card was sitting. The panel rebuilds its list of readings about once a second, and moving an embedded player within the page makes the browser reload it from…",
-        "The video card now sits in its own place that the rebuild never touches. Measured: an embedded player inside the rebuilt list reloaded 17 times in eight seconds; in its own place it loaded once.",
-        "This also explains why the shortcuts flickered whenever a video was set, and why a video file from your PC always worked while YouTube did not - a plain video keeps playing when it is moved, an embedded player does not."
+        "The video loop card has been removed. It never worked reliably for YouTube, and having it on the panel was pushing the media player out of view - which is the more useful of the two.",
+        "Everything else is untouched: the media player, shortcuts, weather and the panel loader are all exactly as they were.",
+        "Video files from your PC and direct video links did work, and how to make YouTube work has been written down, so this can be picked up again later without starting over."
     ],
     "required": false
 }
