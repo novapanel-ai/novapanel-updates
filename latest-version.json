@@ -1,10 +1,10 @@
 {
-    "version": "1.1.369",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.369/NovaPanel-v1.1.369.zip",
+    "version": "1.1.370",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.370/NovaPanel-v1.1.370.zip",
     "notes": [
-        "Fixes the black YouTube card introduced in the previous build. The loop asked the player to jump back to the start, but the player keeps reporting its old position for a moment afterwards - so the app thought it was still at the end and…",
-        "It now asks once and waits until the video has genuinely returned to the start before it will ask again, with a safety timer so a jump that never lands cannot stall the loop.",
-        "Verified on the real player: one jump per loop instead of a continuous stream of them, and the video carries on playing afterwards."
+        "The YouTube card works. The fault was never the player - it was where the card was sitting. The panel rebuilds its list of readings about once a second, and moving an embedded player within the page makes the browser reload it from…",
+        "The video card now sits in its own place that the rebuild never touches. Measured: an embedded player inside the rebuilt list reloaded 17 times in eight seconds; in its own place it loaded once.",
+        "This also explains why the shortcuts flickered whenever a video was set, and why a video file from your PC always worked while YouTube did not - a plain video keeps playing when it is moved, an embedded player does not."
     ],
     "required": false
 }
