@@ -1,11 +1,10 @@
 {
-    "version": "1.1.365",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.365/NovaPanel-v1.1.365.zip",
+    "version": "1.1.366",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.366/NovaPanel-v1.1.366.zip",
     "notes": [
-        "A video loop card. Pick a clip once in Control Panel, Options, Video - a file on this PC, a direct video link, or a YouTube video - and any panel with Show video switched on plays it on a loop. Always muted, because a panel that made noise…",
-        "A YouTube link works even though a YouTube page is not a video file. The app recognises watch, share and shorts links and plays them as an embed; pasting one into an ordinary video player would have shown a black box and no explanation.",
-        "You can choose whether the clip fills the frame and crops, or shows the whole picture against black.",
-        "A file that has moved, or a link that will not play, says Video unavailable rather than sitting as a black rectangle."
+        "YouTube links are no longer accepted for the video card, and the app now says so instead of taking the link and showing an error on the panel. Panels are local pages, which means a YouTube embed has no web address YouTube will accept, and…",
+        "When a video will not play, the card now says why. A file whose format is not supported reads differently from one that could not be loaded at all - the previous message said only Video unavailable, which pointed at the app when the real…",
+        "Most modern video works: MP4 with H.264, H.265 or AV1, and WebM with VP8 or VP9. Very old phone recordings, the kind that use H.263 with AMR audio in an .mp4 wrapper, are not playable in any browser and will now say so."
     ],
     "required": false
 }
