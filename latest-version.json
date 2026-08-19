@@ -1,9 +1,11 @@
 {
-    "version": "1.1.349",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.349/NovaPanel-v1.1.349.zip",
+    "version": "1.1.350",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.350/NovaPanel-v1.1.350.zip",
     "notes": [
-        "Re-opening a panel from the Control Panel is now a real open. Closing a panel hides its window rather than destroying it, and re-opening simply showed that hidden window again - so what appeared was the previous session content, not a…",
-        "A hidden panel window is now discarded and rebuilt when you open it, so it opens at the loading height and plays the loader exactly as a first open does. Focusing a panel that is already on screen is unchanged."
+        "The sensor service now repairs itself. If it stops for any reason - an update, a crash, a manual stop - a background task registered by Setup notices within five minutes and starts it again. No prompt, nothing to click, nothing to find.…",
+        "This one arrives through the installer, not the in-app update. The recovery task is registered during the permission step Setup already performs, so it costs no extra prompt - but updating the app on its own will not add it. Run the…",
+        "Windows was previously the only thing that could bring the service back, and only at boot: its built-in recovery fires on a crash, never on a service that was stopped cleanly. That was the gap that let two sensors disappear for days at a…",
+        "The Start sensor service button in Settings, System Scan remains as a last resort. It should now be unnecessary."
     ],
     "required": false
 }
