@@ -1,11 +1,11 @@
 {
-    "version": "1.1.353",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.353/NovaPanel-v1.1.353.zip",
+    "version": "1.1.354",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.354/NovaPanel-v1.1.354.zip",
     "notes": [
-        "Show title is now a control you can actually reach. The OG widget has always been able to hide its title bar, and the setting was listed as available, but the only switch for it was in a Control Panel section that was removed a while back…",
-        "Settings you change for a panel now always reach that panel. There was a shortcut in the code that assumed there was only ever one panel to talk to, and it named the Hardware Panel. Anything that went through it read and wrote the Hardware…",
-        "Removed the old OG Widget settings section left behind in the Control Panel. Its controls had already lost their on-screen home and could no longer be seen, but the code behind them was still live and still pointed at the wrong panel.…",
-        "Fixed an upgrade step that applied the OG widget’s saved settings to the Hardware Panel. It only ever ran once per machine, on the upgrade that introduced the shared settings store, so most installs are past it - but any that are not would…"
+        "Shortcuts. A panel can now show a card of shortcuts that open a program, a folder, or a web address - sized for a fingertip, so it works on a touchscreen as well as with a mouse.",
+        "Add them once in Control Panel, Options, Shortcuts. Type a name and a target, or use Choose file to pick a program or folder. Each panel then has its own Show shortcuts switch in Panel Settings, the same way weather works - one list, and…",
+        "A shortcut that cannot be opened says so on the button itself for a moment rather than doing nothing. Usually that means the program or folder has moved.",
+        "Shortcuts that open a program, a folder or a link are supported. Running an arbitrary command is deliberately not, because the shortcut list is an ordinary settings file and anything able to edit it could otherwise make a tap run code."
     ],
     "required": false
 }
