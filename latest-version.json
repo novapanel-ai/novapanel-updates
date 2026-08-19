@@ -1,10 +1,11 @@
 {
-    "version": "1.1.371",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.371/NovaPanel-v1.1.371.zip",
+    "version": "1.1.372",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.372/NovaPanel-v1.1.372.zip",
     "notes": [
-        "The video loop card has been removed. It never worked reliably for YouTube, and having it on the panel was pushing the media player out of view - which is the more useful of the two.",
-        "Everything else is untouched: the media player, shortcuts, weather and the panel loader are all exactly as they were.",
-        "Video files from your PC and direct video links did work, and how to make YouTube work has been written down, so this can be picked up again later without starting over."
+        "The OG widget’s look is now a theme in its own right. Its colours, type, spacing, corners, weights and timing were only ever written inside the panel itself, so nothing else could wear them. They are now a proper Control Panel theme called…",
+        "Every value in it is labelled as either taken straight from the OG panel, scaled from it, or filled in because OG has no such thing. Nine roles the Control Panel needs and OG does not have are listed openly at the foot of the theme rather…",
+        "One finding worth recording: OG cannot support a third text shade. Anything dimmer than its existing dim grey fails the readability floor on its own card colour, which the build now checks.",
+        "The video card and its settings are unchanged and fully in place. Only YouTube is paused: choosing a YouTube link now says so plainly. A video file from your PC or a direct link to an .mp4 or .webm works exactly as before."
     ],
     "required": false
 }
