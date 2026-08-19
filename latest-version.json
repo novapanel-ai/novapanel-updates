@@ -1,12 +1,11 @@
 {
-    "version": "1.1.352",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.352/NovaPanel-v1.1.352.zip",
+    "version": "1.1.353",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.353/NovaPanel-v1.1.353.zip",
     "notes": [
-        "Panels no longer come back empty after a restart. A panel used to decide it was finished loading when its contents simply stopped changing - and on a fresh restart nothing is changing, because the sensor service has not started reporting…",
-        "If a reading has not arrived within twelve seconds, the panel stops waiting and shows everything it has. Anything still missing appears with its own label, a zero, and a small exclamation mark beside it. Hovering it explains that the…",
-        "A reading that freezes keeps its last number and gains the same exclamation mark, rather than vanishing. A value disappearing from a panel you were watching looks like the panel broke; keeping it and marking it says both things honestly…",
-        "A sensor your machine has never reported is still not shown at all. The app now remembers which sensors this machine has genuinely produced, so it can tell the difference between hardware that cannot report something and a reading that is…",
-        "The app no longer highlights itself in the taskbar when you restart. Windows flashes a taskbar button when a window asks for attention, and the Control Panel was asking for it every time it reopened at startup. It still opens exactly as…"
+        "Show title is now a control you can actually reach. The OG widget has always been able to hide its title bar, and the setting was listed as available, but the only switch for it was in a Control Panel section that was removed a while back…",
+        "Settings you change for a panel now always reach that panel. There was a shortcut in the code that assumed there was only ever one panel to talk to, and it named the Hardware Panel. Anything that went through it read and wrote the Hardware…",
+        "Removed the old OG Widget settings section left behind in the Control Panel. Its controls had already lost their on-screen home and could no longer be seen, but the code behind them was still live and still pointed at the wrong panel.…",
+        "Fixed an upgrade step that applied the OG widget’s saved settings to the Hardware Panel. It only ever ran once per machine, on the upgrade that introduced the shared settings store, so most installs are past it - but any that are not would…"
     ],
     "required": false
 }
