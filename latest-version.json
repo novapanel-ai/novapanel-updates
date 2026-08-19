@@ -1,10 +1,10 @@
 {
-    "version": "1.1.361",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.361/NovaPanel-v1.1.361.zip",
+    "version": "1.1.362",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.362/NovaPanel-v1.1.362.zip",
     "notes": [
-        "The media card always has a picture now. When a source publishes cover art you see the art; when it does not - YouTube in a browser never does - you get the gold cloud on black instead, turning while the track plays and holding still when…",
-        "It is the same cloud as the loading animation, from the same file and the same settings, so tuning the loader in Options tunes this with it. The card no longer changes shape depending on whether a picture happened to be available.",
-        "The cloud genuinely stops when paused rather than quietly redrawing itself forever. That also fixes the loader preview in the Loader Studio, which had the same behaviour."
+        "The media controls are drawn icons now, as one set. They were plain keyboard characters, and Windows renders several of those from its colour emoji font - so the row was a mix of styles, weights and colours sitting in a panel drawn…",
+        "All five are now drawn to the same grid at the same line weight, in the panel accent colour, and they take the colour of whatever they sit in - so hovering or dimming a button carries its icon with it.",
+        "They live in a shared file, so any panel that shows a media card gets the same five rather than its own near-copies."
     ],
     "required": false
 }
