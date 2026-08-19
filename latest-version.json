@@ -1,10 +1,11 @@
 {
-    "version": "1.1.364",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.364/NovaPanel-v1.1.364.zip",
+    "version": "1.1.365",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.365/NovaPanel-v1.1.365.zip",
     "notes": [
-        "The spinning cloud on the media card now drifts through colour as it turns. It starts on your chosen gold, travels out through the spectrum and comes back the same way, taking about a minute for the round trip.",
-        "It uses the same colour dial the Loader Studio slider writes, so this is the existing control being given a journey rather than a second colour system.",
-        "The colour holds still while paused, along with the rotation. A paused card that carried on changing colour would not really be paused."
+        "A video loop card. Pick a clip once in Control Panel, Options, Video - a file on this PC, a direct video link, or a YouTube video - and any panel with Show video switched on plays it on a loop. Always muted, because a panel that made noise…",
+        "A YouTube link works even though a YouTube page is not a video file. The app recognises watch, share and shorts links and plays them as an embed; pasting one into an ordinary video player would have shown a black box and no explanation.",
+        "You can choose whether the clip fills the frame and crops, or shows the whole picture against black.",
+        "A file that has moved, or a link that will not play, says Video unavailable rather than sitting as a black rectangle."
     ],
     "required": false
 }
