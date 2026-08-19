@@ -1,11 +1,11 @@
 {
-    "version": "1.1.356",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.356/NovaPanel-v1.1.356.zip",
+    "version": "1.1.357",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.357/NovaPanel-v1.1.357.zip",
     "notes": [
-        "Shortcuts now show the real program icon. They were all showing the same generic page symbol, which made a row of them useless - asking Windows for the icon of a Start Menu shortcut returns the icon of the shortcut FILE, not of the program…",
-        "Shortcuts sit in their own card. Its own border, its own padding and its own spacing, with the tiles centred - a row of buttons sharing the spacing of a list of readings looked like loose furniture rather than a group of things to press.",
-        "A web link, which has no icon to read, gets a lettered tile in a colour taken from its own name. Each one differs, and the same link keeps the same colour every time rather than changing on each launch.",
-        "The card and its tiles are sized from a single value, so panels larger than the OG widget will show bigger shortcuts without anything being rebuilt."
+        "A media player card. It shows whatever is playing on this machine - Spotify, a browser tab, the Media Player app - with play and pause, previous and next, a scrubber you can drag, the track and artist, cover art when the source provides…",
+        "It only appears while something is playing. There is no empty player sitting on your panel waiting for music.",
+        "Only the controls that actually work are shown. Windows tells us what each source allows, so a source that cannot skip tracks simply has no skip button rather than one that does nothing when pressed. The same goes for the scrubber - it is…",
+        "Nothing runs until a panel asks for it. The part that reads what is playing starts when the first panel shows the card and stops when the last one hides it, so if you do not use the widget it costs nothing at all."
     ],
     "required": false
 }
