@@ -1,10 +1,11 @@
 {
-    "version": "1.1.374",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.374/NovaPanel-v1.1.374.zip",
+    "version": "1.1.375",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.375/NovaPanel-v1.1.375.zip",
     "notes": [
-        "Panel Settings is tighter and opens smaller when a panel brings its own look. Rows are the height of the control in them rather than a fixed 38 pixels, the label column and the side rail are narrower, and the content sits in one spacing…",
-        "The window now opens at 560 by 520 for a themed panel instead of 780 by 640, and can be dragged considerably smaller. A size you have already set for yourself is kept - the new numbers only affect a window you have not sized.",
-        "The window also opens in the panel’s own background colour, so there is no flash of the Control Panel grey before the styling arrives."
+        "The larger text in a themed Panel Settings window has come down. The body size was right but everything above it was still climbing at the Control Panel’s rate, so headings arrived several steps bigger than anything the OG panel draws…",
+        "The window is much smaller: it opens at 430 by 400 instead of 560 by 520, and can be dragged down to 360 by 300. Content padding, row heights and the gap under the heading are all a step tighter.",
+        "The side rail went the other way and is slightly wider at 96px, so the longer tab words sit without cramping.",
+        "A size you have set yourself is still kept - these numbers only decide where an unsized window starts."
     ],
     "required": false
 }
