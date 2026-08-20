@@ -1,8 +1,11 @@
 {
-    "version": "1.1.401",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.401/NovaPanel-v1.1.401.zip",
+    "version": "1.1.402",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.402/NovaPanel-v1.1.402.zip",
     "notes": [
-        "Fixed the tier-preview lockout for real this time. Previewing a lower tier no longer removes the God Mode heading or the Tier Preview control itself — only everything else in God Mode still hides correctly, so the preview is honest but you…"
+        "Fixed rounded corners doing nothing — the page behind the panel was painting its own square background right up to the edge, covering the rounded corner from underneath regardless of the radius set.",
+        "The clock now fades with the rest of the content instead of staying static while everything else transitions.",
+        "Cantrip tier can no longer reorder, delete, or add layers in Panel Settings — the arrows and Add Layer button are disabled, tested by previewing Cantrip.",
+        "Added a real Transparent Background option for the OG panel."
     ],
     "required": false
 }
