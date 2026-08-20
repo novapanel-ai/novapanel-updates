@@ -1,9 +1,10 @@
 {
-    "version": "1.1.390",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.390/NovaPanel-v1.1.390.zip",
+    "version": "1.1.391",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.391/NovaPanel-v1.1.391.zip",
     "notes": [
-        "Subscription has moved into the God Mode section - no customer sees pricing at all right now, matching the plan to hold off on a subscriptions panel until the first paid tier is ready.",
-        "Tier preview is its own tab now, split out of Subscription, and pinned to the very bottom of the God Mode list rather than sitting in line with the others."
+        "Weather, Shortcuts and Video have moved out of the Control Panel and into each panel's own Settings window, right under the switch that already turned them on for that panel. Same location and city search, same shortcut list, same video…",
+        "The Control Panel tab that held them is renamed Portal loader, and now holds one thing: a button that opens the Loader Studio.",
+        "The loader's timing dials - height, lifetime, animation, fade out, content grow - have moved into the Loader Studio too, alongside the look and the rotating words it already controlled. Save, Save & replay, Defaults, Make default and…"
     ],
     "required": false
 }
