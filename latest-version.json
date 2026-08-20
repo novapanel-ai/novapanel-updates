@@ -1,12 +1,12 @@
 {
-    "version": "1.1.383",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.383/NovaPanel-v1.1.383.zip",
+    "version": "1.1.384",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.384/NovaPanel-v1.1.384.zip",
     "notes": [
-        "Fixed the real freeze: after the machine slept, the panel kept showing the previous night’s readings and never came back on its own.",
-        "The cause was a pipe that stayed OPEN but went SILENT. The app only ever watched for the sensor connection breaking, and sleep does not break it - it just stops the data. So nothing fired, nothing was logged, and the app waited forever on…",
-        "The app now judges the sensor feed by whether data is actually arriving, not by whether the socket says it is connected. Twenty seconds of total silence on a feed that normally delivers several readings a second is treated as dead, and it…",
-        "The app also had no resume-from-sleep handling at all. It now refreshes every live reader the moment Windows reports a resume, rather than waiting out the silence timer while you look at stale numbers.",
-        "The volume/brightness and media readers are restarted on resume too - long-lived background readers can come back from a suspend just as quietly useless as the sensor pipe was."
+        "General is now two tabs, About and Updates. General had become the drawer anything unclassified fell into, and the name told you nothing about what was inside.",
+        "About leads with the product itself: the logo, SIGIL set in Anta, and the version large underneath, with the about text below. The logo is a placeholder mark until the real one is ready.",
+        "Updates holds Check for Updates and the changelog. The Installed Modules section is gone - it was internal build data behind an internal-only gate, so no customer at any tier could ever see it.",
+        "Sigil now checks for updates on its own every six hours, and marks the Updates tab with a dot when a newer version exists, so you find out without going looking. Note this is a new recurring outbound request - previously the app only…",
+        "The footer version now opens About, which is where the version it shows actually lives."
     ],
     "required": false
 }
