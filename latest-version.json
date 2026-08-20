@@ -1,12 +1,12 @@
 {
-    "version": "1.1.379",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.379/NovaPanel-v1.1.379.zip",
+    "version": "1.1.380",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.380/NovaPanel-v1.1.380.zip",
     "notes": [
-        "New System card on the OG panel: your microphone level and mute, Bluetooth and Wi-Fi on/off, and which Windows power plan is running - all in one card.",
-        "Every row is drawn only if this machine actually has it. A desktop with no microphone and no radios never sees the card at all, and a laptop with one power scheme gets no plan row, because one option is not a choice.",
-        "Pressing a radio or a power plan dims it until Windows confirms the change, rather than flipping it immediately. The panel never shows a state the machine has not agreed to yet.",
-        "The card reads the same background process the volume and brightness card already uses, so adding it starts nothing new.",
-        "Fixed while testing: the panel read the list of power plans and which one was running as a single cached answer, so after you switched plans it painted the old one back and then would not let you correct it. Which plan is running is now…"
+        "The microphone slider now sits with volume and brightness, where it belongs - a microphone level is a volume.",
+        "Those sliders are drawn as the progress bars above them: a 2px line in the same two colours, with a small handle. The grabbable area stays finger-sized even though the bar is thin.",
+        "Bluetooth and Wi-Fi have their own card, and the power plan has its own card with a link out to Windows’ own power settings page for everything this card deliberately does not do.",
+        "The four power buttons fit on one row again. They were two pixels too wide for the card; rather than shave a fixed amount off, the row no longer wraps and the buttons share whatever width there is - so it holds at any panel size.",
+        "One card, one switch: Panel Settings now has separate switches for Bluetooth & Wi-Fi and for the power plan."
     ],
     "required": false
 }
