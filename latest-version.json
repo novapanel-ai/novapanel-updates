@@ -1,9 +1,12 @@
 {
-    "version": "1.1.394",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.394/NovaPanel-v1.1.394.zip",
+    "version": "1.1.395",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.395/NovaPanel-v1.1.395.zip",
     "notes": [
-        "Panel Settings for the OG panel reads closer to OG itself now: section headings (Clock, Widgets) are uppercase and gold, the same treatment OG gives CPU/GPU/MEMORY — a real bug in the theme file, not a style choice: it claimed OG never…",
-        "Text fields and dropdowns are shorter and their type is smaller, matching OG’s own field size instead of this window’s default control height."
+        "Snap to Edge now offers the four corners (Top + Right, Top + Left, Bottom + Right, Bottom + Left) as single choices, not just one edge at a time.",
+        "Fixed the Snap to Edge dropdown rendering its selected value cut off and unreadable — a forced height was too short for how the dropdown actually draws itself.",
+        "The Corner radius slider (and every other slider in Panel Settings) now actually shows its filled position — previously the fill was wired to a value nothing ever set, so every slider looked stuck at empty regardless of its real value.",
+        "Corner radius’s slider now matches OG’s own volume/brightness slider — same thin line, same small dot.",
+        "\"Edit Panel\" now sized and weighted like OG’s own clock — OG’s biggest, most prominent piece of text — instead of this window’s generic heading style."
     ],
     "required": false
 }
