@@ -1,11 +1,9 @@
 {
-    "version": "1.1.385",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.385/NovaPanel-v1.1.385.zip",
+    "version": "1.1.386",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.386/NovaPanel-v1.1.386.zip",
     "notes": [
-        "Control Panel menu reordered: About, Panels, Themes, System Scan, Subscription, Updates, then a God Mode section holding Options, Appearance, Debug and Testing.",
-        "The Developer section is now called God Mode, and Options and Appearance have moved into it. Sections in that group are removed entirely rather than hidden, because a hidden row still tells you what exists.",
-        "Themes stays on Glamour, the tier it already carried.",
-        "Appearance was being gated in two different places that had quietly drifted apart - one said Glamour, the other said owner-only. It is now gated once."
+        "Advisor has moved into the God Mode section and is the first item in it.",
+        "With that move, the Control Panel now gates every tab in exactly one place. There were two systems applying tier rules, and they had already quietly disagreed about one tab without anything appearing broken - both hid it for the same…"
     ],
     "required": false
 }
