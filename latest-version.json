@@ -1,9 +1,8 @@
 {
-    "version": "1.1.400",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.400/NovaPanel-v1.1.400.zip",
+    "version": "1.1.401",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.401/NovaPanel-v1.1.401.zip",
     "notes": [
-        "Fixed Check for Updates doing nothing below God Mode. Its wiring only ran as part of the god-mode-only Testing tab’s setup, a leftover from when Updates lived inside that tab — so anyone not on God Mode could open Updates, click Check, and…",
-        "Renamed the \"Telemetry\" layer badge to \"Content\"."
+        "Fixed the tier-preview lockout for real this time. Previewing a lower tier no longer removes the God Mode heading or the Tier Preview control itself — only everything else in God Mode still hides correctly, so the preview is honest but you…"
     ],
     "required": false
 }
