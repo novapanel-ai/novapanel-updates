@@ -1,12 +1,9 @@
 {
-    "version": "1.1.399",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.399/NovaPanel-v1.1.399.zip",
+    "version": "1.1.400",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.400/NovaPanel-v1.1.400.zip",
     "notes": [
-        "OLED burn-in protection is now its own section with its own badge instead of a checkbox buried in Behavior.",
-        "Fixed the Displays status text stacking one or two words per line on machines with more monitors or a longer status message.",
-        "Removed the resolution text crammed onto the small monitor-arrangement map — it was too small to read and already shown clearly in the list below. The map keeps its number badges.",
-        "The Reset to Defaults button is bigger and centered, and the \"Actions\" label above it is gone.",
-        "Renamed the \"Window\" tab to \"Portal\", moved Options to the bottom of the tab list, and widened the tab column."
+        "Fixed Check for Updates doing nothing below God Mode. Its wiring only ran as part of the god-mode-only Testing tab’s setup, a leftover from when Updates lived inside that tab — so anyone not on God Mode could open Updates, click Check, and…",
+        "Renamed the \"Telemetry\" layer badge to \"Content\"."
     ],
     "required": false
 }
