@@ -1,10 +1,9 @@
 {
-    "version": "1.1.391",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.391/NovaPanel-v1.1.391.zip",
+    "version": "1.1.392",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.392/NovaPanel-v1.1.392.zip",
     "notes": [
-        "Weather, Shortcuts and Video have moved out of the Control Panel and into each panel's own Settings window, right under the switch that already turned them on for that panel. Same location and city search, same shortcut list, same video…",
-        "The Control Panel tab that held them is renamed Portal loader, and now holds one thing: a button that opens the Loader Studio.",
-        "The loader's timing dials - height, lifetime, animation, fade out, content grow - have moved into the Loader Studio too, alongside the look and the rotating words it already controlled. Save, Save & replay, Defaults, Make default and…"
+        "Fixed the checkbox rendering that looked broken. The checkmark was sized and positioned for a 24px box, but this theme draws the box at 18px, so the checkmark overflowed the corner - fixed across the whole app, not just Panel Settings.",
+        "Cleaned up Panel Settings: every section used to sit in a heavy bracketed card - gold corner ticks, a drop shadow, thick padding - with a divider line underneath its header too, one after another down the whole list. Both are gone.…"
     ],
     "required": false
 }
