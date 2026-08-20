@@ -1,12 +1,10 @@
 {
-    "version": "1.1.380",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.380/NovaPanel-v1.1.380.zip",
+    "version": "1.1.381",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.381/NovaPanel-v1.1.381.zip",
     "notes": [
-        "The microphone slider now sits with volume and brightness, where it belongs - a microphone level is a volume.",
-        "Those sliders are drawn as the progress bars above them: a 2px line in the same two colours, with a small handle. The grabbable area stays finger-sized even though the bar is thin.",
-        "Bluetooth and Wi-Fi have their own card, and the power plan has its own card with a link out to Windows’ own power settings page for everything this card deliberately does not do.",
-        "The four power buttons fit on one row again. They were two pixels too wide for the card; rather than shave a fixed amount off, the row no longer wraps and the buttons share whatever width there is - so it holds at any panel size.",
-        "One card, one switch: Panel Settings now has separate switches for Bluetooth & Wi-Fi and for the power plan."
+        "The volume, brightness and microphone bars are actually thin now. They were set to 2px and reported 2px, but the code that paints the fill used the CSS background shorthand, which silently reset the rule keeping the paint inside that 2px…",
+        "Bluetooth and Wi-Fi now sit side by side. They were stacked because the card inherited a vertical direction, and the rule that was supposed to stop them stacking only prevents a second line - it says nothing about which way the first line…",
+        "Those two are now icon-only. Side by side leaves 61px each, and the word Bluetooth does not fit in that - it was rendering cut off with an ellipsis, which reads as a bug rather than a choice. The names are still there for tooltips and…"
     ],
     "required": false
 }
