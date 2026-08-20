@@ -1,9 +1,9 @@
 {
-    "version": "1.1.392",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.392/NovaPanel-v1.1.392.zip",
+    "version": "1.1.393",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.393/NovaPanel-v1.1.393.zip",
     "notes": [
-        "Fixed the checkbox rendering that looked broken. The checkmark was sized and positioned for a 24px box, but this theme draws the box at 18px, so the checkmark overflowed the corner - fixed across the whole app, not just Panel Settings.",
-        "Cleaned up Panel Settings: every section used to sit in a heavy bracketed card - gold corner ticks, a drop shadow, thick padding - with a divider line underneath its header too, one after another down the whole list. Both are gone.…"
+        "Panel Settings for the OG panel now genuinely wears OG's look instead of a recoloured version of the generic editor. Checkboxes are OG's own native style, not the app's custom-drawn box. Saved shortcuts get the same card-tile background OG…",
+        "This lives entirely in the OG theme file, not in the editor itself — the same file the OG panel and its settings both read, so a future change to how OG looks updates both places at once."
     ],
     "required": false
 }
