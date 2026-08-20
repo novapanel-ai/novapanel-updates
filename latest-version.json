@@ -1,9 +1,12 @@
 {
-    "version": "1.1.387",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.387/NovaPanel-v1.1.387.zip",
+    "version": "1.1.388",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.388/NovaPanel-v1.1.388.zip",
     "notes": [
-        "Themes starts at Glamour, and a Cantrip account no longer sees the tab at all - it is removed rather than hidden.",
-        "Its old gate could fail the wrong way. The check was set to \"allowed\" before the call that decides, so if that call ever failed - bridge missing, handler renamed - a free account was shown the tab. It is now gated the same way every other…"
+        "The Panels tab is now called \"Portals (panels)\".",
+        "Debug page audited. Two things on it were reporting subsystems that no longer exist, and both are gone.",
+        "The Machine surface section printed Archetype, Density, Hero, Surface role and Reason from a component deleted on 16 July - a placeholder returning the same five fixed values on every call. Its four override buttons went too: they changed…",
+        "The Simulate Session button and its hardcoded \"Cyberpunk 2077\" fixture are gone. They were scaffolding from before real session detection existed; once it did, the button hid itself on every render and could not be pressed. Invented data…",
+        "Everything else on the page was checked against live data and kept: pipeline counters, recent snapshots, recent events, session state and process roles are all reporting real values."
     ],
     "required": false
 }
