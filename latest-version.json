@@ -1,8 +1,9 @@
 {
-    "version": "1.1.404",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.404/NovaPanel-v1.1.404.zip",
+    "version": "1.1.405",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.405/NovaPanel-v1.1.405.zip",
     "notes": [
-        "Found and fixed what that stuck \"Generated Panel Proof\" window was: an internal dev-only tool, opened by a global Ctrl+Shift+G shortcut that was active even outside the app. The window genuinely had no way to close or move it — fixed with…"
+        "OG’s widget cards and progress bars (including the volume/brightness sliders) are now semi-transparent, matching the panel’s own transparent background.",
+        "Cantrip tier: the reorder arrows and Add Layer button are now fully hidden instead of shown-but-disabled."
     ],
     "required": false
 }
