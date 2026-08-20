@@ -1,11 +1,10 @@
 {
-    "version": "1.1.377",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.377/NovaPanel-v1.1.377.zip",
+    "version": "1.1.378",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.378/NovaPanel-v1.1.378.zip",
     "notes": [
-        "The twitching shortcut icons are fixed, and it was never the video. The whole card was being rebuilt every time a new sensor reading arrived - roughly every two seconds - and each rebuild started its icons from nothing, so every tile…",
-        "New card: volume and brightness. A slider each, with the speaker doubling as mute. It shows only what your machine actually has - brightness needs a built-in screen, so a desktop on an external monitor gets the volume row alone.",
-        "New card: power buttons - lock, sleep, restart and shut down, as tiles like the shortcuts. Each needs a SECOND press to confirm: the first press arms it and turns it amber, and it disarms itself after three seconds. Restart and shut down…",
-        "Both new cards are switched on per panel in Panel Settings, and the part that reads your volume and brightness only runs while a panel is showing the card."
+        "The volume and brightness card now appears. It was asking to be told your volume and brightness before your saved panel settings had loaded, at which point it still believed the card was switched off - so it never asked again. The power…",
+        "The power buttons are coloured, like the shortcut tiles. The four colours are chosen rather than derived: running them through the same name-based colouring the shortcuts use put shut-down and lock on two near-identical greens, and a green…",
+        "A button waiting for its confirming second press still turns amber over the top, so the warning always wins over the colour."
     ],
     "required": false
 }
