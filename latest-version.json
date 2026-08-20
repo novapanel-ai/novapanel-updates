@@ -1,11 +1,11 @@
 {
-    "version": "1.1.375",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.375/NovaPanel-v1.1.375.zip",
+    "version": "1.1.376",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.376/NovaPanel-v1.1.376.zip",
     "notes": [
-        "The larger text in a themed Panel Settings window has come down. The body size was right but everything above it was still climbing at the Control Panel’s rate, so headings arrived several steps bigger than anything the OG panel draws…",
-        "The window is much smaller: it opens at 430 by 400 instead of 560 by 520, and can be dragged down to 360 by 300. Content padding, row heights and the gap under the heading are all a step tighter.",
-        "The side rail went the other way and is slightly wider at 96px, so the longer tab words sit without cramping.",
-        "A size you have set yourself is still kept - these numbers only decide where an unsized window starts."
+        "The panel no longer arrives half loaded after a restart. It was deciding it had finished as soon as nothing was outstanding - and nothing is outstanding before the first reading has even arrived, so the loader lifted on an almost empty…",
+        "The stray spinner is gone. A small ring left over from the panel’s old loading state was appearing instead of the proper loader. A panel gets one loading state and it is the conjuring one.",
+        "Shortcut icons come back on their own. A failed icon lookup was being remembered as though it were an answer, so an icon that could not be read once - during startup, or waking from sleep - stayed missing until the whole app was restarted.…",
+        "The OG settings window opens at the size asked for, and its colour is simplified: the leftover greens, reds, oranges and teals from the old palette are now a grey ramp, and the accent is reserved for the section heading, the tab you are…"
     ],
     "required": false
 }
