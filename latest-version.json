@@ -1,11 +1,12 @@
 {
-    "version": "1.1.382",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.382/NovaPanel-v1.1.382.zip",
+    "version": "1.1.383",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.383/NovaPanel-v1.1.383.zip",
     "notes": [
-        "Fixed the OG panel cutting off its own bottom and never recovering. The panel was not frozen - the clock and every sensor were live - but the window had stopped at a height measured hours earlier, so the microphone, Bluetooth/Wi-Fi, power…",
-        "The cause: the panel only re-measured its height when the NUMBER of items grew. Anything that got taller without adding an item was invisible to it - shortcut icons finishing their load and reflowing to three rows, the weather card gaining…",
-        "It now re-measures whenever the content height actually changes, which is the question it was really asking all along. Verified in the running app: a reflow that adds no items resizes the window, and undoing that reflow shrinks the window…",
-        "When a panel genuinely is taller than your screen, the app now records that instead of silently dropping the overflow, and says how many pixels cannot be shown."
+        "Fixed the real freeze: after the machine slept, the panel kept showing the previous night’s readings and never came back on its own.",
+        "The cause was a pipe that stayed OPEN but went SILENT. The app only ever watched for the sensor connection breaking, and sleep does not break it - it just stops the data. So nothing fired, nothing was logged, and the app waited forever on…",
+        "The app now judges the sensor feed by whether data is actually arriving, not by whether the socket says it is connected. Twenty seconds of total silence on a feed that normally delivers several readings a second is treated as dead, and it…",
+        "The app also had no resume-from-sleep handling at all. It now refreshes every live reader the moment Windows reports a resume, rather than waiting out the silence timer while you look at stale numbers.",
+        "The volume/brightness and media readers are restarted on resume too - long-lived background readers can come back from a suspend just as quietly useless as the sensor pipe was."
     ],
     "required": false
 }
