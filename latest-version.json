@@ -1,10 +1,9 @@
 {
-    "version": "1.1.389",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.389/NovaPanel-v1.1.389.zip",
+    "version": "1.1.390",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.390/NovaPanel-v1.1.390.zip",
     "notes": [
-        "Fixed the God Mode section disappearing. Tier-gated tabs (Options, Appearance, Advisor, Debug, Testing) are deleted from the page rather than just hidden, and that check only ran once, the first time the Settings window loaded - later tier…",
-        "The Settings window is reused rather than recreated every time it is reopened, which meant a window opened while you were on a lower tier stayed missing those sections even after switching back, until you fully restarted the app.",
-        "Now the Settings window refreshes itself whenever it comes back from being hidden, and switching tiers on the Subscription tab refreshes it immediately - both cases re-check everything from a clean slate instead of relying on a check that…"
+        "Subscription has moved into the God Mode section - no customer sees pricing at all right now, matching the plan to hold off on a subscriptions panel until the first paid tier is ready.",
+        "Tier preview is its own tab now, split out of Subscription, and pinned to the very bottom of the God Mode list rather than sitting in line with the others."
     ],
     "required": false
 }
