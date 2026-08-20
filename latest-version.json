@@ -1,11 +1,11 @@
 {
-    "version": "1.1.376",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.376/NovaPanel-v1.1.376.zip",
+    "version": "1.1.377",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.377/NovaPanel-v1.1.377.zip",
     "notes": [
-        "The panel no longer arrives half loaded after a restart. It was deciding it had finished as soon as nothing was outstanding - and nothing is outstanding before the first reading has even arrived, so the loader lifted on an almost empty…",
-        "The stray spinner is gone. A small ring left over from the panel’s old loading state was appearing instead of the proper loader. A panel gets one loading state and it is the conjuring one.",
-        "Shortcut icons come back on their own. A failed icon lookup was being remembered as though it were an answer, so an icon that could not be read once - during startup, or waking from sleep - stayed missing until the whole app was restarted.…",
-        "The OG settings window opens at the size asked for, and its colour is simplified: the leftover greens, reds, oranges and teals from the old palette are now a grey ramp, and the accent is reserved for the section heading, the tab you are…"
+        "The twitching shortcut icons are fixed, and it was never the video. The whole card was being rebuilt every time a new sensor reading arrived - roughly every two seconds - and each rebuild started its icons from nothing, so every tile…",
+        "New card: volume and brightness. A slider each, with the speaker doubling as mute. It shows only what your machine actually has - brightness needs a built-in screen, so a desktop on an external monitor gets the volume row alone.",
+        "New card: power buttons - lock, sleep, restart and shut down, as tiles like the shortcuts. Each needs a SECOND press to confirm: the first press arms it and turns it amber, and it disarms itself after three seconds. Restart and shut down…",
+        "Both new cards are switched on per panel in Panel Settings, and the part that reads your volume and brightness only runs while a panel is showing the card."
     ],
     "required": false
 }
