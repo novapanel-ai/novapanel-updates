@@ -1,12 +1,9 @@
 {
-    "version": "1.1.395",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.395/NovaPanel-v1.1.395.zip",
+    "version": "1.1.396",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.396/NovaPanel-v1.1.396.zip",
     "notes": [
-        "Snap to Edge now offers the four corners (Top + Right, Top + Left, Bottom + Right, Bottom + Left) as single choices, not just one edge at a time.",
-        "Fixed the Snap to Edge dropdown rendering its selected value cut off and unreadable — a forced height was too short for how the dropdown actually draws itself.",
-        "The Corner radius slider (and every other slider in Panel Settings) now actually shows its filled position — previously the fill was wired to a value nothing ever set, so every slider looked stuck at empty regardless of its real value.",
-        "Corner radius’s slider now matches OG’s own volume/brightness slider — same thin line, same small dot.",
-        "\"Edit Panel\" now sized and weighted like OG’s own clock — OG’s biggest, most prominent piece of text — instead of this window’s generic heading style."
+        "Fixed why the slider fix in the last update did not show up for an already-open Panel Editor window: that window is reused rather than recreated when reopened, so it kept running the code it loaded with until reloaded. It now reloads…",
+        "Rescan is now the primary button and sits next to Clear on the Displays row, instead of floating alone in the middle of the row."
     ],
     "required": false
 }
