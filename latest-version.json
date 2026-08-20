@@ -1,9 +1,8 @@
 {
-    "version": "1.1.397",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.397/NovaPanel-v1.1.397.zip",
+    "version": "1.1.398",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.398/NovaPanel-v1.1.398.zip",
     "notes": [
-        "Fixed the slider thumb sitting below the line instead of centered on it — measured and corrected against a zoomed screenshot, not guessed.",
-        "Section headers (Displays, Behavior, Clock, Widgets...) are now actually OG’s real size, not just OG’s color. The color/case fix landed two versions ago; the font-size itself was still the window’s own oversized default the whole time."
+        "Fixed the panel flashing when moved to a monitor that needs a small position correction. That correction was landing as two separate width changes a few milliseconds apart, and each one re-ran the full reveal cycle on its own — one flash…"
     ],
     "required": false
 }
