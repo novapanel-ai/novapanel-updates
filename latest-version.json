@@ -1,11 +1,9 @@
 {
-    "version": "1.1.402",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.402/NovaPanel-v1.1.402.zip",
+    "version": "1.1.403",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.403/NovaPanel-v1.1.403.zip",
     "notes": [
-        "Fixed rounded corners doing nothing — the page behind the panel was painting its own square background right up to the edge, covering the rounded corner from underneath regardless of the radius set.",
-        "The clock now fades with the rest of the content instead of staying static while everything else transitions.",
-        "Cantrip tier can no longer reorder, delete, or add layers in Panel Settings — the arrows and Add Layer button are disabled, tested by previewing Cantrip.",
-        "Added a real Transparent Background option for the OG panel."
+        "The OG panel now genuinely reads the Layers tab. Base Color, Gradients, Patterns, Image and Video all render on it now, the same as any other panel — none of it worked before, it only saved. Removed the separate \"Transparent Background\"…",
+        "Fixed Cantrip tier lock not taking effect if Panel Settings was already open when you switched tiers — it only checked once at load. It now updates immediately when the tier changes, whichever window you change it from."
     ],
     "required": false
 }
