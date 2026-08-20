@@ -1,9 +1,9 @@
 {
-    "version": "1.1.396",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.396/NovaPanel-v1.1.396.zip",
+    "version": "1.1.397",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.397/NovaPanel-v1.1.397.zip",
     "notes": [
-        "Fixed why the slider fix in the last update did not show up for an already-open Panel Editor window: that window is reused rather than recreated when reopened, so it kept running the code it loaded with until reloaded. It now reloads…",
-        "Rescan is now the primary button and sits next to Clear on the Displays row, instead of floating alone in the middle of the row."
+        "Fixed the slider thumb sitting below the line instead of centered on it — measured and corrected against a zoomed screenshot, not guessed.",
+        "Section headers (Displays, Behavior, Clock, Widgets...) are now actually OG’s real size, not just OG’s color. The color/case fix landed two versions ago; the font-size itself was still the window’s own oversized default the whole time."
     ],
     "required": false
 }
