@@ -1,10 +1,11 @@
 {
-    "version": "1.1.381",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.381/NovaPanel-v1.1.381.zip",
+    "version": "1.1.382",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.382/NovaPanel-v1.1.382.zip",
     "notes": [
-        "The volume, brightness and microphone bars are actually thin now. They were set to 2px and reported 2px, but the code that paints the fill used the CSS background shorthand, which silently reset the rule keeping the paint inside that 2px…",
-        "Bluetooth and Wi-Fi now sit side by side. They were stacked because the card inherited a vertical direction, and the rule that was supposed to stop them stacking only prevents a second line - it says nothing about which way the first line…",
-        "Those two are now icon-only. Side by side leaves 61px each, and the word Bluetooth does not fit in that - it was rendering cut off with an ellipsis, which reads as a bug rather than a choice. The names are still there for tooltips and…"
+        "Fixed the OG panel cutting off its own bottom and never recovering. The panel was not frozen - the clock and every sensor were live - but the window had stopped at a height measured hours earlier, so the microphone, Bluetooth/Wi-Fi, power…",
+        "The cause: the panel only re-measured its height when the NUMBER of items grew. Anything that got taller without adding an item was invisible to it - shortcut icons finishing their load and reflowing to three rows, the weather card gaining…",
+        "It now re-measures whenever the content height actually changes, which is the question it was really asking all along. Verified in the running app: a reflow that adds no items resizes the window, and undoing that reflow shrinks the window…",
+        "When a panel genuinely is taller than your screen, the app now records that instead of silently dropping the overflow, and says how many pixels cannot be shown."
     ],
     "required": false
 }
