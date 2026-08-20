@@ -1,9 +1,9 @@
 {
-    "version": "1.1.386",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.386/NovaPanel-v1.1.386.zip",
+    "version": "1.1.387",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.387/NovaPanel-v1.1.387.zip",
     "notes": [
-        "Advisor has moved into the God Mode section and is the first item in it.",
-        "With that move, the Control Panel now gates every tab in exactly one place. There were two systems applying tier rules, and they had already quietly disagreed about one tab without anything appearing broken - both hid it for the same…"
+        "Themes starts at Glamour, and a Cantrip account no longer sees the tab at all - it is removed rather than hidden.",
+        "Its old gate could fail the wrong way. The check was set to \"allowed\" before the call that decides, so if that call ever failed - bridge missing, handler renamed - a free account was shown the tab. It is now gated the same way every other…"
     ],
     "required": false
 }
