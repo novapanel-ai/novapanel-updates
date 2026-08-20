@@ -1,12 +1,11 @@
 {
-    "version": "1.1.384",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.384/NovaPanel-v1.1.384.zip",
+    "version": "1.1.385",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.385/NovaPanel-v1.1.385.zip",
     "notes": [
-        "General is now two tabs, About and Updates. General had become the drawer anything unclassified fell into, and the name told you nothing about what was inside.",
-        "About leads with the product itself: the logo, SIGIL set in Anta, and the version large underneath, with the about text below. The logo is a placeholder mark until the real one is ready.",
-        "Updates holds Check for Updates and the changelog. The Installed Modules section is gone - it was internal build data behind an internal-only gate, so no customer at any tier could ever see it.",
-        "Sigil now checks for updates on its own every six hours, and marks the Updates tab with a dot when a newer version exists, so you find out without going looking. Note this is a new recurring outbound request - previously the app only…",
-        "The footer version now opens About, which is where the version it shows actually lives."
+        "Control Panel menu reordered: About, Panels, Themes, System Scan, Subscription, Updates, then a God Mode section holding Options, Appearance, Debug and Testing.",
+        "The Developer section is now called God Mode, and Options and Appearance have moved into it. Sections in that group are removed entirely rather than hidden, because a hidden row still tells you what exists.",
+        "Themes stays on Glamour, the tier it already carried.",
+        "Appearance was being gated in two different places that had quietly drifted apart - one said Glamour, the other said owner-only. It is now gated once."
     ],
     "required": false
 }
