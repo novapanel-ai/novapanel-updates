@@ -1,9 +1,9 @@
 {
-    "version": "1.1.393",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.393/NovaPanel-v1.1.393.zip",
+    "version": "1.1.394",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.394/NovaPanel-v1.1.394.zip",
     "notes": [
-        "Panel Settings for the OG panel now genuinely wears OG's look instead of a recoloured version of the generic editor. Checkboxes are OG's own native style, not the app's custom-drawn box. Saved shortcuts get the same card-tile background OG…",
-        "This lives entirely in the OG theme file, not in the editor itself — the same file the OG panel and its settings both read, so a future change to how OG looks updates both places at once."
+        "Panel Settings for the OG panel reads closer to OG itself now: section headings (Clock, Widgets) are uppercase and gold, the same treatment OG gives CPU/GPU/MEMORY — a real bug in the theme file, not a style choice: it claimed OG never…",
+        "Text fields and dropdowns are shorter and their type is smaller, matching OG’s own field size instead of this window’s default control height."
     ],
     "required": false
 }
