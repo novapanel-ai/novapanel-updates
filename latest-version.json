@@ -1,8 +1,8 @@
 {
-    "version": "1.1.407",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.407/NovaPanel-v1.1.407.zip",
+    "version": "1.1.408",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.408/NovaPanel-v1.1.408.zip",
     "notes": [
-        "Fixed the panel jumping back to its snapped corner on its own: any time the panel resized itself (weather refresh, a sensor or media card appearing/disappearing), it silently re-snapped to your last-saved edge even if you'd just dragged it…"
+        "OG's look, retinted for its now-transparent background: the panel ground is a deep near-black carrying a hint of your accent color instead of a flat brown-black, and every border, card background and progress-bar track is white at low…"
     ],
     "required": false
 }
