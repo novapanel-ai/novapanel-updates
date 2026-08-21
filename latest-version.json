@@ -1,10 +1,12 @@
 {
-    "version": "1.1.421",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.421/NovaPanel-v1.1.421.zip",
+    "version": "1.1.422",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.422/NovaPanel-v1.1.422.zip",
     "notes": [
-        "Shortcuts tab now shows a real preview of the shortcut tiles (with icons) at the top, above the Find/link controls, instead of leaving that to the saved-shortcuts list further down.",
-        "Removed the boxed card styling behind every widget preview added last cycle (Computer, Media, Shortcuts) — it was a frame around a frame, since the widget itself already draws its own real card. Previews now sit directly on the panel's own…",
-        "Dropdown fields in the Panel Editor were nearly invisible against its dark background — lightened their surface and border (existing design-system tokens, one step up from the recessed text-field look) so they read as clickable controls."
+        "Shortcuts preview is now your actual saved shortcuts with their actual icons, not a generic sample — and it's the whole list now: the old icon+name+Remove rows below Find/Or-a-link are gone, hover a tile and click to remove it there…",
+        "Fixed a real bug: the widget previews (Computer, Media, Shortcuts) were still sitting on a visible background box behind them — the frame was gone but the fill color wasn't, and on top of that a fully transparent iframe rendered solid…",
+        "Fixed \"Volume, Brightness & Microphone\" (and every other preview heading) wrapping to two lines despite having the whole row — it was reusing a label style meant for a narrow field caption, not a heading.",
+        "More vertical padding around each preview (16px to 24px), and Video now has its own heading like its neighbors instead of sitting unlabeled under Media Player.",
+        "Preview boxes now size themselves to whatever they're actually showing — a two-row slider card and a five-tile shortcut grid each get exactly the room they need — instead of guessing a fixed height."
     ],
     "required": false
 }
