@@ -1,11 +1,8 @@
 {
-    "version": "1.1.411",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.411/NovaPanel-v1.1.411.zip",
+    "version": "1.1.412",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.412/NovaPanel-v1.1.412.zip",
     "notes": [
-        "Dragging a panel away from its snapped edge now clears Snap to Edge back to None, so it stops trying to return there and the Panel Editor's dropdown shows the truth.",
-        "Fixed the Default button next to each text color doing nothing — it was deleting the saved color but never actually reverting the panel's live color, across every theme.",
-        "Text tab now shows only the color levels a theme actually uses (OG: 2, not 4) and adds an Accent Color entry for themes that have one.",
-        "OG's unit text (%, °C, GHz, etc.) now uses the Text tab's Level 2 color instead of a dimmed copy of the value's own color."
+        "New: Snap while dragging (Panel Editor → Window → Snap to Edge). When on, dragging a panel within reach of a screen edge pulls it flush and sets Snap to Edge to match; off by default."
     ],
     "required": false
 }
