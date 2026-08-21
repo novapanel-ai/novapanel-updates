@@ -1,9 +1,9 @@
 {
-    "version": "1.1.417",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.417/NovaPanel-v1.1.417.zip",
+    "version": "1.1.418",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.418/NovaPanel-v1.1.418.zip",
     "notes": [
-        "The Settings tab is gone — its last remaining control (Show border) moved into Layout, so there's nothing left in it.",
-        "Removed the Layout type (Dense/Relaxed/Minimal) picker for OG — it's being replaced by something under Sensors."
+        "Layout tab removed. Sensor Layout moved into Sensors (which no longer has a duplicate on/off checklist — Content is the one place for that); Clock face moved into Date / Time; Border moved into Content.",
+        "Every Panel Editor tab now explains what it's for instead of repeating the same generic header everywhere."
     ],
     "required": false
 }
