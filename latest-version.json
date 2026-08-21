@@ -1,9 +1,9 @@
 {
-    "version": "1.1.414",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.414/NovaPanel-v1.1.414.zip",
+    "version": "1.1.415",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.415/NovaPanel-v1.1.415.zip",
     "notes": [
-        "Fixed Show border: it now correctly hides/shows OG's existing hairline dividers between items, not a new outer border around the whole panel.",
-        "Fixed the Text tab's Accent Color: it now sets both the header accent and the progress-bar color together, so the bars actually follow it instead of staying gold."
+        "Accent Color and Font are now only in the Text tab — removed the duplicate Accent/Bars/Font controls from Settings.",
+        "New: Sensor Layout (Layout tab). By Hardware is the panel's original grouping (CPU, GPU, ...); By Sensor regroups the same readings by measurement instead (Load, Temp, Clock, ...) with one row per component that reports it."
     ],
     "required": false
 }
