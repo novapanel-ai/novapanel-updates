@@ -1,9 +1,8 @@
 {
-    "version": "1.1.406",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.406/NovaPanel-v1.1.406.zip",
+    "version": "1.1.407",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.407/NovaPanel-v1.1.407.zip",
     "notes": [
-        "Found the real cause of the square corners: Windows draws a native drop-shadow around the window’s rectangular bounds by default, independent of the panel’s own rounded shape — so a perfectly rounded panel still showed a square outline…",
-        "Fixed background transparency not working when the Opacity slider was dragged near zero instead of the Color layer being switched off — the panel’s own fallback color was still sitting underneath it either way. It now gets out of the way…"
+        "Fixed the panel jumping back to its snapped corner on its own: any time the panel resized itself (weather refresh, a sensor or media card appearing/disappearing), it silently re-snapped to your last-saved edge even if you'd just dragged it…"
     ],
     "required": false
 }
