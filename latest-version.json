@@ -1,8 +1,11 @@
 {
-    "version": "1.1.412",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.412/NovaPanel-v1.1.412.zip",
+    "version": "1.1.413",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.413/NovaPanel-v1.1.413.zip",
     "notes": [
-        "New: Snap while dragging (Panel Editor → Window → Snap to Edge). When on, dragging a panel within reach of a screen edge pulls it flush and sets Snap to Edge to match; off by default."
+        "OG's progress bar fills are now solid accent color instead of blended into the glass background, so they stay clearly readable against any panel background.",
+        "New: Show border toggle (Panel Editor → Settings → Border) for OG's outer edge.",
+        "The Options tab is now called Settings.",
+        "New Layout tab, currently holding the Clock face picker (moved out of Settings)."
     ],
     "required": false
 }
