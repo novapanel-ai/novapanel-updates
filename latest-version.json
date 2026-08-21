@@ -1,8 +1,11 @@
 {
-    "version": "1.1.410",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.410/NovaPanel-v1.1.410.zip",
+    "version": "1.1.411",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.411/NovaPanel-v1.1.411.zip",
     "notes": [
-        "OG now reads the Text tab in Panel Editor: font, Level 1/2 color and opacity, text shadow, and Reverse Text (including Monochrome and Contrast Reverse) all take effect on the panel, the same as gauge2 and Blackfield already do. Previously…"
+        "Dragging a panel away from its snapped edge now clears Snap to Edge back to None, so it stops trying to return there and the Panel Editor's dropdown shows the truth.",
+        "Fixed the Default button next to each text color doing nothing — it was deleting the saved color but never actually reverting the panel's live color, across every theme.",
+        "Text tab now shows only the color levels a theme actually uses (OG: 2, not 4) and adds an Accent Color entry for themes that have one.",
+        "OG's unit text (%, °C, GHz, etc.) now uses the Text tab's Level 2 color instead of a dimmed copy of the value's own color."
     ],
     "required": false
 }
