@@ -1,9 +1,11 @@
 {
-    "version": "1.1.415",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.415/NovaPanel-v1.1.415.zip",
+    "version": "1.1.416",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.416/NovaPanel-v1.1.416.zip",
     "notes": [
-        "Accent Color and Font are now only in the Text tab — removed the duplicate Accent/Bars/Font controls from Settings.",
-        "New: Sensor Layout (Layout tab). By Hardware is the panel's original grouping (CPU, GPU, ...); By Sensor regroups the same readings by measurement instead (Load, Temp, Clock, ...) with one row per component that reports it."
+        "Panel Editor reorganized: the old Settings tab (everything from the clock to weather to power buttons) is split into Content, Sensors, Date / Time, Weather, Shortcuts, Media, and Computer — Settings now holds only the border toggle.",
+        "New Content tab: a flat checklist of everything the panel can show, each with a Configure button that jumps straight to where it's set up. Turn something off here and its tab disappears from the sidebar until it's back on.",
+        "New Sensors tab: per-component show/hide (CPU, GPU, iGPU, Memory, Storage, Laptop, Network, Frame) — hides that component from the panel in both Sensor Layout modes.",
+        "\"Show title\" moved to Portal; \"Layout type\" (Dense/Relaxed/Minimal) moved to the Layout tab."
     ],
     "required": false
 }
