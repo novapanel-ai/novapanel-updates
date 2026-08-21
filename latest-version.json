@@ -1,12 +1,9 @@
 {
-    "version": "1.1.422",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.422/NovaPanel-v1.1.422.zip",
+    "version": "1.1.423",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.423/NovaPanel-v1.1.423.zip",
     "notes": [
-        "Shortcuts preview is now your actual saved shortcuts with their actual icons, not a generic sample — and it's the whole list now: the old icon+name+Remove rows below Find/Or-a-link are gone, hover a tile and click to remove it there…",
-        "Fixed a real bug: the widget previews (Computer, Media, Shortcuts) were still sitting on a visible background box behind them — the frame was gone but the fill color wasn't, and on top of that a fully transparent iframe rendered solid…",
-        "Fixed \"Volume, Brightness & Microphone\" (and every other preview heading) wrapping to two lines despite having the whole row — it was reusing a label style meant for a narrow field caption, not a heading.",
-        "More vertical padding around each preview (16px to 24px), and Video now has its own heading like its neighbors instead of sitting unlabeled under Media Player.",
-        "Preview boxes now size themselves to whatever they're actually showing — a two-row slider card and a five-tile shortcut grid each get exactly the room they need — instead of guessing a fixed height."
+        "Fixed the Shortcuts preview showing too many tiles per row — it was wrapping based on the Panel Editor's own wide column instead of the real panel's actual width, so it never wrapped where the real panel does.",
+        "Root cause was a physical-vs-logical pixel mismatch (the real panel's width is spec'd in physical pixels; a display scaled above 100% renders that as fewer logical/CSS pixels) — the preview now accounts for your display's actual scale, so…"
     ],
     "required": false
 }
