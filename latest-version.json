@@ -1,8 +1,8 @@
 {
-    "version": "1.1.409",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.409/NovaPanel-v1.1.409.zip",
+    "version": "1.1.410",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.410/NovaPanel-v1.1.410.zip",
     "notes": [
-        "Fixed moving a panel to another monitor silently doing nothing when its previous monitor had been disconnected (e.g. undocking a laptop). Windows minimizes a window left on a monitor that disappears, and the move was only repositioning it…"
+        "OG now reads the Text tab in Panel Editor: font, Level 1/2 color and opacity, text shadow, and Reverse Text (including Monochrome and Contrast Reverse) all take effect on the panel, the same as gauge2 and Blackfield already do. Previously…"
     ],
     "required": false
 }
