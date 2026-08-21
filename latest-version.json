@@ -1,9 +1,9 @@
 {
-    "version": "1.1.405",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.405/NovaPanel-v1.1.405.zip",
+    "version": "1.1.406",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.406/NovaPanel-v1.1.406.zip",
     "notes": [
-        "OG’s widget cards and progress bars (including the volume/brightness sliders) are now semi-transparent, matching the panel’s own transparent background.",
-        "Cantrip tier: the reorder arrows and Add Layer button are now fully hidden instead of shown-but-disabled."
+        "Found the real cause of the square corners: Windows draws a native drop-shadow around the window’s rectangular bounds by default, independent of the panel’s own rounded shape — so a perfectly rounded panel still showed a square outline…",
+        "Fixed background transparency not working when the Opacity slider was dragged near zero instead of the Color layer being switched off — the panel’s own fallback color was still sitting underneath it either way. It now gets out of the way…"
     ],
     "required": false
 }
