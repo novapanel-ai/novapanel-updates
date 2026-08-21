@@ -1,11 +1,9 @@
 {
-    "version": "1.1.413",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.413/NovaPanel-v1.1.413.zip",
+    "version": "1.1.414",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.414/NovaPanel-v1.1.414.zip",
     "notes": [
-        "OG's progress bar fills are now solid accent color instead of blended into the glass background, so they stay clearly readable against any panel background.",
-        "New: Show border toggle (Panel Editor → Settings → Border) for OG's outer edge.",
-        "The Options tab is now called Settings.",
-        "New Layout tab, currently holding the Clock face picker (moved out of Settings)."
+        "Fixed Show border: it now correctly hides/shows OG's existing hairline dividers between items, not a new outer border around the whole panel.",
+        "Fixed the Text tab's Accent Color: it now sets both the header accent and the progress-bar color together, so the bars actually follow it instead of staying gold."
     ],
     "required": false
 }
