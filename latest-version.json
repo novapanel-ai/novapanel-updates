@@ -1,9 +1,11 @@
 {
-    "version": "1.1.418",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.418/NovaPanel-v1.1.418.zip",
+    "version": "1.1.419",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.419/NovaPanel-v1.1.419.zip",
     "notes": [
-        "Layout tab removed. Sensor Layout moved into Sensors (which no longer has a duplicate on/off checklist — Content is the one place for that); Clock face moved into Date / Time; Border moved into Content.",
-        "Every Panel Editor tab now explains what it's for instead of repeating the same generic header everywhere."
+        "Fixed OG's close button — it was hardcoded to always try closing the primary Hardware Panel instead of the window it was actually clicked in, so it usually did nothing. Also fixed a panel-list \"Close\" action that only ever hid the window…",
+        "Settings should now reliably come to the front when reopened, instead of sometimes staying behind other windows. Also stopped it grabbing unearned taskbar attention on every single startup, not just some.",
+        "Fixed a slow positional drift where a panel could nudge a few pixels off from where it was placed over repeated resizes — a small rounding artifact was getting saved as if it were a real move each time.",
+        "Added a repaint nudge on wake from sleep for all open panels, as a mitigation for occasional stale-frame flashing after resume."
     ],
     "required": false
 }
