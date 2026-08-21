@@ -1,9 +1,12 @@
 {
-    "version": "1.1.423",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.423/NovaPanel-v1.1.423.zip",
+    "version": "1.1.424",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.424/NovaPanel-v1.1.424.zip",
     "notes": [
-        "Fixed the Shortcuts preview showing too many tiles per row — it was wrapping based on the Panel Editor's own wide column instead of the real panel's actual width, so it never wrapped where the real panel does.",
-        "Root cause was a physical-vs-logical pixel mismatch (the real panel's width is spec'd in physical pixels; a display scaled above 100% renders that as fewer logical/CSS pixels) — the preview now accounts for your display's actual scale, so…"
+        "Fixed shortcut icons showing as broken-image glyphs in the Shortcuts preview — the preview page's security policy didn't allow the icon format shortcuts actually use, blocking every real one.",
+        "Fixed all four Computer-tab previews (Volume/Brightness, Power Buttons, Bluetooth & Wi-Fi, Power Plan) showing at different widths — the real panel is a fixed width so every card on it is that same width; the previews now match.",
+        "Video now has a real, live preview — an actual loop of your chosen file, not just the Source/Fill dropdowns.",
+        "Weather now has a real, live preview too — today's actual conditions in your actual chosen icon style, not a placeholder.",
+        "Weather tab's Search and Use Mine buttons moved onto the Location row instead of sitting alone on their own row."
     ],
     "required": false
 }
