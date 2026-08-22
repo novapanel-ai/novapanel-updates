@@ -1,9 +1,10 @@
 {
-    "version": "1.1.427",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.427/NovaPanel-v1.1.427.zip",
+    "version": "1.1.428",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.428/NovaPanel-v1.1.428.zip",
     "notes": [
-        "Reverted last cycle's OG panel padding change — that was a misread of \"main panel,\" which meant the Settings window's content area, not the OG widget. OG is back to its original padding.",
-        "Tripled the Settings window's main content area padding on the left and right, as intended. Root cause of why the first attempt landed on the wrong element for real: the currently active Control Panel theme carries its own, more specific…"
+        "OG's six widget cards (media player, volume/brightness/mic, power buttons, Bluetooth & Wi-Fi, power plan, video) now use the same real card-style capability gauge2 and Blackfield already have — background color/opacity, border color/width…",
+        "Cards tab moved up in the sidebar to sit right under Layers.",
+        "Found and fixed a real bug while wiring this up: three separate places in the app were resetting a panel's card style to a generic, theme-blind default any time a panel got created or reset, silently overwriting whatever look that theme…"
     ],
     "required": false
 }
