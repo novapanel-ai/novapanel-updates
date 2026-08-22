@@ -1,8 +1,9 @@
 {
-    "version": "1.1.426",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.426/NovaPanel-v1.1.426.zip",
+    "version": "1.1.427",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.427/NovaPanel-v1.1.427.zip",
     "notes": [
-        "OG panel's left/right content padding tripled (12px to 36px) for better visual balance — one shared token, so every row, card, and divider insets the same new amount."
+        "Reverted last cycle's OG panel padding change — that was a misread of \"main panel,\" which meant the Settings window's content area, not the OG widget. OG is back to its original padding.",
+        "Tripled the Settings window's main content area padding on the left and right, as intended. Root cause of why the first attempt landed on the wrong element for real: the currently active Control Panel theme carries its own, more specific…"
     ],
     "required": false
 }
