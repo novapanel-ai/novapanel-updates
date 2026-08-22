@@ -1,8 +1,8 @@
 {
-    "version": "1.1.425",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.425/NovaPanel-v1.1.425.zip",
+    "version": "1.1.426",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.426/NovaPanel-v1.1.426.zip",
     "notes": [
-        "Panel Editor form fields now stack the label above the field instead of squeezing every field into a narrow column beside a fixed-width label — the field gets the whole row's width instead of whatever was left over. Reaches every tab that…"
+        "OG panel's left/right content padding tripled (12px to 36px) for better visual balance — one shared token, so every row, card, and divider insets the same new amount."
     ],
     "required": false
 }
