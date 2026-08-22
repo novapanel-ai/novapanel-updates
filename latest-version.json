@@ -1,10 +1,10 @@
 {
-    "version": "1.1.428",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.428/NovaPanel-v1.1.428.zip",
+    "version": "1.1.429",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.429/NovaPanel-v1.1.429.zip",
     "notes": [
-        "OG's six widget cards (media player, volume/brightness/mic, power buttons, Bluetooth & Wi-Fi, power plan, video) now use the same real card-style capability gauge2 and Blackfield already have — background color/opacity, border color/width…",
-        "Cards tab moved up in the sidebar to sit right under Layers.",
-        "Found and fixed a real bug while wiring this up: three separate places in the app were resetting a panel's card style to a generic, theme-blind default any time a panel got created or reset, silently overwriting whatever look that theme…"
+        "The Cards capability from v1.1.428 was reachable only from its own tab — added a \"Widget Cards\" entry directly inside the Layers list itself (right at the top, above the stack) so it's visible from where people actually look for it…",
+        "Fixed a layout regression from v1.1.425: rows that were already built to pack two or three short fields on one line (Image's Source/Fit/Opacity, Gradient stops' Angle/Position) were getting force-stacked one-per-line by that fix's blanket…",
+        "Combined the Base Color layer's separate Color and Opacity rows onto one line, matching that same compact convention."
     ],
     "required": false
 }
