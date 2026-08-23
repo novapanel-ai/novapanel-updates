@@ -1,11 +1,9 @@
 {
-    "version": "1.1.443",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.443/NovaPanel-v1.1.443.zip",
+    "version": "1.1.444",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.444/NovaPanel-v1.1.444.zip",
     "notes": [
-        "GPU Power now has an Inline progress bar — against this card's own configured power limit, read live from nvidia-smi (real per-machine data, not an internet spec — a laptop GPU's power configuration varies by OEM, so a generic number would…",
-        "Memory and Storage: \"In use\" and \"Total\" are no longer two separate rows — they're now one combined line (\"25.6 GB / 31.4 GB\"), in both Card and List views. The Used% bar right above already shows this same ratio visually, so the two raw…",
-        "Inline Progress Bar mode: the bar moved to the right edge of the row (right-aligned), and every reading's value — whether that row has a bar or not — now lands in the same column instead of jumping around depending on whether a bar was…",
-        "Reduced overall text weight across the panel (Card and List alike) — labels and values are lighter now, so the hardware model-name lines (\"NVIDIA GeForce RTX 4090...\", \"Samsung 8x4GB...\") are the one thing that still reads bold, instead of…"
+        "Fixed v1.1.443's Inline Progress Bar layout — that redesign put the value in its own aligned column, which was wrong: it left a gap before the value and starved the bar down to a tiny sliver. Label and value are back to sitting right next…",
+        "Fixed the Panel Editor's dropdown menus (e.g. Snap to Edge) rendering nearly unreadable — pale grey text on a white popup. The Panel Editor's own theme never set option colors, so the open list fell back to browser defaults instead of…"
     ],
     "required": false
 }
