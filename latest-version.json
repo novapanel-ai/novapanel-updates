@@ -1,10 +1,9 @@
 {
-    "version": "1.1.436",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.436/NovaPanel-v1.1.436.zip",
+    "version": "1.1.437",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.437/NovaPanel-v1.1.437.zip",
     "notes": [
-        "Sensors tab: new Display row (As Cards / As a List) above Sensor Layout — By Hardware / By Sensor now only shows when As Cards is chosen, since it has no meaning without card groupings.",
-        "New \"As a List\" mode for OG: every hardware reading in one flat list, one card — no per-component cards, no separate hardware-name headings. Each model name (\"Intel Core Ultra 9 185H\") gets its own row, and every reading is labeled with…",
-        "Per-row list customization (\"per row options\") is intentionally not built yet — this ships the flat grouped view first."
+        "Fixed a real alignment bug: every reading's progress bar sat one padding-width further right than its own label — the bar had its own margin on top of the card's padding, double-insetting it. Bars now line up exactly with the text beside…",
+        "List view: new Progress Bar option (No Progress Bar / Inline), under Display > As a List. No Progress Bar (the default) shows every reading as plain text, same as before. Inline shows the bar between the label and value on one line, with…"
     ],
     "required": false
 }
