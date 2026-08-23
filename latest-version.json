@@ -1,9 +1,8 @@
 {
-    "version": "1.1.437",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.437/NovaPanel-v1.1.437.zip",
+    "version": "1.1.438",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.438/NovaPanel-v1.1.438.zip",
     "notes": [
-        "Fixed a real alignment bug: every reading's progress bar sat one padding-width further right than its own label — the bar had its own margin on top of the card's padding, double-insetting it. Bars now line up exactly with the text beside…",
-        "List view: new Progress Bar option (No Progress Bar / Inline), under Display > As a List. No Progress Bar (the default) shows every reading as plain text, same as before. Inline shows the bar between the label and value on one line, with…"
+        "Inline Progress Bar mode: labels are shorter, freeing up more room for the bar itself. Memory → Mem, Storage → Disk, Network → NTWK, Laptop → Battery, and Battery's \"Status\" reading dropped entirely — \"Discharging\" already says what it is…"
     ],
     "required": false
 }
