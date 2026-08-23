@@ -1,9 +1,12 @@
 {
-    "version": "1.1.433",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.433/NovaPanel-v1.1.433.zip",
+    "version": "1.1.434",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.434/NovaPanel-v1.1.434.zip",
     "notes": [
-        "Every hardware reading group (CPU, GPU, iGPU, Memory, Storage, Laptop, Network) and Weather now reads as a real card — background, border and corner radius matching the 7 widget groups (Media, Shortcuts, Volume/Brightness/Mic, Power…",
-        "Restyled from the shared Cards style (Cards tab / Layers → Cards), not a new hardcoded look — changing card color, opacity, border or corner radius there now reaches these groups too, live."
+        "The clock now reads as a card too, matching every hardware group, weather, and the widget groups below it — it was the one element still using a plain bottom-line divider.",
+        "Fixed a real alignment bug the new cards exposed: the reading list is the only scrollable part of the panel, so only it reserves space for the scrollbar — the clock, sitting outside that scrollable area, didn't reserve the same space and…",
+        "Panel background defaults to solid black; card backgrounds default to white at 10% opacity (was 6%) for better contrast against it. The Control Panel's own \"og\" theme (which mirrors the widget's colors) follows the same change.",
+        "Added a new Inner Padding slider (Cards > Padding, 2-8px) controlling all four sides of every card's inner spacing, not fixed.",
+        "Fixed a real bug the padding work exposed: each reading's progress bar reaches outside its row to align with the card, but was still using the panel's outer edge spacing instead of the card's own (now-adjustable) inner padding — bars read…"
     ],
     "required": false
 }
