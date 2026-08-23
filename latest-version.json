@@ -1,8 +1,8 @@
 {
-    "version": "1.1.440",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.440/NovaPanel-v1.1.440.zip",
+    "version": "1.1.441",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.441/NovaPanel-v1.1.441.zip",
     "notes": [
-        "Inline Progress Bar mode: \"Battery Charge\" is now just \"Battery\" — the value already reads as a charge level. This was more than a label trim: Inline mode's widest label sets the bar column's width for every row in the list, and \"Battery…"
+        "Inline Progress Bar mode: the track itself is now clearly visible across its full width, not just the filled portion. At a low reading the unfilled part of the bar was nearly invisible, so it read as blank space between the label and value…"
     ],
     "required": false
 }
