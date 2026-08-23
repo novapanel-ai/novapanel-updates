@@ -1,11 +1,12 @@
 {
-    "version": "1.1.430",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.430/NovaPanel-v1.1.430.zip",
+    "version": "1.1.432",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.432/NovaPanel-v1.1.432.zip",
     "notes": [
-        "Widget Cards editor cleaned up and trimmed: for every user, hid background Gradient/Image modes, border Sides/Style(non-solid)/Mode(gradient), angled corners, the whole Shadow/Depth section, and the redundant Typography link (already on…",
-        "Nothing was removed from the data model or the card-paint code — a panel that already had one of those set keeps rendering it exactly as before; only the editor controls for setting them are gone. Documented the full available-vs-exposed…",
-        "Section headers moved off inline raw-pixel/raw-color styling onto a real CSS class using design-system tokens, so spacing between Background/Border/Corners is now identical and consistent instead of copy-pasted per section.",
-        "Deleted ~180 lines of now-unreachable editor code (gradient-stop-list builders, the 4-effect shadow/glow list) that only existed to serve the controls just hidden — confirmed via grep nothing else in the app called them."
+        "Fixed the actual balance complaint from the last cycle: the BG Opacity and Border Opacity sliders were fixed at 40-48px wide next to a color swatch, leaving a wide strip of dead space on the right of those rows while the single-field rows…",
+        "Spelled out 'Op' as 'Opacity' and 'W' as 'Width' now that there's room, and removed a redundant extra margin that was fighting the row's own consistent spacing, making the gap between every label and field the same everywhere.",
+        "Fixed a real height mismatch: the color swatch's height was a hardcoded 26px while the slider's height came from a spacing token that a density theme scales down — under that theme the two drifted apart even in the same row. Both now key…",
+        "The Cards entry in the Layers list was named 'Widget Cards' and sat above Content — renamed to just 'Cards' and moved to sit directly below Content, per direction.",
+        "Restored the Image layer that had gone missing from the Layers list (added back at the bottom of the stack) — the stored file path was empty, so it's ready for a file to be picked again via Browse, not silently carrying over an old one."
     ],
     "required": false
 }
