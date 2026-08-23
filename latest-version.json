@@ -1,8 +1,8 @@
 {
-    "version": "1.1.441",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.441/NovaPanel-v1.1.441.zip",
+    "version": "1.1.442",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.442/NovaPanel-v1.1.442.zip",
     "notes": [
-        "Inline Progress Bar mode: the track itself is now clearly visible across its full width, not just the filled portion. At a low reading the unfilled part of the bar was nearly invisible, so it read as blank space between the label and value…"
+        "Inline Progress Bar mode: \"NTWK\" renamed to \"Net\" — shorter and clearer."
     ],
     "required": false
 }
