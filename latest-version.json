@@ -1,12 +1,9 @@
 {
-    "version": "1.1.432",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.432/NovaPanel-v1.1.432.zip",
+    "version": "1.1.433",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.433/NovaPanel-v1.1.433.zip",
     "notes": [
-        "Fixed the actual balance complaint from the last cycle: the BG Opacity and Border Opacity sliders were fixed at 40-48px wide next to a color swatch, leaving a wide strip of dead space on the right of those rows while the single-field rows…",
-        "Spelled out 'Op' as 'Opacity' and 'W' as 'Width' now that there's room, and removed a redundant extra margin that was fighting the row's own consistent spacing, making the gap between every label and field the same everywhere.",
-        "Fixed a real height mismatch: the color swatch's height was a hardcoded 26px while the slider's height came from a spacing token that a density theme scales down — under that theme the two drifted apart even in the same row. Both now key…",
-        "The Cards entry in the Layers list was named 'Widget Cards' and sat above Content — renamed to just 'Cards' and moved to sit directly below Content, per direction.",
-        "Restored the Image layer that had gone missing from the Layers list (added back at the bottom of the stack) — the stored file path was empty, so it's ready for a file to be picked again via Browse, not silently carrying over an old one."
+        "Every hardware reading group (CPU, GPU, iGPU, Memory, Storage, Laptop, Network) and Weather now reads as a real card — background, border and corner radius matching the 7 widget groups (Media, Shortcuts, Volume/Brightness/Mic, Power…",
+        "Restyled from the shared Cards style (Cards tab / Layers → Cards), not a new hardcoded look — changing card color, opacity, border or corner radius there now reaches these groups too, live."
     ],
     "required": false
 }
