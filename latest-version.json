@@ -1,9 +1,8 @@
 {
-    "version": "1.1.445",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.445/NovaPanel-v1.1.445.zip",
+    "version": "1.1.446",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.446/NovaPanel-v1.1.446.zip",
     "notes": [
-        "Text tab's font dropdown no longer offers Georgia or Courier New — both run noticeably wider per character than the panel's other font choices and can overflow the card.",
-        "Fixed a real underlying gap: a reading's value could grow wider than its row instead of yielding to it (a flex-layout default, not font-specific), which is what let text run past the card edge. Now it truncates with an ellipsis instead."
+        "Sensors tab: new \"Individual Readings\" section — one card per hardware group (same style as Layers), each listing every reading it has (Load, Temp, Clock, Cores, ...) with its own on/off checkbox. Turn off just one reading without hiding…"
     ],
     "required": false
 }
