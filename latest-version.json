@@ -1,9 +1,8 @@
 {
-    "version": "1.1.439",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.439/NovaPanel-v1.1.439.zip",
+    "version": "1.1.440",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.440/NovaPanel-v1.1.440.zip",
     "notes": [
-        "Inline Progress Bar mode now shows bars on CPU/GPU/iGPU Temp, CPU Clock, and Network Down/Up too — not just Load/Used/Charge. Temp bars are read against 100°C; CPU Clock against this machine's own marketed max clock speed; Network against…",
-        "Fixed a real gap this exposed: the two new ceiling values (max clock, link speed) barely ever change, but were wired through the same live sensor cache that skips its PowerShell query whenever the sensor service is healthy — which is the…"
+        "Inline Progress Bar mode: \"Battery Charge\" is now just \"Battery\" — the value already reads as a charge level. This was more than a label trim: Inline mode's widest label sets the bar column's width for every row in the list, and \"Battery…"
     ],
     "required": false
 }
