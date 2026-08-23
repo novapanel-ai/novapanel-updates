@@ -1,10 +1,10 @@
 {
-    "version": "1.1.435",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.435/NovaPanel-v1.1.435.zip",
+    "version": "1.1.436",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.436/NovaPanel-v1.1.436.zip",
     "notes": [
-        "Content tab: \"Border\" renamed to \"Portal Border\" for clarity.",
-        "Removed the \"Frame\" hardware-group checklist option from Content and Sensors — an unclear, unused entry.",
-        "Text tab moved up in the sidebar to sit right under Content, above Sensors."
+        "Sensors tab: new Display row (As Cards / As a List) above Sensor Layout — By Hardware / By Sensor now only shows when As Cards is chosen, since it has no meaning without card groupings.",
+        "New \"As a List\" mode for OG: every hardware reading in one flat list, one card — no per-component cards, no separate hardware-name headings. Each model name (\"Intel Core Ultra 9 185H\") gets its own row, and every reading is labeled with…",
+        "Per-row list customization (\"per row options\") is intentionally not built yet — this ships the flat grouped view first."
     ],
     "required": false
 }
