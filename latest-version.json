@@ -1,10 +1,8 @@
 {
-    "version": "1.1.450",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.450/NovaPanel-v1.1.450.zip",
+    "version": "1.1.451",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.451/NovaPanel-v1.1.451.zip",
     "notes": [
-        "By Sensor list mode's section headings (Load, Temp, Clock, ...) are now uppercase.",
-        "Fixed By Sensor mode not picking up the word-reduction work from the last few builds — it was building its own labels straight from the raw component name and never went through those rules. Network's Down/Up rows no longer repeat…",
-        "Fixed the real bug behind that: a blank label meant to intentionally hide (used by Memory/Storage's combined row) was silently falling back to the full word instead, because of how JavaScript treats an empty string. It happened to look…"
+        "New right-click menu — on any open panel, and on the system tray icon — for finding Control Panel and Panel Editor without knowing where those icons already live. One group per currently-open panel (its name focuses that panel; \"<name>…"
     ],
     "required": false
 }
