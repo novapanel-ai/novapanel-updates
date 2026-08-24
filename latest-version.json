@@ -1,8 +1,8 @@
 {
-    "version": "1.1.456",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.456/NovaPanel-v1.1.456.zip",
+    "version": "1.1.457",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.457/NovaPanel-v1.1.457.zip",
     "notes": [
-        "Fixed OG growing continuously in width when placed on a second monitor with a different DPI scale than the main display — a runaway loop, not a one-time glitch. Root cause: the height-fit animation toggled the window's resizable lock on…"
+        "Actually fixed the OG width-growth loop on a second, differently-scaled monitor (v1.1.456 was not enough, confirmed by testing). Root cause found live, not guessed: a real second monitor was set up here and the exact failure was caught in…"
     ],
     "required": false
 }
