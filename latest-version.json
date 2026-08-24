@@ -1,10 +1,10 @@
 {
-    "version": "1.1.463",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.463/NovaPanel-v1.1.463.zip",
+    "version": "1.1.464",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.464/NovaPanel-v1.1.464.zip",
     "notes": [
-        "OG's true width corrected again: 127px measured 148px live on his screen, rounded up to a clean 150px per direct instruction.",
-        "Fixed the panel's left/right balance: the scrollbar-gutter reservation (added to stop an earlier resize-jiggle loop) only ever compensated the RIGHT edge, so the whole card column sat closer to the left edge than the right, panel-wide.…",
-        "Fixed By Sensor + Inline-bar mode still showing the full \"CPU Temp\"/\"GPU Load\" wording when a bar was present — the By Hardware side got the word-drop fix last version, but By Sensor's label builder never checked whether a bar was showing…"
+        "Fixed the inline-bar list's value column still shifting on real value changes: it was a minmax() FLOOR (8ch, then 5ch, then 3ch across the last few builds), and any value wide enough to exceed the floor (Cores, a long combined reading)…",
+        "Removed the \" Rate\" suffix from Network's Down/Up rows in By Sensor mode, per direct instruction — they now read as plain \"Down\"/\"Up\" like every other row.",
+        "Confirmed the panel's left/right balance and scrollbar-gutter reservation are both intact from the previous build (re-verified live: 5.8px left vs 5.6px right, matching)."
     ],
     "required": false
 }
