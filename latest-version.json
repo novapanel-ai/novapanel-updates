@@ -1,9 +1,9 @@
 {
-    "version": "1.1.448",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.448/NovaPanel-v1.1.448.zip",
+    "version": "1.1.449",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.449/NovaPanel-v1.1.449.zip",
     "notes": [
-        "Reverted the previous update's bar-alignment change — lining every bar up at the same x meant a shared column sized to the longest value, which left a wide dead gap after any short one (\"2%\" sitting in a column sized for \"1455 MHz\"). Bars…",
-        "Memory and Storage no longer say \"Used\" in List mode — a disk or memory percentage can't mean anything else, same reasoning already applied to Load."
+        "Inline Progress Bar mode: bars are back to starting at the same position on every row (this went back and forth twice — asked directly which tradeoff was preferred once both were seen live, and aligned-with-some-dead-space won over…",
+        "Fixed the real cause of Memory/Storage's combined line looking unaligned: it now lines up with where every other row's value starts, not just the row edge."
     ],
     "required": false
 }
