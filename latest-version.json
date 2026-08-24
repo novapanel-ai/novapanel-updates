@@ -1,9 +1,10 @@
 {
-    "version": "1.1.462",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.462/NovaPanel-v1.1.462.zip",
+    "version": "1.1.463",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.463/NovaPanel-v1.1.463.zip",
     "notes": [
-        "Added the real \"Size units: True Size / Scaled\" toggle to every panel, not just the original Hardware Panel — CEO: \"I want every panel to have the option.\" This is the control originally asked about (\"where did that [scaling] option go\")…",
-        "Confirmed the footer already reports what was asked for (\"the Actual panel size whether scaling is applied or not\") as a side effect of v1.1.461 — no separate footer fix was needed, only the toggle above."
+        "OG's true width corrected again: 127px measured 148px live on his screen, rounded up to a clean 150px per direct instruction.",
+        "Fixed the panel's left/right balance: the scrollbar-gutter reservation (added to stop an earlier resize-jiggle loop) only ever compensated the RIGHT edge, so the whole card column sat closer to the left edge than the right, panel-wide.…",
+        "Fixed By Sensor + Inline-bar mode still showing the full \"CPU Temp\"/\"GPU Load\" wording when a bar was present — the By Hardware side got the word-drop fix last version, but By Sensor's label builder never checked whether a bar was showing…"
     ],
     "required": false
 }
