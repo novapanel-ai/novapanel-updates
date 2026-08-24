@@ -1,9 +1,8 @@
 {
-    "version": "1.1.455",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.455/NovaPanel-v1.1.455.zip",
+    "version": "1.1.456",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.456/NovaPanel-v1.1.456.zip",
     "notes": [
-        "GPU Clock now bars in List/Inline mode. Was deliberately left without one — nvidia-smi's only max-clock field is the silicon's absolute table ceiling, not what this power-limited laptop card can actually sustain, and no source reports the…",
-        "Closed the WMI sensor cache staleness gap flagged last cycle — battery %, memory, storage, network, and CPU core count could sit frozen forever if their source died, the same bug shape the CPU-temp fix closed but on a different cache with…"
+        "Fixed OG growing continuously in width when placed on a second monitor with a different DPI scale than the main display — a runaway loop, not a one-time glitch. Root cause: the height-fit animation toggled the window's resizable lock on…"
     ],
     "required": false
 }
