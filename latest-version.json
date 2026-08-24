@@ -1,9 +1,10 @@
 {
-    "version": "1.1.460",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.460/NovaPanel-v1.1.460.zip",
+    "version": "1.1.461",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.461/NovaPanel-v1.1.461.zip",
     "notes": [
-        "Fixed the Inline bar column shifting every time a value's digit count changed (9% -> 10%, 99C -> 100C) — the column was sized to whatever was currently on screen, so a bar could visibly shift on every tick. It now has a floor wide enough…",
-        "Fixed By Sensor's section order (Temperature before Load, Up before Down) to match the reference layout — it was following each reading's first-appearance order inside the shared CPU/GPU/etc. row data, which doesn't reflect the order it…"
+        "Fixed OG's width silently drifting away from its true 215px spec over time on a scaled second monitor (reported as \"yours says 231px and mine says 216px\"). The height-fit animation trusted whatever width the window currently had as correct…",
+        "Checked the reported left-edge padding regression directly against computed styles — still exactly 8px, unchanged from the fix two versions ago. Likely read as tighter than intended because of the width drift above; worth a fresh look once…",
+        "The per-monitor DPI reading (\"1.25x DPI\", \"1.5x DPI\") is not missing — it's under Panel Editor's Portal tab, in the Monitor section, right below \"N monitors detected.\""
     ],
     "required": false
 }
