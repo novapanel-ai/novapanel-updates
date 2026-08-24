@@ -1,8 +1,9 @@
 {
-    "version": "1.1.459",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.459/NovaPanel-v1.1.459.zip",
+    "version": "1.1.460",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.460/NovaPanel-v1.1.460.zip",
     "notes": [
-        "Rebuilt both List display layouts (By Hardware and By Sensor) to match a fresh Figma comparison: full reading words are back (\"CPU Temp\" not \"CPU\"), model-name rows and By Sensor's section headings are bold again, CPU Cores reads as \"CPU…"
+        "Fixed the Inline bar column shifting every time a value's digit count changed (9% -> 10%, 99C -> 100C) — the column was sized to whatever was currently on screen, so a bar could visibly shift on every tick. It now has a floor wide enough…",
+        "Fixed By Sensor's section order (Temperature before Load, Up before Down) to match the reference layout — it was following each reading's first-appearance order inside the shared CPU/GPU/etc. row data, which doesn't reflect the order it…"
     ],
     "required": false
 }
