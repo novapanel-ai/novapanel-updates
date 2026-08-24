@@ -1,8 +1,9 @@
 {
-    "version": "1.1.453",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.453/NovaPanel-v1.1.453.zip",
+    "version": "1.1.454",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.454/NovaPanel-v1.1.454.zip",
     "notes": [
-        "Fixed the system tray's right-click menu showing stale items (missing a panel opened, or still showing one already closed). setContextMenu() hands Windows a menu to show on the NEXT right-click, so rebuilding it inside the right-click…"
+        "EXPERIMENTAL, unconfirmed: tried a mitigation for the OG drag flicker. Ruled out both suspected mechanisms with live evidence first — the position-persist debounce never touches window bounds and only runs once at drag-end, and the…",
+        "Confirmed (no code change needed): restore bypassing the entrance is not reproducible in the current build. The completeness gate that was built for exactly this symptom (2026-08-19) is correctly wired for OG with a 12s ceiling, the…"
     ],
     "required": false
 }
