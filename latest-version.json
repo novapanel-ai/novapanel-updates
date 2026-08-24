@@ -1,9 +1,10 @@
 {
-    "version": "1.1.449",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.449/NovaPanel-v1.1.449.zip",
+    "version": "1.1.450",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.450/NovaPanel-v1.1.450.zip",
     "notes": [
-        "Inline Progress Bar mode: bars are back to starting at the same position on every row (this went back and forth twice — asked directly which tradeoff was preferred once both were seen live, and aligned-with-some-dead-space won over…",
-        "Fixed the real cause of Memory/Storage's combined line looking unaligned: it now lines up with where every other row's value starts, not just the row edge."
+        "By Sensor list mode's section headings (Load, Temp, Clock, ...) are now uppercase.",
+        "Fixed By Sensor mode not picking up the word-reduction work from the last few builds — it was building its own labels straight from the raw component name and never went through those rules. Network's Down/Up rows no longer repeat…",
+        "Fixed the real bug behind that: a blank label meant to intentionally hide (used by Memory/Storage's combined row) was silently falling back to the full word instead, because of how JavaScript treats an empty string. It happened to look…"
     ],
     "required": false
 }
