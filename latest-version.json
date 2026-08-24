@@ -1,11 +1,10 @@
 {
-    "version": "1.1.465",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.465/NovaPanel-v1.1.465.zip",
+    "version": "1.1.466",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.466/NovaPanel-v1.1.466.zip",
     "notes": [
-        "Rebuilt By Hardware's inline-bar rows to genuinely match his reference mockup: 4 real fixed-width columns (hardware name / reading word / value / bar), not 3. The last two cycles had been merging or dropping the reading word…",
-        "Fixed CPU Cores: it has no real bar ceiling (a core count isn't a 0-100 range), so it was falling out of the shared grid entirely and spanning the full row width on its own — now sits in the same aligned columns as every other reading…",
-        "Column gap set to 4px as instructed.",
-        "Known limitation, not fixed this cycle: the value column can still truncate a wide reading (\"210 Mhz\") on a higher-DPI monitor, where the true-size 150px spec buys noticeably less usable space than on a 100%-scale display — confirmed by…"
+        "Reverted the 4-column inline-bar layout from the last build — misread his mockup as \"the reading word gets its own column when a bar shows\"; it's the opposite. Back to 3 columns: hardware name, value, bar — the reading word is dropped when…",
+        "Found and fixed the actual bug behind \"you removed the second column when there ISN'T a PB\": a leftover word-dropping table (LIST_LABEL_DROP) from a 2026-08-23 ruling that a later cycle (\"full reading words are back\") reversed everywhere…",
+        "CPU Cores keeps its alignment fix from last version (routed into the shared row grid so \"16\" lines up with every other value) — unaffected by the column-count revert."
     ],
     "required": false
 }
