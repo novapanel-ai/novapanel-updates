@@ -1,10 +1,9 @@
 {
-    "version": "1.1.461",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.461/NovaPanel-v1.1.461.zip",
+    "version": "1.1.462",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.462/NovaPanel-v1.1.462.zip",
     "notes": [
-        "Fixed OG's width silently drifting away from its true 215px spec over time on a scaled second monitor (reported as \"yours says 231px and mine says 216px\"). The height-fit animation trusted whatever width the window currently had as correct…",
-        "Checked the reported left-edge padding regression directly against computed styles — still exactly 8px, unchanged from the fix two versions ago. Likely read as tighter than intended because of the width drift above; worth a fresh look once…",
-        "The per-monitor DPI reading (\"1.25x DPI\", \"1.5x DPI\") is not missing — it's under Panel Editor's Portal tab, in the Monitor section, right below \"N monitors detected.\""
+        "Added the real \"Size units: True Size / Scaled\" toggle to every panel, not just the original Hardware Panel — CEO: \"I want every panel to have the option.\" This is the control originally asked about (\"where did that [scaling] option go\")…",
+        "Confirmed the footer already reports what was asked for (\"the Actual panel size whether scaling is applied or not\") as a side effect of v1.1.461 — no separate footer fix was needed, only the toggle above."
     ],
     "required": false
 }
