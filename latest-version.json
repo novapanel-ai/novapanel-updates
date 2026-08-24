@@ -1,9 +1,8 @@
 {
-    "version": "1.1.458",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.458/NovaPanel-v1.1.458.zip",
+    "version": "1.1.459",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.459/NovaPanel-v1.1.459.zip",
     "notes": [
-        "Fixed hardware group cards and the clock card paying double left/right padding — an outer 12px margin plus their own 8px card padding, 20px total from the window edge to the text. Zeroed the outer margin, leaving the card's own…",
-        "Inline sensor rows with a progress bar now right-align their value against the bar (matching a fresh side-by-side comparison); rows without a bar keep the existing left alignment. This reopens a 2026-08-23 ruling (left-align was chosen…"
+        "Rebuilt both List display layouts (By Hardware and By Sensor) to match a fresh Figma comparison: full reading words are back (\"CPU Temp\" not \"CPU\"), model-name rows and By Sensor's section headings are bold again, CPU Cores reads as \"CPU…"
     ],
     "required": false
 }
