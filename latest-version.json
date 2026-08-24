@@ -1,8 +1,9 @@
 {
-    "version": "1.1.457",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.457/NovaPanel-v1.1.457.zip",
+    "version": "1.1.458",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.458/NovaPanel-v1.1.458.zip",
     "notes": [
-        "Actually fixed the OG width-growth loop on a second, differently-scaled monitor (v1.1.456 was not enough, confirmed by testing). Root cause found live, not guessed: a real second monitor was set up here and the exact failure was caught in…"
+        "Fixed hardware group cards and the clock card paying double left/right padding — an outer 12px margin plus their own 8px card padding, 20px total from the window edge to the text. Zeroed the outer margin, leaving the card's own…",
+        "Inline sensor rows with a progress bar now right-align their value against the bar (matching a fresh side-by-side comparison); rows without a bar keep the existing left alignment. This reopens a 2026-08-23 ruling (left-align was chosen…"
     ],
     "required": false
 }
