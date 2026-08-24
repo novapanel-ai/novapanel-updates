@@ -1,8 +1,12 @@
 {
-    "version": "1.1.446",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.446/NovaPanel-v1.1.446.zip",
+    "version": "1.1.447",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.447/NovaPanel-v1.1.447.zip",
     "notes": [
-        "Sensors tab: new \"Individual Readings\" section — one card per hardware group (same style as Layers), each listing every reading it has (Load, Temp, Clock, Cores, ...) with its own on/off checkbox. Turn off just one reading without hiding…"
+        "Sensors > Individual Readings now includes each group's model-name line, not just its numeric readings.",
+        "Removed bold from every panel font except section labels — model names now match the rest instead of standing out.",
+        "Default font changed from Kanit to Inter.",
+        "Slightly more room between reading rows.",
+        "List mode: dropped redundant reading words where the unit alone already says what it is — CPU/GPU/iGPU show \"83 °C\" and \"2.3 GHz\" instead of \"Temp 83 °C\" and \"Clock 2.3 GHz\"; Load dropped the same way (a component's % reading can only mean…"
     ],
     "required": false
 }
