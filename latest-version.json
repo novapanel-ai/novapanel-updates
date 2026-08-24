@@ -1,10 +1,11 @@
 {
-    "version": "1.1.464",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.464/NovaPanel-v1.1.464.zip",
+    "version": "1.1.465",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.465/NovaPanel-v1.1.465.zip",
     "notes": [
-        "Fixed the inline-bar list's value column still shifting on real value changes: it was a minmax() FLOOR (8ch, then 5ch, then 3ch across the last few builds), and any value wide enough to exceed the floor (Cores, a long combined reading)…",
-        "Removed the \" Rate\" suffix from Network's Down/Up rows in By Sensor mode, per direct instruction — they now read as plain \"Down\"/\"Up\" like every other row.",
-        "Confirmed the panel's left/right balance and scrollbar-gutter reservation are both intact from the previous build (re-verified live: 5.8px left vs 5.6px right, matching)."
+        "Rebuilt By Hardware's inline-bar rows to genuinely match his reference mockup: 4 real fixed-width columns (hardware name / reading word / value / bar), not 3. The last two cycles had been merging or dropping the reading word…",
+        "Fixed CPU Cores: it has no real bar ceiling (a core count isn't a 0-100 range), so it was falling out of the shared grid entirely and spanning the full row width on its own — now sits in the same aligned columns as every other reading…",
+        "Column gap set to 4px as instructed.",
+        "Known limitation, not fixed this cycle: the value column can still truncate a wide reading (\"210 Mhz\") on a higher-DPI monitor, where the true-size 150px spec buys noticeably less usable space than on a 100%-scale display — confirmed by…"
     ],
     "required": false
 }
