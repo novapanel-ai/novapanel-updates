@@ -1,9 +1,9 @@
 {
-    "version": "1.1.454",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.454/NovaPanel-v1.1.454.zip",
+    "version": "1.1.455",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.455/NovaPanel-v1.1.455.zip",
     "notes": [
-        "EXPERIMENTAL, unconfirmed: tried a mitigation for the OG drag flicker. Ruled out both suspected mechanisms with live evidence first — the position-persist debounce never touches window bounds and only runs once at drag-end, and the…",
-        "Confirmed (no code change needed): restore bypassing the entrance is not reproducible in the current build. The completeness gate that was built for exactly this symptom (2026-08-19) is correctly wired for OG with a 12s ceiling, the…"
+        "GPU Clock now bars in List/Inline mode. Was deliberately left without one — nvidia-smi's only max-clock field is the silicon's absolute table ceiling, not what this power-limited laptop card can actually sustain, and no source reports the…",
+        "Closed the WMI sensor cache staleness gap flagged last cycle — battery %, memory, storage, network, and CPU core count could sit frozen forever if their source died, the same bug shape the CPU-temp fix closed but on a different cache with…"
     ],
     "required": false
 }
