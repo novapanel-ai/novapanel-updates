@@ -1,8 +1,11 @@
 {
-    "version": "1.1.451",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.451/NovaPanel-v1.1.451.zip",
+    "version": "1.1.452",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.452/NovaPanel-v1.1.452.zip",
     "notes": [
-        "New right-click menu — on any open panel, and on the system tray icon — for finding Control Panel and Panel Editor without knowing where those icons already live. One group per currently-open panel (its name focuses that panel; \"<name>…"
+        "Fixed the OG panel drifting a few pixels to the right after a while: a programmatic resize (applyFoundationSize) was genuinely firing Electron's 'moved' event, and the old magnitude-guess guard let small drift through as if it were a real…",
+        "Fixed snap-to-edge never actually engaging on the OG panel: OG was dragged via native OS app-region drag, which has no hook for this app's own magnetic-snap code — that code only ever ran for Panel Editor's JS cursor-follow drag. Switched…",
+        "Fixed the settings/panel activation bug: selecting an already-open panel could fail to bring it to the front, and an automatic restore/auto-open could flash the taskbar for attention nobody asked for. Panels now use the same forced-focus…",
+        "Fixed a value that stops updating (e.g. a CPU temperature reading after the sensor service stalls) staying displayed as if still live, forever, with no indication anything was wrong. The real gap was upstream of the panel: the sensor…"
     ],
     "required": false
 }
