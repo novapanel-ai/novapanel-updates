@@ -1,8 +1,8 @@
 {
-    "version": "1.1.475",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.475/NovaPanel-v1.1.475.zip",
+    "version": "1.1.476",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.476/NovaPanel-v1.1.476.zip",
     "notes": [
-        "Rebuilt Ring Gauges (Cards Layout 3): was one ring per reading in a wrapping grid, making cards tall and the ring text too small to read. Now one ring — the group's main reading, same primary flag Hero Stat uses — sized up (34px to 48px)…"
+        "Fixed the ring gauge to actually be a ring: it was a CSS conic-gradient donut, which reads as a thick pie-chart wedge, not the thin stroke ring the Panel Editor swatch preview shows. Rebuilt as a real SVG circle…"
     ],
     "required": false
 }
