@@ -1,12 +1,11 @@
 {
-    "version": "1.1.478",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.478/NovaPanel-v1.1.478.zip",
+    "version": "1.1.479",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.479/NovaPanel-v1.1.479.zip",
     "notes": [
-        "Sensors tab redesign, phase 1 of 5 (proposal accepted): every control group is now named and explained. The tab was asking three separate questions — shape, grouping, style — and rendering them as nine picture-buttons with no labels at…",
-        "Rewrote the tab's own description, which described only the By Hardware / By Sensor control (\"how the panel's hardware readings are grouped\") even though that's one of four things the tab now does.",
-        "Fixed every two-option group leaving a visibly empty third cell — the gallery laid down a fixed three-column track regardless of how many options existed. All tiles are now a consistent 140px and no group leaves a hole.",
-        "\"Show progress bars\" now sits nested inside the Card layout choice it modifies, instead of floating beneath the gallery as an equal-weight control.",
-        "Hero Stat and Ring Gauges no longer appear under By Sensor — both feature a group's main reading, which means nothing when the group already is a single measurement. Enforced at render time too, so a panel that had one of them saved before…"
+        "Sensors tab redesign, phase 2 of 5: the readings list is now one collapsed row per component instead of seven cards all opened at once. Each row carries its own on/off and a \"5 of 6\" count, so you can see at a glance that something is…",
+        "Turning a whole component on/off now lives here too, on the same row as its readings — previously the group switch was on Content and the reading switches were here, which was one decision at two altitudes in two different tabs. Both…",
+        "A component switched off keeps its readings visible but dimmed, so its setup can still be arranged before switching it back on.",
+        "Deliberately NOT carried over from Content's version of these toggles: the rule that hides a tab once everything pointing at it is off. From this tab that would mean unchecking the last component deletes the tab out from under you…"
     ],
     "required": false
 }
