@@ -1,11 +1,11 @@
 {
-    "version": "1.1.480",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.480/NovaPanel-v1.1.480.zip",
+    "version": "1.1.481",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.481/NovaPanel-v1.1.481.zip",
     "notes": [
-        "Sensors tab redesign, phase 3 of 5: the eight styling controls moved off Portal onto Sensors, where the thing they style lives. Portal now keeps only what belongs to the window — size, scaling, monitor, snap, corner radius.",
-        "Cards and List each save their own spacing set, so switching between them restores whatever you last tuned for that one and tuning either never moves the other. Verified end to end: Cards at 13px and List at 8px held independently across…",
-        "Only four controls are actually shared and duplicated per type — font size, row gap, column gap, letter spacing. Checked against the stylesheet rather than assumed: the other four (the two column widths, value alignment, model names at…",
-        "A panel tuned before this change keeps its look: the old settings are copied into both sets on first read, so it renders identically and only diverges once you deliberately tune one type."
+        "Sensors tab redesign, phase 4 of 5: the Content tab is gone, replaced by a new About page. Every Rune the panel can show now appears there as a live visual preview with its own switch and a Configure link where it has options — Weather…",
+        "New master switch for the whole Sensors section, which never existed before — turning sensors off previously meant unchecking all seven components one at a time. Per-component and per-reading switches stay on the Sensors tab.",
+        "Removed a trap that came with the old Content tab: the Sensors tab used to disappear once every component was unchecked, which from the Sensors tab itself meant deleting the tab out from under you mid-edit. It now follows the master switch…",
+        "Two preview bugs found and fixed while building: the live-data previews (weather, shortcuts, video) only ever answered one specific frame, so a second copy of any of them sat permanently blank; and collapsing an empty preview with…"
     ],
     "required": false
 }
