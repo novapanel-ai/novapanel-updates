@@ -1,8 +1,9 @@
 {
-    "version": "1.1.468",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.468/NovaPanel-v1.1.468.zip",
+    "version": "1.1.469",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.469/NovaPanel-v1.1.469.zip",
     "notes": [
-        "Fixed the Portal Width slider making the OG panel vanish (not closed — just gone, requiring a close/reopen from the Control Panel to recover) while dragging. Root cause: a range slider fires 'input' on every drag tick, dozens of times a…"
+        "Fixed the Portal tab's info text (size-mode note, position, current size, etc.) reading much smaller than intended: it was set to a design-system token that looked correct in isolation, but Panel Editor carries the theme of whatever panel…",
+        "Widened the List/Inline value column's default from 44px to 56px so realistic readings (\"210 MHz\", \"999.9 W\") don't truncate out of the box — confirmed live (scrollWidth no longer exceeds clientWidth). The adjustable slider still lets it…"
     ],
     "required": false
 }
