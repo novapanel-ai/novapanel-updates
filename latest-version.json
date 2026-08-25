@@ -1,8 +1,8 @@
 {
-    "version": "1.1.476",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.476/NovaPanel-v1.1.476.zip",
+    "version": "1.1.477",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.477/NovaPanel-v1.1.477.zip",
     "notes": [
-        "Fixed the ring gauge to actually be a ring: it was a CSS conic-gradient donut, which reads as a thick pie-chart wedge, not the thin stroke ring the Panel Editor swatch preview shows. Rebuilt as a real SVG circle…"
+        "Fixed \"Model names at top of list\" also hoisting SENSOR names when the layout was By Sensor — By Sensor's headings are measurement types (Temperature, Load, Clock), not model names, so moving them to the top produced a meaningless block of…"
     ],
     "required": false
 }
