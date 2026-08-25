@@ -1,9 +1,10 @@
 {
-    "version": "1.1.470",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.470/NovaPanel-v1.1.470.zip",
+    "version": "1.1.471",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.471/NovaPanel-v1.1.471.zip",
     "notes": [
-        "Added two more live Portal Editor controls, per direct request: Row gap and Column gap, next to the width/font controls added last cycle. Both are pure CSS overrides on the exact tokens the rows/list grid already use (--og-gap-row…",
-        "Progress-bar track background opacity set to 12% (was 28%) per direct instruction — confirmed which direction was meant before changing it, since \"greater\" and \"12%\" pointed different ways from the actual current value."
+        "Fixed a real bug: the gap between a value and its unit (\"63 °C\") was tied to the same --og-col-gap token as the label/value/bar column spacing, so tuning the new Column gap slider also pried numbers apart from their units, which was never…",
+        "Added a Letter spacing slider, per direct request, same live-CSS pattern as the others.",
+        "Turned off semi-bold/bold on every remaining text element that still had it (panel title, hardware group names, List/By Sensor model rows) — all now match the light weight the rest of the panel already uses. Left untouched: the two…"
     ],
     "required": false
 }
