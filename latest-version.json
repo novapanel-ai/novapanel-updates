@@ -1,11 +1,11 @@
 {
-    "version": "1.1.481",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.481/NovaPanel-v1.1.481.zip",
+    "version": "1.1.482",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.482/NovaPanel-v1.1.482.zip",
     "notes": [
-        "Sensors tab redesign, phase 4 of 5: the Content tab is gone, replaced by a new About page. Every Rune the panel can show now appears there as a live visual preview with its own switch and a Configure link where it has options — Weather…",
-        "New master switch for the whole Sensors section, which never existed before — turning sensors off previously meant unchecking all seven components one at a time. Per-component and per-reading switches stay on the Sensors tab.",
-        "Removed a trap that came with the old Content tab: the Sensors tab used to disappear once every component was unchecked, which from the Sensors tab itself meant deleting the tab out from under you mid-edit. It now follows the master switch…",
-        "Two preview bugs found and fixed while building: the live-data previews (weather, shortcuts, video) only ever answered one specific frame, so a second copy of any of them sat permanently blank; and collapsing an empty preview with…"
+        "Sensors tab redesign, phase 5 of 5 — the last one. Laptop/Battery is no longer a sensor: it's its own card with its own switch on the About page, and it has left the Sensors tab's component list, the By Sensor regrouping and the…",
+        "Volume, Brightness and Microphone are three separate cards now instead of one combined card, each with its own switch. The Computer tab's preview was split to match — showing one combined preview would have been showing something the panel…",
+        "A panel that had the old combined card switched OFF stays off: the old setting seeds all three replacements rather than letting three new cards quietly switch themselves on. Verified on this machine, where it was off — all three came…",
+        "The shared reader behind these cards now checks all three switches before shutting itself down. Missing one would have torn down the reader while a card still needed it."
     ],
     "required": false
 }
