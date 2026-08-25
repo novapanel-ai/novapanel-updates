@@ -1,11 +1,11 @@
 {
-    "version": "1.1.479",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.479/NovaPanel-v1.1.479.zip",
+    "version": "1.1.480",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.480/NovaPanel-v1.1.480.zip",
     "notes": [
-        "Sensors tab redesign, phase 2 of 5: the readings list is now one collapsed row per component instead of seven cards all opened at once. Each row carries its own on/off and a \"5 of 6\" count, so you can see at a glance that something is…",
-        "Turning a whole component on/off now lives here too, on the same row as its readings — previously the group switch was on Content and the reading switches were here, which was one decision at two altitudes in two different tabs. Both…",
-        "A component switched off keeps its readings visible but dimmed, so its setup can still be arranged before switching it back on.",
-        "Deliberately NOT carried over from Content's version of these toggles: the rule that hides a tab once everything pointing at it is off. From this tab that would mean unchecking the last component deletes the tab out from under you…"
+        "Sensors tab redesign, phase 3 of 5: the eight styling controls moved off Portal onto Sensors, where the thing they style lives. Portal now keeps only what belongs to the window — size, scaling, monitor, snap, corner radius.",
+        "Cards and List each save their own spacing set, so switching between them restores whatever you last tuned for that one and tuning either never moves the other. Verified end to end: Cards at 13px and List at 8px held independently across…",
+        "Only four controls are actually shared and duplicated per type — font size, row gap, column gap, letter spacing. Checked against the stylesheet rather than assumed: the other four (the two column widths, value alignment, model names at…",
+        "A panel tuned before this change keeps its look: the old settings are copied into both sets on first read, so it renders identically and only diverges once you deliberately tune one type."
     ],
     "required": false
 }
