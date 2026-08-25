@@ -1,8 +1,8 @@
 {
-    "version": "1.1.467",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.467/NovaPanel-v1.1.467.zip",
+    "version": "1.1.468",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.468/NovaPanel-v1.1.468.zip",
     "notes": [
-        "Added real controls, per direct request: Portal Width, Font Size, and List's two column widths (hardware-name column, value column), under Portal > Behavior. All four are live sliders — dragging one resizes/restyles the open panel…"
+        "Fixed the Portal Width slider making the OG panel vanish (not closed — just gone, requiring a close/reopen from the Control Panel to recover) while dragging. Root cause: a range slider fires 'input' on every drag tick, dozens of times a…"
     ],
     "required": false
 }
