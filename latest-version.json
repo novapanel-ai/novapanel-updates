@@ -1,10 +1,12 @@
 {
-    "version": "1.1.471",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.471/NovaPanel-v1.1.471.zip",
+    "version": "1.1.472",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.472/NovaPanel-v1.1.472.zip",
     "notes": [
-        "Fixed a real bug: the gap between a value and its unit (\"63 °C\") was tied to the same --og-col-gap token as the label/value/bar column spacing, so tuning the new Column gap slider also pried numbers apart from their units, which was never…",
-        "Added a Letter spacing slider, per direct request, same live-CSS pattern as the others.",
-        "Turned off semi-bold/bold on every remaining text element that still had it (panel title, hardware group names, List/By Sensor model rows) — all now match the light weight the rest of the panel already uses. Left untouched: the two…"
+        "Baked in his live-tuned slider values as the new defaults: font size 10px, List name column 25px, List value column 54px, row gap 1px, letter spacing 0.5px (column gap was already 4px). Corner radius NOT changed — that default is shared by…",
+        "Fixed the Memory/Storage combined row: was truncating, now right-aligned, uses the secondary (dimmer) ink color, and actually fills its full available width instead of shrinking to content first — confirmed the truncation was a real bug…",
+        "Added a Value alignment control (Right/Left) — consolidates what used to be a hardcoded per-mode rule (bar rows always right, everything else always left) into one setting that reaches every value column consistently, bar rows and the…",
+        "The no-progress-bar List style now uses the same fixed-column-grid principle as the bar style — its own 2-column grid (label, value; no bar column), immune to the same value-jiggle class of bug the bar style was fixed for earlier. Its…",
+        "Not done this cycle, flagged rather than rushed: the \"model names grouped at the top of the list\" layout option — needs a real restructure of how each hardware group renders (headings currently live inside each group's own section) and…"
     ],
     "required": false
 }
