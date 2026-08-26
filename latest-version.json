@@ -1,12 +1,12 @@
 {
-    "version": "1.1.500",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.500/NovaPanel-v1.1.500.zip",
+    "version": "1.1.501",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.501/NovaPanel-v1.1.501.zip",
     "notes": [
-        "FOUR TABS: About, Position, Layers, Configure. Twelve others are gone from the sidebar. Their pages stay in the app as holders, because Configure borrows real controls out of them — deleting the markup would delete the controls — but they…",
-        "Portal is now called Position, which is what it is for: the display the panel lives on, how it snaps, and what it does while you drag it.",
-        "LAYERS IS AN EXPLODED VIEW OF THE PANEL. Bottom to top: Desktop, Portal, Image, Base, Cards, Content. Click a layer and its properties open beside it.",
-        "Each plane shows what it is rather than naming it — the cards plane is cards, the image plane is a picture, the content plane is readings, the portal plane is the frame with its padding and gaps drawn in. The old page was a stack of…",
-        "Two layers were missing and both are here now. PORTAL is the surface every other layer paints into — it had no representation at all, which is why width and border felt unrelated to the panel’s appearance when they plainly are its…"
+        "ABOUT IS AN ABOUT PAGE NOW. It explains what a Mini Widget is, where the idea comes from — Windows once shipped little panes that lived on the desktop and did one thing each — and what a Rune is. It stopped being a settings index the…",
+        "Every page now names itself above its title — “Panel Editor · Layers” — set from the tab that is actually showing, so a screenshot of any page says where it came from.",
+        "A rule opens each section and there is real space above it. The section heading alone was carrying that job and could not: at this density a bold line of text reads as another row, not a boundary.",
+        "Values are set in the same mono with equal-width digits the panel’s own readings use, so a column of them lines up and nothing shifts as a number changes.",
+        "Fixed a lead paragraph that was exactly the size of the paragraphs it was meant to introduce. The size token that means “large” resolves to 13px in this theme, which is what the body text already was — a reminder that a token’s name is not…"
     ],
     "required": false
 }
