@@ -1,12 +1,10 @@
 {
-    "version": "1.1.503",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.503/NovaPanel-v1.1.503.zip",
+    "version": "1.1.504",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.504/NovaPanel-v1.1.504.zip",
     "notes": [
-        "THE EXPLODED VIEW NOW SHOWS YOUR ACTUAL PANEL, NOT A DRAWING OF ONE. Every plane in the Layers stack is drawn from the same settings the panel is drawn from: the cards plane carries your real card background, opacity, border, radius and…",
-        "THE LAYER YOU ARE ADJUSTING LIGHTS UP WHITE while you adjust it, and holds while you drag a slider rather than blinking once. It is applied on every repaint rather than after one — the card-style refresh was repainting the stack a beat…",
-        "THE DRAWING IS SMALLER AND TIGHTER, AND ITS LABELS ARE BIGGER. Those are two separate things now: the drawing renders 1:1 with the page, so plane size and spacing are set in the drawing while the labels keep their real type size. Before…",
-        "The empty gutter down the left of the exploded view is gone — the viewBox started at 0 while the leftmost thing drawn was 100 units in.",
-        "NOTHING IN THE LAYER SETTINGS IS CLIPPED OR TOO SMALL TO USE. Rows wrap instead of shaving the last control off the edge, dropdowns are wide enough to show the value they hold and tall enough to hit, sliders keep a usable length, and…"
+        "SETTINGS ROWS STOPPED RUNNING TOGETHER, AND THE FIX IS A PATTERN RATHER THAN A PATCH. The system had exactly one row style, and themes tune it for DENSITY — this theme pins it to 3px of padding, which is right for a dense list you scan and…",
+        "Lettered sections in a layer’s settings separate at 36px with a rule above them, so a section break reads louder than the gaps inside it.",
+        "Why the previous attempt looked ignored: the theme’s own density rule outweighed it on selector specificity, so it rendered 3px. The new pattern wins on weight rather than by shouting !important at it."
     ],
     "required": false
 }
