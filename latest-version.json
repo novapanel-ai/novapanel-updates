@@ -1,12 +1,10 @@
 {
-    "version": "1.1.496",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.496/NovaPanel-v1.1.496.zip",
+    "version": "1.1.497",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.497/NovaPanel-v1.1.497.zip",
     "notes": [
-        "THE APP NO LONGER WAITS FOR YOU TO PRESS RESCAN. The monitor list was a saved cache whose only writer was that button, so every launch ran on whatever a human last asked for. Proved on this machine: the cache claimed one monitor, a live…",
-        "Rescan stays, as a manual refresh rather than the only source of truth.",
-        "The editor is told when the displays change, so its list stops being out of date while you are looking at it. A monitor that has gone away also clears any selection pointing at it.",
-        "Unplug a monitor and the panel comes back to the corner you put it in, not the middle of the screen. Where you place it now records WHICH edges it was against, so that intent can be honoured on a different display. A panel you had floating…",
-        "A panel placed before this update does not have to be moved once to gain that: its alignment is worked out from where it is currently sitting."
+        "The editor now highlights the monitor the panel is actually on. Unplug a display and the main monitor lights up; plug it back in and the external does. That value also aims snap-to-edge, so leaving it pointing at a monitor that had gone…",
+        "FIXED: opening the Control Panel from the panel menu left it behind whatever you were looking at. Showing a window only ASKS Windows to bring it forward, and an app has no right to take focus when the click came from a native menu — the…",
+        "NOT FIXED, and said plainly: the missing border on the right-hand edge. Moving the panel in from the edge cannot produce that gap, because the window does not keep the width it is given — asked for 120 wide at x=1927, Windows made it 122…"
     ],
     "required": false
 }
