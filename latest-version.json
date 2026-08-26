@@ -1,10 +1,11 @@
 {
-    "version": "1.1.497",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.497/NovaPanel-v1.1.497.zip",
+    "version": "1.1.498",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.498/NovaPanel-v1.1.498.zip",
     "notes": [
-        "The editor now highlights the monitor the panel is actually on. Unplug a display and the main monitor lights up; plug it back in and the external does. That value also aims snap-to-edge, so leaving it pointing at a monitor that had gone…",
-        "FIXED: opening the Control Panel from the panel menu left it behind whatever you were looking at. Showing a window only ASKS Windows to bring it forward, and an app has no right to take focus when the click came from a native menu — the…",
-        "NOT FIXED, and said plainly: the missing border on the right-hand edge. Moving the panel in from the edge cannot produce that gap, because the window does not keep the width it is given — asked for 120 wide at x=1927, Windows made it 122…"
+        "The border on the right-hand edge is visible now. The CSS was never wrong — measured on the live panel, the frame was drawn on all four sides. The right one was a single physical pixel in the window’s outermost column, which for a panel…",
+        "The panel now holds its own right edge two pixels in from the window’s, so the border is drawn somewhere the screen keeps. It owes nothing to window geometry — which is why this works where moving the window did not: Windows grows the…",
+        "Right edge only. The other three render correctly flush, and insetting them would move the panel off edges it is already sitting against properly. The distance is one named value, tunable in one place.",
+        "Checked after the change: nothing truncates or overflows at the two pixels of width this costs."
     ],
     "required": false
 }
