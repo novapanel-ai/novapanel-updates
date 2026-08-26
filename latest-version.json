@@ -1,11 +1,11 @@
 {
-    "version": "1.1.488",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.488/NovaPanel-v1.1.488.zip",
+    "version": "1.1.489",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.489/NovaPanel-v1.1.489.zip",
     "notes": [
-        "CONFIGURE, phase 3 of 6 — a Rune's actual settings now open beside it. Select Date / Time and the 24-hour switch and the six live clock faces are right there; select Weather and its location and units are. Changing one changes the panel…",
-        "The controls are MOVED, not rebuilt. They are the same elements, already wired, borrowed into the pane and handed back when you select something else or leave the tab — so the old tabs stay whole and working while the rest of the move…",
-        "A Rune with no settings says so rather than showing an empty panel: Volume, Brightness, Microphone, Power Buttons, Bluetooth & Wi-Fi and Power Plan really are just on or off.",
-        "Fixed the clock-face gallery spreading over twice the height it needed, leaving a hole under every row. Two causes, isolated by substitution rather than reasoning: its rows were free to absorb slack, and the container handing them that…"
+        "CONFIGURE, phase 4 of 6 — the whole Sensors tab now opens beside the panel. Shape, Grouping, List style, Card layout, Spacing & columns and What’s shown, all six steps, in the right column with the panel live next to them. It needed no new…",
+        "Clicking any sensor card still selects all six and the settings govern all six, in Cards or in List. Switching Shape to List rebuilds the panel as one list card and re-points the spacing controls at the List set — they are saved separately…",
+        "FIXED: the readings list arrived showing 25 readings and no values at all. Its live feed only woke on a tab change, and inside Configure a control appears because you selected a Rune, which is not a tab change — so it sat waiting for…",
+        "The Sensors tab keeps working exactly as before while the move is in flight — checked after each step: 21 nodes, 46 controls, values live."
     ],
     "required": false
 }
