@@ -1,12 +1,11 @@
 {
-    "version": "1.1.493",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.493/NovaPanel-v1.1.493.zip",
+    "version": "1.1.494",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.494/NovaPanel-v1.1.494.zip",
     "notes": [
-        "THE BASELINE. A panel now starts as: 150px at true size, List view, no bars, plain digital time, and only the clock and the sensors switched on. Everything else — weather, shortcuts, media, video, volume, brightness, microphone, power…",
-        "FIXED: words breaking mid-word. The panel was reading “Charg / e 54 %” and “Humi / d 87 %” because the wrapping rule introduced two versions ago breaks inside a word by preference. It now wraps at spaces and only splits a word that could…",
-        "FIXED: a panel could open with most of itself off the screen. The launch check only asked whether 80px of the window overlapped a display — findable, not usable. Accepted bounds are now pulled fully onto the display they land on.",
-        "Every programmatic resize now holds whichever screen edge the panel was snapped to, instead of only the width slider doing so.",
-        "KNOWN, NOT FIXED: a panel that opens with no remembered position lands 120px short of the right edge instead of flush against it. The snap itself computes correctly in isolation; the width it snaps against and the width the window is…"
+        "THE DEFAULT POSITION IS FIXED. A panel with no remembered position now opens flush against the top-right corner of the main monitor — verified at x=1928 with a zero-pixel gap, holding through the content fit and across a relaunch.",
+        "The 120px gap had two causes stacked, and one of them was mine. The on-screen clamp added earlier today measured against a NORMALISED size whose width is floored at 240px — a sensible minimum for a full panel and wrong for a 120px widget…",
+        "The second was the panel remembering an old position that no longer made sense and that position outranking the default, so the corner placement never ran at all.",
+        "An edge the panel sits against is now the edge it is ALIGNED to: a resize moves the opposite edge, so a panel snapped right grows leftwards, snapped left grows rightwards, and the same applies top and bottom. Every resize used to re-centre…"
     ],
     "required": false
 }
