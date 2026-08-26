@@ -1,10 +1,12 @@
 {
-    "version": "1.1.504",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.504/NovaPanel-v1.1.504.zip",
+    "version": "1.1.505",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.505/NovaPanel-v1.1.505.zip",
     "notes": [
-        "SETTINGS ROWS STOPPED RUNNING TOGETHER, AND THE FIX IS A PATTERN RATHER THAN A PATCH. The system had exactly one row style, and themes tune it for DENSITY — this theme pins it to 3px of padding, which is right for a dense list you scan and…",
-        "Lettered sections in a layer’s settings separate at 36px with a rule above them, so a section break reads louder than the gaps inside it.",
-        "Why the previous attempt looked ignored: the theme’s own density rule outweighed it on selector specificity, so it rendered 3px. The new pattern wins on weight rather than by shouting !important at it."
+        "ONE SETTING PER ROW, LABEL LEFT, EVERY CARD, NO EXCEPTIONS. Layer settings used to pack two and three settings onto one line — a convention from when these cards were a third of their current width. At real width they no longer fit, so…",
+        "EVERY LABEL IN THE SAME COLUMN AND EVERY CONTROL STARTING AT THE SAME X, measured across all four layer cards: one label column, one control column, nine of nine rows inline.",
+        "The app stacks a single-label row by design — label above control — with a per-row opt-out that these rows had to remember. A settings pane now opts out wholesale, so a row added later cannot forget and reintroduce the inconsistency.",
+        "THE CONTENT LAYER HAS A BIG BUTTON THROUGH TO CONFIGURE. It is the one layer whose settings do not live in Layers — which readings show, in what order, and how they look are set on the live panel in Configure — so rather than explain that…",
+        "Fixed twice over: the theme pins button height and row density, and both of the first attempts lost to it on selector weight and rendered at the old size. Both now win on weight rather than by shouting !important."
     ],
     "required": false
 }
