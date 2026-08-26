@@ -1,12 +1,12 @@
 {
-    "version": "1.1.483",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.483/NovaPanel-v1.1.483.zip",
+    "version": "1.1.484",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.484/NovaPanel-v1.1.484.zip",
     "notes": [
-        "The design system gained a real EYEBROW treatment — the tracked uppercase section label from the approved proposal — and the Panel Editor now uses it. Six named tokens with defaults in the foundation, tuned per theme, referenced by the…",
-        "Card layout options are real previews now instead of hand-drawn diagrams. Each renders the same markup the panel builds, at true panel width, scaled to fit — so a swatch cannot drift from what picking it actually produces. Each sizes to…",
-        "Portal Border moved to the Portal tab, where it belongs — it styles the portal, it was never a Rune — and it now has a preview showing the top of the panel with the hairlines cycling on and off, so what it changes is visible rather than…",
-        "A switched-off Rune dims as a whole card rather than just its picture, and its Configure link is disabled until it's on.",
-        "A component's readings now flow across and wrap instead of stacking one per row — six one-word checkboxes were taking six full lines."
+        "A portal now DECLARES its own Runes. The About page used to read from a list written by hand inside the Panel Editor and describing the OG Widget specifically, so a second portal would have shown the first one's cards. The theme states…",
+        "The Portal Border preview genuinely animates now. It did not before — measured, not assumed: six samples of the rendered border across a full cycle came back identical, twice, for two separate reasons. An unregistered custom property…",
+        "Shape, Grouping and List Style options are real previews, matching the card layouts. Every option in the Sensors tab is now the thing itself rather than a drawing of it.",
+        "The Sensors readings list shows each reading's CURRENT value beside its name — real hardware, refreshed every second — so a reading is chosen by what it reads, not by its name. 20 of 25 report on this machine; the five that don't show a…",
+        "The editor asks for those values on its own slow cadence and only while the Sensors tab is on screen, rather than joining the panel's per-frame telemetry push."
     ],
     "required": false
 }
