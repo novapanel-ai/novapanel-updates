@@ -1,12 +1,12 @@
 {
-    "version": "1.1.485",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.485/NovaPanel-v1.1.485.zip",
+    "version": "1.1.486",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.486/NovaPanel-v1.1.486.zip",
     "notes": [
-        "THE PREVIEWS ARE THE PANEL NOW. Every swatch and Rune preview in the Panel Editor is drawn by attachOgData — the same function the real panel calls — into the same markup, from the same stylesheet, against this machine's own hardware.…",
-        "A preview shows one thing by being the panel with everything else switched off — a state the panel already knows how to be in, and one the user can reach themselves from the About page. No preview-only subsetting was invented, because…",
-        "Previews show REAL hardware: the actual CPU and GPU model, the actual battery, the actual volume, brightness, microphone level and power plans. Where a machine has never reported something, the preview says Simulated in its footer rather…",
-        "Found while building it: preview iframes have no preload and therefore no IPC at all — every call from one fails. That is the real reason the weather, shortcuts and video previews have always talked to the editor instead of fetching for…",
-        "The editor READS the control and media state rather than subscribing to it. Subscribing would have kept a PowerShell reader running for as long as the editor was open, to draw a picture."
+        "NEW CONFIGURE TAB — phase 1 of 6. Two columns: your panel on the left, its configuration on the right. The left column is not a picture of the panel, it IS the panel — drawn by the panel's own renderer, at the portal's real width…",
+        "It repaints when anything changes, so editing on the right will move the panel on the left rather than describing what would happen to it.",
+        "The panel column stays put while the right column scrolls. The panel runs past the bottom of the window, and a configuration surface where the thing being configured scrolls out of view is one you are editing blind.",
+        "Weather and Shortcuts data now reach a preview too. Without it the live panel was missing exactly one card against the real one — found by counting cards in both, not by looking: one absent card in a ten-card column does not announce…",
+        "Phase 1 ships the shell and the panel only. Selection, the per-Rune toggle and the configuration panes follow in the next phases, and the existing tabs stay exactly where they are until their controls have somewhere to move to."
     ],
     "required": false
 }
