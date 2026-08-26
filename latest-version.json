@@ -1,11 +1,11 @@
 {
-    "version": "1.1.494",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.494/NovaPanel-v1.1.494.zip",
+    "version": "1.1.495",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.495/NovaPanel-v1.1.495.zip",
     "notes": [
-        "THE DEFAULT POSITION IS FIXED. A panel with no remembered position now opens flush against the top-right corner of the main monitor — verified at x=1928 with a zero-pixel gap, holding through the content fit and across a relaunch.",
-        "The 120px gap had two causes stacked, and one of them was mine. The on-screen clamp added earlier today measured against a NORMALISED size whose width is floored at 240px — a sensible minimum for a full panel and wrong for a 120px widget…",
-        "The second was the panel remembering an old position that no longer made sense and that position outranking the default, so the corner placement never ran at all.",
-        "An edge the panel sits against is now the edge it is ALIGNED to: a resize moves the opposite edge, so a panel snapped right grows leftwards, snapped left grows rightwards, and the same applies top and bottom. Every resize used to re-centre…"
+        "PLACEMENT IS NOW TREATED AS INTENT. Where you put the panel is yours, and nothing but you may change it.",
+        "The app had NO display-topology handlers at all — nothing listened for a monitor being added, removed, or changing scale — and the sleep/resume handler refreshed sensors without touching placement. So when Windows moved the panel (a remote…",
+        "Those events are now watched. Across a desktop change the panel’s position is frozen — a move you did not make is never saved — and once the desktop settles the panel is put back where you left it.",
+        "Deliberately debounced: one remote-desktop connection fires a burst of display events and the desktop is not settled until they stop. Re-placing on each one would fight Windows while it is still rearranging."
     ],
     "required": false
 }
