@@ -1,12 +1,12 @@
 {
-    "version": "1.1.484",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.484/NovaPanel-v1.1.484.zip",
+    "version": "1.1.485",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.485/NovaPanel-v1.1.485.zip",
     "notes": [
-        "A portal now DECLARES its own Runes. The About page used to read from a list written by hand inside the Panel Editor and describing the OG Widget specifically, so a second portal would have shown the first one's cards. The theme states…",
-        "The Portal Border preview genuinely animates now. It did not before — measured, not assumed: six samples of the rendered border across a full cycle came back identical, twice, for two separate reasons. An unregistered custom property…",
-        "Shape, Grouping and List Style options are real previews, matching the card layouts. Every option in the Sensors tab is now the thing itself rather than a drawing of it.",
-        "The Sensors readings list shows each reading's CURRENT value beside its name — real hardware, refreshed every second — so a reading is chosen by what it reads, not by its name. 20 of 25 report on this machine; the five that don't show a…",
-        "The editor asks for those values on its own slow cadence and only while the Sensors tab is on screen, rather than joining the panel's per-frame telemetry push."
+        "THE PREVIEWS ARE THE PANEL NOW. Every swatch and Rune preview in the Panel Editor is drawn by attachOgData — the same function the real panel calls — into the same markup, from the same stylesheet, against this machine's own hardware.…",
+        "A preview shows one thing by being the panel with everything else switched off — a state the panel already knows how to be in, and one the user can reach themselves from the About page. No preview-only subsetting was invented, because…",
+        "Previews show REAL hardware: the actual CPU and GPU model, the actual battery, the actual volume, brightness, microphone level and power plans. Where a machine has never reported something, the preview says Simulated in its footer rather…",
+        "Found while building it: preview iframes have no preload and therefore no IPC at all — every call from one fails. That is the real reason the weather, shortcuts and video previews have always talked to the editor instead of fetching for…",
+        "The editor READS the control and media state rather than subscribing to it. Subscribing would have kept a PowerShell reader running for as long as the editor was open, to draw a picture."
     ],
     "required": false
 }
