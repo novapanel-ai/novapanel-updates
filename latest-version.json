@@ -1,9 +1,8 @@
 {
-    "version": "1.1.506",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.506/NovaPanel-v1.1.506.zip",
+    "version": "1.1.507",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.507/NovaPanel-v1.1.507.zip",
     "notes": [
-        "EVERY PRIMARY BUTTON IN THE EDITOR IS GOLD AGAIN. This was not one button: the theme painted all buttons at a weight that outranked the design system’s primary style, so under this theme “primary” meant nothing and a call-to-action…",
-        "PORTAL WIDTH HAS A DEFAULT. A tick on the track marks the recommended width so you can see it while dragging past it, and a Default button snaps back to it — labelled with the value, and dimmed once you are sitting on it. The number comes…"
+        "THE EXPLODED STACK SITS TIGHTER. Plane spacing went from 76 to 60 against a plane depth of 48, so the layers sit a sliver apart and read as one object taken apart rather than six objects in a column. The whole drawing is 484px tall now…"
     ],
     "required": false
 }
