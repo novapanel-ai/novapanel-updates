@@ -1,12 +1,9 @@
 {
-    "version": "1.1.491",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.491/NovaPanel-v1.1.491.zip",
+    "version": "1.1.492",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.492/NovaPanel-v1.1.492.zip",
     "notes": [
-        "THE PRODUCT NAME NO LONGER GETS CUT OFF. The title bar read “SI…”, and the cause was not the title — the window buttons sit hidden until you move the pointer over the panel, and a hidden element still reserves its space, so four buttons…",
-        "The date stacks instead of running out of view. Day and date break onto separate lines when there is not room for both, and the middot between them disappears when they are no longer side by side.",
-        "Nothing is truncated at any width any more. Model names wrap instead of ending in … (“Intel Core Ultra 9 185H”, not “Intel Core Ultra …”), labels wrap rather than being clipped, and below a threshold each reading puts its value on its own…",
-        "The six widget cards — shortcuts, media, video, volume/brightness/mic, power buttons, power plan — were carrying an extra inset the sensor, laptop and weather cards did not, so they sat visibly narrower in the same column. Every card is…",
-        "FIXED: a panel snapped to the right edge walked off the screen when its width changed. It grew from a fixed left edge, which is right for a panel in open space and wrong for one against an edge, where getting wider means moving left. It…"
+        "The Panel settings that appear when no Rune is selected are now the four that were asked for: width, padding, font and border. The previous version shipped width, CORNER RADIUS and border — it quietly substituted a control that had not…",
+        "Padding and Font are the real controls from the Cards and Text tabs, borrowed into this column rather than copied, so there is one of each in the app instead of two that could disagree. Both are built by their own tab’s render pass, so…"
     ],
     "required": false
 }
