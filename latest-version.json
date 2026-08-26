@@ -1,12 +1,11 @@
 {
-    "version": "1.1.487",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.487/NovaPanel-v1.1.487.zip",
+    "version": "1.1.488",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.488/NovaPanel-v1.1.488.zip",
     "notes": [
-        "CONFIGURE, phase 2 of 6 — the panel is now something you click. Every Rune in it is a target: hover outlines it, click selects it, and a small switch on the Rune itself turns it on or off. The right column names what you selected and shows…",
-        "Clicking any sensor card selects ALL of them, because the Rune is the unit and the settings that govern sensors govern all six cards together. It needed no special case: the panel tags each card with the Rune it belongs to as it builds it…",
-        "The panel says which Rune each card is, rather than the editor guessing from CSS class names. A table of guesses in the editor would have been a second thing to keep in step with the renderer — exactly the drift the previous version's…",
-        "One Rune, one switch. Giving each sensor card its own put six identical checkmarks on screen for a single on/off, which reads as six switches and suggests a card can be turned off by itself. It cannot.",
-        "A Rune that is switched off draws nothing, so switching it back on from the panel was impossible — found by trying it, not by reasoning about it. Off Runes now appear below the panel as dashed placeholders carrying their name, and…"
+        "CONFIGURE, phase 3 of 6 — a Rune's actual settings now open beside it. Select Date / Time and the 24-hour switch and the six live clock faces are right there; select Weather and its location and units are. Changing one changes the panel…",
+        "The controls are MOVED, not rebuilt. They are the same elements, already wired, borrowed into the pane and handed back when you select something else or leave the tab — so the old tabs stay whole and working while the rest of the move…",
+        "A Rune with no settings says so rather than showing an empty panel: Volume, Brightness, Microphone, Power Buttons, Bluetooth & Wi-Fi and Power Plan really are just on or off.",
+        "Fixed the clock-face gallery spreading over twice the height it needed, leaving a hole under every row. Two causes, isolated by substitution rather than reasoning: its rows were free to absorb slack, and the container handing them that…"
     ],
     "required": false
 }
