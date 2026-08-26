@@ -1,12 +1,12 @@
 {
-    "version": "1.1.499",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.499/NovaPanel-v1.1.499.zip",
+    "version": "1.1.500",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.500/NovaPanel-v1.1.500.zip",
     "notes": [
-        "Portal width, Portal Border, Corner radius and Show title have moved out of Portal and into Configure, where the panel they describe is sitting next to them. They live there now rather than being borrowed — Portal no longer contains them…",
-        "Portal Border lost its animated preview. The real panel is beside the switch and shows the change directly, which is what the animation was standing in for.",
-        "Theme, Other Sizes and Position are gone from Portal. Theme does not apply to these panels, and offering the control implied it did — the capability underneath is untouched, only the control is removed. Their entries in the UI registry…",
-        "Position is now a plain X / Y readout in Configure, beside the panel it describes. Informative only and deliberately not editable: the panel is placed by dragging it and by the edge it is aligned to, and number boxes would invite editing a…",
-        "Portal is now Displays, OLED Protection, Behavior (always on top, snap to edge, snap while dragging), the panel name, and Reset to Defaults."
+        "FOUR TABS: About, Position, Layers, Configure. Twelve others are gone from the sidebar. Their pages stay in the app as holders, because Configure borrows real controls out of them — deleting the markup would delete the controls — but they…",
+        "Portal is now called Position, which is what it is for: the display the panel lives on, how it snaps, and what it does while you drag it.",
+        "LAYERS IS AN EXPLODED VIEW OF THE PANEL. Bottom to top: Desktop, Portal, Image, Base, Cards, Content. Click a layer and its properties open beside it.",
+        "Each plane shows what it is rather than naming it — the cards plane is cards, the image plane is a picture, the content plane is readings, the portal plane is the frame with its padding and gaps drawn in. The old page was a stack of…",
+        "Two layers were missing and both are here now. PORTAL is the surface every other layer paints into — it had no representation at all, which is why width and border felt unrelated to the panel’s appearance when they plainly are its…"
     ],
     "required": false
 }
