@@ -1,12 +1,12 @@
 {
-    "version": "1.1.486",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.486/NovaPanel-v1.1.486.zip",
+    "version": "1.1.487",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.487/NovaPanel-v1.1.487.zip",
     "notes": [
-        "NEW CONFIGURE TAB — phase 1 of 6. Two columns: your panel on the left, its configuration on the right. The left column is not a picture of the panel, it IS the panel — drawn by the panel's own renderer, at the portal's real width…",
-        "It repaints when anything changes, so editing on the right will move the panel on the left rather than describing what would happen to it.",
-        "The panel column stays put while the right column scrolls. The panel runs past the bottom of the window, and a configuration surface where the thing being configured scrolls out of view is one you are editing blind.",
-        "Weather and Shortcuts data now reach a preview too. Without it the live panel was missing exactly one card against the real one — found by counting cards in both, not by looking: one absent card in a ten-card column does not announce…",
-        "Phase 1 ships the shell and the panel only. Selection, the per-Rune toggle and the configuration panes follow in the next phases, and the existing tabs stay exactly where they are until their controls have somewhere to move to."
+        "CONFIGURE, phase 2 of 6 — the panel is now something you click. Every Rune in it is a target: hover outlines it, click selects it, and a small switch on the Rune itself turns it on or off. The right column names what you selected and shows…",
+        "Clicking any sensor card selects ALL of them, because the Rune is the unit and the settings that govern sensors govern all six cards together. It needed no special case: the panel tags each card with the Rune it belongs to as it builds it…",
+        "The panel says which Rune each card is, rather than the editor guessing from CSS class names. A table of guesses in the editor would have been a second thing to keep in step with the renderer — exactly the drift the previous version's…",
+        "One Rune, one switch. Giving each sensor card its own put six identical checkmarks on screen for a single on/off, which reads as six switches and suggests a card can be turned off by itself. It cannot.",
+        "A Rune that is switched off draws nothing, so switching it back on from the panel was impossible — found by trying it, not by reasoning about it. Off Runes now appear below the panel as dashed placeholders carrying their name, and…"
     ],
     "required": false
 }
