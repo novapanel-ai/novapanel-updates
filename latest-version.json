@@ -1,12 +1,12 @@
 {
-    "version": "1.1.490",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.490/NovaPanel-v1.1.490.zip",
+    "version": "1.1.491",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.491/NovaPanel-v1.1.491.zip",
     "notes": [
-        "The configuration now travels with the panel. Scroll down to click a Rune near the bottom and its settings stay in view instead of sitting off the top of the window where you had to scroll back up to read them — losing sight of the Rune…",
-        "FIXED, and it was the cause of three separate complaints at once: the panel in the editor was being drawn at the theme's declared width rather than YOUR Portal width. It was laid out for one width and shown at another, which is why cards…",
-        "The panel will no longer shrink below 120px. Enforced where the panel is actually built, not only on the slider, because a value stored while the floor was 80 (this machine held 119) would otherwise keep producing a panel whose readings…",
-        "List rows now fit any panel width. Two fixed columns needed about 155px before the card's own padding, so below that the values simply ran off the edge. Both columns are now capped at the widths you tuned but give way in proportion when…",
-        "The editor's panel keeps the real panel's own inner padding. That had been flattened for the small single-widget previews, which is right for those and wrong for a full panel."
+        "THE PRODUCT NAME NO LONGER GETS CUT OFF. The title bar read “SI…”, and the cause was not the title — the window buttons sit hidden until you move the pointer over the panel, and a hidden element still reserves its space, so four buttons…",
+        "The date stacks instead of running out of view. Day and date break onto separate lines when there is not room for both, and the middot between them disappears when they are no longer side by side.",
+        "Nothing is truncated at any width any more. Model names wrap instead of ending in … (“Intel Core Ultra 9 185H”, not “Intel Core Ultra …”), labels wrap rather than being clipped, and below a threshold each reading puts its value on its own…",
+        "The six widget cards — shortcuts, media, video, volume/brightness/mic, power buttons, power plan — were carrying an extra inset the sensor, laptop and weather cards did not, so they sat visibly narrower in the same column. Every card is…",
+        "FIXED: a panel snapped to the right edge walked off the screen when its width changed. It grew from a fixed left edge, which is right for a panel in open space and wrong for one against an edge, where getting wider means moving left. It…"
     ],
     "required": false
 }
