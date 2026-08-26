@@ -1,11 +1,12 @@
 {
-    "version": "1.1.498",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.498/NovaPanel-v1.1.498.zip",
+    "version": "1.1.499",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.499/NovaPanel-v1.1.499.zip",
     "notes": [
-        "The border on the right-hand edge is visible now. The CSS was never wrong — measured on the live panel, the frame was drawn on all four sides. The right one was a single physical pixel in the window’s outermost column, which for a panel…",
-        "The panel now holds its own right edge two pixels in from the window’s, so the border is drawn somewhere the screen keeps. It owes nothing to window geometry — which is why this works where moving the window did not: Windows grows the…",
-        "Right edge only. The other three render correctly flush, and insetting them would move the panel off edges it is already sitting against properly. The distance is one named value, tunable in one place.",
-        "Checked after the change: nothing truncates or overflows at the two pixels of width this costs."
+        "Portal width, Portal Border, Corner radius and Show title have moved out of Portal and into Configure, where the panel they describe is sitting next to them. They live there now rather than being borrowed — Portal no longer contains them…",
+        "Portal Border lost its animated preview. The real panel is beside the switch and shows the change directly, which is what the animation was standing in for.",
+        "Theme, Other Sizes and Position are gone from Portal. Theme does not apply to these panels, and offering the control implied it did — the capability underneath is untouched, only the control is removed. Their entries in the UI registry…",
+        "Position is now a plain X / Y readout in Configure, beside the panel it describes. Informative only and deliberately not editable: the panel is placed by dragging it and by the edge it is aligned to, and number boxes would invite editing a…",
+        "Portal is now Displays, OLED Protection, Behavior (always on top, snap to edge, snap while dragging), the panel name, and Reset to Defaults."
     ],
     "required": false
 }
