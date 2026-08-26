@@ -1,11 +1,12 @@
 {
-    "version": "1.1.489",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.489/NovaPanel-v1.1.489.zip",
+    "version": "1.1.490",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.490/NovaPanel-v1.1.490.zip",
     "notes": [
-        "CONFIGURE, phase 4 of 6 — the whole Sensors tab now opens beside the panel. Shape, Grouping, List style, Card layout, Spacing & columns and What’s shown, all six steps, in the right column with the panel live next to them. It needed no new…",
-        "Clicking any sensor card still selects all six and the settings govern all six, in Cards or in List. Switching Shape to List rebuilds the panel as one list card and re-points the spacing controls at the List set — they are saved separately…",
-        "FIXED: the readings list arrived showing 25 readings and no values at all. Its live feed only woke on a tab change, and inside Configure a control appears because you selected a Rune, which is not a tab change — so it sat waiting for…",
-        "The Sensors tab keeps working exactly as before while the move is in flight — checked after each step: 21 nodes, 46 controls, values live."
+        "The configuration now travels with the panel. Scroll down to click a Rune near the bottom and its settings stay in view instead of sitting off the top of the window where you had to scroll back up to read them — losing sight of the Rune…",
+        "FIXED, and it was the cause of three separate complaints at once: the panel in the editor was being drawn at the theme's declared width rather than YOUR Portal width. It was laid out for one width and shown at another, which is why cards…",
+        "The panel will no longer shrink below 120px. Enforced where the panel is actually built, not only on the slider, because a value stored while the floor was 80 (this machine held 119) would otherwise keep producing a panel whose readings…",
+        "List rows now fit any panel width. Two fixed columns needed about 155px before the card's own padding, so below that the values simply ran off the edge. Both columns are now capped at the widths you tuned but give way in proportion when…",
+        "The editor's panel keeps the real panel's own inner padding. That had been flattened for the small single-widget previews, which is right for those and wrong for a full panel."
     ],
     "required": false
 }
