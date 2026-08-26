@@ -1,9 +1,12 @@
 {
-    "version": "1.1.492",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.492/NovaPanel-v1.1.492.zip",
+    "version": "1.1.493",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.493/NovaPanel-v1.1.493.zip",
     "notes": [
-        "The Panel settings that appear when no Rune is selected are now the four that were asked for: width, padding, font and border. The previous version shipped width, CORNER RADIUS and border — it quietly substituted a control that had not…",
-        "Padding and Font are the real controls from the Cards and Text tabs, borrowed into this column rather than copied, so there is one of each in the app instead of two that could disagree. Both are built by their own tab’s render pass, so…"
+        "THE BASELINE. A panel now starts as: 150px at true size, List view, no bars, plain digital time, and only the clock and the sensors switched on. Everything else — weather, shortcuts, media, video, volume, brightness, microphone, power…",
+        "FIXED: words breaking mid-word. The panel was reading “Charg / e 54 %” and “Humi / d 87 %” because the wrapping rule introduced two versions ago breaks inside a word by preference. It now wraps at spaces and only splits a word that could…",
+        "FIXED: a panel could open with most of itself off the screen. The launch check only asked whether 80px of the window overlapped a display — findable, not usable. Accepted bounds are now pulled fully onto the display they land on.",
+        "Every programmatic resize now holds whichever screen edge the panel was snapped to, instead of only the width slider doing so.",
+        "KNOWN, NOT FIXED: a panel that opens with no remembered position lands 120px short of the right edge instead of flush against it. The snap itself computes correctly in isolation; the width it snaps against and the width the window is…"
     ],
     "required": false
 }
