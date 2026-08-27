@@ -1,12 +1,11 @@
 {
-    "version": "1.1.524",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.524/NovaPanel-v1.1.524.zip",
+    "version": "1.1.525",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.525/NovaPanel-v1.1.525.zip",
     "notes": [
-        "IT IS CALLED MINI WIDGET NOW, EVERYWHERE. The theme's name, the panel's name, both window titles. A one-time rename runs on launch for panels already saved as \"OG Widget\" — renaming the theme alone would only have affected new panels…",
-        "THE FOOTER CARRIES THE EDITOR'S OWN SIZE, LIVE — last cell on every screen, repainted as you resize.",
-        "The footer's Theme cell is gone: after the rename it printed the same words as Panel.",
-        "ABOUT, ROUND TWO — measured, not judged. 142 differences against the approved design at the start of this round; 31 remain, each in a named bucket in the worklist.",
-        "Closed this round: the design's font stacks (Inter Tight vendored, 45KB, because this app reaches no network), its 1.5 leading, its window base size, the title bar's padding and its close glyph, the tab metrics, the pane head on ONE line…"
+        "THE EDITOR IS A CARD ON THE DESKTOP, as the design draws it: a hairline border, a 10px corner and a deep shadow. That needs a transparent window — an opaque one fills its own corners back in — so the window is transparent now and the page…",
+        "⚠️ It keeps its resize border. A transparent frameless window on Windows loses the resize frame unless it is asked for explicitly; this one asks, because the editor is a window people resize.",
+        "The close control is a glyph the width of its character again, not a 28px box, and the tabs sit 2px apart — both measured off the design, and with them the navigation, the glyph, the stage and the settings pane now measure IDENTICALLY: 348…",
+        "ABOUT IS DONE: 142 measured differences at the start of the day, 15 left, and not one of them renders. Two are our flex layout against the design's static mock, nine are browser defaults on a bare button whose text is all in styled…"
     ],
     "required": false
 }
