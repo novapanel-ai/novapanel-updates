@@ -1,9 +1,12 @@
 {
-    "version": "1.1.512",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.512/NovaPanel-v1.1.512.zip",
+    "version": "1.1.513",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.513/NovaPanel-v1.1.513.zip",
     "notes": [
-        "Changelog repair. The v1.1.511 notes lost a phrase to a shell quoting slip while they were being written — backticks in the text were run as a command instead of printed. The line it damaged said what actually shipped: the last hardcoded…",
-        "No code changed between 1.1.511 and this build; a published release is corrected forward rather than rewritten."
+        "THE EDITOR IS ONE INSTRUMENT NOW, AS APPROVED. The window IS the view: a header carrying the navigation, the work in the middle, and a footer stating what is true. The tabs moved off the left rail and into that header — a rail is a third…",
+        "THE FOOTER STOPPED NAMING THE APP AND STARTED STATING FACTS. It read \"Sigil Panel Editor\", which is the one thing on screen nobody could be in doubt about. Position now says which display the panel landed on, its anchor in words, the…",
+        "Every figure there is READ, never remembered — real bounds, the real display, the real layer count off the drawing itself. A footer that states something stale is worse than none, because it is believed.",
+        "A LAYOUT BUG THAT HAD BEEN HIDING SINCE BEFORE THIS WORK: this file carried one closing tag more than it opened, so the app container ended early and the browser quietly re-parented whatever followed it to the page body. Nothing revealed…",
+        "The active tab is the accent on its own dim ground with an underline; the header and footer share one strip surface, so the window reads as closed at both ends."
     ],
     "required": false
 }
