@@ -1,12 +1,12 @@
 {
-    "version": "1.1.523",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.523/NovaPanel-v1.1.523.zip",
+    "version": "1.1.524",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.524/NovaPanel-v1.1.524.zip",
     "notes": [
-        "ABOUT, ROUND ONE. Compared against the approved design property by property and word by word, not by eye.",
-        "THE WRITING IS YOURS, VERBATIM. Ours had grown a third longer — an extra clause in the opening, a list of gadget examples, a sentence about enthusiasts, and a catalogue of Runes inside the paragraph that explains what a Rune is.",
-        "THE DIAGRAM IS BACK: one card called out of a panel, arrow, \"ONE RUNE — switch it off and the panel closes up around it.\" The design closes About with it; we had nothing.",
-        "The panel's Name reads as a value on the right of its row, in mono, like the Rune count and version under it — not as a text box. It is still editable; the design simply never drew the moment you are editing it.",
-        "⚠️ EVERY ON/OFF IN THE EDITOR IS A PILL SWITCH NOW. The design does not use a checkbox anywhere, and I had never compared the CONTROLS — only the type and the structure. Sliders are native ranges tinted gold; selects and text fields carry…"
+        "IT IS CALLED MINI WIDGET NOW, EVERYWHERE. The theme's name, the panel's name, both window titles. A one-time rename runs on launch for panels already saved as \"OG Widget\" — renaming the theme alone would only have affected new panels…",
+        "THE FOOTER CARRIES THE EDITOR'S OWN SIZE, LIVE — last cell on every screen, repainted as you resize.",
+        "The footer's Theme cell is gone: after the rename it printed the same words as Panel.",
+        "ABOUT, ROUND TWO — measured, not judged. 142 differences against the approved design at the start of this round; 31 remain, each in a named bucket in the worklist.",
+        "Closed this round: the design's font stacks (Inter Tight vendored, 45KB, because this app reaches no network), its 1.5 leading, its window base size, the title bar's padding and its close glyph, the tab metrics, the pane head on ONE line…"
     ],
     "required": false
 }
