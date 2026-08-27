@@ -1,12 +1,12 @@
 {
-    "version": "1.1.509",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.509/NovaPanel-v1.1.509.zip",
+    "version": "1.1.510",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.510/NovaPanel-v1.1.510.zip",
     "notes": [
-        "POSITION IS A MAP OF YOUR DESK. Your monitors, drawn to scale in their real arrangement and named, with the panel drawn on the display it is actually on, at its real size and place. Nine anchor cells sit over that display — click one and…",
-        "SNAP TO EDGE, A DROPDOWN OF TEN WORDS LIKE “Top + Left”, IS GONE FROM VIEW. The map replaced it — and drives it: the select is hidden rather than removed, so there is still exactly one thing that writes the setting and the snapping logic…",
-        "A readout under the map says which display it landed on, the anchor in words, the coordinate that anchor produced today, the panel size and the display scaling — and, when the display it wants is unplugged, that it is waiting for it rather…",
-        "The settings moved beside the map in the same pattern the Layers tab uses: name, size units, always on top, snap while dragging, OLED protection, rescan and reset. Every one of them was MOVED, not rebuilt, so each keeps its single…",
-        "The map refreshes while you are looking at it, so dragging the panel on your desktop is reflected here without a rescan."
+        "GRIMOIRE — A DESIGN SYSTEM FOR THE SURFACES YOU WORK IN. The Panel Editor stops wearing the theme of the panel it edits and wears its own. That was a deliberate decision a week ago and it had a good reason, but OG is an INSTRUMENT…",
+        "WHAT ACTUALLY CHANGED, IN TWO NUMBERS. Labels went 10px to 13px, and a spacing step now renders the pixels its name says — --fnd-space-24 was drawing 18. Every gap in the editor had been three-quarters of what it asked for, which is why…",
+        "Same palette family so the app still reads as one product: black ground, warm off-white ink, gold accent. Cleaner neutrals (OG greys are tinted toward its gold, which reads as depth at instrument size and as dirt at workspace size), three…",
+        "Editor only for now. Grimoire is held out of the theme chooser — it is the app’s own design system rather than a perk, so no entitlement is claimed for it.",
+        "Fixed while sweeping the new scale: a value readout was pinned to 38px and clipped its own number, the OLED badge clipped its title in the narrower column, and the panel name field had collapsed to 41px."
     ],
     "required": false
 }
