@@ -1,11 +1,12 @@
 {
-    "version": "1.1.519",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.519/NovaPanel-v1.1.519.zip",
+    "version": "1.1.520",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.520/NovaPanel-v1.1.520.zip",
     "notes": [
-        "CORRECTION TO YESTERDAY'S NOTE, WHICH WAS WRONG. 1.1.518 said the editor had no base text size. It has one, and always did: the design system sets the window's base in `html, body`. The 16px text was this THEME answering that question…",
-        "⚠️ IN THIS PRODUCT THE TEXT SCALE IS A SET OF ROLES, NOT A WEB TYPE SCALE. `xl` IS the window's base body size and `4xl` is the largest thing on screen — the OG theme maps them to 13 and 16. The Grimoire design system was authored with a…",
-        "The one-day patch that set a base size on the editor window is withdrawn. It would have fixed one window and hidden the same fault from every other surface that ever uses this design system.",
-        "Net effect on screen: the base is 13px again, and the only text above 15px anywhere in the editor is the About lede and its two sub-heads — which is the approved design exactly."
+        "FULL AUDIT AGAINST THE APPROVED DESIGN, MEASURED RATHER THAN JUDGED. The approved screens were run in the same engine as the app and every role was read off both, side by side. Fifteen differed. All fifteen now match exactly.",
+        "The navigation was half a pixel large. Section heads were tracked at 0.02em where the design tracks them at 0.12em — the spacing is what makes a small uppercase line read as a heading at all. Values and explanations were 11.5px in the…",
+        "SETTINGS ROWS HAD NO VERTICAL PADDING. The design gives every row 12px top and bottom — that is the entire rhythm of a settings column, and it was missing.",
+        "About's opening paragraph is not a display line. Measured, it renders at body size in the secondary ink — exactly like the paragraphs under it — and had been running at 17px in the primary, which made About the loudest screen in the…",
+        "Buttons are the design's two shapes again: a quiet 12px hairline and a gold block. ⚠️ The first pass flattened \"Reset to Defaults\" into the quiet shape, making the one destructive control in the window indistinguishable from a harmless…"
     ],
     "required": false
 }
