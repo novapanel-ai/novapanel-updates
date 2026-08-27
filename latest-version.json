@@ -1,12 +1,11 @@
 {
-    "version": "1.1.517",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.517/NovaPanel-v1.1.517.zip",
+    "version": "1.1.518",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.518/NovaPanel-v1.1.518.zip",
     "notes": [
-        "THE EDITOR NOW MATCHES THE APPROVED DESIGN, NOT AN APPROXIMATION OF IT. Four faults, one cause each.",
-        "⚠️ THE TYPE WAS RENDERING AT PAGE SIZES. The Grimoire design system defines the text scale but never defined the DISPLAY scale, so every heading fell through to the product default — 28px — and the screen titles, the section heads and the…",
-        "THE SCREEN TITLE BLOCK IS GONE. The navigation in the titlebar already says which screen you are on, and the approved design has no heading block at all — a 28px word repeating the highlighted tab beneath it was costing a fifth of the…",
-        "SECTION HEADS ARE HEADS AGAIN. \"Displays\" and \"Content Amount\" read larger than everything they contained; they are small gold labels now, the same treatment every other label on these screens uses.",
-        "⚠️ A HINT WROTE OVER THE SETTING BELOW IT. An explanation placed inside a row was laid out as another COLUMN of that row, so a two-line note beside a one-line checkbox grew past the row and printed on top of the next control — \"The…"
+        "⚠️ THE EDITOR HAD NO BASE TEXT SIZE. Anything without a style rule of its own rendered at the browser's default 16px — larger than the 13px labels beside it — which is why explanations and stray lines read as headings while every styled…",
+        "Hints and notes had no size defined ANYWHERE in the product, only margins in two places. Both are small and secondary now, as they read in the approved design.",
+        "⚠️ YOUR OWN NOTE WAS PRINTING ON THE POSITION SCREEN. An HTML comment had lost its opening marker, so from \"just make the button bigger\" onwards it was not a comment at all — the browser drew it as body text, ending in a literal arrow.…",
+        "The drawings are sized sensibly again: pinned to their authored width they were a stamp in the corner of a wide window, and left to fill they magnified their own labels. Both scale to their stage up to one shared ceiling."
     ],
     "required": false
 }
