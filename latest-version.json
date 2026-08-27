@@ -1,12 +1,12 @@
 {
-    "version": "1.1.514",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.514/NovaPanel-v1.1.514.zip",
+    "version": "1.1.515",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.515/NovaPanel-v1.1.515.zip",
     "notes": [
-        "EVERY SCREEN IS THE SAME SHAPE NOW. The thing on the left, its settings on the right, one hairline between them — the same hairline that closes the header and the footer. It runs the full height of the window on Position, Layers and…",
-        "THE SETTINGS PANES LOST THEIR OWN CARD. The window is the card; a bordered box inside a bordered window is the nesting that was rejected, one level down. The hairline is what shows where the settings begin.",
-        "ONE PROPORTION FOR ALL THREE. Each screen had drifted to its own: a gap between the columns that put daylight between the rule and the pane it divides, a fixed-width stage on Layers, and a Configure stage that had shrunk to the width of…",
-        "THE BUILD CLEANS UP AFTER ITSELF. Packaging left a copy of the app inside the Electron folder, and Electron loads that copy in preference to the source — so after any build, a developer launch silently ran the packaged app instead of the…",
-        "Layers keeps a line above the drawing saying what it is and what to do with it, and it survives the stack redrawing itself."
+        "THE MINI WIDGET NOW OPENS AS THE APPROVED DESIGN. A card is a fill, not a framed box: 10% white on black, a 3px corner instead of 6, and no outline at all. At this card height a 6px corner reads as a lozenge, and an outline around every…",
+        "Sensors start as the grouped list — model name, then its readings — with no bars, which is the ruling: list style is the default.",
+        "THESE ARE STILL SETTINGS, NOT A LOCK. Every value above is a default a fresh panel starts with; Layers and Configure change all of them and the panel reflects the change exactly as before.",
+        "ONE PLACE DECLARES HOW THE PANEL LOOKS. The theme now states its own starting look — ground, frame, sensors, card — beside the size and the Runes it already declared, and the code that builds a default panel reads it from there. The first…",
+        "The saved card style on the CEO's own Mini Widget was cleared, at his instruction, so these defaults are what it shows."
     ],
     "required": false
 }
