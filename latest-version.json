@@ -1,12 +1,12 @@
 {
-    "version": "1.1.513",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.513/NovaPanel-v1.1.513.zip",
+    "version": "1.1.514",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.514/NovaPanel-v1.1.514.zip",
     "notes": [
-        "THE EDITOR IS ONE INSTRUMENT NOW, AS APPROVED. The window IS the view: a header carrying the navigation, the work in the middle, and a footer stating what is true. The tabs moved off the left rail and into that header — a rail is a third…",
-        "THE FOOTER STOPPED NAMING THE APP AND STARTED STATING FACTS. It read \"Sigil Panel Editor\", which is the one thing on screen nobody could be in doubt about. Position now says which display the panel landed on, its anchor in words, the…",
-        "Every figure there is READ, never remembered — real bounds, the real display, the real layer count off the drawing itself. A footer that states something stale is worse than none, because it is believed.",
-        "A LAYOUT BUG THAT HAD BEEN HIDING SINCE BEFORE THIS WORK: this file carried one closing tag more than it opened, so the app container ended early and the browser quietly re-parented whatever followed it to the page body. Nothing revealed…",
-        "The active tab is the accent on its own dim ground with an underline; the header and footer share one strip surface, so the window reads as closed at both ends."
+        "EVERY SCREEN IS THE SAME SHAPE NOW. The thing on the left, its settings on the right, one hairline between them — the same hairline that closes the header and the footer. It runs the full height of the window on Position, Layers and…",
+        "THE SETTINGS PANES LOST THEIR OWN CARD. The window is the card; a bordered box inside a bordered window is the nesting that was rejected, one level down. The hairline is what shows where the settings begin.",
+        "ONE PROPORTION FOR ALL THREE. Each screen had drifted to its own: a gap between the columns that put daylight between the rule and the pane it divides, a fixed-width stage on Layers, and a Configure stage that had shrunk to the width of…",
+        "THE BUILD CLEANS UP AFTER ITSELF. Packaging left a copy of the app inside the Electron folder, and Electron loads that copy in preference to the source — so after any build, a developer launch silently ran the packaged app instead of the…",
+        "Layers keeps a line above the drawing saying what it is and what to do with it, and it survives the stack redrawing itself."
     ],
     "required": false
 }
