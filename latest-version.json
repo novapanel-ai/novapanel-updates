@@ -1,12 +1,9 @@
 {
-    "version": "1.1.511",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.511/NovaPanel-v1.1.511.zip",
+    "version": "1.1.512",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.512/NovaPanel-v1.1.512.zip",
     "notes": [
-        "GRIMOIRE NOW MATCHES THE DESIGN THAT WAS APPROVED, VALUE FOR VALUE. Every step of the type ramp is measured off the signed-off prototype and named by the job it does there — the kicker that names a pane, the note above a drawing, the…",
-        "IT STOPPED BUNDLING A FONT IT WAS NEVER MEANT TO USE. The theme shipped IBM Plex Mono for its eyebrows; the approved design renders in the system mono (Cascadia on Windows 11, Consolas behind it) because that is what the prototype resolved…",
-        "THE LAST HARDCODED COLOR IN THE EDITOR IS GONE.  — a blue-grey belonging to no theme in this product — marked the selected button in nineteen places, written inline in JavaScript strings. It survived every gate because the color ratchet…",
-        "Three roles the approved design leans on now have names in the token set rather than being spelled out where they are used: the header and footer strip surface, the ghost ground of something offered but not chosen, and how transparent a…",
-        "Audited and clean: no hardcoded color, type size or font family anywhere in the editor stylesheet, and no clipping or overflow on any of the four screens under the new ramp."
+        "Changelog repair. The v1.1.511 notes lost a phrase to a shell quoting slip while they were being written — backticks in the text were run as a command instead of printed. The line it damaged said what actually shipped: the last hardcoded…",
+        "No code changed between 1.1.511 and this build; a published release is corrected forward rather than rewritten."
     ],
     "required": false
 }
