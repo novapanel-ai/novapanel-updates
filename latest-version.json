@@ -1,12 +1,12 @@
 {
-    "version": "1.1.521",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.521/NovaPanel-v1.1.521.zip",
+    "version": "1.1.522",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.522/NovaPanel-v1.1.522.zip",
     "notes": [
-        "THE FOUR SCREENS NOW MATCH THE APPROVED DESIGN IN STRUCTURE, NOT ONLY IN STYLE. The design was run beside the app again and every pane was compared row by row — what each screen contains, in what order, under what heading, with what in the…",
-        "ABOUT HAS ITS PANE. It was a single column of prose with the right half of the window empty. It now carries what the design puts there: \"The editor / Where things live\", three rows that take you to Configure, Layers or Position, and \"This…",
-        "POSITION states the panel's Width, groups the three behaviours under Behavior, and the panel's Name moved to About — Position is where the panel lives, not what it is called.",
-        "OLED PROTECTION IS A ROW, NOT A CARD, as the design draws it: a label, a switch, and the explanation underneath. The explanation stays put now — detection used to replace it with \"no display reported itself as OLED\", which answers a…",
-        "THE ANTA TYPEFACE IS VENDORED. The design sets the OLED-shift label in it, and the app reaches no network, so it had been silently falling back to the body sans since the design was approved. 15KB, latin subset, shipping beside the theme…"
+        "NO DEVIATIONS. The three things kept back last version are gone, and the stages match the design as well as the panes.",
+        "POSITION'S STAGE IS THE NOTE AND THE MAP. The monitor list under it is gone — the map is the selector, and a list naming every display underneath it was the same information drawn twice. The line explaining display scaling and the Rescan /…",
+        "RUNES THAT ARE NOT IN THE PANEL NOW SIT IN A TRAY AT THE FOOT OF CONFIGURE, in front of the portal, as chips you click to add. They used to be drawn as ghost cards INSIDE the panel mirror — a list of things the panel does not contain…",
+        "Configure's stage note moved above the panel, where the design puts it.",
+        "\"Always on top\" and \"Portal border\" match the design's wording, letter for letter."
     ],
     "required": false
 }
