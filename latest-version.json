@@ -1,11 +1,12 @@
 {
-    "version": "1.1.525",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.525/NovaPanel-v1.1.525.zip",
+    "version": "1.1.526",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.526/NovaPanel-v1.1.526.zip",
     "notes": [
-        "THE EDITOR IS A CARD ON THE DESKTOP, as the design draws it: a hairline border, a 10px corner and a deep shadow. That needs a transparent window — an opaque one fills its own corners back in — so the window is transparent now and the page…",
-        "⚠️ It keeps its resize border. A transparent frameless window on Windows loses the resize frame unless it is asked for explicitly; this one asks, because the editor is a window people resize.",
-        "The close control is a glyph the width of its character again, not a 28px box, and the tabs sit 2px apart — both measured off the design, and with them the navigation, the glyph, the stage and the settings pane now measure IDENTICALLY: 348…",
-        "ABOUT IS DONE: 142 measured differences at the start of the day, 15 left, and not one of them renders. Two are our flex layout against the design's static mock, nine are browser defaults on a bare button whose text is all in styled…"
+        "THE PANE'S KICKER SITS OVER ITS TITLE AGAIN. \"THE EDITOR\" and \"Where things live\" had drifted to opposite ends of the pane: in the design they share one wrapper inside the head, so the head's space-between has nothing to push apart. Fixed…",
+        "THE FIRST TAB STARTS AT THE WINDOW'S EDGE. The design's navigation pulls itself out of the title bar's padding; ours sat 16px in.",
+        "⚠️ THE EDITOR REFLOWS WHEN IT GETS NARROW, which it did not. Below 860px the two columns stack and the divider turns from a vertical rule into a horizontal one — the design's own breakpoint. Below 620px the label column stops being a fixed…",
+        "TEXT NO LONGER SHIMMERS WHILE THE WINDOW IS DRAGGED. A transparent window has no opaque backing to blit, so every move re-rasterises the page — and a 56px blurred shadow makes that repaint expensive. The shadow comes off for the duration…",
+        "A governance gate was wrong and is fixed: the duplicate-selector check walked the stylesheet flat, so a rule inside a media query counted as a duplicate of the same selector outside it. A breakpoint is not a duplicate — it is the same…"
     ],
     "required": false
 }
