@@ -1,12 +1,12 @@
 {
-    "version": "1.1.527",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.527/NovaPanel-v1.1.527.zip",
+    "version": "1.1.528",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.528/NovaPanel-v1.1.528.zip",
     "notes": [
-        "ABOUT: the panel's Name now sits in the same column as the Rune count and the version, by the same mechanism — it was a full-width field with right-aligned text where the others are boxes that hug their value, so they only lined up at one…",
-        "POSITION, MEASURED THE SAME WAY: 42 differences against the approved design, 12 left, and none of the twelve render.",
-        "THE DROPDOWN IS THE DESIGN'S OWN NOW — a button carrying the value and a chevron, and a list beneath it with the chosen row in gold. It replaces the operating system's popup everywhere in the editor. The native control stays underneath as…",
-        "\"Behavior\" reads as a section head again (gold, small, tracked) instead of a 16px line with a rule above it; the display map lost the bordered box around it — the design's stage IS the frame, and the box was making the drawing 36px…",
-        "⚠️ POSITION REFLOWS NOW TOO. A note written inside a row was a third item on a line that does not wrap: at 820px the OLED row measured 948px and overflowed the pane. Notes sit beside their rows now, as they do in the design — and they…"
+        "⚠️ POSITION COULD FAIL TO ASSEMBLE ITSELF, AND DID — ON YOUR MACHINE, ON A BUILD THAT CONTAINED THE FIX. The tab moves its settings into the pane once, behind a latch. One failed or early run set that latch and the screen could never…",
+        "The headers it used to hide are hidden in the stylesheet as well, so no JavaScript failure can put \"DISPLAYS\" or \"OLED PROTECTION\" back on a screen the design has never had them on.",
+        "THE DISPLAY MAP READS LIKE THE DESIGN'S: each screen labelled with its name and its real resolution, PRIMARY in gold at the right edge. The number badges and the \"P\" marker are gone — they were from when the map was a thumbnail beside a…",
+        "The line above the map is one line again: \"Your desktop, to scale · click a monitor, then an anchor.\" \"Arrangement follows Windows Display Settings\" is not a warning, it is how multi-monitor works, and it was printing permanently on every…",
+        "RESCAN DISPLAYS sits in the header, where the design puts a view's action."
     ],
     "required": false
 }
