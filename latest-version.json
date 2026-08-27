@@ -1,12 +1,12 @@
 {
-    "version": "1.1.510",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.510/NovaPanel-v1.1.510.zip",
+    "version": "1.1.511",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.511/NovaPanel-v1.1.511.zip",
     "notes": [
-        "GRIMOIRE — A DESIGN SYSTEM FOR THE SURFACES YOU WORK IN. The Panel Editor stops wearing the theme of the panel it edits and wears its own. That was a deliberate decision a week ago and it had a good reason, but OG is an INSTRUMENT…",
-        "WHAT ACTUALLY CHANGED, IN TWO NUMBERS. Labels went 10px to 13px, and a spacing step now renders the pixels its name says — --fnd-space-24 was drawing 18. Every gap in the editor had been three-quarters of what it asked for, which is why…",
-        "Same palette family so the app still reads as one product: black ground, warm off-white ink, gold accent. Cleaner neutrals (OG greys are tinted toward its gold, which reads as depth at instrument size and as dirt at workspace size), three…",
-        "Editor only for now. Grimoire is held out of the theme chooser — it is the app’s own design system rather than a perk, so no entitlement is claimed for it.",
-        "Fixed while sweeping the new scale: a value readout was pinned to 38px and clipped its own number, the OLED badge clipped its title in the narrower column, and the panel name field had collapsed to 41px."
+        "GRIMOIRE NOW MATCHES THE DESIGN THAT WAS APPROVED, VALUE FOR VALUE. Every step of the type ramp is measured off the signed-off prototype and named by the job it does there — the kicker that names a pane, the note above a drawing, the…",
+        "IT STOPPED BUNDLING A FONT IT WAS NEVER MEANT TO USE. The theme shipped IBM Plex Mono for its eyebrows; the approved design renders in the system mono (Cascadia on Windows 11, Consolas behind it) because that is what the prototype resolved…",
+        "THE LAST HARDCODED COLOR IN THE EDITOR IS GONE.  — a blue-grey belonging to no theme in this product — marked the selected button in nineteen places, written inline in JavaScript strings. It survived every gate because the color ratchet…",
+        "Three roles the approved design leans on now have names in the token set rather than being spelled out where they are used: the header and footer strip surface, the ghost ground of something offered but not chosen, and how transparent a…",
+        "Audited and clean: no hardcoded color, type size or font family anywhere in the editor stylesheet, and no clipping or overflow on any of the four screens under the new ramp."
     ],
     "required": false
 }
