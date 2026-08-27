@@ -1,10 +1,12 @@
 {
-    "version": "1.1.516",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.516/NovaPanel-v1.1.516.zip",
+    "version": "1.1.517",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.517/NovaPanel-v1.1.517.zip",
     "notes": [
-        "⚠️ THE EDITOR WAS SHOWING TWO SCREENS AT ONCE. Open it on a Mini Widget and the hidden Visuals pane — Meters, Gauges, Graphs — appeared beside whichever screen you were actually on, squeezing Position into half the window. Fixed.",
-        "The cause: one line set that pane's visibility while wiring up, and it runs AFTER the screen has been chosen, so it un-hid a pane the navigation had already put away. It was a race, which is why it did not happen on every open and did not…",
-        "Only the code that switches screens may show a screen now. The Visuals and Graphics panes have no navigation button, so neither can be the screen you are on, and both stay put away until something puts a button back."
+        "THE EDITOR NOW MATCHES THE APPROVED DESIGN, NOT AN APPROXIMATION OF IT. Four faults, one cause each.",
+        "⚠️ THE TYPE WAS RENDERING AT PAGE SIZES. The Grimoire design system defines the text scale but never defined the DISPLAY scale, so every heading fell through to the product default — 28px — and the screen titles, the section heads and the…",
+        "THE SCREEN TITLE BLOCK IS GONE. The navigation in the titlebar already says which screen you are on, and the approved design has no heading block at all — a 28px word repeating the highlighted tab beneath it was costing a fifth of the…",
+        "SECTION HEADS ARE HEADS AGAIN. \"Displays\" and \"Content Amount\" read larger than everything they contained; they are small gold labels now, the same treatment every other label on these screens uses.",
+        "⚠️ A HINT WROTE OVER THE SETTING BELOW IT. An explanation placed inside a row was laid out as another COLUMN of that row, so a two-line note beside a one-line checkbox grew past the row and printed on top of the next control — \"The…"
     ],
     "required": false
 }
