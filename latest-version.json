@@ -1,8 +1,10 @@
 {
-    "version": "1.1.507",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.507/NovaPanel-v1.1.507.zip",
+    "version": "1.1.508",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.508/NovaPanel-v1.1.508.zip",
     "notes": [
-        "THE EXPLODED STACK SITS TIGHTER. Plane spacing went from 76 to 60 against a plane depth of 48, so the layers sit a sliver apart and read as one object taken apart rather than six objects in a column. The whole drawing is 484px tall now…"
+        "ABOUT IS WRITING AND NOTHING ELSE. The Rune catalogue underneath it is gone — it listed what the panel can show, which is now the panel itself in Configure, where you click the thing instead of reading about it.",
+        "CONTENT AMOUNT MOVED RATHER THAN VANISHED. Layout type (dense / relaxed / minimal) is a live setting this theme declares and reads, so deleting it with the rest of the page would have removed a capability rather than a decoration. It now…",
+        "Caught on the way: the About catalogue was also the thing that LOADED the Rune list, which Configure’s selection, its detail pane and the panel mirror all read. Removing the list would have quietly emptied that and broken Configure two…"
     ],
     "required": false
 }
