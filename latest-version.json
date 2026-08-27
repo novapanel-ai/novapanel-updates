@@ -1,12 +1,10 @@
 {
-    "version": "1.1.515",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.515/NovaPanel-v1.1.515.zip",
+    "version": "1.1.516",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.516/NovaPanel-v1.1.516.zip",
     "notes": [
-        "THE MINI WIDGET NOW OPENS AS THE APPROVED DESIGN. A card is a fill, not a framed box: 10% white on black, a 3px corner instead of 6, and no outline at all. At this card height a 6px corner reads as a lozenge, and an outline around every…",
-        "Sensors start as the grouped list — model name, then its readings — with no bars, which is the ruling: list style is the default.",
-        "THESE ARE STILL SETTINGS, NOT A LOCK. Every value above is a default a fresh panel starts with; Layers and Configure change all of them and the panel reflects the change exactly as before.",
-        "ONE PLACE DECLARES HOW THE PANEL LOOKS. The theme now states its own starting look — ground, frame, sensors, card — beside the size and the Runes it already declared, and the code that builds a default panel reads it from there. The first…",
-        "The saved card style on the CEO's own Mini Widget was cleared, at his instruction, so these defaults are what it shows."
+        "⚠️ THE EDITOR WAS SHOWING TWO SCREENS AT ONCE. Open it on a Mini Widget and the hidden Visuals pane — Meters, Gauges, Graphs — appeared beside whichever screen you were actually on, squeezing Position into half the window. Fixed.",
+        "The cause: one line set that pane's visibility while wiring up, and it runs AFTER the screen has been chosen, so it un-hid a pane the navigation had already put away. It was a race, which is why it did not happen on every open and did not…",
+        "Only the code that switches screens may show a screen now. The Visuals and Graphics panes have no navigation button, so neither can be the screen you are on, and both stay put away until something puts a button back."
     ],
     "required": false
 }
