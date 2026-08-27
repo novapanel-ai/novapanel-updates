@@ -1,10 +1,12 @@
 {
-    "version": "1.1.508",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.508/NovaPanel-v1.1.508.zip",
+    "version": "1.1.509",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.509/NovaPanel-v1.1.509.zip",
     "notes": [
-        "ABOUT IS WRITING AND NOTHING ELSE. The Rune catalogue underneath it is gone — it listed what the panel can show, which is now the panel itself in Configure, where you click the thing instead of reading about it.",
-        "CONTENT AMOUNT MOVED RATHER THAN VANISHED. Layout type (dense / relaxed / minimal) is a live setting this theme declares and reads, so deleting it with the rest of the page would have removed a capability rather than a decoration. It now…",
-        "Caught on the way: the About catalogue was also the thing that LOADED the Rune list, which Configure’s selection, its detail pane and the panel mirror all read. Removing the list would have quietly emptied that and broken Configure two…"
+        "POSITION IS A MAP OF YOUR DESK. Your monitors, drawn to scale in their real arrangement and named, with the panel drawn on the display it is actually on, at its real size and place. Nine anchor cells sit over that display — click one and…",
+        "SNAP TO EDGE, A DROPDOWN OF TEN WORDS LIKE “Top + Left”, IS GONE FROM VIEW. The map replaced it — and drives it: the select is hidden rather than removed, so there is still exactly one thing that writes the setting and the snapping logic…",
+        "A readout under the map says which display it landed on, the anchor in words, the coordinate that anchor produced today, the panel size and the display scaling — and, when the display it wants is unplugged, that it is waiting for it rather…",
+        "The settings moved beside the map in the same pattern the Layers tab uses: name, size units, always on top, snap while dragging, OLED protection, rescan and reset. Every one of them was MOVED, not rebuilt, so each keeps its single…",
+        "The map refreshes while you are looking at it, so dragging the panel on your desktop is reflected here without a rescan."
     ],
     "required": false
 }
