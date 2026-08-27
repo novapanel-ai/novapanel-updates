@@ -1,12 +1,12 @@
 {
-    "version": "1.1.520",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.520/NovaPanel-v1.1.520.zip",
+    "version": "1.1.521",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.521/NovaPanel-v1.1.521.zip",
     "notes": [
-        "FULL AUDIT AGAINST THE APPROVED DESIGN, MEASURED RATHER THAN JUDGED. The approved screens were run in the same engine as the app and every role was read off both, side by side. Fifteen differed. All fifteen now match exactly.",
-        "The navigation was half a pixel large. Section heads were tracked at 0.02em where the design tracks them at 0.12em — the spacing is what makes a small uppercase line read as a heading at all. Values and explanations were 11.5px in the…",
-        "SETTINGS ROWS HAD NO VERTICAL PADDING. The design gives every row 12px top and bottom — that is the entire rhythm of a settings column, and it was missing.",
-        "About's opening paragraph is not a display line. Measured, it renders at body size in the secondary ink — exactly like the paragraphs under it — and had been running at 17px in the primary, which made About the loudest screen in the…",
-        "Buttons are the design's two shapes again: a quiet 12px hairline and a gold block. ⚠️ The first pass flattened \"Reset to Defaults\" into the quiet shape, making the one destructive control in the window indistinguishable from a harmless…"
+        "THE FOUR SCREENS NOW MATCH THE APPROVED DESIGN IN STRUCTURE, NOT ONLY IN STYLE. The design was run beside the app again and every pane was compared row by row — what each screen contains, in what order, under what heading, with what in the…",
+        "ABOUT HAS ITS PANE. It was a single column of prose with the right half of the window empty. It now carries what the design puts there: \"The editor / Where things live\", three rows that take you to Configure, Layers or Position, and \"This…",
+        "POSITION states the panel's Width, groups the three behaviours under Behavior, and the panel's Name moved to About — Position is where the panel lives, not what it is called.",
+        "OLED PROTECTION IS A ROW, NOT A CARD, as the design draws it: a label, a switch, and the explanation underneath. The explanation stays put now — detection used to replace it with \"no display reported itself as OLED\", which answers a…",
+        "THE ANTA TYPEFACE IS VENDORED. The design sets the OLED-shift label in it, and the app reaches no network, so it had been silently falling back to the body sans since the design was approved. 15KB, latin subset, shipping beside the theme…"
     ],
     "required": false
 }
