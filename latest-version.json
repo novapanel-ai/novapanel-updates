@@ -1,11 +1,11 @@
 {
-    "version": "1.1.518",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.518/NovaPanel-v1.1.518.zip",
+    "version": "1.1.519",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.519/NovaPanel-v1.1.519.zip",
     "notes": [
-        "⚠️ THE EDITOR HAD NO BASE TEXT SIZE. Anything without a style rule of its own rendered at the browser's default 16px — larger than the 13px labels beside it — which is why explanations and stray lines read as headings while every styled…",
-        "Hints and notes had no size defined ANYWHERE in the product, only margins in two places. Both are small and secondary now, as they read in the approved design.",
-        "⚠️ YOUR OWN NOTE WAS PRINTING ON THE POSITION SCREEN. An HTML comment had lost its opening marker, so from \"just make the button bigger\" onwards it was not a comment at all — the browser drew it as body text, ending in a literal arrow.…",
-        "The drawings are sized sensibly again: pinned to their authored width they were a stamp in the corner of a wide window, and left to fill they magnified their own labels. Both scale to their stage up to one shared ceiling."
+        "CORRECTION TO YESTERDAY'S NOTE, WHICH WAS WRONG. 1.1.518 said the editor had no base text size. It has one, and always did: the design system sets the window's base in `html, body`. The 16px text was this THEME answering that question…",
+        "⚠️ IN THIS PRODUCT THE TEXT SCALE IS A SET OF ROLES, NOT A WEB TYPE SCALE. `xl` IS the window's base body size and `4xl` is the largest thing on screen — the OG theme maps them to 13 and 16. The Grimoire design system was authored with a…",
+        "The one-day patch that set a base size on the editor window is withdrawn. It would have fixed one window and hidden the same fault from every other surface that ever uses this design system.",
+        "Net effect on screen: the base is 13px again, and the only text above 15px anywhere in the editor is the About lede and its two sub-heads — which is the approved design exactly."
     ],
     "required": false
 }
