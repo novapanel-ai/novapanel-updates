@@ -1,12 +1,12 @@
 {
-    "version": "1.1.522",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.522/NovaPanel-v1.1.522.zip",
+    "version": "1.1.523",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.523/NovaPanel-v1.1.523.zip",
     "notes": [
-        "NO DEVIATIONS. The three things kept back last version are gone, and the stages match the design as well as the panes.",
-        "POSITION'S STAGE IS THE NOTE AND THE MAP. The monitor list under it is gone — the map is the selector, and a list naming every display underneath it was the same information drawn twice. The line explaining display scaling and the Rescan /…",
-        "RUNES THAT ARE NOT IN THE PANEL NOW SIT IN A TRAY AT THE FOOT OF CONFIGURE, in front of the portal, as chips you click to add. They used to be drawn as ghost cards INSIDE the panel mirror — a list of things the panel does not contain…",
-        "Configure's stage note moved above the panel, where the design puts it.",
-        "\"Always on top\" and \"Portal border\" match the design's wording, letter for letter."
+        "ABOUT, ROUND ONE. Compared against the approved design property by property and word by word, not by eye.",
+        "THE WRITING IS YOURS, VERBATIM. Ours had grown a third longer — an extra clause in the opening, a list of gadget examples, a sentence about enthusiasts, and a catalogue of Runes inside the paragraph that explains what a Rune is.",
+        "THE DIAGRAM IS BACK: one card called out of a panel, arrow, \"ONE RUNE — switch it off and the panel closes up around it.\" The design closes About with it; we had nothing.",
+        "The panel's Name reads as a value on the right of its row, in mono, like the Rune count and version under it — not as a text box. It is still editable; the design simply never drew the moment you are editing it.",
+        "⚠️ EVERY ON/OFF IN THE EDITOR IS A PILL SWITCH NOW. The design does not use a checkbox anywhere, and I had never compared the CONTROLS — only the type and the structure. Sliders are native ranges tinted gold; selects and text fields carry…"
     ],
     "required": false
 }
