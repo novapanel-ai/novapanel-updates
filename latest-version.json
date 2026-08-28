@@ -1,12 +1,12 @@
 {
-    "version": "1.1.546",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.546/NovaPanel-v1.1.546.zip",
+    "version": "1.1.547",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.547/NovaPanel-v1.1.547.zip",
     "notes": [
-        "The panel now takes the approved panel's colors and spacing, measured against its stylesheet rather than judged from the picture. The label and the value were rendering the SAME color — the reference dims the label and brightens the value…",
-        "A unit sat hard against its number (\"67°C\") and was dimmed to 55% white. It belongs to the number it qualifies: same ink, one space away — \"67 °C\", \"2.3 GHz\", \"0.0 Mb/s\".",
-        "Readings are indented under their model name and the name has air beneath it, so a group reads as a block belonging to the heading above it. And one hardware group is separated from the next: these rows are grid items with a 1px row gap…",
-        "Cards are filled with white at 5%, as the approved panel fills them. ⚠️ This contradicts an earlier recorded ruling of \"white cards at 10%\" on the same surface — the newer instruction was followed and the conflict is flagged rather than…",
-        "⚠️ NOT copied from the reference: its card padding is 5px vertical and 10px horizontal. \"Inner padding should also be top / bottom not just left / right… one value, all four sides\" is a recorded ruling about this exact control, and…"
+        "Cards default to white at 5%, and the note in the panel's own stylesheet now records that as the standing figure rather than the 10% it replaced.",
+        "⚠️ THE ACTION ICONS SAT AT THE LEFT WHENEVER THE TITLE WAS HIDDEN. The bar is `justify-content: space-between`, which pushes them right only while the title is there to push against — alone in the bar they landed at the left edge. Measured…",
+        "The editor's live preview shows the header section and the panel's rounded corners. It had NEITHER: the preview page never carried the title bar markup at all, and it deliberately strips the panel frame so a small swatch reads as just the…",
+        "⚠️ AND THE PREVIEW WAS 26px NARROWER THAN THE PANEL. The page centres its body's children, so the mirror's content was a flex item sized to itself rather than to the panel: its card measured 113px against the real 138, its value column…",
+        "The Date / Time card is taller, the model names are no longer indented and are set at a weight that reads as a heading rather than a smear — they were inheriting the panel's light 300."
     ],
     "required": false
 }
