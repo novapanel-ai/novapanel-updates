@@ -1,12 +1,9 @@
 {
-    "version": "1.1.547",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.547/NovaPanel-v1.1.547.zip",
+    "version": "1.1.548",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.548/NovaPanel-v1.1.548.zip",
     "notes": [
-        "Cards default to white at 5%, and the note in the panel's own stylesheet now records that as the standing figure rather than the 10% it replaced.",
-        "⚠️ THE ACTION ICONS SAT AT THE LEFT WHENEVER THE TITLE WAS HIDDEN. The bar is `justify-content: space-between`, which pushes them right only while the title is there to push against — alone in the bar they landed at the left edge. Measured…",
-        "The editor's live preview shows the header section and the panel's rounded corners. It had NEITHER: the preview page never carried the title bar markup at all, and it deliberately strips the panel frame so a small swatch reads as just the…",
-        "⚠️ AND THE PREVIEW WAS 26px NARROWER THAN THE PANEL. The page centres its body's children, so the mirror's content was a flex item sized to itself rather than to the panel: its card measured 113px against the real 138, its value column…",
-        "The Date / Time card is taller, the model names are no longer indented and are set at a weight that reads as a heading rather than a smear — they were inheriting the panel's light 300."
+        "The editor's live preview follows the Portal width slider as you drag it, instead of waiting for you to let go. Portal width commits on release — deliberately, so the real window is not resized forty times during one drag — and the preview…",
+        "⚠️ The first version of this looked right and was immediately undone: the preview is ALSO re-sized by the state push, which runs on a timer carrying the COMMITTED width, so a live drag was overwritten a fraction of a second later and the…"
     ],
     "required": false
 }
