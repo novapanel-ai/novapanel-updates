@@ -1,12 +1,12 @@
 {
-    "version": "1.1.529",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.529/NovaPanel-v1.1.529.zip",
+    "version": "1.1.530",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.530/NovaPanel-v1.1.530.zip",
     "notes": [
-        "LAYERS MEASURED: 29 differences against the approved design, 4 left — and the four are our centred drawing (which you asked for), a disabled button's dimming, and one auto-margin.",
-        "⚠️ THE SWITCH SAT 345px SHORT OF ITS ROW'S EDGE. Its label was pinned to 112px by an old primitive, so \"Show title\" and its toggle huddled at the left while every value beside them ended at the right margin. The label spans its row now and…",
-        "Sliders keep the design's shape and its own margin; a note under a control is a block with air above and below it, not an inline run; a pane's description sits 2px off its title, not 4.",
-        "Buttons are plain blocks, as the design's are — all 42 buttons in this editor are a bare label, so the icon-and-label flex row the design system gave them was describing a shape none of them have.",
-        "The Layers stage stopped being sticky and stopped being 330px wide: both were left over from the flex layout that came before the grid."
+        "⚠️ POSITION HAD A SECOND, EMPTY \"BEHAVIOR\" HEADING — AND IT WAS MINE. Removing the once-only latch last version made the tab rebuild itself on every visit, which is right, except that the heading was CREATED each time instead of reused.…",
+        "THE THREE TOGGLES ON POSITION ARE THE SAME SWITCH NOW. OLED shift kept the old track-and-thumb markup, so one screen drew two different toggles — 36×26 beside 34×19 — and the odd one sat next to its label instead of at the row's edge. All…",
+        "SETTINGS ROWS STAND AT THE DESIGN'S HEIGHT: 55px on Position and Layers, measured off it. Ours were 44 — same padding, same hairline, but the floor was written on the border box where the design writes it on the content box, so it was no…",
+        "The label column is the design's 118px everywhere. Two leftover rules from the old label-stacking behaviour were still forcing it to 110 and to full width.",
+        "\"Reset to defaults\" is the height the design draws it, no longer held short by a control-height floor meant for toolbar buttons."
     ],
     "required": false
 }
