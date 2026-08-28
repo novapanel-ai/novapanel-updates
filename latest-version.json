@@ -1,12 +1,12 @@
 {
-    "version": "1.1.528",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.528/NovaPanel-v1.1.528.zip",
+    "version": "1.1.529",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.529/NovaPanel-v1.1.529.zip",
     "notes": [
-        "⚠️ POSITION COULD FAIL TO ASSEMBLE ITSELF, AND DID — ON YOUR MACHINE, ON A BUILD THAT CONTAINED THE FIX. The tab moves its settings into the pane once, behind a latch. One failed or early run set that latch and the screen could never…",
-        "The headers it used to hide are hidden in the stylesheet as well, so no JavaScript failure can put \"DISPLAYS\" or \"OLED PROTECTION\" back on a screen the design has never had them on.",
-        "THE DISPLAY MAP READS LIKE THE DESIGN'S: each screen labelled with its name and its real resolution, PRIMARY in gold at the right edge. The number badges and the \"P\" marker are gone — they were from when the map was a thumbnail beside a…",
-        "The line above the map is one line again: \"Your desktop, to scale · click a monitor, then an anchor.\" \"Arrangement follows Windows Display Settings\" is not a warning, it is how multi-monitor works, and it was printing permanently on every…",
-        "RESCAN DISPLAYS sits in the header, where the design puts a view's action."
+        "LAYERS MEASURED: 29 differences against the approved design, 4 left — and the four are our centred drawing (which you asked for), a disabled button's dimming, and one auto-margin.",
+        "⚠️ THE SWITCH SAT 345px SHORT OF ITS ROW'S EDGE. Its label was pinned to 112px by an old primitive, so \"Show title\" and its toggle huddled at the left while every value beside them ended at the right margin. The label spans its row now and…",
+        "Sliders keep the design's shape and its own margin; a note under a control is a block with air above and below it, not an inline run; a pane's description sits 2px off its title, not 4.",
+        "Buttons are plain blocks, as the design's are — all 42 buttons in this editor are a bare label, so the icon-and-label flex row the design system gave them was describing a shape none of them have.",
+        "The Layers stage stopped being sticky and stopped being 330px wide: both were left over from the flex layout that came before the grid."
     ],
     "required": false
 }
