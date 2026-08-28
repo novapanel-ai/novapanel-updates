@@ -1,11 +1,11 @@
 {
-    "version": "1.1.539",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.539/NovaPanel-v1.1.539.zip",
+    "version": "1.1.540",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.540/NovaPanel-v1.1.540.zip",
     "notes": [
-        "⚠️ LAYOUT TYPE IS GONE FROM THE INTERFACE. Not hidden — removed. The row, its note, the Content Amount section that held them and every line that toggled them. It was being borrowed into Configure whether or not the panel's theme declared…",
-        "The seconds row no longer disappears when you pick a digital face — it disables. A row that appears and vanishes re-flows everything under it every time you choose a face, and it was taking the whole face gallery with it.",
-        "The clock face tiles stay where you left them. The gallery counted its own columns from the container's width, so anything that changed the pane by a few pixels — a row appearing, a scrollbar coming and going — re-wrapped it and every tile…",
-        "They are METERS, not progress bars. A progress bar reports how far through a task you are; these report a level that goes up and down. Renamed everywhere it is said to you."
+        "⚠️ THE SENSOR PREVIEWS WERE SHOWING THE TOP QUARTER OF A PANEL, CUT THROUGH A READING. A preview reports its own height to the editor, and the editor found those frames by an id — which only the card-layout previews were ever given. Shape…",
+        "The previews are scaled to fit their tile rather than by a fixed 0.66 — a number chosen when they measured 60, 47 and 83px, against the 104 to 132px they are today. They fit the WIDTH and are shown from the top of the panel down, which is…",
+        "⚠️ And they were framing the MIDDLE of a panel: `.pe-swatch-face` is declared later in the stylesheet at the same weight as the live-preview rule, so its `align-items: center` silently won. The 'As Cards' swatch opened on a core count with…",
+        "The Show meters row loses the 1px rule down its left side. It started and stopped in space with the row's own switch 400px away at the far edge of the pane, and read as a box that failed to draw. The indent alone says what it was there to…"
     ],
     "required": false
 }
