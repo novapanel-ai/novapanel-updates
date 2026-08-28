@@ -1,11 +1,8 @@
 {
-    "version": "1.1.541",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.541/NovaPanel-v1.1.541.zip",
+    "version": "1.1.542",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.542/NovaPanel-v1.1.542.zip",
     "notes": [
-        "⚠️ THE CALENDAR HAS NEVER MARKED TODAY. The rule that was supposed to do it read `var(--og-accent)` — a token that does not exist in the panel; the accent is `--og-main`. An invalid declaration is simply dropped, so today rendered exactly…",
-        "Every Rune that is only a switch now shares ONE view — \"Additional Runes\" — with all of them listed and switchable together, instead of a screen each saying it has no settings. Selecting any of them lights all of them in the live panel…",
-        "The Weather preview paints on the PANEL's background instead of the editor's. It draws the panel's real card — white at 10% — and over the editor's lighter ground that card read several shades paler than it does on the panel, which is the…",
-        "Weather's Location row no longer loses \"Use mine\" off the right edge — the field gives way, the buttons keep the width their words need. And the icon sets take the row's full width at 34px instead of three 22px samples crammed into a…"
+        "⚠️ A SHORTCUT COULD BE ADDED AND NEVER REMOVED. Once it was in the panel its button read \"Added\" and was DISABLED — the one control on the screen that could have taken it back off was the one deliberately switched off. It is the same…"
     ],
     "required": false
 }
