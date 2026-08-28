@@ -1,11 +1,12 @@
 {
-    "version": "1.1.545",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.545/NovaPanel-v1.1.545.zip",
+    "version": "1.1.546",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.546/NovaPanel-v1.1.546.zip",
     "notes": [
-        "Reset to defaults moved out of Position and into the panel settings, where its reach actually is — it restores the substrate, the card style, every per-panel setting and now the panel's place on screen, none of which is about where the…",
-        "⚠️ RESET WAS PATCHING, NOT RESETTING. It wrote three named values back and left everything else the user had changed — every Rune, the sensor shape and grouping, the clock face, the column widths, the alignment. Worse, one of the three…",
-        "Reset also puts the panel back in the top-right corner of the main display. A reset that restores every value and leaves the panel wherever it was last dragged has not restored the panel.",
-        "\"Nothing selected\" is now \"Configure Runes\" — it was naming the state of the selection instead of what the screen is for."
+        "The panel now takes the approved panel's colors and spacing, measured against its stylesheet rather than judged from the picture. The label and the value were rendering the SAME color — the reference dims the label and brightens the value…",
+        "A unit sat hard against its number (\"67°C\") and was dimmed to 55% white. It belongs to the number it qualifies: same ink, one space away — \"67 °C\", \"2.3 GHz\", \"0.0 Mb/s\".",
+        "Readings are indented under their model name and the name has air beneath it, so a group reads as a block belonging to the heading above it. And one hardware group is separated from the next: these rows are grid items with a 1px row gap…",
+        "Cards are filled with white at 5%, as the approved panel fills them. ⚠️ This contradicts an earlier recorded ruling of \"white cards at 10%\" on the same surface — the newer instruction was followed and the conflict is flagged rather than…",
+        "⚠️ NOT copied from the reference: its card padding is 5px vertical and 10px horizontal. \"Inner padding should also be top / bottom not just left / right… one value, all four sides\" is a recorded ruling about this exact control, and…"
     ],
     "required": false
 }
