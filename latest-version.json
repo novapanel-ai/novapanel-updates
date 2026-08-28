@@ -1,11 +1,12 @@
 {
-    "version": "1.1.531",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.531/NovaPanel-v1.1.531.zip",
+    "version": "1.1.532",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.532/NovaPanel-v1.1.532.zip",
     "notes": [
-        "⚠️ CONFIGURE GREW THE WHOLE EDITOR INSTEAD OF SCROLLING THE PANEL — which is the opposite of what you asked for. The panel is 773px tall, the stage stretched to 853 to hold it, and the editor scrolled: the tray of Runes that is meant to…",
-        "The fade above the tray is part of the tray now, so it follows its height however many Runes are off — it was being positioned by a measurement taken before the tray had finished laying out, and had drifted 92px over it.",
-        "Chips in the tray are dashed outlines, as the design draws them: a chip is a PLACE for a Rune, not a Rune.",
-        "Configure's settings rows close with the same hairline as every other screen's; without it the column read as a list of floating controls."
+        "THE CALENDAR RUNE IS BUILT: the month, the weekday row, and today marked in the accent. No navigation, no week numbers — it answers what today is and where it sits in the month, and stops. It is arithmetic on the clock the panel already…",
+        "THE FPS RUNE IS BUILT: current FPS, frametime and the 1% low. The readings already existed but only INSIDE the sensor section, where they came and went with whatever the sensor layout was doing. Same promotion the Laptop card had: its own…",
+        "COMPACT SENSOR LIST, AS SPECIFIED: the machine's name once at the top, then three columns — a three-letter identifier, the value, and a bar of the same length on every line. Readings with no number (\"plugged in\", core counts as text) are…",
+        "⚠️ SLIDERS WERE THE WRONG CONTROL ENTIRELY. The design system draws a bordered, recessed box with a gradient fill — which reads as a progress bar with a handle stuck on it. The design uses the browser's own slider tinted gold: a hairline…",
+        "Configure's panel is centred again and its stage note sits at the left edge like every other screen's; the exploded stack fits its stage in both directions, so the desktop layer is no longer cut off the bottom."
     ],
     "required": false
 }
