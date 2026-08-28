@@ -1,12 +1,11 @@
 {
-    "version": "1.1.530",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.530/NovaPanel-v1.1.530.zip",
+    "version": "1.1.531",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.531/NovaPanel-v1.1.531.zip",
     "notes": [
-        "⚠️ POSITION HAD A SECOND, EMPTY \"BEHAVIOR\" HEADING — AND IT WAS MINE. Removing the once-only latch last version made the tab rebuild itself on every visit, which is right, except that the heading was CREATED each time instead of reused.…",
-        "THE THREE TOGGLES ON POSITION ARE THE SAME SWITCH NOW. OLED shift kept the old track-and-thumb markup, so one screen drew two different toggles — 36×26 beside 34×19 — and the odd one sat next to its label instead of at the row's edge. All…",
-        "SETTINGS ROWS STAND AT THE DESIGN'S HEIGHT: 55px on Position and Layers, measured off it. Ours were 44 — same padding, same hairline, but the floor was written on the border box where the design writes it on the content box, so it was no…",
-        "The label column is the design's 118px everywhere. Two leftover rules from the old label-stacking behaviour were still forcing it to 110 and to full width.",
-        "\"Reset to defaults\" is the height the design draws it, no longer held short by a control-height floor meant for toolbar buttons."
+        "⚠️ CONFIGURE GREW THE WHOLE EDITOR INSTEAD OF SCROLLING THE PANEL — which is the opposite of what you asked for. The panel is 773px tall, the stage stretched to 853 to hold it, and the editor scrolled: the tray of Runes that is meant to…",
+        "The fade above the tray is part of the tray now, so it follows its height however many Runes are off — it was being positioned by a measurement taken before the tray had finished laying out, and had drifted 92px over it.",
+        "Chips in the tray are dashed outlines, as the design draws them: a chip is a PLACE for a Rune, not a Rune.",
+        "Configure's settings rows close with the same hairline as every other screen's; without it the column read as a list of floating controls."
     ],
     "required": false
 }
