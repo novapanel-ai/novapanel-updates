@@ -1,12 +1,12 @@
 {
-    "version": "1.1.536",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.536/NovaPanel-v1.1.536.zip",
+    "version": "1.1.537",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.537/NovaPanel-v1.1.537.zip",
     "notes": [
-        "⚠️ THE TOGGLE KNOB WAS NEVER OFF CENTER — IT WAS TOO BIG. The design system puts a 2.4px border on that ornament, and CSS `width` reports the CONTENT box, so every measurement I took read a perfectly centered 14px knob while what actually…",
-        "The OLED shift toggle turns the same teal as its label, so the row reads as one statement instead of a teal label wearing the generic gold.",
-        "⚠️ SHORTENING THE EDITOR NO LONGER SCROLLS THE WHOLE SCREEN. Each screen now fills the content area and each COLUMN scrolls inside itself, so a short window scrolls only the column that is genuinely too tall — the map stays fully visible…",
-        "The Position footer gained the display's effective resolution beside the scaling — what a window actually gets to lay out in (2048×1280 on a 2560×1600 screen at 1.25×), read off the display's own bounds rather than divided, so it stays…",
-        "The editor can no longer be sized into a scroll: its height floor was 400px, less than two thirds of what the shortest screen needs. Measured on the live window — Position needs 671px, Layers 673px, Configure 695px, About 598px — the floor…"
+        "⚠️ LAYERS WAS STILL DRAWING THE PICTURE THE DESIGN THREW AWAY. The exploded view was a vertical SHEAR — a rectangle slanted so its right edge climbs, which reads as a card turned edge-on to you, not as a plane lying flat. It is a real…",
+        "Each label's leader line now runs from ITS OWN plane back to the label column, so the lines grow longer toward the top of the stack — the stagger made legible. Every label was previously given the same 18px stub, which said nothing.",
+        "The stack said TOP and BASE twice — once on the rail beside it, once as a kicker over the layer names. One word, one layer. Desktop was also rendering as lowercase 'desktop' because it had no entry of its own and fell through to the raw…",
+        "⚠️ A LAYER'S SETTINGS PANE WAS SHOWING A CARD ABOUT THE LAYER. It carried a collapse caret, a colored badge, a position number and the layer's name a second time — all answering the one question the pane's own heading had already answered…",
+        "⚠️ THE IMAGE LAYER COULD NOT BE GIVEN AN IMAGE. The row holding Browse appeared only when the source was exactly 'local' — but with no picture chosen the stored source is neither 'local' nor 'url', so the row hid and the one control that…"
     ],
     "required": false
 }
