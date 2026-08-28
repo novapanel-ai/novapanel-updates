@@ -1,9 +1,12 @@
 {
-    "version": "1.1.543",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.543/NovaPanel-v1.1.543.zip",
+    "version": "1.1.544",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.544/NovaPanel-v1.1.544.zip",
     "notes": [
-        "Shortcuts are capped at 16. At the limit the switches that would add another stop working and the line above says why — \"16 of 16 — turn one off to add another\" — while every switch that would REMOVE one stays live. A cap that also froze…",
-        "⚠️ The limit refuses GROWTH; it does not trim a list that is already longer. A panel saved before the cap existed can hold more than sixteen, and slicing it on the next unrelated save would delete shortcuts nobody asked to lose — measured…"
+        "The Mini Widget's DEFAULT state is now the approved panel. Monospace throughout — every label, every reading, the clock and the date — 9px readings under 7.5px gold uppercase model headings, a 36px label column with the values sitting left…",
+        "⚠️ THE READINGS WERE STACKING ONTO TWO LINES AT THE PANEL'S OWN SIZE. The list collapses to a single column under 125px of container, and 186 REAL pixels is 149 layout px at 125% display scaling — about 113px inside its padding, so the…",
+        "⚠️ A SETTING THAT HAD SILENTLY STOPPED WORKING: `header` was declared TWICE in the theme's defaults, once true and once false. A duplicate key in an object literal is not an error — the last one wins — so one of the two declarations had no…",
+        "In the grouped list a reading is now labelled by what it measures — \"Temp\", \"Load\", \"Clock\" — because the gold heading above it already names the component. ⚠️ This reverses an earlier decision to repeat the component in every row; it is…",
+        "The calendar's today chip, the mono face and the new type scale all reach the editor's live preview too — it mirrors the real panel, so it shows what the panel shows."
     ],
     "required": false
 }
