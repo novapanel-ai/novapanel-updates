@@ -1,9 +1,11 @@
 {
-    "version": "1.1.548",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.548/NovaPanel-v1.1.548.zip",
+    "version": "1.1.549",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.549/NovaPanel-v1.1.549.zip",
     "notes": [
-        "The editor's live preview follows the Portal width slider as you drag it, instead of waiting for you to let go. Portal width commits on release — deliberately, so the real window is not resized forty times during one drag — and the preview…",
-        "⚠️ The first version of this looked right and was immediately undone: the preview is ALSO re-sized by the state push, which runs on a timer carrying the COMMITTED width, so a live drag was overwritten a fraction of a second later and the…"
+        "⚠️ SELECTING A RUNE WAS A ONE-WAY DOOR. Nothing ever cleared the selection, so the panel-settings pane — which is what \"nothing selected\" shows, and which now holds Reset — could not be reached again without reopening the editor. Two ways…",
+        "The text settings are in Configure: Accent, Text and Text dim, borrowed like every other control there rather than rebuilt. And the font changer offers the face the panel actually wears — its list was five sans-serifs and a Default while…",
+        "The Date / Time card has real vertical room, the calendar's rows are spaced to square the Rune rather than letterbox it, and the calendar heading repeats the full day and date instead of naming the month the grid under it already shows.",
+        "The gap between an inline meter and its label and value is smaller — 4px was set when that row was three columns competing for a 120px panel; with the meter beside its own reading they are one thing, and 4px read as two."
     ],
     "required": false
 }
