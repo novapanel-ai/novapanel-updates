@@ -1,8 +1,9 @@
 {
-    "version": "1.1.542",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.542/NovaPanel-v1.1.542.zip",
+    "version": "1.1.543",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.543/NovaPanel-v1.1.543.zip",
     "notes": [
-        "⚠️ A SHORTCUT COULD BE ADDED AND NEVER REMOVED. Once it was in the panel its button read \"Added\" and was DISABLED — the one control on the screen that could have taken it back off was the one deliberately switched off. It is the same…"
+        "Shortcuts are capped at 16. At the limit the switches that would add another stop working and the line above says why — \"16 of 16 — turn one off to add another\" — while every switch that would REMOVE one stays live. A cap that also froze…",
+        "⚠️ The limit refuses GROWTH; it does not trim a list that is already longer. A panel saved before the cap existed can hold more than sixteen, and slicing it on the next unrelated save would delete shortcuts nobody asked to lose — measured…"
     ],
     "required": false
 }
