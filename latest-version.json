@@ -1,10 +1,10 @@
 {
-    "version": "1.1.534",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.534/NovaPanel-v1.1.534.zip",
+    "version": "1.1.535",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.535/NovaPanel-v1.1.535.zip",
     "notes": [
-        "⚠️ THE SCREEN YOU LAND ON WAS THE ONE SCREEN THAT NEVER RAN ITS OWN SETUP. Position is marked active in the markup, so the code that activates a screen — assembling its settings into the pane, painting the footer, reading the panel's real…",
-        "⚠️ AND THE TOGGLES: a switch's knob is moved by a CSS transition, and a transition that starts while the window is still being made ready never advances — so the switch sat at its OFF position wearing its ON colour. Nothing animates until…",
-        "Rescan displays is styled as the design draws a view's action: gold, dark ink, mono caps."
+        "⚠️ THE TWO SIDE ANCHORS WERE NOT DEAD — THEY WERE HALF-WRITTEN. The map is a 3×3 grid, but 'Left' and 'Right' only ever set the panel's horizontal position and left the vertical one wherever the panel already happened to be. Click the…",
+        "Consequence worth knowing: a panel already anchored to a single edge will center itself on the other axis the next time that anchor is applied — including at launch. That is the tile you picked doing what it says.",
+        "The switch knob is now centered against the track's own middle instead of a fixed offset that only worked at one exact track height, and the knob's size became a theme token so its center offset is derived from it rather than written…"
     ],
     "required": false
 }
