@@ -1,11 +1,10 @@
 {
-    "version": "1.1.533",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.533/NovaPanel-v1.1.533.zip",
+    "version": "1.1.534",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.534/NovaPanel-v1.1.534.zip",
     "notes": [
-        "⚠️ A SWITCH YOU CLICKED TURNED ON AND CHANGED NOTHING. A switch that lives inside its own label is activated TWICE when the click lands on the switch itself — once by the control, once by the label handing it back — so it flipped on screen…",
-        "THE DIVIDER RUNS THE FULL HEIGHT OF EVERY SCREEN. It is the left column's own border, so it was only ever as long as that column was tall — and a column that sizes to its content stops short of one that does not, which is the gap you saw.",
-        "NO MORE SCROLLBAR ON CONTENT THAT FITS. The view asked for a minimum of the full container height and then added its own border to that, making itself one pixel taller than the space it was measuring against.",
-        "RESCAN DISPLAYS MOVED INTO THE SCREEN, under the line that says what the map is. It was in the header, where the approved design puts a view's action."
+        "⚠️ THE SCREEN YOU LAND ON WAS THE ONE SCREEN THAT NEVER RAN ITS OWN SETUP. Position is marked active in the markup, so the code that activates a screen — assembling its settings into the pane, painting the footer, reading the panel's real…",
+        "⚠️ AND THE TOGGLES: a switch's knob is moved by a CSS transition, and a transition that starts while the window is still being made ready never advances — so the switch sat at its OFF position wearing its ON colour. Nothing animates until…",
+        "Rescan displays is styled as the design draws a view's action: gold, dark ink, mono caps."
     ],
     "required": false
 }
