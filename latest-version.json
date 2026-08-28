@@ -1,12 +1,11 @@
 {
-    "version": "1.1.537",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.537/NovaPanel-v1.1.537.zip",
+    "version": "1.1.538",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.538/NovaPanel-v1.1.538.zip",
     "notes": [
-        "⚠️ LAYERS WAS STILL DRAWING THE PICTURE THE DESIGN THREW AWAY. The exploded view was a vertical SHEAR — a rectangle slanted so its right edge climbs, which reads as a card turned edge-on to you, not as a plane lying flat. It is a real…",
-        "Each label's leader line now runs from ITS OWN plane back to the label column, so the lines grow longer toward the top of the stack — the stagger made legible. Every label was previously given the same 18px stub, which said nothing.",
-        "The stack said TOP and BASE twice — once on the rail beside it, once as a kicker over the layer names. One word, one layer. Desktop was also rendering as lowercase 'desktop' because it had no entry of its own and fell through to the raw…",
-        "⚠️ A LAYER'S SETTINGS PANE WAS SHOWING A CARD ABOUT THE LAYER. It carried a collapse caret, a colored badge, a position number and the layer's name a second time — all answering the one question the pane's own heading had already answered…",
-        "⚠️ THE IMAGE LAYER COULD NOT BE GIVEN AN IMAGE. The row holding Browse appeared only when the source was exactly 'local' — but with no picture chosen the stored source is neither 'local' nor 'url', so the row hid and the one control that…"
+        "The exploded stack has its arrival back. It appears as ONE flat object — every plane starting from the middle of the stack — holds there for two seconds, then opens: each plane slides out to its own stagger 26ms after the one before it…",
+        "⚠️ EVERY TAB CARRIED 48px OF DEAD SPACE UNDER ITS SCREEN. It was the same leftover padding from when these were sections in a scrolling stack that was removed from Position two versions ago — fixing the screen it was reported on left…",
+        "The layer drawing was sized from the stack's ARITHMETIC — the top of the first plane, the depth of the last — which is not where the ink actually lands: the axis labels, the leaders and the whole label column sit outside that box. It left…",
+        "The stack's arrival timings are named steps in the design system rather than numbers in a stylesheet — an arrival is not an interaction, and none of the three interaction durations fit a two-second hold. The renderer reads the hold from…"
     ],
     "required": false
 }
