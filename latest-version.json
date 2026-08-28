@@ -1,11 +1,11 @@
 {
-    "version": "1.1.540",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.540/NovaPanel-v1.1.540.zip",
+    "version": "1.1.541",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.541/NovaPanel-v1.1.541.zip",
     "notes": [
-        "⚠️ THE SENSOR PREVIEWS WERE SHOWING THE TOP QUARTER OF A PANEL, CUT THROUGH A READING. A preview reports its own height to the editor, and the editor found those frames by an id — which only the card-layout previews were ever given. Shape…",
-        "The previews are scaled to fit their tile rather than by a fixed 0.66 — a number chosen when they measured 60, 47 and 83px, against the 104 to 132px they are today. They fit the WIDTH and are shown from the top of the panel down, which is…",
-        "⚠️ And they were framing the MIDDLE of a panel: `.pe-swatch-face` is declared later in the stylesheet at the same weight as the live-preview rule, so its `align-items: center` silently won. The 'As Cards' swatch opened on a core count with…",
-        "The Show meters row loses the 1px rule down its left side. It started and stopped in space with the row's own switch 400px away at the far edge of the pane, and read as a box that failed to draw. The indent alone says what it was there to…"
+        "⚠️ THE CALENDAR HAS NEVER MARKED TODAY. The rule that was supposed to do it read `var(--og-accent)` — a token that does not exist in the panel; the accent is `--og-main`. An invalid declaration is simply dropped, so today rendered exactly…",
+        "Every Rune that is only a switch now shares ONE view — \"Additional Runes\" — with all of them listed and switchable together, instead of a screen each saying it has no settings. Selecting any of them lights all of them in the live panel…",
+        "The Weather preview paints on the PANEL's background instead of the editor's. It draws the panel's real card — white at 10% — and over the editor's lighter ground that card read several shades paler than it does on the panel, which is the…",
+        "Weather's Location row no longer loses \"Use mine\" off the right edge — the field gives way, the buttons keep the width their words need. And the icon sets take the row's full width at 34px instead of three 22px samples crammed into a…"
     ],
     "required": false
 }
