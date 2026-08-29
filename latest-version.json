@@ -1,9 +1,12 @@
 {
-    "version": "1.1.560",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.560/NovaPanel-v1.1.560.zip",
+    "version": "1.1.561",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.561/NovaPanel-v1.1.561.zip",
     "notes": [
-        "Grimoire is the default design system. Obsidian Glint, the default since 2026-08-14, is NOT retired — it stays installed and selectable, so anyone who prefers it goes back in one click.",
-        "Note on tiers, which the registry handled rather than me: making Grimoire the default moved it from Seer to Free automatically. The package tier floor exists so a full design system cannot be handed to Free by a manifest that simply claims…"
+        "The SIGIL wordmark is set in Anta, as the approved design has always required. The face was already vendored beside the theme and already declared — it had simply never been bound to the wordmark.",
+        "Grimoire is flat where it was boxed. design-system.css gives every panel and section body a card surface ramp and CSP-proof gold corner brackets; that is an Obsidian Glint device. This design system separates with hairlines instead — a…",
+        "About's fact terms read as prose again. \"The whole idea\" is a phrase, and the label-case token was uppercasing it into a shouted key.",
+        "Fixed: every row in a detail pane was two lines tall. .info-label is a fixed 192px — correct on a full-width page, wrong in the narrow half of a split, where 192px of label plus a value no longer fits and the value dropped to its own line.…",
+        "Fixed, and caused by the line above: with the label no longer a fixed width, values were left-aligned against a ragged edge. A column of values is read down its RIGHT edge — that is the whole reason they are set in mono with tabular…"
     ],
     "required": false
 }
