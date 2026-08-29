@@ -1,11 +1,12 @@
 {
-    "version": "1.1.553",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.553/NovaPanel-v1.1.553.zip",
+    "version": "1.1.554",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.554/NovaPanel-v1.1.554.zip",
     "notes": [
-        "Appearance, Debug, Testing and Tier preview are on the approved layouts. Appearance is two columns; Debug and Testing flow their sections across columns; Tier preview puts its warning beside its switcher. No wording changed and no section…",
-        "Testing's six-step intro deliberately stays full width above the columns. It is a numbered procedure, and a procedure that runs down one column and back up another is one people get wrong.",
-        "Tier preview is one section in the source, so its NOTE and its SWITCHER split inside that section rather than a second heading being invented to fill a column.",
-        "Fixed before it shipped: a document-wide regex intended for Tier preview matched the APPEARANCE tab's palette note as its opening <p> and Tier preview's switcher three tabs later as its close, wrapping the wrong element in the wrong tab.…"
+        "About is on the approved layout: the product on the left, this installation on the right when the window has room, stacked when it does not.",
+        "The pane shows Installed, Tier, Sensor service and Scan last run. The install date comes from the app directory's creation time, read in the main process — the CEO pointed out the shortcut has said it all along, and I had reported the app…",
+        "Tier is read from entitlement.js's ladder — the label and the free/paid distinction come from the tier record, never from a string in the page. Sensor service and Scan last run are MIRRORED from the code that already computes them for…",
+        "Dropped rather than faked: update channel (Sigil has one feed, not a stable/beta split), renewal date (no billing backend) and portals-at-once (entitlement.js carries no panel limit). A row that can never have a value is a row that lies…",
+        "The About copy says Portals, not glints. The source comment that explains the arcane register is amended to record the rename rather than being rewritten, because the reasoning behind the register still holds."
     ],
     "required": false
 }
