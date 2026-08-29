@@ -1,11 +1,11 @@
 {
-    "version": "1.1.552",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.552/NovaPanel-v1.1.552.zip",
+    "version": "1.1.553",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.553/NovaPanel-v1.1.553.zip",
     "notes": [
-        "System Scan is on the approved layout. Rescan and Open Manifest Folder are pinned top-right on the \"scan on record\" line, because they act on the whole scan rather than on the eight cards they used to sit under. Recommended tools is its…",
-        "The scan's cards flow in two columns when the window has room and one when it does not (.cp-flow). Multi-column rather than two hand-filled halves: a flow keeps ONE reading order — down the left, then down the right — so collapsing to a…",
-        "Recommended tools' element id moved onto the new card deliberately. settings.js shows and hides that id by style.display, so the id has to be the thing that appears and disappears; left on the inner group, an empty titled card would sit on…",
-        "Fixed before it shipped: a non-greedy regex used to lift the Recommended tools group stopped at a CHILD's closing tag, leaving one unmatched </div> that closed the tab panel early. Scan Record became a direct child of #app, overlapping the…"
+        "Appearance, Debug, Testing and Tier preview are on the approved layouts. Appearance is two columns; Debug and Testing flow their sections across columns; Tier preview puts its warning beside its switcher. No wording changed and no section…",
+        "Testing's six-step intro deliberately stays full width above the columns. It is a numbered procedure, and a procedure that runs down one column and back up another is one people get wrong.",
+        "Tier preview is one section in the source, so its NOTE and its SWITCHER split inside that section rather than a second heading being invented to fill a column.",
+        "Fixed before it shipped: a document-wide regex intended for Tier preview matched the APPEARANCE tab's palette note as its opening <p> and Tier preview's switcher three tabs later as its close, wrapping the wrong element in the wrong tab.…"
     ],
     "required": false
 }
