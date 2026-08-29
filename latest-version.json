@@ -1,11 +1,9 @@
 {
-    "version": "1.1.559",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.559/NovaPanel-v1.1.559.zip",
+    "version": "1.1.560",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.560/NovaPanel-v1.1.560.zip",
     "notes": [
-        "Two separators that had nothing to separate are gone. A component's sensor list carries a top hairline to divide it from the model above; with no sensors it drew a zero-height box with a line across it. The model's own row carried a bottom…",
-        "Grimoire: a card names itself on a strip of its own, separated by a hairline, so a column of cards reads as a stack of records rather than as text with occasional gold words in it.",
-        "Grimoire: the outer panel recedes. The page already puts its content in cards, and a second card wrapped around all of them is a box inside a box — a border and a ground saying nothing the cards do not already say.",
-        "Grimoire: the primary button is outlined rather than a filled gold gradient. A solid accent block is the loudest object on any page it appears on; this window is an instrument, so the accent marks what to notice rather than presenting a…"
+        "Grimoire is the default design system. Obsidian Glint, the default since 2026-08-14, is NOT retired — it stays installed and selectable, so anyone who prefers it goes back in one click.",
+        "Note on tiers, which the registry handled rather than me: making Grimoire the default moved it from Seer to Free automatically. The package tier floor exists so a full design system cannot be handed to Free by a manifest that simply claims…"
     ],
     "required": false
 }
