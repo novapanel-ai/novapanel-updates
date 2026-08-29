@@ -1,12 +1,11 @@
 {
-    "version": "1.1.555",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.555/NovaPanel-v1.1.555.zip",
+    "version": "1.1.556",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.556/NovaPanel-v1.1.556.zip",
     "notes": [
-        "Portals is on the approved layout: the panel cards on the left, the selected panel's details on the right, with the first card selected so the pane is never empty.",
-        "The pane READS and the card ACTS. Open/Close, Edit and Remove stay on the card rather than being repeated in the pane — a second copy of a control is how the status card and the Displays list ended up disagreeing about whether a panel was…",
-        "Pressing a card's own button no longer risks selecting it: the click handler ignores anything inside a .thm-btn. Without that guard, pressing Remove would select the panel being removed.",
-        "Selection survives a re-render. The list rebuilds on every open, close, add and remove, so the pane re-points at the panel you were reading rather than snapping back to the first each time — and its Status updates with it.",
-        "Two things NOT faked. \"Blend Scene\" is a portal type in the taxonomy but not a panel that exists in config, so no row was invented for it. And the pane says \"Size\", not \"Default size\": what this tab has is the panel's current bounds — the…"
+        "Themes works the way Portals does: the cards on the left, the selected theme's details on the right, first card selected so the pane is never empty. Built inside theme-tab.js rather than wrapped from outside — that component owns this…",
+        "The pane states in words what the card states as controls. A card reading Install is not installed; a card reading Close is open. With no buttons of its own the pane needs the words, so it says Installed / Not installed / Update available…",
+        "The Portals split is now asymmetric, and so is the Themes one. Equal shares gave the card grid 420px — exactly one card per row, turning three panels into a scroll. The two halves are not comparable: one holds cards with thumbnails, the…",
+        "The tier label STAYS on the Themes tab. It was removed from the design prototype, but in the shipping tab it is not decoration: state is computed main-side from entitlement, and a locked card renders \"Requires <tier>\" INSTEAD of a button.…"
     ],
     "required": false
 }
