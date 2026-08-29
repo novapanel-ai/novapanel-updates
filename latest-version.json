@@ -1,12 +1,11 @@
 {
-    "version": "1.1.551",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.551/NovaPanel-v1.1.551.zip",
+    "version": "1.1.552",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.552/NovaPanel-v1.1.552.zip",
     "notes": [
-        "The Control Panel's navigation moved from a left rail to a tab bar across the top, with the God Mode screens as a second row that opens from its own control. Every button kept its class, its data-tab value and its tier marker, so tab…",
-        "The Control Panel window is 900px wide (was 799) with a 760px minimum (was 620). The number is derived, not chosen: with the 170px rail gone the content column is 864px, which is two 420px columns plus their gap. The old window gave a…",
-        "Pages that carry two subjects now show them side by side when there is room and stacked when there is not — .cp-split, on a new --fnd-split-min token so a design system owns how narrow a column may get. Uses auto-fit rather than a media…",
-        "The Grimoire design system is released. It was already installed and complete at DS revision 8, but held (released: false), so it never appeared in the Appearance chooser.",
-        "Fixed: the active tab kept a gold bar down its left edge in the new top bar. The rail draws that marker with an INSET BOX-SHADOW rather than a border, so clearing border-left had no effect and the computed border read 0px while the bar…"
+        "System Scan is on the approved layout. Rescan and Open Manifest Folder are pinned top-right on the \"scan on record\" line, because they act on the whole scan rather than on the eight cards they used to sit under. Recommended tools is its…",
+        "The scan's cards flow in two columns when the window has room and one when it does not (.cp-flow). Multi-column rather than two hand-filled halves: a flow keeps ONE reading order — down the left, then down the right — so collapsing to a…",
+        "Recommended tools' element id moved onto the new card deliberately. settings.js shows and hides that id by style.display, so the id has to be the thing that appears and disappears; left on the inner group, an empty titled card would sit on…",
+        "Fixed before it shipped: a non-greedy regex used to lift the Recommended tools group stopped at a CHILD's closing tag, leaving one unmatched </div> that closed the tab panel early. Scan Record became a direct child of #app, overlapping the…"
     ],
     "required": false
 }
