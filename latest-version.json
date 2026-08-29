@@ -1,11 +1,11 @@
 {
-    "version": "1.1.558",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.558/NovaPanel-v1.1.558.zip",
+    "version": "1.1.559",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.559/NovaPanel-v1.1.559.zip",
     "notes": [
-        "Grimoire gains its component layer. Until now the package carried only tokens, so choosing it recoloured the Control Panel without giving it a voice. Section headings are now EYEBROWS — tracked uppercase mono in the accent — values are set…",
-        "Grimoire sets its own --fnd-split-min (360px). This is the token earning its keep: the theme's spacing scale is roomier than the default, so the same page gives its columns 378px where the default gives 424 — and against the :root floor of…",
-        "Fixed: a key/value row in a detail pane could not fit its label and value in the narrow half of a split and overflowed instead of wrapping. Caught under Grimoire, whose spacing leaves that pane 277px where the default leaves 314. The fix…",
-        "NOT applied, and recorded in the theme file rather than omitted quietly: the approved Advisor treatment. Its .advisor-rec-* classes already have definitions, and a second bare definition does not add a treatment — the later rule wins and…"
+        "Two separators that had nothing to separate are gone. A component's sensor list carries a top hairline to divide it from the model above; with no sensors it drew a zero-height box with a line across it. The model's own row carried a bottom…",
+        "Grimoire: a card names itself on a strip of its own, separated by a hairline, so a column of cards reads as a stack of records rather than as text with occasional gold words in it.",
+        "Grimoire: the outer panel recedes. The page already puts its content in cards, and a second card wrapped around all of them is a box inside a box — a border and a ground saying nothing the cards do not already say.",
+        "Grimoire: the primary button is outlined rather than a filled gold gradient. A solid accent block is the loudest object on any page it appears on; this window is an instrument, so the accent marks what to notice rather than presenting a…"
     ],
     "required": false
 }
