@@ -1,12 +1,12 @@
 {
-    "version": "1.1.554",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.554/NovaPanel-v1.1.554.zip",
+    "version": "1.1.555",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.555/NovaPanel-v1.1.555.zip",
     "notes": [
-        "About is on the approved layout: the product on the left, this installation on the right when the window has room, stacked when it does not.",
-        "The pane shows Installed, Tier, Sensor service and Scan last run. The install date comes from the app directory's creation time, read in the main process — the CEO pointed out the shortcut has said it all along, and I had reported the app…",
-        "Tier is read from entitlement.js's ladder — the label and the free/paid distinction come from the tier record, never from a string in the page. Sensor service and Scan last run are MIRRORED from the code that already computes them for…",
-        "Dropped rather than faked: update channel (Sigil has one feed, not a stable/beta split), renewal date (no billing backend) and portals-at-once (entitlement.js carries no panel limit). A row that can never have a value is a row that lies…",
-        "The About copy says Portals, not glints. The source comment that explains the arcane register is amended to record the rename rather than being rewritten, because the reasoning behind the register still holds."
+        "Portals is on the approved layout: the panel cards on the left, the selected panel's details on the right, with the first card selected so the pane is never empty.",
+        "The pane READS and the card ACTS. Open/Close, Edit and Remove stay on the card rather than being repeated in the pane — a second copy of a control is how the status card and the Displays list ended up disagreeing about whether a panel was…",
+        "Pressing a card's own button no longer risks selecting it: the click handler ignores anything inside a .thm-btn. Without that guard, pressing Remove would select the panel being removed.",
+        "Selection survives a re-render. The list rebuilds on every open, close, add and remove, so the pane re-points at the panel you were reading rather than snapping back to the first each time — and its Status updates with it.",
+        "Two things NOT faked. \"Blend Scene\" is a portal type in the taxonomy but not a panel that exists in config, so no row was invented for it. And the pane says \"Size\", not \"Default size\": what this tab has is the panel's current bounds — the…"
     ],
     "required": false
 }
