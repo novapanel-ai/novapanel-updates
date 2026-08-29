@@ -1,11 +1,11 @@
 {
-    "version": "1.1.556",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.556/NovaPanel-v1.1.556.zip",
+    "version": "1.1.557",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.557/NovaPanel-v1.1.557.zip",
     "notes": [
-        "Themes works the way Portals does: the cards on the left, the selected theme's details on the right, first card selected so the pane is never empty. Built inside theme-tab.js rather than wrapped from outside — that component owns this…",
-        "The pane states in words what the card states as controls. A card reading Install is not installed; a card reading Close is open. With no buttons of its own the pane needs the words, so it says Installed / Not installed / Update available…",
-        "The Portals split is now asymmetric, and so is the Themes one. Equal shares gave the card grid 420px — exactly one card per row, turning three panels into a scroll. The two halves are not comparable: one holds cards with thumbnails, the…",
-        "The tier label STAYS on the Themes tab. It was removed from the design prototype, but in the shipping tab it is not decoration: state is computed main-side from entitlement, and a locked card renders \"Requires <tier>\" INSTEAD of a button.…"
+        "Subscription is on the approved layout: the tier ladder on the left, THIS INSTALL's own entitlement on the right. That pane is the only place the owner tier can appear at all — renderSubTiers filters out anything with public:false, which…",
+        "The Advisor card takes the approved design's treatment: a subject tag, the reading, and a way to dismiss it. The tag names the SUBJECT rather than a severity — the Advisor states what it sees and leaves the judgement to you.",
+        "NOT built, and flagged rather than faked: the Advisor design's right-hand pane carried \"Learning window\", \"Sessions observed\" and switches for \"Notify on new advice\" and \"Repeat dismissed advice\". None of those exist — no field, no…",
+        "That completes the Control Panel's move to the approved design. All twelve tabs, the top tab bar, the God Mode second row, and the two shared layouts (.cp-split, .cp-flow) with .cp-head-row and the --fnd-split-min and --fnd-border-w-thick…"
     ],
     "required": false
 }
