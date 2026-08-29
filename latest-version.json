@@ -1,8 +1,12 @@
 {
-    "version": "1.1.550",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.550/NovaPanel-v1.1.550.zip",
+    "version": "1.1.551",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.551/NovaPanel-v1.1.551.zip",
     "notes": [
-        "Clicking anywhere outside the portal returns you to the panel settings — not just the parts of the panel that are not Runes. ⚠️ These are two different halves and both were needed: a click inside the preview is a separate document and…"
+        "The Control Panel's navigation moved from a left rail to a tab bar across the top, with the God Mode screens as a second row that opens from its own control. Every button kept its class, its data-tab value and its tier marker, so tab…",
+        "The Control Panel window is 900px wide (was 799) with a 760px minimum (was 620). The number is derived, not chosen: with the 170px rail gone the content column is 864px, which is two 420px columns plus their gap. The old window gave a…",
+        "Pages that carry two subjects now show them side by side when there is room and stacked when there is not — .cp-split, on a new --fnd-split-min token so a design system owns how narrow a column may get. Uses auto-fit rather than a media…",
+        "The Grimoire design system is released. It was already installed and complete at DS revision 8, but held (released: false), so it never appeared in the Appearance chooser.",
+        "Fixed: the active tab kept a gold bar down its left edge in the new top bar. The rail draws that marker with an INSET BOX-SHADOW rather than a border, so clearing border-left had no effect and the computed border read 0px while the bar…"
     ],
     "required": false
 }
