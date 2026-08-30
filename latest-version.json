@@ -1,11 +1,12 @@
 {
-    "version": "1.1.563",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.563/NovaPanel-v1.1.563.zip",
+    "version": "1.1.564",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.564/NovaPanel-v1.1.564.zip",
     "notes": [
-        "Detail panes name the KIND in the eyebrow and the instance as a title — \"Portal / Hardware Panel\". Putting the panel's own name in the eyebrow rendered \"MAIN PANEL\" in tracked uppercase, a name shouted as though it were a label.",
-        "The Themes pane is an Availability block: what the theme requires, its state, its version, and the app version it needs. Version and minimum-app were carried in the tile data all along and simply never shown. Nothing was removed.",
-        "Discovery statuses are readings, not badges. Each was drawn as a bordered pill in a status colour — three signals (hue, box, capitals) spent on a fact that needs none. They now sit quietly at the right-hand end of their row in the…",
-        "Discovery chips are set as data rather than prose: the labelling face, small and tight. In the reading face at body size a row of found programs looked like a sentence broken into boxes."
+        "The Control Panel's type is now measured against the approved design rather than judged by eye. Diffed element by element in both running windows: page title, section eyebrow, row label, row value, note and chip. Five carried real…",
+        "One token did three elements' work: the smallest step is 10.5px in the design, not 10. It carries the eyebrow, the note and the discovery chip, so the half-pixel was three elements' worth of difference rather than a rounding argument.",
+        "A note now sits one step BELOW the rows it explains. At 11.5px it was the same size as the text it was subordinate to, so it read as another sentence rather than an aside.",
+        "Values are set in regular. In medium, every key/value row looked like it was being insisted upon — a reading is not emphasis.",
+        "Prototype fix: --t-h1 was USED by every page title and never DEFINED, so those titles had been falling back to the inherited body size. They rendered correctly by accident, which is the worst way for a reference to be right. It is now a…"
     ],
     "required": false
 }
