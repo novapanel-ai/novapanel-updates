@@ -1,10 +1,11 @@
 {
-    "version": "1.1.567",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.567/NovaPanel-v1.1.567.zip",
+    "version": "1.1.568",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.568/NovaPanel-v1.1.568.zip",
     "notes": [
-        "About's pane is titled with the machine's own name, as the design has it. os.hostname() was already called twice in main.js and had simply never been handed to a renderer; it rides the versions channel that already carries the install date…",
-        "A Portal's details now group under \"Where it sits\", and the DISPLAY is real: monitors:get returns every display with its bounds, a panel's own bounds say where it is, and the monitor whose rectangle contains the panel's origin is the one…",
-        "ANCHOR is still absent, and that is deliberate. The design shows it; nothing in the app stores it. A panel has bounds, and \"top right\" is the editor's own concept applied at placement time. Left out rather than invented."
+        "Key/value rows are 33px, the design's own height, where they had been held open at 55.",
+        "This is why tightening the row padding two builds ago changed nothing visible: --fnd-row-h is a min-height FLOOR, and at 55px it overruled the 6px padding entirely. The padding fix was correct and inert. Measuring the box found it; looking…",
+        "It is a floor, not a height. Checked in the Panel Editor, which shares the token: eleven rows sit on the new floor, rows carrying controls still grow to 44 and 54px to fit them, and nothing is clipped.",
+        "⚠️ A first attempt added a SECOND --fnd-row-h earlier in the theme file and did nothing at all — the declaration further down already existed and, being later, won. A duplicate token is the duplicate-rule trap wearing a different hat.…"
     ],
     "required": false
 }
