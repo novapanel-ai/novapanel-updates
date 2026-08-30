@@ -1,8 +1,9 @@
 {
-    "version": "1.1.576",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.576/NovaPanel-v1.1.576.zip",
+    "version": "1.1.577",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.577/NovaPanel-v1.1.577.zip",
     "notes": [
-        "Icon-bearing buttons (Check for Updates and its siblings) still opened with 25px of dead air before the label — the last pass painted the icon invisible but left its 16px box plus the button's 9px flex gap standing. --fnd-icon-md (the same…"
+        "System Scan's discovery rows (Companion tools, Benchmarks, Game platforms, Individual game titles) said 'detection active' regardless of what was actually found — the design's own source uses count-based wording throughout: '2 found'…",
+        "The per-launcher breakdown below it (Steam, GOG Galaxy, Battle.net, ...) has no design reference of its own to check against — flagged, not guessed at — but its 'detection active · N titles' wording was changed to 'N detected' anyway, to…"
     ],
     "required": false
 }
