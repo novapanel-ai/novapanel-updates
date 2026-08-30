@@ -1,11 +1,9 @@
 {
-    "version": "1.1.573",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.573/NovaPanel-v1.1.573.zip",
+    "version": "1.1.574",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.574/NovaPanel-v1.1.574.zip",
     "notes": [
-        "A disabled button still reacted to hover — the app's hover rule had no :disabled exclusion, so mousing over something you cannot click still brightened its border and text, exactly what the design's own disabled-hover rule exists to…",
-        "Disabled buttons now show a not-allowed cursor instead of the default arrow, matching the design.",
-        "A button's hover transition (background, border-color, text color) was timed on the size/position duration instead of the color duration the design system's own tokens assign to color changes — 200ms where 140ms was correct. Fixed at the…",
-        "Checked and ruled out two more categories: focus-visible states have no equivalent in the static design to match against, and the product's ultra-thin scrollbar is a deliberate, already-documented standing decision shared with two other…"
+        "The design carries no icon vocabulary anywhere — confirmed zero data-icon usage in the approved page — but the app painted one on every section header and several buttons. Grimoire now paints none of them: mask-image and background…",
+        "Checked About, System Scan, and Updates (the tabs that actually carry icons) after the change — clean in all three, no leftover gap where an icon used to sit."
     ],
     "required": false
 }
