@@ -1,9 +1,12 @@
 {
-    "version": "1.1.574",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.574/NovaPanel-v1.1.574.zip",
+    "version": "1.1.575",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.575/NovaPanel-v1.1.575.zip",
     "notes": [
-        "The design carries no icon vocabulary anywhere — confirmed zero data-icon usage in the approved page — but the app painted one on every section header and several buttons. Grimoire now paints none of them: mask-image and background…",
-        "Checked About, System Scan, and Updates (the tabs that actually carry icons) after the change — clean in all three, no leftover gap where an icon used to sit."
+        "System Scan's Sensor Backends card existed and had real data all along, but sat at the bottom of the LEFT column — after CPU through Laptop — because the multi-column layout fills column 1 completely before overflowing, instead of…",
+        "Themes' own title was rendered as a small tracked eyebrow label instead of the tab's actual page title — it had been grouped with section headings by mistake. Now reads like every other tab's title.",
+        "Themes carried a per-card tier badge and a 'Requires <tier>' row the design's source explicitly retired: 'remove all the tiers because all themes start at Glamour tier. Cantrip only gets Portals no themes... the rule is stated ONCE, in…",
+        "About's install date and System Scan's date both rendered in the system locale's field order (\"Aug 14, 2026\"); the design is day-first (\"14 Aug 2026\") regardless of locale. Forced explicitly. System Scan's date also carried a full…",
+        "Added a 'Windows' row to About, sourced from the OS itself (edition from os.version(), build from os.release()) rather than any lookup table — and corrected for a real quirk in that data: os.version() reports 'Windows 10' even on this…"
     ],
     "required": false
 }
