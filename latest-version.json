@@ -1,11 +1,10 @@
 {
-    "version": "1.1.568",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.568/NovaPanel-v1.1.568.zip",
+    "version": "1.1.569",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.569/NovaPanel-v1.1.569.zip",
     "notes": [
-        "Key/value rows are 33px, the design's own height, where they had been held open at 55.",
-        "This is why tightening the row padding two builds ago changed nothing visible: --fnd-row-h is a min-height FLOOR, and at 55px it overruled the 6px padding entirely. The padding fix was correct and inert. Measuring the box found it; looking…",
-        "It is a floor, not a height. Checked in the Panel Editor, which shares the token: eleven rows sit on the new floor, rows carrying controls still grow to 44 and 54px to fit them, and nothing is clipped.",
-        "⚠️ A first attempt added a SECOND --fnd-row-h earlier in the theme file and did nothing at all — the declaration further down already existed and, being later, won. A duplicate token is the duplicate-rule trap wearing a different hat.…"
+        "The Panel Editor takes the design system's VOICE, not just its colours. Its theme stylesheet was linked SECOND, above panel-editor.css and design-system.css, so every component rule the theme carries was outranked by the two files below…",
+        "The note that put it there said \"tokens only — loaded here so every --fnd-* resolves before its consumers use them\". That was true of the theme it described, a token-only package, and is not true now. The premise was also unnecessary: a…",
+        "Verified after the move: the editor's buttons went from the reading face at 13px to the labelling face at 10.5px, and a sweep of all four editor screens found nothing clipped or overflowing."
     ],
     "required": false
 }
