@@ -1,9 +1,12 @@
 {
-    "version": "1.1.577",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.577/NovaPanel-v1.1.577.zip",
+    "version": "1.1.578",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.578/NovaPanel-v1.1.578.zip",
     "notes": [
-        "System Scan's discovery rows (Companion tools, Benchmarks, Game platforms, Individual game titles) said 'detection active' regardless of what was actually found — the design's own source uses count-based wording throughout: '2 found'…",
-        "The per-launcher breakdown below it (Steam, GOG Galaxy, Battle.net, ...) has no design reference of its own to check against — flagged, not guessed at — but its 'detection active · N titles' wording was changed to 'N detected' anyway, to…"
+        "The tab bar was rendering as plain sentence-case sans text on every screen — an earlier pass reasoned tabs should be 'quiet, not shouted' and never actually checked the design's own CSS, which is unambiguous: mono font, uppercase, 0.16em…",
+        "Every button in the app (not just primary ones) was using generic shared colour/background/border/padding, on the same kind of unchecked assumption — the design's own plain buttons carry their own muted ink, raised-surface background, and…",
+        "The SIGIL wordmark on About rendered at 22px; the design's is 34px — nearly double. It had been sharing a size token with the version number beside it, which is correctly smaller; given its own scale step so the two can differ.",
+        "The whole window's background was the desktop 'ground' tone (#0B0B0C) instead of the window's own 'surface' tone the design specifies (#141416, --surface, 'a view's own body') — the app never drew that ground/surface distinction, so the…",
+        "A sub-heading weight (About's 'The whole idea' / 'The magic' / ...) was medium (500) where the design is regular (400)."
     ],
     "required": false
 }
