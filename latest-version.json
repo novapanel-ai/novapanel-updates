@@ -1,10 +1,10 @@
 {
-    "version": "1.1.565",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.565/NovaPanel-v1.1.565.zip",
+    "version": "1.1.566",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.566/NovaPanel-v1.1.566.zip",
     "notes": [
-        "Density is measured against the approved design now, not judged. Diffed box by box in both running windows: the app ran looser everywhere and it compounded — a scan card stood 141px against the design's 101. Rows go 10px to 6px, and the…",
-        "That also explains why the card head strip added two builds ago never appeared: the heading had zero padding, so there was no box to paint and the background and hairline had nothing to sit on. It was correct and invisible. The head is…",
-        "--fnd-space-6 added to the scale. The steps went 4 to 8 and the design's key/value row wanted the one between; without it the rows ran at 10px and every card stood a third taller. Added as a step rather than written into a rule, so the…"
+        "Palettes diffed token by token against the approved design: ground, card, chrome, both border weights, all three inks and the accent already matched exactly. Two did not, and both are now closed.",
+        "The card head band was painted in CHROME (#101012), which is DARKER than the card it sits on, so the strip read as a shadow rather than a label bar. The design's band is RAISED (#1B1B1E) — a step lighter than the card, so the head lifts…",
+        "The muted ink was the one place the product deliberately differed from the design, because the design's #6E6963 fails the Kit's 4.5:1 contrast floor on all three surfaces (3.62 / 3.50 / 3.39). Rather than regress the product to match a…"
     ],
     "required": false
 }
