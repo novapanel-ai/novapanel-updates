@@ -1,12 +1,10 @@
 {
-    "version": "1.1.571",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.571/NovaPanel-v1.1.571.zip",
+    "version": "1.1.572",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.572/NovaPanel-v1.1.572.zip",
     "notes": [
-        "A full class-by-class diff against the approved design — not a spot-check — found fifteen real gaps across all five tabs, closed here.",
-        "Detail panes (About, Portals, Subscription, Themes) now carry the design's 20px inset; they had none, or 16px on Themes. A pane's own title is semibold, not regular — reverted a wrong 'correction' from the previous pass after re-measuring…",
-        "The changelog entry is a left-rule masthead card (2px accent bar, 14px inset), not a bottom-divider list row. Discovery labels sit one size up, the scan status detail one step down, a card's body and action row open with 10px of clearance…",
-        "The 'Availability' heading on Themes and the 'Where it sits' heading on Portals are the SAME class in the design (.sechead) and were drifting apart — one at the eyebrow scale, one corrected to it and one not. Unified.",
-        "Two of my own token picks were wrong the first time: --fnd-track-* is EM-relative, not pixel, so --fnd-track-10 at 12px is 1.2px, not 1.44 — the design wanted --fnd-track-12. Found by re-measuring after the first fix rather than trusting…"
+        "Extended the diff past tab content to the window chrome, which had never been checked. The footer sits on the wrong surface — it declares no background of its own, so it fell back to chrome/darker instead of the design's raised/lighter…",
+        "Hover states, checked for the first time this session by triggering a REAL :hover with a raw CDP mouseMoved event rather than a synthetic DOM event (which cannot trigger :hover at all — confirmed the hard way first). Two gaps found: a…",
+        "The tab-bar hover fix is scoped to #tabbar specifically, since .tab-btn is shared with rail contexts this was never meant to touch."
     ],
     "required": false
 }
