@@ -1,12 +1,11 @@
 {
-    "version": "1.1.561",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.561/NovaPanel-v1.1.561.zip",
+    "version": "1.1.562",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.562/NovaPanel-v1.1.562.zip",
     "notes": [
-        "The SIGIL wordmark is set in Anta, as the approved design has always required. The face was already vendored beside the theme and already declared — it had simply never been bound to the wordmark.",
-        "Grimoire is flat where it was boxed. design-system.css gives every panel and section body a card surface ramp and CSP-proof gold corner brackets; that is an Obsidian Glint device. This design system separates with hairlines instead — a…",
-        "About's fact terms read as prose again. \"The whole idea\" is a phrase, and the label-case token was uppercasing it into a shouted key.",
-        "Fixed: every row in a detail pane was two lines tall. .info-label is a fixed 192px — correct on a full-width page, wrong in the narrow half of a split, where 192px of label plus a value no longer fits and the value dropped to its own line.…",
-        "Fixed, and caused by the line above: with the label no longer a fixed width, values were left-aligned against a ragged edge. A column of values is read down its RIGHT edge — that is the whole reason they are set in mono with tabular…"
+        "Buttons speak in the labelling face. In this design a control is LABELLED, not written — mono, tracked, small, and squarer than the surfaces around it. Set in the reading face at 13px with no tracking, the same button read as a word in a…",
+        "Cards are squarer. A soft 8px corner belongs to something you pick up; these are records on a page.",
+        "On touching the base button class, which this theme file warns against: that warning is about setting a base button's COLOUR and GROUND, which then outranks .primary and silently flattens every call to action. This sets face, tracking and…",
+        "Confirmed by sweep across all eleven tabs: no element is still painted with the previous theme's gradient devices — the card surface ramps and gold corner brackets are gone under this design system."
     ],
     "required": false
 }
