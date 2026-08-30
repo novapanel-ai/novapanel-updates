@@ -1,10 +1,11 @@
 {
-    "version": "1.1.572",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.572/NovaPanel-v1.1.572.zip",
+    "version": "1.1.573",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.573/NovaPanel-v1.1.573.zip",
     "notes": [
-        "Extended the diff past tab content to the window chrome, which had never been checked. The footer sits on the wrong surface — it declares no background of its own, so it fell back to chrome/darker instead of the design's raised/lighter…",
-        "Hover states, checked for the first time this session by triggering a REAL :hover with a raw CDP mouseMoved event rather than a synthetic DOM event (which cannot trigger :hover at all — confirmed the hard way first). Two gaps found: a…",
-        "The tab-bar hover fix is scoped to #tabbar specifically, since .tab-btn is shared with rail contexts this was never meant to touch."
+        "A disabled button still reacted to hover — the app's hover rule had no :disabled exclusion, so mousing over something you cannot click still brightened its border and text, exactly what the design's own disabled-hover rule exists to…",
+        "Disabled buttons now show a not-allowed cursor instead of the default arrow, matching the design.",
+        "A button's hover transition (background, border-color, text color) was timed on the size/position duration instead of the color duration the design system's own tokens assign to color changes — 200ms where 140ms was correct. Fixed at the…",
+        "Checked and ruled out two more categories: focus-visible states have no equivalent in the static design to match against, and the product's ultra-thin scrollbar is a deliberate, already-documented standing decision shared with two other…"
     ],
     "required": false
 }
