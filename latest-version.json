@@ -1,12 +1,9 @@
 {
-    "version": "1.1.578",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.578/NovaPanel-v1.1.578.zip",
+    "version": "1.1.579",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.579/NovaPanel-v1.1.579.zip",
     "notes": [
-        "The tab bar was rendering as plain sentence-case sans text on every screen — an earlier pass reasoned tabs should be 'quiet, not shouted' and never actually checked the design's own CSS, which is unambiguous: mono font, uppercase, 0.16em…",
-        "Every button in the app (not just primary ones) was using generic shared colour/background/border/padding, on the same kind of unchecked assumption — the design's own plain buttons carry their own muted ink, raised-surface background, and…",
-        "The SIGIL wordmark on About rendered at 22px; the design's is 34px — nearly double. It had been sharing a size token with the version number beside it, which is correctly smaller; given its own scale step so the two can differ.",
-        "The whole window's background was the desktop 'ground' tone (#0B0B0C) instead of the window's own 'surface' tone the design specifies (#141416, --surface, 'a view's own body') — the app never drew that ground/surface distinction, so the…",
-        "A sub-heading weight (About's 'The whole idea' / 'The magic' / ...) was medium (500) where the design is regular (400)."
+        "Systematically searched for the same failure pattern that broke the tab bar and buttons — a Grimoire rule setting only typography and never background/color/border/padding, so the element fell through to the shared design-system.css…",
+        "God mode now reads in the same mono/uppercase/tracked treatment as the five real tabs beside it, matching the design's own markup, which draws no distinction between them (literally class=\"tab god\" — the same base rule, no separate CSS)."
     ],
     "required": false
 }
