@@ -1,10 +1,10 @@
 {
-    "version": "1.1.569",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.569/NovaPanel-v1.1.569.zip",
+    "version": "1.1.570",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.570/NovaPanel-v1.1.570.zip",
     "notes": [
-        "The Panel Editor takes the design system's VOICE, not just its colours. Its theme stylesheet was linked SECOND, above panel-editor.css and design-system.css, so every component rule the theme carries was outranked by the two files below…",
-        "The note that put it there said \"tokens only — loaded here so every --fnd-* resolves before its consumers use them\". That was true of the theme it described, a token-only package, and is not true now. The premise was also unnecessary: a…",
-        "Verified after the move: the editor's buttons went from the reading face at 13px to the labelling face at 10.5px, and a sweep of all four editor screens found nothing clipped or overflowing."
+        "The display map's labels no longer collide. A monitor's name grows rightward from its rectangle's left edge while PRIMARY is anchored to the right edge, and nothing reserved the space between them — on a 2560×1600 primary the name ran to…",
+        "Second fault in the same map, found in the screenshot of the first fix: a label drawn UNDER its rectangle lands inside the neighbour below it whenever two displays are physically adjacent, and the neighbour's rectangle covers it — \"LG…",
+        "Both were pre-existing, not caused by the theme. Proven by disabling the theme stylesheet and re-measuring: the label geometry came back byte-identical, so it was the map's arithmetic rather than a font the theme had changed."
     ],
     "required": false
 }
