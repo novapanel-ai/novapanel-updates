@@ -1,11 +1,11 @@
 {
-    "version": "1.1.562",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.562/NovaPanel-v1.1.562.zip",
+    "version": "1.1.563",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.563/NovaPanel-v1.1.563.zip",
     "notes": [
-        "Buttons speak in the labelling face. In this design a control is LABELLED, not written — mono, tracked, small, and squarer than the surfaces around it. Set in the reading face at 13px with no tracking, the same button read as a word in a…",
-        "Cards are squarer. A soft 8px corner belongs to something you pick up; these are records on a page.",
-        "On touching the base button class, which this theme file warns against: that warning is about setting a base button's COLOUR and GROUND, which then outranks .primary and silently flattens every call to action. This sets face, tracking and…",
-        "Confirmed by sweep across all eleven tabs: no element is still painted with the previous theme's gradient devices — the card surface ramps and gold corner brackets are gone under this design system."
+        "Detail panes name the KIND in the eyebrow and the instance as a title — \"Portal / Hardware Panel\". Putting the panel's own name in the eyebrow rendered \"MAIN PANEL\" in tracked uppercase, a name shouted as though it were a label.",
+        "The Themes pane is an Availability block: what the theme requires, its state, its version, and the app version it needs. Version and minimum-app were carried in the tile data all along and simply never shown. Nothing was removed.",
+        "Discovery statuses are readings, not badges. Each was drawn as a bordered pill in a status colour — three signals (hue, box, capitals) spent on a fact that needs none. They now sit quietly at the right-hand end of their row in the…",
+        "Discovery chips are set as data rather than prose: the labelling face, small and tight. In the reading face at body size a row of found programs looked like a sentence broken into boxes."
     ],
     "required": false
 }
