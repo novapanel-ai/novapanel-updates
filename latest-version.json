@@ -1,10 +1,10 @@
 {
-    "version": "1.1.566",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.566/NovaPanel-v1.1.566.zip",
+    "version": "1.1.567",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.567/NovaPanel-v1.1.567.zip",
     "notes": [
-        "Palettes diffed token by token against the approved design: ground, card, chrome, both border weights, all three inks and the accent already matched exactly. Two did not, and both are now closed.",
-        "The card head band was painted in CHROME (#101012), which is DARKER than the card it sits on, so the strip read as a shadow rather than a label bar. The design's band is RAISED (#1B1B1E) — a step lighter than the card, so the head lifts…",
-        "The muted ink was the one place the product deliberately differed from the design, because the design's #6E6963 fails the Kit's 4.5:1 contrast floor on all three surfaces (3.62 / 3.50 / 3.39). Rather than regress the product to match a…"
+        "About's pane is titled with the machine's own name, as the design has it. os.hostname() was already called twice in main.js and had simply never been handed to a renderer; it rides the versions channel that already carries the install date…",
+        "A Portal's details now group under \"Where it sits\", and the DISPLAY is real: monitors:get returns every display with its bounds, a panel's own bounds say where it is, and the monitor whose rectangle contains the panel's origin is the one…",
+        "ANCHOR is still absent, and that is deliberate. The design shows it; nothing in the app stores it. A panel has bounds, and \"top right\" is the editor's own concept applied at placement time. Left out rather than invented."
     ],
     "required": false
 }
