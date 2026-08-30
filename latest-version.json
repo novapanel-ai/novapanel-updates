@@ -1,12 +1,10 @@
 {
-    "version": "1.1.564",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.564/NovaPanel-v1.1.564.zip",
+    "version": "1.1.565",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.565/NovaPanel-v1.1.565.zip",
     "notes": [
-        "The Control Panel's type is now measured against the approved design rather than judged by eye. Diffed element by element in both running windows: page title, section eyebrow, row label, row value, note and chip. Five carried real…",
-        "One token did three elements' work: the smallest step is 10.5px in the design, not 10. It carries the eyebrow, the note and the discovery chip, so the half-pixel was three elements' worth of difference rather than a rounding argument.",
-        "A note now sits one step BELOW the rows it explains. At 11.5px it was the same size as the text it was subordinate to, so it read as another sentence rather than an aside.",
-        "Values are set in regular. In medium, every key/value row looked like it was being insisted upon — a reading is not emphasis.",
-        "Prototype fix: --t-h1 was USED by every page title and never DEFINED, so those titles had been falling back to the inherited body size. They rendered correctly by accident, which is the worst way for a reference to be right. It is now a…"
+        "Density is measured against the approved design now, not judged. Diffed box by box in both running windows: the app ran looser everywhere and it compounded — a scan card stood 141px against the design's 101. Rows go 10px to 6px, and the…",
+        "That also explains why the card head strip added two builds ago never appeared: the heading had zero padding, so there was no box to paint and the background and hairline had nothing to sit on. It was correct and invisible. The head is…",
+        "--fnd-space-6 added to the scale. The steps went 4 to 8 and the design's key/value row wanted the one between; without it the rows ran at 10px and every card stood a third taller. Added as a step rather than written into a rule, so the…"
     ],
     "required": false
 }
