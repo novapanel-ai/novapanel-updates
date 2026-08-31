@@ -1,9 +1,11 @@
 {
-    "version": "1.1.595",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.595/NovaPanel-v1.1.595.zip",
+    "version": "1.1.596",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.596/NovaPanel-v1.1.596.zip",
     "notes": [
-        "Updates' two section-header hairlines (Check for Updates / Changelog) landed at different heights — .section-subtitle carries a 12px margin-bottom meant for where it sits below a title in a stacked layout, but here it sits inline in the…",
-        "System Scan's Rescan / Open Manifest Folder row had no spacing before the card grid below it — sat flush against the cards' own top edge, reading as the buttons touching the frame. The design's .scanhead (this row's own reference) carries…"
+        "Theme/Panel card action buttons (.thm-btn) had been folded into the general .btn rule and inherited its padding (7px/14px) instead of their own — the design gives this specific row its own tighter 5px/11px, measured directly. A 3-button…",
+        "The 'Open' action never rendered gold: it's built as class=\"thm-btn primary\" (settings.js), a different class from .btn, so it never matched the primary-button rule at all (which only targeted .btn.primary) and fell through to plain quiet…",
+        "Tightened .thm-actions' gap to the design's uniform 6px (was 8px column / 4px row) — every px here decides whether a button row fits without wrapping.",
+        "Verified: a card's whole frame already highlights gold when it's the one selected/shown in the detail pane (both Portals and Themes) — checked directly, no change needed."
     ],
     "required": false
 }
