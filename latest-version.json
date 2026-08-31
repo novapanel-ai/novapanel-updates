@@ -1,9 +1,11 @@
 {
-    "version": "1.1.590",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.590/NovaPanel-v1.1.590.zip",
+    "version": "1.1.591",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.591/NovaPanel-v1.1.591.zip",
     "notes": [
-        "Reverted the split-mode divider inset from last version — measured the design source directly this time instead of going on a description: .stage's own border-right sits flush against its container (0px gap top and bottom), not inset. The…",
-        "Subscription's plan cards were a single-column list; the design is a real 2-up grid. Fixing the grid surfaced a second, actual bug underneath it: each card used grid-template-areas pinning its status line to a second column spanning the…"
+        "Divider re-verified across About, Portals, Themes, and Subscription directly — flush (0px gap top and bottom) on every one, matching the design source exactly, same as last version's fix. If it still shows wrong after this update, that's…",
+        "Debug's snapshot rows had a fixed 360px+ column layout that no longer fit the ~312px width Debug's card gets since it moved into a two-column flow — caused a horizontal scrollbar. Columns are auto-sized to content now, no minimum floor.",
+        "Debug's process-roles table (a space-padded ASCII table with a real minimum width) was overflowing its own card instead of scrolling itself, dragging a horizontal scrollbar onto the whole page. Contained to scroll locally, within its own…",
+        "Tier preview's currently-selected button showed no highlight — the state rule that colors it gold already existed and JS was already applying it correctly, but an earlier :root-scoped .btn override outranked it on raw CSS specificity and…"
     ],
     "required": false
 }
