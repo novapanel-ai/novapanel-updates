@@ -1,8 +1,8 @@
 {
-    "version": "1.1.602",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.602/NovaPanel-v1.1.602.zip",
+    "version": "1.1.604",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.604/NovaPanel-v1.1.604.zip",
     "notes": [
-        "The OG portal is named \"Charm\" — its second rename (was \"OG Widget\", then \"Mini Widget\"). \"Mini Widget\" stays as its descriptor everywhere that was already explaining what kind of portal this is (the About page's own prose, its theme…"
+        "Fair question: Portals was showing \"Charm\" twice — the panel's own name, then the same word again as its theme in the line right under it, with a \"Kind: Saved Panel\" row nobody outside this codebase could parse. Both were internal…"
     ],
     "required": false
 }
