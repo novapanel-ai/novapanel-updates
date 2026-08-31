@@ -1,9 +1,9 @@
 {
-    "version": "1.1.589",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.589/NovaPanel-v1.1.589.zip",
+    "version": "1.1.590",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.590/NovaPanel-v1.1.590.zip",
     "notes": [
-        "Debug and Testing's stat readouts (Pipeline Status, Display & Window, Session State, Test Session) rendered as bare label/value text with no box around them at all — the design's own .stat is a bordered, backgrounded tile. Testing's Test…",
-        "Their label/value typography now matches the design too (uppercase, tracked, mono labels; mono, tabular values) — reversing a dated 2026-08-16 ruling that had deliberately set it apart. Per CEO instruction: any standing rule found working…"
+        "Reverted the split-mode divider inset from last version — measured the design source directly this time instead of going on a description: .stage's own border-right sits flush against its container (0px gap top and bottom), not inset. The…",
+        "Subscription's plan cards were a single-column list; the design is a real 2-up grid. Fixing the grid surfaced a second, actual bug underneath it: each card used grid-template-areas pinning its status line to a second column spanning the…"
     ],
     "required": false
 }
