@@ -1,9 +1,8 @@
 {
-    "version": "1.1.583",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.583/NovaPanel-v1.1.583.zip",
+    "version": "1.1.584",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.584/NovaPanel-v1.1.584.zip",
     "notes": [
-        "The Updates badge sat blank until a user manually pressed Check for Updates — the design's only demonstrated state is a real result ('Up to date'), never a blank one. The check now runs once, silently, the moment Settings opens, same as…",
-        "The vertical hairline between a page's main content and its detail pane (the design's .stage border-right) was missing everywhere the app uses this two-column layout — About, Portals, Updates, and Themes. Added once, scoped to the first…"
+        "Audited God Mode's Advisor, Debug, and Testing tabs on request. Advisor and most of Debug/Testing already inherited this session's global fixes correctly (tab treatment, no lingering shadows). Found one real gap: Debug's and Testing's…"
     ],
     "required": false
 }
