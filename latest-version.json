@@ -1,8 +1,8 @@
 {
-    "version": "1.1.605",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.605/NovaPanel-v1.1.605.zip",
+    "version": "1.1.606",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.606/NovaPanel-v1.1.606.zip",
     "notes": [
-        "Undid half of the last fix: putting Charm's description on the card AND in the Portals side panel was the same restate-everything mistake in a new spot. The card is back to its plain \"saved panel · 186×820 · Charm\" line; the description…"
+        "The Portals card line was STILL restating the card's own name (\"saved panel · 186×820 · Charm\" under a card titled Charm) and still speaking an internal config term (\"saved panel\") nobody outside this codebase reads as anything. Replaced…"
     ],
     "required": false
 }
