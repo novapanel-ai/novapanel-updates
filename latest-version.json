@@ -1,9 +1,8 @@
 {
-    "version": "1.1.581",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.581/NovaPanel-v1.1.581.zip",
+    "version": "1.1.582",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.582/NovaPanel-v1.1.582.zip",
     "notes": [
-        "The background fix from last version never actually rendered — #main sits on top of body and is fully opaque, painting its own background (the same wrong 'ground' tone) over the whole content area, so body's corrected colour was covered…",
-        "Every last row in every info-row group was still drawing a divider under itself with nothing to separate — .info-row never had a last-of-group exemption anywhere in the shared CSS (removed at some point, never replaced). On About…"
+        "The tab bar was painted with --fnd-surface-chrome (#101012, the vertical-rail colour it inherited from before this window had a top bar) instead of the design's --surface-2 (#1B1B1E) — measured exactly, not assumed. The divider below it…"
     ],
     "required": false
 }
