@@ -1,9 +1,9 @@
 {
-    "version": "1.1.580",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.580/NovaPanel-v1.1.580.zip",
+    "version": "1.1.581",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.581/NovaPanel-v1.1.581.zip",
     "notes": [
-        "Every card in the app was casting a drop shadow (inset gold highlight + a soft black shadow) the design does not have anywhere — leftover from the old bracketed-card system. An earlier pass flattened these cards by clearing…",
-        "About/Portals/Sub detail panes had DOUBLE padding — 20px on an invisible outer wrapper (.about-aside) plus another, un-touched 32px on the actual visible card nested inside it (.section-body), for 52px total against the design's clean…"
+        "The background fix from last version never actually rendered — #main sits on top of body and is fully opaque, painting its own background (the same wrong 'ground' tone) over the whole content area, so body's corrected colour was covered…",
+        "Every last row in every info-row group was still drawing a divider under itself with nothing to separate — .info-row never had a last-of-group exemption anywhere in the shared CSS (removed at some point, never replaced). On About…"
     ],
     "required": false
 }
