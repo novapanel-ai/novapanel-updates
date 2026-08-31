@@ -1,8 +1,9 @@
 {
-    "version": "1.1.588",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.588/NovaPanel-v1.1.588.zip",
+    "version": "1.1.589",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.589/NovaPanel-v1.1.589.zip",
     "notes": [
-        "The vertical divider on About/Portals/Themes ran flush from the tab bar straight to the footer with no air at either end. Replaced the plain border with an inset marker that stops 20px short of the column's own top and bottom, so it reads…"
+        "Debug and Testing's stat readouts (Pipeline Status, Display & Window, Session State, Test Session) rendered as bare label/value text with no box around them at all — the design's own .stat is a bordered, backgrounded tile. Testing's Test…",
+        "Their label/value typography now matches the design too (uppercase, tracked, mono labels; mono, tabular values) — reversing a dated 2026-08-16 ruling that had deliberately set it apart. Per CEO instruction: any standing rule found working…"
     ],
     "required": false
 }
