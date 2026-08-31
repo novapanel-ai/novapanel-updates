@@ -1,8 +1,8 @@
 {
-    "version": "1.1.604",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.604/NovaPanel-v1.1.604.zip",
+    "version": "1.1.605",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.605/NovaPanel-v1.1.605.zip",
     "notes": [
-        "Fair question: Portals was showing \"Charm\" twice — the panel's own name, then the same word again as its theme in the line right under it, with a \"Kind: Saved Panel\" row nobody outside this codebase could parse. Both were internal…"
+        "Undid half of the last fix: putting Charm's description on the card AND in the Portals side panel was the same restate-everything mistake in a new spot. The card is back to its plain \"saved panel · 186×820 · Charm\" line; the description…"
     ],
     "required": false
 }
