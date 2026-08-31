@@ -1,9 +1,9 @@
 {
-    "version": "1.1.594",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.594/NovaPanel-v1.1.594.zip",
+    "version": "1.1.595",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.595/NovaPanel-v1.1.595.zip",
     "notes": [
-        "Testing tab's intro card (\"How to send a test report\") sat almost flush against Tester Settings and Export Test Report below it — the shared rule gives it 4px of margin-bottom; the design's own .ts-intro carries 24px, measured directly.…",
-        "Re-checked Advisor after the prior pass's card/badge fix — holding, no further change needed."
+        "Updates' two section-header hairlines (Check for Updates / Changelog) landed at different heights — .section-subtitle carries a 12px margin-bottom meant for where it sits below a title in a stacked layout, but here it sits inline in the…",
+        "System Scan's Rescan / Open Manifest Folder row had no spacing before the card grid below it — sat flush against the cards' own top edge, reading as the buttons touching the frame. The design's .scanhead (this row's own reference) carries…"
     ],
     "required": false
 }
