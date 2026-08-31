@@ -1,9 +1,8 @@
 {
-    "version": "1.1.600",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.600/NovaPanel-v1.1.600.zip",
+    "version": "1.1.601",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.601/NovaPanel-v1.1.601.zip",
     "notes": [
-        "Padding really does something now: it was saving through panels:content-update -> panel.content.cardPadding, a completely different store from the one OG's own renderer reads — the number updated, the widget never heard about it. OG now…",
-        "Configure's Rune tray now covers 3+ rows of chips (every Rune, not just the off ones, per the last fix) but the scroll area below the live preview only ever reserved a flat 104px for it — not enough anymore, which is why the panel's true…"
+        "Padding was only reaching the outer content inset (the title/footer area) — the one thing visibly moving. It's a single, unified control now: the same px sets the space to the edges, the gap between cards, AND falls back into each card's…"
     ],
     "required": false
 }
