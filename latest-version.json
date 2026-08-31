@@ -1,8 +1,8 @@
 {
-    "version": "1.1.587",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.587/NovaPanel-v1.1.587.zip",
+    "version": "1.1.588",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.588/NovaPanel-v1.1.588.zip",
     "notes": [
-        "A real, measured spacing audit on request, not a visual guess. Found five real gaps, all from the same cause — shared spacing tokens (12px, 10px) standing in for values the design actually uses (14px, 9px, 4px, 16px) because nothing had…"
+        "The vertical divider on About/Portals/Themes ran flush from the tab bar straight to the footer with no air at either end. Replaced the plain border with an inset marker that stops 20px short of the column's own top and bottom, so it reads…"
     ],
     "required": false
 }
