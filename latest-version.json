@@ -1,8 +1,8 @@
 {
-    "version": "1.1.584",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.584/NovaPanel-v1.1.584.zip",
+    "version": "1.1.585",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.585/NovaPanel-v1.1.585.zip",
     "notes": [
-        "Audited God Mode's Advisor, Debug, and Testing tabs on request. Advisor and most of Debug/Testing already inherited this session's global fixes correctly (tab treatment, no lingering shadows). Found one real gap: Debug's and Testing's…"
+        "The split-mode divider added last version put a vertical line on Updates that the design does not have there. The design actually has two different two-column patterns: main-content-plus-detail-pane (About, Portals — divider) and two…"
     ],
     "required": false
 }
