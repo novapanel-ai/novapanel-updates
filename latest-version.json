@@ -1,8 +1,8 @@
 {
-    "version": "1.1.585",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.585/NovaPanel-v1.1.585.zip",
+    "version": "1.1.586",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.586/NovaPanel-v1.1.586.zip",
     "notes": [
-        "The split-mode divider added last version put a vertical line on Updates that the design does not have there. The design actually has two different two-column patterns: main-content-plus-detail-pane (About, Portals — divider) and two…"
+        "Found the actual reason the divider read as inconsistent across pages: About's page title and intro live INSIDE the split container (matching the design, which nests its page title inside .stage — the same column the divider runs down)…"
     ],
     "required": false
 }
