@@ -1,12 +1,10 @@
 {
-    "version": "1.1.592",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.592/NovaPanel-v1.1.592.zip",
+    "version": "1.1.593",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.593/NovaPanel-v1.1.593.zip",
     "notes": [
-        "Found the actual divider bug the last two versions kept missing: #content's shared 32px page padding (meant for single-column tabs) was also wrapping every split page, pushing the divider in from the tab bar, footer, and both edges. The…",
-        "Theme/Panel card action rows (Open tester, Open/Close, Edit, Remove) used a flex-end + margin-auto pin that broke down under 3-4 buttons: instead of wrapping left like text, overflow buttons each got shoved onto their own right-pinned row…",
-        "Advisor tab was genuinely broken, not just simpler than the design's aspirational mockup: an ID-selector rule set only the card's left accent border at higher specificity than Grimoire's panel-flattening rule, so the card rendered as a…",
-        "The Design system picker's <select> was themed; its native option-list popup was not, so opening it showed the OS's own pale list instead of anything Grimoire — the one Control Panel theme missing a fix og/kyrr/obsidian-glint already…",
-        "theme-tab.css: same margin-auto pin removed from the Creator-only 'Open tester' link for the same reason as above — matches design's plain left-to-right flow now, no special pinning."
+        "Subscription was the one split page still showing a gap between the tab bar and the divider — its page-header had never been moved inside the split's first column the way About/Portals/Themes already were, so its divider started below the…",
+        "Section-header hairlines (Plans, Tester Settings, Export Test Report, and every header like them) had zero clearance between their own label text and the rule directly under it, and only 4px before the content that followed — measured…",
+        "The Design System picker's native <select> popup still showed the OS's own white list with a blue highlight after giving <option> a background/color — turns out that's not reachable by CSS at all on Windows, confirmed live with…"
     ],
     "required": false
 }
