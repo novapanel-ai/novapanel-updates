@@ -1,9 +1,9 @@
 {
-    "version": "1.1.599",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.599/NovaPanel-v1.1.599.zip",
+    "version": "1.1.600",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.600/NovaPanel-v1.1.600.zip",
     "notes": [
-        "Panel Editor's Rune tray (\"Not in the panel · click to add\") was add-only — a chip vanished from its own list the instant you turned it on, so turning it back off meant hunting it down in Additional Runes instead. Every chip is a real…",
-        "Configure's Padding slider always showed 0px, no matter what it was set to. Root cause: its display update looked for the slider by querying its ORIGINAL tab's container, but the \"nothing selected\" Configure view borrows that exact control…"
+        "Padding really does something now: it was saving through panels:content-update -> panel.content.cardPadding, a completely different store from the one OG's own renderer reads — the number updated, the widget never heard about it. OG now…",
+        "Configure's Rune tray now covers 3+ rows of chips (every Rune, not just the off ones, per the last fix) but the scroll area below the live preview only ever reserved a flat 104px for it — not enough anymore, which is why the panel's true…"
     ],
     "required": false
 }
