@@ -1,10 +1,9 @@
 {
-    "version": "1.1.593",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.593/NovaPanel-v1.1.593.zip",
+    "version": "1.1.594",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.594/NovaPanel-v1.1.594.zip",
     "notes": [
-        "Subscription was the one split page still showing a gap between the tab bar and the divider — its page-header had never been moved inside the split's first column the way About/Portals/Themes already were, so its divider started below the…",
-        "Section-header hairlines (Plans, Tester Settings, Export Test Report, and every header like them) had zero clearance between their own label text and the rule directly under it, and only 4px before the content that followed — measured…",
-        "The Design System picker's native <select> popup still showed the OS's own white list with a blue highlight after giving <option> a background/color — turns out that's not reachable by CSS at all on Windows, confirmed live with…"
+        "Testing tab's intro card (\"How to send a test report\") sat almost flush against Tester Settings and Export Test Report below it — the shared rule gives it 4px of margin-bottom; the design's own .ts-intro carries 24px, measured directly.…",
+        "Re-checked Advisor after the prior pass's card/badge fix — holding, no further change needed."
     ],
     "required": false
 }
