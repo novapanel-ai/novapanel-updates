@@ -1,11 +1,12 @@
 {
-    "version": "1.1.591",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.591/NovaPanel-v1.1.591.zip",
+    "version": "1.1.592",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.592/NovaPanel-v1.1.592.zip",
     "notes": [
-        "Divider re-verified across About, Portals, Themes, and Subscription directly — flush (0px gap top and bottom) on every one, matching the design source exactly, same as last version's fix. If it still shows wrong after this update, that's…",
-        "Debug's snapshot rows had a fixed 360px+ column layout that no longer fit the ~312px width Debug's card gets since it moved into a two-column flow — caused a horizontal scrollbar. Columns are auto-sized to content now, no minimum floor.",
-        "Debug's process-roles table (a space-padded ASCII table with a real minimum width) was overflowing its own card instead of scrolling itself, dragging a horizontal scrollbar onto the whole page. Contained to scroll locally, within its own…",
-        "Tier preview's currently-selected button showed no highlight — the state rule that colors it gold already existed and JS was already applying it correctly, but an earlier :root-scoped .btn override outranked it on raw CSS specificity and…"
+        "Found the actual divider bug the last two versions kept missing: #content's shared 32px page padding (meant for single-column tabs) was also wrapping every split page, pushing the divider in from the tab bar, footer, and both edges. The…",
+        "Theme/Panel card action rows (Open tester, Open/Close, Edit, Remove) used a flex-end + margin-auto pin that broke down under 3-4 buttons: instead of wrapping left like text, overflow buttons each got shoved onto their own right-pinned row…",
+        "Advisor tab was genuinely broken, not just simpler than the design's aspirational mockup: an ID-selector rule set only the card's left accent border at higher specificity than Grimoire's panel-flattening rule, so the card rendered as a…",
+        "The Design system picker's <select> was themed; its native option-list popup was not, so opening it showed the OS's own pale list instead of anything Grimoire — the one Control Panel theme missing a fix og/kyrr/obsidian-glint already…",
+        "theme-tab.css: same margin-auto pin removed from the Creator-only 'Open tester' link for the same reason as above — matches design's plain left-to-right flow now, no special pinning."
     ],
     "required": false
 }
