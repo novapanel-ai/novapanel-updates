@@ -1,11 +1,9 @@
 {
-    "version": "1.1.598",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.598/NovaPanel-v1.1.598.zip",
+    "version": "1.1.599",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.599/NovaPanel-v1.1.599.zip",
     "notes": [
-        "OG widget: values were inconsistently aligned across the sensor list — traced to a no-bar, no-combined reading with a real unit (CPU's Power; also frame.fps) falling all the way through to the old flowing/full-width row style meant only…",
-        "Memory/Storage's combined \"used GB / total GB\" line is 2 separate rows again (In-use, Total) — reversing an earlier collapse-to-one-row change, per direct instruction. Excluded from the By Sensor regroup the same way the old combined row…",
-        "Meters (bars) disabled — in the editor and enforced at render — for Cards + By Sensor: a By Sensor card's bar could only ever represent one of several hardware components actually listed in it (e.g. Load's CPU/GPU/iGPU), which reads as…",
-        "Sensor values now reserve their own realistic max-width (percent, temperature, clock, power, voltage, GB, Mb/s each got a calibrated min-width) instead of sizing to whatever the current reading happens to be — a value's digit count…"
+        "Panel Editor's Rune tray (\"Not in the panel · click to add\") was add-only — a chip vanished from its own list the instant you turned it on, so turning it back off meant hunting it down in Additional Runes instead. Every chip is a real…",
+        "Configure's Padding slider always showed 0px, no matter what it was set to. Root cause: its display update looked for the slider by querying its ORIGINAL tab's container, but the \"nothing selected\" Configure view borrows that exact control…"
     ],
     "required": false
 }
