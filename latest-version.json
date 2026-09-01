@@ -1,9 +1,9 @@
 {
-    "version": "1.1.609",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.609/NovaPanel-v1.1.609.zip",
+    "version": "1.1.610",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.610/NovaPanel-v1.1.610.zip",
     "notes": [
-        "Mirage — built the Panel Editor control for the style axes (CEO: \"build the panel editor\"). Fixed a real duplication along the way: Mirage's sensor grouping had been reading its own invented `sensorGrouping` setting when Charm already has…",
-        "Row density (single/double) has no existing Sigil setting to map onto, so it's a genuinely new control — 'Row density' on the same Sensors tab, visible only when a theme declares `sensorRows` (verified both ways in a real harness: shown…"
+        "Fixed Mirage opening at the wrong size and position, reported live (CEO screenshot: an LG UltraFine 4K display, the panel drawn narrow and low). Root cause: the function that decides a FRESH panel's opening size (`computeStartupBounds`)…",
+        "Answers the CEO's taskbar question directly: no separate taskbar-detection needed. The fix already resolves against Windows' own work area, which the OS shrinks when the taskbar is docked and reserving space, and reports full-screen when…"
     ],
     "required": false
 }
