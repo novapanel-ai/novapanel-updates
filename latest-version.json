@@ -1,8 +1,9 @@
 {
-    "version": "1.1.611",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.611/NovaPanel-v1.1.611.zip",
+    "version": "1.1.612",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.612/NovaPanel-v1.1.612.zip",
     "notes": [
-        "Fixed Mirage's width getting swapped between monitors of different sizes (CEO: \"the width is reversed somehow, one too long the other too short\"). Root cause: the monitor-move handler asked \"what is this panel's declared width\" at the…"
+        "Mirage no longer offers an Image layer (CEO: \"we are not doing an image layer we are doing a gradient layer\") — the Layers tab always offered one for every panel by an explicit earlier ruling that was Charm's, not a universal law; a theme…",
+        "Fixed the Layers tab's exploded stack drawing every panel as Charm's shape. It was tuned once for a tall narrow strip and never asked whether a panel is actually that shape — a wide short band just clamped to the same ceiling and got…"
     ],
     "required": false
 }
