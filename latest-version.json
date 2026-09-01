@@ -1,10 +1,9 @@
 {
-    "version": "1.1.608",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.608/NovaPanel-v1.1.608.zip",
+    "version": "1.1.609",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.609/NovaPanel-v1.1.609.zip",
     "notes": [
-        "Mirage PHASE 2 — all 15 Runes Charm has are wired to real data now (CEO: \"it will have all the runes that Charm has\"): Battery, FPS (game-session-scoped), Weather, Volume, Brightness, Microphone, Bluetooth & Wi-Fi, Power Plan (those five…",
-        "Because the band is shallow, more than a handful of active Runes now page — a scrolling/cycling strip on an 8-second timer, per the CEO's own answer to \"what happens when more is enabled than fits.\" The window's own height clamps to the…",
-        "Not yet built, named so it isn't mistaken for broken: a Panel Editor control to pick Mirage's own style axes (hardware- vs metric-grouped sensors, single- vs double-row) — the settings are real and the panel reacts to them live, there's…"
+        "Mirage — built the Panel Editor control for the style axes (CEO: \"build the panel editor\"). Fixed a real duplication along the way: Mirage's sensor grouping had been reading its own invented `sensorGrouping` setting when Charm already has…",
+        "Row density (single/double) has no existing Sigil setting to map onto, so it's a genuinely new control — 'Row density' on the same Sensors tab, visible only when a theme declares `sensorRows` (verified both ways in a real harness: shown…"
     ],
     "required": false
 }
