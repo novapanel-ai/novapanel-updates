@@ -1,9 +1,8 @@
 {
-    "version": "1.1.613",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.613/NovaPanel-v1.1.613.zip",
+    "version": "1.1.614",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.614/NovaPanel-v1.1.614.zip",
     "notes": [
-        "Fixed the Position map offering 9 placement cells for Mirage (CEO: \"there should be 3 zones not 9 top middle and bottom\"). A monitor-fill-width panel always spans the full display, so it has no left/right to place — the 3x3 grid was…",
-        "Fixed Mirage vanishing after repeated Position-map clicks (CEO: \"I clicked too much and the mirage went poof\"). Root cause: a stale full-monitor-size preset had resized the LIVE window directly at some earlier point, and the autoHeight…"
+        "Mirage no longer gets covered by an auto-hide taskbar when it slides out (CEO screenshot: the bottom readout row was hidden under the taskbar). A permanently docked taskbar already shrinks the work area Mirage is measured against, so that…"
     ],
     "required": false
 }
