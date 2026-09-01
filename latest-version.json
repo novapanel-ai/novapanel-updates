@@ -1,8 +1,10 @@
 {
-    "version": "1.1.606",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.606/NovaPanel-v1.1.606.zip",
+    "version": "1.1.607",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.607/NovaPanel-v1.1.607.zip",
     "notes": [
-        "The Portals card line was STILL restating the card's own name (\"saved panel · 186×820 · Charm\" under a card titled Charm) and still speaking an internal config term (\"saved panel\") nobody outside this codebase reads as anything. Replaced…"
+        "Mirage (Blend Mode) — PHASE 1, not yet in the theme picker's finished state but selectable: a portal that spans the full width of whichever monitor it's on, sits BEHIND every other window rather than on top of them (new mechanism — a…",
+        "New shared capability, not a Mirage special case: a theme may declare `zOrder: 'behindDesktop'` (foundation-window.js) to stay pinned below every other window — any current or future panel can adopt it.",
+        "Fixed a real gap found while building the above: the per-axis `size: {width:'monitor',...}` declaration already existed (even written into Charm's own entry) but was never consumed anywhere. Wired it into the one place every panel's…"
     ],
     "required": false
 }
