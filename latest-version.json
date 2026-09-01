@@ -1,10 +1,10 @@
 {
-    "version": "1.1.607",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.607/NovaPanel-v1.1.607.zip",
+    "version": "1.1.608",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.608/NovaPanel-v1.1.608.zip",
     "notes": [
-        "Mirage (Blend Mode) — PHASE 1, not yet in the theme picker's finished state but selectable: a portal that spans the full width of whichever monitor it's on, sits BEHIND every other window rather than on top of them (new mechanism — a…",
-        "New shared capability, not a Mirage special case: a theme may declare `zOrder: 'behindDesktop'` (foundation-window.js) to stay pinned below every other window — any current or future panel can adopt it.",
-        "Fixed a real gap found while building the above: the per-axis `size: {width:'monitor',...}` declaration already existed (even written into Charm's own entry) but was never consumed anywhere. Wired it into the one place every panel's…"
+        "Mirage PHASE 2 — all 15 Runes Charm has are wired to real data now (CEO: \"it will have all the runes that Charm has\"): Battery, FPS (game-session-scoped), Weather, Volume, Brightness, Microphone, Bluetooth & Wi-Fi, Power Plan (those five…",
+        "Because the band is shallow, more than a handful of active Runes now page — a scrolling/cycling strip on an 8-second timer, per the CEO's own answer to \"what happens when more is enabled than fits.\" The window's own height clamps to the…",
+        "Not yet built, named so it isn't mistaken for broken: a Panel Editor control to pick Mirage's own style axes (hardware- vs metric-grouped sensors, single- vs double-row) — the settings are real and the panel reacts to them live, there's…"
     ],
     "required": false
 }
