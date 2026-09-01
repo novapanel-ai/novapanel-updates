@@ -1,9 +1,9 @@
 {
-    "version": "1.1.612",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.612/NovaPanel-v1.1.612.zip",
+    "version": "1.1.613",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.613/NovaPanel-v1.1.613.zip",
     "notes": [
-        "Mirage no longer offers an Image layer (CEO: \"we are not doing an image layer we are doing a gradient layer\") — the Layers tab always offered one for every panel by an explicit earlier ruling that was Charm's, not a universal law; a theme…",
-        "Fixed the Layers tab's exploded stack drawing every panel as Charm's shape. It was tuned once for a tall narrow strip and never asked whether a panel is actually that shape — a wide short band just clamped to the same ceiling and got…"
+        "Fixed the Position map offering 9 placement cells for Mirage (CEO: \"there should be 3 zones not 9 top middle and bottom\"). A monitor-fill-width panel always spans the full display, so it has no left/right to place — the 3x3 grid was…",
+        "Fixed Mirage vanishing after repeated Position-map clicks (CEO: \"I clicked too much and the mirage went poof\"). Root cause: a stale full-monitor-size preset had resized the LIVE window directly at some earlier point, and the autoHeight…"
     ],
     "required": false
 }
