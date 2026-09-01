@@ -1,9 +1,8 @@
 {
-    "version": "1.1.610",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.610/NovaPanel-v1.1.610.zip",
+    "version": "1.1.611",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.611/NovaPanel-v1.1.611.zip",
     "notes": [
-        "Fixed Mirage opening at the wrong size and position, reported live (CEO screenshot: an LG UltraFine 4K display, the panel drawn narrow and low). Root cause: the function that decides a FRESH panel's opening size (`computeStartupBounds`)…",
-        "Answers the CEO's taskbar question directly: no separate taskbar-detection needed. The fix already resolves against Windows' own work area, which the OS shrinks when the taskbar is docked and reserving space, and reports full-screen when…"
+        "Fixed Mirage's width getting swapped between monitors of different sizes (CEO: \"the width is reversed somehow, one too long the other too short\"). Root cause: the monitor-move handler asked \"what is this panel's declared width\" at the…"
     ],
     "required": false
 }
