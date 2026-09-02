@@ -1,10 +1,8 @@
 {
-    "version": "1.1.618",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.618/NovaPanel-v1.1.618.zip",
+    "version": "1.1.619",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.619/NovaPanel-v1.1.619.zip",
     "notes": [
-        "Found and fixed the real reason Mirage's height has never behaved reliably: the code that resizes Mirage to fit its own content called `foundationPanel.fitHeight`, a method that has never existed there — the real one lives under a…",
-        "Replaced the per-machine taskbar auto-hide detection from v1.1.614 with a flat, always-on margin (CEO: \"the top and bottom will have the 48+16 from the 480, so the total is 608px max height\"). Mirage's content is 240-480px as before, but…",
-        "Mirage's Panel Editor no longer offers Always-on-top or Snap-while-dragging, and its Width readouts (Layers, Configure, Position) now read Height, its actual adjustable dimension — carried over from the same conversation, unaffected by…"
+        "Fixed Mirage growing wider than the monitor and sliding partly off-screen the moment its height self-corrected (the very fix that just landed in v1.1.618). Real cause: the width self-correction that runs alongside every height fit reads a…"
     ],
     "required": false
 }
