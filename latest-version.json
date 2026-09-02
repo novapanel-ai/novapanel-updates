@@ -1,8 +1,9 @@
 {
-    "version": "1.1.620",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.620/NovaPanel-v1.1.620.zip",
+    "version": "1.1.621",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.621/NovaPanel-v1.1.621.zip",
     "notes": [
-        "Fixed Mirage's bottom edge sitting well past the true bottom of the screen after growing to fit its content (measured live: 128px of the panel's own bottom hanging off-screen, invisible). Root cause: the code that re-aligns a panel to its…"
+        "Found and fixed the real editor glitch (CEO: \"it's not the portal, it's the editor for Mirage only\"). The Configure tab's live panel mirror loads a preview page that was built entirely around Charm's renderer and CSS, with a fixed declared…",
+        "Also hardened Mirage's own content rendering against a real, separate, smaller version of the same idea: it fully cleared and rebuilt its display roughly once a second (matching every live sensor update), which is invisible on an opaque…"
     ],
     "required": false
 }
