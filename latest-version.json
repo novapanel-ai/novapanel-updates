@@ -1,8 +1,11 @@
 {
-    "version": "1.1.624",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.624/NovaPanel-v1.1.624.zip",
+    "version": "1.1.625",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.625/NovaPanel-v1.1.625.zip",
     "notes": [
-        "Fixed Mirage's Configure tab showing almost none of its Runes (CEO: \"several are just missing from the view\") — a real regression from v1.1.621's fix for the wrong-preview-engine glitch. That fix correctly stopped Mirage from loading…"
+        "Fixed the Mirage portal resizing itself roughly once a second, forever — the flicker. Caught in the live log as 59 consecutive identical width corrections, height already correct every time. It was a closed loop: to resize a fixed-size…",
+        "The Panel Editor no longer resizes itself when you open a different portal's editor. Every editor was sharing ONE saved window size, but different editors disagree about which sizes are even legal — so a size saved by one and rejected by…",
+        "Clicking a monitor to place a portal now saves and moves in a guaranteed order, instead of racing a delayed save against the move it was supposed to precede.",
+        "Three internal robustness fixes behind the above, aimed at the pattern rather than the symptom: a panel that depends on an app method that isn't there now says so loudly in the log instead of silently doing nothing forever (this is the…"
     ],
     "required": false
 }
