@@ -1,10 +1,11 @@
 {
-    "version": "1.1.636",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.636/NovaPanel-v1.1.636.zip",
+    "version": "1.1.637",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.637/NovaPanel-v1.1.637.zip",
     "notes": [
-        "Completes the Mirage rebuild fix. The previous version stopped the leak and stopped the heavy pages being rebuilt on every data tick, but the sensor reading pages were still torn down and rebuilt once a second. They are now updated in…",
-        "The page contents are only swapped when the composition genuinely changed, so a quiet tick now performs no page operations whatsoever. When a swap is needed it is still a single atomic operation, because Mirage paints no background and any…",
-        "Verified live over 14 seconds on the running panel: the reading row was the same element throughout, the panel body was never rebuilt once, and the readings continued updating normally — so nothing is frozen and nothing is being torn down."
+        "The Layers tab now asks the portal what it actually has. Every other tab already checks a portal declared capabilities before offering a control; this one did not, and offered Charm complete control set to every portal regardless. Mirage…",
+        "Fixed the gradient stop controls being cut off. Alpha and Position shared one row that needed 624 pixels in a 600 pixel pane, so the Position half was clipped off the right edge with no scrollbar and no sign anything was missing — which is…",
+        "The default gradient is now fully transparent at every stop, so a fresh Mirage paints no tint until you raise one.",
+        "Text controls added to Mirage: text, text dim and accent. These were deliberately withheld on 2026-08-31 under the rule that a portal must not offer a control it will ignore, and that was correct at the time because nothing in the theme…"
     ],
     "required": false
 }
