@@ -1,12 +1,11 @@
 {
-    "version": "1.1.626",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.626/NovaPanel-v1.1.626.zip",
+    "version": "1.1.627",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.627/NovaPanel-v1.1.627.zip",
     "notes": [
-        "Fixed the Panel Editor remembering a window size nobody chose. Root cause measured on a two-monitor desk running 125% and 150% scaling: Windows raises resize events the app was recording as if you had dragged the window edge. Two of them.…",
-        "The Control Panel window had the identical bug for the identical reason and is fixed by the same shared guard, not a second copy of it.",
-        "One-time reset of the two remembered window sizes. The fix stops new drift but cannot tell an already-inflated size from one you chose on purpose, and the inflated value outranks the default — so both windows start from their proper size…",
-        "The portal name in the editor title bar can drag the window again. Adding the name last version placed it inside the title bar control group, which is excluded from dragging to protect the close button, silently turning the name and the…",
-        "The editor should track the cursor more closely while being dragged. The forced repaint that ran about 16 times a second during a drag now runs once, where the window comes to rest: this window is transparent, so a forced repaint…"
+        "The Panel Editors now drag and move exactly like the Control Panel, because they are now built like it. The Control Panel is an opaque window that declares a drag region and lets Windows move it; the editors were the only windows that were…",
+        "The transparency was paying for a card corner and shadow that were not visible. Measured in the running editor before changing anything: the shell does carry a 10px corner and a 22/56px shadow, but the page body underneath is already…",
+        "The editor is dragged by Windows now instead of by JavaScript. That JavaScript existed only because shrinking the window offset the operating system drag region, and the shrink was removed on 2026-08-10, so the problem it worked around no…",
+        "Removed the drag-time mitigations that only existed to relieve the transparent surface: the shadow suppression during a drag, and the pause on the editor four one-second timers added last version. The Control Panel has neither and is the…"
     ],
     "required": false
 }
