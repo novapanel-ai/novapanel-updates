@@ -1,10 +1,9 @@
 {
-    "version": "1.1.633",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.633/NovaPanel-v1.1.633.zip",
+    "version": "1.1.634",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.634/NovaPanel-v1.1.634.zip",
     "notes": [
-        "A portal that is open is now checked, continuously, for actually being on the screen — and put back if it is not. The application could already restore a portal position, but only when something told it to: a display being added, removed…",
-        "The position map now redraws instantly when a monitor is clicked, not just an anchor. Clicking a monitor was the one action on that map still waiting for the move to finish before it drew anything, which made it the slowest thing on the…",
-        "Fixed two portals wrongly having no Remove button. A theme can be marked non-removable, meaning it cannot be deleted from the theme list, and that flag was being used to decide whether the PORTAL could be deleted. Those are only the same…"
+        "Corrected which of the two default portals cannot be removed. It is the Hardware Panel, and this is not a judgement call: the application refuses exactly one portal id when asked to delete one, and that id is the Hardware Panel. Main Panel…",
+        "Verified in the running list: Main Panel has its Remove button, Hardware Panel, Charm and Mirage do not."
     ],
     "required": false
 }
