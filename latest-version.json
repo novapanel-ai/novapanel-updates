@@ -1,11 +1,12 @@
 {
-    "version": "1.1.625",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.625/NovaPanel-v1.1.625.zip",
+    "version": "1.1.626",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.626/NovaPanel-v1.1.626.zip",
     "notes": [
-        "Fixed the Mirage portal resizing itself roughly once a second, forever — the flicker. Caught in the live log as 59 consecutive identical width corrections, height already correct every time. It was a closed loop: to resize a fixed-size…",
-        "The Panel Editor no longer resizes itself when you open a different portal's editor. Every editor was sharing ONE saved window size, but different editors disagree about which sizes are even legal — so a size saved by one and rejected by…",
-        "Clicking a monitor to place a portal now saves and moves in a guaranteed order, instead of racing a delayed save against the move it was supposed to precede.",
-        "Three internal robustness fixes behind the above, aimed at the pattern rather than the symptom: a panel that depends on an app method that isn't there now says so loudly in the log instead of silently doing nothing forever (this is the…"
+        "Fixed the Panel Editor remembering a window size nobody chose. Root cause measured on a two-monitor desk running 125% and 150% scaling: Windows raises resize events the app was recording as if you had dragged the window edge. Two of them.…",
+        "The Control Panel window had the identical bug for the identical reason and is fixed by the same shared guard, not a second copy of it.",
+        "One-time reset of the two remembered window sizes. The fix stops new drift but cannot tell an already-inflated size from one you chose on purpose, and the inflated value outranks the default — so both windows start from their proper size…",
+        "The portal name in the editor title bar can drag the window again. Adding the name last version placed it inside the title bar control group, which is excluded from dragging to protect the close button, silently turning the name and the…",
+        "The editor should track the cursor more closely while being dragged. The forced repaint that ran about 16 times a second during a drag now runs once, where the window comes to rest: this window is transparent, so a forced repaint…"
     ],
     "required": false
 }
