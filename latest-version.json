@@ -1,10 +1,10 @@
 {
-    "version": "1.1.617",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.617/NovaPanel-v1.1.617.zip",
+    "version": "1.1.618",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.618/NovaPanel-v1.1.618.zip",
     "notes": [
-        "Fixed the real cause of Mirage sitting under the taskbar again after the v1.1.614 fix (CEO: \"mirage is below the taskbar again now its right at the bottom\"). The fix for the earlier 'Aorus went to 620px tall' bug compared a panel's live…",
-        "Mirage no longer offers Always-on-top or Snap-while-dragging in the Panel Editor (CEO: \"Mirage doesn't have 'always on top'... also remove snap while dragging not used\") — both were wired for every theme with no visibility gate at all…",
-        "The Panel Editor's Width readout (Layers, Configure, and Position tabs) now reads Height for Mirage instead (CEO: \"width needs to be height for mirage... I want to know how tall it is because this is the adjustable dimension\") — a…"
+        "Found and fixed the real reason Mirage's height has never behaved reliably: the code that resizes Mirage to fit its own content called `foundationPanel.fitHeight`, a method that has never existed there — the real one lives under a…",
+        "Replaced the per-machine taskbar auto-hide detection from v1.1.614 with a flat, always-on margin (CEO: \"the top and bottom will have the 48+16 from the 480, so the total is 608px max height\"). Mirage's content is 240-480px as before, but…",
+        "Mirage's Panel Editor no longer offers Always-on-top or Snap-while-dragging, and its Width readouts (Layers, Configure, Position) now read Height, its actual adjustable dimension — carried over from the same conversation, unaffected by…"
     ],
     "required": false
 }
