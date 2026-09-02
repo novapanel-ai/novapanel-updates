@@ -1,10 +1,8 @@
 {
-    "version": "1.1.631",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.631/NovaPanel-v1.1.631.zip",
+    "version": "1.1.632",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.632/NovaPanel-v1.1.632.zip",
     "notes": [
-        "The editor no longer sends the portal a size it does not own, which was making every placement click far more expensive than it needed to be. Found in the applications own log: one anchor click on Mirage sent a height of 240 while the…",
-        "The theme already declares which dimension belongs to the panel and which to the monitor, and it is the same declaration that hides the size controls for these panels. The save now asks it instead of shipping a number it inherited and…",
-        "Measured after the change: the portal itself now moves in 43 to 70 milliseconds, against 269 plus the animation before, and its height holds steady at 368 throughout instead of dipping to 240 and easing back. The map redraws in 2 to 15…"
+        "The helper that keeps a behind-everything portal behind everything is now restarted if it dies. Until now, if it stopped for any reason, one line went into the log and that was the end of it: the portal z-order was never asserted again for…"
     ],
     "required": false
 }
