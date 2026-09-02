@@ -1,8 +1,8 @@
 {
-    "version": "1.1.619",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.619/NovaPanel-v1.1.619.zip",
+    "version": "1.1.620",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.620/NovaPanel-v1.1.620.zip",
     "notes": [
-        "Fixed Mirage growing wider than the monitor and sliding partly off-screen the moment its height self-corrected (the very fix that just landed in v1.1.618). Real cause: the width self-correction that runs alongside every height fit reads a…"
+        "Fixed Mirage's bottom edge sitting well past the true bottom of the screen after growing to fit its content (measured live: 128px of the panel's own bottom hanging off-screen, invisible). Root cause: the code that re-aligns a panel to its…"
     ],
     "required": false
 }
