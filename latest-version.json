@@ -1,9 +1,9 @@
 {
-    "version": "1.1.621",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.621/NovaPanel-v1.1.621.zip",
+    "version": "1.1.622",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.622/NovaPanel-v1.1.622.zip",
     "notes": [
-        "Found and fixed the real editor glitch (CEO: \"it's not the portal, it's the editor for Mirage only\"). The Configure tab's live panel mirror loads a preview page that was built entirely around Charm's renderer and CSS, with a fixed declared…",
-        "Also hardened Mirage's own content rendering against a real, separate, smaller version of the same idea: it fully cleared and rebuilt its display roughly once a second (matching every live sensor update), which is invisible on an opaque…"
+        "Mirage's gradient scrim is now a real, listed, editable Layers-tab layer instead of invisible hardcoded CSS (CEO: \"you have a gradient on the mirage but you do not list it in the layers. You need to add it below the base layer and wire up…",
+        "New panels seeded before this version won't pick up the new default automatically (declared defaults only apply at a panel's first creation) — the CEO's own already-existing Mirage panel was migrated directly onto the new layer without a…"
     ],
     "required": false
 }
