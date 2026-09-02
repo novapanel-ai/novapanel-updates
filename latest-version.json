@@ -1,10 +1,8 @@
 {
-    "version": "1.1.623",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.623/NovaPanel-v1.1.623.zip",
+    "version": "1.1.624",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.624/NovaPanel-v1.1.624.zip",
     "notes": [
-        "The Panel Editor's header now shows the portal's name beside the close button (CEO: \"The Editor needs the portal name in the header\") — reused an existing element that already held the right value and was already kept up to date on open…",
-        "Right-clicking a portal now shows only that portal's own entry (itself + its Settings) instead of listing every other open portal too (CEO: \"When right clicking a portal we only show the CP and the editor for that portal not other open…",
-        "Mirage, Charm, and the default Hardware Panel theme can no longer be removed from the Panels list or the Themes tab (CEO: \"Mirage, Charm and (Main) are not removable they shouldn't have a remove button\") — each already declared itself…"
+        "Fixed Mirage's Configure tab showing almost none of its Runes (CEO: \"several are just missing from the view\") — a real regression from v1.1.621's fix for the wrong-preview-engine glitch. That fix correctly stopped Mirage from loading…"
     ],
     "required": false
 }
