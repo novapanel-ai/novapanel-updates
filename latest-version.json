@@ -1,9 +1,10 @@
 {
-    "version": "1.1.616",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.616/NovaPanel-v1.1.616.zip",
+    "version": "1.1.617",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.617/NovaPanel-v1.1.617.zip",
     "notes": [
-        "Fixed three Panel Editor readouts that always printed \"150 px\" for Mirage regardless of its real size (CEO: \"'width 150px' definitely is confusing for mirage\") — the Layers, Configure and Position tabs' width cells all read a portalWidth…",
-        "Fixed Mirage's sensor/battery/FPS/weather readings shifting the whole row sideways as their digit count changed (CEO: \"you broke the rule about the values space being wide enough for the highest value so that shit doesn't move when my ram…"
+        "Fixed the real cause of Mirage sitting under the taskbar again after the v1.1.614 fix (CEO: \"mirage is below the taskbar again now its right at the bottom\"). The fix for the earlier 'Aorus went to 620px tall' bug compared a panel's live…",
+        "Mirage no longer offers Always-on-top or Snap-while-dragging in the Panel Editor (CEO: \"Mirage doesn't have 'always on top'... also remove snap while dragging not used\") — both were wired for every theme with no visibility gate at all…",
+        "The Panel Editor's Width readout (Layers, Configure, and Position tabs) now reads Height for Mirage instead (CEO: \"width needs to be height for mirage... I want to know how tall it is because this is the adjustable dimension\") — a…"
     ],
     "required": false
 }
