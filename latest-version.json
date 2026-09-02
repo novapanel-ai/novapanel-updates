@@ -1,9 +1,12 @@
 {
-    "version": "1.1.634",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.634/NovaPanel-v1.1.634.zip",
+    "version": "1.1.635",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.635/NovaPanel-v1.1.635.zip",
     "notes": [
-        "Corrected which of the two default portals cannot be removed. It is the Hardware Panel, and this is not a judgement call: the application refuses exactly one portal id when asked to delete one, and that id is the Hardware Panel. Main Panel…",
-        "Verified in the running list: Main Panel has its Remove button, Hardware Panel, Charm and Mirage do not."
+        "Fixed a severe memory leak in the Mirage portal. Measured on the affected machine: 18.3 GB held by the application on a 32 GB box, with the graphics process climbing about 4.8 GB per minute and the Mirage window about 830 MB per minute…",
+        "The graphics process climbed six times faster than the window because two of those pages hold graphics-backed elements: a looping, auto-playing video and an album-art image. A new one was created every second and the previous one was…",
+        "Three changes. The portal now decides which page to show before building anything, and only the page about to be shown is ever constructed. Each page knows what would make it look different, so an ordinary data tick no longer rebuilds a…",
+        "The page rotation is unchanged at eight seconds. Slowing it was explicitly not the fix — it would only have hidden the number.",
+        "Also fixed while in there: the rotation timer was being cancelled and restarted on every render, which happens about once a second, so it could never reach its eight-second interval. It is now armed once, when the number of pages changes."
     ],
     "required": false
 }
