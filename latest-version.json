@@ -1,11 +1,9 @@
 {
-    "version": "1.1.627",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.627/NovaPanel-v1.1.627.zip",
+    "version": "1.1.628",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.628/NovaPanel-v1.1.628.zip",
     "notes": [
-        "The Panel Editors now drag and move exactly like the Control Panel, because they are now built like it. The Control Panel is an opaque window that declares a drag region and lets Windows move it; the editors were the only windows that were…",
-        "The transparency was paying for a card corner and shadow that were not visible. Measured in the running editor before changing anything: the shell does carry a 10px corner and a 22/56px shadow, but the page body underneath is already…",
-        "The editor is dragged by Windows now instead of by JavaScript. That JavaScript existed only because shrinking the window offset the operating system drag region, and the shrink was removed on 2026-08-10, so the problem it worked around no…",
-        "Removed the drag-time mitigations that only existed to relieve the transparent surface: the shadow suppression during a drag, and the pause on the editor four one-second timers added last version. The Control Panel has neither and is the…"
+        "Fixed Charm briefly appearing doubled while being dragged. A forced repaint runs during a portal drag to clear the frame left behind when the operating system moves a transparent window faster than its contents redraw. That repaint was…",
+        "Recorded, because it is the more useful half: a shared path was changed on evidence gathered from one of its callers. The reasoning was correct for the editor and was not the editor to make on the portals behalf."
     ],
     "required": false
 }
