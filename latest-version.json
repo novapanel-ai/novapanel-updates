@@ -1,9 +1,10 @@
 {
-    "version": "1.1.628",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.628/NovaPanel-v1.1.628.zip",
+    "version": "1.1.629",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.629/NovaPanel-v1.1.629.zip",
     "notes": [
-        "Fixed Charm briefly appearing doubled while being dragged. A forced repaint runs during a portal drag to clear the frame left behind when the operating system moves a transparent window faster than its contents redraw. That repaint was…",
-        "Recorded, because it is the more useful half: a shared path was changed on evidence gathered from one of its callers. The reasoning was correct for the editor and was not the editor to make on the portals behalf."
+        "The Position map now updates as fast as the portal moves. Clicking an anchor or a monitor used to refresh the map at two fixed moments after the click, 260ms and 900ms, and then not again until a background poll came round every 1.5…",
+        "Setting an anchor also sends the change immediately instead of letting it sit on an 80ms debounce while the map races it with its own round trips.",
+        "The Height reading beside the map no longer blanks to a dash if a single position read fails. The map next to it already kept showing the last known position in that case, by design; the number did not."
     ],
     "required": false
 }
