@@ -1,11 +1,11 @@
 {
-    "version": "1.1.637",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.637/NovaPanel-v1.1.637.zip",
+    "version": "1.1.638",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.638/NovaPanel-v1.1.638.zip",
     "notes": [
-        "The Layers tab now asks the portal what it actually has. Every other tab already checks a portal declared capabilities before offering a control; this one did not, and offered Charm complete control set to every portal regardless. Mirage…",
-        "Fixed the gradient stop controls being cut off. Alpha and Position shared one row that needed 624 pixels in a 600 pixel pane, so the Position half was clipped off the right edge with no scrollbar and no sign anything was missing — which is…",
-        "The default gradient is now fully transparent at every stop, so a fresh Mirage paints no tint until you raise one.",
-        "Text controls added to Mirage: text, text dim and accent. These were deliberately withheld on 2026-08-31 under the rule that a portal must not offer a control it will ignore, and that was correct at the time because nothing in the theme…"
+        "Cards restored and made to work on Mirage. Removing them was a misreading of the instruction and that was my error. The layer was real and editable the whole time, and this theme simply ignored every value it produced, so each control…",
+        "Mirage now declares its own default card style as no surface at all, so an untouched panel looks exactly as it did before: a bare band of readings separated by hairlines. Making a control work must not quietly restyle the panel, and the…",
+        "The gradient editor rebuilt around the ramp. The ramp itself is now the control and the preview at once: the real gradient drawn on a checkerboard so transparency reads as transparency, with a draggable handle for each stop. Dragging a…",
+        "The old editor gave no view of the thing being edited, which broke the standing rule that every style choice in the editor needs a real live preview."
     ],
     "required": false
 }
