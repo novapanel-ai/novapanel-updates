@@ -1,12 +1,12 @@
 {
-    "version": "1.1.640",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.640/NovaPanel-v1.1.640.zip",
+    "version": "1.1.641",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.641/NovaPanel-v1.1.641.zip",
     "notes": [
-        "Mirage now has a layout picker. Choosing a layout is the first thing you do with the strip, and it decides everything after it: how many cards there are, what shape each one is, and therefore which content each one can hold. Six layouts…",
-        "The picker's thumbnails are drawn by the same code the portal itself uses, from the same declaration, so a thumbnail cannot promise a shape the panel then draws differently. They are also drawn at the real proportion of the display the…",
-        "The height of the strip now belongs to the layout rather than to a slider, and it is a quarter of the display's height with a floor for legibility on small screens, so it holds the same proportion of the screen at every resolution. The top…",
-        "Fixed three places where a chosen layout would have been accepted, acknowledged and then silently lost: the settings loader, the panel update handler and the panel's own first read. Two of those are whitelists where a field nobody names is…",
-        "The list of settings sent to a panel existed in four identical copies. It is one list now. Four copies is four chances for a panel to be told about a setting on one path and forgotten on another, and that failure looks like a control that…"
+        "Mirage cards can now hold content. Each card in the chosen layout offers a list of what will fit in it, you pick one per card, and the portal draws it. The list is worked out from the card's actual size rather than kept in a table…",
+        "The first piece of content is the date and time, and it is not one design that stretches. It is five compositions, and which one you get depends on the shape of the card it lands in. A tall narrow card stacks the weekday, the time and the…",
+        "Throughout, the hour carries the visual weight and the minute is smaller beside it. The intent is that the largest thing on screen should also be the slowest to change, so a clock that is legible across the room is not also the thing…",
+        "Seconds are deliberately not offered anywhere. At any size where they would be readable they dominate the amount of movement on the panel, and Mirage sits behind your windows all day.",
+        "What is in each card is remembered per layout, so trying a different layout and coming back does not lose the arrangement you had."
     ],
     "required": false
 }
