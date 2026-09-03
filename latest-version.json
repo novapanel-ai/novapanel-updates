@@ -1,11 +1,10 @@
 {
-    "version": "1.1.638",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.638/NovaPanel-v1.1.638.zip",
+    "version": "1.1.639",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.639/NovaPanel-v1.1.639.zip",
     "notes": [
-        "Cards restored and made to work on Mirage. Removing them was a misreading of the instruction and that was my error. The layer was real and editable the whole time, and this theme simply ignored every value it produced, so each control…",
-        "Mirage now declares its own default card style as no surface at all, so an untouched panel looks exactly as it did before: a bare band of readings separated by hairlines. Making a control work must not quietly restyle the panel, and the…",
-        "The gradient editor rebuilt around the ramp. The ramp itself is now the control and the preview at once: the real gradient drawn on a checkerboard so transparency reads as transparency, with a draggable handle for each stop. Dragging a…",
-        "The old editor gave no view of the thing being edited, which broke the standing rule that every style choice in the editor needs a real live preview."
+        "Fixed the Control Panel opening itself every five minutes. A scheduled task called NovaPanel App Watchdog launches the application executable every five minutes and does not check whether it is already running. Windows only allows one…",
+        "The app already knows whether you want that window open, because closing it records exactly that, and the startup path already honours it. This path ignored it, and that inconsistency was the whole defect. A second launch now raises the…",
+        "Separately, the layouts the CEO defined for Mirage are now recorded as data rather than as a drawing, so the picker thumbnails, the editing stage and the portal itself all render from one declaration and cannot drift apart. The strip is…"
     ],
     "required": false
 }
