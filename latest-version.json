@@ -1,10 +1,12 @@
 {
-    "version": "1.1.639",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.639/NovaPanel-v1.1.639.zip",
+    "version": "1.1.640",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.640/NovaPanel-v1.1.640.zip",
     "notes": [
-        "Fixed the Control Panel opening itself every five minutes. A scheduled task called NovaPanel App Watchdog launches the application executable every five minutes and does not check whether it is already running. Windows only allows one…",
-        "The app already knows whether you want that window open, because closing it records exactly that, and the startup path already honours it. This path ignored it, and that inconsistency was the whole defect. A second launch now raises the…",
-        "Separately, the layouts the CEO defined for Mirage are now recorded as data rather than as a drawing, so the picker thumbnails, the editing stage and the portal itself all render from one declaration and cannot drift apart. The strip is…"
+        "Mirage now has a layout picker. Choosing a layout is the first thing you do with the strip, and it decides everything after it: how many cards there are, what shape each one is, and therefore which content each one can hold. Six layouts…",
+        "The picker's thumbnails are drawn by the same code the portal itself uses, from the same declaration, so a thumbnail cannot promise a shape the panel then draws differently. They are also drawn at the real proportion of the display the…",
+        "The height of the strip now belongs to the layout rather than to a slider, and it is a quarter of the display's height with a floor for legibility on small screens, so it holds the same proportion of the screen at every resolution. The top…",
+        "Fixed three places where a chosen layout would have been accepted, acknowledged and then silently lost: the settings loader, the panel update handler and the panel's own first read. Two of those are whitelists where a field nobody names is…",
+        "The list of settings sent to a panel existed in four identical copies. It is one list now. Four copies is four chances for a panel to be told about a setting on one path and forgotten on another, and that failure looks like a control that…"
     ],
     "required": false
 }
