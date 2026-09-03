@@ -1,12 +1,12 @@
 {
-    "version": "1.1.641",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.641/NovaPanel-v1.1.641.zip",
+    "version": "1.1.642",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.642/NovaPanel-v1.1.642.zip",
     "notes": [
-        "Mirage cards can now hold content. Each card in the chosen layout offers a list of what will fit in it, you pick one per card, and the portal draws it. The list is worked out from the card's actual size rather than kept in a table…",
-        "The first piece of content is the date and time, and it is not one design that stretches. It is five compositions, and which one you get depends on the shape of the card it lands in. A tall narrow card stacks the weekday, the time and the…",
-        "Throughout, the hour carries the visual weight and the minute is smaller beside it. The intent is that the largest thing on screen should also be the slowest to change, so a clock that is legible across the room is not also the thing…",
-        "Seconds are deliberately not offered anywhere. At any size where they would be readable they dominate the amount of movement on the panel, and Mirage sits behind your windows all day.",
-        "What is in each card is remembered per layout, so trying a different layout and coming back does not lose the arrangement you had."
+        "Weather can now go in a Mirage card, and like the clock it is not one design that stretches. A tall narrow card shows the icon, the temperature and the day's range. A wider one puts the icon above the temperature with the conditions beside…",
+        "Because the forecast row fills the width rather than sitting in the middle of it, Weather can go in the very wide cards that Date and Time refuses. A clock in a card nine times wider than it is tall would either float in a sea of empty…",
+        "A reading that has not arrived shows as a dash rather than a zero, and the card does not change shape when it does arrive. That applies to a lost connection as much as to a first start: whatever the weather does, the layout stays where it…",
+        "Conditions have two wordings and the card picks by how much room it has, so a narrow card says RAIN where a wide one has space for FREEZING DRIZZLE. Both come from the same source as the icon, so the picture and the words can never…",
+        "Fixed a group of small alignment faults found while measuring: content that tiled a card was leaving all of its leftover pixels on one side, and side margins were being rounded independently so the two edges could differ by a pixel."
     ],
     "required": false
 }
