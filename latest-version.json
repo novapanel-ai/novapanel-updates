@@ -1,12 +1,12 @@
 {
-    "version": "1.1.642",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.642/NovaPanel-v1.1.642.zip",
+    "version": "1.1.643",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.643/NovaPanel-v1.1.643.zip",
     "notes": [
-        "Weather can now go in a Mirage card, and like the clock it is not one design that stretches. A tall narrow card shows the icon, the temperature and the day's range. A wider one puts the icon above the temperature with the conditions beside…",
-        "Because the forecast row fills the width rather than sitting in the middle of it, Weather can go in the very wide cards that Date and Time refuses. A clock in a card nine times wider than it is tall would either float in a sea of empty…",
-        "A reading that has not arrived shows as a dash rather than a zero, and the card does not change shape when it does arrive. That applies to a lost connection as much as to a first start: whatever the weather does, the layout stays where it…",
-        "Conditions have two wordings and the card picks by how much room it has, so a narrow card says RAIN where a wide one has space for FREEZING DRIZZLE. Both come from the same source as the icon, so the picture and the words can never…",
-        "Fixed a group of small alignment faults found while measuring: content that tiled a card was leaving all of its leftover pixels on one side, and side margins were being rounded independently so the two edges could differ by a pixel."
+        "Calendar joins Date and Time and Weather as content you can put in a Mirage card. In a tall card it is the month, with today marked and the grid always six rows deep so it never changes shape as the months do. In a short card it is the…",
+        "The band now stands further off the taskbar. It always sat above it, but clearing something and standing away from it are different things, and the readings were close enough to the edge to look wedged rather than placed.",
+        "The thin lines inside the cards were reading as a border drawn round each one. They are not decoration and they are not measurement marks: they hold the parts of a card that the content does not reach, so it never has an empty corner. They…",
+        "Weather no longer prints the word UNKNOWN. That was the weather service's internal label for a reading it did not recognise, and it told you nothing except that the software was confused; an unreadable reading now shows the same way a…",
+        "Groundwork for the remaining content types is in place but not yet offered. They are held back because they do not yet meet the layout standard the first three are held to, and putting them out early would mean cards that are visibly wrong…"
     ],
     "required": false
 }
