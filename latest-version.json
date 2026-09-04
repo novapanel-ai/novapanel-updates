@@ -1,10 +1,9 @@
 {
-    "version": "1.1.644",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.644/NovaPanel-v1.1.644.zip",
+    "version": "1.1.645",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.645/NovaPanel-v1.1.645.zip",
     "notes": [
-        "The Desktop layer in the panel editor now shows your actual wallpaper. It used to draw a flat floor, because the app had no way to read the real desktop. It has one now, and it matters most for Mirage: a portal whose whole claim is that it…",
-        "Mirage is set in Inter, and lighter. The face ships with the theme rather than being hoped for, so the portal looks the same on a machine that has never seen Inter as it does here; weight comes down across every reading, because a panel…",
-        "The panel editor stopped calling every theme Charm. The layer stage said \"Charm layers\" while you were editing Mirage — the drawing underneath had been theme-aware for weeks, only the sentence naming it had not."
+        "Fleet Command (NP-CTRL-01's display) now shows restart count and smoke-test result per unattended machine, when that machine actually produces the data. Nothing is shown for a node that doesn't run the watchdog or the smoke harness -- no…",
+        "The unattended-machine watchdog now logs every time it actually had to restart the app, not just whether it's up right now. That's what feeds the restart count above; it only counts a genuine restart, never a tick where the app was already…"
     ],
     "required": false
 }
