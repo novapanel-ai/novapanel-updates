@@ -1,12 +1,10 @@
 {
-    "version": "1.1.643",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.643/NovaPanel-v1.1.643.zip",
+    "version": "1.1.644",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.644/NovaPanel-v1.1.644.zip",
     "notes": [
-        "Calendar joins Date and Time and Weather as content you can put in a Mirage card. In a tall card it is the month, with today marked and the grid always six rows deep so it never changes shape as the months do. In a short card it is the…",
-        "The band now stands further off the taskbar. It always sat above it, but clearing something and standing away from it are different things, and the readings were close enough to the edge to look wedged rather than placed.",
-        "The thin lines inside the cards were reading as a border drawn round each one. They are not decoration and they are not measurement marks: they hold the parts of a card that the content does not reach, so it never has an empty corner. They…",
-        "Weather no longer prints the word UNKNOWN. That was the weather service's internal label for a reading it did not recognise, and it told you nothing except that the software was confused; an unreadable reading now shows the same way a…",
-        "Groundwork for the remaining content types is in place but not yet offered. They are held back because they do not yet meet the layout standard the first three are held to, and putting them out early would mean cards that are visibly wrong…"
+        "The Desktop layer in the panel editor now shows your actual wallpaper. It used to draw a flat floor, because the app had no way to read the real desktop. It has one now, and it matters most for Mirage: a portal whose whole claim is that it…",
+        "Mirage is set in Inter, and lighter. The face ships with the theme rather than being hoped for, so the portal looks the same on a machine that has never seen Inter as it does here; weight comes down across every reading, because a panel…",
+        "The panel editor stopped calling every theme Charm. The layer stage said \"Charm layers\" while you were editing Mirage — the drawing underneath had been theme-aware for weeks, only the sentence naming it had not."
     ],
     "required": false
 }
