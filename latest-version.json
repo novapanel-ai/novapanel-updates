@@ -1,9 +1,10 @@
 {
-    "version": "1.1.645",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.645/NovaPanel-v1.1.645.zip",
+    "version": "1.1.646",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.646/NovaPanel-v1.1.646.zip",
     "notes": [
-        "Fleet Command (NP-CTRL-01's display) now shows restart count and smoke-test result per unattended machine, when that machine actually produces the data. Nothing is shown for a node that doesn't run the watchdog or the smoke harness -- no…",
-        "The unattended-machine watchdog now logs every time it actually had to restart the app, not just whether it's up right now. That's what feeds the restart count above; it only counts a genuine restart, never a tick where the app was already…"
+        "Mirage now redraws every 5 seconds instead of every second. Sensor data still arrives once a second and is merged the moment it lands, so nothing shown is more than five seconds old -- but a background surface does not need to repaint six…",
+        "The Foundation Panel telemetry snapshot is now built once per sensor frame and shared across every open panel window, instead of being rebuilt separately inside each push. With two panels open that was the entire snapshot being assembled…",
+        "New: scripts/idle-cost.js measures what the app costs to leave running -- CPU per core and per machine, GPU, composited frames, layout and style recalculations, and memory growth -- against declared budgets, and writes evidence. Built…"
     ],
     "required": false
 }
