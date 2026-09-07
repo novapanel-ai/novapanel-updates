@@ -1,10 +1,10 @@
 {
-    "version": "1.1.646",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.646/NovaPanel-v1.1.646.zip",
+    "version": "1.1.647",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.647/NovaPanel-v1.1.647.zip",
     "notes": [
-        "Mirage now redraws every 5 seconds instead of every second. Sensor data still arrives once a second and is merged the moment it lands, so nothing shown is more than five seconds old -- but a background surface does not need to repaint six…",
-        "The Foundation Panel telemetry snapshot is now built once per sensor frame and shared across every open panel window, instead of being rebuilt separately inside each push. With two panels open that was the entire snapshot being assembled…",
-        "New: scripts/idle-cost.js measures what the app costs to leave running -- CPU per core and per machine, GPU, composited frames, layout and style recalculations, and memory growth -- against declared budgets, and writes evidence. Built…"
+        "Telemetry is now pushed to each panel window at the rate that window actually redraws, instead of once a second regardless. A theme declares its cadence; Mirage declares 5 seconds. A theme that declares nothing keeps receiving every frame…",
+        "The clock cannot drift as a result: however slow a declared cadence, the push fires early whenever the wall-clock minute rolls over, so a minute display is never late.",
+        "A window that is not due for an update now costs nothing at all -- the snapshot is not even built if no window is due for that frame."
     ],
     "required": false
 }
