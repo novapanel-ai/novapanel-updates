@@ -1,10 +1,8 @@
 {
-    "version": "1.1.647",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.647/NovaPanel-v1.1.647.zip",
+    "version": "1.1.650",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.650/NovaPanel-v1.1.650.zip",
     "notes": [
-        "Telemetry is now pushed to each panel window at the rate that window actually redraws, instead of once a second regardless. A theme declares its cadence; Mirage declares 5 seconds. A theme that declares nothing keeps receiving every frame…",
-        "The clock cannot drift as a result: however slow a declared cadence, the push fires early whenever the wall-clock minute rolls over, so a minute display is never late.",
-        "A window that is not due for an update now costs nothing at all -- the snapshot is not even built if no window is due for that frame."
+        "Fixed: a theme declaring how often it needs data had that declaration thrown away moments later. The app cleared it when the page finished loading, which happens AFTER the theme script runs -- so the declaration was undone by the code…"
     ],
     "required": false
 }
