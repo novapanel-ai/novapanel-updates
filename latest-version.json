@@ -1,12 +1,10 @@
 {
-    "version": "1.1.651",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.651/NovaPanel-v1.1.651.zip",
+    "version": "1.1.652",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.652/NovaPanel-v1.1.652.zip",
     "notes": [
-        "New: App Preferences. You can now decide how often your portals update, and Sigil honours it silently from then on -- no prompt, no confirmation, and nothing to remember to switch back on.",
-        "The slider starts at \"As designed\", which is what every portal does today, and only ever moves toward slower. It cannot make a portal update faster than the person who built it intended.",
-        "You can have it apply all the time, or only in situations you pick: when you are on battery, when your graphics card is busy, or when the portal is not on screen.",
-        "Every open portal is listed with the rate it will actually run at -- including when your choice changes nothing for it, so a setting can never look like it did something it did not.",
-        "Radio buttons across the app are drawn by the design system for the first time. They were previously rendered by Windows in the operating system's own accent colour, which no theme could reach."
+        "Fixed: the \"When\" heading in App Preferences asked for a power symbol the app did not own. An icon is drawn by masking a shape, and a heading that names a shape which does not exist gets no mask -- so in the four themes that draw icons it…",
+        "Fixed: the Panel capability sheet heading was still using a leftover emoji from before the app had its own icons. It was the one heading in the app no theme could restyle or hide.",
+        "The tool that draws the app's icons had been filed away as unused while the stylesheet it writes still named it. It is back, and it now knows about every icon actually in use -- including one added by hand while it was away, which the next…"
     ],
     "required": false
 }
