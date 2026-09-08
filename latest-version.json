@@ -1,10 +1,11 @@
 {
-    "version": "1.1.653",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.653/NovaPanel-v1.1.653.zip",
+    "version": "1.1.654",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.654/NovaPanel-v1.1.654.zip",
     "notes": [
-        "Removed: the App Preferences tab. It let you slow down how often portals update, and measuring it showed the honest answer -- it cut the drawing work by 60% and changed processor use by nothing you could notice.",
-        "A setting that asks you to choose between things you cannot tell apart is not a setting worth having. Sigil should make that decision itself, and where there is a real saving to take, we will take it rather than ask.",
-        "Nothing about how your portals run has changed. They update at the rate their designers chose, exactly as before."
+        "New: the Mirage Layout Maker. Open it from Settings, Portal loader tab, beside the loader studio.",
+        "Two steps. First you arrange: the strip is nine columns across and three rows deep, twenty-seven cells, and you drag across any block of them and group it into a card. One cell is a card; so is three wide by one high.",
+        "Then you fill: pick a card and choose what goes in it. The list only offers what will actually work at that shape -- a rune that refuses a long thin card says so, and the ones still being finished are shown as pending rather than hidden.",
+        "Finish and it copies the whole layout out, cards, shapes and real pixel sizes."
     ],
     "required": false
 }
