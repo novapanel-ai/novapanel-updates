@@ -1,8 +1,12 @@
 {
-    "version": "1.1.650",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.650/NovaPanel-v1.1.650.zip",
+    "version": "1.1.651",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.651/NovaPanel-v1.1.651.zip",
     "notes": [
-        "Fixed: a theme declaring how often it needs data had that declaration thrown away moments later. The app cleared it when the page finished loading, which happens AFTER the theme script runs -- so the declaration was undone by the code…"
+        "New: App Preferences. You can now decide how often your portals update, and Sigil honours it silently from then on -- no prompt, no confirmation, and nothing to remember to switch back on.",
+        "The slider starts at \"As designed\", which is what every portal does today, and only ever moves toward slower. It cannot make a portal update faster than the person who built it intended.",
+        "You can have it apply all the time, or only in situations you pick: when you are on battery, when your graphics card is busy, or when the portal is not on screen.",
+        "Every open portal is listed with the rate it will actually run at -- including when your choice changes nothing for it, so a setting can never look like it did something it did not.",
+        "Radio buttons across the app are drawn by the design system for the first time. They were previously rendered by Windows in the operating system's own accent colour, which no theme could reach."
     ],
     "required": false
 }
