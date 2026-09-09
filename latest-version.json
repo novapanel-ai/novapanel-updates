@@ -1,10 +1,9 @@
 {
-    "version": "1.1.660",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.660/NovaPanel-v1.1.660.zip",
+    "version": "1.1.661",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.661/NovaPanel-v1.1.661.zip",
     "notes": [
-        "The layout maker now SHOWS the layout. Cards are drawn as the real runes, in the panel theme itself, with the live clock and your real weather -- so you decide what it looks like before you save it, not after.",
-        "You can set how tall the strip is, and the height is saved with the layout.",
-        "Layouts you save are now offered alongside the built-in ones when you pick a layout for a portal, in the order you arranged them, and they bring their runes with them."
+        "Fixed: dragging across cells in the layout maker to select them. It could stop partway through, and on a slower moment it could look like it was not working at all.",
+        "Two causes. The preview was rebuilding every rune each time the pointer crossed a cell, which is dozens of full redraws a second while you drag -- it now redraws only when the layout actually changes. And the drag relied on a single…"
     ],
     "required": false
 }
