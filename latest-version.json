@@ -1,11 +1,9 @@
 {
-    "version": "1.1.675",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.675/NovaPanel-v1.1.675.zip",
+    "version": "1.1.676",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.676/NovaPanel-v1.1.676.zip",
     "notes": [
-        "The update buttons are now on the Updates title row, top right, so a long changelog can no longer push the button you came to press off the screen. Open Updates Folder and Open Helper Log moved to a row underneath both columns.",
-        "Rebuilt the Low data mode panel. It was using the wrong pieces: the four readings were laid out as four narrow columns of wrapped text, and its switch carried a heading that repeated the one above it. The readings are now one per line with…",
-        "The Updates tab lays out in three blocks properly now. Adding Low data mode had pushed the changelog underneath the update panel and left the whole right-hand side of the page empty.",
-        "Clearer wording on that panel: the location row reads Automatic or Manual, and the date of your next check-in is stated once, on the row that exists for it."
+        "Fixed: the Updates panel could contradict itself. Straight after installing a new version it showed a Latest number LOWER than the Installed one, and still said \"You are on the latest version\" underneath. It now says you are ahead of the…",
+        "The row is called Published rather than Latest, because that is what it holds - the version the update service is currently serving. It can be behind you for a few minutes after a release, and calling that number the latest was simply…"
     ],
     "required": false
 }
