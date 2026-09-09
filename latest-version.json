@@ -1,12 +1,11 @@
 {
-    "version": "1.1.668",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.668/NovaPanel-v1.1.668.zip",
+    "version": "1.1.669",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.669/NovaPanel-v1.1.669.zip",
     "notes": [
-        "Mirage is quiet again. Nothing on the panel is bold any more: how heavy and how solid a reading is drawn now follows its SIZE — small text is heavier and more present so it survives being rendered, large text is thinner and more…",
-        "The power controls are now four thin icons — a padlock, a crescent, a circling arrow and a power ring — instead of four words in capitals.",
-        "The media card leads with a play or pause mark rather than the word PLAYING.",
-        "Today's date on the calendar is no longer a solid white block. It is simply the only date at full strength, which is the quietest way one day in a grid can be the answer.",
-        "Every rune's name is now the same size as every other rune's, so a row of cards reads as one row rather than four different sizes."
+        "New: Low data mode, in the Updates tab. NovaPanel reaches the internet for two things - checking for a new version, and your weather. Turn this on and it checks for a version once a month, on the same date every month, and slows weather to…",
+        "It also stops the app looking up your location by itself. Normally, if you have not set a town, NovaPanel asks a location service where you are. In Low data mode it never does that on its own - only when you press Detect.",
+        "The setting shows you exactly what it changed: what goes out, how often, and the date of your next check-in. Checking for updates by hand still works immediately, whichever way the switch is set.",
+        "Removed: the suggestion to install HWiNFO64 from the graphics card row in System Scan. That advice was out of date."
     ],
     "required": false
 }
