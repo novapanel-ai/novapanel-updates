@@ -1,12 +1,10 @@
 {
-    "version": "1.1.658",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.658/NovaPanel-v1.1.658.zip",
+    "version": "1.1.659",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.659/NovaPanel-v1.1.659.zip",
     "notes": [
-        "Date and time, and weather, now work in short cards the same way the calendar does -- three rows high, two, or one, each showing as much as it has room for.",
-        "Nothing is drawn below the size we consider readable any more. Three runes had been quietly allowing 9px text in a small card; the smallest type is now 12px everywhere, and a card that cannot fit everything drops a reading rather than…",
-        "A clock in a wide, short card now fills its width instead of sitting small in the middle of it.",
-        "Weather no longer accepts any shape at all -- it had no limit, so it offered itself for cards it could not really fill.",
-        "New: you can name and save a layout in the layout maker, with the runes you put in it. Saved layouts are listed in the order you arrange them, and that is the order they are offered in."
+        "Weather can now show an hourly forecast as well as the ten-day one, and you choose which. Sigil did not have hourly numbers at all before -- they are now fetched on the same request as everything else, so it is not a second thing that can…",
+        "The choice is saved with the layout, so a card keeps the forecast you picked.",
+        "A taller weather card no longer shows fewer days than a shorter one of the same width. How many entries a series holds is decided by the width alone; extra height is now air around the row."
     ],
     "required": false
 }
