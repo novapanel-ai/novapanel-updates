@@ -1,9 +1,9 @@
 {
-    "version": "1.1.661",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.661/NovaPanel-v1.1.661.zip",
+    "version": "1.1.662",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.662/NovaPanel-v1.1.662.zip",
     "notes": [
-        "Fixed: dragging across cells in the layout maker to select them. It could stop partway through, and on a slower moment it could look like it was not working at all.",
-        "Two causes. The preview was rebuilding every rune each time the pointer crossed a cell, which is dozens of full redraws a second while you drag -- it now redraws only when the layout actually changes. And the drag relied on a single…"
+        "Fixed: selecting cells in the layout maker stopped working once you had moved the height slider. The cells you click are positioned from the height, and they were only ever placed once -- so after the strip changed size everything you…",
+        "The selection highlight is also much clearer. Over a live preview a faint tint was almost invisible; a selected cell now carries a bright outline."
     ],
     "required": false
 }
