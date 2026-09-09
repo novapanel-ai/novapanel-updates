@@ -1,8 +1,11 @@
 {
-    "version": "1.1.656",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.656/NovaPanel-v1.1.656.zip",
+    "version": "1.1.657",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.657/NovaPanel-v1.1.657.zip",
     "notes": [
-        "The Divination tab is now called Divination everywhere, not just on the label -- the tab, its panel, its button and the rule that decides who can see it all use the new name."
+        "The calendar now works in short cards. Before, a card under 200px tall could only ever show a week; now it shows as much calendar as it has room for.",
+        "Three rows high shows the whole month. Two rows shows the month name above its week. One row shows the date.",
+        "A single small square is left empty on purpose -- all that fits there is a date line, and the clock already draws one.",
+        "A wide card holding a week is no longer refused. The old rule measured the shape of the box; it now measures whether the seven days still read as a week, which is what the rule was always about."
     ],
     "required": false
 }
