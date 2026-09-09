@@ -1,9 +1,11 @@
 {
-    "version": "1.1.674",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.674/NovaPanel-v1.1.674.zip",
+    "version": "1.1.675",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.675/NovaPanel-v1.1.675.zip",
     "notes": [
-        "The cards on the strip now share a top line and a bottom line. Every card opened at a different height and ended at a different height - one finished 146px above the bottom of its card and its neighbour 52px - which is what made the strip…",
-        "A card of tiles is now sized to that same block instead of to the whole card, so a long shortcut list no longer pushes past the lines every other card keeps."
+        "The update buttons are now on the Updates title row, top right, so a long changelog can no longer push the button you came to press off the screen. Open Updates Folder and Open Helper Log moved to a row underneath both columns.",
+        "Rebuilt the Low data mode panel. It was using the wrong pieces: the four readings were laid out as four narrow columns of wrapped text, and its switch carried a heading that repeated the one above it. The readings are now one per line with…",
+        "The Updates tab lays out in three blocks properly now. Adding Low data mode had pushed the changelog underneath the update panel and left the whole right-hand side of the page empty.",
+        "Clearer wording on that panel: the location row reads Automatic or Manual, and the date of your next check-in is stated once, on the row that exists for it."
     ],
     "required": false
 }
