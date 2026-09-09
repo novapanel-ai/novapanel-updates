@@ -1,12 +1,11 @@
 {
-    "version": "1.1.677",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.677/NovaPanel-v1.1.677.zip",
+    "version": "1.1.678",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.678/NovaPanel-v1.1.678.zip",
     "notes": [
-        "Every reading on the strip is now the same size and the same weight. They were 94, 80, 57, 54 and 31px side by side, because each card sized its own number from its own height and could not see its neighbours. The strip decides now.",
-        "Fixed the cause of that: Volume, Brightness, Microphone and the radios were declared as fast-changing readings when they only change when you change them, and the motion budget was shrinking their numbers - and then everything else with…",
-        "Calendar day cells are square and the month fills the height of its card.",
-        "The weather icon sits above the temperature when the card is tall enough, instead of beside it.",
-        "The power controls sit as a block of four rather than a column down one side, and are centred in their card."
+        "Shortcuts now show the real icon of the app they open, instead of its initial and its name. The icons were already being fetched; the card was drawing the fallback over them.",
+        "Volume, Brightness and Microphone now show a meter. The line under them used to read OFF on its own - the value of a field whose name had been dropped, which said the opposite of what it meant.",
+        "The calendar reaches the bottom of its card.",
+        "Fixed a regression from the previous release: centring the power icons in their card pushed that card 60px out of line with its neighbours."
     ],
     "required": false
 }
