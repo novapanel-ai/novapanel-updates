@@ -1,9 +1,9 @@
 {
-    "version": "1.1.664",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.664/NovaPanel-v1.1.664.zip",
+    "version": "1.1.665",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.665/NovaPanel-v1.1.665.zip",
     "notes": [
-        "Fixed: the layout maker showed no runes at all when you got to the step where you pick them. Removing the Copy layout button in the last release took the live preview and the saved-layout code away with it, and the page stopped part-way…",
-        "The live preview, the height slider, and saving, loading, reordering and deleting saved layouts are all back and working as before."
+        "Fixed: weather stopped updating. On the Mirage theme it was fetched once when the panel opened and never again, so a panel left running overnight was showing yesterday’s weather under today’s date. It now refreshes every ten minutes on…",
+        "Weather is only fetched while a panel is actually open. With nothing on screen to draw it, the app asks for nothing."
     ],
     "required": false
 }
