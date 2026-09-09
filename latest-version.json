@@ -1,9 +1,12 @@
 {
-    "version": "1.1.665",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.665/NovaPanel-v1.1.665.zip",
+    "version": "1.1.666",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.666/NovaPanel-v1.1.666.zip",
     "notes": [
-        "Fixed: weather stopped updating. On the Mirage theme it was fetched once when the panel opened and never again, so a panel left running overnight was showing yesterday’s weather under today’s date. It now refreshes every ten minutes on…",
-        "Weather is only fetched while a panel is actually open. With nothing on screen to draw it, the app asks for nothing."
+        "Fixed: the layout maker's preview showed a machine with no sensors, no volume, no battery and nothing playing. It was only ever given the clock and the weather, so every other rune correctly drew its ‘no reading’ dash. It now gets the same…",
+        "Fixed: the Microphone and Power Plan runes read data fields that nothing writes, so they showed a dash on every machine rather than only on machines without them.",
+        "Fixed: on a cold start, cards were measured before the panel's font finished loading and then drawn in it. The font is 16% wider, so the last letter of almost every word was cut off — BATTER, ON BATTER, 100 with the % sliced in half. Cards…",
+        "Fixed: the Power card drew every action twice, once in capitals and once below in smaller type, and on tall cards the words ran off the edge. It now shows each action once, at more than twice the size.",
+        "Fixed: track titles and shortcut names were being cut to a single letter."
     ],
     "required": false
 }
