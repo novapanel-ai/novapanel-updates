@@ -1,10 +1,9 @@
 {
-    "version": "1.1.673",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.673/NovaPanel-v1.1.673.zip",
+    "version": "1.1.674",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.674/NovaPanel-v1.1.674.zip",
     "notes": [
-        "Mirage is now set in Poppins. The font ships with the app in five weights, so nothing is fetched and nothing is installed on your machine.",
-        "Fixed the distance between a label and its reading. The space inside a card used to be divided equally between every line, so a name sat as far from its own number as the number sat from the bottom of the card - 54px apart on a strip whose…",
-        "The power icons are smaller."
+        "The cards on the strip now share a top line and a bottom line. Every card opened at a different height and ended at a different height - one finished 146px above the bottom of its card and its neighbour 52px - which is what made the strip…",
+        "A card of tiles is now sized to that same block instead of to the whole card, so a long shortcut list no longer pushes past the lines every other card keeps."
     ],
     "required": false
 }
