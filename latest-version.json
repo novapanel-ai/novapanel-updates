@@ -1,9 +1,12 @@
 {
-    "version": "1.1.676",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.676/NovaPanel-v1.1.676.zip",
+    "version": "1.1.677",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.677/NovaPanel-v1.1.677.zip",
     "notes": [
-        "Fixed: the Updates panel could contradict itself. Straight after installing a new version it showed a Latest number LOWER than the Installed one, and still said \"You are on the latest version\" underneath. It now says you are ahead of the…",
-        "The row is called Published rather than Latest, because that is what it holds - the version the update service is currently serving. It can be behind you for a few minutes after a release, and calling that number the latest was simply…"
+        "Every reading on the strip is now the same size and the same weight. They were 94, 80, 57, 54 and 31px side by side, because each card sized its own number from its own height and could not see its neighbours. The strip decides now.",
+        "Fixed the cause of that: Volume, Brightness, Microphone and the radios were declared as fast-changing readings when they only change when you change them, and the motion budget was shrinking their numbers - and then everything else with…",
+        "Calendar day cells are square and the month fills the height of its card.",
+        "The weather icon sits above the temperature when the card is tall enough, instead of beside it.",
+        "The power controls sit as a block of four rather than a column down one side, and are centred in their card."
     ],
     "required": false
 }
