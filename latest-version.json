@@ -1,12 +1,12 @@
 {
-    "version": "1.1.680",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.680/NovaPanel-v1.1.680.zip",
+    "version": "1.1.681",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.681/NovaPanel-v1.1.681.zip",
     "notes": [
-        "The clock offers five arrangements instead of one: Tracked spreads the day wide and thin over a quiet line, Beside sets it against a hairline divider with the time and date stacked, Ghost leaves it barely there behind the reading, Murmur…",
-        "You choose which of the three facts leads on each card - the day, the time or the date - and the same arrangement reads as a clock, a calendar or a day board depending on it.",
-        "Every arrangement adapts to the card it is given by using a shorter wording rather than smaller type: a wide card reads \"Thursday, 3 September 2026\" and a narrow one \"Thu, 3 Sep\", and nothing ever drops below the size this theme will still…",
-        "The layout maker shows your actual desktop wallpaper behind the strip, so a reading is judged where it will really sit instead of against a flat background.",
-        "Saved layouts have a Use button: one click puts the layout on every panel running Mirage, without leaving the maker to find it in Panel Settings."
+        "Every choice in the layout maker now draws itself. Each rune, each arrangement and each hero shows a real live preview of what that card would actually look like, built by the same code that draws it on the desktop.",
+        "The layout maker looks like the rest of the Control Panel. It had its own colors and its own typeface written into it by hand; it now uses the same design system as every other window, so it follows your theme.",
+        "The arrangement and hero choices are now announced as two separate questions under the rune you picked, instead of running together in one unlabelled list.",
+        "Fixed: the layout maker preview painted a white sheet over the desktop wallpaper behind the strip.",
+        "Fixed: a preview could be drawn slightly too large for its box and clip the last letter of a word when the picker list started to scroll."
     ],
     "required": false
 }
