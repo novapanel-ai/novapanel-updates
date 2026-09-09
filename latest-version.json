@@ -1,11 +1,10 @@
 {
-    "version": "1.1.678",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.678/NovaPanel-v1.1.678.zip",
+    "version": "1.1.679",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.679/NovaPanel-v1.1.679.zip",
     "notes": [
-        "Shortcuts now show the real icon of the app they open, instead of its initial and its name. The icons were already being fetched; the card was drawing the fallback over them.",
-        "Volume, Brightness and Microphone now show a meter. The line under them used to read OFF on its own - the value of a field whose name had been dropped, which said the opposite of what it meant.",
-        "The calendar reaches the bottom of its card.",
-        "Fixed a regression from the previous release: centring the power icons in their card pushed that card 60px out of line with its neighbours."
+        "The readings across the strip now sit on the same line as each other, not just the names above them. The space between a name and its reading was being worked out from each card own contents, so a card ending in a meter and a card ending…",
+        "The calendar reaches the bottom of its card: a month with five weeks now sits on the bottom line and leaves its spare row at the top, where it cannot be seen.",
+        "The weather icon returns to the side of the temperature except on cards tall enough to stack it without dropping the reading a line below every other card."
     ],
     "required": false
 }
