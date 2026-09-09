@@ -1,12 +1,11 @@
 {
-    "version": "1.1.681",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.681/NovaPanel-v1.1.681.zip",
+    "version": "1.1.682",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.682/NovaPanel-v1.1.682.zip",
     "notes": [
-        "Every choice in the layout maker now draws itself. Each rune, each arrangement and each hero shows a real live preview of what that card would actually look like, built by the same code that draws it on the desktop.",
-        "The layout maker looks like the rest of the Control Panel. It had its own colors and its own typeface written into it by hand; it now uses the same design system as every other window, so it follows your theme.",
-        "The arrangement and hero choices are now announced as two separate questions under the rune you picked, instead of running together in one unlabelled list.",
-        "Fixed: the layout maker preview painted a white sheet over the desktop wallpaper behind the strip.",
-        "Fixed: a preview could be drawn slightly too large for its box and clip the last letter of a word when the picker list started to scroll."
+        "Fixed: the panel on your desktop was not picking up changes to a layout you had already applied. It read the saved layouts once when it opened, so editing a layout and pressing Use left it drawing the version from when the panel started…",
+        "A layout now reaches the panel the moment it is saved, deleted, reordered or applied, and the panel redraws even when the layout kept the same name.",
+        "The layout maker has the layer controls: the base fill and the gradient scrim that carries contrast over your wallpaper, adjustable beside the strip they affect rather than in another window.",
+        "The maker preview draws those layers too, so what you are adjusting is visible while you adjust it."
     ],
     "required": false
 }
