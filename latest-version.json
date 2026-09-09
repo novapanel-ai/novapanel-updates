@@ -1,10 +1,10 @@
 {
-    "version": "1.1.659",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.659/NovaPanel-v1.1.659.zip",
+    "version": "1.1.660",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.660/NovaPanel-v1.1.660.zip",
     "notes": [
-        "Weather can now show an hourly forecast as well as the ten-day one, and you choose which. Sigil did not have hourly numbers at all before -- they are now fetched on the same request as everything else, so it is not a second thing that can…",
-        "The choice is saved with the layout, so a card keeps the forecast you picked.",
-        "A taller weather card no longer shows fewer days than a shorter one of the same width. How many entries a series holds is decided by the width alone; extra height is now air around the row."
+        "The layout maker now SHOWS the layout. Cards are drawn as the real runes, in the panel theme itself, with the live clock and your real weather -- so you decide what it looks like before you save it, not after.",
+        "You can set how tall the strip is, and the height is saved with the layout.",
+        "Layouts you save are now offered alongside the built-in ones when you pick a layout for a portal, in the order you arranged them, and they bring their runes with them."
     ],
     "required": false
 }
