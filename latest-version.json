@@ -1,8 +1,10 @@
 {
-    "version": "1.1.672",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.672/NovaPanel-v1.1.672.zip",
+    "version": "1.1.673",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.673/NovaPanel-v1.1.673.zip",
     "notes": [
-        "Removed the hairlines and dashes from the panel. The short marks either side of a reading, the lines above and below it, and the rules drawn between two readings were never asked for; the readings now sit on the wallpaper with nothing…"
+        "Mirage is now set in Poppins. The font ships with the app in five weights, so nothing is fetched and nothing is installed on your machine.",
+        "Fixed the distance between a label and its reading. The space inside a card used to be divided equally between every line, so a name sat as far from its own number as the number sat from the bottom of the card - 54px apart on a strip whose…",
+        "The power icons are smaller."
     ],
     "required": false
 }
