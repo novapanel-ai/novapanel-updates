@@ -1,10 +1,8 @@
 {
-    "version": "1.1.655",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.655/NovaPanel-v1.1.655.zip",
+    "version": "1.1.656",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.656/NovaPanel-v1.1.656.zip",
     "notes": [
-        "Fixed: the layout maker did nothing when you clicked a cell. The card layer sat over the whole grid and took every click, even when there were no cards in it.",
-        "The Portal loader tab is now called Divination.",
-        "The two buttons on that tab are the same size and colour again. The size rule had been written against one button by name, so the second one could never pick it up -- it now applies to any button that asks for it."
+        "The Divination tab is now called Divination everywhere, not just on the label -- the tab, its panel, its button and the rule that decides who can see it all use the new name."
     ],
     "required": false
 }
