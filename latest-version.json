@@ -1,11 +1,12 @@
 {
-    "version": "1.1.667",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.667/NovaPanel-v1.1.667.zip",
+    "version": "1.1.668",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.668/NovaPanel-v1.1.668.zip",
     "notes": [
-        "Fixed: on tall narrow cards the weather card painted its high and low temperatures past its own edges, and on short ones the condition and the two temperatures together were wider than the card they sat in.",
-        "Fixed: a rune name and a long reading could each lose their last letters where a column had been squeezed — MICROPHONE, FULLY CHARGED, the humidity figure.",
-        "A card with a single reading no longer splits its space into two columns, one of which was always empty.",
-        "Every rune was re-checked at 1485 card sizes — fifteen runes, nine card shapes, every strip height across the slider — with every value set to the longest it can ever be. Nothing is cut off and nothing is drawn below the readable size."
+        "Mirage is quiet again. Nothing on the panel is bold any more: how heavy and how solid a reading is drawn now follows its SIZE — small text is heavier and more present so it survives being rendered, large text is thinner and more…",
+        "The power controls are now four thin icons — a padlock, a crescent, a circling arrow and a power ring — instead of four words in capitals.",
+        "The media card leads with a play or pause mark rather than the word PLAYING.",
+        "Today's date on the calendar is no longer a solid white block. It is simply the only date at full strength, which is the quietest way one day in a grid can be the answer.",
+        "Every rune's name is now the same size as every other rune's, so a row of cards reads as one row rather than four different sizes."
     ],
     "required": false
 }
