@@ -1,11 +1,10 @@
 {
-    "version": "1.1.654",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.654/NovaPanel-v1.1.654.zip",
+    "version": "1.1.655",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.655/NovaPanel-v1.1.655.zip",
     "notes": [
-        "New: the Mirage Layout Maker. Open it from Settings, Portal loader tab, beside the loader studio.",
-        "Two steps. First you arrange: the strip is nine columns across and three rows deep, twenty-seven cells, and you drag across any block of them and group it into a card. One cell is a card; so is three wide by one high.",
-        "Then you fill: pick a card and choose what goes in it. The list only offers what will actually work at that shape -- a rune that refuses a long thin card says so, and the ones still being finished are shown as pending rather than hidden.",
-        "Finish and it copies the whole layout out, cards, shapes and real pixel sizes."
+        "Fixed: the layout maker did nothing when you clicked a cell. The card layer sat over the whole grid and took every click, even when there were no cards in it.",
+        "The Portal loader tab is now called Divination.",
+        "The two buttons on that tab are the same size and colour again. The size rule had been written against one button by name, so the second one could never pick it up -- it now applies to any button that asks for it."
     ],
     "required": false
 }
