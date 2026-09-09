@@ -1,9 +1,8 @@
 {
-    "version": "1.1.671",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.671/NovaPanel-v1.1.671.zip",
+    "version": "1.1.672",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.672/NovaPanel-v1.1.672.zip",
     "notes": [
-        "Readings that belong together now sit together everywhere on the strip: the hour and its minutes, the date, today’s high and low, the month and its year, and the pair of figures under each reading. The space inside a group is now about a…",
-        "Where binding a pair left a long name no room, it shrinks and then uses its short form rather than spilling."
+        "Removed the hairlines and dashes from the panel. The short marks either side of a reading, the lines above and below it, and the rules drawn between two readings were never asked for; the readings now sit on the wallpaper with nothing…"
     ],
     "required": false
 }
