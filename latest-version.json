@@ -1,9 +1,9 @@
 {
-    "version": "1.1.670",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.670/NovaPanel-v1.1.670.zip",
+    "version": "1.1.671",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.671/NovaPanel-v1.1.671.zip",
     "notes": [
-        "Fixed: readings that belong together were spread across their card. Today’s high and low sat 75px apart on a strip whose cards are 17px apart, so a value was nearer its neighbour’s card than its own other half. The date, the high and low…",
-        "Space inside a group is now a fixed fraction of the card rather than whatever was left over, so it is always visibly smaller than the space between cards."
+        "Readings that belong together now sit together everywhere on the strip: the hour and its minutes, the date, today’s high and low, the month and its year, and the pair of figures under each reading. The space inside a group is now about a…",
+        "Where binding a pair left a long name no room, it shrinks and then uses its short form rather than spilling."
     ],
     "required": false
 }
