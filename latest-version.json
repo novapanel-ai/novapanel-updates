@@ -1,11 +1,12 @@
 {
-    "version": "1.1.657",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.657/NovaPanel-v1.1.657.zip",
+    "version": "1.1.658",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.658/NovaPanel-v1.1.658.zip",
     "notes": [
-        "The calendar now works in short cards. Before, a card under 200px tall could only ever show a week; now it shows as much calendar as it has room for.",
-        "Three rows high shows the whole month. Two rows shows the month name above its week. One row shows the date.",
-        "A single small square is left empty on purpose -- all that fits there is a date line, and the clock already draws one.",
-        "A wide card holding a week is no longer refused. The old rule measured the shape of the box; it now measures whether the seven days still read as a week, which is what the rule was always about."
+        "Date and time, and weather, now work in short cards the same way the calendar does -- three rows high, two, or one, each showing as much as it has room for.",
+        "Nothing is drawn below the size we consider readable any more. Three runes had been quietly allowing 9px text in a small card; the smallest type is now 12px everywhere, and a card that cannot fit everything drops a reading rather than…",
+        "A clock in a wide, short card now fills its width instead of sitting small in the middle of it.",
+        "Weather no longer accepts any shape at all -- it had no limit, so it offered itself for cards it could not really fill.",
+        "New: you can name and save a layout in the layout maker, with the runes you put in it. Saved layouts are listed in the order you arrange them, and that is the order they are offered in."
     ],
     "required": false
 }
