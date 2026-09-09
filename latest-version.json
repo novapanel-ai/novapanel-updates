@@ -1,11 +1,9 @@
 {
-    "version": "1.1.663",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.663/NovaPanel-v1.1.663.zip",
+    "version": "1.1.664",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.664/NovaPanel-v1.1.664.zip",
     "notes": [
-        "All twelve remaining runes are now available: Sensors, FPS, Battery, Volume, Brightness, Microphone, Radios, Power Plan, Shortcuts, Power, Media and Video. They were built and working, but were held back because they refused the card…",
-        "Nothing in the panel is drawn below the size we consider readable any more. One shared helper had been allowing 8px text wherever a word was too long for its column, which quietly set the real minimum for every rune at once.",
-        "Where holding that size means the content no longer fits, a card now drops a reading rather than shrinking it or letting it run over the edge.",
-        "Removed: the layout makers Copy layout button. Saving replaced it."
+        "Fixed: the layout maker showed no runes at all when you got to the step where you pick them. Removing the Copy layout button in the last release took the live preview and the saved-layout code away with it, and the page stopped part-way…",
+        "The live preview, the height slider, and saving, loading, reordering and deleting saved layouts are all back and working as before."
     ],
     "required": false
 }
