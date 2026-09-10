@@ -1,10 +1,11 @@
 {
-    "version": "1.1.689",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.689/NovaPanel-v1.1.689.zip",
+    "version": "1.1.690",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.690/NovaPanel-v1.1.690.zip",
     "notes": [
-        "Everything on the strip is smaller. Type comes down by about a fifth across every reading at once, so the steps between a heading, a hero and a supporting value are unchanged - only the whole set moved.",
-        "Icons are smaller too, and they no longer sit at their maximum size on every card regardless of how big the card is.",
-        "Fixed readings running off the side of their card on a tall strip, and readings being sliced by their own box - a supporting value was being reserved the width it needs at the smallest legible size while being drawn much larger, so a card…"
+        "The layout maker has type controls: Size scales every reading on the strip together so the steps between a label, a support and a hero are kept; Hero raises only the large reading on top of that; Thickness moves the whole set lighter or…",
+        "Thickness moves in whole typeface weights rather than in numbers, because anything smaller than a whole weight is rounded away and paints no differently.",
+        "The typeface itself is chosen in the maker too, from the faces the theme actually ships.",
+        "All four apply to the preview and to the desktop at the same moment, and there is one button to put them back to the defaults."
     ],
     "required": false
 }
