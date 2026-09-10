@@ -1,10 +1,12 @@
 {
-    "version": "1.1.693",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.693/NovaPanel-v1.1.693.zip",
+    "version": "1.1.694",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.694/NovaPanel-v1.1.694.zip",
     "notes": [
-        "Content Designer: Charm's card is now a shape you can design for. Charm has exactly one - a card the width of the panel (176px inside its 186px) with Charm's own 8px padding - and the designer lists it under Charm, next to Mirage's nine…",
-        "A Charm card is as tall as what it holds, so its height is part of the design: a Content height control appears for Charm designs, the height is saved with the design and comes back when you reopen it. Text stops shrinking at Charm's 9px…",
-        "Charm designs can pick any rune that has pieces to place; Mirage shapes still only offer the runes that fit that card."
+        "Charm: the clock card is now drawn by the same clock rune Mirage uses - the first Charm card built on the shared runes. It keeps Charm's card, padding, monospace face and colors, and your 12/24-hour setting; analogue clock faces are…",
+        "The clock rune now follows a 12- or 24-hour setting when a portal gives one, instead of choosing by how much room there is.",
+        "Runes draw at each portal's own smallest text size: 9px in Charm, 12px in Mirage.",
+        "Content Designer: you can now add graphics to any card - dividers (across or down, the same hairline the panels use) and icons (the line icons and weather icons the panels already ship). Add as many as you like; each can be moved, sized…",
+        "Content Designer: Charm's card is offered at the widths Charm can actually be set to (120, 186 and 300px), not just its default."
     ],
     "required": false
 }
