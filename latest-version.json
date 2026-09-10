@@ -1,11 +1,9 @@
 {
-    "version": "1.1.684",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.684/NovaPanel-v1.1.684.zip",
+    "version": "1.1.685",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.685/NovaPanel-v1.1.685.zip",
     "notes": [
-        "The strip keeps a proper stand-off from the taskbar, above and below, at every height. The padding was 16% of the content, so it shrank whenever the strip did and a short strip sat almost against the taskbar. It is now a fixed gap measured…",
-        "The height control now changes the content area only. Dragging it no longer moves the gap above and below at the same time, so the two can be set independently.",
-        "Fixed: a panel resting on the bottom of the screen grew downwards when its height changed, walking its lower edge into the taskbar. It now keeps whichever edge it is resting on, the same way it already did left and right.",
-        "The layout maker re-reads the layer settings whenever you come back to it, so it and Panel Settings never show different values for the same layer."
+        "Fixed: the Cards page jumped whenever you changed a setting. Every card-style control rebuilt the whole page, including the layout picker and all its live previews, so the page scrolled back to the top and the control you were adjusting…",
+        "Your own saved layouts have an Edit button in the layout picker that opens them in the Layout Maker, so choosing a layout and changing one are no longer the same single action."
     ],
     "required": false
 }
