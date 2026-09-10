@@ -1,10 +1,9 @@
 {
-    "version": "1.1.686",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.686/NovaPanel-v1.1.686.zip",
+    "version": "1.1.687",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.687/NovaPanel-v1.1.687.zip",
     "notes": [
-        "Every reading on a card now says what it is. A card showed a temperature under the word SENSORS - the name of the rune, not of the number - and then two more values with nothing at all to say which was which. The heading now names the…",
-        "A label sits quieter than the value beside it, so the number leads and the word only says which number it is.",
-        "The calendar is far more subtle: the day numbers are smaller, lighter and no longer crowd each other. A grid of forty numbers was following the same rule as a single caption, which made it the loudest thing on the strip - the opposite of…"
+        "The whole strip is lighter. Large readings are now drawn in Thin and ExtraLight rather than Light and Regular, and the transparency comes down with the weight so a hero reads as a shape resting on the wallpaper instead of type printed over…",
+        "Fixed a mismatch that made the old weights meaningless: the theme has five real faces (Thin, ExtraLight, Light, Regular, Medium) and the scale was asking for weights in between them, which the browser silently rounded on its own terms. The…"
     ],
     "required": false
 }
