@@ -1,9 +1,10 @@
 {
-    "version": "1.1.687",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.687/NovaPanel-v1.1.687.zip",
+    "version": "1.1.688",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.688/NovaPanel-v1.1.688.zip",
     "notes": [
-        "The whole strip is lighter. Large readings are now drawn in Thin and ExtraLight rather than Light and Regular, and the transparency comes down with the weight so a hero reads as a shape resting on the wallpaper instead of type printed over…",
-        "Fixed a mismatch that made the old weights meaningless: the theme has five real faces (Thin, ExtraLight, Light, Regular, Medium) and the scale was asking for weights in between them, which the browser silently rounded on its own terms. The…"
+        "Mirage offers three more typefaces beside Poppins - Saira, Exo 2 and Jost - chosen because each one ships a real Thin, which the strip needs at hero sizes. All five weights of each are bundled with the app; nothing is fetched from the…",
+        "Poppins remains the default and is unchanged.",
+        "The font control now offers the faces the panel theme actually has, instead of a fixed list. Every name in the old list was a font Mirage does not ship, so choosing one appeared to work and changed nothing."
     ],
     "required": false
 }
