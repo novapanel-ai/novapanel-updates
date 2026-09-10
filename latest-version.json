@@ -1,10 +1,10 @@
 {
-    "version": "1.1.688",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.688/NovaPanel-v1.1.688.zip",
+    "version": "1.1.689",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.689/NovaPanel-v1.1.689.zip",
     "notes": [
-        "Mirage offers three more typefaces beside Poppins - Saira, Exo 2 and Jost - chosen because each one ships a real Thin, which the strip needs at hero sizes. All five weights of each are bundled with the app; nothing is fetched from the…",
-        "Poppins remains the default and is unchanged.",
-        "The font control now offers the faces the panel theme actually has, instead of a fixed list. Every name in the old list was a font Mirage does not ship, so choosing one appeared to work and changed nothing."
+        "Everything on the strip is smaller. Type comes down by about a fifth across every reading at once, so the steps between a heading, a hero and a supporting value are unchanged - only the whole set moved.",
+        "Icons are smaller too, and they no longer sit at their maximum size on every card regardless of how big the card is.",
+        "Fixed readings running off the side of their card on a tall strip, and readings being sliced by their own box - a supporting value was being reserved the width it needs at the smallest legible size while being drawn much larger, so a card…"
     ],
     "required": false
 }
