@@ -1,9 +1,10 @@
 {
-    "version": "1.1.685",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.685/NovaPanel-v1.1.685.zip",
+    "version": "1.1.686",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.686/NovaPanel-v1.1.686.zip",
     "notes": [
-        "Fixed: the Cards page jumped whenever you changed a setting. Every card-style control rebuilt the whole page, including the layout picker and all its live previews, so the page scrolled back to the top and the control you were adjusting…",
-        "Your own saved layouts have an Edit button in the layout picker that opens them in the Layout Maker, so choosing a layout and changing one are no longer the same single action."
+        "Every reading on a card now says what it is. A card showed a temperature under the word SENSORS - the name of the rune, not of the number - and then two more values with nothing at all to say which was which. The heading now names the…",
+        "A label sits quieter than the value beside it, so the number leads and the word only says which number it is.",
+        "The calendar is far more subtle: the day numbers are smaller, lighter and no longer crowd each other. A grid of forty numbers was following the same rule as a single caption, which made it the loudest thing on the strip - the opposite of…"
     ],
     "required": false
 }
