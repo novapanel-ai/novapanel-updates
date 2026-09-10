@@ -1,11 +1,12 @@
 {
-    "version": "1.1.690",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.690/NovaPanel-v1.1.690.zip",
+    "version": "1.1.691",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.691/NovaPanel-v1.1.691.zip",
     "notes": [
-        "The layout maker has type controls: Size scales every reading on the strip together so the steps between a label, a support and a hero are kept; Hero raises only the large reading on top of that; Thickness moves the whole set lighter or…",
-        "Thickness moves in whole typeface weights rather than in numbers, because anything smaller than a whole weight is rounded away and paints no differently.",
-        "The typeface itself is chosen in the maker too, from the faces the theme actually ships.",
-        "All four apply to the preview and to the desktop at the same moment, and there is one button to put them back to the defaults."
+        "New: the Mirage Content Designer, opened from the Divination page. Choose a card shape, choose a rune, then place and style every piece that rune can show - move it, and set its typeface, size, weight, letter-spacing and opacity. Mark one…",
+        "Every rune offers its own list of pieces to place: each reading and each reading’s name separately, the clock’s day, time and date in every form, the weather’s temperature, condition, icon, high and low, and the calendar’s month, year and…",
+        "Designs are saved with a name and offered in the layout maker for any card of the same rune and shape, drawn exactly as they will appear on the desktop. Saved designs can be reopened to edit or deleted; deleting one that a layout still…",
+        "Everything in a design is measured relative to its card, so a design looks the same on every card of that shape, and changing the strip height scales it as a whole instead of pulling its pieces apart.",
+        "Fixed: the desktop panel could not draw a card whose form name contained a colon, which would have silently shown the built-in composition in place of a saved design."
     ],
     "required": false
 }
