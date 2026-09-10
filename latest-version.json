@@ -1,11 +1,10 @@
 {
-    "version": "1.1.692",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.692/NovaPanel-v1.1.692.zip",
+    "version": "1.1.693",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.693/NovaPanel-v1.1.693.zip",
     "notes": [
-        "The Content Designer is now just the Content Designer, not Mirage's. A design is made for a card SHAPE, and every portal that draws that shape can use it. Mirage's nine grid shapes are the first set; Charm and Omen add their own when they…",
-        "Padding belongs to the card, not the design. The canvas draws the portal's own card padding as a dotted box, and every piece is placed inside it. Anything pushed into the padding is flagged by name and by how many pixels.",
-        "New row under the canvas: your design drawn at every size it can appear, smallest to largest, all at one scale. Each size says whether the design fits, how far anything runs into the padding, or how many pieces are held at the portal's…",
-        "Designs saved in 1.1.691 are moved into the new layout automatically, keeping their shape and position, so they look exactly the same."
+        "Content Designer: Charm's card is now a shape you can design for. Charm has exactly one - a card the width of the panel (176px inside its 186px) with Charm's own 8px padding - and the designer lists it under Charm, next to Mirage's nine…",
+        "A Charm card is as tall as what it holds, so its height is part of the design: a Content height control appears for Charm designs, the height is saved with the design and comes back when you reopen it. Text stops shrinking at Charm's 9px…",
+        "Charm designs can pick any rune that has pieces to place; Mirage shapes still only offer the runes that fit that card."
     ],
     "required": false
 }
