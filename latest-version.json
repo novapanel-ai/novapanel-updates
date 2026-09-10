@@ -1,11 +1,11 @@
 {
-    "version": "1.1.683",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.683/NovaPanel-v1.1.683.zip",
+    "version": "1.1.684",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.684/NovaPanel-v1.1.684.zip",
     "notes": [
-        "Fixed: the strip height did nothing over the bottom half of its slider. The maker offers 134 to 420 pixels because that range was measured, but the panel was enforcing a separate floor of 240 left over from an older design - so every…",
-        "A saved layout now has Open and Use spelled out as buttons, instead of a row of single characters, and the list says which layout is on screen right now.",
-        "The layout maker opens on the layout your desktop is actually showing, so getting back to what you saved takes no clicks at all.",
-        "The layer controls are rebuilt with the Control Panel’s own switches, sliders and color wells, one control to a line, so they look like the rest of the app instead of improvised."
+        "The strip keeps a proper stand-off from the taskbar, above and below, at every height. The padding was 16% of the content, so it shrank whenever the strip did and a short strip sat almost against the taskbar. It is now a fixed gap measured…",
+        "The height control now changes the content area only. Dragging it no longer moves the gap above and below at the same time, so the two can be set independently.",
+        "Fixed: a panel resting on the bottom of the screen grew downwards when its height changed, walking its lower edge into the taskbar. It now keeps whichever edge it is resting on, the same way it already did left and right.",
+        "The layout maker re-reads the layer settings whenever you come back to it, so it and Panel Settings never show different values for the same layer."
     ],
     "required": false
 }
