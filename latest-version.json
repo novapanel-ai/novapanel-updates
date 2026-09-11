@@ -1,9 +1,12 @@
 {
-    "version": "1.1.700",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.700/NovaPanel-v1.1.700.zip",
+    "version": "1.1.701",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.701/NovaPanel-v1.1.701.zip",
     "notes": [
-        "Content Designer: every size can have its own layout. The size you design at is the base; the others follow it until you change them. Switch 'Seen at' (or click a size in the row under the card), move, resize, add or remove anything, and…",
-        "A card on the desktop draws the defined layout nearest its real size, so a 3 x 1 clock can be one line on a short strip and a stacked hero on a tall one."
+        "Content Designer: every card Charm draws can now be designed on Charm's card: Date / Time, Sensors, Battery, FPS, Calendar, Weather, Shortcuts, Media, Volume, Brightness, Microphone, Radios, Power Plan, Power and Video. Each one starts as…",
+        "A Sensors design for Charm is written against 'this card': the group's name, its model and readings 1 to 5. One design dresses every sensor card (CPU, GPU, iGPU, Memory, Storage, Network), and a group with fewer readings simply leaves the…",
+        "New pieces to place: volume, brightness and microphone levels (a meter can follow them) and their mute states; Wi-Fi and Bluetooth on/off; the active power plan and the card's title; media position, length, progress and artwork; Charm's…",
+        "More options for graphics: a piece can be painted in any of its portal's inks. Charm offers Text, Supporting, Accent, Bar accent, Hairline, Bar track, Card fill, Panel ground and a hue; Mirage keeps its one ink, so nothing extra is offered…",
+        "Meters and gauges take a Fill and a Track color, plus track opacity. On Charm a new meter is the two-color Charm bar (accent over the 12% white track); on Mirage it stays one color with its track at a quarter. New gauge style: Orbit…"
     ],
     "required": false
 }
