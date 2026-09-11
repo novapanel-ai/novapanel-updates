@@ -1,12 +1,9 @@
 {
-    "version": "1.1.707",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.707/NovaPanel-v1.1.707.zip",
+    "version": "1.1.708",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.708/NovaPanel-v1.1.708.zip",
     "notes": [
-        "One design system for every portal. Mirage, Charm and Omen now put a design on a card the same way, run its controls through the same code, and decide whether it has anything to show by the same rule. Each portal keeps only what is its…",
-        "Any rune on any Omen card: the Storage card can carry a Media design, the Network card a Clock. A card drawn from another rune's design appears when that rune has something to show, and its controls work (play, skip, seek, mute, levels…",
-        "Designs scale to fit Omen's cards: a design keeps its proportions, fitted and centred on a card of any ratio, instead of running off one side. The Content Designer shows Omen sizes that follow another size's layout the same way.",
-        "Every rune now starts with something on every shape: a rune with no starter of its own for a shape (Media, the controls, Shortcuts, Power...) starts as Charm's card for it, scaled into that card.",
-        "Designs on Mirage cards have working controls on the panel (never in the layout maker's preview)."
+        "Every portal gets every rune, for now. The Content Designer offers all fifteen runes on every card shape of every portal — Mirage, Charm and Omen — each with a live preview, and every one starts with something on the canvas.",
+        "The layout maker lets you put any rune on any Mirage card. A rune whose built-in look doesn't fit the card is marked 'designs only': it draws from a design made for that card's shape, and until you make one the card shows its placeholder."
     ],
     "required": false
 }
