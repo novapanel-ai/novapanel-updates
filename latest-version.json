@@ -1,10 +1,9 @@
 {
-    "version": "1.1.699",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.699/NovaPanel-v1.1.699.zip",
+    "version": "1.1.700",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.700/NovaPanel-v1.1.700.zip",
     "notes": [
-        "Content Designer: separators sit with the icons in the Graphics group - middot (·), bullet (•), slash (/), bar (|), en dash (–), em dash (—) and chevron (›). Add as many as a card needs; each is set like any other text, in the card's…",
-        "Content Designer: select several pieces with Ctrl-click (Cmd on a Mac), on the card or in the list, and drag any one of them to move them together. Arrow keys nudge the whole selection, Delete removes it, Ctrl+A selects everything and Esc…",
-        "Content Designer: designs name themselves. Save with the name left blank and the design is named from what it is - how its lead is set (Sigil, Hairline, Whisper...), what it draws (a ring gauge is a Halo, waves are a Tide) and what it…"
+        "Content Designer: every size can have its own layout. The size you design at is the base; the others follow it until you change them. Switch 'Seen at' (or click a size in the row under the card), move, resize, add or remove anything, and…",
+        "A card on the desktop draws the defined layout nearest its real size, so a 3 x 1 clock can be one line on a short strip and a stacked hero on a tall one."
     ],
     "required": false
 }
