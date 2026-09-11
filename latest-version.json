@@ -1,9 +1,9 @@
 {
-    "version": "1.1.705",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.705/NovaPanel-v1.1.705.zip",
+    "version": "1.1.706",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.706/NovaPanel-v1.1.706.zip",
     "notes": [
-        "Charm designs set units the way Charm does: new Sensors, Battery, FPS and Weather designs start each reading at Charm's value column with its unit riding right after the digits (“54 °C”, “6.2 mph”), instead of the unit sitting in a column…",
-        "A unit that rides after its number uses its portal's own spacing: Charm's 2px column gap, Omen's 0.03 of the number's size. Mirage's readings carry their unit inside the value, so nothing changes there."
+        "Designs you already saved now set their units the same way: once, when the app loads, every unit in every saved design — in each size layout it has — is made to ride right after its own value's digits (%, °C, GHz, W, mph and the rest), and…",
+        "It happens once per design. If you later set a unit free in the designer ('Sits right after' → Nothing), it stays free. New designs, and new Charm clock designs, start with their units and AM/PM already riding."
     ],
     "required": false
 }
