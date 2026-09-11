@@ -1,12 +1,12 @@
 {
-    "version": "1.1.701",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.701/NovaPanel-v1.1.701.zip",
+    "version": "1.1.702",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.702/NovaPanel-v1.1.702.zip",
     "notes": [
-        "Content Designer: every card Charm draws can now be designed on Charm's card: Date / Time, Sensors, Battery, FPS, Calendar, Weather, Shortcuts, Media, Volume, Brightness, Microphone, Radios, Power Plan, Power and Video. Each one starts as…",
-        "A Sensors design for Charm is written against 'this card': the group's name, its model and readings 1 to 5. One design dresses every sensor card (CPU, GPU, iGPU, Memory, Storage, Network), and a group with fewer readings simply leaves the…",
-        "New pieces to place: volume, brightness and microphone levels (a meter can follow them) and their mute states; Wi-Fi and Bluetooth on/off; the active power plan and the card's title; media position, length, progress and artwork; Charm's…",
-        "More options for graphics: a piece can be painted in any of its portal's inks. Charm offers Text, Supporting, Accent, Bar accent, Hairline, Bar track, Card fill, Panel ground and a hue; Mirage keeps its one ink, so nothing extra is offered…",
-        "Meters and gauges take a Fill and a Track color, plus track opacity. On Charm a new meter is the two-color Charm bar (accent over the 12% white track); on Mirage it stays one color with its track at a quarter. New gauge style: Orbit…"
+        "Charm: every card can now be drawn from a Content Designer design, not only the clock — Sensors (one card per hardware group), Battery, FPS, Calendar, Weather, Shortcuts, Media, Volume, Brightness, Microphone, Radios, Power Plan, Power and…",
+        "Designs work. Play/pause, previous, next and open-player press what the media card presses; drag a meter that follows the track's progress to seek, or one that follows volume, brightness or the microphone to set it. The speaker and…",
+        "A control with nothing to control is not drawn, as on Charm's own cards: no fourth plan pill on a machine with three plans, no tile for a shortcut that doesn't exist, no skip button when the source can't skip. In the designer those slots…",
+        "The designer now matches the panel. Charm's Portal width is in real (physical) pixels, so on a 125% display a 186 panel is 149 pixels of layout; the designer was drawing it 186 wide, a quarter too large. It now draws Charm's card at its…",
+        "The Media design's artwork slot shows the source's art or Charm's gold cloud, and the Video design shows the panel's own player."
     ],
     "required": false
 }
