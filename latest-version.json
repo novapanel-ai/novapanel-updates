@@ -1,12 +1,9 @@
 {
-    "version": "1.1.703",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.703/NovaPanel-v1.1.703.zip",
+    "version": "1.1.704",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.704/NovaPanel-v1.1.704.zip",
     "notes": [
-        "Omen now draws Content Designer designs. Any of its cards — CPU, GPU, iGPU, Memory, Storage, Network, FPS, Battery and Clock — can be drawn from a design instead of Omen's own gauge. Pick it in the Panel Editor: Cards tab, under Card…",
-        "One Sensors design dresses every sensor card it is chosen for, and each card reads its own hardware: the same design shows CPU readings on the CPU card and GPU readings on the GPU card.",
-        "A designed card keeps everything else Omen decides: it appears only when its hardware reports, it keeps its place in the bands or the radial layout, its fill, border and padding, and it follows the card when the panel is resized or turned…",
-        "The design is placed inside Omen's own card padding (a tenth of the card's short side) at Omen's 11px smallest type, in Omen's text colors and its Inter face. The Content Designer now draws Omen cards the same way, and offers Omen's four…",
-        "New Sensors designs on Omen's own shapes (Square, Portrait, Tall, Tower) start as an Omen card: the group's name, its lead reading large with its unit, the model, a bar and the next two readings."
+        "Content Designer: a unit, or any piece of text, can now sit right after another piece's actual digits — the way Omen sets its % beside the number — instead of where it was dropped. Choose it under 'Sits right after' in the inspector. It…",
+        "New Sensors designs on Omen's shapes start that way: the % rides beside the lead reading at 0.4 of its size, level with its top, as on Omen's own cards. The lead reading is sized so its widest value and its unit still fit the card."
     ],
     "required": false
 }
