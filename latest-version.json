@@ -1,10 +1,10 @@
 {
-    "version": "1.1.698",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.698/NovaPanel-v1.1.698.zip",
+    "version": "1.1.699",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.699/NovaPanel-v1.1.699.zip",
     "notes": [
-        "Content Designer: Omen's meters, gauges and graphs can now be placed on any card that has a number to show. Meters come in Bar, Pill, Handle and Dashed; gauges in Ring, Dot, Segments and Crest; graphs in Dotted Flow, Waves, Pulse, Peaks…",
-        "Each one follows a reading you choose and is measured against a range: load and temperature go to 100 by default, and clock, power, network and memory use the reading's own maximum (the rated clock, power limit, link speed or total). Type…",
-        "Omen's own panel is unchanged."
+        "Content Designer: separators sit with the icons in the Graphics group - middot (·), bullet (•), slash (/), bar (|), en dash (–), em dash (—) and chevron (›). Add as many as a card needs; each is set like any other text, in the card's…",
+        "Content Designer: select several pieces with Ctrl-click (Cmd on a Mac), on the card or in the list, and drag any one of them to move them together. Arrow keys nudge the whole selection, Delete removes it, Ctrl+A selects everything and Esc…",
+        "Content Designer: designs name themselves. Save with the name left blank and the design is named from what it is - how its lead is set (Sigil, Hairline, Whisper...), what it draws (a ring gauge is a Halo, waves are a Tide) and what it…"
     ],
     "required": false
 }
