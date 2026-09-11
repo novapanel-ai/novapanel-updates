@@ -1,9 +1,12 @@
 {
-    "version": "1.1.706",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.706/NovaPanel-v1.1.706.zip",
+    "version": "1.1.707",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.707/NovaPanel-v1.1.707.zip",
     "notes": [
-        "Designs you already saved now set their units the same way: once, when the app loads, every unit in every saved design — in each size layout it has — is made to ride right after its own value's digits (%, °C, GHz, W, mph and the rest), and…",
-        "It happens once per design. If you later set a unit free in the designer ('Sits right after' → Nothing), it stays free. New designs, and new Charm clock designs, start with their units and AM/PM already riding."
+        "One design system for every portal. Mirage, Charm and Omen now put a design on a card the same way, run its controls through the same code, and decide whether it has anything to show by the same rule. Each portal keeps only what is its…",
+        "Any rune on any Omen card: the Storage card can carry a Media design, the Network card a Clock. A card drawn from another rune's design appears when that rune has something to show, and its controls work (play, skip, seek, mute, levels…",
+        "Designs scale to fit Omen's cards: a design keeps its proportions, fitted and centred on a card of any ratio, instead of running off one side. The Content Designer shows Omen sizes that follow another size's layout the same way.",
+        "Every rune now starts with something on every shape: a rune with no starter of its own for a shape (Media, the controls, Shortcuts, Power...) starts as Charm's card for it, scaled into that card.",
+        "Designs on Mirage cards have working controls on the panel (never in the layout maker's preview)."
     ],
     "required": false
 }
