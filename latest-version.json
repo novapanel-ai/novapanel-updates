@@ -1,9 +1,9 @@
 {
-    "version": "1.1.695",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.695/NovaPanel-v1.1.695.zip",
+    "version": "1.1.696",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.696/NovaPanel-v1.1.696.zip",
     "notes": [
-        "Charm: the clock card looks exactly as it did before 1.1.694 again - the time with a small AM/PM, over Thursday · Sep 10, 2026, at Charm's own sizes, weights and card height - while still being drawn by the shared clock rune. The day and…",
-        "Charm no longer applies Mirage's blending rule to anything it draws; Mirage keeps it. Charm's smallest text (its 7.5px labels) is now the floor runes respect in Charm."
+        "Charm: the Date/Time card can now be drawn from a design you made in the Content Designer. In the Panel Editor's Date/Time tab, the new Card design row shows Charm's own clock and every saved Charm clock design as live previews of the real…",
+        "A chosen design keeps Charm's card and padding and takes its own height. If that design is later deleted, the card goes back to Charm's own clock instead of going blank, and editing a design redraws the card without reopening anything."
     ],
     "required": false
 }
