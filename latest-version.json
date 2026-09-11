@@ -1,12 +1,10 @@
 {
-    "version": "1.1.697",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.697/NovaPanel-v1.1.697.zip",
+    "version": "1.1.698",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.698/NovaPanel-v1.1.698.zip",
     "notes": [
-        "Content Designer: every rune now lists everything it knows, so you choose what shows. Sensors offers every reading Charm shows (CPU, GPU, iGPU, memory, storage and network - each value, its unit and its name, plus each part's model name).…",
-        "Content Designer: text with no fixed length - a plan name, a track title - now stays inside the card and ends with an ellipsis, instead of running off the edge from a box sized for a dash.",
-        "Content Designer: Charm designs offer Charm's own fonts - the same list as Charm's Text settings - plus Anta, Sigil's own face. Mirage designs can use Anta too. A face that ships in one weight (Anta) only offers that weight.",
-        "Content Designer: a new Charm clock design starts as Charm's own clock card - the time with its AM/PM over the day and date, at Charm's sizes - and the canvas shows Charm designs in Charm's monospace font.",
-        "Charm's Text settings list gains Anta. Charm's sensor list now lives in one shared place that both Charm and the Content Designer read."
+        "Content Designer: Omen's meters, gauges and graphs can now be placed on any card that has a number to show. Meters come in Bar, Pill, Handle and Dashed; gauges in Ring, Dot, Segments and Crest; graphs in Dotted Flow, Waves, Pulse, Peaks…",
+        "Each one follows a reading you choose and is measured against a range: load and temperature go to 100 by default, and clock, power, network and memory use the reading's own maximum (the rated clock, power limit, link speed or total). Type…",
+        "Omen's own panel is unchanged."
     ],
     "required": false
 }
