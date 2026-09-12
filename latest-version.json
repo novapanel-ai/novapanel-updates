@@ -1,17 +1,17 @@
 {
-    "version": "1.1.717",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.717/NovaPanel-v1.1.717.zip",
+    "version": "1.1.718",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.718/NovaPanel-v1.1.718.zip",
     "notes": [
-        "Updates are differential: a release now carries a patch beside the full artifact holding only the install files whose contents changed, so a code-only cycle downloads a few megabytes instead of 205. An install on the version the patch was…",
-        "What changed is derived by comparing file hashes between builds, never assumed -- a cycle that also replaces the Electron runtime simply produces a bigger patch, and one that deletes a file publishes no patch at all, because the installer…",
-        "A patch is verified against the feed's sha256 before it is handed to the installer, and any failure -- HTTP, hash, or a patch that does not name this exact version pair -- downloads the full artifact instead.",
-        "The update panel says which it is about to fetch and how big it is, and the downloaded-archive cache now prunes patches as well as full artifacts."
+        "A large file that barely changed now travels as only the 1MB blocks that differ from the copy already installed. Measured: NovaPanel.exe is 168.7MB and FOUR BYTES of it change per release (the stamped version), so the update that carried…",
+        "Every rebuilt file is checked twice: the installed copy must match the hash the delta was built against, and the result must match the release's own sha256, so what lands is byte-identical to a full install. A mismatch fails the update…",
+        "A patch only uses what the installed version can apply: whole-file patches from 1.1.717 (the first build that understands them) and block deltas from 1.1.718, because the client that applies a patch is the old one.",
+        "Update archives are cached with a bound again -- patches are pruned alongside full artifacts rather than accumulating unnoticed."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.716",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.717/NovaPanel-patch-1.1.716-to-1.1.717.zip",
-        "size": 7092569,
-        "sha256": "657be06af869c389b529b72912105c25fd62a4c49efac897691ec1e6918d7d91"
+        "from": "1.1.717",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.718/NovaPanel-patch-1.1.717-to-1.1.718.zip",
+        "size": 85289996,
+        "sha256": "b58859459443a77698991b9c42dd02a6d7300f25f7d2a2c8256810be3e721ff7"
     }
 }
