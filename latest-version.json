@@ -1,9 +1,10 @@
 {
-    "version": "1.1.708",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.708/NovaPanel-v1.1.708.zip",
+    "version": "1.1.709",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.709/NovaPanel-v1.1.709.zip",
     "notes": [
-        "Every portal gets every rune, for now. The Content Designer offers all fifteen runes on every card shape of every portal — Mirage, Charm and Omen — each with a live preview, and every one starts with something on the canvas.",
-        "The layout maker lets you put any rune on any Mirage card. A rune whose built-in look doesn't fit the card is marked 'designs only': it draws from a design made for that card's shape, and until you make one the card shows its placeholder."
+        "Content Designer: the shape step is grouped by the shapes themselves — Wide, Landscape, Square, Portrait, Tall — instead of one section per portal, since a design belongs to no portal. Each tile names the portals that draw that shape.",
+        "Content Designer: the shape tiles are an even grid of framed cards that fills the column; each band is drawn to one scale so the cards in it are comparable, and a band is only as tall as its own tallest card.",
+        "The primary panel is called Omen in the Control Panel, matching the name everywhere else."
     ],
     "required": false
 }
