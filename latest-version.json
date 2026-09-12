@@ -1,12 +1,11 @@
 {
-    "version": "1.1.714",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.714/NovaPanel-v1.1.714.zip",
+    "version": "1.1.715",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.715/NovaPanel-v1.1.715.zip",
     "notes": [
-        "Content Designer: nothing scrolls any more. A reading is one row with its unit and its name as two small chips on it, instead of three rows of equal weight -- Sensors went from twenty rows to seven -- and where a design runs moved out of…",
-        "One rhythm in the content list: every row 26px, every row in a group indented under it, the Add buttons the size of the rows they sit in, group names on one line with the count never wrapping, and the tick boxes the same quiet 14px as the…",
-        "Alignment reads as two questions instead of one: five edge buttons under \"Align to the hero\", and \"Center / Fit width\" under \"In the card\" -- one row each where it used to wrap onto three.",
-        "The row of sizes under the stage says each size in two lines rather than four, and the size chips drop the word they were repeating.",
-        "The HERO marker on the canvas sits inside its own piece on a ground of its own, instead of printing through whatever sat above it."
+        "Content Designer: nothing scrolls at any step now, in any state measured.",
+        "Every control the window draws itself shows a 2px focus ring, and the wizard steps answer the keyboard (they were mouse-only); Ctrl+S saves.",
+        "A locked step is legible instead of faded to 3.91:1, which is under the contrast minimum for 11px text -- it now reads as unavailable through its flat badge, not by disappearing.",
+        "The hint under the stage is one short line, and the hero marker on the canvas is a dot rather than the word HERO printed over the reading it was labelling."
     ],
     "required": false
 }
