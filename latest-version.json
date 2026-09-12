@@ -1,12 +1,12 @@
 {
-    "version": "1.1.713",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.713/NovaPanel-v1.1.713.zip",
+    "version": "1.1.714",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.714/NovaPanel-v1.1.714.zip",
     "notes": [
-        "Content Designer interface pass, measured: the left rail scrolled 4021px to pick a rune and 3647px to tick a piece of content. Shapes and runes are now two-column tiles that fit the rail, and the content list is grouped and collapsible…",
-        "The rail itself no longer scrolls: its heading and filter stay put and only the list inside moves.",
-        "The inspector fits without scrolling (851px of controls in a 911px rail, now 745px), with no control removed and none below the 24px minimum target size (WCAG 2.2 SC 2.5.8).",
-        "The portal appears as soon as a portal is chosen, at its own reference size, instead of half the window sitting empty until a shape is picked -- and the right rail states that portal's or card's facts (sizes it opens at, padding, smallest…",
-        "Chrome type and spacing now come entirely from the design system's scales -- ten different font sizes became five, and no spacing value is off the scale."
+        "Content Designer: nothing scrolls any more. A reading is one row with its unit and its name as two small chips on it, instead of three rows of equal weight -- Sensors went from twenty rows to seven -- and where a design runs moved out of…",
+        "One rhythm in the content list: every row 26px, every row in a group indented under it, the Add buttons the size of the rows they sit in, group names on one line with the count never wrapping, and the tick boxes the same quiet 14px as the…",
+        "Alignment reads as two questions instead of one: five edge buttons under \"Align to the hero\", and \"Center / Fit width\" under \"In the card\" -- one row each where it used to wrap onto three.",
+        "The row of sizes under the stage says each size in two lines rather than four, and the size chips drop the word they were repeating.",
+        "The HERO marker on the canvas sits inside its own piece on a ground of its own, instead of printing through whatever sat above it."
     ],
     "required": false
 }
