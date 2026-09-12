@@ -1,12 +1,8 @@
 {
-    "version": "1.1.711",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.711/NovaPanel-v1.1.711.zip",
+    "version": "1.1.712",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.712/NovaPanel-v1.1.712.zip",
     "notes": [
-        "The Content Designer is a builder: the middle of the window is your real desktop with the actual portal on it -- Charm's panel, an Omen surface at the chosen resolution, or a Mirage strip drawn from one of your saved layouts -- and the…",
-        "The desktop stays put as you move between portal, rune and design, and naming, Save, Save as new and Remove sit in a fixed bar reachable at any step.",
-        "A design says which portals and which resolutions it runs on; Charm is always the panel's width by its content's height.",
-        "Charm no longer has a height control: the card is as tall as what it holds plus its padding, worked out after every edit, and the toolbar states the card and content size rather than asking for one.",
-        "The designer's toolbar is two rows -- what is drawn, then how it is viewed -- so nothing runs together, and the row of sizes under the stage is one even grid."
+        "The Content Designer's toolbar is quieter: smaller checkboxes and buttons, 11px labels, and real space above and below each row, so the bar reads as a header and the card keeps your eye."
     ],
     "required": false
 }
