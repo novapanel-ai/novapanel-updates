@@ -1,17 +1,16 @@
 {
-    "version": "1.1.718",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.718/NovaPanel-v1.1.718.zip",
+    "version": "1.1.719",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.719/NovaPanel-v1.1.719.zip",
     "notes": [
-        "A large file that barely changed now travels as only the 1MB blocks that differ from the copy already installed. Measured: NovaPanel.exe is 168.7MB and FOUR BYTES of it change per release (the stamped version), so the update that carried…",
-        "Every rebuilt file is checked twice: the installed copy must match the hash the delta was built against, and the result must match the release's own sha256, so what lands is byte-identical to a full install. A mismatch fails the update…",
-        "A patch only uses what the installed version can apply: whole-file patches from 1.1.717 (the first build that understands them) and block deltas from 1.1.718, because the client that applies a patch is the old one.",
-        "Update archives are cached with a bound again -- patches are pruned alongside full artifacts rather than accumulating unnoticed."
+        "The Content Designer fits two things, not one: \"Portal\" shows the whole panel on the desktop as before, and \"Card\" fills the view with the card being designed while leaving it in place on the portal -- a Mirage card was being laid out at…",
+        "The design bar reads as three groups -- naming, what happens to this design, and the library -- separated by a rule, so the primary action carries more weight than \"New\".",
+        "A meter, gauge or graph no longer repeats itself: the line under its controls said what the Fill and Track hints beside them already say, and it was the 25px the right rail did not have."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.717",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.718/NovaPanel-patch-1.1.717-to-1.1.718.zip",
-        "size": 85289996,
-        "sha256": "b58859459443a77698991b9c42dd02a6d7300f25f7d2a2c8256810be3e721ff7"
+        "from": "1.1.718",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.719/NovaPanel-patch-1.1.718-to-1.1.719.zip",
+        "size": 7056548,
+        "sha256": "47b200bd76315ebcab4d359e6f7d3c4b44cfdc840eb2dad534d43df2cb25dda2"
     }
 }
