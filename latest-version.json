@@ -1,9 +1,17 @@
 {
-    "version": "1.1.716",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.716/NovaPanel-v1.1.716.zip",
+    "version": "1.1.717",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.717/NovaPanel-v1.1.717.zip",
     "notes": [
-        "Saved designs are shown, not described: each row in the drawer draws the design itself at its card's size, through the same renderer the canvas uses, and the row is what opens it -- so the \"Open\" button beside a row that already opens is…",
-        "A saved row is as tall as the picture in it rather than a third taller."
+        "Updates are differential: a release now carries a patch beside the full artifact holding only the install files whose contents changed, so a code-only cycle downloads a few megabytes instead of 205. An install on the version the patch was…",
+        "What changed is derived by comparing file hashes between builds, never assumed -- a cycle that also replaces the Electron runtime simply produces a bigger patch, and one that deletes a file publishes no patch at all, because the installer…",
+        "A patch is verified against the feed's sha256 before it is handed to the installer, and any failure -- HTTP, hash, or a patch that does not name this exact version pair -- downloads the full artifact instead.",
+        "The update panel says which it is about to fetch and how big it is, and the downloaded-archive cache now prunes patches as well as full artifacts."
     ],
-    "required": false
+    "required": false,
+    "patch": {
+        "from": "1.1.716",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.717/NovaPanel-patch-1.1.716-to-1.1.717.zip",
+        "size": 7092569,
+        "sha256": "657be06af869c389b529b72912105c25fd62a4c49efac897691ec1e6918d7d91"
+    }
 }
