@@ -1,8 +1,12 @@
 {
-    "version": "1.1.712",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.712/NovaPanel-v1.1.712.zip",
+    "version": "1.1.713",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.713/NovaPanel-v1.1.713.zip",
     "notes": [
-        "The Content Designer's toolbar is quieter: smaller checkboxes and buttons, 11px labels, and real space above and below each row, so the bar reads as a header and the card keeps your eye."
+        "Content Designer interface pass, measured: the left rail scrolled 4021px to pick a rune and 3647px to tick a piece of content. Shapes and runes are now two-column tiles that fit the rail, and the content list is grouped and collapsible…",
+        "The rail itself no longer scrolls: its heading and filter stay put and only the list inside moves.",
+        "The inspector fits without scrolling (851px of controls in a 911px rail, now 745px), with no control removed and none below the 24px minimum target size (WCAG 2.2 SC 2.5.8).",
+        "The portal appears as soon as a portal is chosen, at its own reference size, instead of half the window sitting empty until a shape is picked -- and the right rail states that portal's or card's facts (sizes it opens at, padding, smallest…",
+        "Chrome type and spacing now come entirely from the design system's scales -- ten different font sizes became five, and no spacing value is off the scale."
     ],
     "required": false
 }
