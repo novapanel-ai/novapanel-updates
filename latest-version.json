@@ -1,11 +1,9 @@
 {
-    "version": "1.1.715",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.715/NovaPanel-v1.1.715.zip",
+    "version": "1.1.716",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.716/NovaPanel-v1.1.716.zip",
     "notes": [
-        "Content Designer: nothing scrolls at any step now, in any state measured.",
-        "Every control the window draws itself shows a 2px focus ring, and the wizard steps answer the keyboard (they were mouse-only); Ctrl+S saves.",
-        "A locked step is legible instead of faded to 3.91:1, which is under the contrast minimum for 11px text -- it now reads as unavailable through its flat badge, not by disappearing.",
-        "The hint under the stage is one short line, and the hero marker on the canvas is a dot rather than the word HERO printed over the reading it was labelling."
+        "Saved designs are shown, not described: each row in the drawer draws the design itself at its card's size, through the same renderer the canvas uses, and the row is what opens it -- so the \"Open\" button beside a row that already opens is…",
+        "A saved row is as tall as the picture in it rather than a third taller."
     ],
     "required": false
 }
