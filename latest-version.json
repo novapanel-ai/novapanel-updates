@@ -1,15 +1,17 @@
 {
-    "version": "1.1.723",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.723/NovaPanel-v1.1.723.zip",
+    "version": "1.1.724",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.724/NovaPanel-v1.1.724.zip",
     "notes": [
-        "Memory, Storage and Network read again. The app skipped its own WMI read whenever the sensor service had recently sent ANY of the four readings that service samples natively — but that read is the only source of five others, memory…",
-        "The skip now asks whether the service's feed actually covers each reading the WMI read would fetch, instead of inferring it from one arrival. Full coverage still skips the read entirely, so the idle-cost saving that change was made for is…"
+        "Charm's list is now the Sensor List the CEO approved (ceo-files/PROPOSAL-sensor-list.html): every reading in one inline run, grouped by the part it comes from, including System (charge, status, volume, mic, brightness). It replaces both…",
+        "Edited from the Panel Editor on the real portal: Sensors tab, Shape As a List. Start from any of the four defaults (Divider, Gap, Identifiers, Tight), then set divider, gap, model names and identifier; font size, row gap and…",
+        "Every sensor offered comes from what this computer reports, not a fixed list. The editor's What's shown list, in Cards and in List, and the Sensor List's dim options now offer only readings this machine has reported, by the same test the…",
+        "One declaration, windows/foundation-panel/shared/sensor-list.js, holds the defaults, the options and the readings; the portal draws from it and the editor edits from it. The old list's row builders, label tables and its column-width…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.722",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.723/NovaPanel-patch-1.1.722-to-1.1.723.zip",
-        "size": 7063496,
-        "sha256": "42b1fde0dd0b60848d7b1ebb83a65f1a321a9d7ed9e8693836381bd050edbf8f"
+        "from": "1.1.723",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.724/NovaPanel-patch-1.1.723-to-1.1.724.zip",
+        "size": 7063383,
+        "sha256": "d4a0bd5fc1dc77509c31f18c453a8b9bdae16ad18f2a400bc63b5980ba75c2ef"
     }
 }
