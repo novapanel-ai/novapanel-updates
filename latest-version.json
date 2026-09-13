@@ -1,17 +1,16 @@
 {
-    "version": "1.1.724",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.724/NovaPanel-v1.1.724.zip",
+    "version": "1.1.725",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.725/NovaPanel-v1.1.725.zip",
     "notes": [
-        "Charm's list is now the Sensor List the CEO approved (ceo-files/PROPOSAL-sensor-list.html): every reading in one inline run, grouped by the part it comes from, including System (charge, status, volume, mic, brightness). It replaces both…",
-        "Edited from the Panel Editor on the real portal: Sensors tab, Shape As a List. Start from any of the four defaults (Divider, Gap, Identifiers, Tight), then set divider, gap, model names and identifier; font size, row gap and…",
-        "Every sensor offered comes from what this computer reports, not a fixed list. The editor's What's shown list, in Cards and in List, and the Sensor List's dim options now offer only readings this machine has reported, by the same test the…",
-        "One declaration, windows/foundation-panel/shared/sensor-list.js, holds the defaults, the options and the readings; the portal draws from it and the editor edits from it. The old list's row builders, label tables and its column-width…"
+        "The Sensor List is made in the Content Designer, not the Panel Editor. The CEO: \"only the designer can make the changes... I need to tweak it and save it and the saved one will be available as an option to choose in the editor.\" In the…",
+        "The Panel Editor now only chooses. Sensors, As a List, and Configure under Sensors, offer Default plus every saved version, each tile drawn by the panel's own renderer; picking one is what the portal draws. A tweak made in the editor in…",
+        "One renderer for all three surfaces: shared/sensor-list.js resolves what this machine reports and builds the list, shared/sensor-list.css styles it, and the model-name shortener moved to shared/sensor-readings.js, so the designer preview…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.723",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.724/NovaPanel-patch-1.1.723-to-1.1.724.zip",
-        "size": 7063383,
-        "sha256": "d4a0bd5fc1dc77509c31f18c453a8b9bdae16ad18f2a400bc63b5980ba75c2ef"
+        "from": "1.1.724",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.725/NovaPanel-patch-1.1.724-to-1.1.725.zip",
+        "size": 7069560,
+        "sha256": "85b0af8bd9510569971a598ed9f36867a8a9c2c18c9aaeaf2a3d8e2e615ea55a"
     }
 }
