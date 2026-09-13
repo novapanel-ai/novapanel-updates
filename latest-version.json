@@ -1,17 +1,16 @@
 {
-    "version": "1.1.720",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.720/NovaPanel-v1.1.720.zip",
+    "version": "1.1.721",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.721/NovaPanel-v1.1.721.zip",
     "notes": [
-        "Edit the content where it is: right-click a portal and choose \"Edit … content\". The panel goes into edit mode on your desktop, you click the card you want, and its pieces become draggable in place — at the real size, on the real wallpaper…",
-        "⚠️ The starting point is the card itself. A card with no design of its own is READ INTO ONE when you click it — every reading it draws, in its own columns, at its own sizes — so the default is exactly what the panel already shows and the…",
-        "This replaces designing against a preview. The preview was a second card, and every stubborn fault traced to the two disagreeing: hand-written starter tables drifting from the layout the panel computes (defaults that collided and dropped…",
-        "Editing is in the shared design host, so a tweak on the desktop is the same design object the Content Designer saves and every portal draws — what you tweak is what ships."
+        "Edit mode is removed and what it left behind is cleaned up on start. In 1.1.720 clicking a card read it into a design — on a real panel it read the wrong box (40 pieces at an aspect of 2.85 where the card's own is 0.88), so every sensor…",
+        "The repair is targeted, not a sweep: only designs named exactly \"Edited <rune>\" — a name that code and nothing else produced — and only card pointers aimed at a design that no longer exists. A design you made and named is untouched.",
+        "Nothing else changed: the Content Designer, the portals and the differential updates are as they were in 1.1.719."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.719",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.720/NovaPanel-patch-1.1.719-to-1.1.720.zip",
-        "size": 7075905,
-        "sha256": "0af4cc8b0adb4bed242ecbaa7185b451b510082e9406e298e157b3d684400f1a"
+        "from": "1.1.720",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.721/NovaPanel-patch-1.1.720-to-1.1.721.zip",
+        "size": 7061126,
+        "sha256": "a3981682d21bf9c50ba5f342e106de5a529c74ebafaa1b31ac2731af69bff145"
     }
 }
