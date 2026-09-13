@@ -1,15 +1,15 @@
 {
-    "version": "1.1.722",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.722/NovaPanel-v1.1.722.zip",
+    "version": "1.1.723",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.723/NovaPanel-v1.1.723.zip",
     "notes": [
-        "Reverted to v1.1.719. Every file of the app is now byte-identical to that build — Charm's panel, the shared content renderer and the Content Designer included — checked file by file against the published v1.1.719 artifact, not by memory.",
-        "The one exception is deliberate: the start-up repair that removes the designs v1.1.720's edit mode generated (\"Edited <rune>\") and clears any card pointing at a design that no longer exists. Without it a panel stays pointed at the design…"
+        "Memory, Storage and Network read again. The app skipped its own WMI read whenever the sensor service had recently sent ANY of the four readings that service samples natively — but that read is the only source of five others, memory…",
+        "The skip now asks whether the service's feed actually covers each reading the WMI read would fetch, instead of inferring it from one arrival. Full coverage still skips the read entirely, so the idle-cost saving that change was made for is…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.721",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.722/NovaPanel-patch-1.1.721-to-1.1.722.zip",
-        "size": 7060616,
-        "sha256": "da09749824bf4204ab1970ebe31a3ba601691b4a087e5fd09fbbfb4afbebf8a7"
+        "from": "1.1.722",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.723/NovaPanel-patch-1.1.722-to-1.1.723.zip",
+        "size": 7063496,
+        "sha256": "42b1fde0dd0b60848d7b1ebb83a65f1a321a9d7ed9e8693836381bd050edbf8f"
     }
 }
