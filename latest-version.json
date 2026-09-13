@@ -1,16 +1,15 @@
 {
-    "version": "1.1.721",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.721/NovaPanel-v1.1.721.zip",
+    "version": "1.1.722",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.722/NovaPanel-v1.1.722.zip",
     "notes": [
-        "Edit mode is removed and what it left behind is cleaned up on start. In 1.1.720 clicking a card read it into a design — on a real panel it read the wrong box (40 pieces at an aspect of 2.85 where the card's own is 0.88), so every sensor…",
-        "The repair is targeted, not a sweep: only designs named exactly \"Edited <rune>\" — a name that code and nothing else produced — and only card pointers aimed at a design that no longer exists. A design you made and named is untouched.",
-        "Nothing else changed: the Content Designer, the portals and the differential updates are as they were in 1.1.719."
+        "Reverted to v1.1.719. Every file of the app is now byte-identical to that build — Charm's panel, the shared content renderer and the Content Designer included — checked file by file against the published v1.1.719 artifact, not by memory.",
+        "The one exception is deliberate: the start-up repair that removes the designs v1.1.720's edit mode generated (\"Edited <rune>\") and clears any card pointing at a design that no longer exists. Without it a panel stays pointed at the design…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.720",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.721/NovaPanel-patch-1.1.720-to-1.1.721.zip",
-        "size": 7061126,
-        "sha256": "a3981682d21bf9c50ba5f342e106de5a529c74ebafaa1b31ac2731af69bff145"
+        "from": "1.1.721",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.722/NovaPanel-patch-1.1.721-to-1.1.722.zip",
+        "size": 7060616,
+        "sha256": "da09749824bf4204ab1970ebe31a3ba601691b4a087e5fd09fbbfb4afbebf8a7"
     }
 }
