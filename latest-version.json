@@ -1,16 +1,16 @@
 {
-    "version": "1.1.748",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.748/NovaPanel-v1.1.748.zip",
+    "version": "1.1.749",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.749/NovaPanel-v1.1.749.zip",
     "notes": [
-        "Content Designer, Mirage and Omen cards: pressing a sensor rune's layout (or a saved version of it) now opens that layout's element controls on the right. These are the same per-element family, weight, spacing, opacity, color and caps rows…",
-        "Content Designer, Mirage: the card header says \"Saved to <layout>\" once a rune or layout is written to a layout's card, because picks save immediately and nothing confirmed it before.",
-        "Temp, Load, Clock and Power runes (the readings list with no lead number) now scale their readings with the card when the card has a fixed size, as on Mirage and Omen. They scale at the rune's small-number size (13px × card scale), about…"
+        "Content Designer, Mirage and Omen cards: every non-sensor rune's layouts can now be styled, like the sensor runes. Pressing a layout of Date / Time, Weather, Calendar, FPS, Battery, Volume, Brightness, Microphone, Radios, Power Plan…",
+        "Mirage and Omen draw these versions through the rune itself: the layout as the rune builds it, with the version's styles painted on its pieces after each redraw. The pieces are named in the new shared/mirage-styles.js, which uses the same…",
+        "The theme-mirage panel's old Panel Editor card picks (content.stripCards for Cluster, Console, Pair, Bracket and one saved layout) were cleared on the CEO's machine at his request, so each card now shows the rune set for it in the Content…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.747",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.748/NovaPanel-patch-1.1.747-to-1.1.748.zip",
-        "size": 7108535,
-        "sha256": "c14eef8a0a6052e4584c93c1469bd63aeb02b7df4bb142f798b35481268700cc"
+        "from": "1.1.748",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.749/NovaPanel-patch-1.1.748-to-1.1.749.zip",
+        "size": 7111929,
+        "sha256": "fa983f1c5d884adb37dd89f2d3933022b2d31f373d0c31d10e76a8908480c309"
     }
 }
