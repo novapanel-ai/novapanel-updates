@@ -1,17 +1,16 @@
 {
-    "version": "1.1.732",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.732/NovaPanel-v1.1.732.zip",
+    "version": "1.1.733",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.733/NovaPanel-v1.1.733.zip",
     "notes": [
-        "Hardware runes, for the portals to use. The CEO: \"hardware can be a rune... I would pick the hardware (or sensor type) and then we offer different layouts... not all sensors will have all the values so we gracefully degrade.\" One shared…",
-        "What is shown is read from this computer: a part it does not report draws no card, and a missing model name, meter or value simply is not drawn. The big number is the first reading the part reports of temperature, used, download, charge or…",
-        "A value never runs off its card: each reserves the widest reading it can show, so columns never move as numbers change, and the values take as many aligned columns as genuinely fit. A card scales by its size (a 2x2 card is the 1x1 design…",
-        "Charm: eleven new runes (Hardware · CPU through Sensor · Power) alongside the sensor cards, off until switched on, each drawn at the card width with the height its content needs. In the Panel Editor, Configure shows a rune's ten layouts as…"
+        "Hardware runes are styled in the Content Designer, the same way as the Sensor List. Charm, then Charm card, offers a Hardware tile beside Sensor List. It opens the simple screen: choose the part (CPU, GPU, iGPU, Memory, Storage, Network…",
+        "Every change shows on the real Charm as it is made: Charm draws the part being styled even if its rune is off, and leaving or closing the designer puts Charm back. Save, Save as new, Update, Reset to defaults and the Saved drawer work for…",
+        "In the Panel Editor, Configure on a Hardware rune shows its saved versions above the layouts, each drawn as a live preview; picking a version draws it on Charm with its own layout and styling, and picking a plain layout goes back to the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.731",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.732/NovaPanel-patch-1.1.731-to-1.1.732.zip",
-        "size": 7086764,
-        "sha256": "4296b438bb3af17d4295cca0e85a25e1f45e4b420e2fadb7c840531769f1d8e8"
+        "from": "1.1.732",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.733/NovaPanel-patch-1.1.732-to-1.1.733.zip",
+        "size": 7089379,
+        "sha256": "e5eae597609252bf9ecfc7f65338c248e8244d0162e0210d0724bfedfa1e1cf6"
     }
 }
