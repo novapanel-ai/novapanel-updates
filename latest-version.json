@@ -1,15 +1,14 @@
 {
-    "version": "1.1.742",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.742/NovaPanel-v1.1.742.zip",
+    "version": "1.1.743",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.743/NovaPanel-v1.1.743.zip",
     "notes": [
-        "Sensors are individual runes everywhere a card chooses a rune: CPU, GPU, iGPU, Memory, Storage, Network, System, Temp, Load, Clock and Power are each a rune in the shared rune register (drawn by the Hardware rune for that part), so…",
-        "Content Designer, Mirage and Omen: the Rune dropdown is replaced by a grid of every rune a card can hold, grouped Panel, Sensors and Controls; the generic Sensors entry is not offered. A sensor rune's options are its layouts (ten for a…"
+        "Portals that close are now accounted for in the runtime log. On 2026-09-14 every update restart reopened Charm and Mirage, but later both went away while the app was running and nothing recorded why. Every close request now notes who asked…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.741",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.742/NovaPanel-patch-1.1.741-to-1.1.742.zip",
-        "size": 7104277,
-        "sha256": "fec54a366a936cf48ba91fe7bb324c0ab6201f9936b92f7766f67922d9a3f147"
+        "from": "1.1.742",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.743/NovaPanel-patch-1.1.742-to-1.1.743.zip",
+        "size": 7105003,
+        "sha256": "20c14700966d2bdcf9a58a16ba613b86bb3fc8d494ae88119101551de40bccbb"
     }
 }
