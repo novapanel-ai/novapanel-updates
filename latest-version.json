@@ -1,16 +1,17 @@
 {
-    "version": "1.1.740",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.740/NovaPanel-v1.1.740.zip",
+    "version": "1.1.741",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.741/NovaPanel-v1.1.741.zip",
     "notes": [
-        "Content Designer, Mirage: the left rail lists Mirage's layout types (Cluster, Console, Pair, Bracket, Rank, Span, each with a small diagram) with your saved Layout Maker layouts beside them, then the chosen type's cards in order with their…",
-        "Content Designer, Omen: the left rail lists Omen's own cards in its two bands (CPU, Frame Rate, GPU, iGPU; Memory, Storage, Network, Battery, Clock). Clicking a card opens the rune it shows; above the preview are the Omen shapes, what to…",
-        "Mirage and Omen designs are styled the Charm way: Add a piece sits at the top of the right rail, and each piece on the card is a row that opens its own controls one at a time. The Shape select, the separate Content pane and its back link…"
+        "Content Designer opens Charm on its first rune instead of an empty screen.",
+        "Mirage in the Content Designer: the middle is now just the layout, the rune and its options. Clicking a layout type draws its cards at their real bounds; clicking a card shows which rune goes in it (a Rune choice) and that rune's options…",
+        "Runes chosen for the cards of Mirage's six built-in layout types are saved (config mirageStripDefaults, layout:defaults / layout:set-default) and Mirage draws them in any card a panel has not filled itself; for a saved layout the choice is…",
+        "Omen in the Content Designer: the middle is the card's shape, its rune and that rune's options, the same way; the portal frame and canvas are no longer shown."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.739",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.740/NovaPanel-patch-1.1.739-to-1.1.740.zip",
-        "size": 7098615,
-        "sha256": "f865d7dad8b5c93bdddabdcae9c0a1fd46ea1df0e4b76a8474998c330e28f390"
+        "from": "1.1.740",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.741/NovaPanel-patch-1.1.740-to-1.1.741.zip",
+        "size": 7102695,
+        "sha256": "42c8331896ad74057da638dc277c957eb3f70a39670195da50e8e072449d3c5f"
     }
 }
