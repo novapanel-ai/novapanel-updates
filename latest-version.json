@@ -1,14 +1,14 @@
 {
-    "version": "1.1.745",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.745/NovaPanel-v1.1.745.zip",
+    "version": "1.1.746",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.746/NovaPanel-v1.1.746.zip",
     "notes": [
-        "Content Designer, Mirage and Omen cards (approach A from PROPOSAL-card-rune-picker): an empty card lists every rune it can hold as a picture of that rune's default drawn at the card with this machine's readings, grouped Panel / Sensors /…"
+        "Content Designer, Mirage and Omen card tiles: the rune picture no longer sits on a hard-coded blue-black gradient inset. It sits on the tile's own flat dark ground, matching the approved proposal sketch."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.744",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.745/NovaPanel-patch-1.1.744-to-1.1.745.zip",
-        "size": 7106593,
-        "sha256": "18640b1305974486c42abd028aa7c9af1d66da8497dfee69984270c3d0f4dffe"
+        "from": "1.1.745",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.746/NovaPanel-patch-1.1.745-to-1.1.746.zip",
+        "size": 7106577,
+        "sha256": "5c308a2aa2a850e96746b474313b8ea51cfe6727e3da3fd4667213407d20fc2f"
     }
 }
