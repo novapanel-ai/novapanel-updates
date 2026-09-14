@@ -1,14 +1,17 @@
 {
-    "version": "1.1.737",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.737/NovaPanel-v1.1.737.zip",
+    "version": "1.1.738",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.738/NovaPanel-v1.1.738.zip",
     "notes": [
-        "Content Designer: the Charm portal frame is removed. It drew stand-in readings (\"Preview CPU\") instead of your Charm, so it did not match the real portal. Your Charm on the desktop is the preview. Charm's home screen is now the rune list…"
+        "Every Charm card now works the way Hardware does. In the Content Designer, clicking Date / Time, Weather, Calendar, FPS, Shortcuts, Laptop Battery, Media, Video, Volume, Brightness, Microphone, Power Buttons, Bluetooth & Wi-Fi or Power…",
+        "The designer's tiles are now Charm itself: each one is Charm's own single-card page drawing with Charm's saved settings and this computer's readings, including the Hardware and Sensor List tiles, so a tile matches the portal. Fixed on the…",
+        "Panel Editor: every Charm card's Configure pane has a Layout row offering Default and the versions made for it in the Content Designer. The Date / Time clock face gallery and the old Card design gallery are removed (the face is now a Date…",
+        "Removed the old way of designing a Charm card: a canvas design mounted in place of the card. Charm cards are always Charm's own card, with a version's layout and styles applied; the clockFace and clockDesign settings are no longer read.…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.736",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.737/NovaPanel-patch-1.1.736-to-1.1.737.zip",
-        "size": 7092335,
-        "sha256": "60c5eb0a76f90a477138371d62f9c45f318d37b903b0d708390838ee48ff4d2f"
+        "from": "1.1.737",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.738/NovaPanel-patch-1.1.737-to-1.1.738.zip",
+        "size": 7093849,
+        "sha256": "290b1db2fd5e3224c8b9115ae58279e8a7633d9409e1e9aceb2441afd5dc4942"
     }
 }
