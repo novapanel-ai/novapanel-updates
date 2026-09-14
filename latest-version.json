@@ -1,16 +1,16 @@
 {
-    "version": "1.1.733",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.733/NovaPanel-v1.1.733.zip",
+    "version": "1.1.734",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.734/NovaPanel-v1.1.734.zip",
     "notes": [
-        "Hardware runes are styled in the Content Designer, the same way as the Sensor List. Charm, then Charm card, offers a Hardware tile beside Sensor List. It opens the simple screen: choose the part (CPU, GPU, iGPU, Memory, Storage, Network…",
-        "Every change shows on the real Charm as it is made: Charm draws the part being styled even if its rune is off, and leaving or closing the designer puts Charm back. Save, Save as new, Update, Reset to defaults and the Saved drawer work for…",
-        "In the Panel Editor, Configure on a Hardware rune shows its saved versions above the layouts, each drawn as a live preview; picking a version draws it on Charm with its own layout and styling, and picking a plain layout goes back to the…"
+        "Hardware runes: the unit now sits right against its number (61 °C, not 61 with °C pushed away). The space held for the widest reading is now held by the number and unit together, so nothing moves as the reading changes but no gap opens…",
+        "Hardware runes on Charm start on the Readings layout (layout 3) when no layout has been picked, in the Panel Editor, its previews and new Content Designer versions.",
+        "Meters and rings take their own colors: the Content Designer's Hardware Elements table adds Meter fill and Meter track, each with opacity and color (Accent or custom); their type cells stay empty."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.732",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.733/NovaPanel-patch-1.1.732-to-1.1.733.zip",
-        "size": 7089379,
-        "sha256": "e5eae597609252bf9ecfc7f65338c248e8244d0162e0210d0724bfedfa1e1cf6"
+        "from": "1.1.733",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.734/NovaPanel-patch-1.1.733-to-1.1.734.zip",
+        "size": 7089788,
+        "sha256": "582a247114108426112cca37b442600be1484de92e5fc00aa3e5b8954ff180f8"
     }
 }
