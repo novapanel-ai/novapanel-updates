@@ -1,17 +1,15 @@
 {
-    "version": "1.1.741",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.741/NovaPanel-v1.1.741.zip",
+    "version": "1.1.742",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.742/NovaPanel-v1.1.742.zip",
     "notes": [
-        "Content Designer opens Charm on its first rune instead of an empty screen.",
-        "Mirage in the Content Designer: the middle is now just the layout, the rune and its options. Clicking a layout type draws its cards at their real bounds; clicking a card shows which rune goes in it (a Rune choice) and that rune's options…",
-        "Runes chosen for the cards of Mirage's six built-in layout types are saved (config mirageStripDefaults, layout:defaults / layout:set-default) and Mirage draws them in any card a panel has not filled itself; for a saved layout the choice is…",
-        "Omen in the Content Designer: the middle is the card's shape, its rune and that rune's options, the same way; the portal frame and canvas are no longer shown."
+        "Sensors are individual runes everywhere a card chooses a rune: CPU, GPU, iGPU, Memory, Storage, Network, System, Temp, Load, Clock and Power are each a rune in the shared rune register (drawn by the Hardware rune for that part), so…",
+        "Content Designer, Mirage and Omen: the Rune dropdown is replaced by a grid of every rune a card can hold, grouped Panel, Sensors and Controls; the generic Sensors entry is not offered. A sensor rune's options are its layouts (ten for a…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.740",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.741/NovaPanel-patch-1.1.740-to-1.1.741.zip",
-        "size": 7102695,
-        "sha256": "42c8331896ad74057da638dc277c957eb3f70a39670195da50e8e072449d3c5f"
+        "from": "1.1.741",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.742/NovaPanel-patch-1.1.741-to-1.1.742.zip",
+        "size": 7104277,
+        "sha256": "fec54a366a936cf48ba91fe7bb324c0ab6201f9936b92f7766f67922d9a3f147"
     }
 }
