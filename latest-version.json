@@ -1,16 +1,15 @@
 {
-    "version": "1.1.725",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.725/NovaPanel-v1.1.725.zip",
+    "version": "1.1.726",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.726/NovaPanel-v1.1.726.zip",
     "notes": [
-        "The Sensor List is made in the Content Designer, not the Panel Editor. The CEO: \"only the designer can make the changes... I need to tweak it and save it and the saved one will be available as an option to choose in the editor.\" In the…",
-        "The Panel Editor now only chooses. Sensors, As a List, and Configure under Sensors, offer Default plus every saved version, each tile drawn by the panel's own renderer; picking one is what the portal draws. A tweak made in the editor in…",
-        "One renderer for all three surfaces: shared/sensor-list.js resolves what this machine reports and builds the list, shared/sensor-list.css styles it, and the model-name shortener moved to shared/sensor-readings.js, so the designer preview…"
+        "Editing the Sensor List in the Content Designer changes the real Charm portal as you make each change. The CEO: \"the portal is where the changes happen not your inaccurate copy of it... just make the portal update when i change it.\" The…",
+        "Color can be the accent. Each element's color is now Accent, which follows Charm's accent color, or Custom with its swatch. Saved versions keep the choice."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.724",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.725/NovaPanel-patch-1.1.724-to-1.1.725.zip",
-        "size": 7069560,
-        "sha256": "85b0af8bd9510569971a598ed9f36867a8a9c2c18c9aaeaf2a3d8e2e615ea55a"
+        "from": "1.1.725",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.726/NovaPanel-patch-1.1.725-to-1.1.726.zip",
+        "size": 7071918,
+        "sha256": "ab57a9d795a9446a3cc6e1553eb2031e892fe58275ccacd33853919179f520a4"
     }
 }
