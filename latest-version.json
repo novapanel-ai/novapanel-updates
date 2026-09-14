@@ -1,16 +1,16 @@
 {
-    "version": "1.1.734",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.734/NovaPanel-v1.1.734.zip",
+    "version": "1.1.735",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.735/NovaPanel-v1.1.735.zip",
     "notes": [
-        "Hardware runes: the unit now sits right against its number (61 °C, not 61 with °C pushed away). The space held for the widest reading is now held by the number and unit together, so nothing moves as the reading changes but no gap opens…",
-        "Hardware runes on Charm start on the Readings layout (layout 3) when no layout has been picked, in the Panel Editor, its previews and new Content Designer versions.",
-        "Meters and rings take their own colors: the Content Designer's Hardware Elements table adds Meter fill and Meter track, each with opacity and color (Accent or custom); their type cells stay empty."
+        "Fixed: a Hardware rune could not be turned off while the Content Designer was styling that part. The designer's live edit drew the part on Charm whether its rune was on or off, so the switch did nothing. A rune that is off now never draws;…",
+        "The Content Designer has Charm's rune switches: an On Charm section in the left rail, on the Rune step and on the Sensor List and Hardware screens, lists every Charm rune as the Panel Editor's tray does and turns each on or off with the…",
+        "Panel Editor: Hardware Version and Layout previews are at least 150px wide (two across), so the Charm card shows at its real size instead of shrunk to about 105px."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.733",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.734/NovaPanel-patch-1.1.733-to-1.1.734.zip",
-        "size": 7089788,
-        "sha256": "582a247114108426112cca37b442600be1484de92e5fc00aa3e5b8954ff180f8"
+        "from": "1.1.734",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.735/NovaPanel-patch-1.1.734-to-1.1.735.zip",
+        "size": 7091062,
+        "sha256": "6b124aa93980d8c59dbe9f516d076f41c8142a002f7506b01ae55d0687f3b7db"
     }
 }
