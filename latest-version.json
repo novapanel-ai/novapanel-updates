@@ -1,15 +1,14 @@
 {
-    "version": "1.1.730",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.730/NovaPanel-v1.1.730.zip",
+    "version": "1.1.731",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.731/NovaPanel-v1.1.731.zip",
     "notes": [
-        "The Sensor List's Groups and Elements tables show their defaults. The CEO: \"I need to see the defaults. just mark them somehow.\" A field with no choice of its own now shows the value it passes through (Default, 300, 0, 90, White, On) in…",
-        "Start from names no longer run past their buttons: a long name wraps inside its button, and the left column is wider."
+        "Closing the Content Designer no longer drops Charm back to the old Divider look. The CEO: \"the sensor list turns to the tight default until I close the editor and then it reverts to divider.\" While the designer is open Charm draws the edit…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.729",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.730/NovaPanel-patch-1.1.729-to-1.1.730.zip",
-        "size": 7078125,
-        "sha256": "ca3903730809df32bca50f98db96e3bfa2c9cab597892c2c9605a529e9b30144"
+        "from": "1.1.730",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.731/NovaPanel-patch-1.1.730-to-1.1.731.zip",
+        "size": 7078191,
+        "sha256": "e60c4fed533c0d4a1dcf4843f6819651a6668397faa9fa1d0081ebacb026de8f"
     }
 }
