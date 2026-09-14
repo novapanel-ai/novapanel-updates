@@ -1,15 +1,15 @@
 {
-    "version": "1.1.729",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.729/NovaPanel-v1.1.729.zip",
+    "version": "1.1.730",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.730/NovaPanel-v1.1.730.zip",
     "notes": [
-        "Reset to defaults in the Content Designer's Sensor List, beside Save (press twice). The CEO: \"I need a reset to defaults and then it should go to what I previously described.\" It puts the list back to the default (Tight: gap and identifier…",
-        "Every Start from entry can be updated after tweaking. The CEO: \"each of the start from can also be updatable after tweaks.\" Tight, Divider, Gap and Identifiers, and each saved version, get an Update button that stores the current settings…"
+        "The Sensor List's Groups and Elements tables show their defaults. The CEO: \"I need to see the defaults. just mark them somehow.\" A field with no choice of its own now shows the value it passes through (Default, 300, 0, 90, White, On) in…",
+        "Start from names no longer run past their buttons: a long name wraps inside its button, and the left column is wider."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.728",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.729/NovaPanel-patch-1.1.728-to-1.1.729.zip",
-        "size": 7077407,
-        "sha256": "f370c8936dc00526191217c972d00dd0ab9d916c19604243af5f6512d1f5f029"
+        "from": "1.1.729",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.730/NovaPanel-patch-1.1.729-to-1.1.730.zip",
+        "size": 7078125,
+        "sha256": "ca3903730809df32bca50f98db96e3bfa2c9cab597892c2c9605a529e9b30144"
     }
 }
