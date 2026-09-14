@@ -1,16 +1,16 @@
 {
-    "version": "1.1.749",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.749/NovaPanel-v1.1.749.zip",
+    "version": "1.1.750",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.750/NovaPanel-v1.1.750.zip",
     "notes": [
-        "Content Designer, Mirage and Omen cards: every non-sensor rune's layouts can now be styled, like the sensor runes. Pressing a layout of Date / Time, Weather, Calendar, FPS, Battery, Volume, Brightness, Microphone, Radios, Power Plan…",
-        "Mirage and Omen draw these versions through the rune itself: the layout as the rune builds it, with the version's styles painted on its pieces after each redraw. The pieces are named in the new shared/mirage-styles.js, which uses the same…",
-        "The theme-mirage panel's old Panel Editor card picks (content.stripCards for Cluster, Console, Pair, Bracket and one saved layout) were cleared on the CEO's machine at his request, so each card now shows the rune set for it in the Content…"
+        "Content Designer, Mirage and Omen cards (approach C from PROPOSAL-layout-canvas): a non-sensor rune's layout, pressed for editing, is drawn large at the card's proportion, and its pieces can be dragged into place. While a piece moves it…",
+        "Date / Time pieces are now named by their place in the layout: the default layout lists Time, Day and Date; the five arrangements list Hero, First support, Separator and Second support. In an arrangement the large word is the hero, the day…",
+        "Date / Time Tracked, Ghost and Masthead: the large day word is now centred. Its cell is reserved at the widest day (\"wednesday\") so the layout does not move when the day changes, but the word was set left inside it, so every shorter day…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.748",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.749/NovaPanel-patch-1.1.748-to-1.1.749.zip",
-        "size": 7111929,
-        "sha256": "fa983f1c5d884adb37dd89f2d3933022b2d31f373d0c31d10e76a8908480c309"
+        "from": "1.1.749",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.750/NovaPanel-patch-1.1.749-to-1.1.750.zip",
+        "size": 7115700,
+        "sha256": "419e47503b1eaed00427d2ed7ee378f1cc5cd7318e587900ddca1fd82fa664ad"
     }
 }
