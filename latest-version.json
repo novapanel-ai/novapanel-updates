@@ -1,15 +1,18 @@
 {
-    "version": "1.1.752",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.752/NovaPanel-v1.1.752.zip",
+    "version": "1.1.753",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.753/NovaPanel-v1.1.753.zip",
     "notes": [
-        "Mirage readout and weather cards now centre as one group. Their two-column layouts (the reading beside a divider and a column of values) placed the left column at the card's inset and gave the values column every pixel left over, so short…",
-        "The CEO's live Mirage showed Monday overlapping Beside's divider. The cause was a saved Beside version carrying a hero nudge (+87px) made when Beside was still off-centre; with Beside centred by default, the nudge pushed the word into the…"
+        "A review of every Mirage rune default: all 25 runes, every layout, at all 27 Mirage card sizes (9 shapes x 134/268/420 strips), 2,565 cards. Each card was measured with this machine's live readings for clipped text, text outside the card…",
+        "Sensor runes (CPU, GPU, Memory, Storage, Network, System, Temp/Load/Clock/Power) on Mirage and Omen: each composition is one block centred in its card, keeping its own left edge. It was drawn from the card's top-left corner, 60-225px off…",
+        "Calendar: day numbers keep a fifth of their column as the gap between dates (\"28 29 30\" had run together on narrow cards). The one-line date centres on wide cards (it sat at the left of a 607px card).",
+        "Readouts: FPS and the other column layouts give each shrunk label its own line height, so its last row is no longer cut at the bottom on tall cards. Battery's STATE is reserved at the size it is painted, so DISCHARGING is no longer cut by…",
+        "Weather: a card under 60px tall draws one centred line (icon, temperature, condition, high, low) instead of two rows overlapping; the condition, then the low, give way if the line does not fit."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.751",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.752/NovaPanel-patch-1.1.751-to-1.1.752.zip",
-        "size": 7123563,
-        "sha256": "4d9c1c3f0f803791d5409d6990f47693de6715ff0fb152c542c1c6caba1eb3c9"
+        "from": "1.1.752",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.753/NovaPanel-patch-1.1.752-to-1.1.753.zip",
+        "size": 7127462,
+        "sha256": "55b3fcf71d0066bcde1f5a8e559f0760be519814cc3ab5d87ad0cb94446829c8"
     }
 }
