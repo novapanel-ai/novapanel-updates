@@ -1,15 +1,14 @@
 {
-    "version": "1.1.726",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.726/NovaPanel-v1.1.726.zip",
+    "version": "1.1.727",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.727/NovaPanel-v1.1.727.zip",
     "notes": [
-        "Editing the Sensor List in the Content Designer changes the real Charm portal as you make each change. The CEO: \"the portal is where the changes happen not your inaccurate copy of it... just make the portal update when i change it.\" The…",
-        "Color can be the accent. Each element's color is now Accent, which follows Charm's accent color, or Custom with its swatch. Saved versions keep the choice."
+        "The Panel Editor moves again after opening Configure. The CEO: \"I can move the charm editor right up until I click on configure then it will not move any more.\" Configure shows a live mirror of Charm in a frame, and that page brought…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.725",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.726/NovaPanel-patch-1.1.725-to-1.1.726.zip",
-        "size": 7071918,
-        "sha256": "ab57a9d795a9446a3cc6e1553eb2031e892fe58275ccacd33853919179f520a4"
+        "from": "1.1.726",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.727/NovaPanel-patch-1.1.726-to-1.1.727.zip",
+        "size": 7073186,
+        "sha256": "2e878f94292fe8ddccf6873f27a89417e2ca0a6d6dbc020b68bec3ae2b7f430d"
     }
 }
