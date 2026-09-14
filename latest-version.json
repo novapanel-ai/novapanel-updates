@@ -1,15 +1,15 @@
 {
-    "version": "1.1.751",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.751/NovaPanel-v1.1.751.zip",
+    "version": "1.1.752",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.752/NovaPanel-v1.1.752.zip",
     "notes": [
-        "Mirage Date / Time layouts now centre by what they draw. Measured at seven Mirage card sizes with this machine's clock, before and after:\n- Beside: the day was pinned to the card's left edge and the time/date stack took all the remaining…",
-        "Content Designer, Mirage and Omen: editing a built-in layout (e.g. Date / Time · Beside) and saving now saves that layout's fix. It is not another version: no new tile, one fix per layout, named for it (\"Date / Time · Beside\"). It draws…"
+        "Mirage readout and weather cards now centre as one group. Their two-column layouts (the reading beside a divider and a column of values) placed the left column at the card's inset and gave the values column every pixel left over, so short…",
+        "The CEO's live Mirage showed Monday overlapping Beside's divider. The cause was a saved Beside version carrying a hero nudge (+87px) made when Beside was still off-centre; with Beside centred by default, the nudge pushed the word into the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.750",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.751/NovaPanel-patch-1.1.750-to-1.1.751.zip",
-        "size": 7119695,
-        "sha256": "0d577b7737b646e627fbde608fc169e5ee0e79e8df708d4ffa5f09bf16780fcd"
+        "from": "1.1.751",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.752/NovaPanel-patch-1.1.751-to-1.1.752.zip",
+        "size": 7123563,
+        "sha256": "4d9c1c3f0f803791d5409d6990f47693de6715ff0fb152c542c1c6caba1eb3c9"
     }
 }
