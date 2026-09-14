@@ -1,14 +1,14 @@
 {
-    "version": "1.1.744",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.744/NovaPanel-v1.1.744.zip",
+    "version": "1.1.745",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.745/NovaPanel-v1.1.745.zip",
     "notes": [
-        "Content Designer, Mirage and Omen cards: after picking a rune the card shows one tile, the rune's default layout for that card, and pressing it opens every layout and saved version below as a grid of smaller tiles; a form that draws…"
+        "Content Designer, Mirage and Omen cards (approach A from PROPOSAL-card-rune-picker): an empty card lists every rune it can hold as a picture of that rune's default drawn at the card with this machine's readings, grouped Panel / Sensors /…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.743",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.744/NovaPanel-patch-1.1.743-to-1.1.744.zip",
-        "size": 7106089,
-        "sha256": "5ef09c5ceb3c9ca54d2091d3c49d7f885702308e516cabe55e38850d208cc8e1"
+        "from": "1.1.744",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.745/NovaPanel-patch-1.1.744-to-1.1.745.zip",
+        "size": 7106593,
+        "sha256": "18640b1305974486c42abd028aa7c9af1d66da8497dfee69984270c3d0f4dffe"
     }
 }
