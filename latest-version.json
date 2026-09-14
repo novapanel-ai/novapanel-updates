@@ -1,14 +1,16 @@
 {
-    "version": "1.1.727",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.727/NovaPanel-v1.1.727.zip",
+    "version": "1.1.728",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.728/NovaPanel-v1.1.728.zip",
     "notes": [
-        "The Panel Editor moves again after opening Configure. The CEO: \"I can move the charm editor right up until I click on configure then it will not move any more.\" Configure shows a live mirror of Charm in a frame, and that page brought…"
+        "New Sensor List defaults, per the CEO. Tight is the default: gap and identifier on, divider and model names off, 9px text, a 2px row gap. Every element's font now defaults to a new Default choice, which follows the panel's overall Font…",
+        "Groups get the same options as elements: family, weight, letter-spacing, opacity, color (Accent or custom) and all caps. The CEO: \"i can choose a font color for the whole group but can then change one elements font weight.\" Each choice…",
+        "Start from in the Content Designer now also lists your saved versions, so any of them can be the starting point for a new one."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.726",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.727/NovaPanel-patch-1.1.726-to-1.1.727.zip",
-        "size": 7073186,
-        "sha256": "2e878f94292fe8ddccf6873f27a89417e2ca0a6d6dbc020b68bec3ae2b7f430d"
+        "from": "1.1.727",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.728/NovaPanel-patch-1.1.727-to-1.1.728.zip",
+        "size": 7075340,
+        "sha256": "d076e81c76344f7fbe74d3fa3adf28f1ec8f8c116c421d82568c880c0a2be292"
     }
 }
