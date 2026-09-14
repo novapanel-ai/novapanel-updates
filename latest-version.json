@@ -1,16 +1,15 @@
 {
-    "version": "1.1.750",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.750/NovaPanel-v1.1.750.zip",
+    "version": "1.1.751",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.751/NovaPanel-v1.1.751.zip",
     "notes": [
-        "Content Designer, Mirage and Omen cards (approach C from PROPOSAL-layout-canvas): a non-sensor rune's layout, pressed for editing, is drawn large at the card's proportion, and its pieces can be dragged into place. While a piece moves it…",
-        "Date / Time pieces are now named by their place in the layout: the default layout lists Time, Day and Date; the five arrangements list Hero, First support, Separator and Second support. In an arrangement the large word is the hero, the day…",
-        "Date / Time Tracked, Ghost and Masthead: the large day word is now centred. Its cell is reserved at the widest day (\"wednesday\") so the layout does not move when the day changes, but the word was set left inside it, so every shorter day…"
+        "Mirage Date / Time layouts now centre by what they draw. Measured at seven Mirage card sizes with this machine's clock, before and after:\n- Beside: the day was pinned to the card's left edge and the time/date stack took all the remaining…",
+        "Content Designer, Mirage and Omen: editing a built-in layout (e.g. Date / Time · Beside) and saving now saves that layout's fix. It is not another version: no new tile, one fix per layout, named for it (\"Date / Time · Beside\"). It draws…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.749",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.750/NovaPanel-patch-1.1.749-to-1.1.750.zip",
-        "size": 7115700,
-        "sha256": "419e47503b1eaed00427d2ed7ee378f1cc5cd7318e587900ddca1fd82fa664ad"
+        "from": "1.1.750",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.751/NovaPanel-patch-1.1.750-to-1.1.751.zip",
+        "size": 7119695,
+        "sha256": "0d577b7737b646e627fbde608fc169e5ee0e79e8df708d4ffa5f09bf16780fcd"
     }
 }
