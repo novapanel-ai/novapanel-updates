@@ -1,16 +1,16 @@
 {
-    "version": "1.1.739",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.739/NovaPanel-v1.1.739.zip",
+    "version": "1.1.740",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.740/NovaPanel-v1.1.740.zip",
     "notes": [
-        "Sensor · Temp, Load, Clock and Power no longer lead with one part's number: each lists the reading of every part that has it (CPU, GPU...), under the kind of reading. They have one layout, Readings, and in the Content Designer only its…",
-        "Charm card versions carry each card's own look choices beside its pieces, under Options in the Content Designer: Date / Time's second hand, Weather's icon set (Line, Bronze, 3D) and Video's fill. Left on Default, a card follows the panel's…",
-        "More pieces can be styled: Shortcuts' tiles, Media's scrubber, and Power Plan's settings link and active plan (separately from the other plans)."
+        "Content Designer, Mirage: the left rail lists Mirage's layout types (Cluster, Console, Pair, Bracket, Rank, Span, each with a small diagram) with your saved Layout Maker layouts beside them, then the chosen type's cards in order with their…",
+        "Content Designer, Omen: the left rail lists Omen's own cards in its two bands (CPU, Frame Rate, GPU, iGPU; Memory, Storage, Network, Battery, Clock). Clicking a card opens the rune it shows; above the preview are the Omen shapes, what to…",
+        "Mirage and Omen designs are styled the Charm way: Add a piece sits at the top of the right rail, and each piece on the card is a row that opens its own controls one at a time. The Shape select, the separate Content pane and its back link…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.738",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.739/NovaPanel-patch-1.1.738-to-1.1.739.zip",
-        "size": 7095458,
-        "sha256": "fded26ccd7a24f46302ec3d9571758161474af9dd8c783638eba9b128ce0661e"
+        "from": "1.1.739",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.740/NovaPanel-patch-1.1.739-to-1.1.740.zip",
+        "size": 7098615,
+        "sha256": "f865d7dad8b5c93bdddabdcae9c0a1fd46ea1df0e4b76a8474998c330e28f390"
     }
 }
