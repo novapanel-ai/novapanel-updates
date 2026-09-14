@@ -1,17 +1,14 @@
 {
-    "version": "1.1.736",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.736/NovaPanel-v1.1.736.zip",
+    "version": "1.1.737",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.737/NovaPanel-v1.1.737.zip",
     "notes": [
-        "Content Designer reorganized as approved (PROPOSAL-designer-cleanup): the Portal & shape and Rune steps are gone. The bar has a Charm / Mirage / Omen switch, Saved, the version's name, Save, and More (Save as new, New version, Suggest a…",
-        "The left rail lists the portal's runes. On Charm they are grouped Panel, Sensors and Controls, each with its on/off switch (the same setting as the Panel Editor's tray) and a count of saved versions; clicking a name opens it. Mirage and…",
-        "Sensor List and Hardware screens: the middle now shows what to start from and the saved versions, each drawn by Charm's own renderer at Charm's real card width. Hardware shows all ten layouts with the styling on screen, so picking a layout…",
-        "Panel Editor: a Hardware rune now offers only Default and the versions made for that part in the Content Designer. The ten plain layouts are no longer a user choice; Charm draws a rune with no version at the default layout (Readings), and…"
+        "Content Designer: the Charm portal frame is removed. It drew stand-in readings (\"Preview CPU\") instead of your Charm, so it did not match the real portal. Your Charm on the desktop is the preview. Charm's home screen is now the rune list…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.735",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.736/NovaPanel-patch-1.1.735-to-1.1.736.zip",
-        "size": 7091701,
-        "sha256": "b5737bb3b516343cdc293251b4256117af725651d49180e4c4ddf52583941c9b"
+        "from": "1.1.736",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.737/NovaPanel-patch-1.1.736-to-1.1.737.zip",
+        "size": 7092335,
+        "sha256": "60c5eb0a76f90a477138371d62f9c45f318d37b903b0d708390838ee48ff4d2f"
     }
 }
