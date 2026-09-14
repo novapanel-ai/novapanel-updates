@@ -1,14 +1,16 @@
 {
-    "version": "1.1.747",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.747/NovaPanel-v1.1.747.zip",
+    "version": "1.1.748",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.748/NovaPanel-v1.1.748.zip",
     "notes": [
-        "Readings is now the default layout for every sensor rune on every portal. Charm, the Hardware version editor and saved versions already defaulted to Readings, but the shared rune register fell back to Meter bar whenever a Mirage or Omen…"
+        "Content Designer, Mirage and Omen cards: pressing a sensor rune's layout (or a saved version of it) now opens that layout's element controls on the right. These are the same per-element family, weight, spacing, opacity, color and caps rows…",
+        "Content Designer, Mirage: the card header says \"Saved to <layout>\" once a rune or layout is written to a layout's card, because picks save immediately and nothing confirmed it before.",
+        "Temp, Load, Clock and Power runes (the readings list with no lead number) now scale their readings with the card when the card has a fixed size, as on Mirage and Omen. They scale at the rune's small-number size (13px × card scale), about…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.746",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.747/NovaPanel-patch-1.1.746-to-1.1.747.zip",
-        "size": 7106906,
-        "sha256": "f03523f10c3090557cabd9a75f575266d0d41d1a6c5906ed838ba2a319af3072"
+        "from": "1.1.747",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.748/NovaPanel-patch-1.1.747-to-1.1.748.zip",
+        "size": 7108535,
+        "sha256": "c14eef8a0a6052e4584c93c1469bd63aeb02b7df4bb142f798b35481268700cc"
     }
 }
