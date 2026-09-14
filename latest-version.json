@@ -1,14 +1,17 @@
 {
-    "version": "1.1.731",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.731/NovaPanel-v1.1.731.zip",
+    "version": "1.1.732",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.732/NovaPanel-v1.1.732.zip",
     "notes": [
-        "Closing the Content Designer no longer drops Charm back to the old Divider look. The CEO: \"the sensor list turns to the tight default until I close the editor and then it reverts to divider.\" While the designer is open Charm draws the edit…"
+        "Hardware runes, for the portals to use. The CEO: \"hardware can be a rune... I would pick the hardware (or sensor type) and then we offer different layouts... not all sensors will have all the values so we gracefully degrade.\" One shared…",
+        "What is shown is read from this computer: a part it does not report draws no card, and a missing model name, meter or value simply is not drawn. The big number is the first reading the part reports of temperature, used, download, charge or…",
+        "A value never runs off its card: each reserves the widest reading it can show, so columns never move as numbers change, and the values take as many aligned columns as genuinely fit. A card scales by its size (a 2x2 card is the 1x1 design…",
+        "Charm: eleven new runes (Hardware · CPU through Sensor · Power) alongside the sensor cards, off until switched on, each drawn at the card width with the height its content needs. In the Panel Editor, Configure shows a rune's ten layouts as…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.730",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.731/NovaPanel-patch-1.1.730-to-1.1.731.zip",
-        "size": 7078191,
-        "sha256": "e60c4fed533c0d4a1dcf4843f6819651a6668397faa9fa1d0081ebacb026de8f"
+        "from": "1.1.731",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.732/NovaPanel-patch-1.1.731-to-1.1.732.zip",
+        "size": 7086764,
+        "sha256": "4296b438bb3af17d4295cca0e85a25e1f45e4b420e2fadb7c840531769f1d8e8"
     }
 }
