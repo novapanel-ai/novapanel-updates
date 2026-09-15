@@ -1,18 +1,16 @@
 {
-    "version": "1.1.757",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.757/NovaPanel-v1.1.757.zip",
+    "version": "1.1.758",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.758/NovaPanel-v1.1.758.zip",
     "notes": [
-        "Mirage runes draw at every card size (CEO: \"when the size is wrong you just don't show it... build out all the sizes\"). Asked of each rune at 40 card sizes (191-607 wide, 33-420 tall): the eleven Hardware runes (CPU, GPU, iGPU, Memory…",
-        "Hardware on short and wide cards follows the system the other runes use (readout S4 rail, S5 runner): a two-line rail (name over the number and its readings) under 110px tall or wider than 3.2:1, and one line under 60px. Sizes come from…",
-        "Media and Video on one-line cards hold one line per tile: a tile with a mark and a label keeps the mark; Media's title and artist are their own line. Taller shapes unchanged.",
-        "Calendar on a card 120-200px tall that is too wide for a month to read (607x129) draws the week with its month name. The 191px one-line refusal stays: the CEO asked for it by name (the clock already draws that date line).",
-        "Hardware cards stacked in one Mirage column now line up (CEO: \"why are these unaligned?\"). Each card centred its own block at the width of what it held, so the GPU card with its longer name started 13px left of the CPU card under it. Cards…"
+        "Mirage type scaled down to Pair (CEO: \"Font sizes are too big. Pair is the best looking... the date and time are the bottom size and Monday is the top size\"). Measured on his display (2048x1280) with his heights and runes: Pair at 134…",
+        "27px is now the largest type any Mirage rune draws, held as a share of the display's height (kit.js typeTop: 27px at 1280, 23px at 1080). It is applied where each size is computed, before anything is measured against it: kit.js's shared…",
+        "After, same rig: every layout's largest type is 27px; Pair is unchanged. Full review of 25 runes x layouts x 9 shapes x 3 strip heights: 0 clipped, 0 outside the card, 0 under 12px; cards reported sparse went from 14 to 287, because tall…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.756",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.757/NovaPanel-patch-1.1.756-to-1.1.757.zip",
-        "size": 7135453,
-        "sha256": "3d29ce2d8fba94187bd3dcf3734009488f451f3e6f914ba53a16e01ded2f44f6"
+        "from": "1.1.757",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.758/NovaPanel-patch-1.1.757-to-1.1.758.zip",
+        "size": 7136805,
+        "sha256": "01766605c6eb918e7a5cef41a9416ffe2739b90272b7acd84515b9bc606b06da"
     }
 }
