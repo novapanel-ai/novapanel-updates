@@ -1,14 +1,18 @@
 {
-    "version": "1.1.760",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.760/NovaPanel-v1.1.760.zip",
+    "version": "1.1.761",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.761/NovaPanel-v1.1.761.zip",
     "notes": [
-        "Sigil now starts with Windows (CEO: \"Sigil did not start up on windows reboot on this computer. This needs to be resolved.\"). Root cause: nothing had ever registered it - no login item, no Run key, no Startup shortcut; the only relauncher…"
+        "Mirage runes: the 34 numbers typed into rune code in 1.1.757-759 are removed and each decision is routed through the system that owns it (CEO: \"IF you are hard coding anything stop it immediately and employ the system we've built\"; audit…",
+        "Type goes through the Size / Hero / Thickness dials for every rune: Calendar, Media, Video, Power, Shortcuts and Hardware now size through kit.js governed sizes like the clock, weather and readouts already did. Live Mirage and the layout…",
+        "Hardware on short or wide cards is drawn by the system's readout compositions (the split, the rail, the runner) from a declaration of the part's readings, the form every reading rune uses, instead of a second copy of those compositions.…",
+        "Between-group spacing in a card is the system's cluster separation (SYSTEM-mirage.md §5, kit.js CLUSTER_SEPARATION). Today's disc is the theme's divider ink (--mirage-divider).",
+        "Calendar is taller and squarer and responds to height (CEO): its rows fill the card again (the 09-09 square-cell rule), and its type comes from the dials, so the dials decide the air around the dates."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.759",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.760/NovaPanel-patch-1.1.759-to-1.1.760.zip",
-        "size": 7139803,
-        "sha256": "fcd5fca746496aa3525243a2d412b2ebeb1ac68cf77ddb3a35a67fc316cb8472"
+        "from": "1.1.760",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.761/NovaPanel-patch-1.1.760-to-1.1.761.zip",
+        "size": 7139555,
+        "sha256": "c2124c5ac33794539c94435285d051bd8d6e39fac499953049f1299b01121b11"
     }
 }
