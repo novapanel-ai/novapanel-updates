@@ -1,16 +1,17 @@
 {
-    "version": "1.1.758",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.758/NovaPanel-v1.1.758.zip",
+    "version": "1.1.759",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.759/NovaPanel-v1.1.759.zip",
     "notes": [
-        "Mirage type scaled down to Pair (CEO: \"Font sizes are too big. Pair is the best looking... the date and time are the bottom size and Monday is the top size\"). Measured on his display (2048x1280) with his heights and runes: Pair at 134…",
-        "27px is now the largest type any Mirage rune draws, held as a share of the display's height (kit.js typeTop: 27px at 1280, 23px at 1080). It is applied where each size is computed, before anything is measured against it: kit.js's shared…",
-        "After, same rig: every layout's largest type is 27px; Pair is unchanged. Full review of 25 runes x layouts x 9 shapes x 3 strip heights: 0 clipped, 0 outside the card, 0 under 12px; cards reported sparse went from 14 to 287, because tall…"
+        "Mirage content gravitates to the strip's vertical middle (CEO: \"you are not balancing for space. Everything should gravitate toward the center with height\"). Two parts. In a card, a rune's rows are now one group centred in the card: kit.js…",
+        "Calendar type is smaller with air (CEO: \"the calendar font size is too big, it needs space\"): every size is 80% of what its shape drew, the month grid's rows stop stretching to fill the card (at most 1.5x their date), and the square-card…",
+        "Today is highlighted (CEO: \"today needs to be highlighted\"): full ink over a soft disc as tall as its cell. Mirage's accent is white, the same as its ink, so colour alone could not mark it. Painted inside the reserved cell, so nothing…",
+        "Checked: full review of 25 runes x layouts x 9 shapes x 3 strip heights, 0 clipped, 0 outside the card, 0 under 12px; Content Designer card-flow rig passes with no console errors; every layout redrawn at the CEO's heights on 2048x1280."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.757",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.758/NovaPanel-patch-1.1.757-to-1.1.758.zip",
-        "size": 7136805,
-        "sha256": "01766605c6eb918e7a5cef41a9416ffe2739b90272b7acd84515b9bc606b06da"
+        "from": "1.1.758",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.759/NovaPanel-patch-1.1.758-to-1.1.759.zip",
+        "size": 7138630,
+        "sha256": "234159b90d5f5edfe32f5a3057ee955e67bd7f2569670a32bf88fff8ece26aa1"
     }
 }
