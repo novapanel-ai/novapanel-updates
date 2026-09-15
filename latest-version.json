@@ -1,15 +1,14 @@
 {
-    "version": "1.1.755",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.755/NovaPanel-v1.1.755.zip",
+    "version": "1.1.756",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.756/NovaPanel-v1.1.756.zip",
     "notes": [
-        "Content Designer, Mirage: the Height slider moved from under the card strip to the layout's header line, and the strip sits in a box as tall as the tallest strip (420px). Before, dragging the height grew and shrank the strip, which pushed…",
-        "Card cells in the strip show the number and rune name on one line, so a short strip (134px) no longer cuts the names in half."
+        "Panel Editor, Layers: the Remove button is back for Image, Video, Gradient and Pattern layers (CEO: \"I was unable to remove the background image\"). The Layers pane shows a layer's settings without the old list card's head, and the head was…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.754",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.755/NovaPanel-patch-1.1.754-to-1.1.755.zip",
-        "size": 7130465,
-        "sha256": "2391642ea59e181ab53c31920619b657795d3cc17ddb6ffb6d9fae32a3345cc1"
+        "from": "1.1.755",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.756/NovaPanel-patch-1.1.755-to-1.1.756.zip",
+        "size": 7131413,
+        "sha256": "11ea0ac924bacc351af07f463d2e66cfafe1bd42db2de1edfd18e990a8f8ed9c"
     }
 }
