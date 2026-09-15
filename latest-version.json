@@ -1,14 +1,18 @@
 {
-    "version": "1.1.756",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.756/NovaPanel-v1.1.756.zip",
+    "version": "1.1.757",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.757/NovaPanel-v1.1.757.zip",
     "notes": [
-        "Panel Editor, Layers: the Remove button is back for Image, Video, Gradient and Pattern layers (CEO: \"I was unable to remove the background image\"). The Layers pane shows a layer's settings without the old list card's head, and the head was…"
+        "Mirage runes draw at every card size (CEO: \"when the size is wrong you just don't show it... build out all the sizes\"). Asked of each rune at 40 card sizes (191-607 wide, 33-420 tall): the eleven Hardware runes (CPU, GPU, iGPU, Memory…",
+        "Hardware on short and wide cards follows the system the other runes use (readout S4 rail, S5 runner): a two-line rail (name over the number and its readings) under 110px tall or wider than 3.2:1, and one line under 60px. Sizes come from…",
+        "Media and Video on one-line cards hold one line per tile: a tile with a mark and a label keeps the mark; Media's title and artist are their own line. Taller shapes unchanged.",
+        "Calendar on a card 120-200px tall that is too wide for a month to read (607x129) draws the week with its month name. The 191px one-line refusal stays: the CEO asked for it by name (the clock already draws that date line).",
+        "Hardware cards stacked in one Mirage column now line up (CEO: \"why are these unaligned?\"). Each card centred its own block at the width of what it held, so the GPU card with its longer name started 13px left of the CPU card under it. Cards…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.755",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.756/NovaPanel-patch-1.1.755-to-1.1.756.zip",
-        "size": 7131413,
-        "sha256": "11ea0ac924bacc351af07f463d2e66cfafe1bd42db2de1edfd18e990a8f8ed9c"
+        "from": "1.1.756",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.757/NovaPanel-patch-1.1.756-to-1.1.757.zip",
+        "size": 7135453,
+        "sha256": "3d29ce2d8fba94187bd3dcf3734009488f451f3e6f914ba53a16e01ded2f44f6"
     }
 }
