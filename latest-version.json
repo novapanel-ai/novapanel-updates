@@ -1,17 +1,14 @@
 {
-    "version": "1.1.759",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.759/NovaPanel-v1.1.759.zip",
+    "version": "1.1.760",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.760/NovaPanel-v1.1.760.zip",
     "notes": [
-        "Mirage content gravitates to the strip's vertical middle (CEO: \"you are not balancing for space. Everything should gravitate toward the center with height\"). Two parts. In a card, a rune's rows are now one group centred in the card: kit.js…",
-        "Calendar type is smaller with air (CEO: \"the calendar font size is too big, it needs space\"): every size is 80% of what its shape drew, the month grid's rows stop stretching to fill the card (at most 1.5x their date), and the square-card…",
-        "Today is highlighted (CEO: \"today needs to be highlighted\"): full ink over a soft disc as tall as its cell. Mirage's accent is white, the same as its ink, so colour alone could not mark it. Painted inside the reserved cell, so nothing…",
-        "Checked: full review of 25 runes x layouts x 9 shapes x 3 strip heights, 0 clipped, 0 outside the card, 0 under 12px; Content Designer card-flow rig passes with no console errors; every layout redrawn at the CEO's heights on 2048x1280."
+        "Sigil now starts with Windows (CEO: \"Sigil did not start up on windows reboot on this computer. This needs to be resolved.\"). Root cause: nothing had ever registered it - no login item, no Run key, no Startup shortcut; the only relauncher…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.758",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.759/NovaPanel-patch-1.1.758-to-1.1.759.zip",
-        "size": 7138630,
-        "sha256": "234159b90d5f5edfe32f5a3057ee955e67bd7f2569670a32bf88fff8ece26aa1"
+        "from": "1.1.759",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.760/NovaPanel-patch-1.1.759-to-1.1.760.zip",
+        "size": 7139803,
+        "sha256": "fcd5fca746496aa3525243a2d412b2ebeb1ac68cf77ddb3a35a67fc316cb8472"
     }
 }
