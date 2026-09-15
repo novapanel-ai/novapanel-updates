@@ -1,15 +1,15 @@
 {
-    "version": "1.1.754",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.754/NovaPanel-v1.1.754.zip",
+    "version": "1.1.755",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.755/NovaPanel-v1.1.755.zip",
     "notes": [
-        "Content Designer, Mirage: each layout has a Height slider under its card strip, from 134 to 420px (the range every rune was measured to draw in, the same one the layout maker uses). The strip preview takes the new proportion while…",
-        "The CEO's three leftover saved Mirage layouts (Layout 1, 2 and 3, from earlier layout-maker sessions) were removed from his settings, with a backup. No code creates them, so they do not come back."
+        "Content Designer, Mirage: the Height slider moved from under the card strip to the layout's header line, and the strip sits in a box as tall as the tallest strip (420px). Before, dragging the height grew and shrank the strip, which pushed…",
+        "Card cells in the strip show the number and rune name on one line, so a short strip (134px) no longer cuts the names in half."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.753",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.754/NovaPanel-patch-1.1.753-to-1.1.754.zip",
-        "size": 7129609,
-        "sha256": "723a5e7791edc5b11914e2c9ee04ba8e821e3e46989fc6418ab3b6f0046b4ebe"
+        "from": "1.1.754",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.755/NovaPanel-patch-1.1.754-to-1.1.755.zip",
+        "size": 7130465,
+        "sha256": "2391642ea59e181ab53c31920619b657795d3cc17ddb6ffb6d9fae32a3345cc1"
     }
 }
