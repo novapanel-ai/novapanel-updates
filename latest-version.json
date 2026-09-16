@@ -1,17 +1,16 @@
 {
-    "version": "1.1.781",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.781/NovaPanel-v1.1.781.zip",
+    "version": "1.1.782",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.782/NovaPanel-v1.1.782.zip",
     "notes": [
-        "The Content Designer's Mirage previews ARE the portal now (CEO: \"If we are going to preview ANYTHING in panels it must match the portal 1000% otherwise I cannot trust it... otherwise it is a visual lie!\"). He put the designer's weather…",
-        "Proof, not a claim: a real Mirage window and its twin on the same data, each card captured straight off the portal and compared with the twin's capture pixel by pixel - 0 of 65,032 pixels differ for the Sensor List card and for the weather…",
-        "Portal bug found by the twin: a rune is built for its card's box, and the box could change under it. The portal's strip had been built while its cards measured 591x64; the page then settled at 591x70 and every composition stayed measured…",
-        "Weather no longer shows -99° while the forecast loads (CEO: \"a delay in weather loading causing all temps to show as -99 (this is what the loader is there for)\"). Three causes, three fixes: the temperature cell was born holding its…"
+        "Mirage centres vertically as one strip (CEO: \"the 2 rows in the center draw further away from each other and the whole thing now looks random rather than balanced... battery bottom aligned in the top row and weather top aligned... weather…",
+        "The middle line the rows meet at is held where it is on the lowest strip, so a taller strip adds room on the outside instead of pulling the rows apart (measured: 25px between the rows at 134, 28px at 240). Content is measured by what DRAWS…",
+        "Measured on the CEO's Cluster strip (tall hourly weather; Laptop over 10-day weather; Power over empty) on the real Mirage page: at 134 every top-row card's content ends at 67 and the bottom row's starts at 92, and the tall weather spans…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.780",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.781/NovaPanel-patch-1.1.780-to-1.1.781.zip",
-        "size": 7276158,
-        "sha256": "b6156fd7b41dcd72b85b3e2b323c633a61aec6c0b9f69e22f94aa5ce0c5aaab2"
+        "from": "1.1.781",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.782/NovaPanel-patch-1.1.781-to-1.1.782.zip",
+        "size": 7280511,
+        "sha256": "8d687e72d4bab3b22e1489bfb6bdb0f5ba09cfedc67dfbc9cae80bc5a2253a42"
     }
 }
