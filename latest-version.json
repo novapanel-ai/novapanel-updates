@@ -1,18 +1,18 @@
 {
-    "version": "1.1.762",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.762/NovaPanel-v1.1.762.zip",
+    "version": "1.1.763",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.763/NovaPanel-v1.1.763.zip",
     "notes": [
-        "Mirage cards share one padding (CEO: \"items still are unaligned... padding is applied once per dimension per card. Everyone should have the same padding\"). The padding was a fraction of each card's OWN width and height, so a 311px card…",
-        "Every composition lays out inside that padding: insetSpan uses it, layoutColumn opens the block on the card's top padding line and closes a foot group on the bottom one (the 09-14 version centred the whole group, which is what put every…",
-        "Hardware takes the same padding (--pad-x/--pad-y) and opens on the card's top-left lines instead of centring its own block, so CPU and GPU cards line up with each other and with the cards beside them. The 09-14 workaround that gave stacked…",
-        "Fixed while checking: on tall cards the clock's foot could be pushed 3px past the bottom line, because the between-group space was held at the cluster separation even when the card had no room for it.",
-        "Checked: measured air per card across the CEO's six layouts before and after; full review of 25 runes x layouts x 9 shapes x 3 strip heights: 0 clipped, 0 outside the card, 0 under 12px; Content Designer card-flow rig passes with no…"
+        "A card can name a backup rune, drawn whenever its own rune is off (CEO: \"when the media player or FPS rune are chosen we want a backup rune when those are off\"). A rune that CAN be off now declares how to tell: Media is off with nothing…",
+        "The card carries both in the one string it already had: `rune[:form]|backup[:form]` (runes/index.js cardSpecParts / cardSpecString), so the panel, the layout maker preview and the Content Designer read a card the same way. A saved layout…",
+        "Mirage decides which of the two to draw before it builds the strip, and the choice is part of the stage's signature: when the music stops or a game ends the strip re-forms ONCE, at human cadence, which is what SYSTEM-mirage.md §8 asks of a…",
+        "Content Designer: choosing Media or FPS for a card adds a \"When Media is off\" row under Layouts, with every rune that fits the card drawn as it would be drawn there, plus \"Nothing — leave the card empty\". Picking another form for the same…",
+        "Checked: the real Mirage page with a card set to media|clock:beside and another to fps|weather drew the clock and the weather, with no console errors; the spec parser and both off-tests checked against live readings (media off now, on when…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.761",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.762/NovaPanel-patch-1.1.761-to-1.1.762.zip",
-        "size": 7141610,
-        "sha256": "df10e5bd1c68f6159ef8ea5bb9f9248353053c28fe1f89445d32840c285b172a"
+        "from": "1.1.762",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.763/NovaPanel-patch-1.1.762-to-1.1.763.zip",
+        "size": 7144650,
+        "sha256": "fc6b776e4d5a86b3b337cd8d937cfe85ce7b4d746c6bb5f9f2988327cd9a4441"
     }
 }
