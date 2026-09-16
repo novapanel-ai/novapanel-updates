@@ -1,15 +1,14 @@
 {
-    "version": "1.1.784",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.784/NovaPanel-v1.1.784.zip",
+    "version": "1.1.785",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.785/NovaPanel-v1.1.785.zip",
     "notes": [
-        "Mirage strip balance, four CEO-approved rules (mirage-data.js alignStrip): (1) the form follows the card - Laptop Stack/Beside draw whichever keeps the charge larger in that card, the saved form only breaks a tie; (2) each row reads as one…",
-        "kit.js layoutColumn and Laptop no longer spread rows over a strip band (extra height is never turned into gaps); setBlockFill now carries the row lines."
+        "Mirage Power shows all four actions on short strips: a rune that declares its set (maxItems) is no longer capped by the shape plan grid (T1/T2 1x3 dropped Shut Down at 134px); the grid search decides the fit and accepts refuses a card that…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.783",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.784/NovaPanel-patch-1.1.783-to-1.1.784.zip",
-        "size": 7282445,
-        "sha256": "fa0b5d961debdfcc27ee0d1c78726aec6639e75e664fc4fcf40b8cc67663f167"
+        "from": "1.1.784",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.785/NovaPanel-patch-1.1.784-to-1.1.785.zip",
+        "size": 7282658,
+        "sha256": "aaa556332a5c21d22a215f2d2730e0b24d292137927b2bfc201f9232d8319462"
     }
 }
