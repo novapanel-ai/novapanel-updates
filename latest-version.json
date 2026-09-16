@@ -1,18 +1,16 @@
 {
-    "version": "1.1.773",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.773/NovaPanel-v1.1.773.zip",
+    "version": "1.1.774",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.774/NovaPanel-v1.1.774.zip",
     "notes": [
-        "The forecast sky now shows on a short card, by costing entries instead of legibility (CEO: \"except now the icons are not showing at all\"). 1.1.772 gave the glyph the artwork's floor - 41px for the Line set, measured off its own strokes…",
-        "Three plans, in this order: STACK (day over sky over temperature) when the block can pay the floor between the two readings; LINE (day, sky, temperature across) when it cannot but three columns still fit with the sky in them; PLAIN (no…",
-        "Fixed with it: the glyph's cap could sit UNDER the artwork's floor. The sky is capped at the two readings' height so it never shouts, but on a one-row card those readings are 12 and 18px, so the cap asked for 35 and refused a 41px sky the…",
-        "Measured on the CEO's own Pair card (652x77 at the 134px strip): before, ten days and no sky; now five days, each with a 41px sky between the day and its temperature. A two-row-high card at the same height still stacks, with nine to ten…",
-        "Rigs: wx-icon-rig.js (plan, row geometry and overflow at eight card sizes), wx-audit-rig.js (the system fixture across every size and form)."
+        "Forecast temperatures no longer vanish on a short card (CEO: \"now the temperatures are missing from those\"). The one-line plan from 1.1.773 puts the whole run in the day row and leaves the temperature row out of the document. Mirage…",
+        "The sky is slightly smaller (CEO: \"the icons could be slightly smaller too\"). The artwork floor in shared/weather-icons.js is now two parts kept apart: each set's thinnest stroke as a share of its cell (MEASURED off the sheet) and…",
+        "Proved on the real Mirage panel page (mirage-panel.html with a stand-in API that ticks once a second like the live feed), Pair layout, 10-day + icon: card 648x77, one-line plan, 5 of 5 temperatures shown in 41px cells (84 87 90 93 96), 5…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.772",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.773/NovaPanel-patch-1.1.772-to-1.1.773.zip",
-        "size": 7245470,
-        "sha256": "f369fd3204bc1bc2ae85bced1732a3b8b0880adb4e7a272e44e53153663e89aa"
+        "from": "1.1.773",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.774/NovaPanel-patch-1.1.773-to-1.1.774.zip",
+        "size": 7246030,
+        "sha256": "4e8da9bdd6a59fc51cc824327a494e02af0677d8cff5dd9ab63d1f3a2e6aaea7"
     }
 }
