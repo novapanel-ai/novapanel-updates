@@ -1,18 +1,15 @@
 {
-    "version": "1.1.783",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.783/NovaPanel-v1.1.783.zip",
+    "version": "1.1.784",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.784/NovaPanel-v1.1.784.zip",
     "notes": [
-        "Mirage loader waits until no card shows an absence mark: the Laptop card came up as dashes because the first telemetry frame arrived before the WMI battery reading (maxWaitMs still bounds the wait).",
-        "A Mirage strip shows current weather once: the first weather card keeps the current line, later ones (e.g. FPS backup weather) draw the forecast only.",
-        "Weather \"+ icon\" forms keep their icons: the current line shrinks, closes its gap and drops high/low before the forecast icons give way.",
-        "A tall weather card in the strip band no longer spreads its current line and forecast to the band edges (~200px hole): the gap between them is capped at one current-line height and the forecast closes on the band bottom, so its…",
-        "A tall card spaces its forecast rows with the single-row cards gap (kit.js rowGapFor), so labels and temperatures line up with the cards beside it."
+        "Mirage strip balance, four CEO-approved rules (mirage-data.js alignStrip): (1) the form follows the card - Laptop Stack/Beside draw whichever keeps the charge larger in that card, the saved form only breaks a tie; (2) each row reads as one…",
+        "kit.js layoutColumn and Laptop no longer spread rows over a strip band (extra height is never turned into gaps); setBlockFill now carries the row lines."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.782",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.783/NovaPanel-patch-1.1.782-to-1.1.783.zip",
-        "size": 7281494,
-        "sha256": "8207fe0f6c1f8dde57ccd930d34dceb27e9d5a3204f303bfa36ddafe6b0e08df"
+        "from": "1.1.783",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.784/NovaPanel-patch-1.1.783-to-1.1.784.zip",
+        "size": 7282445,
+        "sha256": "fa0b5d961debdfcc27ee0d1c78726aec6639e75e664fc4fcf40b8cc67663f167"
     }
 }
