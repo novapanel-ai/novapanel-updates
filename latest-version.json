@@ -1,17 +1,14 @@
 {
-    "version": "1.1.766",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.766/NovaPanel-v1.1.766.zip",
+    "version": "1.1.767",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.767/NovaPanel-v1.1.767.zip",
     "notes": [
-        "Picking a layout in the Content Designer puts it on the desktop (CEO: \"I need it to change the actual portal when I select it in the designer, so I don't have to go between the two panels\"). It writes the same one field the Panel Editor's…",
-        "layout:apply now takes the six shipped layouts as well as saved ones. It validated against the saved list, which is where the shipped layouts are not: they are declared in the renderer's register. It validates the id's shape instead, as…",
-        "The designer opens on the layout the desktop is drawing (layout:defaults now reports it), so the two surfaces cannot disagree about which layout is being worked on.",
-        "Card picks and strip height already reached the portal on their own (layout:set-default and layout:set-height push to every open Mirage panel); this closes the one choice that did not."
+        "Removed the dev proof windows (CEO asked 2026-08-20): Composition Harness Demo (Ctrl+Shift+D) and Generated Panel Proof (Ctrl+Shift+G). Both were opened by GLOBAL keyboard shortcuts - active system-wide, not just when the app was focused…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.765",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.766/NovaPanel-patch-1.1.765-to-1.1.766.zip",
-        "size": 7149404,
-        "sha256": "1a694593349b2a7a3c208d5867cd0dbd3eb2376546cf28d9130c8a56d031b33a"
+        "from": "1.1.766",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.767/NovaPanel-patch-1.1.766-to-1.1.767.zip",
+        "size": 7133896,
+        "sha256": "1caaa6f8a69f9eb23b1826591e109f7c752a6dbde9961992ab95678f4371695e"
     }
 }
