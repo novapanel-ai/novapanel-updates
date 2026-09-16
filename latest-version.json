@@ -1,14 +1,18 @@
 {
-    "version": "1.1.771",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.771/NovaPanel-v1.1.771.zip",
+    "version": "1.1.772",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.772/NovaPanel-v1.1.772.zip",
     "notes": [
-        "Sigil branding reaches the windows and the icon (CEO: \"title and icon now\"). ICON: assets/icon.png was the NovaPanel mark dated 2026-05-27 and was the only icon the product had - every window, the tray and the installer used it. Replaced…"
+        "The forecast sky is drawn at a size its own artwork can carry (CEO: \"they are too small and look pixelated\"). Nothing was pixelated: the sheets are 1024px square and downscale cleanly - proved by drawing the same cell from 512, 256 and 128…",
+        "The series asks the artwork before it reserves. A card that can pay the floor stacks day / sky / temperature (41px on a two-row-high card). A card too short for three rows but wide enough in the column puts the sky BESIDE its reading…",
+        "Known consequence, and it is visible: a one-row-high weather card on a 134px strip (Pair) cannot pay the floor, so it now draws days and temperatures with no sky. Two ways to get it back - give Weather a two-row-high card at the same strip…",
+        "Flagged for the CEO, not changed: 8 of the 14 card sizes where Weather's OTHER compositions draw a glyph are also under their artwork's floor (15px on the one-line rail, 17 and 23px in the block, 32-36px in the narrow column). The floor…",
+        "Rigs: wx-icon-rig.js (three plans, row geometry, overflow), icon-crisp-rig.js (sheet resolution comparison), wx-iconsize-rig.js (every icon size this rune draws). Nothing clipped or past a card edge."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.770",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.771/NovaPanel-patch-1.1.770-to-1.1.771.zip",
-        "size": 7523343,
-        "sha256": "48f42f97e3e612fc47f1bcadb84ca85ca6cec2ba0f24118a99a67479baf54b1b"
+        "from": "1.1.771",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.772/NovaPanel-patch-1.1.771-to-1.1.772.zip",
+        "size": 7244489,
+        "sha256": "b323c967ff2c36d2be4d641fcce3065a68a3d8393de236573c719da09e829fb1"
     }
 }
