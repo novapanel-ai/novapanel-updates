@@ -1,16 +1,17 @@
 {
-    "version": "1.1.780",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.780/NovaPanel-v1.1.780.zip",
+    "version": "1.1.781",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.781/NovaPanel-v1.1.781.zip",
     "notes": [
-        "Every Sensor List meter has a ceiling (CEO: \"put ceilings on all of them come on! network speed is measured against the available network speed maximum\"). 1.1.779 drew no bar for clock, watts, sizes and network on the grounds that there…",
-        "Mirage no longer overrides a choice made on purpose (CEO: \"nothing is absolute... The rule should be don't yell at the user\"). The size -> weight / opacity curve stays the calm default for every piece, but a weight, color or opacity set in…",
-        "Measured with a machine at full load: network down 118.4 of a 125 MB/s link fills 94%, up 30.2 fills 24%, clock and GPU watts at their limits fill 100%, memory in use 31.4 of 31.9 GB fills 99%; 48 Sensor List cards still show 0 clipped, 0…"
+        "The Content Designer's Mirage previews ARE the portal now (CEO: \"If we are going to preview ANYTHING in panels it must match the portal 1000% otherwise I cannot trust it... otherwise it is a visual lie!\"). He put the designer's weather…",
+        "Proof, not a claim: a real Mirage window and its twin on the same data, each card captured straight off the portal and compared with the twin's capture pixel by pixel - 0 of 65,032 pixels differ for the Sensor List card and for the weather…",
+        "Portal bug found by the twin: a rune is built for its card's box, and the box could change under it. The portal's strip had been built while its cards measured 591x64; the page then settled at 591x70 and every composition stayed measured…",
+        "Weather no longer shows -99° while the forecast loads (CEO: \"a delay in weather loading causing all temps to show as -99 (this is what the loader is there for)\"). Three causes, three fixes: the temperature cell was born holding its…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.779",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.780/NovaPanel-patch-1.1.779-to-1.1.780.zip",
-        "size": 7267305,
-        "sha256": "b629b0a3937eafa2197d98747cdc8c2e77fa84366afefb7a5773cfaf7b721dd3"
+        "from": "1.1.780",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.781/NovaPanel-patch-1.1.780-to-1.1.781.zip",
+        "size": 7276158,
+        "sha256": "b6156fd7b41dcd72b85b3e2b323c633a61aec6c0b9f69e22f94aa5ce0c5aaab2"
     }
 }
