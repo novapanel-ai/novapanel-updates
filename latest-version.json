@@ -1,17 +1,14 @@
 {
-    "version": "1.1.769",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.769/NovaPanel-v1.1.769.zip",
+    "version": "1.1.770",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.770/NovaPanel-v1.1.770.zip",
     "notes": [
-        "Weather's forecast strip can now carry the sky (CEO: \"10 day and hourly both look good as a strip - let's also do a version where the icon sits between the day/hour and the temperature\"). The rune declares four forms instead of two…",
-        "The glyph is asked for by the form and granted by the box. Its extent is the day row plus the temperature row - so it is the middle mass of the column and moves with the Size / Hero dials - capped by its own column's width and by the…",
-        "kit.js now exports columnGapFor(cardHeight), the space a composition's rows get, so a composition can ask what the column will take before handing its rows over. layoutColumn uses the same function it exports - the number is written once…",
-        "Checked with the system's own fixture (tools/mirage-layout-fixture/mirage-checks.js) across all 18 Mirage card sizes x the four forms: 72 cards, 0 errors, nothing clipped or past a card edge, and the icon forms pass MORE checks than the…"
+        "Control Panel markup now carries no hardcoded sizes (CEO: \"address both bugs\"). Three inline styles in settings.html held raw pixels - margin-bottom:12px, margin-bottom:8px with font-size:12px, and margin-bottom:10px - and now reference…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.768",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.769/NovaPanel-patch-1.1.768-to-1.1.769.zip",
-        "size": 7138270,
-        "sha256": "8239e7880afa3385f156c9151ade2122652ce699bd6f890e19e4b9f75c6ba35a"
+        "from": "1.1.769",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.770/NovaPanel-patch-1.1.769-to-1.1.770.zip",
+        "size": 7138839,
+        "sha256": "1a12f648e4a9e28e3894da7437b3c7efea167e4b58576378ca333d99acde79e0"
     }
 }
