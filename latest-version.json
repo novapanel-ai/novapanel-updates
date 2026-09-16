@@ -1,18 +1,18 @@
 {
-    "version": "1.1.761",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.761/NovaPanel-v1.1.761.zip",
+    "version": "1.1.762",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.762/NovaPanel-v1.1.762.zip",
     "notes": [
-        "Mirage runes: the 34 numbers typed into rune code in 1.1.757-759 are removed and each decision is routed through the system that owns it (CEO: \"IF you are hard coding anything stop it immediately and employ the system we've built\"; audit…",
-        "Type goes through the Size / Hero / Thickness dials for every rune: Calendar, Media, Video, Power, Shortcuts and Hardware now size through kit.js governed sizes like the clock, weather and readouts already did. Live Mirage and the layout…",
-        "Hardware on short or wide cards is drawn by the system's readout compositions (the split, the rail, the runner) from a declaration of the part's readings, the form every reading rune uses, instead of a second copy of those compositions.…",
-        "Between-group spacing in a card is the system's cluster separation (SYSTEM-mirage.md §5, kit.js CLUSTER_SEPARATION). Today's disc is the theme's divider ink (--mirage-divider).",
-        "Calendar is taller and squarer and responds to height (CEO): its rows fill the card again (the 09-09 square-cell rule), and its type comes from the dials, so the dials decide the air around the dates."
+        "Mirage cards share one padding (CEO: \"items still are unaligned... padding is applied once per dimension per card. Everyone should have the same padding\"). The padding was a fraction of each card's OWN width and height, so a 311px card…",
+        "Every composition lays out inside that padding: insetSpan uses it, layoutColumn opens the block on the card's top padding line and closes a foot group on the bottom one (the 09-14 version centred the whole group, which is what put every…",
+        "Hardware takes the same padding (--pad-x/--pad-y) and opens on the card's top-left lines instead of centring its own block, so CPU and GPU cards line up with each other and with the cards beside them. The 09-14 workaround that gave stacked…",
+        "Fixed while checking: on tall cards the clock's foot could be pushed 3px past the bottom line, because the between-group space was held at the cluster separation even when the card had no room for it.",
+        "Checked: measured air per card across the CEO's six layouts before and after; full review of 25 runes x layouts x 9 shapes x 3 strip heights: 0 clipped, 0 outside the card, 0 under 12px; Content Designer card-flow rig passes with no…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.760",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.761/NovaPanel-patch-1.1.760-to-1.1.761.zip",
-        "size": 7139555,
-        "sha256": "c2124c5ac33794539c94435285d051bd8d6e39fac499953049f1299b01121b11"
+        "from": "1.1.761",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.762/NovaPanel-patch-1.1.761-to-1.1.762.zip",
+        "size": 7141610,
+        "sha256": "df10e5bd1c68f6159ef8ea5bb9f9248353053c28fe1f89445d32840c285b172a"
     }
 }
