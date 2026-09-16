@@ -1,14 +1,17 @@
 {
-    "version": "1.1.768",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.768/NovaPanel-v1.1.768.zip",
+    "version": "1.1.769",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.769/NovaPanel-v1.1.769.zip",
     "notes": [
-        "Portals no longer claim a taskbar button (CEO: \"fix skiptaskbar\"). skipTaskbar was set NOWHERE in the app, so every open portal put its own button on the taskbar - four portals meant four buttons for windows nobody alt-tabs to. A portal is…"
+        "Weather's forecast strip can now carry the sky (CEO: \"10 day and hourly both look good as a strip - let's also do a version where the icon sits between the day/hour and the temperature\"). The rune declares four forms instead of two…",
+        "The glyph is asked for by the form and granted by the box. Its extent is the day row plus the temperature row - so it is the middle mass of the column and moves with the Size / Hero dials - capped by its own column's width and by the…",
+        "kit.js now exports columnGapFor(cardHeight), the space a composition's rows get, so a composition can ask what the column will take before handing its rows over. layoutColumn uses the same function it exports - the number is written once…",
+        "Checked with the system's own fixture (tools/mirage-layout-fixture/mirage-checks.js) across all 18 Mirage card sizes x the four forms: 72 cards, 0 errors, nothing clipped or past a card edge, and the icon forms pass MORE checks than the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.767",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.768/NovaPanel-patch-1.1.767-to-1.1.768.zip",
-        "size": 7136737,
-        "sha256": "fac4191084f21d08136892064c676dff8f9b1f8a002470ef617639d4a4faee5d"
+        "from": "1.1.768",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.769/NovaPanel-patch-1.1.768-to-1.1.769.zip",
+        "size": 7138270,
+        "sha256": "8239e7880afa3385f156c9151ade2122652ce699bd6f890e19e4b9f75c6ba35a"
     }
 }
