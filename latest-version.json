@@ -1,18 +1,16 @@
 {
-    "version": "1.1.779",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.779/NovaPanel-v1.1.779.zip",
+    "version": "1.1.780",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.780/NovaPanel-v1.1.780.zip",
     "notes": [
-        "The Sensor List is a rune on every portal (CEO: \"next is sensor list. I originally thought it would only be for Charm but we can use it for all portals\"), built to his drawn layouts: \"full row equals model name or title, identifier is the…",
-        "His layouts are the approved list's options (divider, gap, model names, identifiers, dimmed groups) plus four new choices on a version, in the designer's new Layout section: Groups - Fit (across a wide card, down a tall one), Down or…",
-        "On a card the list is fitted, not flowed: every group and reading is positioned in pixels, every value in a cell reserved for the widest it can hold (100, 888.8, 8888, FULLY CHARGED) and right-aligned so its unit never moves; a word value…",
-        "Fixed with it: frame-source.js confirmed identity strings by a list that did not include storage.model, so a drive group on Mirage could never be titled by its model.",
-        "Measured: 48 cards (the CEO's four styles x inline / stacked / identifier above / meters, across on 1856x159 and 652x159, down on 311x420) - 0 clipped, 0 past the padding, 0 boxes moved between idle readings and every reading maxed…"
+        "Every Sensor List meter has a ceiling (CEO: \"put ceilings on all of them come on! network speed is measured against the available network speed maximum\"). 1.1.779 drew no bar for clock, watts, sizes and network on the grounds that there…",
+        "Mirage no longer overrides a choice made on purpose (CEO: \"nothing is absolute... The rule should be don't yell at the user\"). The size -> weight / opacity curve stays the calm default for every piece, but a weight, color or opacity set in…",
+        "Measured with a machine at full load: network down 118.4 of a 125 MB/s link fills 94%, up 30.2 fills 24%, clock and GPU watts at their limits fill 100%, memory in use 31.4 of 31.9 GB fills 99%; 48 Sensor List cards still show 0 clipped, 0…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.778",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.779/NovaPanel-patch-1.1.778-to-1.1.779.zip",
-        "size": 7264960,
-        "sha256": "0d4841ccf85e270cd43e3e7f624631ee095ba412954e831406a940d1bfa61102"
+        "from": "1.1.779",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.780/NovaPanel-patch-1.1.779-to-1.1.780.zip",
+        "size": 7267305,
+        "sha256": "b629b0a3937eafa2197d98747cdc8c2e77fa84366afefb7a5773cfaf7b721dd3"
     }
 }
