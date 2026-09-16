@@ -1,14 +1,14 @@
 {
-    "version": "1.1.770",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.770/NovaPanel-v1.1.770.zip",
+    "version": "1.1.771",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.771/NovaPanel-v1.1.771.zip",
     "notes": [
-        "Control Panel markup now carries no hardcoded sizes (CEO: \"address both bugs\"). Three inline styles in settings.html held raw pixels - margin-bottom:12px, margin-bottom:8px with font-size:12px, and margin-bottom:10px - and now reference…"
+        "Sigil branding reaches the windows and the icon (CEO: \"title and icon now\"). ICON: assets/icon.png was the NovaPanel mark dated 2026-05-27 and was the only icon the product had - every window, the tray and the installer used it. Replaced…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.769",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.770/NovaPanel-patch-1.1.769-to-1.1.770.zip",
-        "size": 7138839,
-        "sha256": "1a12f648e4a9e28e3894da7437b3c7efea167e4b58576378ca333d99acde79e0"
+        "from": "1.1.770",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.771/NovaPanel-patch-1.1.770-to-1.1.771.zip",
+        "size": 7523343,
+        "sha256": "48f42f97e3e612fc47f1bcadb84ca85ca6cec2ba0f24118a99a67479baf54b1b"
     }
 }
