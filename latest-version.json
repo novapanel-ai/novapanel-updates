@@ -1,18 +1,18 @@
 {
-    "version": "1.1.763",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.763/NovaPanel-v1.1.763.zip",
+    "version": "1.1.764",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.764/NovaPanel-v1.1.764.zip",
     "notes": [
-        "A card can name a backup rune, drawn whenever its own rune is off (CEO: \"when the media player or FPS rune are chosen we want a backup rune when those are off\"). A rune that CAN be off now declares how to tell: Media is off with nothing…",
-        "The card carries both in the one string it already had: `rune[:form]|backup[:form]` (runes/index.js cardSpecParts / cardSpecString), so the panel, the layout maker preview and the Content Designer read a card the same way. A saved layout…",
-        "Mirage decides which of the two to draw before it builds the strip, and the choice is part of the stage's signature: when the music stops or a game ends the strip re-forms ONCE, at human cadence, which is what SYSTEM-mirage.md §8 asks of a…",
-        "Content Designer: choosing Media or FPS for a card adds a \"When Media is off\" row under Layouts, with every rune that fits the card drawn as it would be drawn there, plus \"Nothing — leave the card empty\". Picking another form for the same…",
-        "Checked: the real Mirage page with a card set to media|clock:beside and another to fps|weather drew the clock and the weather, with no console errors; the spec parser and both off-tests checked against live readings (media off now, on when…"
+        "The layout maker knows the backup rune (CEO: \"wire it into the layout maker as well\"). A card in the maker carries `backup` through its model, its preview payload, save and load, and the rune list gains a third axis under Media or FPS…",
+        "Mirage is two rows high, not three (CEO: \"mirage should only go 2 high instead of three... make the cards 1 or 2 high\"). One grid constant decides it (shapes.js GROWS): a card is half the strip or all of it, the card shapes are 1x1 through…",
+        "A layout nobody has sized opens at the bottom of the height slider (CEO: \"I prefer the slider all the way down so it's not taking up too much real estate... on 1080p and lower it's going to be overwhelming\"): every shipped layout's…",
+        "Fixed at the new card sizes: the clock's one-line Masthead ran 68px past a 191x58 card -- the box a 1x1 becomes on a two-row strip -- because nothing gave way; its supports now shorten and then drop, the hero never does. The month grid on…",
+        "Checked: the real Mirage page still swaps media|clock:beside and fps|weather; the designer picker still saves media|clock; full review of every rune at the six card shapes x three strip heights (1,710 cards): 0 clipped, 0 outside the card…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.762",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.763/NovaPanel-patch-1.1.762-to-1.1.763.zip",
-        "size": 7144650,
-        "sha256": "fc6b776e4d5a86b3b337cd8d937cfe85ce7b4d746c6bb5f9f2988327cd9a4441"
+        "from": "1.1.763",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.764/NovaPanel-patch-1.1.763-to-1.1.764.zip",
+        "size": 7146914,
+        "sha256": "f80c4dd9cddce0817fa5b0eb78ed7395032476f0a02e59fcfc7e1cd70e7249b1"
     }
 }
