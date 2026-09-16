@@ -1,16 +1,18 @@
 {
-    "version": "1.1.774",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.774/NovaPanel-v1.1.774.zip",
+    "version": "1.1.775",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.775/NovaPanel-v1.1.775.zip",
     "notes": [
-        "Forecast temperatures no longer vanish on a short card (CEO: \"now the temperatures are missing from those\"). The one-line plan from 1.1.773 puts the whole run in the day row and leaves the temperature row out of the document. Mirage…",
-        "The sky is slightly smaller (CEO: \"the icons could be slightly smaller too\"). The artwork floor in shared/weather-icons.js is now two parts kept apart: each set's thinnest stroke as a share of its cell (MEASURED off the sheet) and…",
-        "Proved on the real Mirage panel page (mirage-panel.html with a stand-in API that ticks once a second like the live feed), Pair layout, 10-day + icon: card 648x77, one-line plan, 5 of 5 temperatures shown in 41px cells (84 87 90 93 96), 5…"
+        "All three weather icon sets on Mirage, Line still the default (CEO: \"yes make all the icon sets available but the current is the default\"). Weather declares an Icons option (Line, Bronze, 3D) beside its forms. In the Content Designer it is…",
+        "A card's options now travel on shipped layouts. A saved layout already kept `opts` beside its cards, but a shipped layout's card (Pair, Cluster...) is only a string, so an option picked there had nowhere to live - which is why the forecast…",
+        "Fixed in passing: 'Nothing - leave the card empty' under a backup rune never cleared the backup. The keep-the-backup rule re-added it on the same write. Backup and option picks are now written exactly as chosen.",
+        "Time, Day of week and Date are their own runes, beside Date / Time which stays the grouped default (CEO: \"we are also going to have time, DOW, and Date as their own runes\"). Each draws its one fact alone, centered in the padded card…",
+        "Mirage can be placed at five heights instead of three (CEO: \"now that our height is generally smaller we can divide the position up in to 5 spots\"). The Panel Editor's map for a full-width band draws Top, Upper middle, Center, Lower middle…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.773",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.774/NovaPanel-patch-1.1.773-to-1.1.774.zip",
-        "size": 7246030,
-        "sha256": "4e8da9bdd6a59fc51cc824327a494e02af0677d8cff5dd9ab63d1f3a2e6aaea7"
+        "from": "1.1.774",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.775/NovaPanel-patch-1.1.774-to-1.1.775.zip",
+        "size": 7249918,
+        "sha256": "fa39e8621b908121ae62f70339151c5631c8dfc1147a05d775856b0ca2d672bb"
     }
 }
