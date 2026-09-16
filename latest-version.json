@@ -1,14 +1,14 @@
 {
-    "version": "1.1.767",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.767/NovaPanel-v1.1.767.zip",
+    "version": "1.1.768",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.768/NovaPanel-v1.1.768.zip",
     "notes": [
-        "Removed the dev proof windows (CEO asked 2026-08-20): Composition Harness Demo (Ctrl+Shift+D) and Generated Panel Proof (Ctrl+Shift+G). Both were opened by GLOBAL keyboard shortcuts - active system-wide, not just when the app was focused…"
+        "Portals no longer claim a taskbar button (CEO: \"fix skiptaskbar\"). skipTaskbar was set NOWHERE in the app, so every open portal put its own button on the taskbar - four portals meant four buttons for windows nobody alt-tabs to. A portal is…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.766",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.767/NovaPanel-patch-1.1.766-to-1.1.767.zip",
-        "size": 7133896,
-        "sha256": "1caaa6f8a69f9eb23b1826591e109f7c752a6dbde9961992ab95678f4371695e"
+        "from": "1.1.767",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.768/NovaPanel-patch-1.1.767-to-1.1.768.zip",
+        "size": 7136737,
+        "sha256": "fac4191084f21d08136892064c676dff8f9b1f8a002470ef617639d4a4faee5d"
     }
 }
