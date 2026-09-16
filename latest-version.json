@@ -1,18 +1,18 @@
 {
-    "version": "1.1.778",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.778/NovaPanel-v1.1.778.zip",
+    "version": "1.1.779",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.779/NovaPanel-v1.1.779.zip",
     "notes": [
-        "Weather redrawn (CEO walk-through, rune 2), from drawn proposals: \"a\" and \"C is also accepted\". Measured before, at the CEO's own card sizes: the forecast opened on the top line with up to 117px of air under it, a 2-high card never said…",
-        "One-row cards draw one line: the current sky and temperature, then day / sky / high trios, as many as the width carries (Forecast only leaves out the current reading). A day name is right-aligned against its sky and a temperature…",
-        "What gives way on small cards, in order: the columns' lows, then the columns' skies, then the temperature shrinks toward the floor, then the gap under the current line closes to one, then the high / low line goes. On a narrow card the…",
-        "Through the system: sizes come from the readout type plan (readout.js typeFor), so the Type dials and the strip pass reach weather; the series step, the current icon's share of its temperature and the glyph pairing gap are weather's own…",
-        "Measured: 4 forms x 2 shows x 6 card shapes x 5 strip heights = 240 cards - 0 clipped, 0 past the padding, and 0 boxes moved between 5° CLEAR and -12° THUNDERSTORM WITH HAIL with every day and hour changed (wx-rig.js). The real Mirage page…"
+        "The Sensor List is a rune on every portal (CEO: \"next is sensor list. I originally thought it would only be for Charm but we can use it for all portals\"), built to his drawn layouts: \"full row equals model name or title, identifier is the…",
+        "His layouts are the approved list's options (divider, gap, model names, identifiers, dimmed groups) plus four new choices on a version, in the designer's new Layout section: Groups - Fit (across a wide card, down a tall one), Down or…",
+        "On a card the list is fitted, not flowed: every group and reading is positioned in pixels, every value in a cell reserved for the widest it can hold (100, 888.8, 8888, FULLY CHARGED) and right-aligned so its unit never moves; a word value…",
+        "Fixed with it: frame-source.js confirmed identity strings by a list that did not include storage.model, so a drive group on Mirage could never be titled by its model.",
+        "Measured: 48 cards (the CEO's four styles x inline / stacked / identifier above / meters, across on 1856x159 and 652x159, down on 311x420) - 0 clipped, 0 past the padding, 0 boxes moved between idle readings and every reading maxed…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.777",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.778/NovaPanel-patch-1.1.777-to-1.1.778.zip",
-        "size": 7255501,
-        "sha256": "39fd41d8c9656ec3b1b18ecc690daf5ecf95f0720e853b21b20a6fdc72866914"
+        "from": "1.1.778",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.779/NovaPanel-patch-1.1.778-to-1.1.779.zip",
+        "size": 7264960,
+        "sha256": "0d4841ccf85e270cd43e3e7f624631ee095ba412954e831406a940d1bfa61102"
     }
 }
