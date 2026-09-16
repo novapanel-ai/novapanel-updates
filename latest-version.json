@@ -1,14 +1,18 @@
 {
-    "version": "1.1.777",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.777/NovaPanel-v1.1.777.zip",
+    "version": "1.1.778",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.778/NovaPanel-v1.1.778.zip",
     "notes": [
-        "Every editor's header now has a Control Panel link (CEO: \"one important thing I want in every editor is a Control Panel link up in the header bar... I can see users struggling with the different panels and wondering where things are\").…"
+        "Weather redrawn (CEO walk-through, rune 2), from drawn proposals: \"a\" and \"C is also accepted\". Measured before, at the CEO's own card sizes: the forecast opened on the top line with up to 117px of air under it, a 2-high card never said…",
+        "One-row cards draw one line: the current sky and temperature, then day / sky / high trios, as many as the width carries (Forecast only leaves out the current reading). A day name is right-aligned against its sky and a temperature…",
+        "What gives way on small cards, in order: the columns' lows, then the columns' skies, then the temperature shrinks toward the floor, then the gap under the current line closes to one, then the high / low line goes. On a narrow card the…",
+        "Through the system: sizes come from the readout type plan (readout.js typeFor), so the Type dials and the strip pass reach weather; the series step, the current icon's share of its temperature and the glyph pairing gap are weather's own…",
+        "Measured: 4 forms x 2 shows x 6 card shapes x 5 strip heights = 240 cards - 0 clipped, 0 past the padding, and 0 boxes moved between 5° CLEAR and -12° THUNDERSTORM WITH HAIL with every day and hour changed (wx-rig.js). The real Mirage page…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.776",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.777/NovaPanel-patch-1.1.776-to-1.1.777.zip",
-        "size": 7259234,
-        "sha256": "810d4dc96a53578902179e74ee45324ceda9822bc31a62d84c2057f84f8ce2fb"
+        "from": "1.1.777",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.778/NovaPanel-patch-1.1.777-to-1.1.778.zip",
+        "size": 7255501,
+        "sha256": "39fd41d8c9656ec3b1b18ecc690daf5ecf95f0720e853b21b20a6fdc72866914"
     }
 }
