@@ -1,16 +1,17 @@
 {
-    "version": "1.1.765",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.765/NovaPanel-v1.1.765.zip",
+    "version": "1.1.766",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.766/NovaPanel-v1.1.766.zip",
     "notes": [
-        "The strip height slider now tops out at 300 reference pixels instead of 420 (CEO: \"drop the max to 300\"). The floor is unchanged at 134, the measured one. A height already saved above the new top is clamped to it when it is read.",
-        "An empty card draws nothing on the desktop. The scaffold text that named the card's size and what fits in it (\"3 - 311x78 - half-single - Date / Time, Weather...\") is a tool's answer and now appears only in the layout maker's preview…",
-        "The CEO's Mirage cards were reset on request (\"reset all the cards. I want to start this fresh\"): every layout's rune assignment and every hand-set strip height were cleared from his settings, with a backup in the session scratchpad. Every…"
+        "Picking a layout in the Content Designer puts it on the desktop (CEO: \"I need it to change the actual portal when I select it in the designer, so I don't have to go between the two panels\"). It writes the same one field the Panel Editor's…",
+        "layout:apply now takes the six shipped layouts as well as saved ones. It validated against the saved list, which is where the shipped layouts are not: they are declared in the renderer's register. It validates the id's shape instead, as…",
+        "The designer opens on the layout the desktop is drawing (layout:defaults now reports it), so the two surfaces cannot disagree about which layout is being worked on.",
+        "Card picks and strip height already reached the portal on their own (layout:set-default and layout:set-height push to every open Mirage panel); this closes the one choice that did not."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.764",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.765/NovaPanel-patch-1.1.764-to-1.1.765.zip",
-        "size": 7147764,
-        "sha256": "53e0cfb758879514dc64eb23832fe38b4d6f2d5561b43010291f95efa5062d51"
+        "from": "1.1.765",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.766/NovaPanel-patch-1.1.765-to-1.1.766.zip",
+        "size": 7149404,
+        "sha256": "1a694593349b2a7a3c208d5867cd0dbd3eb2376546cf28d9130c8a56d031b33a"
     }
 }
