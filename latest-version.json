@@ -1,14 +1,18 @@
 {
-    "version": "1.1.785",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.785/NovaPanel-v1.1.785.zip",
+    "version": "1.1.786",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.786/NovaPanel-v1.1.786.zip",
     "notes": [
-        "Mirage Power shows all four actions on short strips: a rune that declares its set (maxItems) is no longer capped by the shape plan grid (T1/T2 1x3 dropped Shut Down at 134px); the grid search decides the fit and accepts refuses a card that…"
+        "Mirage sensor runes balanced (CEO: sensor runes need a pass): a tall card that does not set itself on the row lines (Hardware CPU/GPU/Memory/Storage/Network, Sensor List) is centered in the band the two rows make instead of hanging from…",
+        "Hardware cards keep Mirage type treatment: they rewrite their HTML every reading and lost the presence curve a second after the strip was built (solid white CPU/GPU/Memory text); the register re-applies it when the rune says it repainted.",
+        "Temp / Load / Clock / Power on Mirage take the readout composition (a main number) wherever it accepts, so a row no longer mixes a number card with a two-line list.",
+        "kit.js layoutColumn keeps a head group and its foot one group-gap apart, centered in the block, instead of pinning them to the top and bottom padding lines (hero and labels were 50px apart on a 147px card); cross-card lines are set by the…",
+        "Loader absence wait is bounded to three telemetry frames, so a sensor this machine does not have no longer holds the loader to its maximum on every launch."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.784",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.785/NovaPanel-patch-1.1.784-to-1.1.785.zip",
-        "size": 7282658,
-        "sha256": "aaa556332a5c21d22a215f2d2730e0b24d292137927b2bfc201f9232d8319462"
+        "from": "1.1.785",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.786/NovaPanel-patch-1.1.785-to-1.1.786.zip",
+        "size": 7285145,
+        "sha256": "554da88a2071c9b0d23d2364151fc0a883ac26ba111b46b0851965fd6cbdb4db"
     }
 }
