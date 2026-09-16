@@ -1,18 +1,16 @@
 {
-    "version": "1.1.764",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.764/NovaPanel-v1.1.764.zip",
+    "version": "1.1.765",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.765/NovaPanel-v1.1.765.zip",
     "notes": [
-        "The layout maker knows the backup rune (CEO: \"wire it into the layout maker as well\"). A card in the maker carries `backup` through its model, its preview payload, save and load, and the rune list gains a third axis under Media or FPS…",
-        "Mirage is two rows high, not three (CEO: \"mirage should only go 2 high instead of three... make the cards 1 or 2 high\"). One grid constant decides it (shapes.js GROWS): a card is half the strip or all of it, the card shapes are 1x1 through…",
-        "A layout nobody has sized opens at the bottom of the height slider (CEO: \"I prefer the slider all the way down so it's not taking up too much real estate... on 1080p and lower it's going to be overwhelming\"): every shipped layout's…",
-        "Fixed at the new card sizes: the clock's one-line Masthead ran 68px past a 191x58 card -- the box a 1x1 becomes on a two-row strip -- because nothing gave way; its supports now shorten and then drop, the hero never does. The month grid on…",
-        "Checked: the real Mirage page still swaps media|clock:beside and fps|weather; the designer picker still saves media|clock; full review of every rune at the six card shapes x three strip heights (1,710 cards): 0 clipped, 0 outside the card…"
+        "The strip height slider now tops out at 300 reference pixels instead of 420 (CEO: \"drop the max to 300\"). The floor is unchanged at 134, the measured one. A height already saved above the new top is clamped to it when it is read.",
+        "An empty card draws nothing on the desktop. The scaffold text that named the card's size and what fits in it (\"3 - 311x78 - half-single - Date / Time, Weather...\") is a tool's answer and now appears only in the layout maker's preview…",
+        "The CEO's Mirage cards were reset on request (\"reset all the cards. I want to start this fresh\"): every layout's rune assignment and every hand-set strip height were cleared from his settings, with a backup in the session scratchpad. Every…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.763",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.764/NovaPanel-patch-1.1.763-to-1.1.764.zip",
-        "size": 7146914,
-        "sha256": "f80c4dd9cddce0817fa5b0eb78ed7395032476f0a02e59fcfc7e1cd70e7249b1"
+        "from": "1.1.764",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.765/NovaPanel-patch-1.1.764-to-1.1.765.zip",
+        "size": 7147764,
+        "sha256": "53e0cfb758879514dc64eb23832fe38b4d6f2d5561b43010291f95efa5062d51"
     }
 }
