@@ -1,14 +1,14 @@
 {
-    "version": "1.1.788",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.788/NovaPanel-v1.1.788.zip",
+    "version": "1.1.789",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.789/NovaPanel-v1.1.789.zip",
     "notes": [
-        "Mirage Calendar split card: the divider between the date and the month grid spans only the content (from the higher column first line to the lower column last line) instead of the full card height, which also stopped it telling the strip…"
+        "Mirage no longer jumps after a layout change (CEO: \"moves and then jiggles a little as if settling\"): the height animation grew the window from its old anchor and the position-band re-snap then moved it again after the last frame; a…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.787",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.788/NovaPanel-patch-1.1.787-to-1.1.788.zip",
-        "size": 7285951,
-        "sha256": "902270dd05016760b603f69533709b858b40d814c7b24f1c4c01fb4787316f79"
+        "from": "1.1.788",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.789/NovaPanel-patch-1.1.788-to-1.1.789.zip",
+        "size": 7286809,
+        "sha256": "b060f24790be0bcbc1ca7aadde0b1b58d5fd5486fa42d0e8a8d712a9bbbb7d7b"
     }
 }
