@@ -1,14 +1,15 @@
 {
-    "version": "1.1.789",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.789/NovaPanel-v1.1.789.zip",
+    "version": "1.1.790",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.790/NovaPanel-v1.1.790.zip",
     "notes": [
-        "Mirage no longer jumps after a layout change (CEO: \"moves and then jiggles a little as if settling\"): the height animation grew the window from its old anchor and the position-band re-snap then moved it again after the last frame; a…"
+        "Mirage Volume, Microphone and Brightness rebuilt as one composition (runes/levels.js, CEO-approved proposal): a glyph, the level as a number and a meter; muted is the glyph crossed out with the meter dimmed (no MUTED line). Single-rune…",
+        "Strip alignment counts SVG shapes (circle, line, rect...) as drawn content, so a ring is centered with its card instead of being pushed out of it."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.788",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.789/NovaPanel-patch-1.1.788-to-1.1.789.zip",
-        "size": 7286809,
-        "sha256": "b060f24790be0bcbc1ca7aadde0b1b58d5fd5486fa42d0e8a8d712a9bbbb7d7b"
+        "from": "1.1.789",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.790/NovaPanel-patch-1.1.789-to-1.1.790.zip",
+        "size": 7291555,
+        "sha256": "b52af62e94be71bda81ccbfe5aa726835b6e3b12095b0621e1824a3bc80ebb3d"
     }
 }
