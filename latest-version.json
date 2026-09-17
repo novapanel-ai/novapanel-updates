@@ -1,14 +1,14 @@
 {
-    "version": "1.1.787",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.787/NovaPanel-v1.1.787.zip",
+    "version": "1.1.788",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.788/NovaPanel-v1.1.788.zip",
     "notes": [
-        "Mirage readout rail (R2/R3 cards): the hero name sits beside its number, right against it like every key (\"CPU 52 °C\"), instead of heading the foot where it read as a key with its value missing (\"CPU   GPU 51 °C\"); a card too narrow for…"
+        "Mirage Calendar split card: the divider between the date and the month grid spans only the content (from the higher column first line to the lower column last line) instead of the full card height, which also stopped it telling the strip…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.786",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.787/NovaPanel-patch-1.1.786-to-1.1.787.zip",
-        "size": 7285577,
-        "sha256": "e836cb11e00f957f956bd5c481c9325384e511b787e29dd474319a70995a8ab5"
+        "from": "1.1.787",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.788/NovaPanel-patch-1.1.787-to-1.1.788.zip",
+        "size": 7285951,
+        "sha256": "902270dd05016760b603f69533709b858b40d814c7b24f1c4c01fb4787316f79"
     }
 }
