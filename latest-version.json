@@ -1,15 +1,15 @@
 {
-    "version": "1.1.808",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.808/NovaPanel-v1.1.808.zip",
+    "version": "1.1.809",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.809/NovaPanel-v1.1.809.zip",
     "notes": [
-        "The card frost follows the panel when it is moved (CEO: \"I moved it and its the portion of the wallpaper it was before\"). It was being followed from the portal's render tick, on a line inside the page model - render() returns early for…",
-        "A hook in someone else's control flow was the wrong shape for it: the frost watches the window itself now, with a watcher that exists only while there is frost to keep in place, reads the window's position, and writes only when it has…"
+        "The card glass empties while the panel is being moved and fills again once it comes to rest (CEO: \"there is a brief flash before the wallpaper updates I'd rather turn the wallpaper off for a second until its ready otherwise its a jarring…",
+        "The watcher runs at two speeds and the fast one exists only during a move, so a still panel is still checked slowly. Measured on a twelve-step drag: the wallpaper goes out 100ms after the first movement, stays out for the whole drag while…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.807",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.808/NovaPanel-patch-1.1.807-to-1.1.808.zip",
-        "size": 7327908,
-        "sha256": "d8b5dca4606f22f9e8c6411e71d53d6372b4d11c377dbe9d8a808eee867b472b"
+        "from": "1.1.808",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.809/NovaPanel-patch-1.1.808-to-1.1.809.zip",
+        "size": 7328968,
+        "sha256": "f39692ad1afbeda77613e24935733507d6122fbb2364f4a958682d006d407389"
     }
 }
