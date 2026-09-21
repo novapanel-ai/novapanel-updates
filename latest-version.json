@@ -1,16 +1,17 @@
 {
-    "version": "1.1.812",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.812/NovaPanel-v1.1.812.zip",
+    "version": "1.1.813",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.813/NovaPanel-v1.1.813.zip",
     "notes": [
-        "The flash on a new position is gone (CEO: \"If I click a new position we should delay to fade it to zero. then in the position I clicked it fades in\"). The fade-OUT added in 1.1.811 was the cause, not the cure: the window is already at the…",
-        "The picture is now dropped on the frame the move is announced, and the choreography lives entirely on the way back: a beat of stillness at the new position, then the new picture fading up over 290ms. Out is a cut because a cut is the only…",
-        "A shift of a few pixels is no longer treated as a move - OLED protection nudges every panel 3px every 90 seconds, and pulsing the glass for that would have been a tic."
+        "Clicking a new position now reads as one move: the portal fades out where it is over 700ms, the window is moved while nothing is on screen, and it fades back in at the new spot over 700ms (CEO: \"click -> fade out -> move -> fade in\").",
+        "⚠️ Only the side that ORDERS the move can do this. A renderer finds out its window moved strictly after the fact, so anything it fades is already in the wrong place - three passes were spent shortening that wrongness before it was clear no…",
+        "The fade itself belongs to every portal, not to Mirage: it is in the shared entrance stylesheet and one call in the shared entrance module, so Charm and Omen inherit it the moment they ask for it. A snap that lands where the panel already…",
+        "The card frost is carried by that fade instead of running one of its own - it is placed and at full strength before the portal becomes visible again, so the glass arrives with the panel rather than filling in behind it. Traced frame by…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.811",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.812/NovaPanel-patch-1.1.811-to-1.1.812.zip",
-        "size": 7332528,
-        "sha256": "de28efb4a6a1078d0a0d3f9a6170c766a95ccc07858853bed4194e616b467755"
+        "from": "1.1.812",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.813/NovaPanel-patch-1.1.812-to-1.1.813.zip",
+        "size": 7334218,
+        "sha256": "c28135698db6ad7c88b48f5cf6cd281cc154407d9d76ee396dc3a090d49f4688"
     }
 }
