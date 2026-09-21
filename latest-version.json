@@ -1,16 +1,17 @@
 {
-    "version": "1.1.798",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.798/NovaPanel-v1.1.798.zip",
+    "version": "1.1.799",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.799/NovaPanel-v1.1.799.zip",
     "notes": [
-        "Mirage shared row FILLS its card (CEO: \"if expanding the bottom sensors continue to fill the space and remain balanced horizontally\"): the columns spread across the span with one shared gap, never closer than his own 32/134, so a wider…",
-        "The row now serves weather and the calendar as well as the sensors: weather gains 10-day row, 10-day row + sky, Hourly row and Hourly row + sky (each column paints its sky from the card icon set), and the Calendar gains Week row (a letter…",
-        "CEO LAW recorded: his designs supersede Mirage own grid and width rules; layouts already declare their column width and their default card ground."
+        "Mirage: Sensors, Radios and the level controls (volume, mic, brightness, Controls) are drawn by the SHARED ROW, like the sensor row, the forecasts and the calendar week - one composition instead of four. Sensors no longer dims half its…",
+        "A machine that reports no radio state draws no Radios card at all instead of two absence marks.",
+        "Part cards (CPU, GPU, drives, memory, network): the unit sits against its number (the number is right-aligned in its reservation), a reading with no ceiling draws no ring (a network MB/s had an empty circle), and the lead reading is named…",
+        "A card that drew NOTHING because its readings had not arrived is written again on the next tick: the absence-mark test only caught cards showing dashes, so a part card whose data was late stayed blank for its whole fifteen-second cadence."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.797",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.798/NovaPanel-patch-1.1.797-to-1.1.798.zip",
-        "size": 7313103,
-        "sha256": "cf513a08d31871cd105c3ad4edd7f40123521edd94b3b82095e3ee5a0bab2030"
+        "from": "1.1.798",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.799/NovaPanel-patch-1.1.798-to-1.1.799.zip",
+        "size": 7316079,
+        "sha256": "319abc60448de963bc5072e2badf2e1f85bec566349252b902fb671698f69579"
     }
 }
