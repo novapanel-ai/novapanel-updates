@@ -1,14 +1,16 @@
 {
-    "version": "1.1.800",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.800/NovaPanel-v1.1.800.zip",
+    "version": "1.1.801",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.801/NovaPanel-v1.1.801.zip",
     "notes": [
-        "Mirage shared row is CENTRED, not spread to the card edges (CEO: \"these should be balanced in the horizontal space not on the edges. This is a centered composition\"). Spare width is shared in his own proportion from Sigil.fig: the margin…"
+        "Mirage shared row: spare width now goes into the COLUMNS, not only into the gaps - a card with room draws wider cells (a longer meter, a whole word) instead of wider holes, up to twice what a column ink needs.",
+        "Level controls say the whole word (VOLUME, MICROPHONE, BRIGHTNESS) and only take a short form when the card genuinely cannot hold it (CEO: \"bright is just dumb .. no one says that\").",
+        "New Glyph form for the levels, single and grouped: the glyph instead of the word over the level and its length. Any row column may now be named by its glyph instead of a word."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.799",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.800/NovaPanel-patch-1.1.799-to-1.1.800.zip",
-        "size": 7316432,
-        "sha256": "07fc581a31e8a018a80d13099a3b9864176ed93cdbd10e6aad615746020e1942"
+        "from": "1.1.800",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.801/NovaPanel-patch-1.1.800-to-1.1.801.zip",
+        "size": 7317092,
+        "sha256": "50f7956368cc7ffd5664e1a4c878cdc48913a0a058b8452d3c9cdc6c95fd8474"
     }
 }
