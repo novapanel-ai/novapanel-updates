@@ -1,15 +1,15 @@
 {
-    "version": "1.1.809",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.809/NovaPanel-v1.1.809.zip",
+    "version": "1.1.810",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.810/NovaPanel-v1.1.810.zip",
     "notes": [
-        "The card glass empties while the panel is being moved and fills again once it comes to rest (CEO: \"there is a brief flash before the wallpaper updates I'd rather turn the wallpaper off for a second until its ready otherwise its a jarring…",
-        "The watcher runs at two speeds and the fast one exists only during a move, so a still panel is still checked slowly. Measured on a twelve-step drag: the wallpaper goes out 100ms after the first movement, stays out for the whole drag while…"
+        "The frost fades in when the panel comes to rest (CEO: \"when it comes back can you animate it in from zero transparency?\"). A background image cannot be faded, so the frost is its own layer inside the card and the card keeps its plain tint…",
+        "Out is still instant and only the return is animated: the duration travels with the opacity, so a panel that starts moving drops its wrong picture at once. Measured on a drag: opacity 1 to 0 within 100ms of the first movement, then 0 to 1…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.808",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.809/NovaPanel-patch-1.1.808-to-1.1.809.zip",
-        "size": 7328968,
-        "sha256": "f39692ad1afbeda77613e24935733507d6122fbb2364f4a958682d006d407389"
+        "from": "1.1.809",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.810/NovaPanel-patch-1.1.809-to-1.1.810.zip",
+        "size": 7330344,
+        "sha256": "55c82597ee78c27befa9889d02696116743f5b0d2f972fe181317d3a91783967"
     }
 }
