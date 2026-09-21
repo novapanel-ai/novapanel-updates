@@ -1,16 +1,17 @@
 {
-    "version": "1.1.814",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.814/NovaPanel-v1.1.814.zip",
+    "version": "1.1.815",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.815/NovaPanel-v1.1.815.zip",
     "notes": [
-        "Charm has both now (CEO: \"add the same code to Charm\"). Its cards take the same frosted glass cut from the real wallpaper, and it fades out, moves and fades back in when a new position is clicked. Its Cards blur slider had never done…",
-        "The work was shared rather than copied: which layers count as a background, whether a portal paints one at all, and the whole move choreography all live in shared/frost.js and shared/panel-entrance. Charm names its five background layers…",
-        "The page's own background now counts as a substrate: Charm's body is opaque until its first background arrives, and frosting a card sitting on an opaque page would be showing wallpaper somewhere wallpaper cannot be seen. A page inside…"
+        "Omen has both now, so all three portals do (CEO: \"now do omen\"). Its cards take the same frosted glass cut from the real wallpaper, and it fades out, moves and fades back in when a new position is clicked.",
+        "Omen is the one theme that HAD read the blur setting all along and set `backdrop-filter` from it - and it had never blurred a pixel, for the same reason as the others: a portal is a transparent window with nothing behind its page to…",
+        "The glass is its own element here rather than a pseudo: .gauge's ::before is the gradient border ring and its ::after the angled corner strokes, and a background layer cannot be faded. It carries the card's whole background stack - image…",
+        "The move fade is now written onto the page instead of declared in a stylesheet, because the three portals do not share one: Mirage and Charm carry the shared entrance classes and Omen has an entrance of its own. The page is handed back…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.813",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.814/NovaPanel-patch-1.1.813-to-1.1.814.zip",
-        "size": 7337425,
-        "sha256": "e6d372cf7044c1a530eb593d1d5d998040da2eca7ea489ebc606275c776aee27"
+        "from": "1.1.814",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.815/NovaPanel-patch-1.1.814-to-1.1.815.zip",
+        "size": 7340963,
+        "sha256": "6384fd00c41c4edf9a5076bfd88033a477419f21ce6767615e088a5613aece52"
     }
 }
