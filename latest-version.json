@@ -1,15 +1,15 @@
 {
-    "version": "1.1.790",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.790/NovaPanel-v1.1.790.zip",
+    "version": "1.1.791",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.791/NovaPanel-v1.1.791.zip",
     "notes": [
-        "Mirage Volume, Microphone and Brightness rebuilt as one composition (runes/levels.js, CEO-approved proposal): a glyph, the level as a number and a meter; muted is the glyph crossed out with the meter dimmed (no MUTED line). Single-rune…",
-        "Strip alignment counts SVG shapes (circle, line, rect...) as drawn content, so a ring is centered with its card instead of being pushed out of it."
+        "Mirage ships the CEO five launch layouts from his drawings (strip-layouts.js): Beacon (one column, two stacked cards), Almanac (calendar, a stacked column, the player), Quartet (four tall cards), Atlas (nine tall, edge to edge), Ledger…",
+        "New shared ROW composition (runes/row.js): columns of a label over a value, with a glyph and a sub-label as options, all columns one reserved width, spread evenly in the card block. The sensor row rune (CPU GPU SSD RAM NTK BAT) is drawn…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.789",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.790/NovaPanel-patch-1.1.789-to-1.1.790.zip",
-        "size": 7291555,
-        "sha256": "b52af62e94be71bda81ccbfe5aa726835b6e3b12095b0621e1824a3bc80ebb3d"
+        "from": "1.1.790",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.791/NovaPanel-patch-1.1.790-to-1.1.791.zip",
+        "size": 7295591,
+        "sha256": "4f282147d1f30de76cb5f98d3aeef5fa1c3d65c5a60c66393575f2d31ab93d62"
     }
 }
