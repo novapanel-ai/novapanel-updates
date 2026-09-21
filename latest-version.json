@@ -1,15 +1,15 @@
 {
-    "version": "1.1.804",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.804/NovaPanel-v1.1.804.zip",
+    "version": "1.1.805",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.805/NovaPanel-v1.1.805.zip",
     "notes": [
-        "Mirage: a layout may declare that its width comes from its CONTENT (CEO: \"the width doesn’t have to force the content, it should be the opposite. content + gap + padding equals width\"). Layout 1 does: each card reports the width it wants…",
-        "The clock Beside form and the shared row both report their wanted width."
+        "Mirage ships ONE layout while its cards are built to the CEO drawings (his goal 1): Beacon - two stacked cards, the day over a row of readings. The other four launch layouts are parked in strip-layouts.js, not deleted, and a panel still…",
+        "The Content Designer therefore offers Beacon alone, with both of its cards and every variant for each - drawn by the portal twin."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.803",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.804/NovaPanel-patch-1.1.803-to-1.1.804.zip",
-        "size": 7319274,
-        "sha256": "75a17f5613c1b7a16fff0013e174868699b05dcba2f75023f58dfe64fe350540"
+        "from": "1.1.804",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.805/NovaPanel-patch-1.1.804-to-1.1.805.zip",
+        "size": 7319808,
+        "sha256": "96256216198ea55c1c3edd45e3762c1704cf25036ebfc53e3d215817840d0e65"
     }
 }
