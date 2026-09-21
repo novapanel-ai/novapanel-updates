@@ -1,16 +1,16 @@
 {
-    "version": "1.1.794",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.794/NovaPanel-v1.1.794.zip",
+    "version": "1.1.795",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.795/NovaPanel-v1.1.795.zip",
     "notes": [
-        "Mirage weather gains the CEO Now card (weather:now, the default in three launch layouts): the sky, the temperature with its condition under it, and today range over the feels-like beside them - no forecast column, which is what made a card…",
-        "Give-way order on that card: the condition takes its short word, then the temperature steps down, then the feels-like goes, then the range, then the condition.",
-        "Fixed a placement bug in the new card: measuring a cell writes a font-size onto it, so asking for the side column width while placing it wiped the row above back to the card left edge."
+        "Mirage clock gains the Spoken arrangement from the CEO drawings: a quiet lead-in over the fact (\"Today is\" over the day, \"The current time is\" over the time); the lead-in goes first when the card is too short for both.",
+        "The shared row gives way by TYPE first: the reading steps down (never below its label or the floor) before the sub-label goes, then again before the glyph goes - his one-row sensor card carries a glyph under every label.",
+        "Mirage glyph family gains the parts a reading belongs to (chip, graphics card, drive, memory, battery) on the same 24 grid and weight; the sensor row names its columns with them, and a glyph row nothing can fill is not reserved."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.793",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.794/NovaPanel-patch-1.1.793-to-1.1.794.zip",
-        "size": 7303596,
-        "sha256": "bbbc6372a6f79806a757342299bf3d7e2d1ddb5ac0b4a5556bfb84af65f37a92"
+        "from": "1.1.794",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.795/NovaPanel-patch-1.1.794-to-1.1.795.zip",
+        "size": 7306187,
+        "sha256": "3a3c58270d62c8ae5183ec27b414ef2f369ffcfb788bd2b46a79ad7c6e7387eb"
     }
 }
