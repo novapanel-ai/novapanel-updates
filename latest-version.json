@@ -1,16 +1,15 @@
 {
-    "version": "1.1.792",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.792/NovaPanel-v1.1.792.zip",
+    "version": "1.1.793",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.793/NovaPanel-v1.1.793.zip",
     "notes": [
-        "Mirage strip grid gains a MIDDLE row (strip-layouts.js row: mid): a half-height card that is not in a stack sits centered in the strip. Four of the CEO five layouts are a single line of half-height cards and were hanging from the strip…",
-        "The five launch layouts now match the CEO drawings card for card: Beacon (stacked pair), Almanac (calendar tall, time over forecast, player tall), Quartet (four centered cards), Atlas (nine centered cards), Ledger (calendar, stacked pair…",
-        "A card still showing an absence mark is written on every tick until it has a reading: the sensor row declares a fifteen-second cadence and sat as six dashes for fifteen seconds after its data had arrived."
+        "Mirage part cards (CPU, GPU, drives, memory, network) are drawn to the CEO own design (runes/part.js, now the default layout for every part rune): one row = the part name over a ring and the lead reading, with the other two readings beside…",
+        "A part name shortens instead of clipping: full model, then without its trademarks, then its first words, then the part itself (CPU); and it is written the way the machine reports it rather than in capitals."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.791",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.792/NovaPanel-patch-1.1.791-to-1.1.792.zip",
-        "size": 7296616,
-        "sha256": "6182d3007ef7bf0492ef04859bd944178fa4b2ea19617f6acf5f11ccf94f0a43"
+        "from": "1.1.792",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.793/NovaPanel-patch-1.1.792-to-1.1.793.zip",
+        "size": 7301148,
+        "sha256": "2e99bf025db21c560b4be1695bde8a166acc87e489011b6a25fb7f48831cac76"
     }
 }
