@@ -1,15 +1,16 @@
 {
-    "version": "1.1.797",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.797/NovaPanel-v1.1.797.zip",
+    "version": "1.1.798",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.798/NovaPanel-v1.1.798.zip",
     "notes": [
-        "Mirage: a strip whose cards draw a GROUND centres each card content in its own card; the row-line alignment is for a bare strip, where the cards have no edges. The CEO stacked pair was pulling its lower card content to the strip middle…",
-        "Row weights are applied, not just declared: writing position and size with cssText wiped the weight the piece was built with, so readout.css `.hero { font-weight: 600 }` drew every value bold. Each style write now carries the piece own…"
+        "Mirage shared row FILLS its card (CEO: \"if expanding the bottom sensors continue to fill the space and remain balanced horizontally\"): the columns spread across the span with one shared gap, never closer than his own 32/134, so a wider…",
+        "The row now serves weather and the calendar as well as the sensors: weather gains 10-day row, 10-day row + sky, Hourly row and Hourly row + sky (each column paints its sky from the card icon set), and the Calendar gains Week row (a letter…",
+        "CEO LAW recorded: his designs supersede Mirage own grid and width rules; layouts already declare their column width and their default card ground."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.796",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.797/NovaPanel-patch-1.1.796-to-1.1.797.zip",
-        "size": 7310565,
-        "sha256": "de8ea9692f17c0b2f787a4712aa79e1202b04730facf423487ae785801b1fe10"
+        "from": "1.1.797",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.798/NovaPanel-patch-1.1.797-to-1.1.798.zip",
+        "size": 7313103,
+        "sha256": "cf513a08d31871cd105c3ad4edd7f40123521edd94b3b82095e3ee5a0bab2030"
     }
 }
