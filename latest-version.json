@@ -1,16 +1,16 @@
 {
-    "version": "1.1.801",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.801/NovaPanel-v1.1.801.zip",
+    "version": "1.1.802",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.802/NovaPanel-v1.1.802.zip",
     "notes": [
-        "Mirage shared row: spare width now goes into the COLUMNS, not only into the gaps - a card with room draws wider cells (a longer meter, a whole word) instead of wider holes, up to twice what a column ink needs.",
-        "Level controls say the whole word (VOLUME, MICROPHONE, BRIGHTNESS) and only take a short form when the card genuinely cannot hold it (CEO: \"bright is just dumb .. no one says that\").",
-        "New Glyph form for the levels, single and grouped: the glyph instead of the word over the level and its length. Any row column may now be named by its glyph instead of a word."
+        "Mirage shared row: the space OUTSIDE the first and last column is the same as the space between columns (the CEO: \"it can balance the gap and the outside the same\"). Fitting a row now means fitting it WITH that air, so a run never ends up…",
+        "Give-way order when a row is tight: the gap closes to the row line gap, the type steps down to the floor, the air tightens to the line gap, and only then does a label take its short form - a whole word in a tighter rhythm beats an…",
+        "A label is measured at the word the card is actually showing; reserving at the widest candidate meant switching to the short form freed no width, so a card that could hold MICROPHONE still drew MIC."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.800",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.801/NovaPanel-patch-1.1.800-to-1.1.801.zip",
-        "size": 7317092,
-        "sha256": "50f7956368cc7ffd5664e1a4c878cdc48913a0a058b8452d3c9cdc6c95fd8474"
+        "from": "1.1.801",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.802/NovaPanel-patch-1.1.801-to-1.1.802.zip",
+        "size": 7317789,
+        "sha256": "26d7d1a8ea095079b511c72aa829b0645c3a8e783a4c5aa70875151e1d7cc1d5"
     }
 }
