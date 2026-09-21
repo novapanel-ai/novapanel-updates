@@ -1,17 +1,16 @@
 {
-    "version": "1.1.813",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.813/NovaPanel-v1.1.813.zip",
+    "version": "1.1.814",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.814/NovaPanel-v1.1.814.zip",
     "notes": [
-        "Clicking a new position now reads as one move: the portal fades out where it is over 700ms, the window is moved while nothing is on screen, and it fades back in at the new spot over 700ms (CEO: \"click -> fade out -> move -> fade in\").",
-        "⚠️ Only the side that ORDERS the move can do this. A renderer finds out its window moved strictly after the fact, so anything it fades is already in the wrong place - three passes were spent shortening that wrongness before it was clear no…",
-        "The fade itself belongs to every portal, not to Mirage: it is in the shared entrance stylesheet and one call in the shared entrance module, so Charm and Omen inherit it the moment they ask for it. A snap that lands where the panel already…",
-        "The card frost is carried by that fade instead of running one of its own - it is placed and at full strength before the portal becomes visible again, so the glass arrives with the panel rather than filling in behind it. Traced frame by…"
+        "Charm has both now (CEO: \"add the same code to Charm\"). Its cards take the same frosted glass cut from the real wallpaper, and it fades out, moves and fades back in when a new position is clicked. Its Cards blur slider had never done…",
+        "The work was shared rather than copied: which layers count as a background, whether a portal paints one at all, and the whole move choreography all live in shared/frost.js and shared/panel-entrance. Charm names its five background layers…",
+        "The page's own background now counts as a substrate: Charm's body is opaque until its first background arrives, and frosting a card sitting on an opaque page would be showing wallpaper somewhere wallpaper cannot be seen. A page inside…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.812",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.813/NovaPanel-patch-1.1.812-to-1.1.813.zip",
-        "size": 7334218,
-        "sha256": "c28135698db6ad7c88b48f5cf6cd281cc154407d9d76ee396dc3a090d49f4688"
+        "from": "1.1.813",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.814/NovaPanel-patch-1.1.813-to-1.1.814.zip",
+        "size": 7337425,
+        "sha256": "e6d372cf7044c1a530eb593d1d5d998040da2eca7ea489ebc606275c776aee27"
     }
 }
