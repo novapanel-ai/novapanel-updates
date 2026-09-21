@@ -1,15 +1,15 @@
 {
-    "version": "1.1.805",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.805/NovaPanel-v1.1.805.zip",
+    "version": "1.1.806",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.806/NovaPanel-v1.1.806.zip",
     "notes": [
-        "Mirage ships ONE layout while its cards are built to the CEO drawings (his goal 1): Beacon - two stacked cards, the day over a row of readings. The other four launch layouts are parked in strip-layouts.js, not deleted, and a panel still…",
-        "The Content Designer therefore offers Beacon alone, with both of its cards and every variant for each - drawn by the portal twin."
+        "Designer tiles draw again instead of sitting on \"Drawing on Mirage...\" (CEO: \"this does no one any good\"). Three causes: the shared row re-measured every column widest candidate on every give-way step (an hourly row of 24 columns took over…",
+        "Every tile in the Mirage designer now shows a portal capture (15 of 15 in the check, none refused)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.804",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.805/NovaPanel-patch-1.1.804-to-1.1.805.zip",
-        "size": 7319808,
-        "sha256": "96256216198ea55c1c3edd45e3762c1704cf25036ebfc53e3d215817840d0e65"
+        "from": "1.1.805",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.806/NovaPanel-patch-1.1.805-to-1.1.806.zip",
+        "size": 7321624,
+        "sha256": "f757bbbc80631c7a44b1d98bed3f7bdddbe57d451aaa8b8fd0b256389d9e8927"
     }
 }
