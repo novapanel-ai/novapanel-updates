@@ -1,17 +1,15 @@
 {
-    "version": "1.1.807",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.807/NovaPanel-v1.1.807.zip",
+    "version": "1.1.808",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.808/NovaPanel-v1.1.808.zip",
     "notes": [
-        "Card blur works (CEO: \"I asked for blur to be fixed also its not\"). It could never have worked in a portal, in any theme: a portal is a TRANSPARENT window and `backdrop-filter` only blurs what the PAGE paints behind an element - behind a…",
-        "Mirage's cards now take the real frosted glass a transparent window CAN have: the desktop wallpaper, blurred once at the radius the Cards pane asks for and painted into the card, anchored to the viewport so every card lands on the…",
-        "It is the WALLPAPER, not the screen: over another window the frost shows the desktop that window is covering. A panel that paints its own substrate keeps the real `backdrop-filter` instead, since there the card does have page content…",
-        "The designer's tiles frost the same piece of wallpaper the portal's card is over, so a preview still matches the portal exactly (the twin is told where the portal's card sits on the desktop and pins its own viewport to it). 15 of 15 tiles…"
+        "The card frost follows the panel when it is moved (CEO: \"I moved it and its the portion of the wallpaper it was before\"). It was being followed from the portal's render tick, on a line inside the page model - render() returns early for…",
+        "A hook in someone else's control flow was the wrong shape for it: the frost watches the window itself now, with a watcher that exists only while there is frost to keep in place, reads the window's position, and writes only when it has…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.806",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.807/NovaPanel-patch-1.1.806-to-1.1.807.zip",
-        "size": 7327127,
-        "sha256": "07fbe61b73f9406290b8d1a13f5304151db99f5264828b4f96a476850cf138ac"
+        "from": "1.1.807",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.808/NovaPanel-patch-1.1.807-to-1.1.808.zip",
+        "size": 7327908,
+        "sha256": "d8b5dca4606f22f9e8c6411e71d53d6372b4d11c377dbe9d8a808eee867b472b"
     }
 }
