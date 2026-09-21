@@ -1,15 +1,16 @@
 {
-    "version": "1.1.810",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.810/NovaPanel-v1.1.810.zip",
+    "version": "1.1.811",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.811/NovaPanel-v1.1.811.zip",
     "notes": [
-        "The frost fades in when the panel comes to rest (CEO: \"when it comes back can you animate it in from zero transparency?\"). A background image cannot be faded, so the frost is its own layer inside the card and the card keeps its plain tint…",
-        "Out is still instant and only the return is animated: the duration travels with the opacity, so a panel that starts moving drops its wrong picture at once. Measured on a drag: opacity 1 to 0 within 100ms of the first movement, then 0 to 1…"
+        "No flash on the first movement, and the move is choreographed (CEO: \"the change is still too fast so for a split second it flashes then does the effect... if we fade it out from the current location to the new one\"). Polling could not have…",
+        "Every portal window now tells its own renderer the instant it starts moving and when it stops ('panel:moving', sent from foundation-window.js - so Charm and Omen have the signal waiting for them when they take the frost). The glass begins…",
+        "The move now reads as one gesture: the picture fades out WHERE IT IS over 180ms, the position changes while there is nothing to see, and the new one fades in over 290ms once the panel has come to rest. A window told to go where it already…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.809",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.810/NovaPanel-patch-1.1.809-to-1.1.810.zip",
-        "size": 7330344,
-        "sha256": "55c82597ee78c27befa9889d02696116743f5b0d2f972fe181317d3a91783967"
+        "from": "1.1.810",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.811/NovaPanel-patch-1.1.810-to-1.1.811.zip",
+        "size": 7331832,
+        "sha256": "0f3111976f400dd0206e3f5c1794552c8f92d353a10158b341d8c79c6e6d10c4"
     }
 }
