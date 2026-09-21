@@ -1,15 +1,16 @@
 {
-    "version": "1.1.793",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.793/NovaPanel-v1.1.793.zip",
+    "version": "1.1.794",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.794/NovaPanel-v1.1.794.zip",
     "notes": [
-        "Mirage part cards (CPU, GPU, drives, memory, network) are drawn to the CEO own design (runes/part.js, now the default layout for every part rune): one row = the part name over a ring and the lead reading, with the other two readings beside…",
-        "A part name shortens instead of clipping: full model, then without its trademarks, then its first words, then the part itself (CPU); and it is written the way the machine reports it rather than in capitals."
+        "Mirage weather gains the CEO Now card (weather:now, the default in three launch layouts): the sky, the temperature with its condition under it, and today range over the feels-like beside them - no forecast column, which is what made a card…",
+        "Give-way order on that card: the condition takes its short word, then the temperature steps down, then the feels-like goes, then the range, then the condition.",
+        "Fixed a placement bug in the new card: measuring a cell writes a font-size onto it, so asking for the side column width while placing it wiped the row above back to the card left edge."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.792",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.793/NovaPanel-patch-1.1.792-to-1.1.793.zip",
-        "size": 7301148,
-        "sha256": "2e99bf025db21c560b4be1695bde8a166acc87e489011b6a25fb7f48831cac76"
+        "from": "1.1.793",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.794/NovaPanel-patch-1.1.793-to-1.1.794.zip",
+        "size": 7303596,
+        "sha256": "bbbc6372a6f79806a757342299bf3d7e2d1ddb5ac0b4a5556bfb84af65f37a92"
     }
 }
