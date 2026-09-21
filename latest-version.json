@@ -1,17 +1,14 @@
 {
-    "version": "1.1.799",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.799/NovaPanel-v1.1.799.zip",
+    "version": "1.1.800",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.800/NovaPanel-v1.1.800.zip",
     "notes": [
-        "Mirage: Sensors, Radios and the level controls (volume, mic, brightness, Controls) are drawn by the SHARED ROW, like the sensor row, the forecasts and the calendar week - one composition instead of four. Sensors no longer dims half its…",
-        "A machine that reports no radio state draws no Radios card at all instead of two absence marks.",
-        "Part cards (CPU, GPU, drives, memory, network): the unit sits against its number (the number is right-aligned in its reservation), a reading with no ceiling draws no ring (a network MB/s had an empty circle), and the lead reading is named…",
-        "A card that drew NOTHING because its readings had not arrived is written again on the next tick: the absence-mark test only caught cards showing dashes, so a part card whose data was late stayed blank for its whole fifteen-second cadence."
+        "Mirage shared row is CENTRED, not spread to the card edges (CEO: \"these should be balanced in the horizontal space not on the edges. This is a centered composition\"). Spare width is shared in his own proportion from Sigil.fig: the margin…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.798",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.799/NovaPanel-patch-1.1.798-to-1.1.799.zip",
-        "size": 7316079,
-        "sha256": "319abc60448de963bc5072e2badf2e1f85bec566349252b902fb671698f69579"
+        "from": "1.1.799",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.800/NovaPanel-patch-1.1.799-to-1.1.800.zip",
+        "size": 7316432,
+        "sha256": "07fc581a31e8a018a80d13099a3b9864176ed93cdbd10e6aad615746020e1942"
     }
 }
