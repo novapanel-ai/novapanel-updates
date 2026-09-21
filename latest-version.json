@@ -1,16 +1,15 @@
 {
-    "version": "1.1.803",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.803/NovaPanel-v1.1.803.zip",
+    "version": "1.1.804",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.804/NovaPanel-v1.1.804.zip",
     "notes": [
-        "Mirage shared row, balanced the way the CEO measures it: EVERY COLUMN IS THE WIDEST COLUMN (his rule: \"take the one that is the widest and make the other match its width... the meter balanced them because it is the same size in all…",
-        "Across positions are no longer rounded to whole pixels (his equal gaps came out 31, 31, 30, 31), and the fitting aims at the rhythm that is actually drawn.",
-        "A composition that centres itself tells the strip so: the strip ink-centring was nudging the row 2px and breaking those equal gaps."
+        "Mirage: a layout may declare that its width comes from its CONTENT (CEO: \"the width doesn’t have to force the content, it should be the opposite. content + gap + padding equals width\"). Layout 1 does: each card reports the width it wants…",
+        "The clock Beside form and the shared row both report their wanted width."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.802",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.803/NovaPanel-patch-1.1.802-to-1.1.803.zip",
-        "size": 7318348,
-        "sha256": "b84b10d7523964cc61d4bf4e9f143d95d048839e64bcaa0e5dd69c2b8946491a"
+        "from": "1.1.803",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.804/NovaPanel-patch-1.1.803-to-1.1.804.zip",
+        "size": 7319274,
+        "sha256": "75a17f5613c1b7a16fff0013e174868699b05dcba2f75023f58dfe64fe350540"
     }
 }
