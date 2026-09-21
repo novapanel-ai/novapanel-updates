@@ -1,16 +1,16 @@
 {
-    "version": "1.1.811",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.811/NovaPanel-v1.1.811.zip",
+    "version": "1.1.812",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.812/NovaPanel-v1.1.812.zip",
     "notes": [
-        "No flash on the first movement, and the move is choreographed (CEO: \"the change is still too fast so for a split second it flashes then does the effect... if we fade it out from the current location to the new one\"). Polling could not have…",
-        "Every portal window now tells its own renderer the instant it starts moving and when it stops ('panel:moving', sent from foundation-window.js - so Charm and Omen have the signal waiting for them when they take the frost). The glass begins…",
-        "The move now reads as one gesture: the picture fades out WHERE IT IS over 180ms, the position changes while there is nothing to see, and the new one fades in over 290ms once the panel has come to rest. A window told to go where it already…"
+        "The flash on a new position is gone (CEO: \"If I click a new position we should delay to fade it to zero. then in the position I clicked it fades in\"). The fade-OUT added in 1.1.811 was the cause, not the cure: the window is already at the…",
+        "The picture is now dropped on the frame the move is announced, and the choreography lives entirely on the way back: a beat of stillness at the new position, then the new picture fading up over 290ms. Out is a cut because a cut is the only…",
+        "A shift of a few pixels is no longer treated as a move - OLED protection nudges every panel 3px every 90 seconds, and pulsing the glass for that would have been a tic."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.810",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.811/NovaPanel-patch-1.1.810-to-1.1.811.zip",
-        "size": 7331832,
-        "sha256": "0f3111976f400dd0206e3f5c1794552c8f92d353a10158b341d8c79c6e6d10c4"
+        "from": "1.1.811",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.812/NovaPanel-patch-1.1.811-to-1.1.812.zip",
+        "size": 7332528,
+        "sha256": "de28efb4a6a1078d0a0d3f9a6170c766a95ccc07858853bed4194e616b467755"
     }
 }
