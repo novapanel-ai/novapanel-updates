@@ -1,16 +1,16 @@
 {
-    "version": "1.1.802",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.802/NovaPanel-v1.1.802.zip",
+    "version": "1.1.803",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.803/NovaPanel-v1.1.803.zip",
     "notes": [
-        "Mirage shared row: the space OUTSIDE the first and last column is the same as the space between columns (the CEO: \"it can balance the gap and the outside the same\"). Fitting a row now means fitting it WITH that air, so a run never ends up…",
-        "Give-way order when a row is tight: the gap closes to the row line gap, the type steps down to the floor, the air tightens to the line gap, and only then does a label take its short form - a whole word in a tighter rhythm beats an…",
-        "A label is measured at the word the card is actually showing; reserving at the widest candidate meant switching to the short form freed no width, so a card that could hold MICROPHONE still drew MIC."
+        "Mirage shared row, balanced the way the CEO measures it: EVERY COLUMN IS THE WIDEST COLUMN (his rule: \"take the one that is the widest and make the other match its width... the meter balanced them because it is the same size in all…",
+        "Across positions are no longer rounded to whole pixels (his equal gaps came out 31, 31, 30, 31), and the fitting aims at the rhythm that is actually drawn.",
+        "A composition that centres itself tells the strip so: the strip ink-centring was nudging the row 2px and breaking those equal gaps."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.801",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.802/NovaPanel-patch-1.1.801-to-1.1.802.zip",
-        "size": 7317789,
-        "sha256": "26d7d1a8ea095079b511c72aa829b0645c3a8e783a4c5aa70875151e1d7cc1d5"
+        "from": "1.1.802",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.803/NovaPanel-patch-1.1.802-to-1.1.803.zip",
+        "size": 7318348,
+        "sha256": "b84b10d7523964cc61d4bf4e9f143d95d048839e64bcaa0e5dd69c2b8946491a"
     }
 }
