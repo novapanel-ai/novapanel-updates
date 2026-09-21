@@ -1,16 +1,17 @@
 {
-    "version": "1.1.795",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.795/NovaPanel-v1.1.795.zip",
+    "version": "1.1.796",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.796/NovaPanel-v1.1.796.zip",
     "notes": [
-        "Mirage clock gains the Spoken arrangement from the CEO drawings: a quiet lead-in over the fact (\"Today is\" over the day, \"The current time is\" over the time); the lead-in goes first when the card is too short for both.",
-        "The shared row gives way by TYPE first: the reading steps down (never below its label or the floor) before the sub-label goes, then again before the glyph goes - his one-row sensor card carries a glyph under every label.",
-        "Mirage glyph family gains the parts a reading belongs to (chip, graphics card, drive, memory, battery) on the same 24 grid and weight; the sensor row names its columns with them, and a glyph row nothing can fill is not reserved."
+        "Mirage layout 1 (Beacon) is built to the CEO Figma (Sigil.fig node 112:6872): card 478/2560 of the strip wide (layouts may now declare their column width), a 10% white ground on by default (layouts may declare a ground the user replaces)…",
+        "The shared row is measured in HIS numbers, as fractions of the strip content height (identifier and value 16/134, sub-label 12/134, 8/134 between lines, 32/134 between cells) with his weights (Regular, ExtraLight, Thin) kept through Mirage…",
+        "Row variants: Detail (his), Plain, Glyphs, Glyphs + detail. A column dropped for width is hidden again after measuring (measuring unhid it, leaving loose text in the card corner).",
+        "CARD BLUR RESTORED on Mirage (CEO: \"card blur hasn’t been working for some time\"): the Cards pane backdrop blur has always been written and the gauge themes always read it; Mirage now honours it on every card."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.794",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.795/NovaPanel-patch-1.1.794-to-1.1.795.zip",
-        "size": 7306187,
-        "sha256": "3a3c58270d62c8ae5183ec27b414ef2f369ffcfb788bd2b46a79ad7c6e7387eb"
+        "from": "1.1.795",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.796/NovaPanel-patch-1.1.795-to-1.1.796.zip",
+        "size": 7309617,
+        "sha256": "a54ad38f10317c7eb42652b28be07064a122b6276be87f4a6d5fa5b8747d66f6"
     }
 }
