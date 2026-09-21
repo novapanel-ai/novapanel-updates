@@ -1,17 +1,17 @@
 {
-    "version": "1.1.815",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.815/NovaPanel-v1.1.815.zip",
+    "version": "1.1.816",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.816/NovaPanel-v1.1.816.zip",
     "notes": [
-        "Omen has both now, so all three portals do (CEO: \"now do omen\"). Its cards take the same frosted glass cut from the real wallpaper, and it fades out, moves and fades back in when a new position is clicked.",
-        "Omen is the one theme that HAD read the blur setting all along and set `backdrop-filter` from it - and it had never blurred a pixel, for the same reason as the others: a portal is a transparent window with nothing behind its page to…",
-        "The glass is its own element here rather than a pseudo: .gauge's ::before is the gradient border ring and its ::after the angled corner strokes, and a background layer cannot be faded. It carries the card's whole background stack - image…",
-        "The move fade is now written onto the page instead of declared in a stylesheet, because the three portals do not share one: Mirage and Charm carry the shared entrance classes and Omen has an entrance of its own. The page is handed back…"
+        "The type scales with the strip's height (CEO: \"I gave you the sizes at 134px, if I scale up to 300px the fonts should scale up with it\"). It did not, and two things were stopping it. The row's rhythm is a fraction of the strip height, so a…",
+        "And the strip now says how tall it is instead of each composition working it back from its own card - a card that is half a strip plus a gap overshoots, which is why 16px type came out at 19.",
+        "The date and time beside the day were pinned at the 12px floor at every height, because their cap against the hero was set below that floor - on a 300px strip his date read as a footnote. The cap is now the ratio he actually drew (12…",
+        "New: a Width control beside Height in the designer (CEO: \"there should be a control that allows it to be wider horizontally as well\"). It sets how wide the strip's column is drawn as a percentage of the strip, so one number means the same…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.814",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.815/NovaPanel-patch-1.1.814-to-1.1.815.zip",
-        "size": 7340963,
-        "sha256": "6384fd00c41c4edf9a5076bfd88033a477419f21ce6767615e088a5613aece52"
+        "from": "1.1.815",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.816/NovaPanel-patch-1.1.815-to-1.1.816.zip",
+        "size": 7344379,
+        "sha256": "0478ebe91f6e838576da7c293eaafcdacc03f3a5988b3e01f9a6f99aec2f7948"
     }
 }
