@@ -1,15 +1,16 @@
 {
-    "version": "1.1.791",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.791/NovaPanel-v1.1.791.zip",
+    "version": "1.1.792",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.792/NovaPanel-v1.1.792.zip",
     "notes": [
-        "Mirage ships the CEO five launch layouts from his drawings (strip-layouts.js): Beacon (one column, two stacked cards), Almanac (calendar, a stacked column, the player), Quartet (four tall cards), Atlas (nine tall, edge to edge), Ledger…",
-        "New shared ROW composition (runes/row.js): columns of a label over a value, with a glyph and a sub-label as options, all columns one reserved width, spread evenly in the card block. The sensor row rune (CPU GPU SSD RAM NTK BAT) is drawn…"
+        "Mirage strip grid gains a MIDDLE row (strip-layouts.js row: mid): a half-height card that is not in a stack sits centered in the strip. Four of the CEO five layouts are a single line of half-height cards and were hanging from the strip…",
+        "The five launch layouts now match the CEO drawings card for card: Beacon (stacked pair), Almanac (calendar tall, time over forecast, player tall), Quartet (four centered cards), Atlas (nine centered cards), Ledger (calendar, stacked pair…",
+        "A card still showing an absence mark is written on every tick until it has a reading: the sensor row declares a fifteen-second cadence and sat as six dashes for fifteen seconds after its data had arrived."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.790",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.791/NovaPanel-patch-1.1.790-to-1.1.791.zip",
-        "size": 7295591,
-        "sha256": "4f282147d1f30de76cb5f98d3aeef5fa1c3d65c5a60c66393575f2d31ab93d62"
+        "from": "1.1.791",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.792/NovaPanel-patch-1.1.791-to-1.1.792.zip",
+        "size": 7296616,
+        "sha256": "6182d3007ef7bf0492ef04859bd944178fa4b2ea19617f6acf5f11ccf94f0a43"
     }
 }
