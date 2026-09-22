@@ -1,18 +1,14 @@
 {
-    "version": "1.1.826",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.826/NovaPanel-v1.1.826.zip",
+    "version": "1.1.827",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.827/NovaPanel-v1.1.827.zip",
     "notes": [
-        "The designer's rail now lists what you are editing, in the order it is decided: where it sits, what's in it, how it looks (CEO, approved proposal: \"I want all settings brought to the designer... I need to be able to do everything in the…",
-        "Three of those objects are the Panel Editor's own controls, moved rather than rebuilt, reading the panel's real values and writing through the channels the editor writes through - so there is one way to save each, not two. Background…",
-        "What is NOT offered is as deliberate as what is - corner mode, four border controls, patterns, video, the gradient, the three padding and gap numbers, two of the three type dials, monochrome and contrast, and four of the five shadow…",
-        "Saved on release, not on every frame of a drag: each save pushes the panel, and the panel now fades out, re-forms and fades back in around a change.",
-        "Still to come in this pass: Position (the editor's monitor map and anchor) lifted into a shared module both windows mount, and each rune's own options alongside its card."
+        "Sigil now registers TWO ways to start with Windows, and the Control Panel can turn it off (CEO: \"Sigil is not restarting with Windows again. Find out why\" then \"yes build it. there should be a control panel setting for this as well\").…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.825",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.826/NovaPanel-patch-1.1.825-to-1.1.826.zip",
-        "size": 7364548,
-        "sha256": "adc8637d5557e9019433eab7a9d6ca50fc05f3ea773f7c632ec8ad53fda1d333"
+        "from": "1.1.826",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.827/NovaPanel-patch-1.1.826-to-1.1.827.zip",
+        "size": 7369289,
+        "sha256": "d1c6f930b511ffc77e264f8ff899fb98655f51c4d477822bea1da0d201ff429e"
     }
 }
