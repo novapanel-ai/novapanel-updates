@@ -1,15 +1,15 @@
 {
-    "version": "1.1.831",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.831/NovaPanel-v1.1.831.zip",
+    "version": "1.1.832",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.832/NovaPanel-v1.1.832.zip",
     "notes": [
-        "Mirage row card: the label and reading are now sized FROM the sub-label at the CEO's 16:12 ratio (CEO: \"the other two fonts need to scale down as well relative to the subtext\"), so with the sub on the strip's shared 12 the row draws…",
-        "Mirage row card: the sub-label is Regular (400) instead of Thin (100) and full ink instead of dim (CEO: \"less thin now that its smaller... primary font color not dim\"). Applies to every row composition (sensor row, week, 10-day, hourly…"
+        "Mirage Beacon: five horizontal places instead of three - Left, Left center, Center, Right center, Right (CEO: \"add 2 more horizontal positions, 1 new between center and each side\"). A place is a share of the free room between the strip…",
+        "Mirage Beacon width is now 50-150% of its own content-fitted width instead of 20-100% of the strip (CEO: \"width should be limited and not go to full width, but range from 50% to 150%\"). 100% = fitted (no setting stored). Measured: 530px…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.830",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.831/NovaPanel-patch-1.1.830-to-1.1.831.zip",
-        "size": 7377066,
-        "sha256": "00eaa61b109340882e38da7380a04810505f01790a512ae8f148108880e399e8"
+        "from": "1.1.831",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.832/NovaPanel-patch-1.1.831-to-1.1.832.zip",
+        "size": 7378126,
+        "sha256": "96c14ca9bcdbc233e0da3009165fd7e3a747a5e00081ffa79d7ab9d387472136"
     }
 }
