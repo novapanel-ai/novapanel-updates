@@ -1,16 +1,17 @@
 {
-    "version": "1.1.820",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.820/NovaPanel-v1.1.820.zip",
+    "version": "1.1.821",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.821/NovaPanel-v1.1.821.zip",
     "notes": [
-        "A new desktop wallpaper reaches the cards (CEO: \"I changed the background image in windows so its still showing the old one\"). ⚠️ A cache with no invalidation is a stale picture: main keys its copy on the transcode's timestamp, so IT would…",
-        "The folder, not the file: Windows REPLACES the transcode rather than editing it, which ends a watch on the path itself. Started lazily, the first time a portal actually asks for frost, so a desktop that never uses it never pays for it.",
-        "Reverse Text flips the card's fill with the type (CEO: \"with the invert text color we should flip the background to white on the card\"). Dark type on the dark card it was chosen against is unreadable - his black at 27% becomes white at…"
+        "Beacon's column can sit left, center or right (CEO: \"this first layout we can add left, center (current) and right\"). A Place control joins Height and Width in the designer; center is what the layout has always done and stays the default…",
+        "Against an edge means one strip margin in, not flush to the monitor - the same stand-off the strip already keeps top and bottom, so a column placed at a side sits in the same frame as a centred one. Measured on an 1856px strip with a 742px…",
+        "The designer's own schematic moves with it, so that screen and the desktop cannot disagree about which side the column is on. It still draws the layout's declared column width rather than the fitted one - that is the portal's answer, and…",
+        "Saved per layout like the height and the width, so the four parked layouts inherit the same control when they come back."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.819",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.820/NovaPanel-patch-1.1.819-to-1.1.820.zip",
-        "size": 7350705,
-        "sha256": "a7eb2fa4fbc77c6f532a1811a3946f69dce8814ae52544ed80266a9a48b703bf"
+        "from": "1.1.820",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.821/NovaPanel-patch-1.1.820-to-1.1.821.zip",
+        "size": 7352419,
+        "sha256": "9d6cac85bdeb2b2d23ab95541a89d3418cc9fe377b2739ab9f3226b6d30aec9c"
     }
 }
