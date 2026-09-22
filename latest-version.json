@@ -1,17 +1,16 @@
 {
-    "version": "1.1.816",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.816/NovaPanel-v1.1.816.zip",
+    "version": "1.1.817",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.817/NovaPanel-v1.1.817.zip",
     "notes": [
-        "The type scales with the strip's height (CEO: \"I gave you the sizes at 134px, if I scale up to 300px the fonts should scale up with it\"). It did not, and two things were stopping it. The row's rhythm is a fraction of the strip height, so a…",
-        "And the strip now says how tall it is instead of each composition working it back from its own card - a card that is half a strip plus a gap overshoots, which is why 16px type came out at 19.",
-        "The date and time beside the day were pinned at the 12px floor at every height, because their cap against the hero was set below that floor - on a 300px strip his date read as a footnote. The cap is now the ratio he actually drew (12…",
-        "New: a Width control beside Height in the designer (CEO: \"there should be a control that allows it to be wider horizontally as well\"). It sets how wide the strip's column is drawn as a percentage of the strip, so one number means the same…"
+        "The Content Designer handles a resized window (CEO: \"fix the designer to handle resizing\", with a screenshot at about 900px). Nothing in it gave way: the frame is three columns of which two were a FIXED width, so every pixel the window…",
+        "Now the rails narrow first; then the inspector, which describes what is selected rather than being worked in, comes out of the row and sits under the work full width; then everything stacks. Every row of controls wraps, the Height and…",
+        "No breakpoint moves a control somewhere else - the same screen gets narrower, which is the only thing resizing a window asks for. Checked at 1400, 1122, 940, 900, 860, 760 and 640px: nothing overflows its pane and nothing leaves the window."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.815",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.816/NovaPanel-patch-1.1.815-to-1.1.816.zip",
-        "size": 7344379,
-        "sha256": "0478ebe91f6e838576da7c293eaafcdacc03f3a5988b3e01f9a6f99aec2f7948"
+        "from": "1.1.816",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.817/NovaPanel-patch-1.1.816-to-1.1.817.zip",
+        "size": 7346146,
+        "sha256": "9f8c65a35bf4d3087f525acc7c266ddd1fe409985f4818f1f43e1312224566ec"
     }
 }
