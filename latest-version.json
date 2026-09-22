@@ -1,16 +1,16 @@
 {
-    "version": "1.1.817",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.817/NovaPanel-v1.1.817.zip",
+    "version": "1.1.818",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.818/NovaPanel-v1.1.818.zip",
     "notes": [
-        "The Content Designer handles a resized window (CEO: \"fix the designer to handle resizing\", with a screenshot at about 900px). Nothing in it gave way: the frame is three columns of which two were a FIXED width, so every pixel the window…",
-        "Now the rails narrow first; then the inspector, which describes what is selected rather than being worked in, comes out of the row and sits under the work full width; then everything stacks. Every row of controls wraps, the Height and…",
-        "No breakpoint moves a control somewhere else - the same screen gets narrower, which is the only thing resizing a window asks for. Checked at 1400, 1122, 940, 900, 860, 760 and 640px: nothing overflows its pane and nothing leaves the window."
+        "The type stops growing at the 214px strip (CEO: \"bottom text scaled up too much its no longer balanced in the card... the font size at around 214 should be the max size the font go to\"). Past that the extra height becomes air around the…",
+        "One ceiling for the whole strip, not one per rune: it is expressed as the ratio between the tallest strip whose type he accepts and the strip being drawn, applied where every size in every rune already passes through, so it lands on heroes…",
+        "A resize now gets the same fade out, change, fade in a move does (CEO: \"upon resize you need to do the same fade out / in animation you built for position change\"). A resize is the more disruptive of the two - the panel re-measures itself…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.816",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.817/NovaPanel-patch-1.1.816-to-1.1.817.zip",
-        "size": 7346146,
-        "sha256": "9f8c65a35bf4d3087f525acc7c266ddd1fe409985f4818f1f43e1312224566ec"
+        "from": "1.1.817",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.818/NovaPanel-patch-1.1.817-to-1.1.818.zip",
+        "size": 7348278,
+        "sha256": "8f47e149cb5c9a39bcbfe5ba38b2ca8f2cdba787345e5975cba585647cc7064f"
     }
 }
