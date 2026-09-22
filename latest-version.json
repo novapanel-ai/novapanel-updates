@@ -1,16 +1,15 @@
 {
-    "version": "1.1.830",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.830/NovaPanel-v1.1.830.zip",
+    "version": "1.1.831",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.831/NovaPanel-v1.1.831.zip",
     "notes": [
-        "The Size dial reaches every card (CEO: \"font size only works on the top card\"). ⚠️ The sensor row was the one composition that never asked kit.js for its type - it works its own out from the CEO's proportions - so it was the one card the…",
-        "The row's sub-label is now the strip's, not its own (CEO: \"the subtext should be the same font size as time in the top card\"). The supports in the clock beside it sit at the theme's floor while this row sized its own from the strip's…",
-        "Proved by moving the dial: at 0.7 the clock draws 23 and the row 13, at 1.0 the clock 32 and the row 19 - before, the row did not move at all."
+        "Mirage row card: the label and reading are now sized FROM the sub-label at the CEO's 16:12 ratio (CEO: \"the other two fonts need to scale down as well relative to the subtext\"), so with the sub on the strip's shared 12 the row draws…",
+        "Mirage row card: the sub-label is Regular (400) instead of Thin (100) and full ink instead of dim (CEO: \"less thin now that its smaller... primary font color not dim\"). Applies to every row composition (sensor row, week, 10-day, hourly…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.829",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.830/NovaPanel-patch-1.1.829-to-1.1.830.zip",
-        "size": 7376601,
-        "sha256": "146f94287e860538450f8665265e2a2457910f5cf9cf0cb7c2ad3cbd3008ebb3"
+        "from": "1.1.830",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.831/NovaPanel-patch-1.1.830-to-1.1.831.zip",
+        "size": 7377066,
+        "sha256": "00eaa61b109340882e38da7380a04810505f01790a512ae8f148108880e399e8"
     }
 }
