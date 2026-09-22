@@ -1,16 +1,17 @@
 {
-    "version": "1.1.824",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.824/NovaPanel-v1.1.824.zip",
+    "version": "1.1.825",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.825/NovaPanel-v1.1.825.zip",
     "notes": [
-        "Nothing changes after the portal comes back (CEO: \"make sure all changes are completed before we fade back in. I noted the font color jump changed and background occasionally popped back in\"). ⚠️ THE WAIT WAS A NUMBER IN MAIN, AND A NUMBER…",
-        "'settled' now means \"go\", not \"you are visible again\". The portal holds its own fade until the window has stopped changing size, the strip has re-formed at that size, the face is loaded, the picture has been taken and the ink decided…",
-        "Traced frame by frame: the frost is back at full strength and at its new offset while the panel is still at zero, and the fade-in only starts after that - no value moves once anything is on screen."
+        "No flash after the fade-in either (CEO: \"I am still getting a flash AFTER the fade in\"). ⚠️ ONE PASS IS NOT ENOUGH, BECAUSE A PASS CAUSES THE NEXT ONE: re-forming the strip is what ASKS for the new window height, so waiting for the window…",
+        "So the portal settles the way the designer's captures do: it re-forms, lets the height land, waits for the picture, decides the ink, paints a frame, and describes what it has - the window size, where the picture is, every card's box, every…",
+        "\"Nothing baking\" was also too weak a test for the glass: a frost between places has cut its picture and is holding it out, so the portal could fade in and have the glass arrive behind it. Settled now means nothing baking, nothing moving…",
+        "Traced frame by frame on a move: the window height changes from 200 to 202 and the cards with it at 13955ms, the frost returns at its new offset at 14058ms, and the fade only begins at 14430ms - every value is final before a single pixel…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.823",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.824/NovaPanel-patch-1.1.823-to-1.1.824.zip",
-        "size": 7357808,
-        "sha256": "cb98d9f74ba94a29f1a405edd18897ef1332d0a2716f2e45e5219de99fec0482"
+        "from": "1.1.824",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.825/NovaPanel-patch-1.1.824-to-1.1.825.zip",
+        "size": 7359583,
+        "sha256": "c522151a6c02fcae70afe27c71cf1b7ed3a26eb4f2696d2d9b741b508d920be1"
     }
 }
