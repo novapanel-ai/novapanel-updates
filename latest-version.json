@@ -1,14 +1,17 @@
 {
-    "version": "1.1.827",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.827/NovaPanel-v1.1.827.zip",
+    "version": "1.1.828",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.828/NovaPanel-v1.1.828.zip",
     "notes": [
-        "Sigil now registers TWO ways to start with Windows, and the Control Panel can turn it off (CEO: \"Sigil is not restarting with Windows again. Find out why\" then \"yes build it. there should be a control panel setting for this as well\").…"
+        "The strip is the control (CEO: \"with UX heuristics mimicking the real world is better - why not allow me to select where in the preview for the portal cards to sit rather than another control for positioning? Minimize the controls to the…",
+        "Pulled in past what the cards ask for, the width goes back to Fit - the one value a number could never have explained.",
+        "Nothing is drawn unless something is being held: the grips appear on hover and the value appears beside the one in use. A press that does not travel is still a click, so a card can still be picked from the band.",
+        "⚠️ Allowed on the CEO's own terms. His rule is that a preview matches the portal or does not exist, and this band is a schematic, not a photograph - it draws the declared column and none of the type. It earns the handles the other way…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.826",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.827/NovaPanel-patch-1.1.826-to-1.1.827.zip",
-        "size": 7369289,
-        "sha256": "d1c6f930b511ffc77e264f8ff899fb98655f51c4d477822bea1da0d201ff429e"
+        "from": "1.1.827",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.828/NovaPanel-patch-1.1.827-to-1.1.828.zip",
+        "size": 7370469,
+        "sha256": "2b7b6ea1598c201c6d471c60da6fcc5c3762346bb05fa424291b918675e01ac7"
     }
 }
