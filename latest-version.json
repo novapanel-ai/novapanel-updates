@@ -1,18 +1,16 @@
 {
-    "version": "1.1.829",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.829/NovaPanel-v1.1.829.zip",
+    "version": "1.1.830",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.830/NovaPanel-v1.1.830.zip",
     "notes": [
-        "Widening a strip that is not centred no longer makes it jump (CEO: \"big issue when resizing and the portal isn't center you can see it jumping\"). The first cut drew every width around the middle, so a column sitting left or right leapt to…",
-        "⚠️ And the grips were not being followed at all. A 4px handle loses the pointer the instant the hand outruns it, and pointer capture cannot be relied on to hold it - measured: a drag on a side moved nothing whatsoever. Held now means…",
-        "The band draws what is SET, not what the layout declares. It was drawing the opening column at the declared place, so a width or a side already on the desktop was missing here - and after a drag it snapped back, which reads as the drag…",
-        "The strip's dimensions sit beside the title at all times (CEO: \"have the dimensions listed on that panel at all times\") - 134px · Fit · Center - and they follow the hand while a handle is held, so the numbers the sliders used to show are…",
-        "Cards: border opacity is back (CEO: \"in the cards section border is missing the opacity control\"). A border's strength is not its width, it is how much of it you can see - the one of the four audited-out border controls worth keeping."
+        "The Size dial reaches every card (CEO: \"font size only works on the top card\"). ⚠️ The sensor row was the one composition that never asked kit.js for its type - it works its own out from the CEO's proportions - so it was the one card the…",
+        "The row's sub-label is now the strip's, not its own (CEO: \"the subtext should be the same font size as time in the top card\"). The supports in the clock beside it sit at the theme's floor while this row sized its own from the strip's…",
+        "Proved by moving the dial: at 0.7 the clock draws 23 and the row 13, at 1.0 the clock 32 and the row 19 - before, the row did not move at all."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.828",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.829/NovaPanel-patch-1.1.828-to-1.1.829.zip",
-        "size": 7375437,
-        "sha256": "fdedece031270602cf59555340c984b6b62c40a32c61c73c23ec5a9ac4f53f13"
+        "from": "1.1.829",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.830/NovaPanel-patch-1.1.829-to-1.1.830.zip",
+        "size": 7376601,
+        "sha256": "146f94287e860538450f8665265e2a2457910f5cf9cf0cb7c2ad3cbd3008ebb3"
     }
 }
