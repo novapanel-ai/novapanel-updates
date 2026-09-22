@@ -1,16 +1,16 @@
 {
-    "version": "1.1.818",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.818/NovaPanel-v1.1.818.zip",
+    "version": "1.1.819",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.819/NovaPanel-v1.1.819.zip",
     "notes": [
-        "The type stops growing at the 214px strip (CEO: \"bottom text scaled up too much its no longer balanced in the card... the font size at around 214 should be the max size the font go to\"). Past that the extra height becomes air around the…",
-        "One ceiling for the whole strip, not one per rune: it is expressed as the ratio between the tallest strip whose type he accepts and the strip being drawn, applied where every size in every rune already passes through, so it lands on heroes…",
-        "A resize now gets the same fade out, change, fade in a move does (CEO: \"upon resize you need to do the same fade out / in animation you built for position change\"). A resize is the more disruptive of the two - the panel re-measures itself…"
+        "The strip's whole height range now maps onto the type range that ends at the 214px size (CEO: \"it should scale between the 134 and 214 range. So 300 down to 134 is less than before\"). The previous build read it as a clamp - grow to the 214…",
+        "Mirage's text treatment is reachable again (CEO: \"we had shadows, text color inversion monochrome etc. before I cannot find it now for Mirage\"). ⚠️ They were not missing, they were unreachable: the Text tab has no button in the nav any…",
+        "⚠️ And Reverse Text now reverses TEXT. Its filter sat on the whole content wrapper, which was harmless when a card painted nothing and is not any more: a card carries a tint and, over a bare desktop, a piece of the wallpaper. Inverting the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.817",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.818/NovaPanel-patch-1.1.817-to-1.1.818.zip",
-        "size": 7348278,
-        "sha256": "8f47e149cb5c9a39bcbfe5ba38b2ca8f2cdba787345e5975cba585647cc7064f"
+        "from": "1.1.818",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.819/NovaPanel-patch-1.1.818-to-1.1.819.zip",
+        "size": 7349640,
+        "sha256": "cd1b005ba4ca9ba2b59716e85a40042baaac382b143cf81784e560499391e983"
     }
 }
