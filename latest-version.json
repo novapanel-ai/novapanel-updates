@@ -1,17 +1,16 @@
 {
-    "version": "1.1.823",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.823/NovaPanel-v1.1.823.zip",
+    "version": "1.1.824",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.824/NovaPanel-v1.1.824.zip",
     "notes": [
-        "Reverse Text contrasts instead of blending (CEO: \"I don't think the contrast is high enough, its almost blending instead of contrasting\"). ⚠️ A BLEND MODE CANNOT DO THIS, and `difference` least of all: it IS an inversion, and its result is…",
-        "That reading is the same capture the frost is cut from: the wallpaper is measured under each word (Rec. 709 luminance, the card's own tint composited over it) and the ink is set to black or white. Per WORD, not per card - a card wide…",
-        "And the hierarchy no longer eats the decision. This theme says \"quieter\" with opacity, so a correctly chosen black at 40% over a light card is a grey that reads as neither - half of what he was looking at. The order is kept and the bottom…",
-        "Proven on the portal's own pixels rather than a screen grab: black ink over a light card, white ink over a dark one, from the same setting."
+        "Nothing changes after the portal comes back (CEO: \"make sure all changes are completed before we fade back in. I noted the font color jump changed and background occasionally popped back in\"). ⚠️ THE WAIT WAS A NUMBER IN MAIN, AND A NUMBER…",
+        "'settled' now means \"go\", not \"you are visible again\". The portal holds its own fade until the window has stopped changing size, the strip has re-formed at that size, the face is loaded, the picture has been taken and the ink decided…",
+        "Traced frame by frame: the frost is back at full strength and at its new offset while the panel is still at zero, and the fade-in only starts after that - no value moves once anything is on screen."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.822",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.823/NovaPanel-patch-1.1.822-to-1.1.823.zip",
-        "size": 7356043,
-        "sha256": "ecadb89419e091697c41d0af53d974786ae94ae6146c772b6b995e4eec7d2b0a"
+        "from": "1.1.823",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.824/NovaPanel-patch-1.1.823-to-1.1.824.zip",
+        "size": 7357808,
+        "sha256": "cb98d9f74ba94a29f1a405edd18897ef1332d0a2716f2e45e5219de99fec0482"
     }
 }
