@@ -1,17 +1,18 @@
 {
-    "version": "1.1.828",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.828/NovaPanel-v1.1.828.zip",
+    "version": "1.1.829",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.829/NovaPanel-v1.1.829.zip",
     "notes": [
-        "The strip is the control (CEO: \"with UX heuristics mimicking the real world is better - why not allow me to select where in the preview for the portal cards to sit rather than another control for positioning? Minimize the controls to the…",
-        "Pulled in past what the cards ask for, the width goes back to Fit - the one value a number could never have explained.",
-        "Nothing is drawn unless something is being held: the grips appear on hover and the value appears beside the one in use. A press that does not travel is still a click, so a card can still be picked from the band.",
-        "⚠️ Allowed on the CEO's own terms. His rule is that a preview matches the portal or does not exist, and this band is a schematic, not a photograph - it draws the declared column and none of the type. It earns the handles the other way…"
+        "Widening a strip that is not centred no longer makes it jump (CEO: \"big issue when resizing and the portal isn't center you can see it jumping\"). The first cut drew every width around the middle, so a column sitting left or right leapt to…",
+        "⚠️ And the grips were not being followed at all. A 4px handle loses the pointer the instant the hand outruns it, and pointer capture cannot be relied on to hold it - measured: a drag on a side moved nothing whatsoever. Held now means…",
+        "The band draws what is SET, not what the layout declares. It was drawing the opening column at the declared place, so a width or a side already on the desktop was missing here - and after a drag it snapped back, which reads as the drag…",
+        "The strip's dimensions sit beside the title at all times (CEO: \"have the dimensions listed on that panel at all times\") - 134px · Fit · Center - and they follow the hand while a handle is held, so the numbers the sliders used to show are…",
+        "Cards: border opacity is back (CEO: \"in the cards section border is missing the opacity control\"). A border's strength is not its width, it is how much of it you can see - the one of the four audited-out border controls worth keeping."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.827",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.828/NovaPanel-patch-1.1.827-to-1.1.828.zip",
-        "size": 7370469,
-        "sha256": "2b7b6ea1598c201c6d471c60da6fcc5c3762346bb05fa424291b918675e01ac7"
+        "from": "1.1.828",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.829/NovaPanel-patch-1.1.828-to-1.1.829.zip",
+        "size": 7375437,
+        "sha256": "fdedece031270602cf59555340c984b6b62c40a32c61c73c23ec5a9ac4f53f13"
     }
 }
