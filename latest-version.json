@@ -1,16 +1,17 @@
 {
-    "version": "1.1.822",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.822/NovaPanel-v1.1.822.zip",
+    "version": "1.1.823",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.823/NovaPanel-v1.1.823.zip",
     "notes": [
-        "Reverse Text is background-aware (CEO: \"text invert isn't just flip white to black, it's supposed to invert based on the background (which you capture for the blur)\"). ⚠️ `invert(1)` never was: it flips the GLYPH's own color, so white ink…",
-        "It is now a `difference` blend, which subtracts the glyph from the backdrop per pixel: over a dark part of the card the ink stays light, over a light part it comes out dark, and it follows the picture across a single word. The backdrop it…",
-        "Monochrome Reverse and Contrast Reverse stay filters, because they are effects ON the text rather than a relation to what is under it."
+        "Reverse Text contrasts instead of blending (CEO: \"I don't think the contrast is high enough, its almost blending instead of contrasting\"). ⚠️ A BLEND MODE CANNOT DO THIS, and `difference` least of all: it IS an inversion, and its result is…",
+        "That reading is the same capture the frost is cut from: the wallpaper is measured under each word (Rec. 709 luminance, the card's own tint composited over it) and the ink is set to black or white. Per WORD, not per card - a card wide…",
+        "And the hierarchy no longer eats the decision. This theme says \"quieter\" with opacity, so a correctly chosen black at 40% over a light card is a grey that reads as neither - half of what he was looking at. The order is kept and the bottom…",
+        "Proven on the portal's own pixels rather than a screen grab: black ink over a light card, white ink over a dark one, from the same setting."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.821",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.822/NovaPanel-patch-1.1.821-to-1.1.822.zip",
-        "size": 7353483,
-        "sha256": "3993954306cbf291ce6065fe72ed59e22916d7a8c5c64a011087aeb0c2830a22"
+        "from": "1.1.822",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.823/NovaPanel-patch-1.1.822-to-1.1.823.zip",
+        "size": 7356043,
+        "sha256": "ecadb89419e091697c41d0af53d974786ae94ae6146c772b6b995e4eec7d2b0a"
     }
 }
