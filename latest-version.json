@@ -1,18 +1,17 @@
 {
-    "version": "1.1.846",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.846/NovaPanel-v1.1.846.zip",
+    "version": "1.1.847",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.847/NovaPanel-v1.1.847.zip",
     "notes": [
-        "Focus leads from the MIDDLE everywhere (CEO: \"you have focus on the left most item... the design had it on the center most item and going left and right to fade\"). buildFocusRow always centres its lead and fades both ways; Hourly focus…",
-        "Weather service now also fetches 6 past hours and 3 past days (Open-Meteo past_hours / past_days), delivered as pastHours / pastDays so every existing reader of days[0] and hours keeps today and now first.",
-        "Weather: Curve (the hours around now as one smooth Catmull-Rom line, now in the middle with a dot, the line and its words fading to both ends), Range (each day's low-to-high on one shared scale), Statement (temperature, condition, feels…",
-        "Sensor row: Arcs (each reading in an open arc), Ring and bars (the first reading in a ring, the rest as labelled bars as the height allows), Meters (the row with a bar under each reading), Traces (each reading over a line of its last ~10…",
-        "Media: Transport line, Cover (album art when the feed has it), Capsule, Bars (a progress bar drawn as bars - a fixed pattern from the title, not audio), Headline. Display only, no controls. The three-tile card stays the default."
+        "Designer thumbnails no longer all redraw when a layout option is chosen (CEO: \"every time I choose a layout option every thumbnail has to redraw - fix this\"). The twin (portal-twin.js) keeps each picture for a minute against everything…",
+        "Weather Curve follows the temperature (CEO: \"it's not tied to the actual temperature... make sure it actually follows\"): the line was stretched over whatever spread the hours had, so a 1° wobble drew as a hill; its height now stands for…",
+        "Weather says where you are (CEO: \"what's today? ... hourly you should show where we are currently\"): the forecast column that is today reads TODAY and this hour reads NOW - the default card, the 10-day and hourly rows, their boxed and…",
+        "Rain chance carries its explainer: CHANCE OF RAIN, once, at the start of the card."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.845",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.846/NovaPanel-patch-1.1.845-to-1.1.846.zip",
-        "size": 7420881,
-        "sha256": "0cff6263805a77ed94524e9130448ee777b88c077284a290c685c1adb6460314"
+        "from": "1.1.846",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.847/NovaPanel-patch-1.1.846-to-1.1.847.zip",
+        "size": 7424670,
+        "sha256": "bbdb315bc08879baffa289b1e7e39b6630bac72f6e6c633e8cf512a4a91ed199"
     }
 }
