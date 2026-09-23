@@ -1,17 +1,15 @@
 {
-    "version": "1.1.867",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.867/NovaPanel-v1.1.867.zip",
+    "version": "1.1.868",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.868/NovaPanel-v1.1.868.zip",
     "notes": [
-        "Colonnade balanced in and between (CEO: \"the widths do not have to match to be balanced. balance happens in and in between\"): every card's content is measured as drawn (its real names, each part's own widest reading), the screen's…",
-        "Power State shows every plan the machine has (four here: Performance, Balanced, Silent, Turbo -- the active one was the one being cut); Volume carries its level as the same vertical meter as the other readings; the weather sky is the…",
-        "Card blur/fill/frost are the Cards pane's on Colonnade too (the bare layout override is gone) (CEO: \"card blur is now broken with this layout\").",
-        "The designer shows only the cards the portal fits (CEO: \"do not show nine here if only 8 will fit\"): the portal reports its count (layout:shown) and the strip and card list draw that many."
+        "The Gradient layer is in the Content Designer (CEO: \"the gradient layer you failed to bring over from the mirage editor ... using the systems we built\"): the Panel Editor's gradient control (type, angle / centre and size, the ramp with a…",
+        "panel-editor.js keeps its layer-card chrome around the shared body; its gradient CSS moved to gradient-card.css with the same specificity (:is(#pe-app, .pgc-host)); ds-drift ratchets updated for the moved sheet."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.866",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.867/NovaPanel-patch-1.1.866-to-1.1.867.zip",
-        "size": 7464182,
-        "sha256": "eb1ab6b6e84cdffd57640712c9c64c0d50ea7653b94e6e3a3a0050b239ad7f0f"
+        "from": "1.1.867",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.868/NovaPanel-patch-1.1.867-to-1.1.868.zip",
+        "size": 7465355,
+        "sha256": "91f142d022bfb6ac6aff353d78da14b1eddb5067a7d1aa905d550a48512de448"
     }
 }
