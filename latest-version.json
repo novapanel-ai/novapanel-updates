@@ -1,16 +1,16 @@
 {
-    "version": "1.1.865",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.865/NovaPanel-v1.1.865.zip",
+    "version": "1.1.866",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.866/NovaPanel-v1.1.866.zip",
     "notes": [
-        "Colonnade by the numbers (CEO: \"your fonts are too big ... Balance is still missing. borders are still missing ... you know the width of the screen, the padding, the count. if power state cannot fit leave it off ... do the math, make it…",
-        "The Cards pane Border draws on every Colonnade card again, neighbours sharing one line (a framed band divided by single lines); a bare layout only drops the fill, blur and frost.",
-        "Power State's buttons use his drawing's padding (0.6 of the name's size), which is what lets all nine cells fit a 2560 screen."
+        "Designer Cards pane (CEO: \"not acceptable, redo the settings to layout properly\"): Gap and Padding are one word per row like Fill/Opacity/Blur/Radius/Border (the full meaning in each row's tooltip), and open on what the portal draws (a…",
+        "Colonnade honours the Cards pane Gap: that many px between equal cells; at 0 neighbours share one border line, above 0 every card carries its own full border (CEO: \"I still do not see border on the cards\" -- on 1.1.864 only the lines…",
+        "Designer header for a row layout reads \"1 high · 45px · 9 cards across the screen\" (width and place do not apply), and its cards are listed as 1 x 1, not 1 x 2."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.864",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.865/NovaPanel-patch-1.1.864-to-1.1.865.zip",
-        "size": 7459502,
-        "sha256": "d5c7c4ae73d62aa16997e179fb5ec964eea5bfae86adf45cb0a954f534db82b6"
+        "from": "1.1.865",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.866/NovaPanel-patch-1.1.865-to-1.1.866.zip",
+        "size": 7460233,
+        "sha256": "feca19eae783d075440cd9d2e523ecf2c9326863c6a198c58048ac9fdf08eaf1"
     }
 }
