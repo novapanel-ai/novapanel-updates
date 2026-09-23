@@ -1,14 +1,15 @@
 {
-    "version": "1.1.833",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.833/NovaPanel-v1.1.833.zip",
+    "version": "1.1.834",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.834/NovaPanel-v1.1.834.zip",
     "notes": [
-        "Content Designer, Mirage strip: a Reset to defaults button beside the dimensions readout (CEO: \"put a reset to defaults on the panel too\"). It puts the layout's height, width and place back to its own in ONE call (new layout:reset-strip)…"
+        "Mirage: the portal background can be frosted (CEO: \"add the blur for the portal background\"). New substrate.backgroundBlur (0-40px, normalized in main), a Blur slider in the designer's Background pane (Reset puts it back to 0). The whole…",
+        "frost.js: whether a panel paints a background was misread while the entrance held its layers at opacity 0 (every layer counted as absent, and nothing asked again) - held layers now count; and the question is asked again once the frost…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.832",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.833/NovaPanel-patch-1.1.832-to-1.1.833.zip",
-        "size": 7378787,
-        "sha256": "b783ed7b10bafcc686eb2d39cb1145e1e4fa55e16aeac5d4d8f851942e80a2ad"
+        "from": "1.1.833",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.834/NovaPanel-patch-1.1.833-to-1.1.834.zip",
+        "size": 7380741,
+        "sha256": "a2725c6534da8303b50f67c5a82847b6cfd0fccf2e039e0db119cea445cec7bf"
     }
 }
