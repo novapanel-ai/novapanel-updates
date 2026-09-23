@@ -1,17 +1,18 @@
 {
-    "version": "1.1.845",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.845/NovaPanel-v1.1.845.zip",
+    "version": "1.1.846",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.846/NovaPanel-v1.1.846.zip",
     "notes": [
-        "Date/Time: seven new layouts from the CEO's inspiration set (drawn as proposals, accepted: \"these are all good\") - Superscript, Words, Ledger, Flanked, Beside mirrored, Weight, Ring. Each is one composition that renders itself, measured at…",
-        "Calendar: Week, today boxed (the shared row with today outlined), Focus week (today large in the middle, the days either side stepping down and fading), Week band (last, this and next week, this one in a capsule, the others faint).",
-        "The same patterns where they fit (CEO: \"some of the ones you built will work for sensors, calendar and weather days\"): Weather 10-day / Hourly, today|now boxed and focus; Sensor row, Focus. New shared pieces: runes/row.js D.boxed (one…",
-        "Date and agenda (proposal 11) not built - the CEO passed on it, and it would need a calendar-events source that does not exist."
+        "Focus leads from the MIDDLE everywhere (CEO: \"you have focus on the left most item... the design had it on the center most item and going left and right to fade\"). buildFocusRow always centres its lead and fades both ways; Hourly focus…",
+        "Weather service now also fetches 6 past hours and 3 past days (Open-Meteo past_hours / past_days), delivered as pastHours / pastDays so every existing reader of days[0] and hours keeps today and now first.",
+        "Weather: Curve (the hours around now as one smooth Catmull-Rom line, now in the middle with a dot, the line and its words fading to both ends), Range (each day's low-to-high on one shared scale), Statement (temperature, condition, feels…",
+        "Sensor row: Arcs (each reading in an open arc), Ring and bars (the first reading in a ring, the rest as labelled bars as the height allows), Meters (the row with a bar under each reading), Traces (each reading over a line of its last ~10…",
+        "Media: Transport line, Cover (album art when the feed has it), Capsule, Bars (a progress bar drawn as bars - a fixed pattern from the title, not audio), Headline. Display only, no controls. The three-tile card stays the default."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.844",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.845/NovaPanel-patch-1.1.844-to-1.1.845.zip",
-        "size": 7401953,
-        "sha256": "3256ec867aac9b1f0d26706ba18cd0dc879ab62cb5cd6b1597e8f8535de23d3c"
+        "from": "1.1.845",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.846/NovaPanel-patch-1.1.845-to-1.1.846.zip",
+        "size": 7420881,
+        "sha256": "0cff6263805a77ed94524e9130448ee777b88c077284a290c685c1adb6460314"
     }
 }
