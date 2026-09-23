@@ -1,15 +1,14 @@
 {
-    "version": "1.1.854",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.854/NovaPanel-v1.1.854.zip",
+    "version": "1.1.855",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.855/NovaPanel-v1.1.855.zip",
     "notes": [
-        "Portico's player is Cover (CEO: \"pick something better for media that one sucks\"): default left card media:cover|calendar. Cover gains a stacked form for cards narrower than twice their height -- the art on top, title, artist and a short…",
-        "Cover with no album art: the image leaves the art tile instead of hiding in it, so the strip's centring counts the tile; before, the stacked cover was centred on its text and the art pushed out of the card top."
+        "Mirage layout width range narrowed to 90%-110% of the fitted width (CEO: \"50% breaks things and 150% on some might be too much. so let's limit it down to just 90% - 110%\"): main.js store clamp, mirage-data.js portal clamp, and the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.853",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.854/NovaPanel-patch-1.1.853-to-1.1.854.zip",
-        "size": 7432200,
-        "sha256": "b48b84fe2d7659c0903916d993f0d8116ee474f05b1bf7567a2492b706728950"
+        "from": "1.1.854",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.855/NovaPanel-patch-1.1.854-to-1.1.855.zip",
+        "size": 7432665,
+        "sha256": "2495c8e24dc0ade05471b559afc86d2172628adbeafc87592d55c3a5054c6d33"
     }
 }
