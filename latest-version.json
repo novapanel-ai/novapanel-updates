@@ -1,14 +1,14 @@
 {
-    "version": "1.1.858",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.858/NovaPanel-v1.1.858.zip",
+    "version": "1.1.859",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.859/NovaPanel-v1.1.859.zip",
     "notes": [
-        "New Date/Time layout Day and time (clock:dayTime) (CEO: \"it would be good to have a rune for DOW / time only this way I can make that the top center piece and the calendar will cover the day of the month\"): Beside with the weekday and the…"
+        "Weather looks fit single-wide cards (CEO: \"fix them now\"). Range, Curve and Rain chance draw as many columns as fit at the floor size (Curve keeps now in the middle); a card that could hold them all keeps them all, and each still asks a…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.857",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.858/NovaPanel-patch-1.1.857-to-1.1.858.zip",
-        "size": 7434653,
-        "sha256": "31b6a657e3a1f01277656d07cc148a6973030d139fac419818203ea3a404dc8e"
+        "from": "1.1.858",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.859/NovaPanel-patch-1.1.858-to-1.1.859.zip",
+        "size": 7435325,
+        "sha256": "d40466b451e023d644c17d0b2f3756ee11a39f7de1e10e1be94fdd133a0d45f9"
     }
 }
