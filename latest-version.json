@@ -1,15 +1,16 @@
 {
-    "version": "1.1.835",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.835/NovaPanel-v1.1.835.zip",
+    "version": "1.1.836",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.836/NovaPanel-v1.1.836.zip",
     "notes": [
-        "Mirage background blur now saves (CEO: \"the blur isn't working on background\"). 1.1.834 normalized substrate.backgroundBlur but a substrate save is rebuilt through the layer model (panel.surface -> _substrateFromPanel), whose field list…",
-        "Mirage cards at 0% fill no longer show (CEO: \"the card when set to 0 opacity is still showing\"). Beacon opens with a card ground of its own (white 10%), worn until the Cards fill is chosen - and 0% was read as not chosen, so the ground…"
+        "Mirage content no longer moves when the cards go to 0% (CEO: \"when cards go to 0 opacity the content moves\"). alignStrip laid a strip out two ways - centred in each card when the cards drew a fill, on shared row lines when they did not…",
+        "Content Designer: a Position pane (\"Where it sits\") with the Panel Editor's Desktop Map (CEO: \"I cannot move the portal up and down the screen. The position screen isn't there. Add it in\"). The map was LIFTED out of panel-editor.js into…",
+        "Content Designer saveSub now sends only the change - main merges it - instead of the whole substrate it read on open, which could write back a stale size or place."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.834",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.835/NovaPanel-patch-1.1.834-to-1.1.835.zip",
-        "size": 7382486,
-        "sha256": "b78115718dbac1cbf91452c92811f9a95d8a38c43dc5c4512d7a58d65e6a2ed4"
+        "from": "1.1.835",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.836/NovaPanel-patch-1.1.835-to-1.1.836.zip",
+        "size": 7385608,
+        "sha256": "ac0301e59779165031214cb6e5edbdda59bc83a1890d146c77af75ff66dc37c1"
     }
 }
