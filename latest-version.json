@@ -1,16 +1,16 @@
 {
-    "version": "1.1.863",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.863/NovaPanel-v1.1.863.zip",
+    "version": "1.1.864",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.864/NovaPanel-v1.1.864.zip",
     "notes": [
-        "Colonnade at the drawing's height (CEO: \"yes follow the design, the others likely will deviate as well so accept the same answer for those\"): a layout may declare its own floor (strip-layouts.js minH, applied in contentHeightFor and the…",
-        "Inline sized to his measurements: the value 27/52 of the band (Poppins Thin), the label 0.37 of it, line-tight, exact at the untouched Size dial (kit.js DEFAULT_SIZE_SCALE) and scaled by it; his 12px / 6px spacing around Weather's divider.…",
-        "kit.js reportSize: a composition that shrinks to fit after asking reports the size it settled on, so the strip's one shared size matches it (a day that shrank left the other values larger)."
+        "Colonnade balanced across the monitor (CEO: \"card borders isn't working ... borders should divide them ... change from content controlled width to fill. If a card doesn't fit we must hide it ... Calendar is smashed and time has a huge gap.…",
+        "The lines between Colonnade's cells are the Cards pane Border (colour, opacity, width; off = no lines) instead of a fixed divider.",
+        "Inline: Laptop's Status sits at the end of its content, Power State sizes to the plans it shows (kit.js frameHint), and a cell's content is centred by the strip."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.862",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.863/NovaPanel-patch-1.1.862-to-1.1.863.zip",
-        "size": 7455104,
-        "sha256": "dbf4f42bf2b1491926d98fcd5db4471cff6c1cdcf583a40c55492beb66dc2a8d"
+        "from": "1.1.863",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.864/NovaPanel-patch-1.1.863-to-1.1.864.zip",
+        "size": 7458209,
+        "sha256": "7a577be5e23ebb8e0de7c6a9a134e13e11087f4d8024607ef395ce4c27521ed2"
     }
 }
