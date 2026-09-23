@@ -1,16 +1,16 @@
 {
-    "version": "1.1.862",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.862/NovaPanel-v1.1.862.zip",
+    "version": "1.1.863",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.863/NovaPanel-v1.1.863.zip",
     "notes": [
-        "Colonnade rebuilt to the CEO's drawing (\"colonnade will only be 1 high not 2 ... attached is what colonnade will look like. match it\"): one row across the monitor, nine cells edge to edge (gap 0) divided by hairlines, on the portal…",
-        "New Inline layout (runes/inline.js), offered on Day, Time, Date, Calendar, Weather, every hardware part, Laptop, Volume and Power Plan: a small label over a large Poppins Thin value on one left edge; a vertical meter (parts, Laptop) or the…",
-        "Colonnade opens on day, time, week, weather, CPU, GPU, Laptop, Volume and Power State, each Inline. strip-layouts.js layoutBoxes honours a layout's own gap; mirage.css [data-bare]/[data-dividers]."
+        "Colonnade at the drawing's height (CEO: \"yes follow the design, the others likely will deviate as well so accept the same answer for those\"): a layout may declare its own floor (strip-layouts.js minH, applied in contentHeightFor and the…",
+        "Inline sized to his measurements: the value 27/52 of the band (Poppins Thin), the label 0.37 of it, line-tight, exact at the untouched Size dial (kit.js DEFAULT_SIZE_SCALE) and scaled by it; his 12px / 6px spacing around Weather's divider.…",
+        "kit.js reportSize: a composition that shrinks to fit after asking reports the size it settled on, so the strip's one shared size matches it (a day that shrank left the other values larger)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.861",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.862/NovaPanel-patch-1.1.861-to-1.1.862.zip",
-        "size": 7452973,
-        "sha256": "651090d68cc37966143c9f5aa1cd009b6a34c1759fdcc132be12566a61a82418"
+        "from": "1.1.862",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.863/NovaPanel-patch-1.1.862-to-1.1.863.zip",
+        "size": 7455104,
+        "sha256": "dbf4f42bf2b1491926d98fcd5db4471cff6c1cdcf583a40c55492beb66dc2a8d"
     }
 }
