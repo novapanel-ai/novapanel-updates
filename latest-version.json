@@ -1,16 +1,14 @@
 {
-    "version": "1.1.857",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.857/NovaPanel-v1.1.857.zip",
+    "version": "1.1.858",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.858/NovaPanel-v1.1.858.zip",
     "notes": [
-        "New Mirage layout Colonnade (l7) (CEO: \"full width of the monitor with a single wide 2 tall for as many as can fit ... I do want to see CPU GPU and laptop\"): nine full-height single-wide cards edge to edge. Nine is derived, not picked: a…",
-        "Hardware Part, tall form: when its two readings cannot share a line at the floor size they take a line each, key left and value right (IN USE / TOTAL ran out of a single-wide card); the form spans its card so the strip no longer nudges it…",
-        "Media Cover, stacked: smaller title and artist, and the progress line no wider than the art."
+        "New Date/Time layout Day and time (clock:dayTime) (CEO: \"it would be good to have a rune for DOW / time only this way I can make that the top center piece and the calendar will cover the day of the month\"): Beside with the weekday and the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.856",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.857/NovaPanel-patch-1.1.856-to-1.1.857.zip",
-        "size": 7434206,
-        "sha256": "94aa466a1a9a1278d81bbb005bdbbee1fa8384990817748dbd2121886049e7f2"
+        "from": "1.1.857",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.858/NovaPanel-patch-1.1.857-to-1.1.858.zip",
+        "size": 7434653,
+        "sha256": "31b6a657e3a1f01277656d07cc148a6973030d139fac419818203ea3a404dc8e"
     }
 }
