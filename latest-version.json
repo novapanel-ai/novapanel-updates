@@ -1,15 +1,15 @@
 {
-    "version": "1.1.850",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.850/NovaPanel-v1.1.850.zip",
+    "version": "1.1.851",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.851/NovaPanel-v1.1.851.zip",
     "notes": [
-        "Calendar card went blank on the CEO's Beacon and the designer hung on \"Drawing on Mirage\" (CEO: \"something happened that it froze and stopped working\"). Cause: the calendar's month/week ratio refusal (calendar.js acceptsBox) also gated its…",
-        "portal-twin.js: the step that asks the portal for a card's box now gives up after 3s, so one unanswered request can no longer leave every later tile on \"Drawing on Mirage\"."
+        "New Mirage layout Portico (l6) (CEO: \"the second layout will be the same except bookends with single wide 2 high cards. Go ahead and make and name that one\"): Beacon's stacked column between two full-height, one-column cards. Opens on…",
+        "Content-fitted layouts now size per column (mirage-data.js): every column takes the width the widest card asks for, columns sit a stack's gap apart (strip-layouts.js stackGapPx), and the group is placed, stretched (50-150%) and capped…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.849",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.850/NovaPanel-patch-1.1.849-to-1.1.850.zip",
-        "size": 7428518,
-        "sha256": "6e133f637ba623d5fdee0a54b3001fd97d2208d0ef176b9df1dbe30d9791a876"
+        "from": "1.1.850",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.851/NovaPanel-patch-1.1.850-to-1.1.851.zip",
+        "size": 7429999,
+        "sha256": "0b1610e2f4091d5c8d492820ddba806808d0d8d3b7f28d04da4c43ad1f33b0a4"
     }
 }
