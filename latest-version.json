@@ -1,14 +1,15 @@
 {
-    "version": "1.1.852",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.852/NovaPanel-v1.1.852.zip",
+    "version": "1.1.853",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.853/NovaPanel-v1.1.853.zip",
     "notes": [
-        "Portico: the middle stack is double wide and each bookend single wide, half its width (CEO: \"I consider the middle one double wide the side ones need to be single wide so half its width\"). Four columns, the stack spanning two; the column…"
+        "Portico defaults (CEO: \"calendar on the left weather on the right ... media could swap out for calendar\"): left card media|calendar (the player while something plays, the calendar otherwise), right card weather.",
+        "Content fit: the widest-spanning cards set the column; narrower cards take what that gives them (a weather bookend asking for ten days had stretched Portico's stack to 866px). Beacon unchanged."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.851",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.852/NovaPanel-patch-1.1.851-to-1.1.852.zip",
-        "size": 7430370,
-        "sha256": "9cc5db25c7614510a69016cc3f5abeeb6eb44028bedff5228e8fd945562cc5b5"
+        "from": "1.1.852",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.853/NovaPanel-patch-1.1.852-to-1.1.853.zip",
+        "size": 7430986,
+        "sha256": "a5b3cf12c0ff4a4507916971ba4c9ec0bd98a311d39d2df71a9df414d11992a5"
     }
 }
