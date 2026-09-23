@@ -1,14 +1,17 @@
 {
-    "version": "1.1.844",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.844/NovaPanel-v1.1.844.zip",
+    "version": "1.1.845",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.845/NovaPanel-v1.1.845.zip",
     "notes": [
-        "Content Designer tiles on solid black (CEO: \"it just needs to be on a solid black background so I can see what it looks like... discerning the individual elements is difficult at best\"). The portal twin no longer frosts a picture with the…"
+        "Date/Time: seven new layouts from the CEO's inspiration set (drawn as proposals, accepted: \"these are all good\") - Superscript, Words, Ledger, Flanked, Beside mirrored, Weight, Ring. Each is one composition that renders itself, measured at…",
+        "Calendar: Week, today boxed (the shared row with today outlined), Focus week (today large in the middle, the days either side stepping down and fading), Week band (last, this and next week, this one in a capsule, the others faint).",
+        "The same patterns where they fit (CEO: \"some of the ones you built will work for sensors, calendar and weather days\"): Weather 10-day / Hourly, today|now boxed and focus; Sensor row, Focus. New shared pieces: runes/row.js D.boxed (one…",
+        "Date and agenda (proposal 11) not built - the CEO passed on it, and it would need a calendar-events source that does not exist."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.843",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.844/NovaPanel-patch-1.1.843-to-1.1.844.zip",
-        "size": 7393892,
-        "sha256": "153bc87d3a5968c0675225664de1bf9f3f6b8e55d3432669c4b7437a66bcbe12"
+        "from": "1.1.844",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.845/NovaPanel-patch-1.1.844-to-1.1.845.zip",
+        "size": 7401953,
+        "sha256": "3256ec867aac9b1f0d26706ba18cd0dc879ab62cb5cd6b1597e8f8535de23d3c"
     }
 }
