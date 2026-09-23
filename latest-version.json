@@ -1,17 +1,17 @@
 {
-    "version": "1.1.847",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.847/NovaPanel-v1.1.847.zip",
+    "version": "1.1.848",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.848/NovaPanel-v1.1.848.zip",
     "notes": [
-        "Designer thumbnails no longer all redraw when a layout option is chosen (CEO: \"every time I choose a layout option every thumbnail has to redraw - fix this\"). The twin (portal-twin.js) keeps each picture for a minute against everything…",
-        "Weather Curve follows the temperature (CEO: \"it's not tied to the actual temperature... make sure it actually follows\"): the line was stretched over whatever spread the hours had, so a 1° wobble drew as a hill; its height now stands for…",
-        "Weather says where you are (CEO: \"what's today? ... hourly you should show where we are currently\"): the forecast column that is today reads TODAY and this hour reads NOW - the default card, the 10-day and hourly rows, their boxed and…",
-        "Rain chance carries its explainer: CHANCE OF RAIN, once, at the start of the card."
+        "Default weather card (CEO: \"have current then low high (where you have today now) and then the next day have tomorrow then ... fri / sat\"): with the current reading shown, the daily columns skip today and open on TOMORROW, then weekday…",
+        "Beside hero two Poppins faces lighter than the size curve gives it (CEO: \"make the hero on beside a thinner font\"). kit.js: a numeric data-own-weight is now painted by the presence pass and measured at, not only skipped.",
+        "Curve line 2px -> 1.5px (CEO: \"ever so slightly thinner\").",
+        "Rain chance: a rain cloud from the rune's icon set before its CHANCE OF RAIN caption."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.846",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.847/NovaPanel-patch-1.1.846-to-1.1.847.zip",
-        "size": 7424670,
-        "sha256": "bbdb315bc08879baffa289b1e7e39b6630bac72f6e6c633e8cf512a4a91ed199"
+        "from": "1.1.847",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.848/NovaPanel-patch-1.1.847-to-1.1.848.zip",
+        "size": 7426586,
+        "sha256": "bf7af3e13f4a973d2e7325f6ec4afdfc7707d49cafb2ecd4d521008d57108462"
     }
 }
