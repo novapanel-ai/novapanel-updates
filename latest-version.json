@@ -1,17 +1,14 @@
 {
-    "version": "1.1.848",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.848/NovaPanel-v1.1.848.zip",
+    "version": "1.1.849",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.849/NovaPanel-v1.1.849.zip",
     "notes": [
-        "Default weather card (CEO: \"have current then low high (where you have today now) and then the next day have tomorrow then ... fri / sat\"): with the current reading shown, the daily columns skip today and open on TOMORROW, then weekday…",
-        "Beside hero two Poppins faces lighter than the size curve gives it (CEO: \"make the hero on beside a thinner font\"). kit.js: a numeric data-own-weight is now painted by the presence pass and measured at, not only skipped.",
-        "Curve line 2px -> 1.5px (CEO: \"ever so slightly thinner\").",
-        "Rain chance: a rain cloud from the rune's icon set before its CHANCE OF RAIN caption."
+        "Weather Statement no longer smashed (CEO: \"this one is a bit smashed\"): its condition, feels-like and high/low lines were stacked line box on line box; each now sits a third of a line apart, the group still centered on the temperature."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.847",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.848/NovaPanel-patch-1.1.847-to-1.1.848.zip",
-        "size": 7426586,
-        "sha256": "bf7af3e13f4a973d2e7325f6ec4afdfc7707d49cafb2ecd4d521008d57108462"
+        "from": "1.1.848",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.849/NovaPanel-patch-1.1.848-to-1.1.849.zip",
+        "size": 7426910,
+        "sha256": "ee92dc855fab0f5fe93ed38cf09dee17cb9e9fd671c5020038263c9fda0d74b9"
     }
 }
