@@ -1,15 +1,15 @@
 {
-    "version": "1.1.834",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.834/NovaPanel-v1.1.834.zip",
+    "version": "1.1.835",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.835/NovaPanel-v1.1.835.zip",
     "notes": [
-        "Mirage: the portal background can be frosted (CEO: \"add the blur for the portal background\"). New substrate.backgroundBlur (0-40px, normalized in main), a Blur slider in the designer's Background pane (Reset puts it back to 0). The whole…",
-        "frost.js: whether a panel paints a background was misread while the entrance held its layers at opacity 0 (every layer counted as absent, and nothing asked again) - held layers now count; and the question is asked again once the frost…"
+        "Mirage background blur now saves (CEO: \"the blur isn't working on background\"). 1.1.834 normalized substrate.backgroundBlur but a substrate save is rebuilt through the layer model (panel.surface -> _substrateFromPanel), whose field list…",
+        "Mirage cards at 0% fill no longer show (CEO: \"the card when set to 0 opacity is still showing\"). Beacon opens with a card ground of its own (white 10%), worn until the Cards fill is chosen - and 0% was read as not chosen, so the ground…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.833",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.834/NovaPanel-patch-1.1.833-to-1.1.834.zip",
-        "size": 7380741,
-        "sha256": "a2725c6534da8303b50f67c5a82847b6cfd0fccf2e039e0db119cea445cec7bf"
+        "from": "1.1.834",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.835/NovaPanel-patch-1.1.834-to-1.1.835.zip",
+        "size": 7382486,
+        "sha256": "b78115718dbac1cbf91452c92811f9a95d8a38c43dc5c4512d7a58d65e6a2ed4"
     }
 }
