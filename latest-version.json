@@ -1,14 +1,15 @@
 {
-    "version": "1.1.849",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.849/NovaPanel-v1.1.849.zip",
+    "version": "1.1.850",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.850/NovaPanel-v1.1.850.zip",
     "notes": [
-        "Weather Statement no longer smashed (CEO: \"this one is a bit smashed\"): its condition, feels-like and high/low lines were stacked line box on line box; each now sits a third of a line apart, the group still centered on the temperature."
+        "Calendar card went blank on the CEO's Beacon and the designer hung on \"Drawing on Mirage\" (CEO: \"something happened that it froze and stopped working\"). Cause: the calendar's month/week ratio refusal (calendar.js acceptsBox) also gated its…",
+        "portal-twin.js: the step that asks the portal for a card's box now gives up after 3s, so one unanswered request can no longer leave every later tile on \"Drawing on Mirage\"."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.848",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.849/NovaPanel-patch-1.1.848-to-1.1.849.zip",
-        "size": 7426910,
-        "sha256": "ee92dc855fab0f5fe93ed38cf09dee17cb9e9fd671c5020038263c9fda0d74b9"
+        "from": "1.1.849",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.850/NovaPanel-patch-1.1.849-to-1.1.850.zip",
+        "size": 7428518,
+        "sha256": "6e133f637ba623d5fdee0a54b3001fd97d2208d0ef176b9df1dbe30d9791a876"
     }
 }
