@@ -1,15 +1,14 @@
 {
-    "version": "1.1.843",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.843/NovaPanel-v1.1.843.zip",
+    "version": "1.1.844",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.844/NovaPanel-v1.1.844.zip",
     "notes": [
-        "Weather forecast count (CEO: \"hourly doesn't need to be 24 hours. 10 day can be 10 day-ish... if I stretch we can show more but limit the content so that it's close to the same count\"). Both series now ask for about TEN columns (weather.js…",
-        "Content-fitted widths no longer depend on the width a card was first drawn at. The strip sizes Beacon from each card's wanted width in one pass from the layout's opening width, and the row, Beside and the forecast cards were answering at…"
+        "Content Designer tiles on solid black (CEO: \"it just needs to be on a solid black background so I can see what it looks like... discerning the individual elements is difficult at best\"). The portal twin no longer frosts a picture with the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.842",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.843/NovaPanel-patch-1.1.842-to-1.1.843.zip",
-        "size": 7393510,
-        "sha256": "1e2dd6db700064d08f348b4816a846ce48ce99352174ce2300a0dd3c8606728c"
+        "from": "1.1.843",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.844/NovaPanel-patch-1.1.843-to-1.1.844.zip",
+        "size": 7393892,
+        "sha256": "153bc87d3a5968c0675225664de1bf9f3f6b8e55d3432669c4b7437a66bcbe12"
     }
 }
