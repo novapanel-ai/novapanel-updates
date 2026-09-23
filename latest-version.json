@@ -1,16 +1,16 @@
 {
-    "version": "1.1.864",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.864/NovaPanel-v1.1.864.zip",
+    "version": "1.1.865",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.865/NovaPanel-v1.1.865.zip",
     "notes": [
-        "Colonnade balanced across the monitor (CEO: \"card borders isn't working ... borders should divide them ... change from content controlled width to fill. If a card doesn't fit we must hide it ... Calendar is smashed and time has a huge gap.…",
-        "The lines between Colonnade's cells are the Cards pane Border (colour, opacity, width; off = no lines) instead of a fixed divider.",
-        "Inline: Laptop's Status sits at the end of its content, Power State sizes to the plans it shows (kit.js frameHint), and a cell's content is centred by the strip."
+        "Colonnade by the numbers (CEO: \"your fonts are too big ... Balance is still missing. borders are still missing ... you know the width of the screen, the padding, the count. if power state cannot fit leave it off ... do the math, make it…",
+        "The Cards pane Border draws on every Colonnade card again, neighbours sharing one line (a framed band divided by single lines); a bare layout only drops the fill, blur and frost.",
+        "Power State's buttons use his drawing's padding (0.6 of the name's size), which is what lets all nine cells fit a 2560 screen."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.863",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.864/NovaPanel-patch-1.1.863-to-1.1.864.zip",
-        "size": 7458209,
-        "sha256": "7a577be5e23ebb8e0de7c6a9a134e13e11087f4d8024607ef395ce4c27521ed2"
+        "from": "1.1.864",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.865/NovaPanel-patch-1.1.864-to-1.1.865.zip",
+        "size": 7459502,
+        "sha256": "d5c7c4ae73d62aa16997e179fb5ec964eea5bfae86adf45cb0a954f534db82b6"
     }
 }
