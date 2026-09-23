@@ -1,15 +1,14 @@
 {
-    "version": "1.1.841",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.841/NovaPanel-v1.1.841.zip",
+    "version": "1.1.842",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.842/NovaPanel-v1.1.842.zip",
     "notes": [
-        "Date/Time Spoken: bigger fact (CEO: \"the hero can be bigger\"). It takes the rest of the padded block under its lead-in instead of a share of the card, starting large and stepping down only until the pair fits. At 134: 40px (was ~26).",
-        "Date/Time Stacked: bigger time and a wider date group (CEO: \"the hero should be bigger and spread out the other items a little more, just not all the way out\"). The time starts at the most the block can hold (hour 34px at 134, was 31…"
+        "Date/Time Stacked: the weekday / date / month spread further (CEO: \"the spread on the top one can be further out\") - the gap inside the group is now 3x the date size (was 1.6x), still one centred group, not pushed to the card edges."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.840",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.841/NovaPanel-patch-1.1.840-to-1.1.841.zip",
-        "size": 7390916,
-        "sha256": "3d4d4953b0c1d1402c887759d342e145a635f11372e3fcb529cd16fac6cc29de"
+        "from": "1.1.841",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.842/NovaPanel-patch-1.1.841-to-1.1.842.zip",
+        "size": 7391100,
+        "sha256": "527c750282324ff20f5045bf9f786f96443367f968f4e235112f6495ecec1c94"
     }
 }
