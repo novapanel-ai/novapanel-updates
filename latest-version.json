@@ -1,15 +1,14 @@
 {
-    "version": "1.1.832",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.832/NovaPanel-v1.1.832.zip",
+    "version": "1.1.833",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.833/NovaPanel-v1.1.833.zip",
     "notes": [
-        "Mirage Beacon: five horizontal places instead of three - Left, Left center, Center, Right center, Right (CEO: \"add 2 more horizontal positions, 1 new between center and each side\"). A place is a share of the free room between the strip…",
-        "Mirage Beacon width is now 50-150% of its own content-fitted width instead of 20-100% of the strip (CEO: \"width should be limited and not go to full width, but range from 50% to 150%\"). 100% = fitted (no setting stored). Measured: 530px…"
+        "Content Designer, Mirage strip: a Reset to defaults button beside the dimensions readout (CEO: \"put a reset to defaults on the panel too\"). It puts the layout's height, width and place back to its own in ONE call (new layout:reset-strip)…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.831",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.832/NovaPanel-patch-1.1.831-to-1.1.832.zip",
-        "size": 7378126,
-        "sha256": "96c14ca9bcdbc233e0da3009165fd7e3a747a5e00081ffa79d7ab9d387472136"
+        "from": "1.1.832",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.833/NovaPanel-patch-1.1.832-to-1.1.833.zip",
+        "size": 7378787,
+        "sha256": "b783ed7b10bafcc686eb2d39cb1145e1e4fa55e16aeac5d4d8f851942e80a2ad"
     }
 }
