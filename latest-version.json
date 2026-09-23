@@ -1,15 +1,15 @@
 {
-    "version": "1.1.853",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.853/NovaPanel-v1.1.853.zip",
+    "version": "1.1.854",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.854/NovaPanel-v1.1.854.zip",
     "notes": [
-        "Portico defaults (CEO: \"calendar on the left weather on the right ... media could swap out for calendar\"): left card media|calendar (the player while something plays, the calendar otherwise), right card weather.",
-        "Content fit: the widest-spanning cards set the column; narrower cards take what that gives them (a weather bookend asking for ten days had stretched Portico's stack to 866px). Beacon unchanged."
+        "Portico's player is Cover (CEO: \"pick something better for media that one sucks\"): default left card media:cover|calendar. Cover gains a stacked form for cards narrower than twice their height -- the art on top, title, artist and a short…",
+        "Cover with no album art: the image leaves the art tile instead of hiding in it, so the strip's centring counts the tile; before, the stacked cover was centred on its text and the art pushed out of the card top."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.852",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.853/NovaPanel-patch-1.1.852-to-1.1.853.zip",
-        "size": 7430986,
-        "sha256": "a5b3cf12c0ff4a4507916971ba4c9ec0bd98a311d39d2df71a9df414d11992a5"
+        "from": "1.1.853",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.854/NovaPanel-patch-1.1.853-to-1.1.854.zip",
+        "size": 7432200,
+        "sha256": "b48b84fe2d7659c0903916d993f0d8116ee474f05b1bf7567a2492b706728950"
     }
 }
