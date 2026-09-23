@@ -1,16 +1,16 @@
 {
-    "version": "1.1.861",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.861/NovaPanel-v1.1.861.zip",
+    "version": "1.1.862",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.862/NovaPanel-v1.1.862.zip",
     "notes": [
-        "Every settings change fades the portal (CEO: \"THIS MUST BE FOR ALL CHANGES! I am still seeing pop in, I am still seeing jiggle\"). main.js _movePortalGently is now one gate per portal: a change fades Mirage/Charm out and is queued, changes…",
-        "Colonnade card controls (CEO: \"the cards have padding and gaps between them, I want control over this\"): Gap between cards and Padding inside cards, per layout, in the designer Cards pane (layout:set-gap / set-pad, cleared by Reset); unset…",
-        "Colonnade cards rebalanced (CEO: \"no balance, no thought, no care\"): hardware parts in a single-wide card draw one centred group (name, reading, meter as wide as the group, pairs); a card a row high keeps pairs on one line, and drops them…"
+        "Colonnade rebuilt to the CEO's drawing (\"colonnade will only be 1 high not 2 ... attached is what colonnade will look like. match it\"): one row across the monitor, nine cells edge to edge (gap 0) divided by hairlines, on the portal…",
+        "New Inline layout (runes/inline.js), offered on Day, Time, Date, Calendar, Weather, every hardware part, Laptop, Volume and Power Plan: a small label over a large Poppins Thin value on one left edge; a vertical meter (parts, Laptop) or the…",
+        "Colonnade opens on day, time, week, weather, CPU, GPU, Laptop, Volume and Power State, each Inline. strip-layouts.js layoutBoxes honours a layout's own gap; mirage.css [data-bare]/[data-dividers]."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.860",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.861/NovaPanel-patch-1.1.860-to-1.1.861.zip",
-        "size": 7443112,
-        "sha256": "fb099a05c9cce99919e9fa44b0632ed253b80f93d15ecaf17c7182c91abcc5b2"
+        "from": "1.1.861",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.862/NovaPanel-patch-1.1.861-to-1.1.862.zip",
+        "size": 7452973,
+        "sha256": "651090d68cc37966143c9f5aa1cd009b6a34c1759fdcc132be12566a61a82418"
     }
 }
