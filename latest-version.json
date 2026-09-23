@@ -1,15 +1,16 @@
 {
-    "version": "1.1.868",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.868/NovaPanel-v1.1.868.zip",
+    "version": "1.1.869",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.869/NovaPanel-v1.1.869.zip",
     "notes": [
-        "The Gradient layer is in the Content Designer (CEO: \"the gradient layer you failed to bring over from the mirage editor ... using the systems we built\"): the Panel Editor's gradient control (type, angle / centre and size, the ramp with a…",
-        "panel-editor.js keeps its layer-card chrome around the shared body; its gradient CSS moved to gradient-card.css with the same specificity (:is(#pe-app, .pgc-host)); ds-drift ratchets updated for the moved sheet."
+        "Layout 4, Vista (CEO: \"layout 4 will be this. here's by hardware and by sensor ... the top row is very thin with the date and time ... the bottom items are 2 to 3 tall ... it floats centered or on the sides like layout 1 and 2\"): a thin…",
+        "New looks (runes/vista.js): Line and Line, right (Time, Day, Date); Stack (every hardware part: \"Utilization 11%\" over \"CPU 55°C\", a rule, the part's name; Volume: \"Master Volume\" over its level); List (Temp, Load, Clock, Power: a heading…",
+        "Designer: a card with nothing set by the designer shows the layout's own default rune (it read \"Empty\" while the portal drew one); content fit may size columns from every card (fitBy all)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.867",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.868/NovaPanel-patch-1.1.867-to-1.1.868.zip",
-        "size": 7465355,
-        "sha256": "91f142d022bfb6ac6aff353d78da14b1eddb5067a7d1aa905d550a48512de448"
+        "from": "1.1.868",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.869/NovaPanel-patch-1.1.868-to-1.1.869.zip",
+        "size": 7470180,
+        "sha256": "1c7bf48b6fd484f9e834597e85816f1f09c24f753bfa86dcc4a4df5f7db5e5dc"
     }
 }
