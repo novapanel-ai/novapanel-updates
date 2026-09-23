@@ -1,16 +1,17 @@
 {
-    "version": "1.1.866",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.866/NovaPanel-v1.1.866.zip",
+    "version": "1.1.867",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.867/NovaPanel-v1.1.867.zip",
     "notes": [
-        "Designer Cards pane (CEO: \"not acceptable, redo the settings to layout properly\"): Gap and Padding are one word per row like Fill/Opacity/Blur/Radius/Border (the full meaning in each row's tooltip), and open on what the portal draws (a…",
-        "Colonnade honours the Cards pane Gap: that many px between equal cells; at 0 neighbours share one border line, above 0 every card carries its own full border (CEO: \"I still do not see border on the cards\" -- on 1.1.864 only the lines…",
-        "Designer header for a row layout reads \"1 high · 45px · 9 cards across the screen\" (width and place do not apply), and its cards are listed as 1 x 1, not 1 x 2."
+        "Colonnade balanced in and between (CEO: \"the widths do not have to match to be balanced. balance happens in and in between\"): every card's content is measured as drawn (its real names, each part's own widest reading), the screen's…",
+        "Power State shows every plan the machine has (four here: Performance, Balanced, Silent, Turbo -- the active one was the one being cut); Volume carries its level as the same vertical meter as the other readings; the weather sky is the…",
+        "Card blur/fill/frost are the Cards pane's on Colonnade too (the bare layout override is gone) (CEO: \"card blur is now broken with this layout\").",
+        "The designer shows only the cards the portal fits (CEO: \"do not show nine here if only 8 will fit\"): the portal reports its count (layout:shown) and the strip and card list draw that many."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.865",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.866/NovaPanel-patch-1.1.865-to-1.1.866.zip",
-        "size": 7460233,
-        "sha256": "feca19eae783d075440cd9d2e523ecf2c9326863c6a198c58048ac9fdf08eaf1"
+        "from": "1.1.866",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.867/NovaPanel-patch-1.1.866-to-1.1.867.zip",
+        "size": 7464182,
+        "sha256": "eb1ab6b6e84cdffd57640712c9c64c0d50ea7653b94e6e3a3a0050b239ad7f0f"
     }
 }
