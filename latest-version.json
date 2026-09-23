@@ -1,14 +1,17 @@
 {
-    "version": "1.1.839",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.839/NovaPanel-v1.1.839.zip",
+    "version": "1.1.840",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.840/NovaPanel-v1.1.840.zip",
     "notes": [
-        "Mirage background Fade follows the strip's place (CEO: \"left and left center fade right, then right and right center fade left, and if centered fades left and right\"). The placed side keeps its background to the screen edge; only the open…"
+        "Date/Time: Masthead removed (CEO: \"just remove it, it can't show\") - its entry, builder and stylesheet rules; a card that named it now draws the default.",
+        "Date/Time: Beside is the default (CEO: \"beside should be the default\"). A clock with no form named draws Beside, so the picker shows \"Default · Beside\" and the Hero choice is offered on it. The old default - the shape compositions - is now…",
+        "Date/Time Stacked, reworked (CEO: \"everything is too spread out and too small for the space\"): the weekday, date and month were spread to the card's corners and both lines were sized for a smaller box. They now travel as one centred group…",
+        "Date/Time Spoken: the lead-in sits tight on its fact (CEO: \"bring the rows a little closer to center\") - no gap of its own and the fact's leading above its capitals taken back (kit.js layoutColumn now takes an optional gap, negative…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.838",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.839/NovaPanel-patch-1.1.838-to-1.1.839.zip",
-        "size": 7389312,
-        "sha256": "51ac0c7e0f1ec06db19291cce46ba4789a98f79aedb37b4d75a052e01b76a4f6"
+        "from": "1.1.839",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.840/NovaPanel-patch-1.1.839-to-1.1.840.zip",
+        "size": 7389809,
+        "sha256": "20c36b2bf0df2a00fa2e231c9d9a1ac910f60e585bf516a36fc280a2af441530"
     }
 }
