@@ -1,15 +1,14 @@
 {
-    "version": "1.1.851",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.851/NovaPanel-v1.1.851.zip",
+    "version": "1.1.852",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.852/NovaPanel-v1.1.852.zip",
     "notes": [
-        "New Mirage layout Portico (l6) (CEO: \"the second layout will be the same except bookends with single wide 2 high cards. Go ahead and make and name that one\"): Beacon's stacked column between two full-height, one-column cards. Opens on…",
-        "Content-fitted layouts now size per column (mirage-data.js): every column takes the width the widest card asks for, columns sit a stack's gap apart (strip-layouts.js stackGapPx), and the group is placed, stretched (50-150%) and capped…"
+        "Portico: the middle stack is double wide and each bookend single wide, half its width (CEO: \"I consider the middle one double wide the side ones need to be single wide so half its width\"). Four columns, the stack spanning two; the column…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.850",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.851/NovaPanel-patch-1.1.850-to-1.1.851.zip",
-        "size": 7429999,
-        "sha256": "0b1610e2f4091d5c8d492820ddba806808d0d8d3b7f28d04da4c43ad1f33b0a4"
+        "from": "1.1.851",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.852/NovaPanel-patch-1.1.851-to-1.1.852.zip",
+        "size": 7430370,
+        "sha256": "9cc5db25c7614510a69016cc3f5abeeb6eb44028bedff5228e8fd945562cc5b5"
     }
 }
