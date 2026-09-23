@@ -1,14 +1,14 @@
 {
-    "version": "1.1.855",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.855/NovaPanel-v1.1.855.zip",
+    "version": "1.1.856",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.856/NovaPanel-v1.1.856.zip",
     "notes": [
-        "Mirage layout width range narrowed to 90%-110% of the fitted width (CEO: \"50% breaks things and 150% on some might be too much. so let's limit it down to just 90% - 110%\"): main.js store clamp, mirage-data.js portal clamp, and the…"
+        "Calendar month (S1): SEPTEMBER 2026 no longer sits on the weekday letters (CEO: \"nope too close fix this\"). The heading gets its own gap, reserved in the block and handed to layoutColumn, equal to the air the grid leaves between its weeks."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.854",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.855/NovaPanel-patch-1.1.854-to-1.1.855.zip",
-        "size": 7432665,
-        "sha256": "2495c8e24dc0ade05471b559afc86d2172628adbeafc87592d55c3a5054c6d33"
+        "from": "1.1.855",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.856/NovaPanel-patch-1.1.855-to-1.1.856.zip",
+        "size": 7433002,
+        "sha256": "d2ad9762f5b64304c9caec26c5ec9b900eaef097ea86f8dab3189069d2c69a0c"
     }
 }
