@@ -1,14 +1,16 @@
 {
-    "version": "1.1.859",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.859/NovaPanel-v1.1.859.zip",
+    "version": "1.1.860",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.860/NovaPanel-v1.1.860.zip",
     "notes": [
-        "Weather looks fit single-wide cards (CEO: \"fix them now\"). Range, Curve and Rain chance draw as many columns as fit at the floor size (Curve keeps now in the middle); a card that could hold them all keeps them all, and each still asks a…"
+        "Colonnade is 1 high or 2 high (CEO: \"i want both. this can actually be the option for this layout 1 high or 2 high. build in both. provide the drag to snap it between the two\"). A layout declares rowsOption (strip-layouts.js); 1 high makes…",
+        "Weather default, one line: today's LOW/HIGH drop when they do not fit beside the current reading (a 1-high card clipped HIGH).",
+        "main.js layout:set-width clamped 50-150 still; now 90-110 like the store, the portal and the grips (missed in 1.1.855)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.858",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.859/NovaPanel-patch-1.1.858-to-1.1.859.zip",
-        "size": 7435325,
-        "sha256": "d40466b451e023d644c17d0b2f3756ee11a39f7de1e10e1be94fdd133a0d45f9"
+        "from": "1.1.859",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.860/NovaPanel-patch-1.1.859-to-1.1.860.zip",
+        "size": 7437758,
+        "sha256": "802bc45a0663665b26d57fe1ea722a19cdc9a541c2ee9f789265227a612d8190"
     }
 }
