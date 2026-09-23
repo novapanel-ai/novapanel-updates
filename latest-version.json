@@ -1,14 +1,14 @@
 {
-    "version": "1.1.837",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.837/NovaPanel-v1.1.837.zip",
+    "version": "1.1.838",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.838/NovaPanel-v1.1.838.zip",
     "notes": [
-        "Mirage default place + Reset on the designer's Position pane (CEO: \"next to bottom band on the display\"). Mirage now DECLARES its place - defaults.substrate.snapToEdge: 'lower' in foundation-window.js - so a new Mirage opens there and…"
+        "Mirage background Fade (CEO: \"can we try it where the background blur fades out to the right?\"). New substrate.backgroundFade (0-100, carried through the surface model like blur) and a Fade slider in the designer's Background pane (Off =…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.836",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.837/NovaPanel-patch-1.1.836-to-1.1.837.zip",
-        "size": 7386644,
-        "sha256": "48e79f877b872119c434b8edb8e2b82010662bbf6f7809159167c2b0dc71cde1"
+        "from": "1.1.837",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.838/NovaPanel-patch-1.1.837-to-1.1.838.zip",
+        "size": 7388831,
+        "sha256": "d7197965ea80af855f6472f550c665a81cbee37a43dd3486bd9751c4b31a7830"
     }
 }
