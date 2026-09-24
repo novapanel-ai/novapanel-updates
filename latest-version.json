@@ -1,14 +1,14 @@
 {
-    "version": "1.1.887",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.887/NovaPanel-v1.1.887.zip",
+    "version": "1.1.888",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.888/NovaPanel-v1.1.888.zip",
     "notes": [
-        "Atrium pass 2 (CEO: \"needs work keep going\"): sparklines move -- the scale floor was 4 degrees, so a real minute of 76-78 drew flat; now 1 degree (FPS 6, weather 3). Temperatures read as plain numbers (77 degrees, no small C), as the…"
+        "Atrium pass 3 (CEO: \"range height going into the top label; weather needs tiny ticks for the hours along the bottom; the fonts are too big inside the gauge, shrink them to fit better and remember the widest state rule, what would 100W look…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.886",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.887/NovaPanel-patch-1.1.886-to-1.1.887.zip",
-        "size": 7840654,
-        "sha256": "1c96ba5a4ff1283dcdb042f7a7cb7d65e9929413dab4d8def8c69c8514f4169d"
+        "from": "1.1.887",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.888/NovaPanel-patch-1.1.887-to-1.1.888.zip",
+        "size": 7841746,
+        "sha256": "bcf7600b759dc04639eb04fbdb361d6d75997165afbf3f979466f4902b26e419"
     }
 }
