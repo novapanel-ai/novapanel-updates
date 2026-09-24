@@ -1,14 +1,18 @@
 {
-    "version": "1.1.877",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.877/NovaPanel-v1.1.877.zip",
+    "version": "1.1.878",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.878/NovaPanel-v1.1.878.zip",
     "notes": [
-        "Card and background blur fall back to tint over an animated wallpaper (CEO: \"what can we do when they have an animated wallpaper running?\" / \"ok build the fallback\"): the frost is a blurred copy of the Windows wallpaper, a still picture…"
+        "Vista in Kanit (CEO: \"the default font for layout 4 - vista is Kanit\"): Kanit 100-500 bundled with Mirage (Google TrueType, SIL OFL, from the installed family), added to the theme font list, and named as Vista's own face (strip-layouts…",
+        "Vista weights measured against Kanit at 100-500 over crops of his frames: time and date Thin (100); the lead reading, the small line, the part name (60% grey), the sensor heading and values Light (300); sensor keys Thin at 60%. The earlier…",
+        "Anta removed from the Mirage font list: one weight (400), so it cannot draw Thin/Light. Poppins, Kanit, Saira, Exo 2 and Jost each ship 100-500.",
+        "Vista time and date centered in their cards (CEO: \"they are bottom aligned\"): the strip's whole-composition lift moved every card by one amount, including Vista's self-placing (anchored) cards, pushing the top row onto its cards' bottom…",
+        "Blur disabled with a reason over an animated wallpaper (CEO: \"we need to disable the feature in the interface and place a notice there why its disabled\"): desktop:live-wallpaper tells the designer and Panel Editor whether a live wallpaper…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.876",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.877/NovaPanel-patch-1.1.876-to-1.1.877.zip",
-        "size": 7484862,
-        "sha256": "e3b7343c156697b21216fd63f7f1cbb2b0214d19624e10229a146877fb56cc34"
+        "from": "1.1.877",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.878/NovaPanel-patch-1.1.877-to-1.1.878.zip",
+        "size": 7818747,
+        "sha256": "1bbf4a5ce88602f9e5fe6eb5211686a3d9327538767306ccf7af65b3ca5f19c7"
     }
 }
