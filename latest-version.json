@@ -1,15 +1,14 @@
 {
-    "version": "1.1.871",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.871/NovaPanel-v1.1.871.zip",
+    "version": "1.1.872",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.872/NovaPanel-v1.1.872.zip",
     "notes": [
-        "Content Designer drew nothing for a layout (CEO: \"the designer is broken\"): once the designer showed a layout's own default runes, the rail named them while the page was still loading, before SL_RUNE was declared further down -- a TDZ…",
-        "Vista's type as drawn (CEO: \"pay special attention to the font weights and usage\"): the lead line (\"CPU 52°C\") is Medium over the thin time and the regular lines; a cell's own opacity is now DRAWN by Inline and Vista (it was recorded and…"
+        "Mirage stopped showing on Vista (CEO: \"the portal is broken, it doesn't show anymore\"; log: theme-mirage renderer stopped responding). 1.1.869's re-form for a card whose text outgrew its column repeated forever when the column was already…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.870",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.871/NovaPanel-patch-1.1.870-to-1.1.871.zip",
-        "size": 7471285,
-        "sha256": "9944580ce64e0d6dee3753729b4862a36765705789f8aa7f3b26fa98ad74e991"
+        "from": "1.1.871",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.872/NovaPanel-patch-1.1.871-to-1.1.872.zip",
+        "size": 7471870,
+        "sha256": "41647fdf48d6d3aad935edc76f1712110e1c9e250d176f6f680b94b1f57d68d9"
     }
 }
