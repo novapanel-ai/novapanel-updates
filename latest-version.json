@@ -1,14 +1,14 @@
 {
-    "version": "1.1.891",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.891/NovaPanel-v1.1.891.zip",
+    "version": "1.1.892",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.892/NovaPanel-v1.1.892.zip",
     "notes": [
-        "Atrium pass 6 (CEO: \"make the current circles glow. Also the gauges. Power should have been GPU and you took away CPU put it back. Let's add a card for battery like weather. Can you make the tick have the hour so like 4P. Also weather only…"
+        "Atrium Day and date card (CEO: \"make dow font thin weight and larger. center both.\"): the day in Thin (100) at 44px at the reference card height (was Regular 34px), the day and the date both centred across the card."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.890",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.891/NovaPanel-patch-1.1.890-to-1.1.891.zip",
-        "size": 7848575,
-        "sha256": "06213803ef5cbe74fdf354d3ec0b0281d9628e5e9d23bfd34e946b9a29b777e1"
+        "from": "1.1.891",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.892/NovaPanel-patch-1.1.891-to-1.1.892.zip",
+        "size": 7848738,
+        "sha256": "7fe0dd029acd5b814ae64eabb82562d6bbb776169e132065c546685fbd57e845"
     }
 }
