@@ -1,14 +1,14 @@
 {
-    "version": "1.1.896",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.896/NovaPanel-v1.1.896.zip",
+    "version": "1.1.897",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.897/NovaPanel-v1.1.897.zip",
     "notes": [
-        "Atrium pass (CEO: \"shift the time card to be taller and DOW card to be shorter ... for the weather move hi/lo to the right side inline with weather so its not running into the graph. also have the dropping glow like battery has under its…"
+        "Atrium seconds and FPS (CEO: \"show the exact second as a full white number (make it slightly smaller) just let the dim background flow ... for FPS let's not grow it in and out lets fade in and out the weather for it. Keep the weather width…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.895",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.896/NovaPanel-patch-1.1.895-to-1.1.896.zip",
-        "size": 7860571,
-        "sha256": "befa7eeba46a202d2c090205c0e28ad6a224386148a53e346b2c94c990c5530e"
+        "from": "1.1.896",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.897/NovaPanel-patch-1.1.896-to-1.1.897.zip",
+        "size": 7862397,
+        "sha256": "b36d1a22d021449c4dfe4d7199fdee6df0444984b8c5ce51904df93ec11b81b7"
     }
 }
