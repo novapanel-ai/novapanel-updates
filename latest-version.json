@@ -1,14 +1,14 @@
 {
-    "version": "1.1.888",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.888/NovaPanel-v1.1.888.zip",
+    "version": "1.1.889",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.889/NovaPanel-v1.1.889.zip",
     "notes": [
-        "Atrium pass 3 (CEO: \"range height going into the top label; weather needs tiny ticks for the hours along the bottom; the fonts are too big inside the gauge, shrink them to fit better and remember the widest state rule, what would 100W look…"
+        "Atrium pass 4 (CEO: \"weather add city and icon. pad all cards more. default at 8px instead of 2 or 4. Instead of CPU temp and gpu use the model name. instead of CPU power do GPU utilization and clock / power\"): the weather card names the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.887",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.888/NovaPanel-patch-1.1.887-to-1.1.888.zip",
-        "size": 7841746,
-        "sha256": "bcf7600b759dc04639eb04fbdb361d6d75997165afbf3f979466f4902b26e419"
+        "from": "1.1.888",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.889/NovaPanel-patch-1.1.888-to-1.1.889.zip",
+        "size": 7843484,
+        "sha256": "3fe0b2708f411fd820521f79979a2d177fa16210cdda314d46199ad9462c29ea"
     }
 }
