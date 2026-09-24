@@ -1,17 +1,16 @@
 {
-    "version": "1.1.879",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.879/NovaPanel-v1.1.879.zip",
+    "version": "1.1.880",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.880/NovaPanel-v1.1.880.zip",
     "notes": [
-        "Live-wallpaper detection counts only a wallpaper that can be seen (CEO: \"the blur is disabled and I do not have an animated wallpaper currently running\"): 3Planesoft's Haunted Windmills 3D Animated Wallpaper was running with its Direct3D…",
-        "Card blur shows the blurred desktop, not the gradient (CEO: \"the blur setting is STILL making the card background a gradient and not a blur\"): the card frost no longer paints the Gradient layer (scrim) into the card (added 1.1.875); the…",
-        "Disabled Blur is zero (CEO: \"if you are going to disable blur you also need to set it to zero\"): while a live wallpaper covers the portal's display the designer's card and background Blur and the Panel Editor's card Blur show 0 and save 0.",
-        "Anta stays in the build as the brand face for titles (its files and @font-face in foundation.css and the Grimoire/Obsidian Glint/Fleet Command themes are untouched); it is only off the Mirage portal font list."
+        "Vista part name and Utilization / In use lines in the Text pane's dim color (CEO: \"both the model name and Util / in use texts use the dim font color\"): readout.css paints them --mirage-ink-dim, and they are marked as coloring themselves…",
+        "Vista divider is a one-pixel meter (CEO: \"make the divider a pixel thin meter. the current look is perfect for the background\"): the divider stays as the track and a 1px ink fill runs over it to the share the card reads -- CPU/GPU…",
+        "Vista Gap 0 closes the rows too (CEO: \"when gap is set to 0 there is still a top / bottom gap\"): the Gap sets the space across in full and the space between the top and bottom rows up to the rows' own spacing (strip-layouts ROW_GAP, now…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.878",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.879/NovaPanel-patch-1.1.878-to-1.1.879.zip",
-        "size": 7826623,
-        "sha256": "6e80c3e6153161a29fe0c9014950e9e3ddd396d5292b7e6e278d16b7c19e6152"
+        "from": "1.1.879",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.880/NovaPanel-patch-1.1.879-to-1.1.880.zip",
+        "size": 7821377,
+        "sha256": "45af0b9a745322b82494b1d461b403149b93a3570dbd81aa47f69254c800ed28"
     }
 }
