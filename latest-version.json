@@ -1,14 +1,14 @@
 {
-    "version": "1.1.889",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.889/NovaPanel-v1.1.889.zip",
+    "version": "1.1.890",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.890/NovaPanel-v1.1.890.zip",
     "notes": [
-        "Atrium pass 4 (CEO: \"weather add city and icon. pad all cards more. default at 8px instead of 2 or 4. Instead of CPU temp and gpu use the model name. instead of CPU power do GPU utilization and clock / power\"): the weather card names the…"
+        "Atrium FPS card (CEO: \"when a game runs lets have the FPS card grow in on the right moving all cards left to balance all in the center. It should layout similar to weather but have 2 items on the bottom for frametimes and 1%\"): a sixth…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.888",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.889/NovaPanel-patch-1.1.888-to-1.1.889.zip",
-        "size": 7843484,
-        "sha256": "3fe0b2708f411fd820521f79979a2d177fa16210cdda314d46199ad9462c29ea"
+        "from": "1.1.889",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.890/NovaPanel-patch-1.1.889-to-1.1.890.zip",
+        "size": 7845731,
+        "sha256": "a2c0a0e2eccbe51b0f4113a6639ac97272310a38ac4d7bb9f659881f20b606a6"
     }
 }
