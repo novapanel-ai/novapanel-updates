@@ -1,15 +1,14 @@
 {
-    "version": "1.1.900",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.900/NovaPanel-v1.1.900.zip",
+    "version": "1.1.901",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.901/NovaPanel-v1.1.901.zip",
     "notes": [
-        "Atrium time ruler (CEO: \"make all ticks the same transparency so that only the current number are white. make the ticks a little shorter for hour and minute. Also can we have those rows slowly move as well based on the time ... make the…",
-        "Demo mode toggle at the top of the designer (CEO: \"The demo mode toggle should be at the top on the designer so it can be turned on for any panel\"): a Demo mode button in the header, lit while on, following the tray toggle both ways…"
+        "Atrium time ruler final pass (CEO: \"make the highlight area more transparent slightly ... for minute only a single tick in between and for hour no ticks in between meaning we will see more numbers but also the current time will stay more…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.899",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.900/NovaPanel-patch-1.1.899-to-1.1.900.zip",
-        "size": 7869094,
-        "sha256": "3caa6153bd4c64729bf02e6c609e749df5684ac558f31459f78d1bbdc281defb"
+        "from": "1.1.900",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.901/NovaPanel-patch-1.1.900-to-1.1.901.zip",
+        "size": 7869658,
+        "sha256": "682c90ef4a89de476a932d2daecd61628bfa8b05ba9426a26c0274320bd116ac"
     }
 }
