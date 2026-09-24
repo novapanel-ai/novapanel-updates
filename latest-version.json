@@ -1,14 +1,14 @@
 {
-    "version": "1.1.902",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.902/NovaPanel-v1.1.902.zip",
+    "version": "1.1.903",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.903/NovaPanel-v1.1.903.zip",
     "notes": [
-        "Atrium weather line centred on now (CEO: \"for the weather can we center the current hour. make it fully white or the tick if the number isn't showing\" / \"6 is fine you can do less points (hours) as needed 12 hours is plenty\"): the line is…"
+        "Atrium time ruler last touch (CEO: \"make the highlight just a tiny bit shorter on top and bottom away from the edges. put the numbers closer to the ticks for hours.\"): the pill stands 7% in from the card's top and bottom (was 3%); the hour…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.901",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.902/NovaPanel-patch-1.1.901-to-1.1.902.zip",
-        "size": 7870415,
-        "sha256": "7c07bc2ab243acf41b397474275c230cc30d3dcd3e8944ac9533ade32995108a"
+        "from": "1.1.902",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.903/NovaPanel-patch-1.1.902-to-1.1.903.zip",
+        "size": 7870642,
+        "sha256": "36d5e4925ccfa386ac371b94bf96f757b131ee3024c98e8aaba0d66682d7f598"
     }
 }
