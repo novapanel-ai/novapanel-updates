@@ -1,15 +1,14 @@
 {
-    "version": "1.1.874",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.874/NovaPanel-v1.1.874.zip",
+    "version": "1.1.875",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.875/NovaPanel-v1.1.875.zip",
     "notes": [
-        "Vista to his frames' measurements (CEO: \"the font weight on vista is still too bold. review the image again more carefully and match it. font size, spacing, alignment\"): every reading Regular (the lead line was Medium), the time and date…",
-        "A by-sensor card drew nothing for its first 15 seconds: its heading made the strip treat it as filled, so it waited its whole cadence for the readings; it now asks every second until they arrive."
+        "Mirage card blur at 0% fill and over a Gradient layer (CEO: \"opacity is 0% blur is up and the background is black and not blurred\"): the frost was gated on a card fill, so 0% fill stood the blur down, and a Gradient layer counted as an…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.873",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.874/NovaPanel-patch-1.1.873-to-1.1.874.zip",
-        "size": 7474995,
-        "sha256": "b3429eda41419748ff133f668f48cdda719ab80fa3c166cbcf48fb250a58d4d6"
+        "from": "1.1.874",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.875/NovaPanel-patch-1.1.874-to-1.1.875.zip",
+        "size": 7476397,
+        "sha256": "f89fd051f3d99cfa247b40ea0f81235909ae6035719d700a6d86e15e607eed93"
     }
 }
