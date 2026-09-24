@@ -1,14 +1,15 @@
 {
-    "version": "1.1.898",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.898/NovaPanel-v1.1.898.zip",
+    "version": "1.1.899",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.899/NovaPanel-v1.1.899.zip",
     "notes": [
-        "Atrium time ruler (CEO: \"just let the background say the seconds we don't need the white seconds ticking down. also make the ticks for seconds all faded like the text. same transparency\"): the fixed white second is gone; the dim seconds…"
+        "Mirage demo mode (CEO: \"a demo mode ... change the layout between the 5 and change the position ... utilizing the fade in/out feature ... rotate through randomizing both\"): Mirage demo mode in the tray/portal menu (a checkbox while a…",
+        "Fade tracing (CEO: \"the portal occasionally disappears and comes back despite me not changing anything\"): every portal fade now logs what asked for it ([fade] panel <- send channel / caller) in the runtime log, so an unexplained…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.897",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.898/NovaPanel-patch-1.1.897-to-1.1.898.zip",
-        "size": 7862871,
-        "sha256": "0b7134b62f32514dd4a3e07b2be27b721597c9bb8e775521b4df53fe46a96b7b"
+        "from": "1.1.898",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.899/NovaPanel-patch-1.1.898-to-1.1.899.zip",
+        "size": 7867336,
+        "sha256": "c8c44cc01a10145a0071173dd58875546b6a850e3928f14d90ecef9efaecc94d"
     }
 }
