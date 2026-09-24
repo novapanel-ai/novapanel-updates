@@ -1,16 +1,14 @@
 {
-    "version": "1.1.880",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.880/NovaPanel-v1.1.880.zip",
+    "version": "1.1.881",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.881/NovaPanel-v1.1.881.zip",
     "notes": [
-        "Vista part name and Utilization / In use lines in the Text pane's dim color (CEO: \"both the model name and Util / in use texts use the dim font color\"): readout.css paints them --mirage-ink-dim, and they are marked as coloring themselves…",
-        "Vista divider is a one-pixel meter (CEO: \"make the divider a pixel thin meter. the current look is perfect for the background\"): the divider stays as the track and a 1px ink fill runs over it to the share the card reads -- CPU/GPU…",
-        "Vista Gap 0 closes the rows too (CEO: \"when gap is set to 0 there is still a top / bottom gap\"): the Gap sets the space across in full and the space between the top and bottom rows up to the rows' own spacing (strip-layouts ROW_GAP, now…"
+        "Designer Blur follows an animated wallpaper starting or stopping while it is open (CEO: \"panel did not update until I naved to background to check its blur and then back\"): the live-wallpaper notice called render(), which draws the card…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.879",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.880/NovaPanel-patch-1.1.879-to-1.1.880.zip",
-        "size": 7821377,
-        "sha256": "45af0b9a745322b82494b1d461b403149b93a3570dbd81aa47f69254c800ed28"
+        "from": "1.1.880",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.881/NovaPanel-patch-1.1.880-to-1.1.881.zip",
+        "size": 7821708,
+        "sha256": "0df24d883f104cbced9db6d39d81114fa0e14351f936f3a250327d9aa1882128"
     }
 }
