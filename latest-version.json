@@ -1,14 +1,14 @@
 {
-    "version": "1.1.875",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.875/NovaPanel-v1.1.875.zip",
+    "version": "1.1.876",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.876/NovaPanel-v1.1.876.zip",
     "notes": [
-        "Mirage card blur at 0% fill and over a Gradient layer (CEO: \"opacity is 0% blur is up and the background is black and not blurred\"): the frost was gated on a card fill, so 0% fill stood the blur down, and a Gradient layer counted as an…"
+        "Vista volume names its sound source (CEO: \"can we not identify the sound source as the subtext on volume?\"): system-controls.ps1 now reads the default output endpoint id (IMMDevice.GetId) and, only when it changes, its name from the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.874",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.875/NovaPanel-patch-1.1.874-to-1.1.875.zip",
-        "size": 7476397,
-        "sha256": "f89fd051f3d99cfa247b40ea0f81235909ae6035719d700a6d86e15e607eed93"
+        "from": "1.1.875",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.876/NovaPanel-patch-1.1.875-to-1.1.876.zip",
+        "size": 7482334,
+        "sha256": "395cf5fb83e3390dc28914df45442ba037cf6b8505ce1de4092be9c7a67a16c6"
     }
 }
