@@ -1,14 +1,14 @@
 {
-    "version": "1.1.890",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.890/NovaPanel-v1.1.890.zip",
+    "version": "1.1.891",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.891/NovaPanel-v1.1.891.zip",
     "notes": [
-        "Atrium FPS card (CEO: \"when a game runs lets have the FPS card grow in on the right moving all cards left to balance all in the center. It should layout similar to weather but have 2 items on the bottom for frametimes and 1%\"): a sixth…"
+        "Atrium pass 6 (CEO: \"make the current circles glow. Also the gauges. Power should have been GPU and you took away CPU put it back. Let's add a card for battery like weather. Can you make the tick have the hour so like 4P. Also weather only…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.889",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.890/NovaPanel-patch-1.1.889-to-1.1.890.zip",
-        "size": 7845731,
-        "sha256": "a2c0a0e2eccbe51b0f4113a6639ac97272310a38ac4d7bb9f659881f20b606a6"
+        "from": "1.1.890",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.891/NovaPanel-patch-1.1.890-to-1.1.891.zip",
+        "size": 7848575,
+        "sha256": "06213803ef5cbe74fdf354d3ec0b0281d9628e5e9d23bfd34e946b9a29b777e1"
     }
 }
