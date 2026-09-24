@@ -1,18 +1,17 @@
 {
-    "version": "1.1.878",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.878/NovaPanel-v1.1.878.zip",
+    "version": "1.1.879",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.879/NovaPanel-v1.1.879.zip",
     "notes": [
-        "Vista in Kanit (CEO: \"the default font for layout 4 - vista is Kanit\"): Kanit 100-500 bundled with Mirage (Google TrueType, SIL OFL, from the installed family), added to the theme font list, and named as Vista's own face (strip-layouts…",
-        "Vista weights measured against Kanit at 100-500 over crops of his frames: time and date Thin (100); the lead reading, the small line, the part name (60% grey), the sensor heading and values Light (300); sensor keys Thin at 60%. The earlier…",
-        "Anta removed from the Mirage font list: one weight (400), so it cannot draw Thin/Light. Poppins, Kanit, Saira, Exo 2 and Jost each ship 100-500.",
-        "Vista time and date centered in their cards (CEO: \"they are bottom aligned\"): the strip's whole-composition lift moved every card by one amount, including Vista's self-placing (anchored) cards, pushing the top row onto its cards' bottom…",
-        "Blur disabled with a reason over an animated wallpaper (CEO: \"we need to disable the feature in the interface and place a notice there why its disabled\"): desktop:live-wallpaper tells the designer and Panel Editor whether a live wallpaper…"
+        "Live-wallpaper detection counts only a wallpaper that can be seen (CEO: \"the blur is disabled and I do not have an animated wallpaper currently running\"): 3Planesoft's Haunted Windmills 3D Animated Wallpaper was running with its Direct3D…",
+        "Card blur shows the blurred desktop, not the gradient (CEO: \"the blur setting is STILL making the card background a gradient and not a blur\"): the card frost no longer paints the Gradient layer (scrim) into the card (added 1.1.875); the…",
+        "Disabled Blur is zero (CEO: \"if you are going to disable blur you also need to set it to zero\"): while a live wallpaper covers the portal's display the designer's card and background Blur and the Panel Editor's card Blur show 0 and save 0.",
+        "Anta stays in the build as the brand face for titles (its files and @font-face in foundation.css and the Grimoire/Obsidian Glint/Fleet Command themes are untouched); it is only off the Mirage portal font list."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.877",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.878/NovaPanel-patch-1.1.877-to-1.1.878.zip",
-        "size": 7818747,
-        "sha256": "1bbf4a5ce88602f9e5fe6eb5211686a3d9327538767306ccf7af65b3ca5f19c7"
+        "from": "1.1.878",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.879/NovaPanel-patch-1.1.878-to-1.1.879.zip",
+        "size": 7826623,
+        "sha256": "6e80c3e6153161a29fe0c9014950e9e3ddd396d5292b7e6e278d16b7c19e6152"
     }
 }
