@@ -1,14 +1,14 @@
 {
-    "version": "1.1.892",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.892/NovaPanel-v1.1.892.zip",
+    "version": "1.1.893",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.893/NovaPanel-v1.1.893.zip",
     "notes": [
-        "Atrium Day and date card (CEO: \"make dow font thin weight and larger. center both.\"): the day in Thin (100) at 44px at the reference card height (was Regular 34px), the day and the date both centred across the card."
+        "Atrium animated (CEO: \"battery needs the name of the laptop and the graph showing its charge. Time will be animated have a look at the image to see how it will work. actually the whole thing will be animated. so graphs smoothly grow and…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.891",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.892/NovaPanel-patch-1.1.891-to-1.1.892.zip",
-        "size": 7848738,
-        "sha256": "7fe0dd029acd5b814ae64eabb82562d6bbb776169e132065c546685fbd57e845"
+        "from": "1.1.892",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.893/NovaPanel-patch-1.1.892-to-1.1.893.zip",
+        "size": 7854725,
+        "sha256": "c7273776288918b3f454d2272e84ecddceddd8d076abbeddff0766b58affa688"
     }
 }
