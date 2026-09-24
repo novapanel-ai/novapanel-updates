@@ -1,14 +1,14 @@
 {
-    "version": "1.1.883",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.883/NovaPanel-v1.1.883.zip",
+    "version": "1.1.884",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.884/NovaPanel-v1.1.884.zip",
     "notes": [
-        "Blur comes back when an animated wallpaper stops (CEO: \"yes restore when the animated wallpaper stops\"): main now owns it. When a live wallpaper appears on a portal's display, that portal's card and background blur are remembered in…"
+        "Vista by-hardware cards (CEO: \"under the label / value set a second value (only) for CPU, GPU and RAM its clock speed, for master volume its sound type ... identifier change to thin 100, leave value as is\"): the identifier (CPU/GPU/RAM) is…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.882",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.883/NovaPanel-patch-1.1.882-to-1.1.883.zip",
-        "size": 7824226,
-        "sha256": "624779ee150227c5441ce068287a3af4f79ab27b89128f2181c699c71f617cbf"
+        "from": "1.1.883",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.884/NovaPanel-patch-1.1.883-to-1.1.884.zip",
+        "size": 7825088,
+        "sha256": "ca279b878a9ee4ffede2da05ca3562ac05c5209ee76be6af1e896f2425f34c7c"
     }
 }
