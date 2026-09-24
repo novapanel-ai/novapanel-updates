@@ -1,14 +1,14 @@
 {
-    "version": "1.1.882",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.882/NovaPanel-v1.1.882.zip",
+    "version": "1.1.883",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.883/NovaPanel-v1.1.883.zip",
     "notes": [
-        "Vista top row is three cards (CEO: \"dow left / date center / time right\"): the day of week over the first column (left), the date across the middle two (centered, new Line centered look), the time over the last (right), in both By hardware…"
+        "Blur comes back when an animated wallpaper stops (CEO: \"yes restore when the animated wallpaper stops\"): main now owns it. When a live wallpaper appears on a portal's display, that portal's card and background blur are remembered in…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.881",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.882/NovaPanel-patch-1.1.881-to-1.1.882.zip",
-        "size": 7822991,
-        "sha256": "9566483f7919c9b4659b55ced50168e7667aff3423288dd987567d3adaa7547b"
+        "from": "1.1.882",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.883/NovaPanel-patch-1.1.882-to-1.1.883.zip",
+        "size": 7824226,
+        "sha256": "624779ee150227c5441ce068287a3af4f79ab27b89128f2181c699c71f617cbf"
     }
 }
