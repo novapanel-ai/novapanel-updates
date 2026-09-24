@@ -1,14 +1,14 @@
 {
-    "version": "1.1.876",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.876/NovaPanel-v1.1.876.zip",
+    "version": "1.1.877",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.877/NovaPanel-v1.1.877.zip",
     "notes": [
-        "Vista volume names its sound source (CEO: \"can we not identify the sound source as the subtext on volume?\"): system-controls.ps1 now reads the default output endpoint id (IMMDevice.GetId) and, only when it changes, its name from the…"
+        "Card and background blur fall back to tint over an animated wallpaper (CEO: \"what can we do when they have an animated wallpaper running?\" / \"ok build the fallback\"): the frost is a blurred copy of the Windows wallpaper, a still picture…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.875",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.876/NovaPanel-patch-1.1.875-to-1.1.876.zip",
-        "size": 7482334,
-        "sha256": "395cf5fb83e3390dc28914df45442ba037cf6b8505ce1de4092be9c7a67a16c6"
+        "from": "1.1.876",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.877/NovaPanel-patch-1.1.876-to-1.1.877.zip",
+        "size": 7484862,
+        "sha256": "e3b7343c156697b21216fd63f7f1cbb2b0214d19624e10229a146877fb56cc34"
     }
 }
