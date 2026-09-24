@@ -1,14 +1,14 @@
 {
-    "version": "1.1.885",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.885/NovaPanel-v1.1.885.zip",
+    "version": "1.1.886",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.886/NovaPanel-v1.1.886.zip",
     "notes": [
-        "Vista volume card (CEO: \"Remove master volume at the top, replace it with the laptop / motherboard (on desktop) name and place VOL as the identifier next to the value\"): the top line is the machine the sound comes out of -- a laptop's…"
+        "Mirage layout 5, Atrium (CEO: \"This one will be graphical. the gauges would be our sensors the graph weather or FPS ... match the style from that image\" / \"I like a -- build it\"): proposal A from his reference -- two stacked Spark cards…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.884",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.885/NovaPanel-patch-1.1.884-to-1.1.885.zip",
-        "size": 7825873,
-        "sha256": "588760d0d22253f3de4aff198c9d7566925f8a3b3d7f2e8cec92758daff2ec26"
+        "from": "1.1.885",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.886/NovaPanel-patch-1.1.885-to-1.1.886.zip",
+        "size": 7838575,
+        "sha256": "d9e4582b2cf5445278d19d6299107fd2683fb2209abf27f655c514f1fffb2b17"
     }
 }
