@@ -1,14 +1,15 @@
 {
-    "version": "1.1.872",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.872/NovaPanel-v1.1.872.zip",
+    "version": "1.1.873",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.873/NovaPanel-v1.1.873.zip",
     "notes": [
-        "Mirage stopped showing on Vista (CEO: \"the portal is broken, it doesn't show anymore\"; log: theme-mirage renderer stopped responding). 1.1.869's re-form for a card whose text outgrew its column repeated forever when the column was already…"
+        "Vista tighter, and its spacing is a control (CEO: \"vista gaps are too great, let's tighten them to the center or better yet give me a control to do that\"): columns stand a quarter of a column apart by default (was about half), and the…",
+        "A Vista card whose name arrives later (the GPU after the CPU) may widen its column again: the one-time re-form is keyed by the width asked for, so a new ask re-forms and the same ask (the stuck case) still cannot loop."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.871",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.872/NovaPanel-patch-1.1.871-to-1.1.872.zip",
-        "size": 7471870,
-        "sha256": "41647fdf48d6d3aad935edc76f1712110e1c9e250d176f6f680b94b1f57d68d9"
+        "from": "1.1.872",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.873/NovaPanel-patch-1.1.872-to-1.1.873.zip",
+        "size": 7472969,
+        "sha256": "162db7c892b7123acccb634d0445e6aaaf25fab952b1b269fab03a167fdfce2f"
     }
 }
