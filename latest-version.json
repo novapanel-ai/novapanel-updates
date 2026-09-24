@@ -1,16 +1,14 @@
 {
-    "version": "1.1.869",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.869/NovaPanel-v1.1.869.zip",
+    "version": "1.1.870",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.870/NovaPanel-v1.1.870.zip",
     "notes": [
-        "Layout 4, Vista (CEO: \"layout 4 will be this. here's by hardware and by sensor ... the top row is very thin with the date and time ... the bottom items are 2 to 3 tall ... it floats centered or on the sides like layout 1 and 2\"): a thin…",
-        "New looks (runes/vista.js): Line and Line, right (Time, Day, Date); Stack (every hardware part: \"Utilization 11%\" over \"CPU 55°C\", a rule, the part's name; Volume: \"Master Volume\" over its level); List (Temp, Load, Clock, Power: a heading…",
-        "Designer: a card with nothing set by the designer shows the layout's own default rune (it read \"Empty\" while the portal drew one); content fit may size columns from every card (fitBy all)."
+        "Inline weather sky bigger and drawn whole (CEO: \"the icon can be bigger and show correctly for weather\"): the icon cell is the value's full line height (the sets draw with air inside their cell, so at the capitals' height the art came out…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.868",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.869/NovaPanel-patch-1.1.868-to-1.1.869.zip",
-        "size": 7470180,
-        "sha256": "1c7bf48b6fd484f9e834597e85816f1f09c24f753bfa86dcc4a4df5f7db5e5dc"
+        "from": "1.1.869",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.870/NovaPanel-patch-1.1.869-to-1.1.870.zip",
+        "size": 7470499,
+        "sha256": "96e0c8ce989fd2efa160f38cab8ba8bc3998a63015912213e49af4d93032ab27"
     }
 }
