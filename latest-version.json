@@ -1,14 +1,14 @@
 {
-    "version": "1.1.895",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.895/NovaPanel-v1.1.895.zip",
+    "version": "1.1.896",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.896/NovaPanel-v1.1.896.zip",
     "notes": [
-        "Atrium redraw rate by power source (CEO: \"every 1 second for this when plugged in and default when on battery. Low animation state.\"): a layout may declare motion (Atrium does); while the machine is on its charger (a machine with no…"
+        "Atrium pass (CEO: \"shift the time card to be taller and DOW card to be shorter ... for the weather move hi/lo to the right side inline with weather so its not running into the graph. also have the dropping glow like battery has under its…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.894",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.895/NovaPanel-patch-1.1.894-to-1.1.895.zip",
-        "size": 7856943,
-        "sha256": "b5f14c1a09b357e872a276a02ba26a78b21b0fd5274fad74148dfcd1b1c41d42"
+        "from": "1.1.895",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.896/NovaPanel-patch-1.1.895-to-1.1.896.zip",
+        "size": 7860571,
+        "sha256": "befa7eeba46a202d2c090205c0e28ad6a224386148a53e346b2c94c990c5530e"
     }
 }
