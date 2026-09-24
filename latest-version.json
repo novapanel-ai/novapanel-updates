@@ -1,14 +1,14 @@
 {
-    "version": "1.1.893",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.893/NovaPanel-v1.1.893.zip",
+    "version": "1.1.894",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.894/NovaPanel-v1.1.894.zip",
     "notes": [
-        "Atrium animated (CEO: \"battery needs the name of the laptop and the graph showing its charge. Time will be animated have a look at the image to see how it will work. actually the whole thing will be animated. so graphs smoothly grow and…"
+        "Atrium time ruler and order (CEO: \"make seconds even smaller and continuously moving so it hits the second as it happens. make hour one step thicker font\" / \"have cpu card bookend the temp stack so CPU -> stack -> GPU -> weather\"): the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.892",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.893/NovaPanel-patch-1.1.892-to-1.1.893.zip",
-        "size": 7854725,
-        "sha256": "c7273776288918b3f454d2272e84ecddceddd8d076abbeddff0766b58affa688"
+        "from": "1.1.893",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.894/NovaPanel-patch-1.1.893-to-1.1.894.zip",
+        "size": 7856069,
+        "sha256": "a8ab87132dff9b01341cd28e22aadccf7d5789af87f5cc767eb9c3ecce25c4d2"
     }
 }
