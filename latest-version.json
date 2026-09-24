@@ -1,14 +1,15 @@
 {
-    "version": "1.1.903",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.903/NovaPanel-v1.1.903.zip",
+    "version": "1.1.904",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.904/NovaPanel-v1.1.904.zip",
     "notes": [
-        "Atrium time ruler last touch (CEO: \"make the highlight just a tiny bit shorter on top and bottom away from the edges. put the numbers closer to the ticks for hours.\"): the pill stands 7% in from the card's top and bottom (was 3%); the hour…"
+        "Layout defaults stamped from the designer (CEO: \"I pick the layout I adjust the settings I hit save and that stamps the default for each. So wire it\"): in Mirage the designer's Save stamps the layout shown as its default -- its cards, its…",
+        "Unasked portal fades fixed (CEO: \"If it is because of OLED shift can we exclude that\"): not the OLED shift (3px, under the 4px a move must be) -- the fade log showed the wallpaper watcher: Windows rewrites its TranscodedWallpaper with the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.902",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.903/NovaPanel-patch-1.1.902-to-1.1.903.zip",
-        "size": 7870642,
-        "sha256": "36d5e4925ccfa386ac371b94bf96f757b131ee3024c98e8aaba0d66682d7f598"
+        "from": "1.1.903",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.904/NovaPanel-patch-1.1.903-to-1.1.904.zip",
+        "size": 7876082,
+        "sha256": "64ad5ff7f8fdc192a78155210975be23cd2ba1e6170b2ed7ab366f44e5c9f45f"
     }
 }
