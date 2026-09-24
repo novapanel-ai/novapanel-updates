@@ -1,14 +1,14 @@
 {
-    "version": "1.1.886",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.886/NovaPanel-v1.1.886.zip",
+    "version": "1.1.887",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.887/NovaPanel-v1.1.887.zip",
     "notes": [
-        "Mirage layout 5, Atrium (CEO: \"This one will be graphical. the gauges would be our sensors the graph weather or FPS ... match the style from that image\" / \"I like a -- build it\"): proposal A from his reference -- two stacked Spark cards…"
+        "Atrium pass 2 (CEO: \"needs work keep going\"): sparklines move -- the scale floor was 4 degrees, so a real minute of 76-78 drew flat; now 1 degree (FPS 6, weather 3). Temperatures read as plain numbers (77 degrees, no small C), as the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.885",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.886/NovaPanel-patch-1.1.885-to-1.1.886.zip",
-        "size": 7838575,
-        "sha256": "d9e4582b2cf5445278d19d6299107fd2683fb2209abf27f655c514f1fffb2b17"
+        "from": "1.1.886",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.887/NovaPanel-patch-1.1.886-to-1.1.887.zip",
+        "size": 7840654,
+        "sha256": "1c96ba5a4ff1283dcdb042f7a7cb7d65e9929413dab4d8def8c69c8514f4169d"
     }
 }
