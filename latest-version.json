@@ -1,14 +1,14 @@
 {
-    "version": "1.1.884",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.884/NovaPanel-v1.1.884.zip",
+    "version": "1.1.885",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.885/NovaPanel-v1.1.885.zip",
     "notes": [
-        "Vista by-hardware cards (CEO: \"under the label / value set a second value (only) for CPU, GPU and RAM its clock speed, for master volume its sound type ... identifier change to thin 100, leave value as is\"): the identifier (CPU/GPU/RAM) is…"
+        "Vista volume card (CEO: \"Remove master volume at the top, replace it with the laptop / motherboard (on desktop) name and place VOL as the identifier next to the value\"): the top line is the machine the sound comes out of -- a laptop's…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.883",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.884/NovaPanel-patch-1.1.883-to-1.1.884.zip",
-        "size": 7825088,
-        "sha256": "ca279b878a9ee4ffede2da05ca3562ac05c5209ee76be6af1e896f2425f34c7c"
+        "from": "1.1.884",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.885/NovaPanel-patch-1.1.884-to-1.1.885.zip",
+        "size": 7825873,
+        "sha256": "588760d0d22253f3de4aff198c9d7566925f8a3b3d7f2e8cec92758daff2ec26"
     }
 }
