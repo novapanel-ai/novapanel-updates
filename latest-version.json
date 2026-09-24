@@ -1,14 +1,14 @@
 {
-    "version": "1.1.894",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.894/NovaPanel-v1.1.894.zip",
+    "version": "1.1.895",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.895/NovaPanel-v1.1.895.zip",
     "notes": [
-        "Atrium time ruler and order (CEO: \"make seconds even smaller and continuously moving so it hits the second as it happens. make hour one step thicker font\" / \"have cpu card bookend the temp stack so CPU -> stack -> GPU -> weather\"): the…"
+        "Atrium redraw rate by power source (CEO: \"every 1 second for this when plugged in and default when on battery. Low animation state.\"): a layout may declare motion (Atrium does); while the machine is on its charger (a machine with no…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.893",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.894/NovaPanel-patch-1.1.893-to-1.1.894.zip",
-        "size": 7856069,
-        "sha256": "a8ab87132dff9b01341cd28e22aadccf7d5789af87f5cc767eb9c3ecce25c4d2"
+        "from": "1.1.894",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.895/NovaPanel-patch-1.1.894-to-1.1.895.zip",
+        "size": 7856943,
+        "sha256": "b5f14c1a09b357e872a276a02ba26a78b21b0fd5274fad74148dfcd1b1c41d42"
     }
 }
