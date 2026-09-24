@@ -1,14 +1,14 @@
 {
-    "version": "1.1.897",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.897/NovaPanel-v1.1.897.zip",
+    "version": "1.1.898",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.898/NovaPanel-v1.1.898.zip",
     "notes": [
-        "Atrium seconds and FPS (CEO: \"show the exact second as a full white number (make it slightly smaller) just let the dim background flow ... for FPS let's not grow it in and out lets fade in and out the weather for it. Keep the weather width…"
+        "Atrium time ruler (CEO: \"just let the background say the seconds we don't need the white seconds ticking down. also make the ticks for seconds all faded like the text. same transparency\"): the fixed white second is gone; the dim seconds…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.896",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.897/NovaPanel-patch-1.1.896-to-1.1.897.zip",
-        "size": 7862397,
-        "sha256": "b36d1a22d021449c4dfe4d7199fdee6df0444984b8c5ce51904df93ec11b81b7"
+        "from": "1.1.897",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.898/NovaPanel-patch-1.1.897-to-1.1.898.zip",
+        "size": 7862871,
+        "sha256": "0b7134b62f32514dd4a3e07b2be27b721597c9bb8e775521b4df53fe46a96b7b"
     }
 }
