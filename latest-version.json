@@ -1,15 +1,14 @@
 {
-    "version": "1.1.914",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.914/NovaPanel-v1.1.914.zip",
+    "version": "1.1.915",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.915/NovaPanel-v1.1.915.zip",
     "notes": [
-        "Eleven square clock layouts (CEO: \"could you really not create more square date / times ... come up with a couple square concepts\", then \"Poster is good so is stack\", his dial reference \"make it go out of the card\", and his own drawings)…",
-        "Designer duplicate check fixed: 1.1.911 hid a layout as a copy of another when their markup matched BEFORE the readings were drawn, so layouts that only differ once filled in were wrongly hidden -- Sensor row's Plain, Icons, Full and…"
+        "The eleven square clocks are offered on square cards only (CEO: \"NONE of these are for wide ONLY square ... I better not see these offered on the wide ones\"): 1.1.914 kept them off wide cards but still offered them on in-between shapes…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.913",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.914/NovaPanel-patch-1.1.913-to-1.1.914.zip",
-        "size": 7890111,
-        "sha256": "a21450ac9d6c1043e965bff12c64d617db213edbef540d8df54f6a1cc7aee131"
+        "from": "1.1.914",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.915/NovaPanel-patch-1.1.914-to-1.1.915.zip",
+        "size": 7891046,
+        "sha256": "5213b841d6f2f6a9ed8f49986e0b3c7aa1e092731bb4b1cf2c56c8baa5816add"
     }
 }
