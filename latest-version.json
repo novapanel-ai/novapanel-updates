@@ -1,14 +1,14 @@
 {
-    "version": "1.1.908",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.908/NovaPanel-v1.1.908.zip",
+    "version": "1.1.909",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.909/NovaPanel-v1.1.909.zip",
     "notes": [
-        "Every layout option is back (CEO: \"wait you took away ALL of the options WTF? why? you just take away those THAT DO NOT FIT INTO THE ASPECT RATIO\"): 1.1.907 limited each Mirage card to the layouts the five shipped layouts use, which was…"
+        "Clock layouts: Ring and Day and time are no longer offered (CEO: \"remove ring, and day / time only. the rest can remain\"). A card that already names one still draws it -- Portico ships with Day and time -- so nothing on a portal changes.…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.907",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.908/NovaPanel-patch-1.1.907-to-1.1.908.zip",
-        "size": 7880419,
-        "sha256": "92d07fae63b8bb162aa029ec895275b29a84ee57d7f7ee85efe2b99fb1784eb1"
+        "from": "1.1.908",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.909/NovaPanel-patch-1.1.908-to-1.1.909.zip",
+        "size": 7880804,
+        "sha256": "11daacad6bf6e7122cbe564de664bd5f40d5ff935b9018507988f7fcb657501d"
     }
 }
