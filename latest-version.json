@@ -1,14 +1,14 @@
 {
-    "version": "1.1.911",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.911/NovaPanel-v1.1.911.zip",
+    "version": "1.1.912",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.912/NovaPanel-v1.1.912.zip",
     "notes": [
-        "First-pass cleanup of Mirage layout options (CEO: \"the first pass is a 'does it make sense?' Clean up what doesn't work\"), from a visual review of every layout of every rune drawn in a wide and a square card: (1) a layout that draws…"
+        "Atrium fixed at the 180px strip (CEO: \"fix atrium\"): every column came out the same 146px, cutting the battery's \"Discharging\" to \"Di\", running the FPS card's \"Frame time\" into \"1% low\", and cutting the part names. Cause: the GPU's name…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.910",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.911/NovaPanel-patch-1.1.910-to-1.1.911.zip",
-        "size": 7882820,
-        "sha256": "e559495f25768bbc77fcce0bb1b1e48596a4bae1e7a2e39715972a99c0375c84"
+        "from": "1.1.911",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.912/NovaPanel-patch-1.1.911-to-1.1.912.zip",
+        "size": 7883138,
+        "sha256": "c3292a550749b1de468458815a0892a652ee8cb3777a1f0a1df61598cbb3a865"
     }
 }
