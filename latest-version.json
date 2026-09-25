@@ -1,14 +1,14 @@
 {
-    "version": "1.1.910",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.910/NovaPanel-v1.1.910.zip",
+    "version": "1.1.911",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.911/NovaPanel-v1.1.911.zip",
     "notes": [
-        "Designer edits show on the Mirage portal as you make them (CEO: \"ok so are these options even working?\" / \"that tiny ass preview is changing but not the portal itself ... really useless\"): styling a Mirage card's elements (family, weight…"
+        "First-pass cleanup of Mirage layout options (CEO: \"the first pass is a 'does it make sense?' Clean up what doesn't work\"), from a visual review of every layout of every rune drawn in a wide and a square card: (1) a layout that draws…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.909",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.910/NovaPanel-patch-1.1.909-to-1.1.910.zip",
-        "size": 7881561,
-        "sha256": "d9a33b689cd1c5c0e8c8f511e40cd371e7db1ad6f4f17976f0dbe6aca1900f95"
+        "from": "1.1.910",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.911/NovaPanel-patch-1.1.910-to-1.1.911.zip",
+        "size": 7882820,
+        "sha256": "e559495f25768bbc77fcce0bb1b1e48596a4bae1e7a2e39715972a99c0375c84"
     }
 }
