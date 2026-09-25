@@ -1,15 +1,15 @@
 {
-    "version": "1.1.905",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.905/NovaPanel-v1.1.905.zip",
+    "version": "1.1.906",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.906/NovaPanel-v1.1.906.zip",
     "notes": [
-        "Media Capsule fits its card (CEO, of the Capsule running off Portico's bookend: \"no that will not do. what is that?\"): the pill was sized for a sample title plus a progress line nine-tenths as long, and the fit loop cannot shrink type…",
-        "Designer previews draw the rune asked for (CEO: \"previewing the backup because the player is off is no bueno\"): a card preview requested by the designer no longer falls back to the card's backup rune when its own has nothing to say -- the…"
+        "Divination tab fits without scrolling (CEO: \"fix the divination layout redesign so I don't have to scroll every time to open designer\"): the three doors (loader studio, Mirage layout maker, content designer) sit side by side in one row…",
+        "Mirage cards offer only the layouts that suit their shape (CEO: \"I need you to not just offer everything for every card ... Only offer square when the area is square, only offer wide when the card is wide\"): the portal that draws each…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.904",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.905/NovaPanel-patch-1.1.904-to-1.1.905.zip",
-        "size": 7877324,
-        "sha256": "dc423fb9bdfcebcc5fe624c7d47378f3e1c5099fffc67ecaa2a80d72e01a9ec4"
+        "from": "1.1.905",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.906/NovaPanel-patch-1.1.905-to-1.1.906.zip",
+        "size": 7880263,
+        "sha256": "1ecb39f543c2362f9b35b970ccdb7c402ec667fa76f710bbb04493511f52c963"
     }
 }
