@@ -1,15 +1,15 @@
 {
-    "version": "1.1.904",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.904/NovaPanel-v1.1.904.zip",
+    "version": "1.1.905",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.905/NovaPanel-v1.1.905.zip",
     "notes": [
-        "Layout defaults stamped from the designer (CEO: \"I pick the layout I adjust the settings I hit save and that stamps the default for each. So wire it\"): in Mirage the designer's Save stamps the layout shown as its default -- its cards, its…",
-        "Unasked portal fades fixed (CEO: \"If it is because of OLED shift can we exclude that\"): not the OLED shift (3px, under the 4px a move must be) -- the fade log showed the wallpaper watcher: Windows rewrites its TranscodedWallpaper with the…"
+        "Media Capsule fits its card (CEO, of the Capsule running off Portico's bookend: \"no that will not do. what is that?\"): the pill was sized for a sample title plus a progress line nine-tenths as long, and the fit loop cannot shrink type…",
+        "Designer previews draw the rune asked for (CEO: \"previewing the backup because the player is off is no bueno\"): a card preview requested by the designer no longer falls back to the card's backup rune when its own has nothing to say -- the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.903",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.904/NovaPanel-patch-1.1.903-to-1.1.904.zip",
-        "size": 7876082,
-        "sha256": "64ad5ff7f8fdc192a78155210975be23cd2ba1e6170b2ed7ab366f44e5c9f45f"
+        "from": "1.1.904",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.905/NovaPanel-patch-1.1.904-to-1.1.905.zip",
+        "size": 7877324,
+        "sha256": "dc423fb9bdfcebcc5fe624c7d47378f3e1c5099fffc67ecaa2a80d72e01a9ec4"
     }
 }
