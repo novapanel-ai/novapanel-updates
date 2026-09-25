@@ -1,14 +1,14 @@
 {
-    "version": "1.1.909",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.909/NovaPanel-v1.1.909.zip",
+    "version": "1.1.910",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.910/NovaPanel-v1.1.910.zip",
     "notes": [
-        "Clock layouts: Ring and Day and time are no longer offered (CEO: \"remove ring, and day / time only. the rest can remain\"). A card that already names one still draws it -- Portico ships with Day and time -- so nothing on a portal changes.…"
+        "Designer edits show on the Mirage portal as you make them (CEO: \"ok so are these options even working?\" / \"that tiny ass preview is changing but not the portal itself ... really useless\"): styling a Mirage card's elements (family, weight…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.908",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.909/NovaPanel-patch-1.1.908-to-1.1.909.zip",
-        "size": 7880804,
-        "sha256": "11daacad6bf6e7122cbe564de664bd5f40d5ff935b9018507988f7fcb657501d"
+        "from": "1.1.909",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.910/NovaPanel-patch-1.1.909-to-1.1.910.zip",
+        "size": 7881561,
+        "sha256": "d9a33b689cd1c5c0e8c8f511e40cd371e7db1ad6f4f17976f0dbe6aca1900f95"
     }
 }
