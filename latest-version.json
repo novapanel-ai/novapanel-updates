@@ -1,15 +1,14 @@
 {
-    "version": "1.1.907",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.907/NovaPanel-v1.1.907.zip",
+    "version": "1.1.908",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.908/NovaPanel-v1.1.908.zip",
     "notes": [
-        "Portal no longer breaks on the Ledger or Flanked clock (CEO: \"its broken look at the portal .. broken\"): both read a time format that was never defined, so choosing either threw an error that took the whole strip down (the other card fell…",
-        "Far fewer layout options per card (CEO: \"when I say don't show it I mean do not fucking leave it as an option. we do not need 50 options\"): on Mirage a card now offers only the layouts the five shipped layouts use for that rune (their…"
+        "Every layout option is back (CEO: \"wait you took away ALL of the options WTF? why? you just take away those THAT DO NOT FIT INTO THE ASPECT RATIO\"): 1.1.907 limited each Mirage card to the layouts the five shipped layouts use, which was…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.906",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.907/NovaPanel-patch-1.1.906-to-1.1.907.zip",
-        "size": 7880535,
-        "sha256": "f6eebf511cded1606b926ec35f3fa0130d68b34411a47fa34bc7f27c813b6102"
+        "from": "1.1.907",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.908/NovaPanel-patch-1.1.907-to-1.1.908.zip",
+        "size": 7880419,
+        "sha256": "92d07fae63b8bb162aa029ec895275b29a84ee57d7f7ee85efe2b99fb1784eb1"
     }
 }
