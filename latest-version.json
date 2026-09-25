@@ -1,15 +1,15 @@
 {
-    "version": "1.1.906",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.906/NovaPanel-v1.1.906.zip",
+    "version": "1.1.907",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.907/NovaPanel-v1.1.907.zip",
     "notes": [
-        "Divination tab fits without scrolling (CEO: \"fix the divination layout redesign so I don't have to scroll every time to open designer\"): the three doors (loader studio, Mirage layout maker, content designer) sit side by side in one row…",
-        "Mirage cards offer only the layouts that suit their shape (CEO: \"I need you to not just offer everything for every card ... Only offer square when the area is square, only offer wide when the card is wide\"): the portal that draws each…"
+        "Portal no longer breaks on the Ledger or Flanked clock (CEO: \"its broken look at the portal .. broken\"): both read a time format that was never defined, so choosing either threw an error that took the whole strip down (the other card fell…",
+        "Far fewer layout options per card (CEO: \"when I say don't show it I mean do not fucking leave it as an option. we do not need 50 options\"): on Mirage a card now offers only the layouts the five shipped layouts use for that rune (their…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.905",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.906/NovaPanel-patch-1.1.905-to-1.1.906.zip",
-        "size": 7880263,
-        "sha256": "1ecb39f543c2362f9b35b970ccdb7c402ec667fa76f710bbb04493511f52c963"
+        "from": "1.1.906",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.907/NovaPanel-patch-1.1.906-to-1.1.907.zip",
+        "size": 7880535,
+        "sha256": "f6eebf511cded1606b926ec35f3fa0130d68b34411a47fa34bc7f27c813b6102"
     }
 }
