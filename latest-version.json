@@ -1,14 +1,14 @@
 {
-    "version": "1.1.912",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.912/NovaPanel-v1.1.912.zip",
+    "version": "1.1.913",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.913/NovaPanel-v1.1.913.zip",
     "notes": [
-        "Atrium fixed at the 180px strip (CEO: \"fix atrium\"): every column came out the same 146px, cutting the battery's \"Discharging\" to \"Di\", running the FPS card's \"Frame time\" into \"1% low\", and cutting the part names. Cause: the GPU's name…"
+        "Time ruler scales to any card (CEO, of the ruler in a square card with its hours running into each other: \"this one didn't scale well. fix it.\"): the numbers grew with the card's height while their spacing grew with its width, so a squarer…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.911",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.912/NovaPanel-patch-1.1.911-to-1.1.912.zip",
-        "size": 7883138,
-        "sha256": "c3292a550749b1de468458815a0892a652ee8cb3777a1f0a1df61598cbb3a865"
+        "from": "1.1.912",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.913/NovaPanel-patch-1.1.912-to-1.1.913.zip",
+        "size": 7883672,
+        "sha256": "9d2833f4fb2b0b3429b1600f7f1607ad9b6f45b275e9e2b04493cfba3b42d035"
     }
 }
