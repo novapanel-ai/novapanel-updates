@@ -1,14 +1,16 @@
 {
-    "version": "1.1.915",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.915/NovaPanel-v1.1.915.zip",
+    "version": "1.1.916",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.916/NovaPanel-v1.1.916.zip",
     "notes": [
-        "The eleven square clocks are offered on square cards only (CEO: \"NONE of these are for wide ONLY square ... I better not see these offered on the wide ones\"): 1.1.914 kept them off wide cards but still offered them on in-between shapes…"
+        "Square clocks fill their card (CEO: \"several of these need to fit the square better they are too small ... balance\"): the eleven square layouts now grow until they meet the card's padded area on one side, centred, instead of only shrinking…",
+        "Beside is not offered on square cards (CEO: \"remove 'beside' from the square one\"): a one-line layout, it stays for wide cards; on a square card neither Beside nor the Default tile that draws it is listed unless the card holds it now.",
+        "Mirage preloads every weight its layouts paint in (100 to 500), so a layout is never measured in a stand-in face."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.914",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.915/NovaPanel-patch-1.1.914-to-1.1.915.zip",
-        "size": 7891046,
-        "sha256": "5213b841d6f2f6a9ed8f49986e0b3c7aa1e092731bb4b1cf2c56c8baa5816add"
+        "from": "1.1.915",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.916/NovaPanel-patch-1.1.915-to-1.1.916.zip",
+        "size": 7892295,
+        "sha256": "627dfd804d76e9b2a7c7ee4d056dc0b479e6c60cbd7b1bcb307796e54e6a4fa5"
     }
 }
