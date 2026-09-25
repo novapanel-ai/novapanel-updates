@@ -1,14 +1,15 @@
 {
-    "version": "1.1.913",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.913/NovaPanel-v1.1.913.zip",
+    "version": "1.1.914",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.914/NovaPanel-v1.1.914.zip",
     "notes": [
-        "Time ruler scales to any card (CEO, of the ruler in a square card with its hours running into each other: \"this one didn't scale well. fix it.\"): the numbers grew with the card's height while their spacing grew with its width, so a squarer…"
+        "Eleven square clock layouts (CEO: \"could you really not create more square date / times ... come up with a couple square concepts\", then \"Poster is good so is stack\", his dial reference \"make it go out of the card\", and his own drawings)…",
+        "Designer duplicate check fixed: 1.1.911 hid a layout as a copy of another when their markup matched BEFORE the readings were drawn, so layouts that only differ once filled in were wrongly hidden -- Sensor row's Plain, Icons, Full and…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.912",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.913/NovaPanel-patch-1.1.912-to-1.1.913.zip",
-        "size": 7883672,
-        "sha256": "9d2833f4fb2b0b3429b1600f7f1607ad9b6f45b275e9e2b04493cfba3b42d035"
+        "from": "1.1.913",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.914/NovaPanel-patch-1.1.913-to-1.1.914.zip",
+        "size": 7890111,
+        "sha256": "a21450ac9d6c1043e965bff12c64d617db213edbef540d8df54f6a1cc7aee131"
     }
 }
