@@ -1,14 +1,14 @@
 {
-    "version": "1.1.919",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.919/NovaPanel-v1.1.919.zip",
+    "version": "1.1.920",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.920/NovaPanel-v1.1.920.zip",
     "notes": [
-        "Time ruler reworked for square cards (CEO: \"For the square space its too short. the ticks and number should all be the same color so that they 'fade' off the edges only the center numbers are fully opaque. Rework it to fit a more square…"
+        "Time ruler: the highlight pill is gone (CEO: \"let's try removing the highlight area then above the center put a small downward facing white triangle above the hour row\"); a small white triangle over the middle points down at the hour row…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.918",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.919/NovaPanel-patch-1.1.918-to-1.1.919.zip",
-        "size": 7896847,
-        "sha256": "3303fbebc013848b00c9d6619e55e5aa4a4946259de1a192a11a695945a3d75c"
+        "from": "1.1.919",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.920/NovaPanel-patch-1.1.919-to-1.1.920.zip",
+        "size": 7897373,
+        "sha256": "6e8d1ad19497ab003f57dddfaabb3cd43464dbbfe30b6db36d5dc02144279808"
     }
 }
