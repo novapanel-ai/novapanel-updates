@@ -1,15 +1,14 @@
 {
-    "version": "1.1.918",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.918/NovaPanel-v1.1.918.zip",
+    "version": "1.1.919",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.919/NovaPanel-v1.1.919.zip",
     "notes": [
-        "Column, Date column and Day block rebuilt to his drawing's proportions (CEO: \"column and stack need to be balanced exactly like the example I gave you\" -- \"column, dateColumn and daystack all of those\"): the second line is 0.68 of the…",
-        "Both dials have two rings (CEO: \"regarding the dial you need a inner 'minutes' and outer 'seconds' on both\"): minutes inside, seconds outside, both turning without stopping (the minutes a sixtieth as fast), numbers upright. On Dial the…"
+        "Time ruler reworked for square cards (CEO: \"For the square space its too short. the ticks and number should all be the same color so that they 'fade' off the edges only the center numbers are fully opaque. Rework it to fit a more square…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.917",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.918/NovaPanel-patch-1.1.917-to-1.1.918.zip",
-        "size": 7895874,
-        "sha256": "179311a3b65820f61a046d2a5945339bba431d95915c8b43d7d9db562152efcc"
+        "from": "1.1.918",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.919/NovaPanel-patch-1.1.918-to-1.1.919.zip",
+        "size": 7896847,
+        "sha256": "3303fbebc013848b00c9d6619e55e5aa4a4946259de1a192a11a695945a3d75c"
     }
 }
