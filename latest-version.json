@@ -1,14 +1,16 @@
 {
-    "version": "1.1.927",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.927/NovaPanel-v1.1.927.zip",
+    "version": "1.1.928",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.928/NovaPanel-v1.1.928.zip",
     "notes": [
-        "Round faces get three controls (CEO: \"There circular runes provide me with 3 things. 1. background control with transparency (only white) 2. border the same and 3. we have a patterns layer used in our hardware panel add this ability as…"
+        "Round-face Background and Border are sliders (CEO: \"with background and border .. sliders for transparency pattern as cards is fine\"): 0 to 40% and 0 to 80%, applied when let go; Pattern stays as picture cards. The option picture cards are…",
+        "Sensor faces choose their reading (CEO: \"I am missing sensors options so you have as default load / utilization but it could be temp or clock. just like changing the hero. I need to choose which\"): CPU, GPU and iGPU faces offer Reading…",
+        "Wide faces (CEO: \"can we rework some of these to layout for the wide view\" -- \"those are all good\"): Radio (the time large, the seconds flowing left along a scale past a fixed mark; for sensors the reading's scale slides to it), Daylight…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.926",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.927/NovaPanel-patch-1.1.926-to-1.1.927.zip",
-        "size": 7919700,
-        "sha256": "96aa42ca6cab8989ba9deb69c08de91c4d6d44fbcd8a120fcd8311ceef7f5d5c"
+        "from": "1.1.927",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.928/NovaPanel-patch-1.1.927-to-1.1.928.zip",
+        "size": 7925877,
+        "sha256": "0bc886bf78603ae45d4f1e1a8f31d84217c5115eb438127f97cd18fd7c097837"
     }
 }
