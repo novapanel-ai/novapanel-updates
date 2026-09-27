@@ -1,14 +1,15 @@
 {
-    "version": "1.1.920",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.920/NovaPanel-v1.1.920.zip",
+    "version": "1.1.921",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.921/NovaPanel-v1.1.921.zip",
     "notes": [
-        "Time ruler: the highlight pill is gone (CEO: \"let's try removing the highlight area then above the center put a small downward facing white triangle above the hour row\"); a small white triangle over the middle points down at the hour row…"
+        "Time ruler: a faint, thin line of dots runs behind the rows from the arrow down to just below the seconds row (CEO: \"now in the back add faint thin line of dots down from the arrow to just below the seconds row\").",
+        "Nine watch faces for the Time rune, from his image (CEO: \"added more clockfaces to make\"): Sweep (a sweep to the minute fading behind it, the hour a short bar), Burst (fine rays, the time boxed in the middle), Big stack (hour over minute…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.919",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.920/NovaPanel-patch-1.1.919-to-1.1.920.zip",
-        "size": 7897373,
-        "sha256": "6e8d1ad19497ab003f57dddfaabb3cd43464dbbfe30b6db36d5dc02144279808"
+        "from": "1.1.920",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.921/NovaPanel-patch-1.1.920-to-1.1.921.zip",
+        "size": 7903030,
+        "sha256": "3f0466e35643a1ad257f7c85af1928aecdc9832afd28998d814372733afddd80"
     }
 }
