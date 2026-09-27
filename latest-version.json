@@ -1,15 +1,15 @@
 {
-    "version": "1.1.917",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.917/NovaPanel-v1.1.917.zip",
+    "version": "1.1.918",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.918/NovaPanel-v1.1.918.zip",
     "notes": [
-        "Square clocks, his review (CEO: \"1. poster is fine just change the pipe to match the horizontal divider. 2. dial is missing the seconds ... animating like the other one we made. Also I want an additional version that has the full circle in…",
-        "Charm's clock faces on Mirage (CEO: \"I am surprised you didn't bring over the clock faces for time only from Charm add those as options\"): the Time rune offers Charm's Minimal, Classic, Bars, Dots and Ring faces (shared/clock-faces.js, the…"
+        "Column, Date column and Day block rebuilt to his drawing's proportions (CEO: \"column and stack need to be balanced exactly like the example I gave you\" -- \"column, dateColumn and daystack all of those\"): the second line is 0.68 of the…",
+        "Both dials have two rings (CEO: \"regarding the dial you need a inner 'minutes' and outer 'seconds' on both\"): minutes inside, seconds outside, both turning without stopping (the minutes a sixtieth as fast), numbers upright. On Dial the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.916",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.917/NovaPanel-patch-1.1.916-to-1.1.917.zip",
-        "size": 7894530,
-        "sha256": "d393c681ab38a3607b48a41fcfc812b8d9146d52a84178311c36aafbe2c3d440"
+        "from": "1.1.917",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.918/NovaPanel-patch-1.1.917-to-1.1.918.zip",
+        "size": 7895874,
+        "sha256": "179311a3b65820f61a046d2a5945339bba431d95915c8b43d7d9db562152efcc"
     }
 }
