@@ -1,16 +1,15 @@
 {
-    "version": "1.1.916",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.916/NovaPanel-v1.1.916.zip",
+    "version": "1.1.917",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.917/NovaPanel-v1.1.917.zip",
     "notes": [
-        "Square clocks fill their card (CEO: \"several of these need to fit the square better they are too small ... balance\"): the eleven square layouts now grow until they meet the card's padded area on one side, centred, instead of only shrinking…",
-        "Beside is not offered on square cards (CEO: \"remove 'beside' from the square one\"): a one-line layout, it stays for wide cards; on a square card neither Beside nor the Default tile that draws it is listed unless the card holds it now.",
-        "Mirage preloads every weight its layouts paint in (100 to 500), so a layout is never measured in a stand-in face."
+        "Square clocks, his review (CEO: \"1. poster is fine just change the pipe to match the horizontal divider. 2. dial is missing the seconds ... animating like the other one we made. Also I want an additional version that has the full circle in…",
+        "Charm's clock faces on Mirage (CEO: \"I am surprised you didn't bring over the clock faces for time only from Charm add those as options\"): the Time rune offers Charm's Minimal, Classic, Bars, Dots and Ring faces (shared/clock-faces.js, the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.915",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.916/NovaPanel-patch-1.1.915-to-1.1.916.zip",
-        "size": 7892295,
-        "sha256": "627dfd804d76e9b2a7c7ee4d056dc0b479e6c60cbd7b1bcb307796e54e6a4fa5"
+        "from": "1.1.916",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.917/NovaPanel-patch-1.1.916-to-1.1.917.zip",
+        "size": 7894530,
+        "sha256": "d393c681ab38a3607b48a41fcfc812b8d9146d52a84178311c36aafbe2c3d440"
     }
 }
