@@ -1,16 +1,14 @@
 {
-    "version": "1.1.928",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.928/NovaPanel-v1.1.928.zip",
+    "version": "1.1.929",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.929/NovaPanel-v1.1.929.zip",
     "notes": [
-        "Round-face Background and Border are sliders (CEO: \"with background and border .. sliders for transparency pattern as cards is fine\"): 0 to 40% and 0 to 80%, applied when let go; Pattern stays as picture cards. The option picture cards are…",
-        "Sensor faces choose their reading (CEO: \"I am missing sensors options so you have as default load / utilization but it could be temp or clock. just like changing the hero. I need to choose which\"): CPU, GPU and iGPU faces offer Reading…",
-        "Wide faces (CEO: \"can we rework some of these to layout for the wide view\" -- \"those are all good\"): Radio (the time large, the seconds flowing left along a scale past a fixed mark; for sensors the reading's scale slides to it), Daylight…"
+        "Atrium Spark on a square card (CEO: \"broken\" -- the line crushed to a dot, the load pill off the card edge): a card squarer than 2:1 now stacks it -- the part name, the temperature line across the card, then the number and its pill -- with…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.927",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.928/NovaPanel-patch-1.1.927-to-1.1.928.zip",
-        "size": 7925877,
-        "sha256": "0bc886bf78603ae45d4f1e1a8f31d84217c5115eb438127f97cd18fd7c097837"
+        "from": "1.1.928",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.929/NovaPanel-patch-1.1.928-to-1.1.929.zip",
+        "size": 7926616,
+        "sha256": "d7a8f3e292374877149fe4d68ea92111d81a8019435b8627ecea412ece443c5a"
     }
 }
