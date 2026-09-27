@@ -1,14 +1,15 @@
 {
-    "version": "1.1.922",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.922/NovaPanel-v1.1.922.zip",
+    "version": "1.1.923",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.923/NovaPanel-v1.1.923.zip",
     "notes": [
-        "Clock faces and square clocks now appear on square cards (CEO: \"where are the clock faces they are not listed under 'time' why not?\"): the designer decided \"square\" from its own box for the card, and for a content-fitted layout that box is…"
+        "Designer layout tiles are instant, and the missing ones are back (CEO: \"the rest of the options are still missing. Also why is it taking so long the render the thumbnails these don't need to be live to represent the shape they convey\")…",
+        "Watch face \"Card\" is renamed \"Boxed\" so it is not confused with the Time rune's own Card layout."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.921",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.922/NovaPanel-patch-1.1.921-to-1.1.922.zip",
-        "size": 7904686,
-        "sha256": "ea9cf57bc840fcd5eaddba5031e89b338f7f55eeeca86ccf18582b7313ed17b0"
+        "from": "1.1.922",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.923/NovaPanel-patch-1.1.922-to-1.1.923.zip",
+        "size": 7907788,
+        "sha256": "ce2cca794177d6c4cf0b697f2eba621a22afa3a4a14d295a95a599a03b12ca9b"
     }
 }
