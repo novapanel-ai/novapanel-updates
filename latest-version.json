@@ -1,15 +1,16 @@
 {
-    "version": "1.1.923",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.923/NovaPanel-v1.1.923.zip",
+    "version": "1.1.924",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.924/NovaPanel-v1.1.924.zip",
     "notes": [
-        "Designer layout tiles are instant, and the missing ones are back (CEO: \"the rest of the options are still missing. Also why is it taking so long the render the thumbnails these don't need to be live to represent the shape they convey\")…",
-        "Watch face \"Card\" is renamed \"Boxed\" so it is not confused with the Time rune's own Card layout."
+        "Time is time (CEO: \"time is time why make this more complicated. do not do this. you can add clock faces to time and you can also build date / time ones like these. in fact a lot of these can be multifaceted.\"): the Time rune now offers…",
+        "Thirteen more faces from his images, in Mirage's one ink. Time: Pill (the hour a long pill, the minute a fine line, a small seconds dial), Orbit (hours and minutes on two turning rings, now large at their left), Wedges (twelve hour wedges…",
+        "The fit check (runes/fit.js) now counts a drawing clipped to its own dial as intended, so faces with turning rings and rolling columns are not dropped."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.922",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.923/NovaPanel-patch-1.1.922-to-1.1.923.zip",
-        "size": 7907788,
-        "sha256": "ce2cca794177d6c4cf0b697f2eba621a22afa3a4a14d295a95a599a03b12ca9b"
+        "from": "1.1.923",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.924/NovaPanel-patch-1.1.923-to-1.1.924.zip",
+        "size": 7913723,
+        "sha256": "1fb5f195027f0997a1d2c5406ca41936efccbdd65b233b1a6f1dd2da86196c3e"
     }
 }
