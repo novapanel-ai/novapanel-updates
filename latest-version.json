@@ -1,15 +1,14 @@
 {
-    "version": "1.1.925",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.925/NovaPanel-v1.1.925.zip",
+    "version": "1.1.926",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.926/NovaPanel-v1.1.926.zip",
     "notes": [
-        "The watch faces tell more than the time (CEO: \"did you try some of these with calendar (or date only), DOW, sensor (individual) or weather? look through figure out which would work for those\"). Date: Orbit (days and months on turning…",
-        "Subtler on a clear card (CEO: \"some need the 'clock' circle and some don't ... remember to be subtle with these since they are on a clear (possibly background)\"): the circle stays only on faces that are dials (hands, ticks or a scale) and…"
+        "Radio dials move (CEO: \"why is radio's dial not moving ... for seconds it would just go one direction. But like CPU it could go up and down for load ... smooth transitions would be better\"): Date / Time's Radio is now a seconds scale…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.924",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.925/NovaPanel-patch-1.1.924-to-1.1.925.zip",
-        "size": 7917003,
-        "sha256": "b30f237150825292ce51fb66a5cfa940f1d0df95221d9745aa7c9146976a67a2"
+        "from": "1.1.925",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.926/NovaPanel-patch-1.1.925-to-1.1.926.zip",
+        "size": 7917697,
+        "sha256": "fe137034abd3ce9892bcfb42144baf403b81b0de1882a399d85f4aa62d96914c"
     }
 }
