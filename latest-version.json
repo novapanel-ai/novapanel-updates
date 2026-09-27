@@ -1,14 +1,14 @@
 {
-    "version": "1.1.926",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.926/NovaPanel-v1.1.926.zip",
+    "version": "1.1.927",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.927/NovaPanel-v1.1.927.zip",
     "notes": [
-        "Radio dials move (CEO: \"why is radio's dial not moving ... for seconds it would just go one direction. But like CPU it could go up and down for load ... smooth transitions would be better\"): Date / Time's Radio is now a seconds scale…"
+        "Round faces get three controls (CEO: \"There circular runes provide me with 3 things. 1. background control with transparency (only white) 2. border the same and 3. we have a patterns layer used in our hardware panel add this ability as…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.925",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.926/NovaPanel-patch-1.1.925-to-1.1.926.zip",
-        "size": 7917697,
-        "sha256": "fe137034abd3ce9892bcfb42144baf403b81b0de1882a399d85f4aa62d96914c"
+        "from": "1.1.926",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.927/NovaPanel-patch-1.1.926-to-1.1.927.zip",
+        "size": 7919700,
+        "sha256": "96aa42ca6cab8989ba9deb69c08de91c4d6d44fbcd8a120fcd8311ceef7f5d5c"
     }
 }
