@@ -1,15 +1,14 @@
 {
-    "version": "1.1.921",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.921/NovaPanel-v1.1.921.zip",
+    "version": "1.1.922",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.922/NovaPanel-v1.1.922.zip",
     "notes": [
-        "Time ruler: a faint, thin line of dots runs behind the rows from the arrow down to just below the seconds row (CEO: \"now in the back add faint thin line of dots down from the arrow to just below the seconds row\").",
-        "Nine watch faces for the Time rune, from his image (CEO: \"added more clockfaces to make\"): Sweep (a sweep to the minute fading behind it, the hour a short bar), Burst (fine rays, the time boxed in the middle), Big stack (hour over minute…"
+        "Clock faces and square clocks now appear on square cards (CEO: \"where are the clock faces they are not listed under 'time' why not?\"): the designer decided \"square\" from its own box for the card, and for a content-fitted layout that box is…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.920",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.921/NovaPanel-patch-1.1.920-to-1.1.921.zip",
-        "size": 7903030,
-        "sha256": "3f0466e35643a1ad257f7c85af1928aecdc9832afd28998d814372733afddd80"
+        "from": "1.1.921",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.922/NovaPanel-patch-1.1.921-to-1.1.922.zip",
+        "size": 7904686,
+        "sha256": "ea9cf57bc840fcd5eaddba5031e89b338f7f55eeeca86ccf18582b7313ed17b0"
     }
 }
