@@ -1,18 +1,15 @@
 {
-    "version": "1.1.930",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.930/NovaPanel-v1.1.930.zip",
+    "version": "1.1.931",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.931/NovaPanel-v1.1.931.zip",
     "notes": [
-        "Mirage Panel Editor is a guided stepper (CEO: \"SO a stepper to go back and forth through the flow\" / \"no layers tab for Glamour either. Build it\"): About, then 1 Position, 2 Layout, 3 Style, 4 Runes, 5 Configure in the tab bar, finished…",
-        "Layout step: every shipped layout as a picture drawn by the portal itself over the wallpaper (the one in use as it is, the others with their own saved look); the right side gives the number of cards, its size on this screen, where it sits…",
-        "Style step: the preview alone on the left; Background (the gradient only; Mirage has no solid) and Cards as collapsible groups, using the editor's own Gradient and Cards controls.",
-        "Runes step: click a card on the preview, then choose its Rune, its Look (only shapes that fit) and what it Shows, all as pictures drawn at the card's real size (panel-editor-tiles.html, the Content Designer's way). Configure step: a group…",
-        "Portal twin draws a whole layout for the editor (portal:preview-strip), fetches the portal's layers on every request, and reports each card's spec and padding."
+        "Mirage reads the clock's 24-hour and Seconds settings (CEO: \"make mirage read them then\"). 24-hour: every Date / Time look, the watch faces, Vista's and Colonnade's time, Atrium's ruler hours and the weather graph's hour ticks. Seconds…",
+        "Panel Editor, Mirage, Configure step: a Clock group (24-hour, Seconds) whenever a card tells the time; the pictures in the Runes and Configure steps are drawn with the same settings."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.929",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.930/NovaPanel-patch-1.1.929-to-1.1.930.zip",
-        "size": 7947443,
-        "sha256": "28e993a94eb4a07d7bcb48a57ee0f2e8e3896e11254739fb94814ce7d9ddb63e"
+        "from": "1.1.930",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.931/NovaPanel-patch-1.1.930-to-1.1.931.zip",
+        "size": 7948433,
+        "sha256": "aeaeddefbf4a13a41db1d1eb4f691a1227e029a65e2388244d8c93c7ab52a9da"
     }
 }
