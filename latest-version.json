@@ -1,16 +1,14 @@
 {
-    "version": "1.1.932",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.932/NovaPanel-v1.1.932.zip",
+    "version": "1.1.933",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.933/NovaPanel-v1.1.933.zip",
     "notes": [
-        "One screen (CEO: \"I have struggled with moving the editor around so that I can see the actual portal\"): while the Mirage editor is open the portal comes forward (its stay-behind pin is paused and it is raised; the pin resumes when the…",
-        "Gradient follows the position (CEO: \"top position would have the gradient fade down and the other 3 positions are radial color fades out from the center\"): along the bottom it fades up, along the top it fades down, in the three middle…",
-        "Width (CEO: \"I am noting width changed between content ... No let's not do this\" / \"fine if like 10 day .. fades out right to keep the width\"): Beacon and Portico's stack are as wide as his Figma card (colK of the strip) with the width…"
+        "Mirage editor, Configure (CEO: \"make sure all layouts have a reset to defaults button with them on the configure view\"): every layout ends Configure with \"Reset <layout> to defaults\". It drops the panel's own card choices for that layout…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.931",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.932/NovaPanel-patch-1.1.931-to-1.1.932.zip",
-        "size": 7955608,
-        "sha256": "3e14da41c3cb0ec98b6d162268c846868e256f16c402503d3201ccfbb6ff2108"
+        "from": "1.1.932",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.933/NovaPanel-patch-1.1.932-to-1.1.933.zip",
+        "size": 7955917,
+        "sha256": "9c1937f73b46acd63755e0fc6eb31f1496b5f1f674930ef6473930810ec687e1"
     }
 }
