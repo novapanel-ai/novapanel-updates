@@ -1,15 +1,16 @@
 {
-    "version": "1.1.931",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.931/NovaPanel-v1.1.931.zip",
+    "version": "1.1.932",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.932/NovaPanel-v1.1.932.zip",
     "notes": [
-        "Mirage reads the clock's 24-hour and Seconds settings (CEO: \"make mirage read them then\"). 24-hour: every Date / Time look, the watch faces, Vista's and Colonnade's time, Atrium's ruler hours and the weather graph's hour ticks. Seconds…",
-        "Panel Editor, Mirage, Configure step: a Clock group (24-hour, Seconds) whenever a card tells the time; the pictures in the Runes and Configure steps are drawn with the same settings."
+        "One screen (CEO: \"I have struggled with moving the editor around so that I can see the actual portal\"): while the Mirage editor is open the portal comes forward (its stay-behind pin is paused and it is raised; the pin resumes when the…",
+        "Gradient follows the position (CEO: \"top position would have the gradient fade down and the other 3 positions are radial color fades out from the center\"): along the bottom it fades up, along the top it fades down, in the three middle…",
+        "Width (CEO: \"I am noting width changed between content ... No let's not do this\" / \"fine if like 10 day .. fades out right to keep the width\"): Beacon and Portico's stack are as wide as his Figma card (colK of the strip) with the width…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.930",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.931/NovaPanel-patch-1.1.930-to-1.1.931.zip",
-        "size": 7948433,
-        "sha256": "aeaeddefbf4a13a41db1d1eb4f691a1227e029a65e2388244d8c93c7ab52a9da"
+        "from": "1.1.931",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.932/NovaPanel-patch-1.1.931-to-1.1.932.zip",
+        "size": 7955608,
+        "sha256": "3e14da41c3cb0ec98b6d162268c846868e256f16c402503d3201ccfbb6ff2108"
     }
 }
