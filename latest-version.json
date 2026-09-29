@@ -1,16 +1,15 @@
 {
-    "version": "1.1.937",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.937/NovaPanel-v1.1.937.zip",
+    "version": "1.1.938",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.938/NovaPanel-v1.1.938.zip",
     "notes": [
-        "Mirage editor preview is the whole screen (CEO chose option B: \"B and you can really have position there as well the more like the real thing the less tabs needed\"). Style, Runes and Configure show the display as it is: the wallpaper, with…",
-        "Position is set on the screen: in Style, pointing at one of the five places (Top, Upper middle, Center, Lower middle, Bottom) shows where the portal would go, clicking puts it there through the Position screen's own writer; the screen is…",
-        "Position is no longer a step: the steps are Layout, Style, Runes, Configure, and the editor opens on Layout. Its other controls moved into Style's new Place group, not copied: the display (when there is more than one) and OLED shift."
+        "Mirage editor no longer moves or resizes itself (CEO: \"the resizing of the editor isn't actually a good idea in practice. Its disorienting and i loose what i'm looking at so remove that ability and let's just work to allow the editor to…",
+        "The Mirage editor can be made small and still works: its floor is 400 x 480 (was 700 tall; the 08-28 no-scroll floor is bent for this editor, which is made small on purpose, \"fits or scrolls\"). Slim (settings only, no screen picture) is…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.936",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.937/NovaPanel-patch-1.1.936-to-1.1.937.zip",
-        "size": 7970352,
-        "sha256": "8dc506fe70f7984db46481dffbf4ea4b19c434554303f0c1d655d6abbadf9dfd"
+        "from": "1.1.937",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.938/NovaPanel-patch-1.1.937-to-1.1.938.zip",
+        "size": 7970415,
+        "sha256": "4261abbb40ef1f6ed1a88a972074be1560d662dd9b26d21e1de0b592d6a8ded8"
     }
 }
