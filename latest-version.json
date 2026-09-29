@@ -1,14 +1,14 @@
 {
-    "version": "1.1.943",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.943/NovaPanel-v1.1.943.zip",
+    "version": "1.1.944",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.944/NovaPanel-v1.1.944.zip",
     "notes": [
-        "Mirage About is a title page (CEO: \"you know a preview here would kill you. and maybe spend some time styling this section. I told you before none of my software will look like I phoned it in\"). A gold \"Portal\" kicker, \"Mirage\" at the…"
+        "Mirage About: the picture carries no label (CEO: \"you do not need to tell people what they are seeing they have eyes. What you need to tell them is what atrium is they cannot guess that. You need to explain that its a layout. We'll use…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.942",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.943/NovaPanel-patch-1.1.942-to-1.1.943.zip",
-        "size": 7974723,
-        "sha256": "b42872fffea992d1d4e700ff832f9d338d9324532cd61e2f8267ed795e210117"
+        "from": "1.1.943",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.944/NovaPanel-patch-1.1.943-to-1.1.944.zip",
+        "size": 7975231,
+        "sha256": "8775e2392b9d1fea0b2e17e2d7e35d0cb1e8144e81a5bc83b1f6a7fa95b4700f"
     }
 }
