@@ -1,15 +1,15 @@
 {
-    "version": "1.1.939",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.939/NovaPanel-v1.1.939.zip",
+    "version": "1.1.940",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.940/NovaPanel-v1.1.940.zip",
     "notes": [
-        "Mirage editor, Layout step (CEO: \"button should say customize atrium also this should be where the reset Atrium to Default should also live (or whichever layout they select. buttons side by side until the column doesn't have enough room\").…",
-        "Layout pictures follow the window's shape: a picture is composed to its box, so one kept from a narrower window came back cropped and magnified when the editor was widened. It is composed again from the drawing already in hand (no new…"
+        "Mirage editor, Layout step: clicking a layout's picture uses it (CEO: \"people are visual by nature having to click a layout and know to use that layout will be missed. If I click a layout in the visual list that should become the chosen…",
+        "About, for Mirage (CEO: \"rewrite the about for Mirage\"): it described Charm, a small window, and the Configure / Layers / Position tabs. A Mirage panel now reads what Mirage is (a strip of readings across the desktop, made for one screen…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.938",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.939/NovaPanel-patch-1.1.938-to-1.1.939.zip",
-        "size": 7972521,
-        "sha256": "a4a52651f40a810108a0a89cef04433cef3e9727a7dcfa01b0b5c428a54dcb46"
+        "from": "1.1.939",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.940/NovaPanel-patch-1.1.939-to-1.1.940.zip",
+        "size": 7973701,
+        "sha256": "76df1a406dc1bc48fd92079cc81be76c60035504182aad756ecc5eab1047a103"
     }
 }
