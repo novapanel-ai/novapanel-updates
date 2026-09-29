@@ -1,18 +1,16 @@
 {
-    "version": "1.1.936",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.936/NovaPanel-v1.1.936.zip",
+    "version": "1.1.937",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.937/NovaPanel-v1.1.937.zip",
     "notes": [
-        "Mirage editor layout review (CEO: \"now its time to review the layouts of these tabs because some are like this broken\"), every step checked at 1480x900, slim 660x940 and 1790x1040.",
-        "Widened editor: slim (no preview) was decided once when the editor was placed and stayed after the window was widened, so the settings sat alone in the preview's column with half the window empty and 490px tiles. Slim now holds only while…",
-        "Pictures now match the portal: a rune tile was drawn at its own type sizes, not the strip's shared ones (Date / Time 54/18px against the portal's 52/16px, so its time fell to 24-hour), and its face was measured before the thin weights…",
-        "Gradient stops: the number boxes were 52px and a stop at 100 read \"10(\" (the spinner took the last digit); 68px, the width the editor gives every number input.",
-        "A choice with only one picture that fits (Date / Time's Hero on Atrium's first card) now says \"The other choices don't fit this card.\" instead of looking like a broken option."
+        "Mirage editor preview is the whole screen (CEO chose option B: \"B and you can really have position there as well the more like the real thing the less tabs needed\"). Style, Runes and Configure show the display as it is: the wallpaper, with…",
+        "Position is set on the screen: in Style, pointing at one of the five places (Top, Upper middle, Center, Lower middle, Bottom) shows where the portal would go, clicking puts it there through the Position screen's own writer; the screen is…",
+        "Position is no longer a step: the steps are Layout, Style, Runes, Configure, and the editor opens on Layout. Its other controls moved into Style's new Place group, not copied: the display (when there is more than one) and OLED shift."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.935",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.936/NovaPanel-patch-1.1.935-to-1.1.936.zip",
-        "size": 7964879,
-        "sha256": "1f744a84ffcef6b56b71e9e8f917b348ff525ed7009fe3bc7401e1edc05469a8"
+        "from": "1.1.936",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.937/NovaPanel-patch-1.1.936-to-1.1.937.zip",
+        "size": 7970352,
+        "sha256": "8dc506fe70f7984db46481dffbf4ea4b19c434554303f0c1d655d6abbadf9dfd"
     }
 }
