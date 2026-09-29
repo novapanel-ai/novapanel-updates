@@ -1,15 +1,15 @@
 {
-    "version": "1.1.947",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.947/NovaPanel-v1.1.947.zip",
+    "version": "1.1.948",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.948/NovaPanel-v1.1.948.zip",
     "notes": [
-        "New portal thumbnails on the Portals page (CEO chose look B, the lit desk): one isometric desk for all three, a monitor with a small wide display below it, each portal lit where it is meant to go and lifted out of it. Omen on the extra…",
-        "Charm's About says the top right of the desktop, not \"a corner\"."
+        "First-run tour: a \"Choose your portal\" step after the hardware profile (CEO: \"use the same on the tour page\"; chose a step after the scan showing released portals only). Each portal is its lit-desk picture, its name and its three…",
+        "The portals' words live in one list, windows/portals.js (name, three sentences, picture, released), read by both the tour and each portal's About. `released`: Omen true, Mirage and Charm false until they ship (Omen first, then Mirage, then…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.946",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.947/NovaPanel-patch-1.1.946-to-1.1.947.zip",
-        "size": 9663604,
-        "sha256": "645a56c13ad5476c4546132a981f77d4fb362f426237a13374aa59f4b82d38b4"
+        "from": "1.1.947",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.948/NovaPanel-patch-1.1.947-to-1.1.948.zip",
+        "size": 9666527,
+        "sha256": "aab9405b321bff2268775767e3b65bbb279565b2c68a5bdb94388d719c4df48b"
     }
 }
