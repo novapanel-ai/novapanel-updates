@@ -1,14 +1,14 @@
 {
-    "version": "1.1.945",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.945/NovaPanel-v1.1.945.zip",
+    "version": "1.1.946",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.946/NovaPanel-v1.1.946.zip",
     "notes": [
-        "Charm and Omen get the same About as Mirage (CEO: \"do the same for the other portals\"): the portal's name, three sentences (what it is, how it differs from the other two, how it behaves), and the desktop as it is now with the portal on it.…"
+        "Portal About text stands alone (CEO: \"we are not rolling these out at the same time. First Omen then Mirage and then Charm given this the About cannot talk about the others. So let's just describe the concept, who its for and the uses\").…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.944",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.945/NovaPanel-patch-1.1.944-to-1.1.945.zip",
-        "size": 7976658,
-        "sha256": "a0577cf44c1dd9e2f661e3c962e97c2894889ca9eaa46bb683f5ef43a9d1609e"
+        "from": "1.1.945",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.946/NovaPanel-patch-1.1.945-to-1.1.946.zip",
+        "size": 7977002,
+        "sha256": "659828db245442005d49b1c40a1d7c74159da740b9856e93bc292e3ebf4db8d2"
     }
 }
