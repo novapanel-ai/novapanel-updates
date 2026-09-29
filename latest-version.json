@@ -1,16 +1,16 @@
 {
-    "version": "1.1.934",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.934/NovaPanel-v1.1.934.zip",
+    "version": "1.1.935",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.935/NovaPanel-v1.1.935.zip",
     "notes": [
-        "Faster pictures (CEO: \"drawing the thumbnails is really slow. Can we not make them more instant? Cache them or even placeholder them and allow them to adjust when loaded?\"). The root cause: the portal's hidden twin, which draws every…",
-        "Placeholders: the last picture of each layout is kept on disk and shown at once when the editor opens, then fades to the new drawing. The Runes and Configure pictures lay out as blank tiles immediately and fill in one by one.",
-        "Picks no longer redraw the step: a look, a show choice or a rune option redraws only the pictures it changed, in place (a Look pick on Runes: about 0.3s instead of 5-9s; a Configure option shows as chosen at once). Pictures no longer wait…"
+        "Mirage runes that exist to be pressed are turned off (CEO: \"since we cannot interact with Mirage we and turn off the shortcuts, power buttons and Media controls and any rune that isn't read only\"). Shortcuts and Power are flagged `acts` in…",
+        "Media no longer draws its play/pause tile card: with no look named it draws Cover, the look chosen for Portico's media card, and the editor offers Cover once rather than a second \"Default\" picture of it (new register field…",
+        "Checked and kept as read-only: Controls, Volume, Microphone, Brightness (levels), Power Plan (the active plan), Radios, and every reading."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.933",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.934/NovaPanel-patch-1.1.933-to-1.1.934.zip",
-        "size": 7960921,
-        "sha256": "f354cc5e4654a7eb5854638f42be74cc0fd044339c8691947337d7547563099b"
+        "from": "1.1.934",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.935/NovaPanel-patch-1.1.934-to-1.1.935.zip",
+        "size": 7962525,
+        "sha256": "a1fb48e2912ebcbe13ae00775fc9d3011a26d25cb10acceceb6d422929e2bee0"
     }
 }
