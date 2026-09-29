@@ -1,14 +1,14 @@
 {
-    "version": "1.1.941",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.941/NovaPanel-v1.1.941.zip",
+    "version": "1.1.942",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.942/NovaPanel-v1.1.942.zip",
     "notes": [
-        "Mirage About rewritten (CEO: \"people are not going to read all of that you are literally telling them what they can see with their eyes. No this needs to tell them the what (and how its different from Charm and omen) the how (its…"
+        "Mirage About is three sentences (CEO: \"way too much ... one sentence to explain mirage and second sentence to explain how its different and third sentence to explain that is site in the background (so it's non-interactable)\"): what Mirage…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.940",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.941/NovaPanel-patch-1.1.940-to-1.1.941.zip",
-        "size": 7973929,
-        "sha256": "159e3eb6d631398c0b8a146b960c428f14ae52b8442409106408af3f3626902b"
+        "from": "1.1.941",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.942/NovaPanel-patch-1.1.941-to-1.1.942.zip",
+        "size": 7974091,
+        "sha256": "2fd2c1268846469c284973e83a7ffc18e515d3bee99e32a79a8fe9f55df3fe99"
     }
 }
