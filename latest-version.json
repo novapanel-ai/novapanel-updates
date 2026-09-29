@@ -1,14 +1,15 @@
 {
-    "version": "1.1.946",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.946/NovaPanel-v1.1.946.zip",
+    "version": "1.1.947",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.947/NovaPanel-v1.1.947.zip",
     "notes": [
-        "Portal About text stands alone (CEO: \"we are not rolling these out at the same time. First Omen then Mirage and then Charm given this the About cannot talk about the others. So let's just describe the concept, who its for and the uses\").…"
+        "New portal thumbnails on the Portals page (CEO chose look B, the lit desk): one isometric desk for all three, a monitor with a small wide display below it, each portal lit where it is meant to go and lifted out of it. Omen on the extra…",
+        "Charm's About says the top right of the desktop, not \"a corner\"."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.945",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.946/NovaPanel-patch-1.1.945-to-1.1.946.zip",
-        "size": 7977002,
-        "sha256": "659828db245442005d49b1c40a1d7c74159da740b9856e93bc292e3ebf4db8d2"
+        "from": "1.1.946",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.947/NovaPanel-patch-1.1.946-to-1.1.947.zip",
+        "size": 9663604,
+        "sha256": "645a56c13ad5476c4546132a981f77d4fb362f426237a13374aa59f4b82d38b4"
     }
 }
