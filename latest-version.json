@@ -1,15 +1,14 @@
 {
-    "version": "1.1.940",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.940/NovaPanel-v1.1.940.zip",
+    "version": "1.1.941",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.941/NovaPanel-v1.1.941.zip",
     "notes": [
-        "Mirage editor, Layout step: clicking a layout's picture uses it (CEO: \"people are visual by nature having to click a layout and know to use that layout will be missed. If I click a layout in the visual list that should become the chosen…",
-        "About, for Mirage (CEO: \"rewrite the about for Mirage\"): it described Charm, a small window, and the Configure / Layers / Position tabs. A Mirage panel now reads what Mirage is (a strip of readings across the desktop, made for one screen…"
+        "Mirage About rewritten (CEO: \"people are not going to read all of that you are literally telling them what they can see with their eyes. No this needs to tell them the what (and how its different from Charm and omen) the how (its…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.939",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.940/NovaPanel-patch-1.1.939-to-1.1.940.zip",
-        "size": 7973701,
-        "sha256": "76df1a406dc1bc48fd92079cc81be76c60035504182aad756ecc5eab1047a103"
+        "from": "1.1.940",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.941/NovaPanel-patch-1.1.940-to-1.1.941.zip",
+        "size": 7973929,
+        "sha256": "159e3eb6d631398c0b8a146b960c428f14ae52b8442409106408af3f3626902b"
     }
 }
