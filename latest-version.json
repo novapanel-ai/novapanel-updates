@@ -1,15 +1,14 @@
 {
-    "version": "1.1.948",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.948/NovaPanel-v1.1.948.zip",
+    "version": "1.1.949",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.949/NovaPanel-v1.1.949.zip",
     "notes": [
-        "First-run tour: a \"Choose your portal\" step after the hardware profile (CEO: \"use the same on the tour page\"; chose a step after the scan showing released portals only). Each portal is its lit-desk picture, its name and its three…",
-        "The portals' words live in one list, windows/portals.js (name, three sentences, picture, released), read by both the tour and each portal's About. `released`: Omen true, Mirage and Charm false until they ship (Omen first, then Mirage, then…"
+        "First-run: with one portal released there is nothing to choose, so Continue opens it directly and ends the first run (CEO: \"we will hide this step for the initial launch because only Omen will be listed. so we will auto open Omen. So we…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.947",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.948/NovaPanel-patch-1.1.947-to-1.1.948.zip",
-        "size": 9666527,
-        "sha256": "aab9405b321bff2268775767e3b65bbb279565b2c68a5bdb94388d719c4df48b"
+        "from": "1.1.948",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.949/NovaPanel-patch-1.1.948-to-1.1.949.zip",
+        "size": 9667070,
+        "sha256": "6f2d628f8f86ec695c883f69e95f98fff9438306b566e84ebc9288183c4e647b"
     }
 }
