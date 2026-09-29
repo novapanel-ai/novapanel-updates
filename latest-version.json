@@ -1,14 +1,14 @@
 {
-    "version": "1.1.942",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.942/NovaPanel-v1.1.942.zip",
+    "version": "1.1.943",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.943/NovaPanel-v1.1.943.zip",
     "notes": [
-        "Mirage About is three sentences (CEO: \"way too much ... one sentence to explain mirage and second sentence to explain how its different and third sentence to explain that is site in the background (so it's non-interactable)\"): what Mirage…"
+        "Mirage About is a title page (CEO: \"you know a preview here would kill you. and maybe spend some time styling this section. I told you before none of my software will look like I phoned it in\"). A gold \"Portal\" kicker, \"Mirage\" at the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.941",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.942/NovaPanel-patch-1.1.941-to-1.1.942.zip",
-        "size": 7974091,
-        "sha256": "2fd2c1268846469c284973e83a7ffc18e515d3bee99e32a79a8fe9f55df3fe99"
+        "from": "1.1.942",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.943/NovaPanel-patch-1.1.942-to-1.1.943.zip",
+        "size": 7974723,
+        "sha256": "b42872fffea992d1d4e700ff832f9d338d9324532cd61e2f8267ed795e210117"
     }
 }
