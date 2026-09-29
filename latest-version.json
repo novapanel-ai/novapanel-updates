@@ -1,16 +1,18 @@
 {
-    "version": "1.1.935",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.935/NovaPanel-v1.1.935.zip",
+    "version": "1.1.936",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.936/NovaPanel-v1.1.936.zip",
     "notes": [
-        "Mirage runes that exist to be pressed are turned off (CEO: \"since we cannot interact with Mirage we and turn off the shortcuts, power buttons and Media controls and any rune that isn't read only\"). Shortcuts and Power are flagged `acts` in…",
-        "Media no longer draws its play/pause tile card: with no look named it draws Cover, the look chosen for Portico's media card, and the editor offers Cover once rather than a second \"Default\" picture of it (new register field…",
-        "Checked and kept as read-only: Controls, Volume, Microphone, Brightness (levels), Power Plan (the active plan), Radios, and every reading."
+        "Mirage editor layout review (CEO: \"now its time to review the layouts of these tabs because some are like this broken\"), every step checked at 1480x900, slim 660x940 and 1790x1040.",
+        "Widened editor: slim (no preview) was decided once when the editor was placed and stayed after the window was widened, so the settings sat alone in the preview's column with half the window empty and 490px tiles. Slim now holds only while…",
+        "Pictures now match the portal: a rune tile was drawn at its own type sizes, not the strip's shared ones (Date / Time 54/18px against the portal's 52/16px, so its time fell to 24-hour), and its face was measured before the thin weights…",
+        "Gradient stops: the number boxes were 52px and a stop at 100 read \"10(\" (the spinner took the last digit); 68px, the width the editor gives every number input.",
+        "A choice with only one picture that fits (Date / Time's Hero on Atrium's first card) now says \"The other choices don't fit this card.\" instead of looking like a broken option."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.934",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.935/NovaPanel-patch-1.1.934-to-1.1.935.zip",
-        "size": 7962525,
-        "sha256": "a1fb48e2912ebcbe13ae00775fc9d3011a26d25cb10acceceb6d422929e2bee0"
+        "from": "1.1.935",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.936/NovaPanel-patch-1.1.935-to-1.1.936.zip",
+        "size": 7964879,
+        "sha256": "1f744a84ffcef6b56b71e9e8f917b348ff525ed7009fe3bc7401e1edc05469a8"
     }
 }
