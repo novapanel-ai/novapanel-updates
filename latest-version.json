@@ -1,15 +1,14 @@
 {
-    "version": "1.1.951",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.951/NovaPanel-v1.1.951.zip",
+    "version": "1.1.952",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.952/NovaPanel-v1.1.952.zip",
     "notes": [
-        "Omen draws runes in its own voice (CEO 09-29: \"Omen's own\" type). Omen sets the rune kit to its 11px floor with no presence curve (kit.js setPortalVoice, from PORTALS.omen in shapes.js), dresses every rune slot from Omen's portal…",
-        "Omen \"All content\" (CEO 09-29: Omen gets all the content, and he picks its five layouts from it): right-click Omen > All content turns Omen's window into a page per rune -- every look, on every Omen card shape it fits, at a 120, 220 or…"
+        "Mirage no longer offers or draws the Radios and Power Plan runes (CEO: \"radios and power plan needn't show on Mirage\"). A rune can now declare mirage:false (runes/index.js offMirage, the same test that already kept Shortcuts and Power off…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.950",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.951/NovaPanel-patch-1.1.950-to-1.1.951.zip",
-        "size": 9674578,
-        "sha256": "82923675c18dd591c87a4e8532c6577fee21c85387fb302e84592abc2b8b6c6e"
+        "from": "1.1.951",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.952/NovaPanel-patch-1.1.951-to-1.1.952.zip",
+        "size": 9675134,
+        "sha256": "140cf86281746cead1624365e46e7b38641ac92d98a0c1762de8d5de59ea5610"
     }
 }
