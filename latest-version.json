@@ -1,14 +1,14 @@
 {
-    "version": "1.1.952",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.952/NovaPanel-v1.1.952.zip",
+    "version": "1.1.953",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.953/NovaPanel-v1.1.953.zip",
     "notes": [
-        "Mirage no longer offers or draws the Radios and Power Plan runes (CEO: \"radios and power plan needn't show on Mirage\"). A rune can now declare mirage:false (runes/index.js offMirage, the same test that already kept Shortcuts and Power off…"
+        "Mirage no longer offers or draws Volume, Microphone, Brightness or Controls (CEO: \"controls also I told you to turn off all that have controls\"). The four level runes in runes/levels.js declare mirage:false, so the editor's Runes step, the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.951",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.952/NovaPanel-patch-1.1.951-to-1.1.952.zip",
-        "size": 9675134,
-        "sha256": "140cf86281746cead1624365e46e7b38641ac92d98a0c1762de8d5de59ea5610"
+        "from": "1.1.952",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.953/NovaPanel-patch-1.1.952-to-1.1.953.zip",
+        "size": 9685204,
+        "sha256": "e082b9ca57fd88a5a33d803d45594cb047d3c600752fad1e2ddc04052cbb3c98"
     }
 }
