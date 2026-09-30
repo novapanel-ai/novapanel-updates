@@ -1,14 +1,15 @@
 {
-    "version": "1.1.950",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.950/NovaPanel-v1.1.950.zip",
+    "version": "1.1.951",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.951/NovaPanel-v1.1.951.zip",
     "notes": [
-        "Mirage ships the CEO's five layout defaults (CEO: \"yes\" to baking them). windows/foundation-panel/mirage/layout-defaults.json now carries the stamps saved in the designer for Beacon, Portico, Colonnade, Vista and Atrium (cards, strip…"
+        "Omen draws runes in its own voice (CEO 09-29: \"Omen's own\" type). Omen sets the rune kit to its 11px floor with no presence curve (kit.js setPortalVoice, from PORTALS.omen in shapes.js), dresses every rune slot from Omen's portal…",
+        "Omen \"All content\" (CEO 09-29: Omen gets all the content, and he picks its five layouts from it): right-click Omen > All content turns Omen's window into a page per rune -- every look, on every Omen card shape it fits, at a 120, 220 or…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.949",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.950/NovaPanel-patch-1.1.949-to-1.1.950.zip",
-        "size": 9668011,
-        "sha256": "3d108bcc33b483971acf761fb32765743acbbf57ee7ee0f2a86cb5a9f6423b87"
+        "from": "1.1.950",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.951/NovaPanel-patch-1.1.950-to-1.1.951.zip",
+        "size": 9674578,
+        "sha256": "82923675c18dd591c87a4e8532c6577fee21c85387fb302e84592abc2b8b6c6e"
     }
 }
