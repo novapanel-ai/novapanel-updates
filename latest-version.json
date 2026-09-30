@@ -1,14 +1,14 @@
 {
-    "version": "1.1.949",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.949/NovaPanel-v1.1.949.zip",
+    "version": "1.1.950",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.950/NovaPanel-v1.1.950.zip",
     "notes": [
-        "First-run: with one portal released there is nothing to choose, so Continue opens it directly and ends the first run (CEO: \"we will hide this step for the initial launch because only Omen will be listed. so we will auto open Omen. So we…"
+        "Mirage ships the CEO's five layout defaults (CEO: \"yes\" to baking them). windows/foundation-panel/mirage/layout-defaults.json now carries the stamps saved in the designer for Beacon, Portico, Colonnade, Vista and Atrium (cards, strip…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.948",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.949/NovaPanel-patch-1.1.948-to-1.1.949.zip",
-        "size": 9667070,
-        "sha256": "6f2d628f8f86ec695c883f69e95f98fff9438306b566e84ebc9288183c4e647b"
+        "from": "1.1.949",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.950/NovaPanel-patch-1.1.949-to-1.1.950.zip",
+        "size": 9668011,
+        "sha256": "3d108bcc33b483971acf761fb32765743acbbf57ee7ee0f2a86cb5a9f6423b87"
     }
 }
