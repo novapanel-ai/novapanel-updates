@@ -1,14 +1,15 @@
 {
-    "version": "1.1.966",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.966/NovaPanel-v1.1.966.zip",
+    "version": "1.1.967",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.967/NovaPanel-v1.1.967.zip",
     "notes": [
-        "Helm's \"on your image\" style is removed from the menus, the editor and Helm (CEO 2026-09-30). A panel still set to it draws the base Helm."
+        "Omen experiences by tier (CEO 2026-09-30). Cantrip carries Helm, Helm Cards, Ember with Frost and Ultraviolet, Ledger in Bronze, Slate, Moss and Plum, IO, and Scope. Europa, Horizon, Thebe and every Arche style are Glamour and above. One…",
+        "On Cantrip a locked experience cannot be chosen, and a portal saved on one draws Helm instead. Its choice is kept, so it returns when the tier goes back up. The editor shows locked styles dimmed with their tier and updates when the tier…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.965",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.966/NovaPanel-patch-1.1.965-to-1.1.966.zip",
-        "size": 9529784,
-        "sha256": "cff4fe77dcccbe8a5f379f0e5d0b46fdb598100d294344dcfe151e222b55e85c"
+        "from": "1.1.966",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.967/NovaPanel-patch-1.1.966-to-1.1.967.zip",
+        "size": 9531739,
+        "sha256": "3cf80504ac18d6940ac50cd8cf5dab8a231f1f67abc8be6e20cfbcd17d3b74a1"
     }
 }
