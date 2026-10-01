@@ -1,16 +1,15 @@
 {
-    "version": "1.1.989",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.989/NovaPanel-v1.1.989.zip",
+    "version": "1.1.990",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.990/NovaPanel-v1.1.990.zip",
     "notes": [
-        "New Omen experience Circuit, parity theme 1 (neon glass column, taken further). Cards hang off a glowing circuit trace by lit nodes, with cut corners. Inside each: Kore-style split arcs with a glowing value end, slanted hatch meters, wide…",
-        "Two light sources, one per hue, throw 3D light on the cards: the faces toward them brighten, the edges facing them catch a rim, and the cards cast soft shadows away. In a column or strip the lights sit at the ends of the trace.",
-        "Circuit comes in four palettes (Toxin, Solar, Plasma, Neon) and lays out for every shape: a column for tower and ultra-tall, a row for strips, and a grid with the time across the top for landscape, square and portrait. Frames replace…"
+        "Circuit fills every shape (CEO 2026-10-01: \"I don't like the empty space\"). The time is a card in the grid, and each grid row divides its width among its cards. A card whose reading this machine does not report is left out, and the rest…",
+        "Circuit's lights are real neon tubes: a fixture with metal end caps and clips, a white-hot core in coloured glass, a glow and a wide bloom, throwing a long wash of light. They run along the open edges: down the side of a column, under a…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.988",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.989/NovaPanel-patch-1.1.988-to-1.1.989.zip",
-        "size": 10704623,
-        "sha256": "846a9e0c66dc38535e82eb494bbce64dfd29c9b75e8ff69e2191f270aa685e0e"
+        "from": "1.1.989",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.990/NovaPanel-patch-1.1.989-to-1.1.990.zip",
+        "size": 10706519,
+        "sha256": "8007f7ed425628d4bca71f0b324dc46bc3a748bfb918517bed176eff93f7ad8e"
     }
 }
