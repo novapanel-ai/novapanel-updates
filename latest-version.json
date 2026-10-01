@@ -1,15 +1,14 @@
 {
-    "version": "1.1.984",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.984/NovaPanel-v1.1.984.zip",
+    "version": "1.1.985",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.985/NovaPanel-v1.1.985.zip",
     "notes": [
-        "Panel Editor Resolution: Custom works again (CEO 2026-10-01). Its inputs had been lost in an earlier editor rebuild, so the button opened an empty panel. It is now a width and a height box with Apply (Enter also applies), and the right…",
-        "New \"Match monitor height\" in Ultratall and Portrait keeps the current width and takes the monitor's full height. New \"Match monitor width\" in Ultrawide and Landscape keeps the current height and takes the full width. Both use the panel's…"
+        "A portal sized to its display's full height (or width) now reaches the edge (CEO 2026-10-01: \"it didn't span to the top... always staying like 100px from the top\"). Three things held it back. Windows caps a new window to the primary…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.983",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.984/NovaPanel-patch-1.1.983-to-1.1.984.zip",
-        "size": 10694019,
-        "sha256": "733c338aa880ed5d3e3ce0ff87c4605b056a2a8571f6a4f6b1f0d82e74efd00b"
+        "from": "1.1.984",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.985/NovaPanel-patch-1.1.984-to-1.1.985.zip",
+        "size": 10695415,
+        "sha256": "4ed4f71d76fc819a3b064dd4e845beb4c10232c5e4d2506d87f96e00ea9424b6"
     }
 }
