@@ -1,15 +1,16 @@
 {
-    "version": "1.1.974",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.974/NovaPanel-v1.1.974.zip",
+    "version": "1.1.975",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.975/NovaPanel-v1.1.975.zip",
     "notes": [
-        "Hollow has the CEO's two jack-o-lanterns in the near lower-right corner, in front of the fog and the ghost (art/hollow-pumpkins.webp + hollow-pumpkins-glow.webp). They are cut from his picture with a solid traced outline, the green smoke…",
-        "Each lantern's candle flickers on its own: quick small wavers and an occasional gutter, lighting its carved face and throwing a warm pool of light that breathes with the flame. They appear in both Hollow and Vigil."
+        "Hollow's jack-o-lanterns are smaller (CEO 2026-10-01), and their lighting is more dramatic: the skin falls off into dark away from each candle.",
+        "Hollow has the CEO's SIGIL and OMEN tombstones on the left bank, further back (art/hollow-tombs.webp + hollow-tombs-glow.webp). The stones are cut solid and the root mound fades out; they are dimmed, cooled and greyed to sit in the…",
+        "The ghost keeps clear of the stones in both Hollow and Vigil, and in Vigil every set piece stays clear of the readings."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.973",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.974/NovaPanel-patch-1.1.973-to-1.1.974.zip",
-        "size": 10470689,
-        "sha256": "1a3e87a7a9d3d1723c78d8d6f4744c54adaa87ee7380b4de7b0451d95e790377"
+        "from": "1.1.974",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.975/NovaPanel-patch-1.1.974-to-1.1.975.zip",
+        "size": 10775962,
+        "sha256": "75220788cb9264ef2b9f6b7566217bd05ed26bad6a000b217869770c545c32e7"
     }
 }
