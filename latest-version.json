@@ -1,17 +1,16 @@
 {
-    "version": "1.1.957",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.957/NovaPanel-v1.1.957.zip",
+    "version": "1.1.958",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.958/NovaPanel-v1.1.958.zip",
     "notes": [
-        "Omen experiences (CEO 2026-09-30, \"a layout is an experience\"): five whole-screen compositions chosen from Omen's right-click menu, Experience, each drawn from the live readings and answering the screen's shape (monitor, square, tower…",
-        "Each experience changes with what the machine is doing: in a game the frame rate takes the lead, and when a CPU or GPU reaches 90°C the experience names the hot part. A reading the machine does not report is not drawn.",
-        "Omen's status badge is hidden while an experience is on. New panel setting experience (none by default: Omen's own cards are unchanged). Moving parts (Ember's embers) run at 15 frames a second and stop while the portal is covered.",
-        "Scope draws CPU load per second over the last minute: the sensor feed does not yet carry each core's load."
+        "Omen opens on Helm by default (CEO 2026-09-30, \"default to helm\"), and a new Omen opens at 1280×720 when no size has been chosen.",
+        "Omen's editor steps through Layout, Position, Layers and Configure. Layout shows the five experiences as pictures your portal draws with this machine's readings; picking one shows its styles as pictures, and a click switches the portal.",
+        "Position has \"Place on display\" back (Omen moves to the display you pick and takes its size, in real pixels or Windows' scaled size as Size units says) and the resolution grid (orientation, then sizes, or Custom)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.956",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.957/NovaPanel-patch-1.1.956-to-1.1.957.zip",
-        "size": 9514124,
-        "sha256": "92d0b73ec9353689e850c83b8085dbe119c8a3dc7e093b5a295fc18ba82395d4"
+        "from": "1.1.957",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.958/NovaPanel-patch-1.1.957-to-1.1.958.zip",
+        "size": 9518414,
+        "sha256": "7d5c1c9008b1c23cd83aa40b5e0826e49183df73e6e7d38b7f2ecc214f940019"
     }
 }
