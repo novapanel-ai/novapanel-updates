@@ -1,16 +1,14 @@
 {
-    "version": "1.1.977",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.977/NovaPanel-v1.1.977.zip",
+    "version": "1.1.978",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.978/NovaPanel-v1.1.978.zip",
     "notes": [
-        "Hollow's tombstones are lit by the scene (CEO 2026-10-01: \"blend them better\"). They are darker toward the top and on the side away from the moon, carry the swamp's green-grey with a faint cool rim from the moon, and have a contact shadow…",
-        "A silhouette of grass blades stands in front of the stones' feet, swaying a little, dark against their underlights.",
-        "Ultra-tall and other shapes: every set piece (ghost, stones, lanterns) is sized from the portal's height capped by its width, so on a tall screen they stay in proportion in the bottom corners instead of spilling past the edges. Hollow's…"
+        "Hollow's tombstones read solid on tall screens too (CEO 2026-10-01: \"the tall formats they are almost transparent\"). The stones are re-cut fully opaque (only the cross's open rings stay open) and sit on a soft dark halo and a shadowed bank…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.976",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.977/NovaPanel-patch-1.1.976-to-1.1.977.zip",
-        "size": 10779998,
-        "sha256": "1ce0d7617e4de7ef47b23fc1f6d10e4061005cb8daf8d43fe9c4bc16aa46928f"
+        "from": "1.1.977",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.978/NovaPanel-patch-1.1.977-to-1.1.978.zip",
+        "size": 10690580,
+        "sha256": "f7c98e29ffd24b70fef060a8f8ebcc45089ee1cd8c84abfac927f3312fcff160"
     }
 }
