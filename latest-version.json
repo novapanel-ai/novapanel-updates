@@ -1,14 +1,14 @@
 {
-    "version": "1.1.965",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.965/NovaPanel-v1.1.965.zip",
+    "version": "1.1.966",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.966/NovaPanel-v1.1.966.zip",
     "notes": [
-        "Omen's right-click and taskbar menus no longer offer Layout, or None in Experience (CEO 2026-09-30)."
+        "Helm's \"on your image\" style is removed from the menus, the editor and Helm (CEO 2026-09-30). A panel still set to it draws the base Helm."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.964",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.965/NovaPanel-patch-1.1.964-to-1.1.965.zip",
-        "size": 9529708,
-        "sha256": "339bb8d28424ffff2f5fa89856539468027366ad306a8f6e4681d4c58630578d"
+        "from": "1.1.965",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.966/NovaPanel-patch-1.1.965-to-1.1.966.zip",
+        "size": 9529784,
+        "sha256": "cff4fe77dcccbe8a5f379f0e5d0b46fdb598100d294344dcfe151e222b55e85c"
     }
 }
