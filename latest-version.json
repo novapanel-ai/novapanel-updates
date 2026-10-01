@@ -1,15 +1,16 @@
 {
-    "version": "1.1.991",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.991/NovaPanel-v1.1.991.zip",
+    "version": "1.1.992",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.992/NovaPanel-v1.1.992.zip",
     "notes": [
-        "Circuit stands on the CEO's neon street picture (art/circuit-street.webp), darkened, seen through glassier cards (CEO 2026-10-01: \"I have added a background image for this\").",
-        "Circuit's lights are two plain light bars set at an angle in the top-left and bottom-right corners (\"make the lights more minimal simply bars\"), behind the cards, so their glow spills around the card edges and through the cut corners. Long…"
+        "Circuit accepted (CEO 2026-10-01). The cards are frosted glass (backdrop blur, as the portals' frosted cards are): each blurs the street, the grid and the light bars behind it, and keeps its shadows.",
+        "A clear grid over the street in the palette's colour, with crosshairs on the major lines. A pulse of light sweeps across it every seven seconds, at 15 fps, only while the portal is seen, and none under reduced motion.",
+        "The street takes each palette's hues (Toxin, Solar, Plasma; Neon keeps its own). The street, grid, shadows, traces and bars are drawn once per size; only the readings redraw."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.990",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.991/NovaPanel-patch-1.1.990-to-1.1.991.zip",
-        "size": 10903759,
-        "sha256": "8c173fa372ff1460e66919826cdbfbd00e9aff625313bf0ce588d04675eb4f71"
+        "from": "1.1.991",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.992/NovaPanel-patch-1.1.991-to-1.1.992.zip",
+        "size": 10905652,
+        "sha256": "c47c5b3285d0a036315f0b17ddeb20e4f69583da895c31099efd452bb17a4b8b"
     }
 }
