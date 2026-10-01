@@ -1,14 +1,14 @@
 {
-    "version": "1.1.994",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.994/NovaPanel-v1.1.994.zip",
+    "version": "1.1.995",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.995/NovaPanel-v1.1.995.zip",
     "notes": [
-        "Circuit holds its widest readings inside every card (CEO 2026-10-01: \"use the widest numbering ... so nothing runs off the screen or out of the cards\"). Every text has a room it is fitted to. Checked with 110°, 3105 MHz, 127.9 GB, 19999…"
+        "The Control Panel and the Panel Editors stay above the portals (CEO 2026-10-01: \"Omen ALWAYS sits over the CP and sometimes the editor\"). While open they are always-on-top too, and whenever a portal is shown, clicked or re-pinned on top…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.993",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.994/NovaPanel-patch-1.1.993-to-1.1.994.zip",
-        "size": 10906157,
-        "sha256": "2bb39b7c5b8e7083701cdbc8e3cd03a3f6cd90693f6429aea0e487eab7dc9160"
+        "from": "1.1.994",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.995/NovaPanel-patch-1.1.994-to-1.1.995.zip",
+        "size": 10908025,
+        "sha256": "0693668e459af5d15455c71b5fb864dd581d210ed823d1187540415ca32e6c76"
     }
 }
