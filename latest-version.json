@@ -1,16 +1,17 @@
 {
-    "version": "1.1.969",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.969/NovaPanel-v1.1.969.zip",
+    "version": "1.1.970",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.970/NovaPanel-v1.1.970.zip",
     "notes": [
-        "New default Omen experience: Velum, in black, white and gold, from the CEO's lux-interface examples (CEO 2026-09-30: \"THIS will be the new default Helm remains one of the options\"). It has three styles. Atelier: a glowing gold ring and…",
-        "Velum turns through the parts slowly: Atelier every 8 s (processor, graphics, memory), Marque every 6 s and Chapter every 8 s. What turns fades out, then the next rises in, and Atelier's ring draws itself to the new value. Reduced motion…",
-        "Velum's background has a slight texture (a fine grain and a faint brushed sheen), and each style names Sigil and Omen. Velum leads the editor's layouts and the Experience menu. A panel with no experience chosen now opens on Velum."
+        "Velum is Cantrip, with all three styles (CEO 2026-09-30: \"velum will be cantrip\"). A portal saved on a layout its tier does not carry now draws Velum, the default.",
+        "Hollow stands on the CEO's painted swamp (art/hollow-swamp.webp, 3840x2160, 0.5 MB, cropped to fit any screen around its far waterline). The lights flicker on the painting's own water, and the ghost rises over it.",
+        "Hollow's fog rolls: two banks of patchy fog drift across the water at different speeds, the near one over the lights and the ghost.",
+        "Hollow's time is set in UnifrakturCook, a blackletter face (OFL). It was chosen over Grenze Gotisch, whose numbers read as plain serif."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.968",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.969/NovaPanel-patch-1.1.968-to-1.1.969.zip",
-        "size": 9550429,
-        "sha256": "c03f339052272c5bb2af5ba2d2b32e30874e24f1018d36606f611653d2585f75"
+        "from": "1.1.969",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.970/NovaPanel-patch-1.1.969-to-1.1.970.zip",
+        "size": 10055146,
+        "sha256": "f7911926f32006a7407501e0afe34584d2d8dba551da819c216f78efd99bf160"
     }
 }
