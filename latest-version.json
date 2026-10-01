@@ -1,14 +1,14 @@
 {
-    "version": "1.1.978",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.978/NovaPanel-v1.1.978.zip",
+    "version": "1.1.979",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.979/NovaPanel-v1.1.979.zip",
     "notes": [
-        "Hollow's tombstones read solid on tall screens too (CEO 2026-10-01: \"the tall formats they are almost transparent\"). The stones are re-cut fully opaque (only the cross's open rings stay open) and sit on a soft dark halo and a shadowed bank…"
+        "Hollow on tall screens (CEO 2026-10-01). Every word but the time is a size and a half larger. The ghost is back to his full height (capped only on the narrowest screens) and floats below the words. The fog keeps its proportion instead of…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.977",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.978/NovaPanel-patch-1.1.977-to-1.1.978.zip",
-        "size": 10690580,
-        "sha256": "f7c98e29ffd24b70fef060a8f8ebcc45089ee1cd8c84abfac927f3312fcff160"
+        "from": "1.1.978",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.979/NovaPanel-patch-1.1.978-to-1.1.979.zip",
+        "size": 10690825,
+        "sha256": "c0f8bd71a103e2e5b4f12d8b655dbc1ed53bf17f8f964bb22bb1159a01186a4f"
     }
 }
