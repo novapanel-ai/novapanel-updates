@@ -1,14 +1,16 @@
 {
-    "version": "1.1.988",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.988/NovaPanel-v1.1.988.zip",
+    "version": "1.1.989",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.989/NovaPanel-v1.1.989.zip",
     "notes": [
-        "Hollow and its Readings style are Cantrip, for the Halloween promotion (CEO 2026-10-01)."
+        "New Omen experience Circuit, parity theme 1 (neon glass column, taken further). Cards hang off a glowing circuit trace by lit nodes, with cut corners. Inside each: Kore-style split arcs with a glowing value end, slanted hatch meters, wide…",
+        "Two light sources, one per hue, throw 3D light on the cards: the faces toward them brighten, the edges facing them catch a rim, and the cards cast soft shadows away. In a column or strip the lights sit at the ends of the trace.",
+        "Circuit comes in four palettes (Toxin, Solar, Plasma, Neon) and lays out for every shape: a column for tower and ultra-tall, a row for strips, and a grid with the time across the top for landscape, square and portrait. Frames replace…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.987",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.988/NovaPanel-patch-1.1.987-to-1.1.988.zip",
-        "size": 10696550,
-        "sha256": "35135b3d9a08d1ea56032f9912f3202f6b3abff3cf4c77271653b32137a0bc2d"
+        "from": "1.1.988",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.989/NovaPanel-patch-1.1.988-to-1.1.989.zip",
+        "size": 10704623,
+        "sha256": "846a9e0c66dc38535e82eb494bbce64dfd29c9b75e8ff69e2191f270aa685e0e"
     }
 }
