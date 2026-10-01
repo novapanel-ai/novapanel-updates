@@ -1,14 +1,14 @@
 {
-    "version": "1.1.993",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.993/NovaPanel-v1.1.993.zip",
+    "version": "1.1.994",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.994/NovaPanel-v1.1.994.zip",
     "notes": [
-        "Circuit's grid is wider spaced, with thinner, fainter lines and quieter crosshairs, and its pulse is gentler (CEO 2026-10-01: \"not that strong\")."
+        "Circuit holds its widest readings inside every card (CEO 2026-10-01: \"use the widest numbering ... so nothing runs off the screen or out of the cards\"). Every text has a room it is fitted to. Checked with 110°, 3105 MHz, 127.9 GB, 19999…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.992",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.993/NovaPanel-patch-1.1.992-to-1.1.993.zip",
-        "size": 10905795,
-        "sha256": "6392853540a6a913c0ee969e27f27af90daadb9d964ad11d515bbbb0335fa7b7"
+        "from": "1.1.993",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.994/NovaPanel-patch-1.1.993-to-1.1.994.zip",
+        "size": 10906157,
+        "sha256": "2bb39b7c5b8e7083701cdbc8e3cd03a3f6cd90693f6429aea0e487eab7dc9160"
     }
 }
