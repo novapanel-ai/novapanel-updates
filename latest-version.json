@@ -1,14 +1,15 @@
 {
-    "version": "1.1.973",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.973/NovaPanel-v1.1.973.zip",
+    "version": "1.1.974",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.974/NovaPanel-v1.1.974.zip",
     "notes": [
-        "Hollow and Vigil set their date, countdown and readings in Special Elite, a worn typewriter face (Apache 2.0), in place of Rubik Distressed (CEO 2026-10-01: \"lets go with #1 special elite\"). Hollow's date and countdown are one size larger…"
+        "Hollow has the CEO's two jack-o-lanterns in the near lower-right corner, in front of the fog and the ghost (art/hollow-pumpkins.webp + hollow-pumpkins-glow.webp). They are cut from his picture with a solid traced outline, the green smoke…",
+        "Each lantern's candle flickers on its own: quick small wavers and an occasional gutter, lighting its carved face and throwing a warm pool of light that breathes with the flame. They appear in both Hollow and Vigil."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.972",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.973/NovaPanel-patch-1.1.972-to-1.1.973.zip",
-        "size": 10286042,
-        "sha256": "ac96f74fc81acd7eca290663e164d96c426fdd71655c9ce0aa0a0a3ab6be83d5"
+        "from": "1.1.973",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.974/NovaPanel-patch-1.1.973-to-1.1.974.zip",
+        "size": 10470689,
+        "sha256": "1a3e87a7a9d3d1723c78d8d6f4744c54adaa87ee7380b4de7b0451d95e790377"
     }
 }
