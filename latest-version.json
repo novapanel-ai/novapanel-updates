@@ -1,17 +1,17 @@
 {
-    "version": "1.1.956",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.956/NovaPanel-v1.1.956.zip",
+    "version": "1.1.957",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.957/NovaPanel-v1.1.957.zip",
     "notes": [
-        "Electron 28.3.3 -> 36.9.5 (Chrome 136, Node 22.19), CEO 2026-09-30. The whole runtime is replaced: NovaPanel.exe and every Chromium file next to it.",
-        "Why: on Electron 36, Windows' own acrylic works on a frameless, transparent portal window (Capability Lab, ceo-files/FINDINGS-blur.md). On Electron 28 it painted flat gray. Portals still use frost; nothing turns the acrylic on yet.",
-        "The Electron upgrade itself changed no app code: no native modules, and no API the app uses was removed between 29 and 36.",
-        "Gauge (original) and Flow retired (CEO 2026-09-30, after reviewing them): both folders removed, with their THEME_ENTRIES, theme-cost and panel-capability entries; on every load main.js moves a config whose Hardware Panel names either one…"
+        "Omen experiences (CEO 2026-09-30, \"a layout is an experience\"): five whole-screen compositions chosen from Omen's right-click menu, Experience, each drawn from the live readings and answering the screen's shape (monitor, square, tower…",
+        "Each experience changes with what the machine is doing: in a game the frame rate takes the lead, and when a CPU or GPU reaches 90°C the experience names the hot part. A reading the machine does not report is not drawn.",
+        "Omen's status badge is hidden while an experience is on. New panel setting experience (none by default: Omen's own cards are unchanged). Moving parts (Ember's embers) run at 15 frames a second and stop while the portal is covered.",
+        "Scope draws CPU load per second over the last minute: the sensor feed does not yet carry each core's load."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.955",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.956/NovaPanel-patch-1.1.955-to-1.1.956.zip",
-        "size": 133251835,
-        "sha256": "6ef94c70dd5b8defec54941f4b7dc60a75ee0cba64f6d4095830e0bc4d1063e4"
+        "from": "1.1.956",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.957/NovaPanel-patch-1.1.956-to-1.1.957.zip",
+        "size": 9514124,
+        "sha256": "92d0b73ec9353689e850c83b8085dbe119c8a3dc7e093b5a295fc18ba82395d4"
     }
 }
