@@ -1,16 +1,14 @@
 {
-    "version": "1.1.981",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.981/NovaPanel-v1.1.981.zip",
+    "version": "1.1.982",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.982/NovaPanel-v1.1.982.zip",
     "notes": [
-        "Hollow's dust is gentler: fewer motes, fainter, smaller (CEO 2026-10-01).",
-        "The orbs from the tombstones rise slowly, come less often and glow softer.",
-        "Ultra-tall screens: the tombstones and jack-o-lanterns are larger again and run a little off the sides. The readings stack one to a line in larger type above them, and the weather stands on its own under the countdown (temperature in…"
+        "Hollow's Halloween countdown stays orange when a part runs hot (CEO 2026-10-01: \"that shouldn't change\"). Only the hot reading itself turns red."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.980",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.981/NovaPanel-patch-1.1.980-to-1.1.981.zip",
-        "size": 10692058,
-        "sha256": "3fd33e02a6c71c69e7d29e0418a0a8f71fd29e28fe42a540f30b7f03bf03ebe2"
+        "from": "1.1.981",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.982/NovaPanel-patch-1.1.981-to-1.1.982.zip",
+        "size": 10692142,
+        "sha256": "d41ef853c4467e7b8e1946418d490b7d0f7346364ca5efb9a428b4f9131ac021"
     }
 }
