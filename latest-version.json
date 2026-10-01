@@ -1,17 +1,14 @@
 {
-    "version": "1.1.972",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.972/NovaPanel-v1.1.972.zip",
+    "version": "1.1.973",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.973/NovaPanel-v1.1.973.zip",
     "notes": [
-        "Hollow's light reflections are a soft, wavering smear of light down the water, with no edge (CEO 2026-10-01: \"more blurred and less formed\").",
-        "Hollow's fog is denser and breathes, thickening and thinning slowly. About once a minute a thick wave rolls in across the swamp and passes.",
-        "Hollow's date, countdown and readings are set in Rubik Distressed, a cracked face (OFL), with the time still in blackletter.",
-        "New Hollow variant, Vigil: the readings large in blackletter across the swamp (processor, graphics, memory; in a game the frame rate and 1% low lead), with the time and date small above and the countdown and weather below. A hot part turns…"
+        "Hollow and Vigil set their date, countdown and readings in Special Elite, a worn typewriter face (Apache 2.0), in place of Rubik Distressed (CEO 2026-10-01: \"lets go with #1 special elite\"). Hollow's date and countdown are one size larger…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.971",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.972/NovaPanel-patch-1.1.971-to-1.1.972.zip",
-        "size": 10426726,
-        "sha256": "5017feccd96745d88c76eacc6907b961cd9e5f4f4171cc83c5def5e8c70f205b"
+        "from": "1.1.972",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.973/NovaPanel-patch-1.1.972-to-1.1.973.zip",
+        "size": 10286042,
+        "sha256": "ac96f74fc81acd7eca290663e164d96c426fdd71655c9ce0aa0a0a3ab6be83d5"
     }
 }
