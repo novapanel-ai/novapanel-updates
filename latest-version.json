@@ -1,18 +1,17 @@
 {
-    "version": "1.1.963",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.963/NovaPanel-v1.1.963.zip",
+    "version": "1.1.964",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.964/NovaPanel-v1.1.964.zip",
     "notes": [
-        "Omen right-click menu opens (CEO 2026-09-30). A right-click on Omen raised two events, and each opened the menu, so the second cancelled the first and nothing showed. One click now opens one menu. Verified with a real right-click on the…",
-        "Omen loader uses the saved loader settings like Charm: the rotating words, text and animation size, timings and hue source, in Omen gold on its own ground.",
-        "Helm card layout: the time stays inside its card (CEO 2026-09-30). It is a little smaller with tighter letter spacing, and its width is reserved for the widest reading and held there in the painted font.",
-        "Share what I choose: opt-in counting of which portals, experiences, looks, layouts, themes, runes and settings people pick, to learn which designs are popular (CEO 2026-09-30, ceo-files/PROPOSAL-analytics.html). Nothing is recorded…",
-        "Choices go to hosted Aptabase in batches of up to 25, from a queue on disk that retries for up to six hours between tries. Events older than a day are sent with the send time and keep their real date. In low data mode they leave only at…"
+        "Omen is called Omen everywhere (CEO 2026-09-30). Saved portals still holding an old default name (Foundation Panel, Hardware Panel, Gauge 2) are renamed once; a name you chose is kept.",
+        "Taskbar menu cleaned up: one entry per portal (Omen, Charm, Mirage), each holding its Open/Close, Settings and review tools, then Control Panel and Quit. A closed Blackfield or Fleet Command is no longer listed; both stay in the Control…",
+        "A taskbar menu that fails to build is now written to the runtime log instead of silently showing nothing.",
+        "Omen editor: Position is step 1 and Layout step 2."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.962",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.963/NovaPanel-patch-1.1.962-to-1.1.963.zip",
-        "size": 9529464,
-        "sha256": "6251e229bdc094fdbb17a1b51ab5f2df2abc1d626608d886d0cb9f7b650da84b"
+        "from": "1.1.963",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.964/NovaPanel-patch-1.1.963-to-1.1.964.zip",
+        "size": 9529713,
+        "sha256": "08da2fcf8feec48e8e5bda3b5cebd3ab556482f2c4d9c6217ce14d93e0959ab7"
     }
 }
