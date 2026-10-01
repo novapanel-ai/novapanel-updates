@@ -1,17 +1,14 @@
 {
-    "version": "1.1.964",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.964/NovaPanel-v1.1.964.zip",
+    "version": "1.1.965",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.965/NovaPanel-v1.1.965.zip",
     "notes": [
-        "Omen is called Omen everywhere (CEO 2026-09-30). Saved portals still holding an old default name (Foundation Panel, Hardware Panel, Gauge 2) are renamed once; a name you chose is kept.",
-        "Taskbar menu cleaned up: one entry per portal (Omen, Charm, Mirage), each holding its Open/Close, Settings and review tools, then Control Panel and Quit. A closed Blackfield or Fleet Command is no longer listed; both stay in the Control…",
-        "A taskbar menu that fails to build is now written to the runtime log instead of silently showing nothing.",
-        "Omen editor: Position is step 1 and Layout step 2."
+        "Omen's right-click and taskbar menus no longer offer Layout, or None in Experience (CEO 2026-09-30)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.963",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.964/NovaPanel-patch-1.1.963-to-1.1.964.zip",
-        "size": 9529713,
-        "sha256": "08da2fcf8feec48e8e5bda3b5cebd3ab556482f2c4d9c6217ce14d93e0959ab7"
+        "from": "1.1.964",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.965/NovaPanel-patch-1.1.964-to-1.1.965.zip",
+        "size": 9529708,
+        "sha256": "339bb8d28424ffff2f5fa89856539468027366ad306a8f6e4681d4c58630578d"
     }
 }
