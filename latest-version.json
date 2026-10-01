@@ -1,17 +1,15 @@
 {
-    "version": "1.1.970",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.970/NovaPanel-v1.1.970.zip",
+    "version": "1.1.971",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.971/NovaPanel-v1.1.971.zip",
     "notes": [
-        "Velum is Cantrip, with all three styles (CEO 2026-09-30: \"velum will be cantrip\"). A portal saved on a layout its tier does not carry now draws Velum, the default.",
-        "Hollow stands on the CEO's painted swamp (art/hollow-swamp.webp, 3840x2160, 0.5 MB, cropped to fit any screen around its far waterline). The lights flicker on the painting's own water, and the ghost rises over it.",
-        "Hollow's fog rolls: two banks of patchy fog drift across the water at different speeds, the near one over the lights and the ghost.",
-        "Hollow's time is set in UnifrakturCook, a blackletter face (OFL). It was chosen over Grenze Gotisch, whose numbers read as plain serif."
+        "Hollow's ghost is the CEO's carriage driver, cut from his ghost-carriage-driver.png with a traced, feathered outline and a key on the dark background (art/hollow-ghost.webp, 0.17 MB). The smoke tail is kept by its green.",
+        "The driver appears at either side of the open water, clear of the words. He fades in, drifts and bobs a little, flickers faintly and fades out, his smoke trailing into the water with a faint reflection. A second pass adds his own green…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.969",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.970/NovaPanel-patch-1.1.969-to-1.1.970.zip",
-        "size": 10055146,
-        "sha256": "f7911926f32006a7407501e0afe34584d2d8dba551da819c216f78efd99bf160"
+        "from": "1.1.970",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.971/NovaPanel-patch-1.1.970-to-1.1.971.zip",
+        "size": 10227516,
+        "sha256": "ae1371d587837111a7071cd8cde567d47f180194eb7e55733275cd5f417587f2"
     }
 }
