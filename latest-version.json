@@ -1,15 +1,14 @@
 {
-    "version": "1.1.987",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.987/NovaPanel-v1.1.987.zip",
+    "version": "1.1.988",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.988/NovaPanel-v1.1.988.zip",
     "notes": [
-        "Hollow, checked on every shape (CEO 2026-10-01: \"go through every ratio and make sure all the changes apply\"). The tombstones and jack-o-lanterns are sized per shape and smaller on square. The weather stands on its own under the countdown…",
-        "Hollow's Readings style on square and tall: the countdown sits above the set pieces, the ghost is smaller and rises below the numbers, and the weather is larger on tall screens."
+        "Hollow and its Readings style are Cantrip, for the Halloween promotion (CEO 2026-10-01)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.986",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.987/NovaPanel-patch-1.1.986-to-1.1.987.zip",
-        "size": 10696347,
-        "sha256": "fd36c6e13ac2f559e3c88f24ac2ad5a8283071365fd316861ee6b41dcc5b0b61"
+        "from": "1.1.987",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.988/NovaPanel-patch-1.1.987-to-1.1.988.zip",
+        "size": 10696550,
+        "sha256": "35135b3d9a08d1ea56032f9912f3202f6b3abff3cf4c77271653b32137a0bc2d"
     }
 }
