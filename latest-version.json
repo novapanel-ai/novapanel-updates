@@ -1,18 +1,18 @@
 {
-    "version": "1.1.962",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.962/NovaPanel-v1.1.962.zip",
+    "version": "1.1.963",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.963/NovaPanel-v1.1.963.zip",
     "notes": [
-        "Every Omen experience now has a subtle motion like Ember's (CEO 2026-09-30). Each runs at 15 fps, only while the portal is seen, stays still under reduced motion, and quickens with the machine's load.",
-        "Helm and Thebe: a soft band of light passes slowly across, and faint motes brighten as it passes.",
-        "Horizon: motes drift sideways like wind over the horizon, in the color of the current state.",
-        "Ledger and IO: dust floats in the light, in each tint's own color.",
-        "Scope and Arche: a faint scan line sweeps down the screen, and what it passes blinks on and fades."
+        "Omen right-click menu opens (CEO 2026-09-30). A right-click on Omen raised two events, and each opened the menu, so the second cancelled the first and nothing showed. One click now opens one menu. Verified with a real right-click on the…",
+        "Omen loader uses the saved loader settings like Charm: the rotating words, text and animation size, timings and hue source, in Omen gold on its own ground.",
+        "Helm card layout: the time stays inside its card (CEO 2026-09-30). It is a little smaller with tighter letter spacing, and its width is reserved for the widest reading and held there in the painted font.",
+        "Share what I choose: opt-in counting of which portals, experiences, looks, layouts, themes, runes and settings people pick, to learn which designs are popular (CEO 2026-09-30, ceo-files/PROPOSAL-analytics.html). Nothing is recorded…",
+        "Choices go to hosted Aptabase in batches of up to 25, from a queue on disk that retries for up to six hours between tries. Events older than a day are sent with the send time and keep their real date. In low data mode they leave only at…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.961",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.962/NovaPanel-patch-1.1.961-to-1.1.962.zip",
-        "size": 9520033,
-        "sha256": "02d97bcd18c49d5ead7552cba58a90928d5ce028c1e17204258192834c48d03b"
+        "from": "1.1.962",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.963/NovaPanel-patch-1.1.962-to-1.1.963.zip",
+        "size": 9529464,
+        "sha256": "6251e229bdc094fdbb17a1b51ab5f2df2abc1d626608d886d0cb9f7b650da84b"
     }
 }
