@@ -1,16 +1,15 @@
 {
-    "version": "1.1.958",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.958/NovaPanel-v1.1.958.zip",
+    "version": "1.1.959",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.959/NovaPanel-v1.1.959.zip",
     "notes": [
-        "Omen opens on Helm by default (CEO 2026-09-30, \"default to helm\"), and a new Omen opens at 1280×720 when no size has been chosen.",
-        "Omen's editor steps through Layout, Position, Layers and Configure. Layout shows the five experiences as pictures your portal draws with this machine's readings; picking one shows its styles as pictures, and a click switches the portal.",
-        "Position has \"Place on display\" back (Omen moves to the display you pick and takes its size, in real pixels or Windows' scaled size as Size units says) and the resolution grid (orientation, then sizes, or Custom)."
+        "Omen's right-click menu is back (CEO 2026-09-30): a full-screen experience leaves Omen no area outside its window drag region, and Windows took those right-clicks as its own; they now open Omen's menu.",
+        "Full screen no longer leaves a 1-pixel edge or a gray outline when Omen loses focus: Omen now fills its display without being made resizable, so Windows 11 draws no frame around it. Pressing it again returns Omen to its earlier size and…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.957",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.958/NovaPanel-patch-1.1.957-to-1.1.958.zip",
-        "size": 9518414,
-        "sha256": "7d5c1c9008b1c23cd83aa40b5e0826e49183df73e6e7d38b7f2ecc214f940019"
+        "from": "1.1.958",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.959/NovaPanel-patch-1.1.958-to-1.1.959.zip",
+        "size": 9518593,
+        "sha256": "d14c1b33d3ec5fee5f7a9e778bfc755bf40a0c798802488739d74c64e795d923"
     }
 }
