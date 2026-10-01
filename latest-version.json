@@ -1,16 +1,14 @@
 {
-    "version": "1.1.996",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.996/NovaPanel-v1.1.996.zip",
+    "version": "1.1.997",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.997/NovaPanel-v1.1.997.zip",
     "notes": [
-        "A portal as tall (or wide) as its display stays flush on its edges (CEO 2026-10-01: \"its doing that thing again with not going to the top\"). Measured live: his Omen's window had come to rest on the display top, which left the visible…",
-        "Circuit's nodes on the circuit lines pulse now and then, each on its own random clock: a ring spreads out with a flash.",
-        "Circuit's glass is lighter and less blurred by default, so the street comes through. It follows the panel's card controls (editor, Layers, card colour, opacity and blur) live, so the look can be tuned there; left at zero they mean…"
+        "Circuit: the glow on the gauge arcs is no longer cut off when the lit segment runs near vertical (the glow now has the whole panel to spread into)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.995",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.996/NovaPanel-patch-1.1.995-to-1.1.996.zip",
-        "size": 10910836,
-        "sha256": "e9513ed5eb439a887f81a980c502b964a053a7e116aaf941ff5b1beb01580f4a"
+        "from": "1.1.996",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.997/NovaPanel-patch-1.1.996-to-1.1.997.zip",
+        "size": 10910977,
+        "sha256": "28ed550c201123572218b5a70da99335e8f90792d735b9a87eef9cc823b4b5d1"
     }
 }
