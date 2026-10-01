@@ -1,14 +1,14 @@
 {
-    "version": "1.1.985",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.985/NovaPanel-v1.1.985.zip",
+    "version": "1.1.986",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.986/NovaPanel-v1.1.986.zip",
     "notes": [
-        "A portal sized to its display's full height (or width) now reaches the edge (CEO 2026-10-01: \"it didn't span to the top... always staying like 100px from the top\"). Three things held it back. Windows caps a new window to the primary…"
+        "Hollow: on ultra-tall screens the weather sits further below the time and countdown (CEO 2026-10-01). The readings are larger: the stacked readings on ultra-tall screens, and the readings line on every other shape."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.984",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.985/NovaPanel-patch-1.1.984-to-1.1.985.zip",
-        "size": 10695415,
-        "sha256": "4ed4f71d76fc819a3b064dd4e845beb4c10232c5e4d2506d87f96e00ea9424b6"
+        "from": "1.1.985",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.986/NovaPanel-patch-1.1.985-to-1.1.986.zip",
+        "size": 10695581,
+        "sha256": "9a384bd628cd2f72613ace7bd5aeb7ab4d47168c14605879f89a7b3b1801fb78"
     }
 }
