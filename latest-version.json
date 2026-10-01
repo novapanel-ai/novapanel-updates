@@ -1,14 +1,14 @@
 {
-    "version": "1.1.982",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.982/NovaPanel-v1.1.982.zip",
+    "version": "1.1.983",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.983/NovaPanel-v1.1.983.zip",
     "notes": [
-        "Hollow's Halloween countdown stays orange when a part runs hot (CEO 2026-10-01: \"that shouldn't change\"). Only the hot reading itself turns red."
+        "Hollow's readings-first style is renamed \"Readings\" (was \"Vigil\"), because a theme called Vigil is coming. A portal already set to the old name keeps working."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.981",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.982/NovaPanel-patch-1.1.981-to-1.1.982.zip",
-        "size": 10692142,
-        "sha256": "d41ef853c4467e7b8e1946418d490b7d0f7346364ca5efb9a428b4f9131ac021"
+        "from": "1.1.982",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.983/NovaPanel-patch-1.1.982-to-1.1.983.zip",
+        "size": 10692271,
+        "sha256": "096552fa30dbf5c28a59763b44d99e3ba020a2ada505f68827664c89121cac04"
     }
 }
