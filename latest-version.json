@@ -1,14 +1,16 @@
 {
-    "version": "1.1.995",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.995/NovaPanel-v1.1.995.zip",
+    "version": "1.1.996",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.996/NovaPanel-v1.1.996.zip",
     "notes": [
-        "The Control Panel and the Panel Editors stay above the portals (CEO 2026-10-01: \"Omen ALWAYS sits over the CP and sometimes the editor\"). While open they are always-on-top too, and whenever a portal is shown, clicked or re-pinned on top…"
+        "A portal as tall (or wide) as its display stays flush on its edges (CEO 2026-10-01: \"its doing that thing again with not going to the top\"). Measured live: his Omen's window had come to rest on the display top, which left the visible…",
+        "Circuit's nodes on the circuit lines pulse now and then, each on its own random clock: a ring spreads out with a flash.",
+        "Circuit's glass is lighter and less blurred by default, so the street comes through. It follows the panel's card controls (editor, Layers, card colour, opacity and blur) live, so the look can be tuned there; left at zero they mean…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.994",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.995/NovaPanel-patch-1.1.994-to-1.1.995.zip",
-        "size": 10908025,
-        "sha256": "0693668e459af5d15455c71b5fb864dd581d210ed823d1187540415ca32e6c76"
+        "from": "1.1.995",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.996/NovaPanel-patch-1.1.995-to-1.1.996.zip",
+        "size": 10910836,
+        "sha256": "e9513ed5eb439a887f81a980c502b964a053a7e116aaf941ff5b1beb01580f4a"
     }
 }
