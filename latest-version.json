@@ -1,14 +1,15 @@
 {
-    "version": "1.1.983",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.983/NovaPanel-v1.1.983.zip",
+    "version": "1.1.984",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.984/NovaPanel-v1.1.984.zip",
     "notes": [
-        "Hollow's readings-first style is renamed \"Readings\" (was \"Vigil\"), because a theme called Vigil is coming. A portal already set to the old name keeps working."
+        "Panel Editor Resolution: Custom works again (CEO 2026-10-01). Its inputs had been lost in an earlier editor rebuild, so the button opened an empty panel. It is now a width and a height box with Apply (Enter also applies), and the right…",
+        "New \"Match monitor height\" in Ultratall and Portrait keeps the current width and takes the monitor's full height. New \"Match monitor width\" in Ultrawide and Landscape keeps the current height and takes the full width. Both use the panel's…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.982",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.983/NovaPanel-patch-1.1.982-to-1.1.983.zip",
-        "size": 10692271,
-        "sha256": "096552fa30dbf5c28a59763b44d99e3ba020a2ada505f68827664c89121cac04"
+        "from": "1.1.983",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.984/NovaPanel-patch-1.1.983-to-1.1.984.zip",
+        "size": 10694019,
+        "sha256": "733c338aa880ed5d3e3ce0ff87c4605b056a2a8571f6a4f6b1f0d82e74efd00b"
     }
 }
