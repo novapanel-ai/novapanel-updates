@@ -1,18 +1,17 @@
 {
-    "version": "1.1.955",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.955/NovaPanel-v1.1.955.zip",
+    "version": "1.1.956",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.956/NovaPanel-v1.1.956.zip",
     "notes": [
-        "Mirage looks reworked from the CEO's needs-work notes, each fix made once in the shared drawing so every look built on it changes too (runes/watch-faces.js, datetime-variants.js, row.js, kit.js, weather.js).",
-        "Radio (Date / Time) and Time's wide Arc drew nothing: the AM/PM helper called itself. Both draw again.",
-        "No serif anywhere (\"i don't like this font it doesn't fit with anything\"): Numerals and the three In words faces (Time, Date, Day of week) set in the portal's font, each word sized to stay inside its disk.",
-        "Halftone (Date / Time and Weather) is a true halftone: a staggered grid over the whole disk with no hard edge inside the circle, heavier toward the light, fading out before the rim.",
-        "Card and the Date card are drawn larger, all of them (\"make all of this bigger\")."
+        "Electron 28.3.3 -> 36.9.5 (Chrome 136, Node 22.19), CEO 2026-09-30. The whole runtime is replaced: NovaPanel.exe and every Chromium file next to it.",
+        "Why: on Electron 36, Windows' own acrylic works on a frameless, transparent portal window (Capability Lab, ceo-files/FINDINGS-blur.md). On Electron 28 it painted flat gray. Portals still use frost; nothing turns the acrylic on yet.",
+        "The Electron upgrade itself changed no app code: no native modules, and no API the app uses was removed between 29 and 36.",
+        "Gauge (original) and Flow retired (CEO 2026-09-30, after reviewing them): both folders removed, with their THEME_ENTRIES, theme-cost and panel-capability entries; on every load main.js moves a config whose Hardware Panel names either one…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.954",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.955/NovaPanel-patch-1.1.954-to-1.1.955.zip",
-        "size": 9692626,
-        "sha256": "0c3953d2c912e43e5555d7f737f3e6e13a292d44662925eb6caad076a4b1c41c"
+        "from": "1.1.955",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.956/NovaPanel-patch-1.1.955-to-1.1.956.zip",
+        "size": 133251835,
+        "sha256": "6ef94c70dd5b8defec54941f4b7dc60a75ee0cba64f6d4095830e0bc4d1063e4"
     }
 }
