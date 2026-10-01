@@ -1,15 +1,14 @@
 {
-    "version": "1.1.959",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.959/NovaPanel-v1.1.959.zip",
+    "version": "1.1.960",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.960/NovaPanel-v1.1.960.zip",
     "notes": [
-        "Omen's right-click menu is back (CEO 2026-09-30): a full-screen experience leaves Omen no area outside its window drag region, and Windows took those right-clicks as its own; they now open Omen's menu.",
-        "Full screen no longer leaves a 1-pixel edge or a gray outline when Omen loses focus: Omen now fills its display without being made resizable, so Windows 11 draws no frame around it. Pressing it again returns Omen to its earlier size and…"
+        "Omen's Ledger: the Slate, Moss and Plum tints now color their section names and bars in their own blue, green and violet (CEO 2026-09-30), where all four used Bronze's gold."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.958",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.959/NovaPanel-patch-1.1.958-to-1.1.959.zip",
-        "size": 9518593,
-        "sha256": "d14c1b33d3ec5fee5f7a9e778bfc755bf40a0c798802488739d74c64e795d923"
+        "from": "1.1.959",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.960/NovaPanel-patch-1.1.959-to-1.1.960.zip",
+        "size": 9518747,
+        "sha256": "6e6c6449b7f752ae22665e21349d458eee13a6d11a16f52db8cce332fc5dc8fc"
     }
 }
