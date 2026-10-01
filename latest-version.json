@@ -1,15 +1,16 @@
 {
-    "version": "1.1.967",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.967/NovaPanel-v1.1.967.zip",
+    "version": "1.1.968",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.968/NovaPanel-v1.1.968.zip",
     "notes": [
-        "Omen experiences by tier (CEO 2026-09-30). Cantrip carries Helm, Helm Cards, Ember with Frost and Ultraviolet, Ledger in Bronze, Slate, Moss and Plum, IO, and Scope. Europa, Horizon, Thebe and every Arche style are Glamour and above. One…",
-        "On Cantrip a locked experience cannot be chosen, and a portal saved on one draws Helm instead. Its choice is kept, so it returns when the tier goes back up. The editor shows locked styles dimmed with their tier and updates when the tier…"
+        "New Omen experience: Hollow, the Halloween one (CEO 2026-09-30). The scene is a dark swamp at night: a hazy moon, bald cypress hung with moss rising out of the fog, still water holding their reflection, and reeds at the near edges.",
+        "Hollow moves at 15 fps, only while seen. Distant lights flicker and drift on the water, each with its reflection, and fog drifts past. Now and then a hooded ghost rises over the swamp and fades. More lights appear as the CPU works, they…",
+        "Hollow shows the time in hairline type, the date, the nights left until Halloween, and the readings as one quiet line along the water. It is in the editor, the experience menu and the portal. It is not on the Cantrip list, so it is Glamour…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.966",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.967/NovaPanel-patch-1.1.966-to-1.1.967.zip",
-        "size": 9531739,
-        "sha256": "3cf80504ac18d6940ac50cd8cf5dab8a231f1f67abc8be6e20cfbcd17d3b74a1"
+        "from": "1.1.967",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.968/NovaPanel-patch-1.1.967-to-1.1.968.zip",
+        "size": 9539788,
+        "sha256": "a23ad9401ed9994391edd311c1dfd23ece76565f28733418851e978a06232da8"
     }
 }
