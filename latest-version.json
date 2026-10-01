@@ -1,14 +1,15 @@
 {
-    "version": "1.1.986",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.986/NovaPanel-v1.1.986.zip",
+    "version": "1.1.987",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.987/NovaPanel-v1.1.987.zip",
     "notes": [
-        "Hollow: on ultra-tall screens the weather sits further below the time and countdown (CEO 2026-10-01). The readings are larger: the stacked readings on ultra-tall screens, and the readings line on every other shape."
+        "Hollow, checked on every shape (CEO 2026-10-01: \"go through every ratio and make sure all the changes apply\"). The tombstones and jack-o-lanterns are sized per shape and smaller on square. The weather stands on its own under the countdown…",
+        "Hollow's Readings style on square and tall: the countdown sits above the set pieces, the ghost is smaller and rises below the numbers, and the weather is larger on tall screens."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.985",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.986/NovaPanel-patch-1.1.985-to-1.1.986.zip",
-        "size": 10695581,
-        "sha256": "9a384bd628cd2f72613ace7bd5aeb7ab4d47168c14605879f89a7b3b1801fb78"
+        "from": "1.1.986",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.987/NovaPanel-patch-1.1.986-to-1.1.987.zip",
+        "size": 10696347,
+        "sha256": "fd36c6e13ac2f559e3c88f24ac2ad5a8283071365fd316861ee6b41dcc5b0b61"
     }
 }
