@@ -1,15 +1,17 @@
 {
-    "version": "1.1.971",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.971/NovaPanel-v1.1.971.zip",
+    "version": "1.1.972",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.972/NovaPanel-v1.1.972.zip",
     "notes": [
-        "Hollow's ghost is the CEO's carriage driver, cut from his ghost-carriage-driver.png with a traced, feathered outline and a key on the dark background (art/hollow-ghost.webp, 0.17 MB). The smoke tail is kept by its green.",
-        "The driver appears at either side of the open water, clear of the words. He fades in, drifts and bobs a little, flickers faintly and fades out, his smoke trailing into the water with a faint reflection. A second pass adds his own green…"
+        "Hollow's light reflections are a soft, wavering smear of light down the water, with no edge (CEO 2026-10-01: \"more blurred and less formed\").",
+        "Hollow's fog is denser and breathes, thickening and thinning slowly. About once a minute a thick wave rolls in across the swamp and passes.",
+        "Hollow's date, countdown and readings are set in Rubik Distressed, a cracked face (OFL), with the time still in blackletter.",
+        "New Hollow variant, Vigil: the readings large in blackletter across the swamp (processor, graphics, memory; in a game the frame rate and 1% low lead), with the time and date small above and the countdown and weather below. A hot part turns…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.970",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.971/NovaPanel-patch-1.1.970-to-1.1.971.zip",
-        "size": 10227516,
-        "sha256": "ae1371d587837111a7071cd8cde567d47f180194eb7e55733275cd5f417587f2"
+        "from": "1.1.971",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.972/NovaPanel-patch-1.1.971-to-1.1.972.zip",
+        "size": 10426726,
+        "sha256": "5017feccd96745d88c76eacc6907b961cd9e5f4f4171cc83c5def5e8c70f205b"
     }
 }
