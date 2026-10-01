@@ -1,16 +1,16 @@
 {
-    "version": "1.1.980",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.980/NovaPanel-v1.1.980.zip",
+    "version": "1.1.981",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.981/NovaPanel-v1.1.981.zip",
     "notes": [
-        "Hollow's tombstones and jack-o-lanterns are larger on tall screens, spanning the bottom edge (CEO 2026-10-01).",
-        "The tombstones' light no longer flickers like a candle. It breathes slowly, and glowing orbs in purple and orange rise from each stone, wander, swell and fade, lighting the dust as they pass.",
-        "The dust is visible: more motes, larger and brighter, the nearer ones with a soft bloom of the light they drift through."
+        "Hollow's dust is gentler: fewer motes, fainter, smaller (CEO 2026-10-01).",
+        "The orbs from the tombstones rise slowly, come less often and glow softer.",
+        "Ultra-tall screens: the tombstones and jack-o-lanterns are larger again and run a little off the sides. The readings stack one to a line in larger type above them, and the weather stands on its own under the countdown (temperature in…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.979",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.980/NovaPanel-patch-1.1.979-to-1.1.980.zip",
-        "size": 10691559,
-        "sha256": "2eada0c0f0d99eef579fb8fccd29f8ccc9d012688b44da384188b5f1960e87f8"
+        "from": "1.1.980",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.981/NovaPanel-patch-1.1.980-to-1.1.981.zip",
+        "size": 10692058,
+        "sha256": "3fd33e02a6c71c69e7d29e0418a0a8f71fd29e28fe42a540f30b7f03bf03ebe2"
     }
 }
