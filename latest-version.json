@@ -1,14 +1,17 @@
 {
-    "version": "1.1.997",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.997/NovaPanel-v1.1.997.zip",
+    "version": "1.1.998",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.998/NovaPanel-v1.1.998.zip",
     "notes": [
-        "Circuit: the glow on the gauge arcs is no longer cut off when the lit segment runs near vertical (the glow now has the whole panel to spread into)."
+        "Omen editor, Position: the display list no longer sticks on \"Finding your displays\"; display and resolution now sit above the desktop map in one column instead of a separate band; the map, Now at and Width show the visible portal, not its…",
+        "Omen editor, Layout: the live preview is sized to fit and centered; choosing a style no longer scrolls the right panel back to the top.",
+        "Circuit: two new styles, Mono (black and white) and Glitch (green phosphor with scanlines, a rolling band and brief torn-band glitches every few seconds).",
+        "Helm, ultrawide: the CPU and GPU rings moved in from the panel edges, where their lit dot and glow touched the frame."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.996",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.997/NovaPanel-patch-1.1.996-to-1.1.997.zip",
-        "size": 10910977,
-        "sha256": "28ed550c201123572218b5a70da99335e8f90792d735b9a87eef9cc823b4b5d1"
+        "from": "1.1.997",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.998/NovaPanel-patch-1.1.997-to-1.1.998.zip",
+        "size": 10914257,
+        "sha256": "c6d5495ae0b50e0f8c25cf171a36f5cc17cac29133908cbf0757a4d4c1ee82af"
     }
 }
