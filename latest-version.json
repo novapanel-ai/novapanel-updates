@@ -1,16 +1,16 @@
 {
-    "version": "1.1.976",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.976/NovaPanel-v1.1.976.zip",
+    "version": "1.1.977",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.977/NovaPanel-v1.1.977.zip",
     "notes": [
-        "Hollow's tombstones stand up front in the near left corner, in the grass (CEO 2026-10-01: \"put them up front on the left in the grass\"). Their feet sink below the frame and a slice of the painting's own foreground grass is laid back over…",
-        "The stones' purple and orange lights dance: quick, uneven wavers, the light pools swaying, and the light spilling over the grass.",
-        "Dust drifts through the whole of Hollow and Vigil, each mote lit by whatever light is near it: moonlight high on the left, candle-orange by the lanterns, purple and orange by the stones, green by the ghost. Elsewhere it is nearly dark."
+        "Hollow's tombstones are lit by the scene (CEO 2026-10-01: \"blend them better\"). They are darker toward the top and on the side away from the moon, carry the swamp's green-grey with a faint cool rim from the moon, and have a contact shadow…",
+        "A silhouette of grass blades stands in front of the stones' feet, swaying a little, dark against their underlights.",
+        "Ultra-tall and other shapes: every set piece (ghost, stones, lanterns) is sized from the portal's height capped by its width, so on a tall screen they stay in proportion in the bottom corners instead of spilling past the edges. Hollow's…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.975",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.976/NovaPanel-patch-1.1.975-to-1.1.976.zip",
-        "size": 10777396,
-        "sha256": "d785a7e94b720619d47adc3e799108daedf126044cc6aefa63432f9e92730d98"
+        "from": "1.1.976",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.977/NovaPanel-patch-1.1.976-to-1.1.977.zip",
+        "size": 10779998,
+        "sha256": "1ce0d7617e4de7ef47b23fc1f6d10e4061005cb8daf8d43fe9c4bc16aa46928f"
     }
 }
