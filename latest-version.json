@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1022",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1022/NovaPanel-v1.1.1022.zip",
+    "version": "1.1.1023",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1023/NovaPanel-v1.1.1023.zip",
     "notes": [
-        "Round screens with \"Show only the circle\": the window buttons at the top right (minimize, maximize, close) show in full again. The clip is now the circle plus the buttons' own area, so they stay usable while everything else outside the…"
+        "Round screens with \"Show only the circle\": the window buttons' corner is now transparent until the pointer is over the portal. Hovering the circle shows the buttons and their corner; moving away hides them again. Before, that corner stayed…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1021",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1022/NovaPanel-patch-1.1.1021-to-1.1.1022.zip",
-        "size": 11134623,
-        "sha256": "78421e310d4ee74e3ea03c1e21e446039663fe2aaaceb4ab82ad7fc02ef85a8e"
+        "from": "1.1.1022",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1023/NovaPanel-patch-1.1.1022-to-1.1.1023.zip",
+        "size": 11135262,
+        "sha256": "22ffdfe0ff24918f87c583aceb030c02a30a1fbec289a3b698ba10e4f1487f2a"
     }
 }
