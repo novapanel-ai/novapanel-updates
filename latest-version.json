@@ -1,18 +1,14 @@
 {
-    "version": "1.1.1001",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1001/NovaPanel-v1.1.1001.zip",
+    "version": "1.1.1002",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1002/NovaPanel-v1.1.1002.zip",
     "notes": [
-        "Omen: new experience family Digital (the sci-fi game HUD style) with three styles, each laid out for every screen shape (24:9 such as the ROG XG129C, 4:1, 32:9, 16:9 and tall):",
-        "Console: a starship diagnostic console in teal: framed bays with storage and load columns, CPU and GPU clock and temperature tapes, a porthole with a ringed planet, chip dials, power and rail bars, network and weather; time, date, uptime…",
-        "Core: a violet, mint and pink reactor: a central CPU core (load blocks, the last minute of load around it), a GPU ring, the time as a scrolling heading strip, CPU and GPU temperatures as scrolling tapes on the edges, memory, storage, the…",
-        "Optic: monochrome with one red: two great tick-bar rings for CPU and GPU, the hour striped and color-split with the minutes beside it, dashed ladder rungs for memory, storage and network, status chips, and a cyberpunk layer (pixel blocks…",
-        "The readings feed now carries the PC uptime and its local network (LAN) address."
+        "Digital Console, tall screens: rebalanced. The two load gauges sit under the title with network, weather, power and storage beneath them; the porthole is centered on the screen with the time, date, uptime and IP address at its four…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1000",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1001/NovaPanel-patch-1.1.1000-to-1.1.1001.zip",
-        "size": 10929615,
-        "sha256": "3969d77a7ab07761180b5f671cbeaf5f09eb7ffbb77e47c23308728cb19272da"
+        "from": "1.1.1001",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1002/NovaPanel-patch-1.1.1001-to-1.1.1002.zip",
+        "size": 10930709,
+        "sha256": "428a6a778232c9c61ccfb70e68adecdaa2aea364b4fb4588f47d4dd3b8804f81"
     }
 }
