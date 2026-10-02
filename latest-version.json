@@ -1,14 +1,14 @@
 {
-    "version": "1.1.999",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.999/NovaPanel-v1.1.999.zip",
+    "version": "1.1.1000",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1000/NovaPanel-v1.1.1000.zip",
     "notes": [
-        "Circuit Mono and Circuit Glitch are now in Cantrip (the free tier); the other Circuit styles stay Glamour."
+        "Omen: no more thin line down the right edge at fractional display scaling (125%, 150%). The surface was a fraction of a pixel wider than the experience drawn on it; every experience now covers the full surface."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.998",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.999/NovaPanel-patch-1.1.998-to-1.1.999.zip",
-        "size": 10914351,
-        "sha256": "bce27249f9a99f99bf3b0f30ecb24b512be7ad73d2c6ec217e2b8256a5dd44ba"
+        "from": "1.1.999",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1000/NovaPanel-patch-1.1.999-to-1.1.1000.zip",
+        "size": 11117446,
+        "sha256": "63217ee0543b96a732ce5640a8c8b419f963ac10e29098cdde4eeb191e6ad1a3"
     }
 }
