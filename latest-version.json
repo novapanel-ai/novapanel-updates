@@ -1,14 +1,18 @@
 {
-    "version": "1.1.1005",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1005/NovaPanel-v1.1.1005.zip",
+    "version": "1.1.1006",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1006/NovaPanel-v1.1.1006.zip",
     "notes": [
-        "Digital Console: the porthole now shows the CEO's own planet artwork (a glowing banded gas giant with an asteroid belt) in place of the drawn planet."
+        "Omen on small screens: every experience now has a compact layout for screens with a short side of 480 or less (3.5\" and 5\" USB screens, AIO pump heads). It shows by priority: the time, date and weather first, then each part's lead reading…",
+        "A dense design also switches to the compact layout on any screen where its own text would fall under 8 pixels.",
+        "Fixed: Console, Core and Optic took their wide-strip layout on any screen under 600 tall (such as 480×360).",
+        "Fixed on portrait monitors (1080×1920, 720×1280, 800×1280): Helm, Thebe, Ember, Horizon, Arche and IO were sized for narrow bars, so rings overlapped and the time ran off the top.",
+        "Fixed with extreme readings: Helm's three-digit temperature hit its degree mark; Europa, Circuit, Ember, IO and Hollow text collided on some sizes. Every experience is now checked at 35 sizes with typical and worst-case readings."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1004",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1005/NovaPanel-patch-1.1.1004-to-1.1.1005.zip",
-        "size": 10999062,
-        "sha256": "537bfd8e0f9be2288291319890b71ef42868619865ac2547cadd15c9f73e0837"
+        "from": "1.1.1005",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1006/NovaPanel-patch-1.1.1005-to-1.1.1006.zip",
+        "size": 11005921,
+        "sha256": "2c051490eac49ba2f18c3e5c91a1ac2919e55392a35cf2c49fa7af1dea897b85"
     }
 }
