@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1020",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1020/NovaPanel-v1.1.1020.zip",
+    "version": "1.1.1021",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1021/NovaPanel-v1.1.1021.zip",
     "notes": [
-        "The Control Panel can come in front of the Panel Editor again. Both stay above the portals, but whichever one you bring forward is now on top. Before, the editor was always put back in front, so the Control Panel only came forward after…",
-        "Omen tiers, as picked by the CEO on the tier page. Circuit Toxin, Solar and Plasma, Hairline and Glass (Ink and Snow) and Art Frame Mat are now Cantrip. Circuit Mono and Glitch move up to Glamour. Cantrip is now Velum (3), Hollow (2)…",
-        "The default Omen style is now Cards (Helm's card deck), and a portal saved on a style its tier does not carry draws Cards instead."
+        "Round screens: \"Show only the circle\" now really leaves only the circle. The panel was clipped, but the portal's background layers sit beside it and kept painting the square. The whole page is now cut to the panel's circle, and the corners…",
+        "Panel Editor, Position step, cleaned up into one order: Place on display, then Resolution (the current size on its heading line, then the shape and size choices, and the custom width × height as one short row), then Screen (square sizes…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1019",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1020/NovaPanel-patch-1.1.1019-to-1.1.1020.zip",
-        "size": 11131264,
-        "sha256": "0030ff36bc614209d77b8e2a0d1662e229d5506216946f3a9ef2fff389677cbf"
+        "from": "1.1.1020",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1021/NovaPanel-patch-1.1.1020-to-1.1.1021.zip",
+        "size": 11133858,
+        "sha256": "715f23ac1d7d30033791636909755fbc9b0221640180fc424c991bc5f638faf5"
     }
 }
