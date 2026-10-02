@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1008",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1008/NovaPanel-v1.1.1008.zip",
+    "version": "1.1.1009",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1009/NovaPanel-v1.1.1009.zip",
     "notes": [
-        "Fixed: bars (such as 462×1920 and 1920×462) could fall back to the small-screen design when a few of their labels were under 8 pixels. A bar now always keeps its own full layout.",
-        "Velum on tall screens (462×1920 to 1080×1920): Atelier stacks top to bottom (header, the gold ring large and centred, the last minutes as a full-width curve, the three columns at the foot); Chapter reads top to bottom (the lit part in…",
-        "Console: the top readout labels are a step larger."
+        "Digital Console: more Starfield-style linework in the background: a second chamfered frame with notched breaks and triangle markers, tick ladders down both edges, hatched blocks in the lower corners, header rules that step out from the…",
+        "Velum Atelier, tall screens: the three readings at the foot are sized to their rows (they overlapped at 1080×1920)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1007",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1008/NovaPanel-patch-1.1.1007-to-1.1.1008.zip",
-        "size": 11016078,
-        "sha256": "15d0273591eb4186c928f2814224e466bf3875eb00e8c89cb3aa4a1b1b7bb151"
+        "from": "1.1.1008",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1009/NovaPanel-patch-1.1.1008-to-1.1.1009.zip",
+        "size": 11016949,
+        "sha256": "441b03c300385bd908a32f7378a9edd804d18d067f3fc755e26d2c55c0e0d5ed"
     }
 }
