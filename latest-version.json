@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1002",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1002/NovaPanel-v1.1.1002.zip",
+    "version": "1.1.1003",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1003/NovaPanel-v1.1.1003.zip",
     "notes": [
-        "Digital Console, tall screens: rebalanced. The two load gauges sit under the title with network, weather, power and storage beneath them; the porthole is centered on the screen with the time, date, uptime and IP address at its four…"
+        "Digital Console, wider portrait screens (such as 1080×1920 and 720×1280): a layout of their own. Storage, CPU and GPU tapes and load bays across the top, then power, network and rail; at the center a deck with the porthole between the two…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1001",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1002/NovaPanel-patch-1.1.1001-to-1.1.1002.zip",
-        "size": 10930709,
-        "sha256": "428a6a778232c9c61ccfb70e68adecdaa2aea364b4fb4588f47d4dd3b8804f81"
+        "from": "1.1.1002",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1003/NovaPanel-patch-1.1.1002-to-1.1.1003.zip",
+        "size": 10931492,
+        "sha256": "49918c37cc14219628f749c46de48c4792e079aaa21a5f6bc17dcb61b37406ff"
     }
 }
