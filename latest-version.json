@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1009",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1009/NovaPanel-v1.1.1009.zip",
+    "version": "1.1.1010",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1010/NovaPanel-v1.1.1010.zip",
     "notes": [
-        "Digital Console: more Starfield-style linework in the background: a second chamfered frame with notched breaks and triangle markers, tick ladders down both edges, hatched blocks in the lower corners, header rules that step out from the…",
-        "Velum Atelier, tall screens: the three readings at the foot are sized to their rows (they overlapped at 1080×1920)."
+        "Omen: new experience family Chassis (the cyberpunk style). Chassis in Acid, Synth and Alert: a machined frame with hatched rails and dot ladders, every part in its own tabbed module with our own line drawing and a seven-segment LCD box…",
+        "Both are laid out for every screen shape, with their own small-screen designs: Chassis shows its TIME module with CPU and GPU LCD boxes; Datasheet shows one card with the time in its header, the CPU ring and the minute graph."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1008",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1009/NovaPanel-patch-1.1.1008-to-1.1.1009.zip",
-        "size": 11016949,
-        "sha256": "441b03c300385bd908a32f7378a9edd804d18d067f3fc755e26d2c55c0e0d5ed"
+        "from": "1.1.1009",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1010/NovaPanel-patch-1.1.1009-to-1.1.1010.zip",
+        "size": 11027175,
+        "sha256": "cda21b69d29028f12ed694b5d854a97daaf2fed687c1c9a1a2f9aa21e5c7174b"
     }
 }
