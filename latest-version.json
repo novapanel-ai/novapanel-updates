@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1017",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1017/NovaPanel-v1.1.1017.zip",
+    "version": "1.1.1018",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1018/NovaPanel-v1.1.1018.zip",
     "notes": [
-        "Control Panel: new Knowledge tab (god mode only, removed at every other tier). The roadmap is rendered on the left; every document in ceo-files (plus Theme Kits, Market panels, Design, Done and Current state) is listed on the right, read…",
-        "Documents open in one reused Knowledge window: markdown rendered, HTML as a page, CSV as a table, pictures as a picture. Its Knowledge button returns to the tab. Each document runs sandboxed with no access to Sigil and no network except…",
-        "The library is never packaged: a new build gate fails any build whose app contains ceo-files or governance, and main refuses every library request below god mode. The markdown renderer is now shared with the open-doc launcher."
+        "Omen: every style is now matched to round screens. On a panel set Round in Position, each style draws its own centered design at any size, from a 240 pump head up to 1080: Console's porthole, Ember's time, Arche's dial and so on. The…",
+        "No square card sits inside a circle. Cards' time card becomes a pill and its gauges discs. Glass and Datasheet cards become discs. Circuit's neon card becomes a disc with its light bars as arcs on the rim. Chassis's module becomes a round…",
+        "Fixes found on the way: IO's big \"running hot\" figure no longer covers the memory block at 1024x768, and its stats no longer run together at 1280x400. Horizon's label clears a three-digit hot reading. Ember leaves out a weather word that…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1016",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1017/NovaPanel-patch-1.1.1016-to-1.1.1017.zip",
-        "size": 11127295,
-        "sha256": "0dfdc024fd83e515b1abd361db632de0e1711d9376ec9c41c6cded4daa1ac9c9"
+        "from": "1.1.1017",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1018/NovaPanel-patch-1.1.1017-to-1.1.1018.zip",
+        "size": 11128891,
+        "sha256": "4e8a15e0999028f5f333224a52d89bce9f1dc6893396d083f0fbd8932c7b9deb"
     }
 }
