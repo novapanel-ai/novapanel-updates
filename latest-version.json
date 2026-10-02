@@ -1,18 +1,15 @@
 {
-    "version": "1.1.1013",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1013/NovaPanel-v1.1.1013.zip",
+    "version": "1.1.1014",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1014/NovaPanel-v1.1.1014.zip",
     "notes": [
-        "Omen: portrait screens (a portable monitor stood on its end, 9:16, from 600×1024 to 1440×2560) get their own layouts. Before, most styles drew a narrow column down the middle with the sides bare.",
-        "Clean Mono: Hairline puts the time across the full width, with six sections two by two (memory, power and network added). Glass is one grid of two columns where cards side by side share their height, with Outside and Uptime cards. Dial…",
-        "Chassis: the parts two by two, the emblem plate across both columns. Core: the time large, the reactor between its temperature tapes, the rest in pairs. Optic: the two rings side by side. Console: every row at one scale, so the bays no…",
-        "Arche and Helm: dials and gauges as large as the width allows. Cards: two by two. Horizon: the time large at the top right. Velum: Atelier sets its three readings side by side, Marque sizes its type for the screen, and Chapter's detail…",
-        "Every row on these pages is spaced evenly: the same air between the rows as above and below them."
+        "Panels can now be as small as 240×240, as the Position step promises. The window was held to at least 320×240, and on a scaled display (125%) to 320 scaled pixels, so a 240×240 choice opened at about 4:3 while the editor said 240×240. A…",
+        "Omen weather: where a condition is cut to one word, the word that names the weather is kept, not its qualifier. \"Partly cloudy\" now reads Cloudy, \"Mostly clear\" Clear, \"Light rain showers\" Rain, and \"Thunderstorm with heavy hail\"…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1012",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1013/NovaPanel-patch-1.1.1012-to-1.1.1013.zip",
-        "size": 11041619,
-        "sha256": "54888075092c39e7253e86d4a2b421fc672ba2cc3360581faeb778e05f251f3d"
+        "from": "1.1.1013",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1014/NovaPanel-patch-1.1.1013-to-1.1.1014.zip",
+        "size": 11043832,
+        "sha256": "9923085b90067c4bec3baadd052bc1c18327c1b162ebd7dbe1474c43f74f7afc"
     }
 }
