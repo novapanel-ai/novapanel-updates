@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1018",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1018/NovaPanel-v1.1.1018.zip",
+    "version": "1.1.1019",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1019/NovaPanel-v1.1.1019.zip",
     "notes": [
-        "Omen: every style is now matched to round screens. On a panel set Round in Position, each style draws its own centered design at any size, from a 240 pump head up to 1080: Console's porthole, Ember's time, Arche's dial and so on. The…",
-        "No square card sits inside a circle. Cards' time card becomes a pill and its gauges discs. Glass and Datasheet cards become discs. Circuit's neon card becomes a disc with its light bars as arcs on the rim. Chassis's module becomes a round…",
-        "Fixes found on the way: IO's big \"running hot\" figure no longer covers the memory block at 1024x768, and its stats no longer run together at 1280x400. Horizon's label clears a three-digit hot reading. Ember leaves out a weather word that…"
+        "Round screens: a new switch under Round in the Panel Editor's Position step, \"Show only the circle\", on by default. On, the whole panel is clipped to its circle (background, border and shadow included), so on a desktop only the circle…",
+        "Round now applies only while the panel is square. A panel set Round and then resized to a rectangle draws as a rectangle, and turns round again when it is square."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1017",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1018/NovaPanel-patch-1.1.1017-to-1.1.1018.zip",
-        "size": 11128891,
-        "sha256": "4e8a15e0999028f5f333224a52d89bce9f1dc6893396d083f0fbd8932c7b9deb"
+        "from": "1.1.1018",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1019/NovaPanel-patch-1.1.1018-to-1.1.1019.zip",
+        "size": 11129646,
+        "sha256": "8ccd068d2ce84d9be4e4d9338275bb29bd61672497e95a8bb60c42bede4541a5"
     }
 }
