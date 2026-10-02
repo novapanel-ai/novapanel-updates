@@ -1,15 +1,17 @@
 {
-    "version": "1.1.1015",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1015/NovaPanel-v1.1.1015.zip",
+    "version": "1.1.1016",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1016/NovaPanel-v1.1.1016.zip",
     "notes": [
-        "Omen: every style except Art Frame now shows the board reading, third in the priority after CPU and GPU. On a laptop this is the battery: its charge, and whether it is on battery or plugged in. Where a design had no room, the battery takes…",
-        "A desktop, with no battery, keeps the network in that seat. Its motherboard temperature will take the slot once the sensor set reads one."
+        "Omen: new experience family Nothing, after the Nothing phone's design language: round-dot type (Doto, open-licensed), white rounded cards, segmented capsule bars, dashed outlines and halftone-dot discs. Glyph is the lock screen: the time…",
+        "Every Nothing style is laid out for every screen shape, from 240x240 up through bars, 16:9 and portrait, with its own small-screen design: Glyph is the time alone, Widgets one white clock card, and Ring the ring itself.",
+        "Round screens: a square panel can now be set Round in the Panel Editor's Position step (the Screen row appears for square sizes). The panel is then clipped to a circle, and a style that knows the shape draws for the circle. All three…",
+        "Fonts: Doto and Inter (both SIL Open Font License) are bundled with the experiences."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1014",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1015/NovaPanel-patch-1.1.1014-to-1.1.1015.zip",
-        "size": 11046274,
-        "sha256": "6000a3cf3a4d1bc3e4b8233171f573c8fdda901ff68f7e8f4e63c81778bfd15d"
+        "from": "1.1.1015",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1016/NovaPanel-patch-1.1.1015-to-1.1.1016.zip",
+        "size": 11112946,
+        "sha256": "d5540ab89c4a23e80f4e7da6007c3cf2c59637ec94e2f1841f3af7c2ec02b6d9"
     }
 }
