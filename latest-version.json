@@ -1,17 +1,16 @@
 {
-    "version": "1.1.1007",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1007/NovaPanel-v1.1.1007.zip",
+    "version": "1.1.1008",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1008/NovaPanel-v1.1.1008.zip",
     "notes": [
-        "Omen on small screens (240×240 pump heads up to 5\" screens): every style now has its own small-screen design built around its signature, instead of one shared list. Console: the porthole fills the screen, the time on a plate across it.…",
-        "Ledger and Hollow Readings keep the plain priority list.",
-        "On 3:2, 5:3 and 2:3 screens the next readings in priority order fill the side or bottom strip, each in its style's own look.",
-        "A long weather condition is cut to its first word where a small screen has room for one word."
+        "Fixed: bars (such as 462×1920 and 1920×462) could fall back to the small-screen design when a few of their labels were under 8 pixels. A bar now always keeps its own full layout.",
+        "Velum on tall screens (462×1920 to 1080×1920): Atelier stacks top to bottom (header, the gold ring large and centred, the last minutes as a full-width curve, the three columns at the foot); Chapter reads top to bottom (the lit part in…",
+        "Console: the top readout labels are a step larger."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1006",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1007/NovaPanel-patch-1.1.1006-to-1.1.1007.zip",
-        "size": 11014352,
-        "sha256": "a0eaff51c8026fdee159595d9702932dae307ef3936394082c0525c0a96db7eb"
+        "from": "1.1.1007",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1008/NovaPanel-patch-1.1.1007-to-1.1.1008.zip",
+        "size": 11016078,
+        "sha256": "15d0273591eb4186c928f2814224e466bf3875eb00e8c89cb3aa4a1b1b7bb151"
     }
 }
