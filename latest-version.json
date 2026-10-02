@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1011",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1011/NovaPanel-v1.1.1011.zip",
+    "version": "1.1.1012",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1012/NovaPanel-v1.1.1012.zip",
     "notes": [
-        "Omen: new experience family Clean Mono, each style in Ink (dark) and Snow (white, the first white Omen experiences, for white builds). Hairline: bare type, the time large and light, four columns of readings under hairlines with one accent…",
-        "All six are laid out for every screen shape with their own small-screen designs: Hairline the time alone with two lead readings; Glass one card holding the CPU ring; Dial the dial itself."
+        "Omen: new experience family Art Frame, the picture first and the time second. The picture is your own: the Background image set in the Panel Editor's Layers step (our planet art until one is set), and the accent color is taken from it.…",
+        "All three are laid out for every screen shape, from 240×240 up."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1010",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1011/NovaPanel-patch-1.1.1010-to-1.1.1011.zip",
-        "size": 11033452,
-        "sha256": "805a029af64cf56d16537f4f7b231eee0c5383ecb12c8dbc74b6c6fdee2cf8bc"
+        "from": "1.1.1011",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1012/NovaPanel-patch-1.1.1011-to-1.1.1012.zip",
+        "size": 11037481,
+        "sha256": "6cc59399796c0a182e4c081b6111488af50dbd5ebd19c4e966c287b1146850f7"
     }
 }
