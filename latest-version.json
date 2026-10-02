@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1003",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1003/NovaPanel-v1.1.1003.zip",
+    "version": "1.1.1004",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1004/NovaPanel-v1.1.1004.zip",
     "notes": [
-        "Digital Console, wider portrait screens (such as 1080×1920 and 720×1280): a layout of their own. Storage, CPU and GPU tapes and load bays across the top, then power, network and rail; at the center a deck with the porthole between the two…"
+        "Digital Console: darker, deeper colors: a near-black slate ground, deeper teal, darker bays, porthole sky and planet."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1002",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1003/NovaPanel-patch-1.1.1002-to-1.1.1003.zip",
-        "size": 10931492,
-        "sha256": "49918c37cc14219628f749c46de48c4792e079aaa21a5f6bc17dcb61b37406ff"
+        "from": "1.1.1003",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1004/NovaPanel-patch-1.1.1003-to-1.1.1004.zip",
+        "size": 10931744,
+        "sha256": "1e81f345c8700d7130ac135061c3d2b762ee7fdcc3e5e2ccf9c48ba69acb4819"
     }
 }
