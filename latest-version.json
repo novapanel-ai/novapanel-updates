@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1004",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1004/NovaPanel-v1.1.1004.zip",
+    "version": "1.1.1005",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1005/NovaPanel-v1.1.1005.zip",
     "notes": [
-        "Digital Console: darker, deeper colors: a near-black slate ground, deeper teal, darker bays, porthole sky and planet."
+        "Digital Console: the porthole now shows the CEO's own planet artwork (a glowing banded gas giant with an asteroid belt) in place of the drawn planet."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1003",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1004/NovaPanel-patch-1.1.1003-to-1.1.1004.zip",
-        "size": 10931744,
-        "sha256": "1e81f345c8700d7130ac135061c3d2b762ee7fdcc3e5e2ccf9c48ba69acb4819"
+        "from": "1.1.1004",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1005/NovaPanel-patch-1.1.1004-to-1.1.1005.zip",
+        "size": 10999062,
+        "sha256": "537bfd8e0f9be2288291319890b71ef42868619865ac2547cadd15c9f73e0837"
     }
 }
