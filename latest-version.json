@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1014",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1014/NovaPanel-v1.1.1014.zip",
+    "version": "1.1.1015",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1015/NovaPanel-v1.1.1015.zip",
     "notes": [
-        "Panels can now be as small as 240×240, as the Position step promises. The window was held to at least 320×240, and on a scaled display (125%) to 320 scaled pixels, so a 240×240 choice opened at about 4:3 while the editor said 240×240. A…",
-        "Omen weather: where a condition is cut to one word, the word that names the weather is kept, not its qualifier. \"Partly cloudy\" now reads Cloudy, \"Mostly clear\" Clear, \"Light rain showers\" Rain, and \"Thunderstorm with heavy hail\"…"
+        "Omen: every style except Art Frame now shows the board reading, third in the priority after CPU and GPU. On a laptop this is the battery: its charge, and whether it is on battery or plugged in. Where a design had no room, the battery takes…",
+        "A desktop, with no battery, keeps the network in that seat. Its motherboard temperature will take the slot once the sensor set reads one."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1013",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1014/NovaPanel-patch-1.1.1013-to-1.1.1014.zip",
-        "size": 11043832,
-        "sha256": "9923085b90067c4bec3baadd052bc1c18327c1b162ebd7dbe1474c43f74f7afc"
+        "from": "1.1.1014",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1015/NovaPanel-patch-1.1.1014-to-1.1.1015.zip",
+        "size": 11046274,
+        "sha256": "6000a3cf3a4d1bc3e4b8233171f573c8fdda901ff68f7e8f4e63c81778bfd15d"
     }
 }
