@@ -1,17 +1,16 @@
 {
-    "version": "1.1.1016",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1016/NovaPanel-v1.1.1016.zip",
+    "version": "1.1.1017",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1017/NovaPanel-v1.1.1017.zip",
     "notes": [
-        "Omen: new experience family Nothing, after the Nothing phone's design language: round-dot type (Doto, open-licensed), white rounded cards, segmented capsule bars, dashed outlines and halftone-dot discs. Glyph is the lock screen: the time…",
-        "Every Nothing style is laid out for every screen shape, from 240x240 up through bars, 16:9 and portrait, with its own small-screen design: Glyph is the time alone, Widgets one white clock card, and Ring the ring itself.",
-        "Round screens: a square panel can now be set Round in the Panel Editor's Position step (the Screen row appears for square sizes). The panel is then clipped to a circle, and a style that knows the shape draws for the circle. All three…",
-        "Fonts: Doto and Inter (both SIL Open Font License) are bundled with the experiences."
+        "Control Panel: new Knowledge tab (god mode only, removed at every other tier). The roadmap is rendered on the left; every document in ceo-files (plus Theme Kits, Market panels, Design, Done and Current state) is listed on the right, read…",
+        "Documents open in one reused Knowledge window: markdown rendered, HTML as a page, CSV as a table, pictures as a picture. Its Knowledge button returns to the tab. Each document runs sandboxed with no access to Sigil and no network except…",
+        "The library is never packaged: a new build gate fails any build whose app contains ceo-files or governance, and main refuses every library request below god mode. The markdown renderer is now shared with the open-doc launcher."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1015",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1016/NovaPanel-patch-1.1.1015-to-1.1.1016.zip",
-        "size": 11112946,
-        "sha256": "d5540ab89c4a23e80f4e7da6007c3cf2c59637ec94e2f1841f3af7c2ec02b6d9"
+        "from": "1.1.1016",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1017/NovaPanel-patch-1.1.1016-to-1.1.1017.zip",
+        "size": 11127295,
+        "sha256": "0dfdc024fd83e515b1abd361db632de0e1711d9376ec9c41c6cded4daa1ac9c9"
     }
 }
