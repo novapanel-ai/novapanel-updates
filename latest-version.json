@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1023",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1023/NovaPanel-v1.1.1023.zip",
+    "version": "1.1.1024",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1024/NovaPanel-v1.1.1024.zip",
     "notes": [
-        "Round screens with \"Show only the circle\": the window buttons' corner is now transparent until the pointer is over the portal. Hovering the circle shows the buttons and their corner; moving away hides them again. Before, that corner stayed…"
+        "New: Night mode for Omen portals, free for everyone (Cantrip). It dims the whole portal by a chosen amount, keeping the theme's colors, so a screen under your main monitor does not glare while you game.",
+        "Control Panel, Portals tab: the selected Omen portal's pane has a Night mode section. \"On now\", plus \"Turn on by itself\" options: When gaming (while a game is running), Dusk to dawn (sunset to sunrise at your weather location, or 8 pm to 6…",
+        "Touch screens: touch the portal and a moon button appears for a few seconds. Tap it for a brightness slider; dragging it dims the portal right away and saves the setting."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1022",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1023/NovaPanel-patch-1.1.1022-to-1.1.1023.zip",
-        "size": 11135262,
-        "sha256": "22ffdfe0ff24918f87c583aceb030c02a30a1fbec289a3b698ba10e4f1487f2a"
+        "from": "1.1.1023",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1024/NovaPanel-patch-1.1.1023-to-1.1.1024.zip",
+        "size": 11139501,
+        "sha256": "6814d32d81f48325f2603b09113d01bc7178ecfcaa3439ba31247e4bd78de676"
     }
 }
