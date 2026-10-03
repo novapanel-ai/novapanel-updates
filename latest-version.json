@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1027",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1027/NovaPanel-v1.1.1027.zip",
+    "version": "1.1.1028",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1028/NovaPanel-v1.1.1028.zip",
     "notes": [
-        "Touch screens: a portal on a screen Windows has set up for touch (Tablet PC Settings, Setup; the Corsair Xeneon Edge for one) now takes taps. Before, every tap became an attempt to move the window, so the night control and other taps never…",
-        "Omen night mode on a touch screen: tap the portal and the moon appears; tap it for the brightness slider and drag.",
-        "The moon and its slider no longer move the window when clicked with a mouse."
+        "New: the touch menu for Omen portals. On a touch screen, press and hold the portal and a strip of styles rises from the bottom. Each picture is that style drawn live with your own readings. Tap one and the portal changes; tap the style…",
+        "Under the strip: Night (the brightness slider), Editor, Control Panel and Close portal, each a fingertip-sized button. Tap above the strip, or leave it for half a minute, to put it away. A mouse keeps the right-click menu.",
+        "The Panel Editor and the portal now read one shared list of styles, so both always offer the same ones."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1026",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1027/NovaPanel-patch-1.1.1026-to-1.1.1027.zip",
-        "size": 11143437,
-        "sha256": "b8c1145171cbc256a7703a8d9da633dd0fc69562fd9325cf38a447729ec84ad7"
+        "from": "1.1.1027",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1028/NovaPanel-patch-1.1.1027-to-1.1.1028.zip",
+        "size": 11149510,
+        "sha256": "46a717f3fa9a35d6229bb2497d2005aa4392ea4cd7668e1f737315b31e4e0fec"
     }
 }
