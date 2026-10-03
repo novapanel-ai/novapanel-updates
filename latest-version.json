@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1029",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1029/NovaPanel-v1.1.1029.zip",
+    "version": "1.1.1030",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1030/NovaPanel-v1.1.1030.zip",
     "notes": [
-        "Touch menu: a Done button at the far right puts the menu away. Close portal moved in with the other actions as a quieter power button, so it is not mistaken for closing the menu."
+        "Start with Windows is written and removed only by the installed Sigil. A test or unpacked copy run on the same PC no longer replaces your startup entry with itself."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1028",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1029/NovaPanel-patch-1.1.1028-to-1.1.1029.zip",
-        "size": 11149816,
-        "sha256": "ad7e26c8343423e3a358e7702ab9a1cafe3f30e439d4cb8292fdebebdf4b39ee"
+        "from": "1.1.1029",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1030/NovaPanel-patch-1.1.1029-to-1.1.1030.zip",
+        "size": 11150319,
+        "sha256": "3e730d535a53e2871e8256da682209eca9999bcf5a7284ad33b7f4b1ceeebee8"
     }
 }
