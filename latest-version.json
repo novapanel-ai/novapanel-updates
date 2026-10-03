@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1024",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1024/NovaPanel-v1.1.1024.zip",
+    "version": "1.1.1025",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1025/NovaPanel-v1.1.1025.zip",
     "notes": [
-        "New: Night mode for Omen portals, free for everyone (Cantrip). It dims the whole portal by a chosen amount, keeping the theme's colors, so a screen under your main monitor does not glare while you game.",
-        "Control Panel, Portals tab: the selected Omen portal's pane has a Night mode section. \"On now\", plus \"Turn on by itself\" options: When gaming (while a game is running), Dusk to dawn (sunset to sunrise at your weather location, or 8 pm to 6…",
-        "Touch screens: touch the portal and a moon button appears for a few seconds. Tap it for a brightness slider; dragging it dims the portal right away and saves the setting."
+        "Fix: a portal on a screen that sleeps (Corsair Xeneon Edge and other displays that power off with the PC) no longer wakes up on the wrong screen. When Windows briefly moved the portal during display sleep or modern standby, that move was…",
+        "Fix: after that repair the portal keeps its exact size; it no longer grows a few pixels each sleep.",
+        "If your portal already ended up on another screen, place it once more (Panel Editor, Position, Place on display) and it will stay."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1023",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1024/NovaPanel-patch-1.1.1023-to-1.1.1024.zip",
-        "size": 11139501,
-        "sha256": "6814d32d81f48325f2603b09113d01bc7178ecfcaa3439ba31247e4bd78de676"
+        "from": "1.1.1024",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1025/NovaPanel-patch-1.1.1024-to-1.1.1025.zip",
+        "size": 11140722,
+        "sha256": "021ad23564badf0fa2223feb46aa78379d5438c6a822f5f88241e849299679e0"
     }
 }
