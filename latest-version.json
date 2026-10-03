@@ -1,16 +1,14 @@
 {
-    "version": "1.1.1025",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1025/NovaPanel-v1.1.1025.zip",
+    "version": "1.1.1026",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1026/NovaPanel-v1.1.1026.zip",
     "notes": [
-        "Fix: a portal on a screen that sleeps (Corsair Xeneon Edge and other displays that power off with the PC) no longer wakes up on the wrong screen. When Windows briefly moved the portal during display sleep or modern standby, that move was…",
-        "Fix: after that repair the portal keeps its exact size; it no longer grows a few pixels each sleep.",
-        "If your portal already ended up on another screen, place it once more (Panel Editor, Position, Place on display) and it will stay."
+        "Omen night mode: the moon button now also shows when the mouse moves over the portal, not only on a touch. Click or tap it to open the brightness slider; it hides again after a few seconds."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1024",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1025/NovaPanel-patch-1.1.1024-to-1.1.1025.zip",
-        "size": 11140722,
-        "sha256": "021ad23564badf0fa2223feb46aa78379d5438c6a822f5f88241e849299679e0"
+        "from": "1.1.1025",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1026/NovaPanel-patch-1.1.1025-to-1.1.1026.zip",
+        "size": 11141001,
+        "sha256": "e6a9b93b6205e7acd2b3a10c137addcdab457c1497f1a91521ad18f1c74983cb"
     }
 }
