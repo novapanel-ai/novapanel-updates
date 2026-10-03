@@ -1,16 +1,18 @@
 {
-    "version": "1.1.1032",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1032/NovaPanel-v1.1.1032.zip",
+    "version": "1.1.1033",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1033/NovaPanel-v1.1.1033.zip",
     "notes": [
-        "Fix: a portal placed to fill a screen set above 100% scale (125%, 150%, a 4K monitor) now comes back at full size after a restart and after sleep. Place on display saved its size in the wrong unit, and every start read it back two thirds…",
-        "Fix: the sleep repair added in 1.1.1025 shrank a portal on a scaled screen the same way. After a wake, the portal now takes exactly the size a fresh start gives it.",
-        "New for testing: scripts/placement-rig.js, the every-release proof that a portal stays on its screen. It shoves the portal the way Windows does during sleep, sends a wake and a screen change, restarts, and checks each time that the portal…"
+        "Fix: a minimized portal stays minimized until you bring it back. A check that every 5 seconds re-shows any open portal it cannot see treated a minimize as a fault and undid it. A portal Windows minimizes on its own as its screen goes away…",
+        "Fix: Omen opens on PCs set up before it had its own record. Open did nothing there, and Omen was missing from the Portals tab.",
+        "Fix: on PCs where an older version had switched the main portal to another theme (Fleet Command on one fleet machine), that portal is Omen again; the other theme keeps its own portal under Themes.",
+        "The Portals tab lists only portals. The retired classic Main Panel, which could not open but showed Open, Edit and Remove, is no longer listed.",
+        "scripts/placement-rig.js now also checks that a minimize stays for 60 seconds and that a minimize caused by a screen change is undone."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1031",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1032/NovaPanel-patch-1.1.1031-to-1.1.1032.zip",
-        "size": 11151481,
-        "sha256": "c4c35769a7e241763c741756617471c807eb6751b05b926b44359d410d9f4db3"
+        "from": "1.1.1032",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1033/NovaPanel-patch-1.1.1032-to-1.1.1033.zip",
+        "size": 11153017,
+        "sha256": "6ed7e1e425f779c8981640e6fa54242c7938608524335d628ed2e50136e9c26c"
     }
 }
