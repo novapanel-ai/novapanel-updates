@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1031",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1031/NovaPanel-v1.1.1031.zip",
+    "version": "1.1.1032",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1032/NovaPanel-v1.1.1032.zip",
     "notes": [
-        "Fix: the mouse rescue Sigil runs at start (it frees a mouse left confined by a crash during a game) now runs on installed copies. It was looked for inside the app archive, where Windows cannot start it, and failed on every machine."
+        "Fix: a portal placed to fill a screen set above 100% scale (125%, 150%, a 4K monitor) now comes back at full size after a restart and after sleep. Place on display saved its size in the wrong unit, and every start read it back two thirds…",
+        "Fix: the sleep repair added in 1.1.1025 shrank a portal on a scaled screen the same way. After a wake, the portal now takes exactly the size a fresh start gives it.",
+        "New for testing: scripts/placement-rig.js, the every-release proof that a portal stays on its screen. It shoves the portal the way Windows does during sleep, sends a wake and a screen change, restarts, and checks each time that the portal…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1030",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1031/NovaPanel-patch-1.1.1030-to-1.1.1031.zip",
-        "size": 11150639,
-        "sha256": "ac90d1df4d236ec53e70f65675e53ed6bd1d791699dcebe4c32d63fb26531f57"
+        "from": "1.1.1031",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1032/NovaPanel-patch-1.1.1031-to-1.1.1032.zip",
+        "size": 11151481,
+        "sha256": "c4c35769a7e241763c741756617471c807eb6751b05b926b44359d410d9f4db3"
     }
 }
