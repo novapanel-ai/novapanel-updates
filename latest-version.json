@@ -1,16 +1,14 @@
 {
-    "version": "1.1.1028",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1028/NovaPanel-v1.1.1028.zip",
+    "version": "1.1.1029",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1029/NovaPanel-v1.1.1029.zip",
     "notes": [
-        "New: the touch menu for Omen portals. On a touch screen, press and hold the portal and a strip of styles rises from the bottom. Each picture is that style drawn live with your own readings. Tap one and the portal changes; tap the style…",
-        "Under the strip: Night (the brightness slider), Editor, Control Panel and Close portal, each a fingertip-sized button. Tap above the strip, or leave it for half a minute, to put it away. A mouse keeps the right-click menu.",
-        "The Panel Editor and the portal now read one shared list of styles, so both always offer the same ones."
+        "Touch menu: a Done button at the far right puts the menu away. Close portal moved in with the other actions as a quieter power button, so it is not mistaken for closing the menu."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1027",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1028/NovaPanel-patch-1.1.1027-to-1.1.1028.zip",
-        "size": 11149510,
-        "sha256": "46a717f3fa9a35d6229bb2497d2005aa4392ea4cd7668e1f737315b31e4e0fec"
+        "from": "1.1.1028",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1029/NovaPanel-patch-1.1.1028-to-1.1.1029.zip",
+        "size": 11149816,
+        "sha256": "ad7e26c8343423e3a358e7702ab9a1cafe3f30e439d4cb8292fdebebdf4b39ee"
     }
 }
