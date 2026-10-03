@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1026",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1026/NovaPanel-v1.1.1026.zip",
+    "version": "1.1.1027",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1027/NovaPanel-v1.1.1027.zip",
     "notes": [
-        "Omen night mode: the moon button now also shows when the mouse moves over the portal, not only on a touch. Click or tap it to open the brightness slider; it hides again after a few seconds."
+        "Touch screens: a portal on a screen Windows has set up for touch (Tablet PC Settings, Setup; the Corsair Xeneon Edge for one) now takes taps. Before, every tap became an attempt to move the window, so the night control and other taps never…",
+        "Omen night mode on a touch screen: tap the portal and the moon appears; tap it for the brightness slider and drag.",
+        "The moon and its slider no longer move the window when clicked with a mouse."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1025",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1026/NovaPanel-patch-1.1.1025-to-1.1.1026.zip",
-        "size": 11141001,
-        "sha256": "e6a9b93b6205e7acd2b3a10c137addcdab457c1497f1a91521ad18f1c74983cb"
+        "from": "1.1.1026",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1027/NovaPanel-patch-1.1.1026-to-1.1.1027.zip",
+        "size": 11143437,
+        "sha256": "b8c1145171cbc256a7703a8d9da633dd0fc69562fd9325cf38a447729ec84ad7"
     }
 }
