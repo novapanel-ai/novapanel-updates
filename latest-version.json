@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1030",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1030/NovaPanel-v1.1.1030.zip",
+    "version": "1.1.1031",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1031/NovaPanel-v1.1.1031.zip",
     "notes": [
-        "Start with Windows is written and removed only by the installed Sigil. A test or unpacked copy run on the same PC no longer replaces your startup entry with itself."
+        "Fix: the mouse rescue Sigil runs at start (it frees a mouse left confined by a crash during a game) now runs on installed copies. It was looked for inside the app archive, where Windows cannot start it, and failed on every machine."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1029",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1030/NovaPanel-patch-1.1.1029-to-1.1.1030.zip",
-        "size": 11150319,
-        "sha256": "3e730d535a53e2871e8256da682209eca9999bcf5a7284ad33b7f4b1ceeebee8"
+        "from": "1.1.1030",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1031/NovaPanel-patch-1.1.1030-to-1.1.1031.zip",
+        "size": 11150639,
+        "sha256": "ac90d1df4d236ec53e70f65675e53ed6bd1d791699dcebe4c32d63fb26531f57"
     }
 }
