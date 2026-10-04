@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1040",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1040/NovaPanel-v1.1.1040.zip",
+    "version": "1.1.1041",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1041/NovaPanel-v1.1.1041.zip",
     "notes": [
-        "New (God Mode for now): the deck's first working runes, drawn in the style of the Omen beside them. Sound: drag the volume, mute the speakers or the microphone, see which device is playing. Media: what is playing in Spotify, a browser or…",
-        "Every deck button is at least a fingertip in size, however short its space."
+        "Fix: the Omen Settings header keeps its Control Panel button, the portal name and the close button on screen at any width. In a narrow editor (for example after moving it to a screen with a different scale) the tabs pushed them off the…",
+        "scripts/placement-rig.js checks that the editor's buttons are reachable at its narrowest width on every screen."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1039",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1040/NovaPanel-patch-1.1.1039-to-1.1.1040.zip",
-        "size": 11174910,
-        "sha256": "fbab4d93d89bae64c99cf56d3d60ec570bcb5e7c53fdaa59ffc9f897e9696d9b"
+        "from": "1.1.1040",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1041/NovaPanel-patch-1.1.1040-to-1.1.1041.zip",
+        "size": 11175459,
+        "sha256": "76a4d905c17c0478b7cac201cc6db0585bf1d2fd2d30b141acee55c0b954a2dc"
     }
 }
