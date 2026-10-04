@@ -1,16 +1,14 @@
 {
-    "version": "1.1.1034",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1034/NovaPanel-v1.1.1034.zip",
+    "version": "1.1.1035",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1035/NovaPanel-v1.1.1035.zip",
     "notes": [
-        "New: Demo mode for Omen (Omen Settings, Position, under OLED shift). When on, the portal shows each style your plan includes in turn: in order, or in Random order, changing every 30 seconds up to every hour. It never saves the styles it…",
-        "OLED shift is now on by default for Omen. A portal where you already turned it off keeps your choice. The shift also starts when a portal opens, not only when the setting is changed.",
-        "Fleet Command is listed under Themes in God Mode only."
+        "Fix: the log no longer reports a startup error that did not happen. Every start wrote \"[surface-orchestration-guard] skipped: startup-error\" even when the step it guards had finished normally; it now appears only when that step really…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1033",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1034/NovaPanel-patch-1.1.1033-to-1.1.1034.zip",
-        "size": 11155560,
-        "sha256": "d8802baaf2d555268fc3684555e93fa62604af631ea6b3feec998e4aed4f14af"
+        "from": "1.1.1034",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1035/NovaPanel-patch-1.1.1034-to-1.1.1035.zip",
+        "size": 11156133,
+        "sha256": "df8988569fbfb2183210788d55809205d5cc385d68cd219ce1e2cb8af8b5ba5d"
     }
 }
