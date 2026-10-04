@@ -1,14 +1,17 @@
 {
-    "version": "1.1.1035",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1035/NovaPanel-v1.1.1035.zip",
+    "version": "1.1.1036",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1036/NovaPanel-v1.1.1036.zip",
     "notes": [
-        "Fix: the log no longer reports a startup error that did not happen. Every start wrote \"[surface-orchestration-guard] skipped: startup-error\" even when the step it guards had finished normally; it now appears only when that step really…"
+        "Fix: full-screen portals stay full screen. OLED shift (on by default for Omen since 1.1.1034) moved each portal to a position it had recorded long before, which opened a gap along the top and left of a full-screen portal and let it drift…",
+        "Fix: portals no longer grow past the edge of their monitor. On screens above 100% scale each OLED shift and each full-screen exit grew the window by 1 to 3 pixels; the size is now held exactly, and leaving full screen returns to the size…",
+        "Fix: a full-screen portal keeps its whole display after sleep or a screen change, and after a restart. The full-screen button fills the display; pressed again it returns to the previous size. Place on display ends full screen first.",
+        "scripts/placement-rig.js now also checks OLED shift (size held, within 3 px, exact on off), full screen through OLED, a wake and a restart, and that repeated full-screen presses never grow the portal. It passes on 100%, 125% and 150%…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1034",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1035/NovaPanel-patch-1.1.1034-to-1.1.1035.zip",
-        "size": 11156133,
-        "sha256": "df8988569fbfb2183210788d55809205d5cc385d68cd219ce1e2cb8af8b5ba5d"
+        "from": "1.1.1035",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1036/NovaPanel-patch-1.1.1035-to-1.1.1036.zip",
+        "size": 11159273,
+        "sha256": "95392d729cb596205b80dc1ad4452a3d1d230f745d8ae388596d3faf342bb1f1"
     }
 }
