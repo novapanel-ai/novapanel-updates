@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1042",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1042/NovaPanel-v1.1.1042.zip",
+    "version": "1.1.1044",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1044/NovaPanel-v1.1.1044.zip",
     "notes": [
-        "New (God Mode for now): deck keys. A deck space with Shortcuts in its stack shows touch keys: play/pause, next, previous, volume up and down, mute, mic, lock, sleep, screenshot, any of the PC's power plans, and any saved shortcut (an app…",
-        "Key combinations, typed text, multi-step keys and folders of keys come in the next step."
+        "Release of the 1.1.1043 changes (one-click Stop for testers, with the test report posted automatically). 1.1.1043 itself was built but not published."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1041",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1042/NovaPanel-patch-1.1.1041-to-1.1.1042.zip",
-        "size": 11178792,
-        "sha256": "e4e60ecd22403906dbb46faa7af37e9011afc8ac4ce9d2b62cc29e46ba29fed7"
+        "from": "1.1.1043",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1044/NovaPanel-patch-1.1.1043-to-1.1.1044.zip",
+        "size": 11184705,
+        "sha256": "067da735013eeb93bd2343929cc965b46b89e139f71f9ac6fd6b88ff1798fbbf"
     }
 }
