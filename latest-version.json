@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1038",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1038/NovaPanel-v1.1.1038.zip",
+    "version": "1.1.1039",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1039/NovaPanel-v1.1.1039.zip",
     "notes": [
-        "New (God Mode for now): Split for Omen on wide screens such as the Xeneon Edge. Omen takes all of the screen, two thirds or one third, on the left or the right; the rest becomes a deck of touch spaces in one or two rows, drawn in the…",
-        "Also in this release: the Control Panel change built as 1.1.1037 (it no longer opens at start unless openControlPanelOnStart is set). 1.1.1037 itself was not published."
+        "New (God Mode for now): swipe stacks in Omen's deck. Each deck space holds one rune or a stack of them: swipe sideways on a touch screen (or drag with the mouse) to move to the next, with dots showing which one is up. A stack turns by…",
+        "The night-mode moon now sits under Omen's own part of the screen, not in the deck."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1037",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1038/NovaPanel-patch-1.1.1037-to-1.1.1038.zip",
-        "size": 11164609,
-        "sha256": "551fe6b923f07b8efd9d77cb9fbe42d8b0f540d3cc0dece381dee44a74fbdaf9"
+        "from": "1.1.1038",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1039/NovaPanel-patch-1.1.1038-to-1.1.1039.zip",
+        "size": 11168169,
+        "sha256": "b8ca2f1273049614a55aafac47f6ada338b0d066a093f89de64ae8b371e4b73b"
     }
 }
