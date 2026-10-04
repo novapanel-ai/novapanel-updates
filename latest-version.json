@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1039",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1039/NovaPanel-v1.1.1039.zip",
+    "version": "1.1.1040",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1040/NovaPanel-v1.1.1040.zip",
     "notes": [
-        "New (God Mode for now): swipe stacks in Omen's deck. Each deck space holds one rune or a stack of them: swipe sideways on a touch screen (or drag with the mouse) to move to the next, with dots showing which one is up. A stack turns by…",
-        "The night-mode moon now sits under Omen's own part of the screen, not in the deck."
+        "New (God Mode for now): the deck's first working runes, drawn in the style of the Omen beside them. Sound: drag the volume, mute the speakers or the microphone, see which device is playing. Media: what is playing in Spotify, a browser or…",
+        "Every deck button is at least a fingertip in size, however short its space."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1038",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1039/NovaPanel-patch-1.1.1038-to-1.1.1039.zip",
-        "size": 11168169,
-        "sha256": "b8ca2f1273049614a55aafac47f6ada338b0d066a093f89de64ae8b371e4b73b"
+        "from": "1.1.1039",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1040/NovaPanel-patch-1.1.1039-to-1.1.1040.zip",
+        "size": 11174910,
+        "sha256": "fbab4d93d89bae64c99cf56d3d60ec570bcb5e7c53fdaa59ffc9f897e9696d9b"
     }
 }
