@@ -1,14 +1,18 @@
 {
-    "version": "1.1.1049",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1049/NovaPanel-v1.1.1049.zip",
+    "version": "1.1.1050",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1050/NovaPanel-v1.1.1050.zip",
     "notes": [
-        "Fix: a shortcut whose name has a symbol such as ® or ™ shows that name correctly again. \"HWiNFO® 64\" had been saved as \"HWiNFOÃƒâ€šÃ‚Â® 64\", and its path was garbled the same way, so the shortcut could not open. The app repairs garbled…"
+        "New: the Omen editor has a Deck step (Position, Layout, Deck, Layers, Configure; God Mode for now). Pick a split (All Omen, Omen two thirds, Omen one third), Omen left or right, one or two rows; tap a space on the live picture to set what…",
+        "New: premade runes only: Sound, Media player, Power plan, Power buttons, Shortcuts and Web page. The Layout step no longer carries the split, spaces or key builder.",
+        "Change: the Shortcuts rune shows your saved shortcuts (set in the Control Panel), and says so when there are none.",
+        "New: Web page rune: Discord, Twitch chat, Twitch stream, YouTube or any https page, set on the Deck step; you sign in inside the page.",
+        "Change: the Cards deck draws its controls in the Omen's own form and line, with icons beside every word."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1048",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1049/NovaPanel-patch-1.1.1048-to-1.1.1049.zip",
-        "size": 11197693,
-        "sha256": "bbe36fca2271c72a8f6930a73187bbfb0658841bb6401d1fd95f0e091212081a"
+        "from": "1.1.1049",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1050/NovaPanel-patch-1.1.1049-to-1.1.1050.zip",
+        "size": 11212669,
+        "sha256": "2ea38922ee907e3635b211822e31ae92d7350c1e62748fc79492baf76aa5800f"
     }
 }
