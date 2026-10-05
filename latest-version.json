@@ -1,14 +1,15 @@
 {
-    "version": "1.1.1044",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1044/NovaPanel-v1.1.1044.zip",
+    "version": "1.1.1047",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1047/NovaPanel-v1.1.1047.zip",
     "notes": [
-        "Release of the 1.1.1043 changes (one-click Stop for testers, with the test report posted automatically). 1.1.1043 itself was built but not published."
+        "New (God Mode for now): typing keys in Omen's deck. A key can press a key combination (record it in Omen Settings by pressing the keys; the Windows key works too), type a piece of text (up to 500 characters, any language or symbol), run…",
+        "Also in this release: the 1.1.1045 and 1.1.1046 changes (the app reports its own crashes, unclean restarts, sensor drop-outs and failed updates to #fleet-events; planned restarts are not reported). Neither was published on its own."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1043",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1044/NovaPanel-patch-1.1.1043-to-1.1.1044.zip",
-        "size": 11184705,
-        "sha256": "067da735013eeb93bd2343929cc965b46b89e139f71f9ac6fd6b88ff1798fbbf"
+        "from": "1.1.1046",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1047/NovaPanel-patch-1.1.1046-to-1.1.1047.zip",
+        "size": 11192032,
+        "sha256": "110e05df42718633cfb21ceecaec33b6631ed8569e12a95089cd65f8dcea45de"
     }
 }
