@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1047",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1047/NovaPanel-v1.1.1047.zip",
+    "version": "1.1.1049",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1049/NovaPanel-v1.1.1049.zip",
     "notes": [
-        "New (God Mode for now): typing keys in Omen's deck. A key can press a key combination (record it in Omen Settings by pressing the keys; the Windows key works too), type a piece of text (up to 500 characters, any language or symbol), run…",
-        "Also in this release: the 1.1.1045 and 1.1.1046 changes (the app reports its own crashes, unclean restarts, sensor drop-outs and failed updates to #fleet-events; planned restarts are not reported). Neither was published on its own."
+        "Fix: a shortcut whose name has a symbol such as ® or ™ shows that name correctly again. \"HWiNFO® 64\" had been saved as \"HWiNFOÃƒâ€šÃ‚Â® 64\", and its path was garbled the same way, so the shortcut could not open. The app repairs garbled…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1046",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1047/NovaPanel-patch-1.1.1046-to-1.1.1047.zip",
-        "size": 11192032,
-        "sha256": "110e05df42718633cfb21ceecaec33b6631ed8569e12a95089cd65f8dcea45de"
+        "from": "1.1.1048",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1049/NovaPanel-patch-1.1.1048-to-1.1.1049.zip",
+        "size": 11197693,
+        "sha256": "bbe36fca2271c72a8f6930a73187bbfb0658841bb6401d1fd95f0e091212081a"
     }
 }
