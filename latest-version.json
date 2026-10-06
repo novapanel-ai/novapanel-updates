@@ -1,14 +1,17 @@
 {
-    "version": "1.1.1061",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1061/NovaPanel-v1.1.1061.zip",
+    "version": "1.1.1062",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1062/NovaPanel-v1.1.1062.zip",
     "notes": [
-        "Fix: on Omen's screen map, the 'Omen's screen' and 'Fallback' tags sit above their screen instead of covering its name (a short screen like the Xeneon Edge had its name hidden)."
+        "Fix: a portal saved by an older build on a PC whose display ids change across restarts (Blink) is no longer taken for 'away': the screen its saved spot is on is its home. It had been put at the main display's 1280x720 and re-centred at the…",
+        "Fix: the OLED shift no longer makes a portal creep or grow. It moves from the exact spot and size the portal was put at; each move used to start from where the last landed, and Windows' rounding at 125%/150% added up (1129x680 grew to…",
+        "Fix: coming home from a screen of another scale, a portal is checked again at 300 ms and 1.2 s and put back exactly (Windows re-places it a few px off as it crosses); a window Windows minimized on a screen change is put back in place when…",
+        "Proof: placement rig PASS on three screens here, with the 125% main display as home and with an extra screen as home."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1060",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1061/NovaPanel-patch-1.1.1060-to-1.1.1061.zip",
-        "size": 11233864,
-        "sha256": "dfd4cacd43061f746e4da72219ebf526be0bff3036fe1533dad84e2638d378cc"
+        "from": "1.1.1061",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1062/NovaPanel-patch-1.1.1061-to-1.1.1062.zip",
+        "size": 11236038,
+        "sha256": "c4144a368ccd7806bc725abd333aa1685d012b7a4d336589458b91e1bac09a09"
     }
 }
