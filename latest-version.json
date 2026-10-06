@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1060",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1060/NovaPanel-v1.1.1060.zip",
+    "version": "1.1.1061",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1061/NovaPanel-v1.1.1061.zip",
     "notes": [
-        "Fix: after a wake, a portal as tall as its screen's work area stays exactly where it was put. 1-2 px of rounding made it look too big for the spot and it was re-centred, 60 px from its place (real sleep test, Blink at 150%). Its spot is…"
+        "Fix: on Omen's screen map, the 'Omen's screen' and 'Fallback' tags sit above their screen instead of covering its name (a short screen like the Xeneon Edge had its name hidden)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1059",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1060/NovaPanel-patch-1.1.1059-to-1.1.1060.zip",
-        "size": 11233593,
-        "sha256": "d423881d8654628374bea35367ded133a787b3bbec866d93b4e02a866cf5f0e8"
+        "from": "1.1.1060",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1061/NovaPanel-patch-1.1.1060-to-1.1.1061.zip",
+        "size": 11233864,
+        "sha256": "dfd4cacd43061f746e4da72219ebf526be0bff3036fe1533dad84e2638d378cc"
     }
 }
