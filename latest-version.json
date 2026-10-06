@@ -1,16 +1,14 @@
 {
-    "version": "1.1.1070",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1070/NovaPanel-v1.1.1070.zip",
+    "version": "1.1.1071",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1071/NovaPanel-v1.1.1071.zip",
     "notes": [
-        "Change (CEO: the only variant should be a color change): Omen's themes are regrouped. A theme's styles now differ only in color; every other variant is its own theme: Marque, Chapter, Cards, Thebe, Europa, IO, Arche, Arche Phosphor…",
-        "Change (CEO: \"font variant is a setting anyway not a whole new theme\"): Arche's faces (Saira, Tektur, Kode Mono) are its Font setting in the editor's Layout step, drawn as pictures, applied on top of its color. A portal saved as Arche…",
-        "The Layout step says theme and colors: 'Pick a theme, then its color', a theme tile shows how many colors it has, and the touch menu's back tile reads All themes."
+        "Change (CEO: \"the screen effect is a variant keep those in the group\"): Arche's Phosphor and Circuit's Glitch are back among their theme's variants. 30 themes."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1069",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1070/NovaPanel-patch-1.1.1069-to-1.1.1070.zip",
-        "size": 11252729,
-        "sha256": "e84bc77de633d5e249d0cd68db6bc671651cf71acba87d3aed6d6c81a68b4bd7"
+        "from": "1.1.1070",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1071/NovaPanel-patch-1.1.1070-to-1.1.1071.zip",
+        "size": 11252586,
+        "sha256": "fb8d135906341a9a2dc734e971d4cb872a37145a6d2ed60c4fcc83ecaaa833b4"
     }
 }
