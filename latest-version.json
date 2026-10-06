@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1065",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1065/NovaPanel-v1.1.1065.zip",
+    "version": "1.1.1066",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1066/NovaPanel-v1.1.1066.zip",
     "notes": [
-        "Fix: when Windows takes a portal's screen away, the portal now goes to the screens that remain. Windows minimizes the portal just before it reports the change, so that minimize was taken for the user's and the portal stayed minimized for…"
+        "Change (approved ceo-files/PROPOSAL-omen-readings-grouped.png): Omen's readings are chosen the system way, replacing the toggle chips of 1.1.1064. In Layout, three choices, each a picture of your portal: group by Hardware or Sensor; how…",
+        "Rules: every part (CPU, GPU, Memory, Drive, Board) has a priority order; a new sensor has a slot in it and shows only when the preset reaches it; a group with one sensor is not shown as a group; a list (every core, fan, drive) is a reading…",
+        "Cards: by Hardware, each dial's line carries its part's next readings (e.g. GPU: load 0% · hotspot 71°), and a list the preset reaches gets a card; by Sensor, a card shows Temperatures, Loads, Power and so on in two columns, the rest…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1064",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1065/NovaPanel-patch-1.1.1064-to-1.1.1065.zip",
-        "size": 11243435,
-        "sha256": "fdea21877d30de4da4a6a59417d6cb5aa57fd88c67376f4fbef4dcb60c3fcd40"
+        "from": "1.1.1065",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1066/NovaPanel-patch-1.1.1065-to-1.1.1066.zip",
+        "size": 11249077,
+        "sha256": "5fcd4de5774594e4df4c1818f27990240cd05533ae6138ef43426e32502eb620"
     }
 }
