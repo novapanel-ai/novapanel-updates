@@ -1,16 +1,11 @@
 {
-    "version": "1.1.1052",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1052/NovaPanel-v1.1.1052.zip",
+    "version": "1.1.1053",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1053/NovaPanel-v1.1.1053.zip",
     "notes": [
-        "Change: the Omen editor's Deck step sets the sections first, then what goes in them. Sections: how much of the screen is Omen and which side (as pictures), then each column 1 high or 2 high, set under the picture. Fill: tap a section and…",
-        "New: Multi. Pick Multi and the section says Multi; the runes are offered again below, and the ones in it are dashed gold and numbered in swipe order.",
-        "New: Auto rotate for a Multi, every 5 seconds to 5 minutes."
+        "New: real CPU die temperature, per-core temperature and core power through the signed PawnIO driver, which Setup installs from our pinned copy. WinRing0 and NovaPowerBridge.exe are removed.",
+        "New: package power from Windows' own Energy Meter on every machine; GPU hotspot, memory junction, fan, voltage and VRAM; drive temperature and health; motherboard fans and board temperature where the chip is supported; a live CPU clock.",
+        "Change: the Windows ACPI temperature is no longer shown as the CPU temperature. A missing or blocked driver shows those readings as unavailable and reports one fleet event.",
+        "Fix: a drive whose hardware name is empty no longer makes the whole sensor batch unreadable."
     ],
-    "required": false,
-    "patch": {
-        "from": "1.1.1051",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1052/NovaPanel-patch-1.1.1051-to-1.1.1052.zip",
-        "size": 11216073,
-        "sha256": "60ffe5e23f711bfd5e910df3a13d299e1226fbb6d048366ad2e554c33f643981"
-    }
+    "required": false
 }
