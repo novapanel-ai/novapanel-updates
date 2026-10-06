@@ -1,17 +1,14 @@
 {
-    "version": "1.1.1064",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1064/NovaPanel-v1.1.1064.zip",
+    "version": "1.1.1065",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1065/NovaPanel-v1.1.1065.zip",
     "notes": [
-        "New (approved ceo-files/PROPOSAL-omen-new-sensors.png): the new sensors reach Omen. Where a PC has them, the CPU gauge shows a real temperature (the hottest core, on Intel laptops), and GPU hotspot, GPU memory, drive temperature and…",
-        "New: Readings in the Omen editor's Layout step: every reading this PC has, with its value now and NEW on the new ones; tap to show or hide.",
-        "New: Lists: every core's temperature or power, every fan, board temperature, rail and drive, as the machine names them, hottest first. A list switched on in Layout takes a card's place in Cards (as many rows as fit, then +N more).",
-        "Fix: the motherboard readings and the per-machine lists were dropped before they reached any portal (frame-source)."
+        "Fix: when Windows takes a portal's screen away, the portal now goes to the screens that remain. Windows minimizes the portal just before it reports the change, so that minimize was taken for the user's and the portal stayed minimized for…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1063",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1064/NovaPanel-patch-1.1.1063-to-1.1.1064.zip",
-        "size": 11242898,
-        "sha256": "77438cfaebf8a1e2f4210bd98c6467108c1a15e4ef1b5e6232cb04b4aa1d796a"
+        "from": "1.1.1064",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1065/NovaPanel-patch-1.1.1064-to-1.1.1065.zip",
+        "size": 11243435,
+        "sha256": "fdea21877d30de4da4a6a59417d6cb5aa57fd88c67376f4fbef4dcb60c3fcd40"
     }
 }
