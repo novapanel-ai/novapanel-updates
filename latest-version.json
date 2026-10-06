@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1054",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1054/NovaPanel-v1.1.1054.zip",
+    "version": "1.1.1055",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1055/NovaPanel-v1.1.1055.zip",
     "notes": [
-        "Fix: the sensor service costs less to leave running. The CPU is read every third second instead of every second (its driver call is slow), drive health every 30 seconds, and the board every third second; power still updates every second.",
-        "Fix: Setup no longer reports a false failure when the PawnIO driver is already installed."
+        "Fix: updating Sigil no longer stops part-way if the previous version's uninstaller fails. Setup now logs the failure and carries on, the uninstaller waits for the sensor service and ends the sensor bridge and old drivers before deleting…",
+        "Fix: the sensor panel no longer shows a CPU voltage that is a constant, rejects a GPU core voltage below 0.3 V, and no longer reports zero for CPU cores that are really idle."
     ],
     "required": false
 }
