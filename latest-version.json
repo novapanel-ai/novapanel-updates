@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1067",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1067/NovaPanel-v1.1.1067.zip",
+    "version": "1.1.1068",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1068/NovaPanel-v1.1.1068.zip",
     "notes": [
-        "Fix: a portal whose page process crashes comes back by itself: its page is loaded again a second later (at most 3 times a minute), instead of staying a dead window. Seen once on Blink right after an install; proved here by crashing the…"
+        "Diagnostics: the app writes why it exits (who asked it to quit, or that nobody did), and the log of a launch that ended in a crash or an unexpected exit is kept (panel-runtime-crash-*.log, the newest 5) instead of being rotated away. The…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1066",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1067/NovaPanel-patch-1.1.1066-to-1.1.1067.zip",
-        "size": 11249630,
-        "sha256": "3c30f0632514cfa119775dc26ace35eb18cef2a31230f215eb0bf692675787cb"
+        "from": "1.1.1067",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1068/NovaPanel-patch-1.1.1067-to-1.1.1068.zip",
+        "size": 11250424,
+        "sha256": "d42c8ba352f491106879d66b68d6c264d596efbdb0e1289445dc1ea19f499f0c"
     }
 }
