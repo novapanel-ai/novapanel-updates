@@ -1,14 +1,18 @@
 {
-    "version": "1.1.1058",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1058/NovaPanel-v1.1.1058.zip",
+    "version": "1.1.1059",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1059/NovaPanel-v1.1.1059.zip",
     "notes": [
-        "Fix: when a portal's screen comes back, the portal returns to its exact home spot at its home size. It had been placed using the smaller size it had while away, which pulled it in from its spot. Proved on Blink's two screens (150% and…"
+        "New: Omen's Position step shows a map of your screens: tap one to make it Omen's screen, pick the screen Omen uses when that one is missing (the main display by default), and see the size Omen keeps on each screen.",
+        "New (the screen and size law): a screen Omen has never been on starts full screen when it is an extra screen, and at 1280x720 on the main display (smaller if the display is). Every screen keeps the size Omen last had on it.",
+        "New: pressing full screen while Omen fills its screen gives half the screen at the same shape, centred; that becomes that screen's size.",
+        "Fix: a resize made outside the editor (full screen halved, a screen's own size) is no longer undone by the editor's next save.",
+        "Proof: placement rig PASS on three screens here (125%, 150%, 100%): fallback screen, then main display, home again at its size, half-size full screen."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1057",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1058/NovaPanel-patch-1.1.1057-to-1.1.1058.zip",
-        "size": 11225589,
-        "sha256": "befbb6925ab2406b5ab24b82c860cce6510a6b1ce858e3aad4ecbb4e0ad8af37"
+        "from": "1.1.1058",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1059/NovaPanel-patch-1.1.1058-to-1.1.1059.zip",
+        "size": 11233042,
+        "sha256": "be84d707c45b1fef2083958c6bdd647b5954446fdece1eec9800ad2cd363d86c"
     }
 }
