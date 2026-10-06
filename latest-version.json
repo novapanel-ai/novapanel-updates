@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1057",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1057/NovaPanel-v1.1.1057.zip",
+    "version": "1.1.1058",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1058/NovaPanel-v1.1.1058.zip",
     "notes": [
-        "Fix: Place on display works on a screen Sigil's saved monitor list had missed: it looks again before saying the screen is not there (found by the placement rig on Blink, where Omen stayed on the main display)."
+        "Fix: when a portal's screen comes back, the portal returns to its exact home spot at its home size. It had been placed using the smaller size it had while away, which pulled it in from its spot. Proved on Blink's two screens (150% and…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1056",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1057/NovaPanel-patch-1.1.1056-to-1.1.1057.zip",
-        "size": 11225002,
-        "sha256": "b4678bfc33b1bd943f417a9d8e6b6172c23c193f549c29bb9dd3f77e5a4391c2"
+        "from": "1.1.1057",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1058/NovaPanel-patch-1.1.1057-to-1.1.1058.zip",
+        "size": 11225589,
+        "sha256": "befbb6925ab2406b5ab24b82c860cce6510a6b1ce858e3aad4ecbb4e0ad8af37"
     }
 }
