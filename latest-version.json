@@ -1,17 +1,17 @@
 {
-    "version": "1.1.1062",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1062/NovaPanel-v1.1.1062.zip",
+    "version": "1.1.1063",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1063/NovaPanel-v1.1.1063.zip",
     "notes": [
-        "Fix: a portal saved by an older build on a PC whose display ids change across restarts (Blink) is no longer taken for 'away': the screen its saved spot is on is its home. It had been put at the main display's 1280x720 and re-centred at the…",
-        "Fix: the OLED shift no longer makes a portal creep or grow. It moves from the exact spot and size the portal was put at; each move used to start from where the last landed, and Windows' rounding at 125%/150% added up (1129x680 grew to…",
-        "Fix: coming home from a screen of another scale, a portal is checked again at 300 ms and 1.2 s and put back exactly (Windows re-places it a few px off as it crosses); a window Windows minimized on a screen change is put back in place when…",
-        "Proof: placement rig PASS on three screens here, with the 125% main display as home and with an extra screen as home."
+        "New: OLED shift is one Control Panel setting (Settings, next to Start with Windows), on by default for every portal, instead of a switch per portal. It moves a few pixels every 90 seconds, and the Control Panel and Panel Editor now say 90…",
+        "New: a theme marked god-only is hidden everywhere below God Mode and cannot be picked or opened: the Panel Editor theme picker, the Themes library, set-theme and open-theme all use one rule (themeAllowed). Fleet Command was the first; more…",
+        "Fix: the theme package validator now accepts the real tier ids (seer, creator, godmode; prime kept as the old alias for seer) and the window floor of 240x180 for a theme's default size; Blackfield's and Omen's own manifests now validate;…",
+        "Proof: cadence check, cost-policy test, package completeness and cost ratchet pass. The placement rig now drives the single OLED switch; a run on real screens is owed."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1061",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1062/NovaPanel-patch-1.1.1061-to-1.1.1062.zip",
-        "size": 11236038,
-        "sha256": "c4144a368ccd7806bc725abd333aa1685d012b7a4d336589458b91e1bac09a09"
+        "from": "1.1.1062",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1063/NovaPanel-patch-1.1.1062-to-1.1.1063.zip",
+        "size": 11241586,
+        "sha256": "31045f848e4195d911dc1f1283c3d97f070aa517fcdc3602b621f4d4683ee4ff"
     }
 }
