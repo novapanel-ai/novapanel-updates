@@ -1,11 +1,9 @@
 {
-    "version": "1.1.1053",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1053/NovaPanel-v1.1.1053.zip",
+    "version": "1.1.1054",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1054/NovaPanel-v1.1.1054.zip",
     "notes": [
-        "New: real CPU die temperature, per-core temperature and core power through the signed PawnIO driver, which Setup installs from our pinned copy. WinRing0 and NovaPowerBridge.exe are removed.",
-        "New: package power from Windows' own Energy Meter on every machine; GPU hotspot, memory junction, fan, voltage and VRAM; drive temperature and health; motherboard fans and board temperature where the chip is supported; a live CPU clock.",
-        "Change: the Windows ACPI temperature is no longer shown as the CPU temperature. A missing or blocked driver shows those readings as unavailable and reports one fleet event.",
-        "Fix: a drive whose hardware name is empty no longer makes the whole sensor batch unreadable."
+        "Fix: the sensor service costs less to leave running. The CPU is read every third second instead of every second (its driver call is slow), drive health every 30 seconds, and the board every third second; power still updates every second.",
+        "Fix: Setup no longer reports a false failure when the PawnIO driver is already installed."
     ],
     "required": false
 }
