@@ -1,18 +1,18 @@
 {
-    "version": "1.1.1073",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1073/NovaPanel-v1.1.1073.zip",
+    "version": "1.1.1074",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1074/NovaPanel-v1.1.1074.zip",
     "notes": [
-        "Change (CEO: \"mute state ... should change from the number to an icon and back\"): in every theme, a muted volume shows the muted-speaker icon in the theme's own line instead of a dash, and turns back into the number when unmuted.",
-        "Change (CEO: \"gaps between cards are different spacing\"): each theme gives the deck its portal's own margin and gap. The gaps between sections, inside sections and between the portal's cards now match, and the side touching Omen adds no…",
-        "Change (CEO: \"Shortcuts can use their icon\"): shortcuts on the deck show their real app icon, in its own colors, in every theme.",
-        "Fix (CEO: \"controls BEHIND the swiper ... swipe separately\"): a Multi section swipes on its own bar of dots along the bottom (swipe it, or tap a dot), and its controls sit above the bar. A tap or a dial drag is never taken as a swipe.",
-        "Change (CEO: \"show a brief loader so that I know it took my command\"): a tapped deck control shows a ring in the theme's accent until it redraws in its new state, at least briefly and at most 3 s."
+        "Change (CEO: \"match the height of the swiper allotment with that section height and thereby BALANCE the portal\"): when a portal has a band along its foot (Cards' status bar, Horizon's foot readings, Dial's foot line), a Multi section's…",
+        "Fix (CEO: \"the gap between the portal cards and the control ... should be the same\"): the deck reaches into Omen's margin so the gap at the seam equals the gap between cards, in every theme. Each theme's margin now matches its deck's.",
+        "Fix: the night button opens from Omen's top-right corner instead of covering the status text.",
+        "Fix (BOB round): Cards' list card grows its type to fill a sparse card. Glass fills the screen at every size. Datasheet balances at two thirds and on tall screens. Ledger sections start at the margin. Nothing Widgets fills the two-thirds…",
+        "New: Fleet Command shows only the machines that are on and testing, as large cards with what each is testing right now, its last result and live sensors; every other machine sits small along the bottom with just its status."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1072",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1073/NovaPanel-patch-1.1.1072-to-1.1.1073.zip",
-        "size": 11330486,
-        "sha256": "7299550f6f6a1a1af4b01412c97ba16f109c8ecf71a99e620dbf5483778d79c0"
+        "from": "1.1.1073",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1074/NovaPanel-patch-1.1.1073-to-1.1.1074.zip",
+        "size": 11333791,
+        "sha256": "b49ef776471b51c5b270d2feca64ef49d67ed4e8986d91e5eb4b0b48d884d278"
     }
 }
