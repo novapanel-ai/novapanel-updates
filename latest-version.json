@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1068",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1068/NovaPanel-v1.1.1068.zip",
+    "version": "1.1.1069",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1069/NovaPanel-v1.1.1069.zip",
     "notes": [
-        "Diagnostics: the app writes why it exits (who asked it to quit, or that nobody did), and the log of a launch that ended in a crash or an unexpected exit is kept (panel-runtime-crash-*.log, the newest 5) instead of being rotated away. The…"
+        "Fix (CEO: \"only on dense\"): on the Xeneon Edge's single row of cards, the readings card (fans, board temperatures, lists) shows only with Dense. With Relaxed it had taken the memory and storage cards' place, hiding headlines that rank…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1067",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1068/NovaPanel-patch-1.1.1067-to-1.1.1068.zip",
-        "size": 11250424,
-        "sha256": "d42c8ba352f491106879d66b68d6c264d596efbdb0e1289445dc1ea19f499f0c"
+        "from": "1.1.1068",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1069/NovaPanel-patch-1.1.1068-to-1.1.1069.zip",
+        "size": 11250798,
+        "sha256": "0ee9c67907a83a40fcd845c1975e5d2a862587bc2475ca5645952a0c98f04a50"
     }
 }
