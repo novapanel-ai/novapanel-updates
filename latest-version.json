@@ -1,14 +1,17 @@
 {
-    "version": "1.1.1071",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1071/NovaPanel-v1.1.1071.zip",
+    "version": "1.1.1072",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1072/NovaPanel-v1.1.1072.zip",
     "notes": [
-        "Change (CEO: \"the screen effect is a variant keep those in the group\"): Arche's Phosphor and Circuit's Glitch are back among their theme's variants. 30 themes."
+        "Change (CEO: \"the controls NEED to look like the theme\"): every Omen theme now draws its Edge deck (volume, media, power plan, power buttons, shortcuts), its touch menu and its night slider from its own dials, cards, type, colors and icon…",
+        "Change (CEO: \"fonts sizes balanced and matched throughout\"): deck type is sized from the screen height, with one word size per control group, so labels match the theme beside them. Power plans are rows. Deck text that is too long now…",
+        "Fix (BOB sweep): balance fixes across the themes at the nine sizes. Among them: Ledger wide bands, IO GPU name overflow, Velum/Marque/Chapter band sizing and a Marque small-screen crash, Ember ultrawide weather overlap, Horizon foot…",
+        "Fix: the first paint of a theme is refitted once after its web fonts load. The night button and touch menu follow the theme's ink, and Doto draws round dots there too."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1070",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1071/NovaPanel-patch-1.1.1070-to-1.1.1071.zip",
-        "size": 11252586,
-        "sha256": "fb8d135906341a9a2dc734e971d4cb872a37145a6d2ed60c4fcc83ecaaa833b4"
+        "from": "1.1.1071",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1072/NovaPanel-patch-1.1.1071-to-1.1.1072.zip",
+        "size": 11321208,
+        "sha256": "9f5dde10133f58d6241013de1b364a850fbddb94e751c293e2bf4ec016ef08ca"
     }
 }
