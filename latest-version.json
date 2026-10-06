@@ -1,9 +1,17 @@
 {
-    "version": "1.1.1055",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1055/NovaPanel-v1.1.1055.zip",
+    "version": "1.1.1056",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1056/NovaPanel-v1.1.1056.zip",
     "notes": [
-        "Fix: updating Sigil no longer stops part-way if the previous version's uninstaller fails. Setup now logs the failure and carries on, the uninstaller waits for the sensor service and ends the sensor bridge and old drivers before deleting…",
-        "Fix: the sensor panel no longer shows a CPU voltage that is a constant, rejects a GPU core voltage below 0.3 V, and no longer reports zero for CPU cores that are really idle."
+        "New: smart placement. A portal remembers its screen by the monitor itself (its name, native size and serial), so a different cable or port is still the same screen. If that screen is missing, the portal goes to its fallback screen, else…",
+        "New: each screen remembers the portal's size and spot there. On a screen it has not been on, the portal keeps its size or is shrunk to fit; it never hangs off the edge. A resize made while away from home belongs to that screen, so home…",
+        "Change: the editor's size choices only offer sizes that fit the screen the portal is on, and a custom size cannot exceed it.",
+        "Proof: the placement rig gains the missing-screen steps (home gone, fallback gone, away resize, home back, away again) for machines with two or more screens; its test windows are invisible."
     ],
-    "required": false
+    "required": false,
+    "patch": {
+        "from": "1.1.1055",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1056/NovaPanel-patch-1.1.1055-to-1.1.1056.zip",
+        "size": 11224680,
+        "sha256": "05f1411b69257c2e37cbf164577bf33c7bc2cdd0ea1c51760c0bcb6cc87dbcca"
+    }
 }
