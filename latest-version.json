@@ -1,17 +1,17 @@
 {
-    "version": "1.1.1063",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1063/NovaPanel-v1.1.1063.zip",
+    "version": "1.1.1064",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1064/NovaPanel-v1.1.1064.zip",
     "notes": [
-        "New: OLED shift is one Control Panel setting (Settings, next to Start with Windows), on by default for every portal, instead of a switch per portal. It moves a few pixels every 90 seconds, and the Control Panel and Panel Editor now say 90…",
-        "New: a theme marked god-only is hidden everywhere below God Mode and cannot be picked or opened: the Panel Editor theme picker, the Themes library, set-theme and open-theme all use one rule (themeAllowed). Fleet Command was the first; more…",
-        "Fix: the theme package validator now accepts the real tier ids (seer, creator, godmode; prime kept as the old alias for seer) and the window floor of 240x180 for a theme's default size; Blackfield's and Omen's own manifests now validate;…",
-        "Proof: cadence check, cost-policy test, package completeness and cost ratchet pass. The placement rig now drives the single OLED switch; a run on real screens is owed."
+        "New (approved ceo-files/PROPOSAL-omen-new-sensors.png): the new sensors reach Omen. Where a PC has them, the CPU gauge shows a real temperature (the hottest core, on Intel laptops), and GPU hotspot, GPU memory, drive temperature and…",
+        "New: Readings in the Omen editor's Layout step: every reading this PC has, with its value now and NEW on the new ones; tap to show or hide.",
+        "New: Lists: every core's temperature or power, every fan, board temperature, rail and drive, as the machine names them, hottest first. A list switched on in Layout takes a card's place in Cards (as many rows as fit, then +N more).",
+        "Fix: the motherboard readings and the per-machine lists were dropped before they reached any portal (frame-source)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1062",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1063/NovaPanel-patch-1.1.1062-to-1.1.1063.zip",
-        "size": 11241586,
-        "sha256": "31045f848e4195d911dc1f1283c3d97f070aa517fcdc3602b621f4d4683ee4ff"
+        "from": "1.1.1063",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1064/NovaPanel-patch-1.1.1063-to-1.1.1064.zip",
+        "size": 11242898,
+        "sha256": "77438cfaebf8a1e2f4210bd98c6467108c1a15e4ef1b5e6232cb04b4aa1d796a"
     }
 }
