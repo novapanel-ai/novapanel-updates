@@ -1,18 +1,14 @@
 {
-    "version": "1.1.1059",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1059/NovaPanel-v1.1.1059.zip",
+    "version": "1.1.1060",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1060/NovaPanel-v1.1.1060.zip",
     "notes": [
-        "New: Omen's Position step shows a map of your screens: tap one to make it Omen's screen, pick the screen Omen uses when that one is missing (the main display by default), and see the size Omen keeps on each screen.",
-        "New (the screen and size law): a screen Omen has never been on starts full screen when it is an extra screen, and at 1280x720 on the main display (smaller if the display is). Every screen keeps the size Omen last had on it.",
-        "New: pressing full screen while Omen fills its screen gives half the screen at the same shape, centred; that becomes that screen's size.",
-        "Fix: a resize made outside the editor (full screen halved, a screen's own size) is no longer undone by the editor's next save.",
-        "Proof: placement rig PASS on three screens here (125%, 150%, 100%): fallback screen, then main display, home again at its size, half-size full screen."
+        "Fix: after a wake, a portal as tall as its screen's work area stays exactly where it was put. 1-2 px of rounding made it look too big for the spot and it was re-centred, 60 px from its place (real sleep test, Blink at 150%). Its spot is…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1058",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1059/NovaPanel-patch-1.1.1058-to-1.1.1059.zip",
-        "size": 11233042,
-        "sha256": "be84d707c45b1fef2083958c6bdd647b5954446fdece1eec9800ad2cd363d86c"
+        "from": "1.1.1059",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1060/NovaPanel-patch-1.1.1059-to-1.1.1060.zip",
+        "size": 11233593,
+        "sha256": "d423881d8654628374bea35367ded133a787b3bbec866d93b4e02a866cf5f0e8"
     }
 }
