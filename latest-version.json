@@ -1,18 +1,14 @@
 {
-    "version": "1.1.1050",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1050/NovaPanel-v1.1.1050.zip",
+    "version": "1.1.1051",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1051/NovaPanel-v1.1.1051.zip",
     "notes": [
-        "New: the Omen editor has a Deck step (Position, Layout, Deck, Layers, Configure; God Mode for now). Pick a split (All Omen, Omen two thirds, Omen one third), Omen left or right, one or two rows; tap a space on the live picture to set what…",
-        "New: premade runes only: Sound, Media player, Power plan, Power buttons, Shortcuts and Web page. The Layout step no longer carries the split, spaces or key builder.",
-        "Change: the Shortcuts rune shows your saved shortcuts (set in the Control Panel), and says so when there are none.",
-        "New: Web page rune: Discord, Twitch chat, Twitch stream, YouTube or any https page, set on the Deck step; you sign in inside the page.",
-        "Change: the Cards deck draws its controls in the Omen's own form and line, with icons beside every word."
+        "Fix: the editor's close button is never cut off. The editor is fitted to the screen it opens on or is dragged to, so a size saved on a big screen no longer runs past the edge of a smaller one such as the Xeneon Edge."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1049",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1050/NovaPanel-patch-1.1.1049-to-1.1.1050.zip",
-        "size": 11212669,
-        "sha256": "2ea38922ee907e3635b211822e31ae92d7350c1e62748fc79492baf76aa5800f"
+        "from": "1.1.1050",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1051/NovaPanel-patch-1.1.1050-to-1.1.1051.zip",
+        "size": 11211854,
+        "sha256": "7aefc1a14bd272fb9fd3e819d0e5727488de2fe4f7ee0814a668b48ad57b818d"
     }
 }
