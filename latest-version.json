@@ -1,18 +1,15 @@
 {
-    "version": "1.1.1089",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1089/NovaPanel-v1.1.1089.zip",
+    "version": "1.1.1090",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1090/NovaPanel-v1.1.1090.zip",
     "notes": [
-        "Change (CEO: \"the cards can just be flat ... 3 colors primary secondary and accent. Icons get secondary. Font family will be choosable ... give it a new name\"; then \"card options: color / opacity / border (all settings). Background…",
-        "Font: family (Inter, Poppins, Jost, Kanit, Saira, Exo 2); primary colour for numbers and words; secondary colour for the icons.",
-        "Accent: the dials and what is lit.",
-        "Cards: colour, opacity, border width, border colour, border opacity and corners.",
-        "Background: an image, plus a colour and opacity over it (at lower opacity the image or the desktop shows)."
+        "Fix (CEO: \"I have now added a background image, zero'd the background color and nothing has changed at all in the portal\"): Tarot painted its own background colour (100% by default) over the portal's Background, so an image or colour set…",
+        "Tarot's Background controls in Omen Settings > Layout (Add image, Color, Opacity) now write that same portal Background, the fields Layers uses, instead of a separate Tarot copy. Verified in a hidden window: a wallpaper with the colour at…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1088",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1089/NovaPanel-patch-1.1.1088-to-1.1.1089.zip",
-        "size": 11368804,
-        "sha256": "e2f45d7118e5128566cb90af245764d5acde7df885b5f77f09f43c59cbccd4d0"
+        "from": "1.1.1089",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1090/NovaPanel-patch-1.1.1089-to-1.1.1090.zip",
+        "size": 11369089,
+        "sha256": "05ecd2c6d9ebe375355e102c975edea3736298a4b5d97781db4f6736881dea51"
     }
 }
