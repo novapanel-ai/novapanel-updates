@@ -1,14 +1,15 @@
 {
-    "version": "1.1.1082",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1082/NovaPanel-v1.1.1082.zip",
+    "version": "1.1.1083",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1083/NovaPanel-v1.1.1083.zip",
     "notes": [
-        "Change (CEO: \"on the resolution right click can we group them by ratio and we are missing the smaller sizes like 240x240\"): Omen's right-click Resolution menu shows Full screen, then one submenu per shape: 16:9, 16:10, 5:3, 4:3, 3:2…"
+        "Fix (CEO: \"Omen is missing the loader ... wire up the loader so I know Omen is loading\"): Omen's loader (the Loader Studio's gold dust or sigil, with \"Summoning\") now shows while Omen starts. It had been built all along but sat inside the…",
+        "Change (CEO: \"not a huge fan of the black background that loads with it. I would prefer it transparent\"): the loader is transparent in every portal. There is no black veil, and the gold dust no longer paints a dark ground, so it floats…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1081",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1082/NovaPanel-patch-1.1.1081-to-1.1.1082.zip",
-        "size": 11356937,
-        "sha256": "91387fbbd5801bcf90c0b783a656813fcc758b00c5a6b0a4a87106a0d93d8c9c"
+        "from": "1.1.1082",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1083/NovaPanel-patch-1.1.1082-to-1.1.1083.zip",
+        "size": 11357597,
+        "sha256": "d8c0d8f9628a8ebe2ef0fcbcc40d630303e56fa82cf1907fba19040d973a445e"
     }
 }
