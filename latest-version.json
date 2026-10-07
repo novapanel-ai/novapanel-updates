@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1086",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1086/NovaPanel-v1.1.1086.zip",
+    "version": "1.1.1087",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1087/NovaPanel-v1.1.1087.zip",
     "notes": [
-        "Change (CEO: \"since we removed the black is harder to read ... a radial gradient from the center black at 80% opacity fading to zero\"): the loader in every portal sits on a soft radial shade, 80% black at the centre fading to clear at the…"
+        "Change (CEO: \"bring the text up to right at the bottom of the gold dust\"): the loader's word (Summoning, Conjuring) sits just under the gold dust instead of far below it, at any screen shape. The space the swirl reaches is measured from…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1085",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1086/NovaPanel-patch-1.1.1085-to-1.1.1086.zip",
-        "size": 11359300,
-        "sha256": "ac246f56eabb38e11028e9c0486e507b0e8871a27e1b2d8ce206a0415a0c4027"
+        "from": "1.1.1086",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1087/NovaPanel-patch-1.1.1086-to-1.1.1087.zip",
+        "size": 11360119,
+        "sha256": "02a3240611f8f33036bd618c232630bce4d1ea3084004e85d89f75d9b8e3fb9b"
     }
 }
