@@ -1,14 +1,15 @@
 {
-    "version": "1.1.1087",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1087/NovaPanel-v1.1.1087.zip",
+    "version": "1.1.1088",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1088/NovaPanel-v1.1.1088.zip",
     "notes": [
-        "Change (CEO: \"bring the text up to right at the bottom of the gold dust\"): the loader's word (Summoning, Conjuring) sits just under the gold dust instead of far below it, at any screen shape. The space the swirl reaches is measured from…"
+        "Change (CEO: \"in the loader tool update it so that I can control that background and where the text can go ... the text to have a semitransparent background that fades to zero both left and right, and a thin gold border top and bottom that…",
+        "New (Ops): NovaPanel.exe --ops-omen-style=<id> shows that Omen style, with demo off, for one run only. Nothing is saved, so the PC's own design comes back on the next normal start. For the fleet's sweep of every Omen style."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1086",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1087/NovaPanel-patch-1.1.1086-to-1.1.1087.zip",
-        "size": 11360119,
-        "sha256": "02a3240611f8f33036bd618c232630bce4d1ea3084004e85d89f75d9b8e3fb9b"
+        "from": "1.1.1087",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1088/NovaPanel-patch-1.1.1087-to-1.1.1088.zip",
+        "size": 11364141,
+        "sha256": "38de0a68c3a361c0de69020d451ee21ad6b1625439c06bcd1aaf925288dbdb4b"
     }
 }
