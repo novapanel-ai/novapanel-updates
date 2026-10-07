@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1079",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1079/NovaPanel-v1.1.1079.zip",
+    "version": "1.1.1080",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1080/NovaPanel-v1.1.1080.zip",
     "notes": [
-        "Change (CEO: \"the brightness control is annoying if its not a touch screen ... have them choose touch in the layout or position\"): Omen has a Touch screen setting (Omen Settings, Position): Auto, On or Off. Off: no brightness control and…"
+        "Fix (CEO: \"what is going on with the little exclamation icon floating off the bottom left on the portal?\"): the sensor advisory badge (shown when the CPU temperature or FPS cannot be read; hover it for why) sat in the window's transparent…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1078",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1079/NovaPanel-patch-1.1.1078-to-1.1.1079.zip",
-        "size": 11349189,
-        "sha256": "638da2304afa453c2b4a219f58c3d42432d723adab2e7f42915c44b1010839ea"
+        "from": "1.1.1079",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1080/NovaPanel-patch-1.1.1079-to-1.1.1080.zip",
+        "size": 11349551,
+        "sha256": "20620e5d0bbcc9b8a4fc5d716e9fc17de5cee3163f652ac95fc0164e8475a8de"
     }
 }
