@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1085",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1085/NovaPanel-v1.1.1085.zip",
+    "version": "1.1.1086",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1086/NovaPanel-v1.1.1086.zip",
     "notes": [
-        "Change (CEO: \"OLED shift must never move the window; shift the drawing inside it for every portal\"): the OLED shift no longer moves any portal's window. The window stays exactly where you put it, at its size. The portal's drawing moves the…"
+        "Change (CEO: \"since we removed the black is harder to read ... a radial gradient from the center black at 80% opacity fading to zero\"): the loader in every portal sits on a soft radial shade, 80% black at the centre fading to clear at the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1084",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1085/NovaPanel-patch-1.1.1084-to-1.1.1085.zip",
-        "size": 11358619,
-        "sha256": "844ea0acb6a6da1c613d4918b621d6f5551c1779f4d1557e86c4f63a0018333c"
+        "from": "1.1.1085",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1086/NovaPanel-patch-1.1.1085-to-1.1.1086.zip",
+        "size": 11359300,
+        "sha256": "ac246f56eabb38e11028e9c0486e507b0e8871a27e1b2d8ce206a0415a0c4027"
     }
 }
