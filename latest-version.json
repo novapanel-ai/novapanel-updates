@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1091",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1091/NovaPanel-v1.1.1091.zip",
+    "version": "1.1.1092",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1092/NovaPanel-v1.1.1092.zip",
     "notes": [
-        "Fix (CEO: \"the configure screen is not showing a preview we need to fix that next\"): Omen Settings > Configure showed \"Live preview not built for this panel yet\". Its mirror was Charm's page and hid itself for every other portal. For Omen…"
+        "Change (CEO: \"fonts and colors are not wired up either ... nor are card settings. Wire everything up as I asked you to\"): Tarot now draws with the portal's own standard settings, the same way its background follows Layers. Text: Font = its…",
+        "Omen's Text Font menu offers Tarot's faces (Inter, Poppins, Jost, Kanit, Saira, Exo 2). Its manifest is gauge2/gauge-theme.json, and the font lookup only tried gauge2-theme.json, so Omen fell back to Charm's faces.",
+        "A fresh Omen's Cards default is now Tarot's look: white at 10%, 12 px corners, no border. An Omen still on the old untouched cardless default moves to it once; any card style a user set is left alone. Verified in a hidden window: standard…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1090",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1091/NovaPanel-patch-1.1.1090-to-1.1.1091.zip",
-        "size": 11369569,
-        "sha256": "b3f9d1c394b9d0ca597fd193cd1e8bf088446780bb2d1e166196377db8e128ee"
+        "from": "1.1.1091",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1092/NovaPanel-patch-1.1.1091-to-1.1.1092.zip",
+        "size": 11370780,
+        "sha256": "7163e875e9921c021a330e90923c5e6ff8c3c97128950926ccf6fb6392db8167"
     }
 }
