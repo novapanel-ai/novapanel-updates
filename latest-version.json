@@ -1,15 +1,18 @@
 {
-    "version": "1.1.1088",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1088/NovaPanel-v1.1.1088.zip",
+    "version": "1.1.1089",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1089/NovaPanel-v1.1.1089.zip",
     "notes": [
-        "Change (CEO: \"in the loader tool update it so that I can control that background and where the text can go ... the text to have a semitransparent background that fades to zero both left and right, and a thin gold border top and bottom that…",
-        "New (Ops): NovaPanel.exe --ops-omen-style=<id> shows that Omen style, with demo off, for one run only. Nothing is saved, so the PC's own design comes back on the next normal start. For the fleet's sweep of every Omen style."
+        "Change (CEO: \"the cards can just be flat ... 3 colors primary secondary and accent. Icons get secondary. Font family will be choosable ... give it a new name\"; then \"card options: color / opacity / border (all settings). Background…",
+        "Font: family (Inter, Poppins, Jost, Kanit, Saira, Exo 2); primary colour for numbers and words; secondary colour for the icons.",
+        "Accent: the dials and what is lit.",
+        "Cards: colour, opacity, border width, border colour, border opacity and corners.",
+        "Background: an image, plus a colour and opacity over it (at lower opacity the image or the desktop shows)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1087",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1088/NovaPanel-patch-1.1.1087-to-1.1.1088.zip",
-        "size": 11364141,
-        "sha256": "38de0a68c3a361c0de69020d451ee21ad6b1625439c06bcd1aaf925288dbdb4b"
+        "from": "1.1.1088",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1089/NovaPanel-patch-1.1.1088-to-1.1.1089.zip",
+        "size": 11368804,
+        "sha256": "e2f45d7118e5128566cb90af245764d5acde7df885b5f77f09f43c59cbccd4d0"
     }
 }
