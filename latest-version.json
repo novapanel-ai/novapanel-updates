@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1076",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1076/NovaPanel-v1.1.1076.zip",
+    "version": "1.1.1077",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1077/NovaPanel-v1.1.1077.zip",
     "notes": [
-        "Change: Fleet Command no longer shows an empty \"nothing is testing\" screen. With three or more tests running the cards fill the screen; with two they take two thirds; with one its card takes a third; and the free space rotates through…"
+        "Fix: Fleet Command no longer cuts text off. Failure reasons are written out whole (a portal that moved reads \"portal moved 2 px after the restart\"), long lines wrap instead of ending in dots, each page lays itself out for the room the…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1075",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1076/NovaPanel-patch-1.1.1075-to-1.1.1076.zip",
-        "size": 11341427,
-        "sha256": "400677189b2b080b86b1d32a649d34f4f0e795f2dc37a957600eac7e42267183"
+        "from": "1.1.1076",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1077/NovaPanel-patch-1.1.1076-to-1.1.1077.zip",
+        "size": 11346666,
+        "sha256": "2a99118239a92bca3ee4b745b02e78cc41ea8c48c1191f0ebf0cc7d4e8fc7f81"
     }
 }
