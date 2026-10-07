@@ -1,17 +1,14 @@
 {
-    "version": "1.1.1075",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1075/NovaPanel-v1.1.1075.zip",
+    "version": "1.1.1076",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1076/NovaPanel-v1.1.1076.zip",
     "notes": [
-        "Fix (CEO: \"do another bob pass on the themes\"): a fresh-eyes balance audit of every Omen theme at nine sizes, four Edge layouts and the touch menu. Among the fixes: a stray diagonal line across Console; Core labels sitting on its brackets;…",
-        "Change: deck power buttons share one ring or cell size, and their icons grow in large cells. The lit swipe dot uses each theme's own accent. Ruled themes (Ledger) match the portal's section-header size and header rule.",
-        "Fix: text with letter-spacing now fits its room (the tracking shrinks with the type).",
-        "Change: Fleet Command cards now show each test machine's role, the test it is running or its next test with the time, and the background crash soak as a small line."
+        "Change: Fleet Command no longer shows an empty \"nothing is testing\" screen. With three or more tests running the cards fill the screen; with two they take two thirds; with one its card takes a third; and the free space rotates through…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1074",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1075/NovaPanel-patch-1.1.1074-to-1.1.1075.zip",
-        "size": 11339564,
-        "sha256": "25c7d6ea9b6f0fa6db4038539b4585a504e9eaf6efd1e507341821efb94c549b"
+        "from": "1.1.1075",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1076/NovaPanel-patch-1.1.1075-to-1.1.1076.zip",
+        "size": 11341427,
+        "sha256": "400677189b2b080b86b1d32a649d34f4f0e795f2dc37a957600eac7e42267183"
     }
 }
