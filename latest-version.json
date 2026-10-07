@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1083",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1083/NovaPanel-v1.1.1083.zip",
+    "version": "1.1.1084",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1084/NovaPanel-v1.1.1084.zip",
     "notes": [
-        "Fix (CEO: \"Omen is missing the loader ... wire up the loader so I know Omen is loading\"): Omen's loader (the Loader Studio's gold dust or sigil, with \"Summoning\") now shows while Omen starts. It had been built all along but sat inside the…",
-        "Change (CEO: \"not a huge fan of the black background that loads with it. I would prefer it transparent\"): the loader is transparent in every portal. There is no black veil, and the gold dust no longer paints a dark ground, so it floats…"
+        "Control Panel: new Settings tab with Start with Windows, OLED shift, Low data mode and Share what I choose. Updates now holds only updates."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1082",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1083/NovaPanel-patch-1.1.1082-to-1.1.1083.zip",
-        "size": 11357597,
-        "sha256": "d8c0d8f9628a8ebe2ef0fcbcc40d630303e56fa82cf1907fba19040d973a445e"
+        "from": "1.1.1083",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1084/NovaPanel-patch-1.1.1083-to-1.1.1084.zip",
+        "size": 11358323,
+        "sha256": "763cc492ba2b78d9881fc490326ef5e9e1460f7ff9c65c504575d2006e882507"
     }
 }
