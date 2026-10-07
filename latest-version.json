@@ -1,14 +1,18 @@
 {
-    "version": "1.1.1093",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1093/NovaPanel-v1.1.1093.zip",
+    "version": "1.1.1094",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1094/NovaPanel-v1.1.1094.zip",
     "notes": [
-        "Diagnostics (EOO, P5 cost: the Omen editor sat at 104% of one core on Zephyrus, all of it on its main JavaScript thread, and nothing could be attached without a restart): a running app can now profile its own windows. Launch NovaPanel.exe…"
+        "Fix (CEO: \"padding - not working, font chooser - not working, font chooser shows inter twice. border not working, secondary text not working, accent missing ... Inner padding not working\"). Tarot now follows each of these:",
+        "Font: Omen loads Poppins, Jost and Exo 2, which it never had, so they drew as Inter. The Font list names Inter once.",
+        "Secondary text: Text dim is the secondary text (dates, units, footers, the dial ends) as well as the icons.",
+        "Accent: Omen declares its accent and text roles, so Configure shows Accent, Text and Text dim. Tarot's accent is that Accent (panel setting main), starting at Tarot's cyan, and Tarot's own Accent control writes the same setting.",
+        "Border: Configure's Border (the hairline around the portal) draws a hairline round Tarot."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1092",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1093/NovaPanel-patch-1.1.1092-to-1.1.1093.zip",
-        "size": 1564052,
-        "sha256": "97481a6af03a1d7206a72b7b0c626484ce91b2582c72c120f45cd272acfa7198"
+        "from": "1.1.1093",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1094/NovaPanel-patch-1.1.1093-to-1.1.1094.zip",
+        "size": 11375544,
+        "sha256": "a99a5a7a29d6912404e45352d76fbde5b77ca9dca29aca5bd84eb8713cd82a59"
     }
 }
