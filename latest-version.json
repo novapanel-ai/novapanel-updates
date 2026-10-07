@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1077",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1077/NovaPanel-v1.1.1077.zip",
+    "version": "1.1.1078",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1078/NovaPanel-v1.1.1078.zip",
     "notes": [
-        "Fix: Fleet Command no longer cuts text off. Failure reasons are written out whole (a portal that moved reads \"portal moved 2 px after the restart\"), long lines wrap instead of ending in dots, each page lays itself out for the room the…"
+        "Fix (CEO: \"fix the brightness control ... review every resolution and determine the best place\"): the brightness control (moon and slider) is placed by measuring what the theme has drawn. Of the corners, the edge middles and the top and…",
+        "Change (CEO: \"what the hell is this all content setting ... better would be resolutions, screen choice, demo mode on/off\"): the Omen right-click menu offers Resolution (full screen and the common sizes that fit the screen it is on), Screen…",
+        "Fix (CEO: \"why the hell is this text still there? why did it not move with OLED\"): the OLED shift note is gone from Omen Settings. It lives in the Control Panel (General), beside the one OLED switch."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1076",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1077/NovaPanel-patch-1.1.1076-to-1.1.1077.zip",
-        "size": 11346666,
-        "sha256": "2a99118239a92bca3ee4b745b02e78cc41ea8c48c1191f0ebf0cc7d4e8fc7f81"
+        "from": "1.1.1077",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1078/NovaPanel-patch-1.1.1077-to-1.1.1078.zip",
+        "size": 11347623,
+        "sha256": "54e5269f533cdf3ffe29fb917ad91e32a370e9afb29b6260d6b8c2d2138520a5"
     }
 }
