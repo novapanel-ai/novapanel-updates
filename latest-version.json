@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1090",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1090/NovaPanel-v1.1.1090.zip",
+    "version": "1.1.1091",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1091/NovaPanel-v1.1.1091.zip",
     "notes": [
-        "Fix (CEO: \"I have now added a background image, zero'd the background color and nothing has changed at all in the portal\"): Tarot painted its own background colour (100% by default) over the portal's Background, so an image or colour set…",
-        "Tarot's Background controls in Omen Settings > Layout (Add image, Color, Opacity) now write that same portal Background, the fields Layers uses, instead of a separate Tarot copy. Verified in a hidden window: a wallpaper with the colour at…"
+        "Fix (CEO: \"the configure screen is not showing a preview we need to fix that next\"): Omen Settings > Configure showed \"Live preview not built for this panel yet\". Its mirror was Charm's page and hid itself for every other portal. For Omen…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1089",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1090/NovaPanel-patch-1.1.1089-to-1.1.1090.zip",
-        "size": 11369089,
-        "sha256": "05ecd2c6d9ebe375355e102c975edea3736298a4b5d97781db4f6736881dea51"
+        "from": "1.1.1090",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1091/NovaPanel-patch-1.1.1090-to-1.1.1091.zip",
+        "size": 11369569,
+        "sha256": "b3f9d1c394b9d0ca597fd193cd1e8bf088446780bb2d1e166196377db8e128ee"
     }
 }
