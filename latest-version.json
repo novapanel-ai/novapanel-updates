@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1081",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1081/NovaPanel-v1.1.1081.zip",
+    "version": "1.1.1082",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1082/NovaPanel-v1.1.1082.zip",
     "notes": [
-        "Fix (CEO: \"make the updater change\"): an in-app update can now finish updating the sensor service. The updater still never replaces the running service's binaries (that needs administrator rights), so a PC that only updated in place kept…"
+        "Change (CEO: \"on the resolution right click can we group them by ratio and we are missing the smaller sizes like 240x240\"): Omen's right-click Resolution menu shows Full screen, then one submenu per shape: 16:9, 16:10, 5:3, 4:3, 3:2…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1080",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1081/NovaPanel-patch-1.1.1080-to-1.1.1081.zip",
-        "size": 11395232,
-        "sha256": "7e55bba79ef2c97f795a2f3f7104c94bb4fcd5c4147fdb48c251e09e74ced92a"
+        "from": "1.1.1081",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1082/NovaPanel-patch-1.1.1081-to-1.1.1082.zip",
+        "size": 11356937,
+        "sha256": "91387fbbd5801bcf90c0b783a656813fcc758b00c5a6b0a4a87106a0d93d8c9c"
     }
 }
