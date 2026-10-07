@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1080",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1080/NovaPanel-v1.1.1080.zip",
+    "version": "1.1.1081",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1081/NovaPanel-v1.1.1081.zip",
     "notes": [
-        "Fix (CEO: \"what is going on with the little exclamation icon floating off the bottom left on the portal?\"): the sensor advisory badge (shown when the CPU temperature or FPS cannot be read; hover it for why) sat in the window's transparent…"
+        "Fix (CEO: \"make the updater change\"): an in-app update can now finish updating the sensor service. The updater still never replaces the running service's binaries (that needs administrator rights), so a PC that only updated in place kept…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1079",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1080/NovaPanel-patch-1.1.1079-to-1.1.1080.zip",
-        "size": 11349551,
-        "sha256": "20620e5d0bbcc9b8a4fc5d716e9fc17de5cee3163f652ac95fc0164e8475a8de"
+        "from": "1.1.1080",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1081/NovaPanel-patch-1.1.1080-to-1.1.1081.zip",
+        "size": 11395232,
+        "sha256": "7e55bba79ef2c97f795a2f3f7104c94bb4fcd5c4147fdb48c251e09e74ced92a"
     }
 }
