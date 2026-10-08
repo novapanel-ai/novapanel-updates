@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1097",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1097/NovaPanel-v1.1.1097.zip",
+    "version": "1.1.1098",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1098/NovaPanel-v1.1.1098.zip",
     "notes": [
-        "Change (CEO: \"when you change a setting, move, adjust resolution there is a brief delay (in case im not done) ... when that elapses the change (or changes) are saved to a profile for the portal\", then \"more like 5 seconds\"). THE PORTAL…",
-        "Fix (CEO: \"position was lost with the update\"): 1.1.1095 logged nothing when a position was saved, so that loss could not be traced. Every placement write, the record as loaded, at quit and each profile save are now logged…",
-        "Placement rig: \"profile written\", and a start with the saved record knocked 300 px off on disk (home removed) still brings the portal back exactly (the profile wins)."
+        "Fix (CEO: \"hmm didn't survive\"): no drag of Omen was ever saved. A portal is dragged by Windows itself (its surface is an app-region drag), which raises only 'moved', and 'moved' stopped saving on 10-02 because Windows also moves windows…",
+        "Fix (CEO: \"I am seeing some white window flashing when the portals load\"): it was the placement rig's test copy of Sigil on the CEO's screen, which hid its windows from outside a second or two AFTER they opened. A test launch now sets…",
+        "Placement rig: the OLED rect check allows Windows' 2 px DPI size rounding (the spot must be exact)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1096",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1097/NovaPanel-patch-1.1.1096-to-1.1.1097.zip",
-        "size": 11384071,
-        "sha256": "ae8e2d0563f1f7cbc12292dd0dcdaa007098c880883861fe741e17dc83fc6870"
+        "from": "1.1.1097",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1098/NovaPanel-patch-1.1.1097-to-1.1.1098.zip",
+        "size": 11385104,
+        "sha256": "5819877ec5c87eac488b4c2baef1ed9201356779d8e718c222592bd96204679d"
     }
 }
