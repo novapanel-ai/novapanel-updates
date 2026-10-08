@@ -1,17 +1,16 @@
 {
-    "version": "1.1.1096",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1096/NovaPanel-v1.1.1096.zip",
+    "version": "1.1.1097",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1097/NovaPanel-v1.1.1097.zip",
     "notes": [
-        "Fix (CEO: \"my resolution and position did not survive the update. it reset .. not good\"). The config loader rebuilt Omen's placement record from five fields (size, x, y, display id) on EVERY start, dropping the home screen, fallback…",
-        "Change (CEO: \"the only reason for it to go back to the edge is if I didn't change anything ... But I changed the resolution and moved it so it should have ... made it the current one\"): a portal whose home screen is unplugged and that the…",
-        "Fix (CEO: \"blur is not fixed\"): night dimming put filter: brightness() on #np-panel, and a filter walls off every backdrop-filter inside it. Tarot's frosted cards could not see the background (Layers, beside #np-panel) and blurred nothing…",
-        "Placement rig: the OLED-drawing probe reads the first SHOWN layer (Tarot hides its glint canvas, which computes no transform)."
+        "Change (CEO: \"when you change a setting, move, adjust resolution there is a brief delay (in case im not done) ... when that elapses the change (or changes) are saved to a profile for the portal\", then \"more like 5 seconds\"). THE PORTAL…",
+        "Fix (CEO: \"position was lost with the update\"): 1.1.1095 logged nothing when a position was saved, so that loss could not be traced. Every placement write, the record as loaded, at quit and each profile save are now logged…",
+        "Placement rig: \"profile written\", and a start with the saved record knocked 300 px off on disk (home removed) still brings the portal back exactly (the profile wins)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1095",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1096/NovaPanel-patch-1.1.1095-to-1.1.1096.zip",
-        "size": 11380339,
-        "sha256": "1850d6d8ec4292d52d9fcf1285171b8e4abb7f9e2e8823519897f2dae9d8418a"
+        "from": "1.1.1096",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1097/NovaPanel-patch-1.1.1096-to-1.1.1097.zip",
+        "size": 11384071,
+        "sha256": "ae8e2d0563f1f7cbc12292dd0dcdaa007098c880883861fe741e17dc83fc6870"
     }
 }
