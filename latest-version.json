@@ -1,14 +1,17 @@
 {
-    "version": "1.1.1095",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1095/NovaPanel-v1.1.1095.zip",
+    "version": "1.1.1096",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1096/NovaPanel-v1.1.1096.zip",
     "notes": [
-        "Fix (CEO: \"card blur isn't working\"), two causes. (1) Tarot draws its cards in an SVG, and nothing in an SVG can blur what is behind it. Tarot now lays a glass layer of real elements under its drawing, one per card and cut to its shape, at…"
+        "Fix (CEO: \"my resolution and position did not survive the update. it reset .. not good\"). The config loader rebuilt Omen's placement record from five fields (size, x, y, display id) on EVERY start, dropping the home screen, fallback…",
+        "Change (CEO: \"the only reason for it to go back to the edge is if I didn't change anything ... But I changed the resolution and moved it so it should have ... made it the current one\"): a portal whose home screen is unplugged and that the…",
+        "Fix (CEO: \"blur is not fixed\"): night dimming put filter: brightness() on #np-panel, and a filter walls off every backdrop-filter inside it. Tarot's frosted cards could not see the background (Layers, beside #np-panel) and blurred nothing…",
+        "Placement rig: the OLED-drawing probe reads the first SHOWN layer (Tarot hides its glint canvas, which computes no transform)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1094",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1095/NovaPanel-patch-1.1.1094-to-1.1.1095.zip",
-        "size": 11376666,
-        "sha256": "5157796e8fe3d306d76b2cc22eeed1745576cc7b630615100e078080a5b4aa41"
+        "from": "1.1.1095",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1096/NovaPanel-patch-1.1.1095-to-1.1.1096.zip",
+        "size": 11380339,
+        "sha256": "1850d6d8ec4292d52d9fcf1285171b8e4abb7f9e2e8823519897f2dae9d8418a"
     }
 }
