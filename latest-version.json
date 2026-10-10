@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1102",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1102/NovaPanel-v1.1.1102.zip",
+    "version": "1.1.1103",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1103/NovaPanel-v1.1.1103.zip",
     "notes": [
-        "New (CEO via EOO: \"I could only see about half in the previews as they are so small. I would like to test them in the app itself\"): the ANIMATION TRIAL, God Mode only. Omen's right-click menu, Animation trial: Off, then the report's five…"
+        "Fix (CEO: \"the flash looks to be a container window showing for a split second when moving the window or it loading\"): every exact placement of a portal switched the window's resizable style on and off around setBounds. For a frameless…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1101",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1102/NovaPanel-patch-1.1.1101-to-1.1.1102.zip",
-        "size": 11414596,
-        "sha256": "77f99e0efcfa7e1dbd3d1e45641fb228e6850050e16fe3c506fa7c0acd50335d"
+        "from": "1.1.1102",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1103/NovaPanel-patch-1.1.1102-to-1.1.1103.zip",
+        "size": 11416202,
+        "sha256": "a4787185d58f86234a43d1fa56d117bc5e79d3e989d46cabd9977bd301b7100e"
     }
 }
