@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1101",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1101/NovaPanel-v1.1.1101.zip",
+    "version": "1.1.1102",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1102/NovaPanel-v1.1.1102.zip",
     "notes": [
-        "Change (CEO: \"You mentioned the frosted glass moving we don't need to move that is only the content, text icons and gauges anything stark white or mostly white ... So its like they all shift within the cards.\"): Tarot's cards (their fill…"
+        "New (CEO via EOO: \"I could only see about half in the previews as they are so small. I would like to test them in the app itself\"): the ANIMATION TRIAL, God Mode only. Omen's right-click menu, Animation trial: Off, then the report's five…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1100",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1101/NovaPanel-patch-1.1.1100-to-1.1.1101.zip",
-        "size": 11392088,
-        "sha256": "97b6bf934d23a69c757dc0a26649a19c7af6ac5ff6b147d900b86f9764d59f9e"
+        "from": "1.1.1101",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1102/NovaPanel-patch-1.1.1101-to-1.1.1102.zip",
+        "size": 11414596,
+        "sha256": "77f99e0efcfa7e1dbd3d1e45641fb228e6850050e16fe3c506fa7c0acd50335d"
     }
 }
