@@ -1,15 +1,16 @@
 {
-    "version": "1.1.1099",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1099/NovaPanel-v1.1.1099.zip",
+    "version": "1.1.1100",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1100/NovaPanel-v1.1.1100.zip",
     "notes": [
-        "Change (CEO: \"The pixel shift OLED saving feature does it have to jump? Can we not slowly animate it to move a couple of pixels over like 10 seconds? It's a good feature but it feels buggy when it jumps.\"): every portal's OLED shift now…",
-        "Placement rig: the OLED probe reads translate. On the 3 s rig cycle it caught the drawing mid-glide (0.18 px, -1.92 px ...), with the window rect identical across 6 ticks and the ground still."
+        "Fix (CEO: \"I cannot have it stick to the top of the screen it always jumps down\"): a portal window carries a transparent gutter (50 px) round the portal for its shadow and glow. Windows will not let a window be dragged above the top of the…",
+        "Change (measured on Zephyrus, 1.1.1099): the smooth OLED glide repainted the whole portal every frame for its 10 s, about 600 frames, each re-blurring Tarot's frosted glass. The portal went from ~8% to 20-40% of a core and the GPU from ~7%…",
+        "Note (CEO: \"positioning isn't sticking\"): the restart into 1.1.1099 restored the last spot saved by 1.1.1097, which never saved drags. 1.1.1099's log shows his next drag saved (dragged by hand, then profile saved 5 s later)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1098",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1099/NovaPanel-patch-1.1.1098-to-1.1.1099.zip",
-        "size": 11386285,
-        "sha256": "80a266dfc3de981d892bcc014ba23aa715e83a1596d272909fa52bfbdd54803e"
+        "from": "1.1.1099",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1100/NovaPanel-patch-1.1.1099-to-1.1.1100.zip",
+        "size": 11390175,
+        "sha256": "16782f1571417b841d9e084e6039c42687b2f057332fa3e1cb18c54dc50aca90"
     }
 }
