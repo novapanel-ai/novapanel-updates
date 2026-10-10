@@ -1,14 +1,15 @@
 {
-    "version": "1.1.1103",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1103/NovaPanel-v1.1.1103.zip",
+    "version": "1.1.1104",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1104/NovaPanel-v1.1.1104.zip",
     "notes": [
-        "Fix (CEO: \"the flash looks to be a container window showing for a split second when moving the window or it loading\"): every exact placement of a portal switched the window's resizable style on and off around setBounds. For a frameless…"
+        "Fix (CEO: \"the animation trial isn't working\"): its overlay was a child of #np-panel, and Omen hides every child of the panel but the drawing and the deck (#np-panel.np-exp-on > :not(#np-exp):not(#np-deck) { display: none }), so nothing…",
+        "Change (CEO: \"animations specific to certain themes should be turned on on the theme itself. ... there should be animations that work for any theme (most of them)\"): every animation was measured on 14 of Omen's themes (drawn, running, ink…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1102",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1103/NovaPanel-patch-1.1.1102-to-1.1.1103.zip",
-        "size": 11416202,
-        "sha256": "a4787185d58f86234a43d1fa56d117bc5e79d3e989d46cabd9977bd301b7100e"
+        "from": "1.1.1103",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1104/NovaPanel-patch-1.1.1103-to-1.1.1104.zip",
+        "size": 11418695,
+        "sha256": "98468aa0a6d672d2757009f2e815dd35c9cc1eb2485e1aaff7e60b5bed55d396"
     }
 }
