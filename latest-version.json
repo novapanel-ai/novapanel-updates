@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1098",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1098/NovaPanel-v1.1.1098.zip",
+    "version": "1.1.1099",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1099/NovaPanel-v1.1.1099.zip",
     "notes": [
-        "Fix (CEO: \"hmm didn't survive\"): no drag of Omen was ever saved. A portal is dragged by Windows itself (its surface is an app-region drag), which raises only 'moved', and 'moved' stopped saving on 10-02 because Windows also moves windows…",
-        "Fix (CEO: \"I am seeing some white window flashing when the portals load\"): it was the placement rig's test copy of Sigil on the CEO's screen, which hid its windows from outside a second or two AFTER they opened. A test launch now sets…",
-        "Placement rig: the OLED rect check allows Windows' 2 px DPI size rounding (the spot must be exact)."
+        "Change (CEO: \"The pixel shift OLED saving feature does it have to jump? Can we not slowly animate it to move a couple of pixels over like 10 seconds? It's a good feature but it feels buggy when it jumps.\"): every portal's OLED shift now…",
+        "Placement rig: the OLED probe reads translate. On the 3 s rig cycle it caught the drawing mid-glide (0.18 px, -1.92 px ...), with the window rect identical across 6 ticks and the ground still."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1097",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1098/NovaPanel-patch-1.1.1097-to-1.1.1098.zip",
-        "size": 11385104,
-        "sha256": "5819877ec5c87eac488b4c2baef1ed9201356779d8e718c222592bd96204679d"
+        "from": "1.1.1098",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1099/NovaPanel-patch-1.1.1098-to-1.1.1099.zip",
+        "size": 11386285,
+        "sha256": "80a266dfc3de981d892bcc014ba23aa715e83a1596d272909fa52bfbdd54803e"
     }
 }
