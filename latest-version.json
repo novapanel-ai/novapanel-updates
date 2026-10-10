@@ -1,16 +1,14 @@
 {
-    "version": "1.1.1100",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1100/NovaPanel-v1.1.1100.zip",
+    "version": "1.1.1101",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1101/NovaPanel-v1.1.1101.zip",
     "notes": [
-        "Fix (CEO: \"I cannot have it stick to the top of the screen it always jumps down\"): a portal window carries a transparent gutter (50 px) round the portal for its shadow and glow. Windows will not let a window be dragged above the top of the…",
-        "Change (measured on Zephyrus, 1.1.1099): the smooth OLED glide repainted the whole portal every frame for its 10 s, about 600 frames, each re-blurring Tarot's frosted glass. The portal went from ~8% to 20-40% of a core and the GPU from ~7%…",
-        "Note (CEO: \"positioning isn't sticking\"): the restart into 1.1.1099 restored the last spot saved by 1.1.1097, which never saved drags. 1.1.1099's log shows his next drag saved (dragged by hand, then profile saved 5 s later)."
+        "Change (CEO: \"You mentioned the frosted glass moving we don't need to move that is only the content, text icons and gauges anything stark white or mostly white ... So its like they all shift within the cards.\"): Tarot's cards (their fill…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1099",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1100/NovaPanel-patch-1.1.1099-to-1.1.1100.zip",
-        "size": 11390175,
-        "sha256": "16782f1571417b841d9e084e6039c42687b2f057332fa3e1cb18c54dc50aca90"
+        "from": "1.1.1100",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1101/NovaPanel-patch-1.1.1100-to-1.1.1101.zip",
+        "size": 11392088,
+        "sha256": "97b6bf934d23a69c757dc0a26649a19c7af6ac5ff6b147d900b86f9764d59f9e"
     }
 }
