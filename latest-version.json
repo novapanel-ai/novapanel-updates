@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1108",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1108/NovaPanel-v1.1.1108.zip",
+    "version": "1.1.1109",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1109/NovaPanel-v1.1.1109.zip",
     "notes": [
-        "Ops: --ops-omen-style=glass (or glass:snow), the retired Glass, now shows Tarot (helm:deck), the same as a user's saved Glass does since 1.1.1107. So the nightly style sweep passes on an older list. The current style ids are the 48 in…"
+        "Change (CEO: \"the dots outer line should be the accent color. Given that Clean didn't have this dot it will be a customization they can choose. Would apply to meters as well.\"): Tarot's knob is a choice, \"Knob on gauges and bars\" (Omen…",
+        "Change (CEO: \"Make sure the font range is readable at the bottom, the top size is good\"): Tarot's small type (card titles, the part names, the figures at a card's foot, the line under a bar) never goes under the readable minimum…",
+        "Fix (CEO: \"I need to see all the resolutions and sizes down to 240x240 because I noted that size had tremendous padding\"): at every square size Tarot laid its compact form inside the circle a round screen shows. It now fills the square on…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1107",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1108/NovaPanel-patch-1.1.1107-to-1.1.1108.zip",
-        "size": 11425426,
-        "sha256": "05d2f090a01dc1b10276144f5a8e67c777efa588440a7fb91c4c97378be1039d"
+        "from": "1.1.1108",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1109/NovaPanel-patch-1.1.1108-to-1.1.1109.zip",
+        "size": 11427579,
+        "sha256": "c5a461d0a90c65c15f81f5688feb14fe078190bccc1117d7d82e42004af0eef6"
     }
 }
