@@ -1,16 +1,14 @@
 {
-    "version": "1.1.1109",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1109/NovaPanel-v1.1.1109.zip",
+    "version": "1.1.1110",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1110/NovaPanel-v1.1.1110.zip",
     "notes": [
-        "Change (CEO: \"the dots outer line should be the accent color. Given that Clean didn't have this dot it will be a customization they can choose. Would apply to meters as well.\"): Tarot's knob is a choice, \"Knob on gauges and bars\" (Omen…",
-        "Change (CEO: \"Make sure the font range is readable at the bottom, the top size is good\"): Tarot's small type (card titles, the part names, the figures at a card's foot, the line under a bar) never goes under the readable minimum…",
-        "Fix (CEO: \"I need to see all the resolutions and sizes down to 240x240 because I noted that size had tremendous padding\"): at every square size Tarot laid its compact form inside the circle a round screen shows. It now fills the square on…"
+        "Change (CEO: \"when round just adjust the offset for it. but when not fix it correctly\"): Tarot's small square layout is the same on a round screen, inset only as far as the circle needs (the largest square inside it, less one gap, about…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1108",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1109/NovaPanel-patch-1.1.1108-to-1.1.1109.zip",
-        "size": 11427579,
-        "sha256": "c5a461d0a90c65c15f81f5688feb14fe078190bccc1117d7d82e42004af0eef6"
+        "from": "1.1.1109",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1110/NovaPanel-patch-1.1.1109-to-1.1.1110.zip",
+        "size": 11428263,
+        "sha256": "0ae870fe9b6350e15ccf5dfc1921dd80a4d3c3dea571024678cacd2059f0cdc2"
     }
 }
