@@ -1,15 +1,18 @@
 {
-    "version": "1.1.1106",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1106/NovaPanel-v1.1.1106.zip",
+    "version": "1.1.1107",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1107/NovaPanel-v1.1.1107.zip",
     "notes": [
-        "Change (CEO: \"the atmosphere animations are the best currently but we will pause that for now. Go ahead and hide that feature in the right click menu and anywhere it exists. For now we must solidify the Tarot theme.\"): the animation trial…",
-        "Change (CEO, Tarot's gauge: \"I don't really like it without a control. make it a smaller circle white around the edge and dark in the middle. Also note the part that is filled is barely stronger than the unfilled part.\"): the reading on a…"
+        "Change (CEO: \"Clean is very similar to tarot. I want these to be the same because they pretty much are. Default accent color should be white. Simpler style of the Clean is better for the default theme because it should be the most…",
+        "the time card with the day and date over it and the outside and uptime at its foot;",
+        "CPU and GPU cards with the part's name, a full ring with the load (and the knob), the temperature inside it, and clock, power or volts, cores or load at the foot;",
+        "line cards with a bar for memory, storage, battery or network, and the outside.",
+        "Glass's grids: two rows of three under 2:1; on a band (2560x720, 1920x480), memory over storage and battery over outside in one column each. The accent defaults to white. The default font is Kanit, Glass's face (Inter is still offered).…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1105",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1106/NovaPanel-patch-1.1.1105-to-1.1.1106.zip",
-        "size": 11421068,
-        "sha256": "6f2a19e00456781294bf304d61fead09d2dcb4b327bfd52a467c883b2a96a25d"
+        "from": "1.1.1106",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1107/NovaPanel-patch-1.1.1106-to-1.1.1107.zip",
+        "size": 11424830,
+        "sha256": "2dfec363407df7bfc198fd7e5f6adae162681e023aff1fb45aada054a985c895"
     }
 }
