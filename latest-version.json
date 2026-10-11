@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1104",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1104/NovaPanel-v1.1.1104.zip",
+    "version": "1.1.1105",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1105/NovaPanel-v1.1.1105.zip",
     "notes": [
-        "Fix (CEO: \"the animation trial isn't working\"): its overlay was a child of #np-panel, and Omen hides every child of the panel but the drawing and the deck (#np-panel.np-exp-on > :not(#np-exp):not(#np-deck) { display: none }), so nothing…",
-        "Change (CEO: \"animations specific to certain themes should be turned on on the theme itself. ... there should be animations that work for any theme (most of them)\"): every animation was measured on 14 of Omen's themes (drawn, running, ink…"
+        "Fix (CEO, a warped, eroded-looking portal under \"Pulse rate follows load\"): heat haze puts a turbulence filter on the theme's own drawing (#np-exp) and its filter's definition on the page. Switching to another animation (or Off) removed…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1103",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1104/NovaPanel-patch-1.1.1103-to-1.1.1104.zip",
-        "size": 11418695,
-        "sha256": "98468aa0a6d672d2757009f2e815dd35c9cc1eb2485e1aaff7e60b5bed55d396"
+        "from": "1.1.1104",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1105/NovaPanel-patch-1.1.1104-to-1.1.1105.zip",
+        "size": 11419567,
+        "sha256": "fff506f5ee897ac5d627f8ff5f7f05ea2aa3ec13ba445dc301205cddadf753e6"
     }
 }
