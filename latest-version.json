@@ -1,14 +1,15 @@
 {
-    "version": "1.1.1105",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1105/NovaPanel-v1.1.1105.zip",
+    "version": "1.1.1106",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1106/NovaPanel-v1.1.1106.zip",
     "notes": [
-        "Fix (CEO, a warped, eroded-looking portal under \"Pulse rate follows load\"): heat haze puts a turbulence filter on the theme's own drawing (#np-exp) and its filter's definition on the page. Switching to another animation (or Off) removed…"
+        "Change (CEO: \"the atmosphere animations are the best currently but we will pause that for now. Go ahead and hide that feature in the right click menu and anywhere it exists. For now we must solidify the Tarot theme.\"): the animation trial…",
+        "Change (CEO, Tarot's gauge: \"I don't really like it without a control. make it a smaller circle white around the edge and dark in the middle. Also note the part that is filled is barely stronger than the unfilled part.\"): the reading on a…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1104",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1105/NovaPanel-patch-1.1.1104-to-1.1.1105.zip",
-        "size": 11419567,
-        "sha256": "fff506f5ee897ac5d627f8ff5f7f05ea2aa3ec13ba445dc301205cddadf753e6"
+        "from": "1.1.1105",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1106/NovaPanel-patch-1.1.1105-to-1.1.1106.zip",
+        "size": 11421068,
+        "sha256": "6f2a19e00456781294bf304d61fead09d2dcb4b327bfd52a467c883b2a96a25d"
     }
 }
