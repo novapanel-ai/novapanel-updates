@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1111",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1111/NovaPanel-v1.1.1111.zip",
+    "version": "1.1.1112",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1112/NovaPanel-v1.1.1112.zip",
     "notes": [
-        "New (CEO: \"each card will have 2 or 3 layouts to choose from we will want dense data, relaxed data and minimal\"): every Tarot card (Time, CPU, GPU, Memory, Storage, Network, Outside) has three layouts. Relaxed is the card as it was and the…",
-        "Omen Settings > Layout: a Card layouts section, one row per card plus All cards; a click on a card in the picture marks its row. Reset Tarot sets every card back to Relaxed.",
-        "Change (CEO: \"each state should use BOB on its own don't just take content away\"): every layout is laid out for its card's shape. A memory, storage, network or battery card in a square or tall slot is a column with its figure in the middle…"
+        "New (CEO: \"tarot can have 5 different card layouts ... based around ratio ... keep them all\"): Tarot has five arrangements of its cards for each screen ratio (16:9, 2:1, ultrawide, square, portrait, narrow). The first of each is the one…",
+        "Change (CEO: \"when width is tight stacking is better the opposite is true for height\"): on a screen narrower than 9:16 every card is full width and the short readings stack (memory and storage were side by side, each a third of the width).…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1110",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1111/NovaPanel-patch-1.1.1110-to-1.1.1111.zip",
-        "size": 11435579,
-        "sha256": "2db6b7a4b76164c43e412d2df65c78ba50d111b6947ec840ea0138d75d893672"
+        "from": "1.1.1111",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1112/NovaPanel-patch-1.1.1111-to-1.1.1112.zip",
+        "size": 11437430,
+        "sha256": "d4e72130d2b27da9dcdc155e3affaaca5d718f6e526d06c771862b32257daf21"
     }
 }
