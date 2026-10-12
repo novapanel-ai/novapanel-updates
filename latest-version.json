@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1117",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1117/NovaPanel-v1.1.1117.zip",
+    "version": "1.1.1118",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1118/NovaPanel-v1.1.1118.zip",
     "notes": [
-        "New (CEO: \"Moving the changes more into the portal itself ... i love the approach ... yes build it\"): Customize on the portal, step 1, for Tarot. Right-click the portal (or press and hold, or the editor's button) and pick Customize: a bar…",
-        "New: any Tarot card can show any data (CPU, GPU, Memory, Storage, Network or battery, Time, Weather now); picking data another card shows swaps the two. A CPU, GPU or Time card in a reading slot draws as a reading.",
-        "New: the Time card's Details: 12- or 24-hour clock (Omen now follows it) and seconds on or off for Dense."
+        "New (CEO: \"proceed with step 2\"): Customize on the portal, Style, for Tarot. The bar has Layout and Style; Style is a drawer on the portal with one section open at a time, each showing its setting: Theme, Colors (six palettes and the four…",
+        "New (CEO: \"knob on the ring ... we might want other shapes\"): Gauges › Marker, the point where a ring or bar ends: None, Dot, Ring, Tick, Diamond or Glow, in the accent or primary color; plus ring and bar thickness, track brightness and…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1116",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1117/NovaPanel-patch-1.1.1116-to-1.1.1117.zip",
-        "size": 11449524,
-        "sha256": "b81b9209db19e849b511301b49491c9402f99df9f2eda0a5576e0b1b0b4e0cb7"
+        "from": "1.1.1117",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1118/NovaPanel-patch-1.1.1117-to-1.1.1118.zip",
+        "size": 11458804,
+        "sha256": "b97d461f2dee419341b2360be622c381474d068515e13d4ed9762baedc4a671b"
     }
 }
