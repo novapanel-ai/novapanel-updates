@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1119",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1119/NovaPanel-v1.1.1119.zip",
+    "version": "1.1.1120",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1120/NovaPanel-v1.1.1120.zip",
     "notes": [
-        "New (CEO: \"proceed to 3\"): on a small portal, Customize opens its panels in a companion window beside it instead of over it: the arrangements, a card's panel and Style, changing the portal live. It sits beside the portal on the same screen…",
-        "Change: a portal in Tarot's compact form (a small screen) opens Customize on Style; Layout says its cards are fixed at that size."
+        "New (CEO: \"proceed to 4\"): Customize on the portal works on every Omen theme. For a theme other than Tarot, Style offers its Theme and color variants, Colors (the six palettes, or its own, and primary, secondary and accent) and Font (its…",
+        "How: each style's own colors were measured from what it draws, and the portal swaps them for yours as it paints, background glows and gradients included. The editor's and menus' pictures of styles keep their own colors."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1118",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1119/NovaPanel-patch-1.1.1118-to-1.1.1119.zip",
-        "size": 11461992,
-        "sha256": "b6f82c0296377178d7e6078376237920f651c5104e8f93f85579ad10bddf4637"
+        "from": "1.1.1119",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1120/NovaPanel-patch-1.1.1119-to-1.1.1120.zip",
+        "size": 11466829,
+        "sha256": "98602cb2eae08343802383d6eaf08c7c67ce744455f17fd7588337c2a4126860"
     }
 }
