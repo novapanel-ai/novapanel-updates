@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1115",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1115/NovaPanel-v1.1.1115.zip",
+    "version": "1.1.1116",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1116/NovaPanel-v1.1.1116.zip",
     "notes": [
-        "New (CEO: \"hide it until a real screen is present (if we can notify the users) ... it keeps the user in the loop, even Cantrip\"): a portal only goes to a REAL screen. Sigil learns which screens are real (any screen a portal has been put…",
-        "New: Position > each extra screen has \"This isn't a screen\" (an audio converter, a capture card, a dummy plug); a portal never goes to one."
+        "Fix (found by Ops on Blink, 1.1.1115): a portal waiting hidden for a real screen was saved as closed, so a restart while its screen was away (an update) left it closed for good. Waiting now counts as open: after a restart it waits again…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1114",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1115/NovaPanel-patch-1.1.1114-to-1.1.1115.zip",
-        "size": 11441728,
-        "sha256": "ec302a4394839d2c3ef8f3408b0ec85daeaeedc1168e4e833e7fc36352fb25d0"
+        "from": "1.1.1115",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1116/NovaPanel-patch-1.1.1115-to-1.1.1116.zip",
+        "size": 11441885,
+        "sha256": "7db83a41abd781c457475af6029a966e65c4a5003af4c0abaf3a4140695a3019"
     }
 }
