@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1123",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1123/NovaPanel-v1.1.1123.zip",
+    "version": "1.1.1124",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1124/NovaPanel-v1.1.1124.zip",
     "notes": [
-        "Fix (CEO: \"the white frame ONLY shows while loading initially ... omen in the top right and the white frame when off that screen onto my LG screen above it\"): at a fractional display scale (125%) Windows never gives a window the exact size…"
+        "Fix (CEO: \"Mirage just showed the white frame on reload\"): Mirage grows to fit its content when it opens (about 1 s, twice at a start), and for that whole time its window was switched to resizable, which makes Windows draw the window frame…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1122",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1123/NovaPanel-patch-1.1.1122-to-1.1.1123.zip",
-        "size": 11473640,
-        "sha256": "a61812c21fc44e35c78bba03eee4809adf793b5a79dd97e84227a764e00f3e24"
+        "from": "1.1.1123",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1124/NovaPanel-patch-1.1.1123-to-1.1.1124.zip",
+        "size": 11474709,
+        "sha256": "8d02ed0f38ecc584649a2a326efa981496e795ec97901de9254b1973ad98e3ac"
     }
 }
