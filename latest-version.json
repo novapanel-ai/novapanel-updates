@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1118",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1118/NovaPanel-v1.1.1118.zip",
+    "version": "1.1.1119",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1119/NovaPanel-v1.1.1119.zip",
     "notes": [
-        "New (CEO: \"proceed with step 2\"): Customize on the portal, Style, for Tarot. The bar has Layout and Style; Style is a drawer on the portal with one section open at a time, each showing its setting: Theme, Colors (six palettes and the four…",
-        "New (CEO: \"knob on the ring ... we might want other shapes\"): Gauges › Marker, the point where a ring or bar ends: None, Dot, Ring, Tick, Diamond or Glow, in the accent or primary color; plus ring and bar thickness, track brightness and…"
+        "New (CEO: \"proceed to 3\"): on a small portal, Customize opens its panels in a companion window beside it instead of over it: the arrangements, a card's panel and Style, changing the portal live. It sits beside the portal on the same screen…",
+        "Change: a portal in Tarot's compact form (a small screen) opens Customize on Style; Layout says its cards are fixed at that size."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1117",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1118/NovaPanel-patch-1.1.1117-to-1.1.1118.zip",
-        "size": 11458804,
-        "sha256": "b97d461f2dee419341b2360be622c381474d068515e13d4ed9762baedc4a671b"
+        "from": "1.1.1118",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1119/NovaPanel-patch-1.1.1118-to-1.1.1119.zip",
+        "size": 11461992,
+        "sha256": "b6f82c0296377178d7e6078376237920f651c5104e8f93f85579ad10bddf4637"
     }
 }
