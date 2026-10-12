@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1124",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1124/NovaPanel-v1.1.1124.zip",
+    "version": "1.1.1125",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1125/NovaPanel-v1.1.1125.zip",
     "notes": [
-        "Fix (CEO: \"Mirage just showed the white frame on reload\"): Mirage grows to fit its content when it opens (about 1 s, twice at a start), and for that whole time its window was switched to resizable, which makes Windows draw the window frame…"
+        "Fix (CEO: \"a wierd artifact along the top and left edge ... you can see it on both sizes\"): the OLED shift slides only a portal’s drawing, never the window, and leaves the ground still; but many themes paint their ground inside the drawing…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1123",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1124/NovaPanel-patch-1.1.1123-to-1.1.1124.zip",
-        "size": 11474709,
-        "sha256": "8d02ed0f38ecc584649a2a326efa981496e795ec97901de9254b1973ad98e3ac"
+        "from": "1.1.1124",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1125/NovaPanel-patch-1.1.1124-to-1.1.1125.zip",
+        "size": 11476379,
+        "sha256": "787caead7bb63f5eb8be5e497344c4f04985e597b25193da1ed4afb8c2053b92"
     }
 }
