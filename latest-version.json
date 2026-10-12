@@ -1,17 +1,15 @@
 {
-    "version": "1.1.1127",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1127/NovaPanel-v1.1.1127.zip",
+    "version": "1.1.1128",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1128/NovaPanel-v1.1.1128.zip",
     "notes": [
-        "Foundation (CEO law: \"themes should NOT be painting their background layer that is handled by Sigil always\"): every Omen theme now describes its default background to Sigil, and Sigil paints it in its own still layer (experiences/common.js…",
-        "New (CEO: \"I cannot find where to adjust the background or add an image. fix this\"): Customize > Style > Background on every theme: the theme’s background, a color, or an image (with fit, tint and tint color). The theme’s background shows…",
-        "Fix (CEO: \"stop saying hairlines’ own for font choice use the name of the font\"; \"this is useless\"): Font names the theme’s actual font (Hairline: Kanit), and System fonts is a search box over a list where every name is written in its own…",
-        "Fix: Mirage and Charm keep the height their content fit gives them through the placement re-checks after a start (found by the foundations review)."
+        "Fix (CEO: \"you took aways the layers? ... The editor might change but not the features\"): Omen’s editor has Layers and Configure again (About · Position · Layers · Configure · Touch display). Customize on the portal adds to them and never…",
+        "Change (CEO: \"change (ink / snow) to (dark / light) people know that\"): Hairline and Dial come in Dark and Light (saved choices keep working)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1126",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1127/NovaPanel-patch-1.1.1126-to-1.1.1127.zip",
-        "size": 11481164,
-        "sha256": "9c619784e2c615efe401a250e1ad90673c859cc6e7badd5779d0bad132208056"
+        "from": "1.1.1127",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1128/NovaPanel-patch-1.1.1127-to-1.1.1128.zip",
+        "size": 11481630,
+        "sha256": "cd19c2bd972646689148f4409478c397e6a51694e60ac099db45012f7172b52a"
     }
 }
