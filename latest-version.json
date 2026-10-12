@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1114",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1114/NovaPanel-v1.1.1114.zip",
+    "version": "1.1.1115",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1115/NovaPanel-v1.1.1115.zip",
     "notes": [
-        "New (CEO 10-12: \"4 colors and a chooser for each, and then we define presets\"): Tarot's Colors section has four choosers, background, primary text, secondary text and accent, and six palettes of the four (Classic, Midnight, Ember, Moss…",
-        "New (CEO ruling 10-10: curated fonts AND any installed system font): under Tarot's font tiles, System font lists every font installed on this PC. A note says the tiles are tested to fit and a system font may not fit every card or screen.…"
+        "New (CEO: \"hide it until a real screen is present (if we can notify the users) ... it keeps the user in the loop, even Cantrip\"): a portal only goes to a REAL screen. Sigil learns which screens are real (any screen a portal has been put…",
+        "New: Position > each extra screen has \"This isn't a screen\" (an audio converter, a capture card, a dummy plug); a portal never goes to one."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1113",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1114/NovaPanel-patch-1.1.1113-to-1.1.1114.zip",
-        "size": 11440864,
-        "sha256": "c8fc7bf0f397c153831ea744956873b68ebd5725289f55807674c90dab88dfeb"
+        "from": "1.1.1114",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1115/NovaPanel-patch-1.1.1114-to-1.1.1115.zip",
+        "size": 11441728,
+        "sha256": "ec302a4394839d2c3ef8f3408b0ec85daeaeedc1168e4e833e7fc36352fb25d0"
     }
 }
