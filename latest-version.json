@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1116",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1116/NovaPanel-v1.1.1116.zip",
+    "version": "1.1.1117",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1117/NovaPanel-v1.1.1117.zip",
     "notes": [
-        "Fix (found by Ops on Blink, 1.1.1115): a portal waiting hidden for a real screen was saved as closed, so a restart while its screen was away (an update) left it closed for good. Waiting now counts as open: after a restart it waits again…"
+        "New (CEO: \"Moving the changes more into the portal itself ... i love the approach ... yes build it\"): Customize on the portal, step 1, for Tarot. Right-click the portal (or press and hold, or the editor's button) and pick Customize: a bar…",
+        "New: any Tarot card can show any data (CPU, GPU, Memory, Storage, Network or battery, Time, Weather now); picking data another card shows swaps the two. A CPU, GPU or Time card in a reading slot draws as a reading.",
+        "New: the Time card's Details: 12- or 24-hour clock (Omen now follows it) and seconds on or off for Dense."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1115",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1116/NovaPanel-patch-1.1.1115-to-1.1.1116.zip",
-        "size": 11441885,
-        "sha256": "7db83a41abd781c457475af6029a966e65c4a5003af4c0abaf3a4140695a3019"
+        "from": "1.1.1116",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1117/NovaPanel-patch-1.1.1116-to-1.1.1117.zip",
+        "size": 11449524,
+        "sha256": "b81b9209db19e849b511301b49491c9402f99df9f2eda0a5576e0b1b0b4e0cb7"
     }
 }
