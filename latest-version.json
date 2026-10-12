@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1125",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1125/NovaPanel-v1.1.1125.zip",
+    "version": "1.1.1126",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1126/NovaPanel-v1.1.1126.zip",
     "notes": [
-        "Fix (CEO: \"a wierd artifact along the top and left edge ... you can see it on both sizes\"): the OLED shift slides only a portal’s drawing, never the window, and leaves the ground still; but many themes paint their ground inside the drawing…"
+        "Fix for good (CEO: \"fix the white frame problem for good. ON all portals\"): no portal window is ever switched resizable to be moved or sized. That switch makes Windows draw a frameless window’s frame (a grey box with a white edge); it was…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1124",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1125/NovaPanel-patch-1.1.1124-to-1.1.1125.zip",
-        "size": 11476379,
-        "sha256": "787caead7bb63f5eb8be5e497344c4f04985e597b25193da1ed4afb8c2053b92"
+        "from": "1.1.1125",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1126/NovaPanel-patch-1.1.1125-to-1.1.1126.zip",
+        "size": 11477293,
+        "sha256": "065ef9f6e217580f5335efe068f5047737093584ea2034a619639888432c6a71"
     }
 }
