@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1120",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1120/NovaPanel-v1.1.1120.zip",
+    "version": "1.1.1121",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1121/NovaPanel-v1.1.1121.zip",
     "notes": [
-        "New (CEO: \"proceed to 4\"): Customize on the portal works on every Omen theme. For a theme other than Tarot, Style offers its Theme and color variants, Colors (the six palettes, or its own, and primary, secondary and accent) and Font (its…",
-        "How: each style's own colors were measured from what it draws, and the portal swaps them for yours as it paints, background glows and gradients included. The editor's and menus' pictures of styles keep their own colors."
+        "Change (CEO: \"Deck should change to touch display and the rest remain in the editor ... go ahead with 5\"): Omen's editor is About and Position, plus Touch display (the deck, renamed) where the plan has it. Layout, Layers and Configure have…",
+        "Move: Readings (group by part or sensor, how much, and each part's order) is in Customize › Style for every theme, with up and down buttons for the order."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1119",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1120/NovaPanel-patch-1.1.1119-to-1.1.1120.zip",
-        "size": 11466829,
-        "sha256": "98602cb2eae08343802383d6eaf08c7c67ce744455f17fd7588337c2a4126860"
+        "from": "1.1.1120",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1121/NovaPanel-patch-1.1.1120-to-1.1.1121.zip",
+        "size": 11467618,
+        "sha256": "f7320c01653c126e3e1cce31f41c135b7de94a2fec3aa83df5a5b2a1f8e1ca0d"
     }
 }
