@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1110",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1110/NovaPanel-v1.1.1110.zip",
+    "version": "1.1.1111",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1111/NovaPanel-v1.1.1111.zip",
     "notes": [
-        "Change (CEO: \"when round just adjust the offset for it. but when not fix it correctly\"): Tarot's small square layout is the same on a round screen, inset only as far as the circle needs (the largest square inside it, less one gap, about…"
+        "New (CEO: \"each card will have 2 or 3 layouts to choose from we will want dense data, relaxed data and minimal\"): every Tarot card (Time, CPU, GPU, Memory, Storage, Network, Outside) has three layouts. Relaxed is the card as it was and the…",
+        "Omen Settings > Layout: a Card layouts section, one row per card plus All cards; a click on a card in the picture marks its row. Reset Tarot sets every card back to Relaxed.",
+        "Change (CEO: \"each state should use BOB on its own don't just take content away\"): every layout is laid out for its card's shape. A memory, storage, network or battery card in a square or tall slot is a column with its figure in the middle…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1109",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1110/NovaPanel-patch-1.1.1109-to-1.1.1110.zip",
-        "size": 11428263,
-        "sha256": "0ae870fe9b6350e15ccf5dfc1921dd80a4d3c3dea571024678cacd2059f0cdc2"
+        "from": "1.1.1110",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1111/NovaPanel-patch-1.1.1110-to-1.1.1111.zip",
+        "size": 11435579,
+        "sha256": "2db6b7a4b76164c43e412d2df65c78ba50d111b6947ec840ea0138d75d893672"
     }
 }
