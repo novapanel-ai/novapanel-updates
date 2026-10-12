@@ -1,15 +1,9 @@
 {
-    "version": "1.1.1112",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1112/NovaPanel-v1.1.1112.zip",
+    "version": "1.1.1113",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1113/NovaPanel-v1.1.1113.zip",
     "notes": [
-        "New (CEO: \"tarot can have 5 different card layouts ... based around ratio ... keep them all\"): Tarot has five arrangements of its cards for each screen ratio (16:9, 2:1, ultrawide, square, portrait, narrow). The first of each is the one…",
-        "Change (CEO: \"when width is tight stacking is better the opposite is true for height\"): on a screen narrower than 9:16 every card is full width and the short readings stack (memory and storage were side by side, each a third of the width).…"
+        "New (CEO 10-12 priority: \"all sensor work\"; CEO: CPU Dense \"adds cores and core load\"): SensorBridge now also reads each CPU core's load and clock, each drive's read and write rate and activity, and a laptop's battery (voltage, charge…",
+        "New readings for portals (shown only where the machine reports them): busiest core, distance to TjMax (Intel), GPU power as a share of its limit, an AMD APU's SoC temperature and voltage, lifetime drive reads, drive read / write rate and…"
     ],
-    "required": false,
-    "patch": {
-        "from": "1.1.1111",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1112/NovaPanel-patch-1.1.1111-to-1.1.1112.zip",
-        "size": 11437430,
-        "sha256": "d4e72130d2b27da9dcdc155e3affaaca5d718f6e526d06c771862b32257daf21"
-    }
+    "required": false
 }
