@@ -1,15 +1,16 @@
 {
-    "version": "1.1.1121",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1121/NovaPanel-v1.1.1121.zip",
+    "version": "1.1.1122",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1122/NovaPanel-v1.1.1122.zip",
     "notes": [
-        "Change (CEO: \"Deck should change to touch display and the rest remain in the editor ... go ahead with 5\"): Omen's editor is About and Position, plus Touch display (the deck, renamed) where the plan has it. Layout, Layers and Configure have…",
-        "Move: Readings (group by part or sensor, how much, and each part's order) is in Customize › Style for every theme, with up and down buttons for the order."
+        "New (CEO: \"if a user has a tiny little 320x240 screen ... they aren't likely going to edit it on THAT screen but on their main one\"): Customize on a small portal opens in one window on the main display, with a live copy of the portal…",
+        "The window says so (CEO: \"make sure it tell them that its only on the main display while they edit it but it will remain where they placed it\"): \"This copy is on your main display only while you edit. <portal> stays where you placed it, on…",
+        "Change (CEO: \"options for 240x240 are MUCH less than options for 4K\"): a card's Density offers Dense only where the card has room for it at this screen size; otherwise Relaxed and Minimal, with a line saying why."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1120",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1121/NovaPanel-patch-1.1.1120-to-1.1.1121.zip",
-        "size": 11467618,
-        "sha256": "f7320c01653c126e3e1cce31f41c135b7de94a2fec3aa83df5a5b2a1f8e1ca0d"
+        "from": "1.1.1121",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1122/NovaPanel-patch-1.1.1121-to-1.1.1122.zip",
+        "size": 11471481,
+        "sha256": "4b1fae97af5361c2e4f43daca018274238d1e0b519c3772128a1ace15c137a86"
     }
 }
