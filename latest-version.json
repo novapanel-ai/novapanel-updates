@@ -1,14 +1,15 @@
 {
-    "version": "1.1.1129",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1129/NovaPanel-v1.1.1129.zip",
+    "version": "1.1.1130",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1130/NovaPanel-v1.1.1130.zip",
     "notes": [
-        "Fix (CEO: \"why is it so huge? the done is cut off causing a horizontal scrollbar\"): Customize on the main display for a small portal is sized to its copy (at most twice the portal, about 480 px on its long side) and the controls beside it…"
+        "Fix (CEO: \"with the customize open if I change themes the customize 1. doesn’t update to the changed theme and 2 goes away\"): picking a theme in Customize (or anywhere else while it is open) keeps Customize open and shows the new theme’s…",
+        "Fix: Font names the font most of the theme’s text is written in (Velum: Inter, not the Georgia of its small label)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1128",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1129/NovaPanel-patch-1.1.1128-to-1.1.1129.zip",
-        "size": 11482810,
-        "sha256": "1209a16978c6d968b6dd3f7a01c89ca0880fa32f6b0cbbf3c7e3afcc81fabb31"
+        "from": "1.1.1129",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1130/NovaPanel-patch-1.1.1129-to-1.1.1130.zip",
+        "size": 11484301,
+        "sha256": "adb910bb135aed80df30d3202f6aab01fb77fde2ded40d2bd4b825dd269c20cc"
     }
 }
