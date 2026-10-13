@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1130",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1130/NovaPanel-v1.1.1130.zip",
+    "version": "1.1.1131",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1131/NovaPanel-v1.1.1131.zip",
     "notes": [
-        "Fix (CEO: \"with the customize open if I change themes the customize 1. doesn’t update to the changed theme and 2 goes away\"): picking a theme in Customize (or anywhere else while it is open) keeps Customize open and shows the new theme’s…",
-        "Fix: Font names the font most of the theme’s text is written in (Velum: Inter, not the Georgia of its small label)."
+        "Change (CEO: \"Layout is going to need to go back to the editor so we can have the thumbnails\"): Omen’s editor has its Layout step again (About · Position · Layout · Layers · Configure · Touch display), now with everything Customize’s…",
+        "Change (CEO: \"this should be layers and styles\"): Customize no longer has Layout; it opens on Styles (renamed from Style). Layers in Customize is next."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1129",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1130/NovaPanel-patch-1.1.1129-to-1.1.1130.zip",
-        "size": 11484301,
-        "sha256": "adb910bb135aed80df30d3202f6aab01fb77fde2ded40d2bd4b825dd269c20cc"
+        "from": "1.1.1130",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1131/NovaPanel-patch-1.1.1130-to-1.1.1131.zip",
+        "size": 11487231,
+        "sha256": "ee34434a847c906d7e08a9428b1c9801de978a04361d2d3271edb5b2f583e944"
     }
 }
