@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1146",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1146/NovaPanel-v1.1.1146.zip",
+    "version": "1.1.1147",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1147/NovaPanel-v1.1.1147.zip",
     "notes": [
-        "Rune fallback on Ganymede (CEO: \"the (fallback) system where I can pick a rune to fallback to when one isn’t running\"): Card options, on a rune that can be off (Media player with nothing playing, FPS outside a game, Laptop with no battery…",
-        "Touch on Ganymede’s rune cards (CEO: \"they also need to work\"): with touch on, Volume, Microphone and Brightness slide to set and tap to mute; Controls does the same for the one pressed; Radios taps Wi-Fi or Bluetooth on and off; Power…"
+        "Touch (CEO: \"this isn’t working I should see the full 1/3 2/3 cards here to choose for touch\"): the Touch page shows the deck’s split itself (All Omen, Omen ⅔, Omen ⅓) and which side Omen is on, then Set up its sections. Fixed: the deck…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1145",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1146/NovaPanel-patch-1.1.1145-to-1.1.1146.zip",
-        "size": 11503690,
-        "sha256": "7b076adcf8d8d5b2f756d9832cd188cbc21cfec473e84ef8005ade310bcead5a"
+        "from": "1.1.1146",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1147/NovaPanel-patch-1.1.1146-to-1.1.1147.zip",
+        "size": 11504193,
+        "sha256": "99eca44aacbc9d0745807bc82175b3132a18c05b5a63a7d09418a7acd33c8587"
     }
 }
