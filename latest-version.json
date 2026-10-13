@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1144",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1144/NovaPanel-v1.1.1144.zip",
+    "version": "1.1.1145",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1145/NovaPanel-v1.1.1145.zip",
     "notes": [
-        "Runes on Ganymede (CEO: \"its time to fix all of them to work with the theme\"): every rune on a card now draws in Ganymede’s own type: headings and labels in small spaced capitals in the secondary color, numbers thin, values light, labels…",
-        "Fixed: FPS, Laptop, Clock faces and Weather looks drew blank or collapsed on a card (they were measured before they were on the page)."
+        "Runes on Ganymede at every ratio (CEO: \"still finding broken runes\"): no word on a rune card is cut. A heading stays on one line, its spacing gives way first, then the type steps down to Ganymede’s floor (Wi-Fi on a narrow strip card…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1143",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1144/NovaPanel-patch-1.1.1143-to-1.1.1144.zip",
-        "size": 11499255,
-        "sha256": "8152546d5a544a9949fa9c311da3d7af19260dc5f987cc24e0e6ffc80feced60"
+        "from": "1.1.1144",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1145/NovaPanel-patch-1.1.1144-to-1.1.1145.zip",
+        "size": 11499577,
+        "sha256": "36f7a5b9e64819ae7f50f58b3992e7407e2fcaa8495bd633650c19f6995d62cc"
     }
 }
