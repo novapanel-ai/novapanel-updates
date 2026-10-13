@@ -1,14 +1,16 @@
 {
-    "version": "1.1.1133",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1133/NovaPanel-v1.1.1133.zip",
+    "version": "1.1.1134",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1134/NovaPanel-v1.1.1134.zip",
     "notes": [
-        "Fix (CEO: \"fix it yes\"): when the Omen editor’s steps do not fit beside Control Panel and the close (a narrow window), every step but the open one shows its number only (its name in the tooltip), so Configure and the rest are never cut off."
+        "New (CEO: \"layers on customize layout on editor\"): Customize has Layers · Styles. Layers is the portal’s real layer stack, top to bottom: Base (color, opacity, see-through), every Gradient (the shared Gradient control), every Pattern (its…",
+        "Foundation: what Layers is (its kinds, names, limits, order, add, move, remove) is one shared model, foundation-panel/shared/layers-model.js, used by both the editor’s Layers step and Customize; the gradient controls are the shared…",
+        "Change: Styles no longer has its own Background section (an either/or of a color or an image); the background is Layers."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1132",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1133/NovaPanel-patch-1.1.1132-to-1.1.1133.zip",
-        "size": 11490073,
-        "sha256": "f402b13d1e43481128edcd17847990c57441c6ab7eda783d34db6c56a68152e3"
+        "from": "1.1.1133",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1134/NovaPanel-patch-1.1.1133-to-1.1.1134.zip",
+        "size": 11497014,
+        "sha256": "628e29b05cedb50d1d515b528c58cde7b28ccc64856110b657dae3f0c22ef51b"
     }
 }
