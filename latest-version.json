@@ -1,17 +1,15 @@
 {
-    "version": "1.1.1149",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1149/NovaPanel-v1.1.1149.zip",
+    "version": "1.1.1150",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1150/NovaPanel-v1.1.1150.zip",
     "notes": [
-        "Runes on Ganymede, every one by BOB (CEO: \"you must review every single rune and every single layout for it you offer in all the ratios that Ganymede cards have\"): each rune is measured once it is drawn, then centered as one group and…",
-        "Responsive inside (CEO: \"every design needs to be built responsive and adaptable\"): the weather, battery and FPS graphs, rings and sparks size from whichever side is shorter for their shape (the weather graph overlapped its own numbers on…",
-        "Every rune’s settings (CEO: \"I chose video but there is not where to add a video ... make sure every runes settings are available to change\"): Card options adds 4 · Settings. Video: none, a file or a link, and how it fills; the video now…",
-        "Touch (CEO: \"if I toggle off the touch panel then the screen needs to go full screen\"): with touch off the deck beside Omen is gone and Omen fills the screen; turning touch on brings the split back."
+        "Runes on Ganymede, the second BOB pass: a layout is offered on a card only where it holds together there: it fills the card, keeps at least four tenths of its set (a week row with two of its seven days is not), is not squeezed far under…",
+        "Power buttons and Shortcuts: on Omen their icons grow with the card instead of stopping at Mirage’s strip size, and the four power buttons sit together as one group instead of in the card’s corners. Weather Now is not offered on a card…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1148",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1149/NovaPanel-patch-1.1.1148-to-1.1.1149.zip",
-        "size": 11515395,
-        "sha256": "5df044e8c71ba9eb659accfcc9dd3c2f8fbf07121653592d8f2d9f0424cbff36"
+        "from": "1.1.1149",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1150/NovaPanel-patch-1.1.1149-to-1.1.1150.zip",
+        "size": 11518656,
+        "sha256": "17df2cc2cb927aedc896c073c229d2fce6cb7521aa9d5211a80bd6ee729ca590"
     }
 }
