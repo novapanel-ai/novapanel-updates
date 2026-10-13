@@ -1,14 +1,15 @@
 {
-    "version": "1.1.1145",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1145/NovaPanel-v1.1.1145.zip",
+    "version": "1.1.1146",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1146/NovaPanel-v1.1.1146.zip",
     "notes": [
-        "Runes on Ganymede at every ratio (CEO: \"still finding broken runes\"): no word on a rune card is cut. A heading stays on one line, its spacing gives way first, then the type steps down to Ganymede’s floor (Wi-Fi on a narrow strip card…"
+        "Rune fallback on Ganymede (CEO: \"the (fallback) system where I can pick a rune to fallback to when one isn’t running\"): Card options, on a rune that can be off (Media player with nothing playing, FPS outside a game, Laptop with no battery…",
+        "Touch on Ganymede’s rune cards (CEO: \"they also need to work\"): with touch on, Volume, Microphone and Brightness slide to set and tap to mute; Controls does the same for the one pressed; Radios taps Wi-Fi or Bluetooth on and off; Power…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1144",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1145/NovaPanel-patch-1.1.1144-to-1.1.1145.zip",
-        "size": 11499577,
-        "sha256": "36f7a5b9e64819ae7f50f58b3992e7407e2fcaa8495bd633650c19f6995d62cc"
+        "from": "1.1.1145",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1146/NovaPanel-patch-1.1.1145-to-1.1.1146.zip",
+        "size": 11503690,
+        "sha256": "7b076adcf8d8d5b2f756d9832cd188cbc21cfec473e84ef8005ade310bcead5a"
     }
 }
