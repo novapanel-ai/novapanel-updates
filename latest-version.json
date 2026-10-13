@@ -1,16 +1,14 @@
 {
-    "version": "1.1.1132",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1132/NovaPanel-v1.1.1132.zip",
+    "version": "1.1.1133",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1133/NovaPanel-v1.1.1133.zip",
     "notes": [
-        "Change (CEO: \"My themes are named after the moons of Jupiter\", names approved on the names page): Omen’s themes are Amalthea (was Velum), Themisto (Helm), Ganymede (Tarot), Pandia (Ember), Orthosie (Ledger), Elara (Hairline), Leda (Dial)…",
-        "New (CEO: \"I do want categories ... luxury, minimal, cyber, retro and special\"): the themes are grouped under those five in the editor’s Layout and in Customize’s Theme.",
-        "New (CEO: \"On the right click we want only the categories and theme (variants are a subsection)\"): right-click › Theme › a category › a theme, with its variants under it. The Creator-only Experience list (old names) is replaced by it."
+        "Fix (CEO: \"fix it yes\"): when the Omen editor’s steps do not fit beside Control Panel and the close (a narrow window), every step but the open one shows its number only (its name in the tooltip), so Configure and the rest are never cut off."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1131",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1132/NovaPanel-patch-1.1.1131-to-1.1.1132.zip",
-        "size": 11489376,
-        "sha256": "e5cb26ddf0804716062cbc26ed329c3d241bbccb440c52270a912274cb0660b0"
+        "from": "1.1.1132",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1133/NovaPanel-patch-1.1.1132-to-1.1.1133.zip",
+        "size": 11490073,
+        "sha256": "f402b13d1e43481128edcd17847990c57441c6ab7eda783d34db6c56a68152e3"
     }
 }
