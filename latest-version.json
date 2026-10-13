@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1150",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1150/NovaPanel-v1.1.1150.zip",
+    "version": "1.1.1151",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1151/NovaPanel-v1.1.1151.zip",
     "notes": [
-        "Runes on Ganymede, the second BOB pass: a layout is offered on a card only where it holds together there: it fills the card, keeps at least four tenths of its set (a week row with two of its seven days is not), is not squeezed far under…",
-        "Power buttons and Shortcuts: on Omen their icons grow with the card instead of stopping at Mirage’s strip size, and the four power buttons sit together as one group instead of in the card’s corners. Weather Now is not offered on a card…"
+        "Runes on Ganymede, the third BOB pass (all 16 runes, every layout, 18 card shapes, reviewed by eye): a set that is only itself whole is offered only where all of it shows: the week rows show all seven days, Radios’ Glyphs shows both Wi-Fi…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1149",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1150/NovaPanel-patch-1.1.1149-to-1.1.1150.zip",
-        "size": 11518656,
-        "sha256": "17df2cc2cb927aedc896c073c229d2fce6cb7521aa9d5211a80bd6ee729ca590"
+        "from": "1.1.1150",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1151/NovaPanel-patch-1.1.1150-to-1.1.1151.zip",
+        "size": 11519235,
+        "sha256": "6ad3e164ebb5d55cbc48f2f7c347cc42f6267cbbf1ba08de7381baf3cf303e42"
     }
 }
