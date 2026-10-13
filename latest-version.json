@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1141",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1141/NovaPanel-v1.1.1141.zip",
+    "version": "1.1.1142",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1142/NovaPanel-v1.1.1142.zip",
     "notes": [
-        "Every Ganymede card has its own readings order (CEO: \"all the cards need readings orders not just the first two\"): Memory (used, in use, free, total), Storage (used, used space, free, and its temperature and health where the drive reports…",
-        "Sensor cards (CEO: \"we also need sensors as options temperature, load etc.\"): any card can show Temperatures, Loads, Power, Fans, Clocks or Voltages, one kind of reading gathered from every part (CPU, GPU, memory, drive, board), as rows…"
+        "Editor (CEO: \"once I pick a card I cannot unpick it ... that all cards is way too subtle\"): a picked card’s options open under a gold bar with its name and a \"← Done with this card\" button; a second click on the card, a click beside the…",
+        "Ganymede (CEO: \"I am seeing weather repeated\"): the Time card’s foot skips the weather while the Outside card is on the portal, so it shows the next readings in its order (uptime, week, date)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1140",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1141/NovaPanel-patch-1.1.1140-to-1.1.1141.zip",
-        "size": 11493833,
-        "sha256": "26673dbd2f4e47b93ebfff581e25273e7fec1912db8fd7e10ed981b2a00a3e7e"
+        "from": "1.1.1141",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1142/NovaPanel-patch-1.1.1141-to-1.1.1142.zip",
+        "size": 11494410,
+        "sha256": "d469ff87da3048b88ecf90368f909adf4be7115e3f84800e85174f209bac05fe"
     }
 }
