@@ -1,14 +1,17 @@
 {
-    "version": "1.1.1148",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1148/NovaPanel-v1.1.1148.zip",
+    "version": "1.1.1149",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1149/NovaPanel-v1.1.1149.zip",
     "notes": [
-        "Calendar (CEO: \"calendar days is cut off on the sides\"): today’s circle is as big as its day’s shorter side, so it is never wider than the day and never cut off. The shared rune, so on Mirage too. Checked at 1280×400, 720×720, 1920×480…"
+        "Runes on Ganymede, every one by BOB (CEO: \"you must review every single rune and every single layout for it you offer in all the ratios that Ganymede cards have\"): each rune is measured once it is drawn, then centered as one group and…",
+        "Responsive inside (CEO: \"every design needs to be built responsive and adaptable\"): the weather, battery and FPS graphs, rings and sparks size from whichever side is shorter for their shape (the weather graph overlapped its own numbers on…",
+        "Every rune’s settings (CEO: \"I chose video but there is not where to add a video ... make sure every runes settings are available to change\"): Card options adds 4 · Settings. Video: none, a file or a link, and how it fills; the video now…",
+        "Touch (CEO: \"if I toggle off the touch panel then the screen needs to go full screen\"): with touch off the deck beside Omen is gone and Omen fills the screen; turning touch on brings the split back."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1147",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1148/NovaPanel-patch-1.1.1147-to-1.1.1148.zip",
-        "size": 11504920,
-        "sha256": "a56c21d8707cc6e2e812842d915af193537ea6bec0e4fb56e813b530bc63fa2e"
+        "from": "1.1.1148",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1149/NovaPanel-patch-1.1.1148-to-1.1.1149.zip",
+        "size": 11515395,
+        "sha256": "5df044e8c71ba9eb659accfcc9dd3c2f8fbf07121653592d8f2d9f0424cbff36"
     }
 }
