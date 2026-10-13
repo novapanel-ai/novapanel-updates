@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1147",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1147/NovaPanel-v1.1.1147.zip",
+    "version": "1.1.1148",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1148/NovaPanel-v1.1.1148.zip",
     "notes": [
-        "Touch (CEO: \"this isn’t working I should see the full 1/3 2/3 cards here to choose for touch\"): the Touch page shows the deck’s split itself (All Omen, Omen ⅔, Omen ⅓) and which side Omen is on, then Set up its sections. Fixed: the deck…"
+        "Calendar (CEO: \"calendar days is cut off on the sides\"): today’s circle is as big as its day’s shorter side, so it is never wider than the day and never cut off. The shared rune, so on Mirage too. Checked at 1280×400, 720×720, 1920×480…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1146",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1147/NovaPanel-patch-1.1.1146-to-1.1.1147.zip",
-        "size": 11504193,
-        "sha256": "99eca44aacbc9d0745807bc82175b3132a18c05b5a63a7d09418a7acd33c8587"
+        "from": "1.1.1147",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1148/NovaPanel-patch-1.1.1147-to-1.1.1148.zip",
+        "size": 11504920,
+        "sha256": "a56c21d8707cc6e2e812842d915af193537ea6bec0e4fb56e813b530bc63fa2e"
     }
 }
