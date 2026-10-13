@@ -1,16 +1,17 @@
 {
-    "version": "1.1.1134",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1134/NovaPanel-v1.1.1134.zip",
+    "version": "1.1.1135",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1135/NovaPanel-v1.1.1135.zip",
     "notes": [
-        "New (CEO: \"layers on customize layout on editor\"): Customize has Layers · Styles. Layers is the portal’s real layer stack, top to bottom: Base (color, opacity, see-through), every Gradient (the shared Gradient control), every Pattern (its…",
-        "Foundation: what Layers is (its kinds, names, limits, order, add, move, remove) is one shared model, foundation-panel/shared/layers-model.js, used by both the editor’s Layers step and Customize; the gradient controls are the shared…",
-        "Change: Styles no longer has its own Background section (an either/or of a color or an image); the background is Layers."
+        "New (CEO: \"I can choose a sensor value and tell it which one i want there\"): with Customize open on Ganymede, every figure along the foot of the CPU and GPU cards is a target on the portal (or its copy on the main display): a click lists…",
+        "Fix (CEO: \"i’m clicking these settings but nothing is happening\"): Ganymede’s figures follow the CPU’s and GPU’s Readings order now; Group by and How much, which never reached its cards, are no longer offered for it (Customize and the…",
+        "Fix (CEO: \"z-index and sizing issues\"): Customize’s own window stays above the portal, and the image and video pickers open on it (they opened under an always-on-top portal); the ring on the portal and the copy follow the portal when it…",
+        "New (CEO: \"the resolutions where items are not available we need to dim and disable those options\"): in the editor’s Layout, Dense on a card too small for it at this size is shown dimmed and disabled with the reason; at a size where…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1133",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1134/NovaPanel-patch-1.1.1133-to-1.1.1134.zip",
-        "size": 11497014,
-        "sha256": "628e29b05cedb50d1d515b528c58cde7b28ccc64856110b657dae3f0c22ef51b"
+        "from": "1.1.1134",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1135/NovaPanel-patch-1.1.1134-to-1.1.1135.zip",
+        "size": 11502304,
+        "sha256": "59911f9a25056fb1fee1273a77efd67243e7243db0582f43e47a3fe00b105372"
     }
 }
