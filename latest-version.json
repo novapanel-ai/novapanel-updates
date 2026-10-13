@@ -1,17 +1,14 @@
 {
-    "version": "1.1.1135",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1135/NovaPanel-v1.1.1135.zip",
+    "version": "1.1.1136",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1136/NovaPanel-v1.1.1136.zip",
     "notes": [
-        "New (CEO: \"I can choose a sensor value and tell it which one i want there\"): with Customize open on Ganymede, every figure along the foot of the CPU and GPU cards is a target on the portal (or its copy on the main display): a click lists…",
-        "Fix (CEO: \"i’m clicking these settings but nothing is happening\"): Ganymede’s figures follow the CPU’s and GPU’s Readings order now; Group by and How much, which never reached its cards, are no longer offered for it (Customize and the…",
-        "Fix (CEO: \"z-index and sizing issues\"): Customize’s own window stays above the portal, and the image and video pickers open on it (they opened under an always-on-top portal); the ring on the portal and the copy follow the portal when it…",
-        "New (CEO: \"the resolutions where items are not available we need to dim and disable those options\"): in the editor’s Layout, Dense on a card too small for it at this size is shown dimmed and disabled with the reason; at a size where…"
+        "Fix (CEO: \"z-index ... issues\"): Customize’s own layers stack in one order (the targets on the portal, then the side panel, then a card’s or a figure’s panel, then the bar), so the figure targets no longer draw over the Styles panel, and a…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1134",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1135/NovaPanel-patch-1.1.1134-to-1.1.1135.zip",
-        "size": 11502304,
-        "sha256": "59911f9a25056fb1fee1273a77efd67243e7243db0582f43e47a3fe00b105372"
+        "from": "1.1.1135",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1136/NovaPanel-patch-1.1.1135-to-1.1.1136.zip",
+        "size": 11502545,
+        "sha256": "33f63782f5930ca1d3cb9a76fbf0e1e921ad9936ef41ac00add739ebb37514c9"
     }
 }
