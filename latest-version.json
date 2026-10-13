@@ -1,17 +1,15 @@
 {
-    "version": "1.1.1140",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1140/NovaPanel-v1.1.1140.zip",
+    "version": "1.1.1141",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1141/NovaPanel-v1.1.1141.zip",
     "notes": [
-        "Ganymede card priority (CEO: \"a card (or rune) priority list because of size changes and touch we will have to hide cards\"): Customize › Card options lists every card in order; when an arrangement or the small-screen form holds fewer…",
-        "The hero follows the readings order (CEO: \"if I move power to the top the hero needs to reflect that change\"): on the CPU and GPU cards the first reading is the big number, the second the line under it, the rest the figures. The ring shows…",
-        "Every card can be changed (CEO: \"No dead spaces (or excuses)\"): the readings list card (from the old group-by-sensor setting, which nothing could change) is gone from Ganymede, so Outside and Network have their own cards again; the…",
-        "The editor’s live copy of the portal is centered in its pane."
+        "Every Ganymede card has its own readings order (CEO: \"all the cards need readings orders not just the first two\"): Memory (used, in use, free, total), Storage (used, used space, free, and its temperature and health where the drive reports…",
+        "Sensor cards (CEO: \"we also need sensors as options temperature, load etc.\"): any card can show Temperatures, Loads, Power, Fans, Clocks or Voltages, one kind of reading gathered from every part (CPU, GPU, memory, drive, board), as rows…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1139",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1140/NovaPanel-patch-1.1.1139-to-1.1.1140.zip",
-        "size": 11490609,
-        "sha256": "45ad8bcb359f9abeaebfacc50b52ef0cdea94a3dca62c9cc0c903ea82768ab5a"
+        "from": "1.1.1140",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1141/NovaPanel-patch-1.1.1140-to-1.1.1141.zip",
+        "size": 11493833,
+        "sha256": "26673dbd2f4e47b93ebfff581e25273e7fec1912db8fd7e10ed981b2a00a3e7e"
     }
 }
