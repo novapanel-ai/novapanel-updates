@@ -1,17 +1,17 @@
 {
-    "version": "1.1.1139",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1139/NovaPanel-v1.1.1139.zip",
+    "version": "1.1.1140",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1140/NovaPanel-v1.1.1140.zip",
     "notes": [
-        "New Omen editor (CEO-approved mockup): About | 1 Theme | 2 Size & screen | 3 Layout | 4 Customize, then Preferences and + Touch. Theme opens one picture per category, then that category’s themes (breadcrumbed), then a theme’s variants.…",
-        "Customize moved into the editor: a live copy of the portal (its own drawing and its own background layers) beside Portal (border, outer margin), Layers (the whole stack; the Base color layer has its opacity, its color is on Color), Color…",
-        "Text effects (Shadow; Reverse, with Black and white only and Stronger) now draw on Ganymede’s text. Metrics can color the gauges with Primary, Secondary or Accent.",
-        "God Mode: every editor tab can be saved as its theme’s default (Preferences, Touch, Size and Theme for every portal); Reset puts a tab back to it. The clock and Demo mode moved to Preferences; touch settings to the Touch tab."
+        "Ganymede card priority (CEO: \"a card (or rune) priority list because of size changes and touch we will have to hide cards\"): Customize › Card options lists every card in order; when an arrangement or the small-screen form holds fewer…",
+        "The hero follows the readings order (CEO: \"if I move power to the top the hero needs to reflect that change\"): on the CPU and GPU cards the first reading is the big number, the second the line under it, the rest the figures. The ring shows…",
+        "Every card can be changed (CEO: \"No dead spaces (or excuses)\"): the readings list card (from the old group-by-sensor setting, which nothing could change) is gone from Ganymede, so Outside and Network have their own cards again; the…",
+        "The editor’s live copy of the portal is centered in its pane."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1138",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1139/NovaPanel-patch-1.1.1138-to-1.1.1139.zip",
-        "size": 11485386,
-        "sha256": "73de29edb90992f3b0eb177ef516e557f04ed3c620a289c9f28424d7703b4010"
+        "from": "1.1.1139",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1140/NovaPanel-patch-1.1.1139-to-1.1.1140.zip",
+        "size": 11490609,
+        "sha256": "45ad8bcb359f9abeaebfacc50b52ef0cdea94a3dca62c9cc0c903ea82768ab5a"
     }
 }
