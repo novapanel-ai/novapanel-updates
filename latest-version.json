@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1137",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1137/NovaPanel-v1.1.1137.zip",
+    "version": "1.1.1138",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1138/NovaPanel-v1.1.1138.zip",
     "notes": [
-        "Internal (CEO: \"you are cleared to do the renaming now\"): the source folder is now products\\sigil (it was products\\novapanel; the old path stays as a junction for a week). Nothing a user sees changes: the app id, install folder, settings…"
+        "Remove (CEO: \"Let’s remove controls that don’t work\"): Layers › Content › On is no longer offered on Omen (the classic readout band it hid is never shown while a theme draws); the editor’s \"Knob on gauges and bars\" is gone (it was ignored…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1136",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1137/NovaPanel-patch-1.1.1136-to-1.1.1137.zip",
-        "size": 11502944,
-        "sha256": "c56db7d709ea6b103b774a970b34a239ff9864be1c9444e16dfec091cdf335ea"
+        "from": "1.1.1137",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1138/NovaPanel-patch-1.1.1137-to-1.1.1138.zip",
+        "size": 11503270,
+        "sha256": "719490560b423a8ee539a40089d52df28eff3bf08e0fd0db343d587787cbcd41"
     }
 }
