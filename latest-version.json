@@ -1,17 +1,15 @@
 {
-    "version": "1.1.1143",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1143/NovaPanel-v1.1.1143.zip",
+    "version": "1.1.1144",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1144/NovaPanel-v1.1.1144.zip",
     "notes": [
-        "Ganymede runes (CEO: \"where are all the runes we have? I need everything so I can define the defaults\"): any card can show any shared rune: Calendar, Media player, FPS, Laptop, Volume, Brightness, Microphone, Radios, Power plan, Power…",
-        "Battery is its own card (CEO: \"on the battery card you have 0.0MB/s why? these need to make sense\"): charge, plugged in or not, charge rate, voltage, wear and capacity; Network is network only (download, upload, address). A laptop’s third…",
-        "Every reading the PC reports: the CPU card adds hottest and busiest core; the GPU card memory clock, SoC temperature and voltage, fan %, VRAM in GB and power of its limit; Storage adds read and write speed, activity and totals; the sensor…",
-        "Editor (CEO: \"this all looks really smashed together\"): Customize’s panels get one rhythm: more room round each row, the hint under its label, more space above each heading, and an open layer and its settings drawn as one block."
+        "Runes on Ganymede (CEO: \"its time to fix all of them to work with the theme\"): every rune on a card now draws in Ganymede’s own type: headings and labels in small spaced capitals in the secondary color, numbers thin, values light, labels…",
+        "Fixed: FPS, Laptop, Clock faces and Weather looks drew blank or collapsed on a card (they were measured before they were on the page)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1142",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1143/NovaPanel-patch-1.1.1142-to-1.1.1143.zip",
-        "size": 11498256,
-        "sha256": "adb713ceeffabc53f61155e0da7971132bb6221ac90e0b7cf7dc69bba2fa0c16"
+        "from": "1.1.1143",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1144/NovaPanel-patch-1.1.1143-to-1.1.1144.zip",
+        "size": 11499255,
+        "sha256": "8152546d5a544a9949fa9c311da3d7af19260dc5f987cc24e0e6ffc80feced60"
     }
 }
