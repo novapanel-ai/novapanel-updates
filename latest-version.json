@@ -1,14 +1,15 @@
 {
-    "version": "1.1.1151",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1151/NovaPanel-v1.1.1151.zip",
+    "version": "1.1.1152",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1152/NovaPanel-v1.1.1152.zip",
     "notes": [
-        "Runes on Ganymede, the third BOB pass (all 16 runes, every layout, 18 card shapes, reviewed by eye): a set that is only itself whole is offered only where all of it shows: the week rows show all seven days, Radios’ Glyphs shows both Wi-Fi…"
+        "Fixed (bug #16, Blink): the tray menu dropped a portal when two were open. A hidden portal opened again is destroyed and made anew, and the old window’s close arrived after the new one existed: it took the new window out of the open-portal…",
+        "Fixed (bug #17): Customize closes every way. The bar on the portal that would not close is gone since 1.1.1139 (Customize is the editor’s Customize step now); in the editor, Done closes it, and Esc steps back (a picked card first) and then…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1150",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1151/NovaPanel-patch-1.1.1150-to-1.1.1151.zip",
-        "size": 11519235,
-        "sha256": "6ad3e164ebb5d55cbc48f2f7c347cc42f6267cbbf1ba08de7381baf3cf303e42"
+        "from": "1.1.1151",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1152/NovaPanel-patch-1.1.1151-to-1.1.1152.zip",
+        "size": 11519792,
+        "sha256": "2bfe808bd25a0a83dd81c94767938381906fa6f411fb92e7cb20b8f4a222861f"
     }
 }
