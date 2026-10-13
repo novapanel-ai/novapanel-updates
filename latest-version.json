@@ -1,14 +1,17 @@
 {
-    "version": "1.1.1138",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1138/NovaPanel-v1.1.1138.zip",
+    "version": "1.1.1139",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1139/NovaPanel-v1.1.1139.zip",
     "notes": [
-        "Remove (CEO: \"Let’s remove controls that don’t work\"): Layers › Content › On is no longer offered on Omen (the classic readout band it hid is never shown while a theme draws); the editor’s \"Knob on gauges and bars\" is gone (it was ignored…"
+        "New Omen editor (CEO-approved mockup): About | 1 Theme | 2 Size & screen | 3 Layout | 4 Customize, then Preferences and + Touch. Theme opens one picture per category, then that category’s themes (breadcrumbed), then a theme’s variants.…",
+        "Customize moved into the editor: a live copy of the portal (its own drawing and its own background layers) beside Portal (border, outer margin), Layers (the whole stack; the Base color layer has its opacity, its color is on Color), Color…",
+        "Text effects (Shadow; Reverse, with Black and white only and Stronger) now draw on Ganymede’s text. Metrics can color the gauges with Primary, Secondary or Accent.",
+        "God Mode: every editor tab can be saved as its theme’s default (Preferences, Touch, Size and Theme for every portal); Reset puts a tab back to it. The clock and Demo mode moved to Preferences; touch settings to the Touch tab."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1137",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1138/NovaPanel-patch-1.1.1137-to-1.1.1138.zip",
-        "size": 11503270,
-        "sha256": "719490560b423a8ee539a40089d52df28eff3bf08e0fd0db343d587787cbcd41"
+        "from": "1.1.1138",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1139/NovaPanel-patch-1.1.1138-to-1.1.1139.zip",
+        "size": 11485386,
+        "sha256": "73de29edb90992f3b0eb177ef516e557f04ed3c620a289c9f28424d7703b4010"
     }
 }
