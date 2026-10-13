@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1136",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1136/NovaPanel-v1.1.1136.zip",
+    "version": "1.1.1137",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1137/NovaPanel-v1.1.1137.zip",
     "notes": [
-        "Fix (CEO: \"z-index ... issues\"): Customize’s own layers stack in one order (the targets on the portal, then the side panel, then a card’s or a figure’s panel, then the bar), so the figure targets no longer draw over the Styles panel, and a…"
+        "Internal (CEO: \"you are cleared to do the renaming now\"): the source folder is now products\\sigil (it was products\\novapanel; the old path stays as a junction for a week). Nothing a user sees changes: the app id, install folder, settings…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1135",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1136/NovaPanel-patch-1.1.1135-to-1.1.1136.zip",
-        "size": 11502545,
-        "sha256": "33f63782f5930ca1d3cb9a76fbf0e1e921ad9936ef41ac00add739ebb37514c9"
+        "from": "1.1.1136",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1137/NovaPanel-patch-1.1.1136-to-1.1.1137.zip",
+        "size": 11502944,
+        "sha256": "c56db7d709ea6b103b774a970b34a239ff9864be1c9444e16dfec091cdf335ea"
     }
 }
