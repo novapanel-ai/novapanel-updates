@@ -1,8 +1,10 @@
 {
-    "version": "1.1.1174",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1174/NovaPanel-v1.1.1174.zip",
+    "version": "1.1.1175",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1175/NovaPanel-v1.1.1175.zip",
     "notes": [
-        "Relaxed on small screens (queue #20, CEO: \"Given the 240x240 I understand no dense. But relaxed could still fit stuff\"): Ganymede’s small-screen form (240×240, the round screens, and the other small sizes it draws compact) offers Minimal…"
+        "Fixed: the editor’s live copy laid out at the portal’s stored size, while the portal lays out at that size after Windows’ display scaling (a 240×240 portal on a 125% display has a 192×192 layout), so the copy could show a reading the…",
+        "Callisto, single runes for small screens (queue #23, CEO: “since 240x240 and similar sizes get less sensors I want to give them more single runes”): a new Special theme whose styles each fill a small screen, square or round: Clock (an…",
+        "Included, switched OFF: the Insights sender (insights/, the Insights thread). insights/destination.json is enabled:false with no endpoint, so it reads nothing and sends nothing until the CEO turns it on."
     ],
     "required": false,
     "date": "2026-10-14"
