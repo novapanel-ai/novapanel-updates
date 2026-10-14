@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1163",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1163/NovaPanel-v1.1.1163.zip",
+    "version": "1.1.1164",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1164/NovaPanel-v1.1.1164.zip",
     "notes": [
-        "Sensors (PARITY findings, queue #5): an \"is this real\" rule for a drive’s Available Spare. Zephyrus’ OEM Samsung NVMe reports 0% spare as a placeholder beside healthy wear; a 0% spare is now believed only when the drive also fails another…"
+        "Sensors (PARITY, after Ops’ quiet-sample re-check on Gemkeeper): an AMD APU’s integrated GPU core voltage and GPU power are withheld until they are certified. Over 12 idle side-by-side samples the voltage averaged 0.82 V against AIDA64’s…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1162",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1163/NovaPanel-patch-1.1.1162-to-1.1.1163.zip",
-        "size": 11363463,
-        "sha256": "5eb33bbe5e1de503db9fcecfc480ec6b2c66fe884f596ee454ee90582180cef2"
+        "from": "1.1.1163",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1164/NovaPanel-patch-1.1.1163-to-1.1.1164.zip",
+        "size": 11364237,
+        "sha256": "9e08cd203cba6c2d96e133ca65c929f0c5df533cc684e26b0a8ae01297d5f80f"
     }
 }
