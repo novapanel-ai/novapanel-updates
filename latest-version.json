@@ -1,10 +1,8 @@
 {
-    "version": "1.1.1181",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1181/NovaPanel-v1.1.1181.zip",
+    "version": "1.1.1182",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1182/NovaPanel-v1.1.1182.zip",
     "notes": [
-        "The two-portals rule (CEO 10-12): with two or more portals running, a portal whose screen goes away (sleep, unplugged, turned off) now waits hidden for that screen and comes back on it, at its own size, when it returns. It is no longer…",
-        "Placement rig: a two-portals step (one portal’s screen gone: it waits hidden, the other is untouched, nothing comes onto the main display; screen back: it returns). The “home record kept” check accepts a screen serial Windows reports later.",
-        "AMD APUs: one log line a minute of the GPU power and temperature the portal is given from AMD’s own telemetry, so the fleet can compare it with AIDA64."
+        "Themes (Control Panel): one quiet line says when the next theme arrives (in N days), with a link to see what’s coming on pcsigil.com, and a row of links: Suggest a theme · Instructions · FAQ · What’s new. No pop-ups and no reminders. The…"
     ],
     "required": false,
     "date": "2026-10-14"
