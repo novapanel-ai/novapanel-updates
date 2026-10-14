@@ -1,10 +1,9 @@
 {
-    "version": "1.1.1192",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1192/NovaPanel-v1.1.1192.zip",
+    "version": "1.1.1193",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1193/NovaPanel-v1.1.1193.zip",
     "notes": [
-        "Omen’s themes are 23: a theme is one theme with its layouts. Marque and Chapter are Amalthea’s layouts, Widgets and Ring are Dia’s, Poster and Shelf are Aoede’s, and Readings is Hollow’s (each theme’s first layout is Classic).",
-        "Editor › Theme: picking one of these themes opens its layouts (as Callisto opens its singles); Customize › Color says it has one color set. The right-click Layout menu lists its layouts; on the touch menu, tapping the theme in use opens…",
-        "Saved choices are unchanged: a portal on Marque, Dia Ring, Aoede Poster or Hollow Readings keeps it, now shown as that theme’s layout. Amalthea, Dia, Aoede and Hollow are 0.5.1."
+        "A portal’s default name is a real one: a second Omen is “Omen 2” (then 3 …), in the tray, the right-click, the Control Panel and the notices, instead of “New Panel”.",
+        "A saved portal still named “New Panel” is renamed at start (to “Omen 2” and so on); a name you chose is kept. The window title stays “Sigil — Omen”."
     ],
     "required": false,
     "date": "2026-10-14"
