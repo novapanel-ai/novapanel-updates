@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1168",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1168/NovaPanel-v1.1.1168.zip",
+    "version": "1.1.1169",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1169/NovaPanel-v1.1.1169.zip",
     "notes": [
-        "The rest of Customize (queue #7, the CEO’s customization rulings; all free). Font size by role on Ganymede: Customize > Fonts > Size has four sliders (Hero, the big figure of each card; Values; Details, the secondary text; Labels, the…",
-        "Reset: one control at the head of Color and Fonts, \"Reset to <theme>’s look\", returns its colors, font, sizes and clock color to how it ships (the CEO’s God Mode default when one is saved); it asks for a second click instead of a dialog. A…",
-        "Saved looks: \"Save this look\" names the colors, font, sizes, clock color and text effects; any saved look can be used on any theme and any portal. A theme takes what it has (the other themes take the colors and font; sizes and the clock…"
+        "HWiNFO fix (Ops fleet proof on Blink, Ryzen 7 5700U): HWiNFO names an APU’s GPU “iGPU [#0]”, which was not matched as a GPU, so the AMD integrated GPU’s core voltage was offered as “(from HWiNFO)”. It is now a GPU, and an AMD integrated…",
+        "Ganymede’s version is 0.8.1 (CEO), not 0.9.0 as 1.1.1168 set it."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1167",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1168/NovaPanel-patch-1.1.1167-to-1.1.1168.zip",
-        "size": 11381619,
-        "sha256": "ef7b6aaa8bcd64e361edf2a9b913ac8cca635da8f7054f6f30d2c040e2dc3b82"
+        "from": "1.1.1168",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1169/NovaPanel-patch-1.1.1168-to-1.1.1169.zip",
+        "size": 11382228,
+        "sha256": "1e518ed0f07e7d0aa6f40762d9821882085894a69cd6a05ac8701f4abf8eed2c"
     }
 }
