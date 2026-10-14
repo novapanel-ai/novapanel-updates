@@ -1,9 +1,8 @@
 {
-    "version": "1.1.1176",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1176/NovaPanel-v1.1.1176.zip",
+    "version": "1.1.1177",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1177/NovaPanel-v1.1.1177.zip",
     "notes": [
-        "NVMe drive temperature and health from the drive’s own log (queue #4, EOO step 17): SensorBridge reads each NVMe drive’s SMART / Health log through Windows’ own storage stack (IOCTL_STORAGE_QUERY_PROPERTY, no driver, every 30 s). For the…",
-        "Prepared, off: memory module (DIMM) temperatures from LibreHardwareMonitor’s SPD read (group dimm, a Memory temperatures list), held off in the bridge (SENSORBRIDGE_DIMM) until checked against HWiNFO / AIDA64 on a PC that has them.…"
+        "Callisto gains six singles (the CEO’s “other ideas” in #23): Weather (the sky’s icon, the temperature, the conditions, high and low, where), Battery (a ring that fills with the charge; plugged in and not full, a small light runs round it)…"
     ],
     "required": false,
     "date": "2026-10-14"
