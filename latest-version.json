@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1154",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1154/NovaPanel-v1.1.1154.zip",
+    "version": "1.1.1155",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1155/NovaPanel-v1.1.1155.zip",
     "notes": [
-        "Light versions for every theme (CEO: \"All themes is what I said\"): Customize › Color › Dark or light now works on every Omen theme but Hollow, and on every one of each theme’s color sets. Orthosie (all four tints), IO, Pandia (all three)…"
+        "Light (CEO: \"if we toggle white there are just less themes available\"): with Light on, the Theme step, the touch menu, the right-click Theme list and Demo show only the themes that have a light version (Elara and Leda as their Light…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1153",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1154/NovaPanel-patch-1.1.1153-to-1.1.1154.zip",
-        "size": 11526017,
-        "sha256": "e5f5aff4822607e8ecdccae6e6208d57ac9140e845f571856b8e63c6e1b16b20"
+        "from": "1.1.1154",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1155/NovaPanel-patch-1.1.1154-to-1.1.1155.zip",
+        "size": 11526481,
+        "sha256": "f1c9e364ab8b9405cd8242aba196d82950e442d922ead026fd2b1154a6f6d2a1"
     }
 }
