@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1159",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1159/NovaPanel-v1.1.1159.zip",
+    "version": "1.1.1160",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1160/NovaPanel-v1.1.1160.zip",
     "notes": [
-        "Loader (queue #11): Omen’s loading sigil takes the portal’s Accent (Ganymede’s accent, another theme’s Accent in Customize › Color, else the theme’s own accent; Omen’s gold when none is set), as Charm’s follows its own. An accent too dark…"
+        "System Scan (queue #3, CEO: \"only recommend software that fills in blanks we have today\"): no tool is suggested any more. HWiNFO is still found and read when it is installed, but never suggested; MSI Afterburner and FanControl fill no…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1158",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1159/NovaPanel-patch-1.1.1158-to-1.1.1159.zip",
-        "size": 11527486,
-        "sha256": "eba3d425201978c6514a1d5281dcd0ad7afb1af22319e5be77696d8c3e39a055"
+        "from": "1.1.1159",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1160/NovaPanel-patch-1.1.1159-to-1.1.1160.zip",
+        "size": 11528094,
+        "sha256": "f3cad9a576e45bb2791c647a57989f259ed07a66b951c31b399e8d2532da911a"
     }
 }
