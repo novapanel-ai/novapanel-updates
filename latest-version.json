@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1169",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1169/NovaPanel-v1.1.1169.zip",
+    "version": "1.1.1170",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1170/NovaPanel-v1.1.1170.zip",
     "notes": [
-        "HWiNFO fix (Ops fleet proof on Blink, Ryzen 7 5700U): HWiNFO names an APU’s GPU “iGPU [#0]”, which was not matched as a GPU, so the AMD integrated GPU’s core voltage was offered as “(from HWiNFO)”. It is now a GPU, and an AMD integrated…",
-        "Ganymede’s version is 0.8.1 (CEO), not 0.9.0 as 1.1.1168 set it."
+        "One icon registry (queue #9; audit #22–23, gap G6): the four copies of Sigil’s icons (the Omen deck’s, the touch menu’s, the portal’s night-mode moon and the runes’ control glyphs) are now one, windows/foundation-panel/shared/icons.js: 41…"
     ],
     "required": false,
+    "date": "2026-10-13",
     "patch": {
-        "from": "1.1.1168",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1169/NovaPanel-patch-1.1.1168-to-1.1.1169.zip",
-        "size": 11382228,
-        "sha256": "1e518ed0f07e7d0aa6f40762d9821882085894a69cd6a05ac8701f4abf8eed2c"
+        "from": "1.1.1169",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1170/NovaPanel-patch-1.1.1169-to-1.1.1170.zip",
+        "size": 11387894,
+        "sha256": "a0c5f64f975cfc491120ca6b6e82f34e0f8ab415013b2dd1b1b00e2dffa6fa67"
     }
 }
