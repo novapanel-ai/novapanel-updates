@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1189",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1189/NovaPanel-v1.1.1189.zip",
+    "version": "1.1.1190",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1190/NovaPanel-v1.1.1190.zip",
     "notes": [
-        "Fleet Command (the screen on Gemkeeper) has a Backup status: a chip in the header (Backups ✓ 6 min ago, ⟳ 41 % while the mirror copies, ✗ with the job that failed, amber when the check itself is old) and a Backups page: the mirror to the…"
+        "Fleet Command Backups page: the WD drive row was listed twice, and in the narrower layouts (one or two tests running) the detail text was cut to “last go…”. Fixed: one row per job, names and details sized to the width. Theme only."
     ],
     "required": false,
     "date": "2026-10-14"
