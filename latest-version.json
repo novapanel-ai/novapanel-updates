@@ -1,9 +1,8 @@
 {
-    "version": "1.1.1173",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1173/NovaPanel-v1.1.1173.zip",
+    "version": "1.1.1174",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1174/NovaPanel-v1.1.1174.zip",
     "notes": [
-        "Known icon sets (queue #6, CEO: known sets only, no user SVG packs): Customize › Fonts › Icons lists Material Symbols, Font Awesome Free, Phosphor, Tabler Icons, Remix Icon and Windows’ own Segoe Fluent Icons. For each: found or not, a Get…",
-        "Smaller install: the two sensor programs ship compressed, about 65 MB less; same code, a few hundred ms more at service start (Ops)."
+        "Relaxed on small screens (queue #20, CEO: \"Given the 240x240 I understand no dense. But relaxed could still fit stuff\"): Ganymede’s small-screen form (240×240, the round screens, and the other small sizes it draws compact) offers Minimal…"
     ],
     "required": false,
     "date": "2026-10-14"
