@@ -1,8 +1,9 @@
 {
-    "version": "1.1.1190",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1190/NovaPanel-v1.1.1190.zip",
+    "version": "1.1.1191",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1191/NovaPanel-v1.1.1191.zip",
     "notes": [
-        "Fleet Command Backups page: the WD drive row was listed twice, and in the narrower layouts (one or two tests running) the detail text was cut to “last go…”. Fixed: one row per job, names and details sized to the width. Theme only."
+        "Ganymede 0.9.2: a card never draws empty. A rune with no form for its card (a Calendar on a 240 round screen) falls back: to its backup rune when that one fits, else to the card’s own reading.",
+        "Round screens: the pill and the two discs now draw runes inside their curve, and fall back the same way (they used to draw an empty circle)."
     ],
     "required": false,
     "date": "2026-10-14"
