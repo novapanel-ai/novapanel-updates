@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1182",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1182/NovaPanel-v1.1.1182.zip",
+    "version": "1.1.1183",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1183/NovaPanel-v1.1.1183.zip",
     "notes": [
-        "Themes (Control Panel): one quiet line says when the next theme arrives (in N days), with a link to see what’s coming on pcsigil.com, and a row of links: Suggest a theme · Instructions · FAQ · What’s new. No pop-ups and no reminders. The…"
+        "Omen’s editor: Callisto’s singles have their own picker, in Layout. Each one is drawn as it will look, with this PC’s readings, and only the singles this PC has the readings for are offered (no fan reading, no Fan). They were listed under…"
     ],
     "required": false,
     "date": "2026-10-14"
