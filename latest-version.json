@@ -1,15 +1,14 @@
 {
-    "version": "1.1.1152",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1152/NovaPanel-v1.1.1152.zip",
+    "version": "1.1.1153",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1153/NovaPanel-v1.1.1153.zip",
     "notes": [
-        "Fixed (bug #16, Blink): the tray menu dropped a portal when two were open. A hidden portal opened again is destroyed and made anew, and the old window’s close arrived after the new one existed: it took the new window out of the open-portal…",
-        "Fixed (bug #17): Customize closes every way. The bar on the portal that would not close is gone since 1.1.1139 (Customize is the editor’s Customize step now); in the editor, Done closes it, and Esc steps back (a picked card first) and then…"
+        "Light themes, first step (CEO: \"goes in the color section ... Demo cycles only the light or only the dark themes ... every theme gets it\"): Customize › Color starts with Appearance, Dark or Light. Elara, Leda and Thebe switch to their…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1151",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1152/NovaPanel-patch-1.1.1151-to-1.1.1152.zip",
-        "size": 11519792,
-        "sha256": "2bfe808bd25a0a83dd81c94767938381906fa6f411fb92e7cb20b8f4a222861f"
+        "from": "1.1.1152",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1153/NovaPanel-patch-1.1.1152-to-1.1.1153.zip",
+        "size": 11521148,
+        "sha256": "05db3a9006cc30f4116b6b58199741f818d443d20ccb3923eedd8b3eaa72ff5e"
     }
 }
