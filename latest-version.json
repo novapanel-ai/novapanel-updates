@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1165",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1165/NovaPanel-v1.1.1165.zip",
+    "version": "1.1.1166",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1166/NovaPanel-v1.1.1166.zip",
     "notes": [
-        "Fixed (bug #21, CEO: flicker and another card’s content over the Battery card while dragging card Opacity): in Customize the copy was rebuilt from scratch on every tick of a slider, and every copy it replaced kept painting behind it on its…"
+        "Theme version and state (queue #22, CEO: \"Themes should have a version number and state alpha, beta etc. this way I can declare how close we are to gold\"): every Omen theme has a version and a state (alpha, beta, RC, gold). In God Mode…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1164",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1165/NovaPanel-patch-1.1.1164-to-1.1.1165.zip",
-        "size": 11364903,
-        "sha256": "d091b39d789fd8545b21a725e684e2333ec538790007e419f665c651ea25fefd"
+        "from": "1.1.1165",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1166/NovaPanel-patch-1.1.1165-to-1.1.1166.zip",
+        "size": 11367105,
+        "sha256": "47e7a5ecf917b3446f7a16945b22205e428f6bce6af63b98fd1445a967f62d66"
     }
 }
