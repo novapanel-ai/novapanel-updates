@@ -1,8 +1,11 @@
 {
-    "version": "1.1.1179",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1179/NovaPanel-v1.1.1179.zip",
+    "version": "1.1.1180",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1180/NovaPanel-v1.1.1180.zip",
     "notes": [
-        "AMD integrated GPU power and temperature from AMD’s own driver (queue #4, EOO step 17 part 3): on a PC with an AMD APU, the app runs SensorBridge in an ADL mode in the signed-in user’s session (AMD’s library answers there, not in the…"
+        "Fixed (Ops’ fleet harvest, Blink): “renderer gone: crashed (exit -1)” was logged, and reported as a crash, whenever something outside stopped the whole app (the harness, an install): it killed the page processes first and the app logged…",
+        "Fixed: “[fleet-status] write failed: EPERM” (123 on Blink today, 725 on 10-07). The fleet collector reads fleet-status.json while the app replaces it; a refused rename is now tried once more and then written in place, and a failure is…",
+        "Fixed: the sensor service could stop itself with an unhandled error (“No process is associated with this object”, Blink 03:22) when it stopped its helper: the helper’s exit was waited on twice and the second time after it was gone. Every…",
+        "The AMD reader (1.1.1179) also stops explicitly when the app quits; it already left when its pipe closed."
     ],
     "required": false,
     "date": "2026-10-14"
