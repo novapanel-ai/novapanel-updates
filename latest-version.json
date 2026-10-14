@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1186",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1186/NovaPanel-v1.1.1186.zip",
+    "version": "1.1.1187",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1187/NovaPanel-v1.1.1187.zip",
     "notes": [
-        "Ganymede 0.8.4 (beta): Power plan shows its whole name on every card shape. 1.1.1184 fixed the tall and square cards; a wide or large card (777×328, 1304×392) still cut it to “PERFORM…” with room to spare.",
-        "Ganymede, the Balance pass at the seven card sizes not yet checked (350×484, 369×405, 350×300, 777×328, 350×143, 1304×392, 570×173): every rune and look drawn; Power plan was the one fault found."
+        "Ganymede 0.9.0 (beta): tall layouts (CEO approved all six). On a card taller than it is wide: Radios as Stacked or Glyphs, stacked; Controls as Three columns (upright meters) or Three rows (with more room between the rows, his note);…",
+        "On a tall card each of these three runes’ Default is the full set: Radios no longer drops Bluetooth, Controls no longer drops Brightness (138×276). Radios’ wide Detail and Plain looks are no longer offered on a tall card."
     ],
     "required": false,
     "date": "2026-10-14"
