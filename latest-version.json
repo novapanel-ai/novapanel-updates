@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1156",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1156/NovaPanel-v1.1.1156.zip",
+    "version": "1.1.1157",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1157/NovaPanel-v1.1.1157.zip",
     "notes": [
-        "Light, after the CEO’s review (Arche \"would do well\"; minimal and luxury good): Dia, Dia Widgets and Dia Ring are dark only (Dia has its own white); Thebe on Light is Daylight only (Magma’s light version is gone)."
+        "Theme colors move to Color (CEO: \"we no longer want different color themes listed like this. color changes a go under the color tab\"): the Theme step shows each theme once; its colors (Arche’s Amber and Violet, Orthosie’s tints, Pandia’s…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1155",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1156/NovaPanel-patch-1.1.1155-to-1.1.1156.zip",
-        "size": 11526554,
-        "sha256": "18c2d819cbdcd11dd9616013a9aec750bcc7c80b40087c9841d3cdcbc4daf86b"
+        "from": "1.1.1156",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1157/NovaPanel-patch-1.1.1156-to-1.1.1157.zip",
+        "size": 11526991,
+        "sha256": "196f4cceae6e706a54354e55cd49c3de3a6ad088223de8cf5597cfe8edeca182"
     }
 }
