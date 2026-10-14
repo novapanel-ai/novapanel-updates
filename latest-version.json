@@ -1,14 +1,9 @@
 {
-    "version": "1.1.1166",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1166/NovaPanel-v1.1.1166.zip",
+    "version": "1.1.1167",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1167/NovaPanel-v1.1.1167.zip",
     "notes": [
-        "Theme version and state (queue #22, CEO: \"Themes should have a version number and state alpha, beta etc. this way I can declare how close we are to gold\"): every Omen theme has a version and a state (alpha, beta, RC, gold). In God Mode…"
+        "HWiNFO passive read (queue #3/#13): when the user runs HWiNFO with Shared Memory Support on, SensorBridge reads its temperatures, voltages, fans, currents and powers natively (0.18 ms per read for 300 readings, against ~1.1 s for the old…",
+        "Theme states corrected (CEO: \"I'd say all themes (except Ganymede) are alpha.\"): every Omen theme is 0.5.0 alpha, Ganymede 0.8.0 beta. Only the CEO moves a state; passing the machine check promotes nothing and is its own column in…"
     ],
-    "required": false,
-    "patch": {
-        "from": "1.1.1165",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1166/NovaPanel-patch-1.1.1165-to-1.1.1166.zip",
-        "size": 11367105,
-        "sha256": "47e7a5ecf917b3446f7a16945b22205e428f6bce6af63b98fd1445a967f62d66"
-    }
+    "required": false
 }
