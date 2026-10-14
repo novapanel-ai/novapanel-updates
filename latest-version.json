@@ -1,15 +1,12 @@
 {
-    "version": "1.1.1170",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1170/NovaPanel-v1.1.1170.zip",
+    "version": "1.1.1171",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1171/NovaPanel-v1.1.1171.zip",
     "notes": [
-        "One icon registry (queue #9; audit #22–23, gap G6): the four copies of Sigil’s icons (the Omen deck’s, the touch menu’s, the portal’s night-mode moon and the runes’ control glyphs) are now one, windows/foundation-panel/shared/icons.js: 41…"
+        "Match my picture (queue #19; Glamour and above, and founders once that exists): Customize › Color › From your picture reads the background picture once, as adjusted, and offers up to three looks from its own colors, each named by its hue.…",
+        "Picture adjustments (same tier): Customize › Layers › Image › Adjust the picture: hue, saturation, brightness and a tint toward the accent (a duotone), drawn as filters on the picture itself; a still picture is filtered once (no measurable…",
+        "Power plan’s icon is the bolt everywhere, the runes too (CEO); the runes’ old gauge drawing is retired.",
+        "Smaller install: only the English Chromium language pack ships; maximum compression (Ops, installer size sweep)."
     ],
     "required": false,
-    "date": "2026-10-13",
-    "patch": {
-        "from": "1.1.1169",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1170/NovaPanel-patch-1.1.1169-to-1.1.1170.zip",
-        "size": 11387894,
-        "sha256": "a0c5f64f975cfc491120ca6b6e82f34e0f8ab415013b2dd1b1b00e2dffa6fa67"
-    }
+    "date": "2026-10-13"
 }
