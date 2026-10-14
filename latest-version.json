@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1158",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1158/NovaPanel-v1.1.1158.zip",
+    "version": "1.1.1159",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1159/NovaPanel-v1.1.1159.zip",
     "notes": [
-        "Theme lists (CEO: \"collapse in the same way\"): the touch menu and the right-click Theme list show each theme once, as the Theme step does; picking the one in use keeps its colors, another starts on its first color set. Colors are chosen in…"
+        "Loader (queue #11): Omen’s loading sigil takes the portal’s Accent (Ganymede’s accent, another theme’s Accent in Customize › Color, else the theme’s own accent; Omen’s gold when none is set), as Charm’s follows its own. An accent too dark…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1157",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1158/NovaPanel-patch-1.1.1157-to-1.1.1158.zip",
-        "size": 11527142,
-        "sha256": "2072b99dd09916ea137d8b0775d26c921b38afa17f1664ef01341f397ba30c42"
+        "from": "1.1.1158",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1159/NovaPanel-patch-1.1.1158-to-1.1.1159.zip",
+        "size": 11527486,
+        "sha256": "eba3d425201978c6514a1d5281dcd0ad7afb1af22319e5be77696d8c3e39a055"
     }
 }
