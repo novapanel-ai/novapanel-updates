@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1161",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1161/NovaPanel-v1.1.1161.zip",
+    "version": "1.1.1162",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1162/NovaPanel-v1.1.1162.zip",
     "notes": [
-        "Foundation (queue #10): one background renderer. Omen painted its background layers (color, gradients, patterns, image, video and their order) with an older copy of the code Charm and Mirage share; it now uses the shared one…"
+        "Foundation one-offs (queue #12): one font list for the portals (foundation-panel/shared/fonts.css), read by Omen and by the editor’s copy and font pickers, each face from its one file; the duplicate copies of Inter, Saira and Anta are gone…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1160",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1161/NovaPanel-patch-1.1.1160-to-1.1.1161.zip",
-        "size": 11527709,
-        "sha256": "0630b3a51af08b20a60870692fd3557b54a55c06a256fa8db6e60af4985aadbc"
+        "from": "1.1.1161",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1162/NovaPanel-patch-1.1.1161-to-1.1.1162.zip",
+        "size": 11362765,
+        "sha256": "65be369cb2be5f08031c9da512a00c7df1048abe7cd7a83f106ba306517ad2ff"
     }
 }
