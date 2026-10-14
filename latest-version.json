@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1178",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1178/NovaPanel-v1.1.1178.zip",
+    "version": "1.1.1179",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1179/NovaPanel-v1.1.1179.zip",
     "notes": [
-        "Memory module (DIMM) temperatures, on (queue #4, EOO step 17): SensorBridge passes each module’s own temperature from LibreHardwareMonitor’s SPD read (“DIMM #n” only; its resolution and limit settings are not readings), shown as a Memory…"
+        "AMD integrated GPU power and temperature from AMD’s own driver (queue #4, EOO step 17 part 3): on a PC with an AMD APU, the app runs SensorBridge in an ADL mode in the signed-in user’s session (AMD’s library answers there, not in the…"
     ],
     "required": false,
     "date": "2026-10-14"
