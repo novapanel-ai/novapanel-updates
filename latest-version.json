@@ -1,12 +1,11 @@
 {
-    "version": "1.1.1184",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1184/NovaPanel-v1.1.1184.zip",
+    "version": "1.1.1185",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1185/NovaPanel-v1.1.1185.zip",
     "notes": [
-        "Ganymede 0.8.3 (beta): the rune fixes from the 10-13 Balance review.",
-        "Media with nothing playing says so in words only: no empty album square, no empty progress line.",
-        "Power plan shows the plan’s whole name a size smaller (“PERFORMANCE”), never “PERFORMA…”, and cuts it only below the smallest readable size.",
-        "Laptop, Charm look, on a wide strip: no stray “—” ahead of CHARGE on a PC that reports no model (also on Mirage).",
-        "Volume, Microphone and Brightness on a thin strip: a Default that sat small in the middle (Microphone at 592×90) gives way to the Line look, which fills the card."
+        "Omen’s editor, Theme: Callisto’s singles are chosen where a theme’s own choices are, under Theme: open Callisto and pick one, each drawn as it will look, only the ones this PC has the readings for. Layout just says the single fills the…",
+        "Rule (CEO): a font list never says “the theme’s own font”. Every font chooser lists real font names only, with the theme’s font shown selected by its name (Ganymede: Kanit) until another is picked; a font on this PC is shown by its name…",
+        "Omen’s editor, Theme › Minimal: Ganymede is first, as “Ganymede (default)” (CEO).",
+        "Round is a size category (CEO): the portal’s right-click Resolution menu has Round after Square, with the same sizes that fit the screen; a size picked under Round makes the portal round, one under Square makes it square. On a square…"
     ],
     "required": false,
     "date": "2026-10-14"
