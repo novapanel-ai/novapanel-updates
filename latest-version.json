@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1177",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1177/NovaPanel-v1.1.1177.zip",
+    "version": "1.1.1178",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1178/NovaPanel-v1.1.1178.zip",
     "notes": [
-        "Callisto gains six singles (the CEO’s “other ideas” in #23): Weather (the sky’s icon, the temperature, the conditions, high and low, where), Battery (a ring that fills with the charge; plugged in and not full, a small light runs round it)…"
+        "Memory module (DIMM) temperatures, on (queue #4, EOO step 17): SensorBridge passes each module’s own temperature from LibreHardwareMonitor’s SPD read (“DIMM #n” only; its resolution and limit settings are not readings), shown as a Memory…"
     ],
     "required": false,
     "date": "2026-10-14"
