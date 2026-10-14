@@ -1,12 +1,17 @@
 {
-    "version": "1.1.1171",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1171/NovaPanel-v1.1.1171.zip",
+    "version": "1.1.1172",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1172/NovaPanel-v1.1.1172.zip",
     "notes": [
-        "Match my picture (queue #19; Glamour and above, and founders once that exists): Customize › Color › From your picture reads the background picture once, as adjusted, and offers up to three looks from its own colors, each named by its hue.…",
-        "Picture adjustments (same tier): Customize › Layers › Image › Adjust the picture: hue, saturation, brightness and a tint toward the accent (a duotone), drawn as filters on the picture itself; a still picture is filtered once (no measurable…",
-        "Power plan’s icon is the bolt everywhere, the runes too (CEO); the runes’ old gauge drawing is retired.",
-        "Smaller install: only the English Chromium language pack ships; maximum compression (Ops, installer size sweep)."
+        "The Edge deck on the foundations (queue #8; audit #19–21, gap G4): the deck beside Omen now takes the portal’s colors. One palette per style: each style’s deck colors (DECK_LOOK) are its own fallback, and on the live portal the user’s look…",
+        "The deck’s ground follows the portal’s Background as Omen does: on \"own\" it lays none and the portal’s Layers show through (the picture runs under the deck); on \"theme\" it shows the theme’s ground beside Omen’s. Pictures of a style (the…",
+        "The deck’s controls in every state take the theme’s own ink and ground (the glass, pill, glow and cut-corner fills, a slider’s knob, the tapped control’s veil, the hold ring), instead of fixed white and black; so they turn with a light…"
     ],
     "required": false,
-    "date": "2026-10-13"
+    "date": "2026-10-14",
+    "patch": {
+        "from": "1.1.1171",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1172/NovaPanel-patch-1.1.1171-to-1.1.1172.zip",
+        "size": 11398084,
+        "sha256": "509aee10a98e32c1aea83158503c1d4d5d60d2dd2aba654257c85da70dfb883e"
+    }
 }
