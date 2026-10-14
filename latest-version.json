@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1155",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1155/NovaPanel-v1.1.1155.zip",
+    "version": "1.1.1156",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1156/NovaPanel-v1.1.1156.zip",
     "notes": [
-        "Light (CEO: \"if we toggle white there are just less themes available\"): with Light on, the Theme step, the touch menu, the right-click Theme list and Demo show only the themes that have a light version (Elara and Leda as their Light…"
+        "Light, after the CEO’s review (Arche \"would do well\"; minimal and luxury good): Dia, Dia Widgets and Dia Ring are dark only (Dia has its own white); Thebe on Light is Daylight only (Magma’s light version is gone)."
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1154",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1155/NovaPanel-patch-1.1.1154-to-1.1.1155.zip",
-        "size": 11526481,
-        "sha256": "f1c9e364ab8b9405cd8242aba196d82950e442d922ead026fd2b1154a6f6d2a1"
+        "from": "1.1.1155",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1156/NovaPanel-patch-1.1.1155-to-1.1.1156.zip",
+        "size": 11526554,
+        "sha256": "18c2d819cbdcd11dd9616013a9aec750bcc7c80b40087c9841d3cdcbc4daf86b"
     }
 }
