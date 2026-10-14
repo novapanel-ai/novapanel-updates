@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1160",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1160/NovaPanel-v1.1.1160.zip",
+    "version": "1.1.1161",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1161/NovaPanel-v1.1.1161.zip",
     "notes": [
-        "System Scan (queue #3, CEO: \"only recommend software that fills in blanks we have today\"): no tool is suggested any more. HWiNFO is still found and read when it is installed, but never suggested; MSI Afterburner and FanControl fill no…"
+        "Foundation (queue #10): one background renderer. Omen painted its background layers (color, gradients, patterns, image, video and their order) with an older copy of the code Charm and Mirage share; it now uses the shared one…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1159",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1160/NovaPanel-patch-1.1.1159-to-1.1.1160.zip",
-        "size": 11528094,
-        "sha256": "f3cad9a576e45bb2791c647a57989f259ed07a66b951c31b399e8d2532da911a"
+        "from": "1.1.1160",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1161/NovaPanel-patch-1.1.1160-to-1.1.1161.zip",
+        "size": 11527709,
+        "sha256": "0630b3a51af08b20a60870692fd3557b54a55c06a256fa8db6e60af4985aadbc"
     }
 }
