@@ -1,11 +1,9 @@
 {
-    "version": "1.1.1185",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1185/NovaPanel-v1.1.1185.zip",
+    "version": "1.1.1186",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1186/NovaPanel-v1.1.1186.zip",
     "notes": [
-        "Omen’s editor, Theme: Callisto’s singles are chosen where a theme’s own choices are, under Theme: open Callisto and pick one, each drawn as it will look, only the ones this PC has the readings for. Layout just says the single fills the…",
-        "Rule (CEO): a font list never says “the theme’s own font”. Every font chooser lists real font names only, with the theme’s font shown selected by its name (Ganymede: Kanit) until another is picked; a font on this PC is shown by its name…",
-        "Omen’s editor, Theme › Minimal: Ganymede is first, as “Ganymede (default)” (CEO).",
-        "Round is a size category (CEO): the portal’s right-click Resolution menu has Round after Square, with the same sizes that fit the screen; a size picked under Round makes the portal round, one under Square makes it square. On a square…"
+        "Ganymede 0.8.4 (beta): Power plan shows its whole name on every card shape. 1.1.1184 fixed the tall and square cards; a wide or large card (777×328, 1304×392) still cut it to “PERFORM…” with room to spare.",
+        "Ganymede, the Balance pass at the seven card sizes not yet checked (350×484, 369×405, 350×300, 777×328, 350×143, 1304×392, 570×173): every rune and look drawn; Power plan was the one fault found."
     ],
     "required": false,
     "date": "2026-10-14"
