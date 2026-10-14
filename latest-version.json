@@ -1,11 +1,10 @@
 {
-    "version": "1.1.1180",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1180/NovaPanel-v1.1.1180.zip",
+    "version": "1.1.1181",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1181/NovaPanel-v1.1.1181.zip",
     "notes": [
-        "Fixed (Ops’ fleet harvest, Blink): “renderer gone: crashed (exit -1)” was logged, and reported as a crash, whenever something outside stopped the whole app (the harness, an install): it killed the page processes first and the app logged…",
-        "Fixed: “[fleet-status] write failed: EPERM” (123 on Blink today, 725 on 10-07). The fleet collector reads fleet-status.json while the app replaces it; a refused rename is now tried once more and then written in place, and a failure is…",
-        "Fixed: the sensor service could stop itself with an unhandled error (“No process is associated with this object”, Blink 03:22) when it stopped its helper: the helper’s exit was waited on twice and the second time after it was gone. Every…",
-        "The AMD reader (1.1.1179) also stops explicitly when the app quits; it already left when its pipe closed."
+        "The two-portals rule (CEO 10-12): with two or more portals running, a portal whose screen goes away (sleep, unplugged, turned off) now waits hidden for that screen and comes back on it, at its own size, when it returns. It is no longer…",
+        "Placement rig: a two-portals step (one portal’s screen gone: it waits hidden, the other is untouched, nothing comes onto the main display; screen back: it returns). The “home record kept” check accepts a screen serial Windows reports later.",
+        "AMD APUs: one log line a minute of the GPU power and temperature the portal is given from AMD’s own telemetry, so the fleet can compare it with AIDA64."
     ],
     "required": false,
     "date": "2026-10-14"
