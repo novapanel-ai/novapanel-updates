@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1157",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1157/NovaPanel-v1.1.1157.zip",
+    "version": "1.1.1158",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1158/NovaPanel-v1.1.1158.zip",
     "notes": [
-        "Theme colors move to Color (CEO: \"we no longer want different color themes listed like this. color changes a go under the color tab\"): the Theme step shows each theme once; its colors (Arche’s Amber and Violet, Orthosie’s tints, Pandia’s…"
+        "Theme lists (CEO: \"collapse in the same way\"): the touch menu and the right-click Theme list show each theme once, as the Theme step does; picking the one in use keeps its colors, another starts on its first color set. Colors are chosen in…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1156",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1157/NovaPanel-patch-1.1.1156-to-1.1.1157.zip",
-        "size": 11526991,
-        "sha256": "196f4cceae6e706a54354e55cd49c3de3a6ad088223de8cf5597cfe8edeca182"
+        "from": "1.1.1157",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1158/NovaPanel-patch-1.1.1157-to-1.1.1158.zip",
+        "size": 11527142,
+        "sha256": "2072b99dd09916ea137d8b0775d26c921b38afa17f1664ef01341f397ba30c42"
     }
 }
