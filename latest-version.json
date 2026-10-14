@@ -1,8 +1,12 @@
 {
-    "version": "1.1.1183",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1183/NovaPanel-v1.1.1183.zip",
+    "version": "1.1.1184",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1184/NovaPanel-v1.1.1184.zip",
     "notes": [
-        "Omen’s editor: Callisto’s singles have their own picker, in Layout. Each one is drawn as it will look, with this PC’s readings, and only the singles this PC has the readings for are offered (no fan reading, no Fan). They were listed under…"
+        "Ganymede 0.8.3 (beta): the rune fixes from the 10-13 Balance review.",
+        "Media with nothing playing says so in words only: no empty album square, no empty progress line.",
+        "Power plan shows the plan’s whole name a size smaller (“PERFORMANCE”), never “PERFORMA…”, and cuts it only below the smallest readable size.",
+        "Laptop, Charm look, on a wide strip: no stray “—” ahead of CHARGE on a PC that reports no model (also on Mirage).",
+        "Volume, Microphone and Brightness on a thin strip: a Default that sat small in the middle (Microphone at 592×90) gives way to the Line look, which fills the card."
     ],
     "required": false,
     "date": "2026-10-14"
