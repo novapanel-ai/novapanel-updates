@@ -1,14 +1,14 @@
 {
-    "version": "1.1.1162",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1162/NovaPanel-v1.1.1162.zip",
+    "version": "1.1.1163",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1163/NovaPanel-v1.1.1163.zip",
     "notes": [
-        "Foundation one-offs (queue #12): one font list for the portals (foundation-panel/shared/fonts.css), read by Omen and by the editor’s copy and font pickers, each face from its one file; the duplicate copies of Inter, Saira and Anta are gone…"
+        "Sensors (PARITY findings, queue #5): an \"is this real\" rule for a drive’s Available Spare. Zephyrus’ OEM Samsung NVMe reports 0% spare as a placeholder beside healthy wear; a 0% spare is now believed only when the drive also fails another…"
     ],
     "required": false,
     "patch": {
-        "from": "1.1.1161",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1162/NovaPanel-patch-1.1.1161-to-1.1.1162.zip",
-        "size": 11362765,
-        "sha256": "65be369cb2be5f08031c9da512a00c7df1048abe7cd7a83f106ba306517ad2ff"
+        "from": "1.1.1162",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1163/NovaPanel-patch-1.1.1162-to-1.1.1163.zip",
+        "size": 11363463,
+        "sha256": "5eb33bbe5e1de503db9fcecfc480ec6b2c66fe884f596ee454ee90582180cef2"
     }
 }
