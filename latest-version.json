@@ -1,15 +1,19 @@
 {
-    "version": "1.1.1208",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1208/NovaPanel-v1.1.1208.zip",
+    "version": "1.1.1209",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1209/NovaPanel-v1.1.1209.zip",
     "notes": [
-        "Fixed: a long-running portal could lay its cards out differently from the editor’s copy of it. The time is now measured at its widest (two-figure hours), so a size measured before one o’clock no longer keeps that width after it; and every…"
+        "Each theme keeps its own background. A picture, colour, gradient or pattern set on one theme stays with that theme; switching themes brings that theme’s own background (its defaults the first time) and switching back brings yours back. The…",
+        "Light and Dark are one switch. Ganymede on Light now draws a pale ground, white cards and dark text however you got there (Light used to change nothing when it was set on another theme), and the editor’s copy and the layer stack show the…",
+        "Themes’ own art comes back: with each theme on its own background, a picture set on Ganymede no longer hides Europa’s graphics or Pandia’s grain. Europa’s art is now drawn in layers (its glow, its grunge texture, its graphic elements) and…",
+        "Fixed: with touch controls on, the controls overlapped Omen’s last cards at the seam. Omen keeps its whole share and its margin; the controls start beside it.",
+        "Editor › Customize: the Desktop section is gone (the Desktop stays at the foot of the stack). An Image or Video layer with nothing chosen is no longer shown; “+ Image” and “+ Video” ask for the file first. The editor follows Light/Dark…"
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1207",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1208/NovaPanel-patch-1.1.1207-to-1.1.1208.zip",
-        "size": 11515649,
-        "sha256": "9be6f25d77f2563af256078b72a8254d3aa2849ffa6ba32e095e72877973464a"
+        "from": "1.1.1208",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1209/NovaPanel-patch-1.1.1208-to-1.1.1209.zip",
+        "size": 11517133,
+        "sha256": "0051bbb2e8ea73223d4b6493e00b3114f6e6b9e239f90540f07e0ffc2f75fce2"
     }
 }
