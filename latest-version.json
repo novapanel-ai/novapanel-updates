@@ -1,19 +1,17 @@
 {
-    "version": "1.1.1200",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1200/NovaPanel-v1.1.1200.zip",
+    "version": "1.1.1201",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1201/NovaPanel-v1.1.1201.zip",
     "notes": [
-        "Ganymede on real PCs (the fleet bench run): a Network card with no throughput reading no longer shows as a title with nothing under it. A card with nothing to show leaves the screen, and its row’s other cards (or the other half of its…",
-        "One reading shows once: the Time card no longer repeats the Uptime when the Weather card already shows it (no forecast), the same as it already did for Outside.",
-        "The weather coming and going no longer moves the cards. Rows keep the same heights with a forecast and without one, and from a fresh start. Within one session, a reading dropping out never moves a card.",
-        "A very wide, short Time card (the Side rail) puts the time on the left and the day, the date and its next readings stacked beside it, as one centered group. It was a narrow line in the middle of an empty card.",
-        "In a game, every game card (FPS, 1% low, frame time, GPU load) is fitted by the balance pass. The 1% low and frame time cards show their name over the value and a note under it, centered, at a card’s figure size."
+        "Editor › Customize: the layer stack is back on the left, above the live copy. It holds for 1 second, then opens faster (was 2 seconds and a slower open). Card options is a layer of its own, directly above Cards.",
+        "Editor › Customize: the row of tabs on the right is now collapsible sections (Portal, Layers, Color, Fonts, Card options, Cards, Metrics), one open at a time, each with a header and a chevron. The section you had open is remembered.",
+        "Editor › Customize: the stack and the sections stay in step. Click a layer and its section opens; open a section and its layer is marked."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1199",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1200/NovaPanel-patch-1.1.1199-to-1.1.1200.zip",
-        "size": 11497044,
-        "sha256": "f77515db4ff9731b4123c1f603bc526bfab5f6207d3e790277d2e5221e97ef38"
+        "from": "1.1.1200",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1201/NovaPanel-patch-1.1.1200-to-1.1.1201.zip",
+        "size": 11500144,
+        "sha256": "db397cc6456f62369bb646dc82b1d3796e79dbec0c4d1c484f051bd1c31264a8"
     }
 }
