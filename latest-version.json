@@ -1,9 +1,19 @@
 {
-    "version": "1.1.1199",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1199/NovaPanel-v1.1.1199.zip",
+    "version": "1.1.1200",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1200/NovaPanel-v1.1.1200.zip",
     "notes": [
-        "The sensor programs (the sensor service, the sensor bridge and the cursor guard) now run on .NET 10 (long-term support) instead of .NET 8, whose support ends on 10 November 2026. Same readings from the same sources on every bench, same…"
+        "Ganymede on real PCs (the fleet bench run): a Network card with no throughput reading no longer shows as a title with nothing under it. A card with nothing to show leaves the screen, and its row’s other cards (or the other half of its…",
+        "One reading shows once: the Time card no longer repeats the Uptime when the Weather card already shows it (no forecast), the same as it already did for Outside.",
+        "The weather coming and going no longer moves the cards. Rows keep the same heights with a forecast and without one, and from a fresh start. Within one session, a reading dropping out never moves a card.",
+        "A very wide, short Time card (the Side rail) puts the time on the left and the day, the date and its next readings stacked beside it, as one centered group. It was a narrow line in the middle of an empty card.",
+        "In a game, every game card (FPS, 1% low, frame time, GPU load) is fitted by the balance pass. The 1% low and frame time cards show their name over the value and a note under it, centered, at a card’s figure size."
     ],
     "required": false,
-    "date": "2026-10-15"
+    "date": "2026-10-15",
+    "patch": {
+        "from": "1.1.1199",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1200/NovaPanel-patch-1.1.1199-to-1.1.1200.zip",
+        "size": 11497044,
+        "sha256": "f77515db4ff9731b4123c1f603bc526bfab5f6207d3e790277d2e5221e97ef38"
+    }
 }
