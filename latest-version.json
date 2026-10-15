@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1206",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1206/NovaPanel-v1.1.1206.zip",
+    "version": "1.1.1207",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1207/NovaPanel-v1.1.1207.zip",
     "notes": [
-        "Editor › Customize: every plane of the layer stack is its real layer, taken from the live copy under it: Content the real time, readings and gauges; Rune options the runes as drawn, the picked card outlined; Cards the real card faces in…",
-        "Editor › Customize: the stack is drawn nearly front on, the planes in the portal’s own shape and closer together, so every layer reads. It still holds 1 second and opens fast."
+        "Fixed: the editor’s live copy could show a different layout from the portal. It now always draws at the portal’s real size (it used the stored size whenever the portal had been sized another way: its own edges, full screen, a screen’s own…",
+        "Ganymede: the row heights it keeps for a layout are kept only once the fonts have loaded, so rows measured in a stand-in font are never kept."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1205",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1206/NovaPanel-patch-1.1.1205-to-1.1.1206.zip",
-        "size": 11514283,
-        "sha256": "68c25dd69f8de2d9aa00e8343a6eaf10cdcf58255c31f433704e0da4ba4dff6a"
+        "from": "1.1.1206",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1207/NovaPanel-patch-1.1.1206-to-1.1.1207.zip",
+        "size": 11515273,
+        "sha256": "82f3dc3ba7d2380c8cc7010c753edcd8f1793619aa6b261573c17bd9a57efb31"
     }
 }
