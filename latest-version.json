@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1216",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1216/NovaPanel-v1.1.1216.zip",
+    "version": "1.1.1217",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1217/NovaPanel-v1.1.1217.zip",
     "notes": [
-        "Editor › Customize: a theme’s own art (Pandia’s grain, Europa’s texture and graphics…) is a layer of its own, in the stack and as a section, and can be turned off and on there. The choice is kept for that theme only."
+        "Editor: Layout is no longer a step of its own. The layouts that fit the size are a row of tiles under the live copy in Customize; one click changes the copy and the portal. A size with one layout shows no row. The editor's steps are now…"
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1215",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1216/NovaPanel-patch-1.1.1215-to-1.1.1216.zip",
-        "size": 11521158,
-        "sha256": "d747513fcf4a1bdb8166c677f7be771f40561abe931df36f455776594e4bc4bd"
+        "from": "1.1.1216",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1217/NovaPanel-patch-1.1.1216-to-1.1.1217.zip",
+        "size": 11521187,
+        "sha256": "87d12e0d373631a2e20bcb1f8de84128c651adb58e887cef1d6bdd3a83bd5ff9"
     }
 }
