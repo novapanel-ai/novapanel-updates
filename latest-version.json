@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1207",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1207/NovaPanel-v1.1.1207.zip",
+    "version": "1.1.1208",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1208/NovaPanel-v1.1.1208.zip",
     "notes": [
-        "Fixed: the editor’s live copy could show a different layout from the portal. It now always draws at the portal’s real size (it used the stored size whenever the portal had been sized another way: its own edges, full screen, a screen’s own…",
-        "Ganymede: the row heights it keeps for a layout are kept only once the fonts have loaded, so rows measured in a stand-in font are never kept."
+        "Fixed: a long-running portal could lay its cards out differently from the editor’s copy of it. The time is now measured at its widest (two-figure hours), so a size measured before one o’clock no longer keeps that width after it; and every…"
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1206",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1207/NovaPanel-patch-1.1.1206-to-1.1.1207.zip",
-        "size": 11515273,
-        "sha256": "82f3dc3ba7d2380c8cc7010c753edcd8f1793619aa6b261573c17bd9a57efb31"
+        "from": "1.1.1207",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1208/NovaPanel-patch-1.1.1207-to-1.1.1208.zip",
+        "size": 11515649,
+        "sha256": "9be6f25d77f2563af256078b72a8254d3aa2849ffa6ba32e095e72877973464a"
     }
 }
