@@ -1,17 +1,18 @@
 {
-    "version": "1.1.1210",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1210/NovaPanel-v1.1.1210.zip",
+    "version": "1.1.1211",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1211/NovaPanel-v1.1.1211.zip",
     "notes": [
-        "A new portal gets a star’s name (Vega, Altair, Rigel …), one none of your other portals has, given once and never changed by itself; Rename stays yours. Portals named by earlier versions for their screen or shape (Wide, Bar, Round …, Omen…",
-        "Editor › Customize: a layer’s actions are icons at the top of its section (move up, move down, show or hide) with Remove set apart as the one that deletes, and an Undo for a few seconds after it.",
-        "Smaller windows: every tile in the editor (themes, layouts, sizes, Touch) is a fixed small tile instead of stretching across the page, and the editor and the Control Panel open as tool windows of at most 1280 × 900."
+        "Right-click a portal › Always on top: a checkmark per portal, saved with it. While a full-screen game runs the portal steps back to the normal order and returns to your choice after; it never takes focus.",
+        "Editor › Customize: the live copy is the portal scaled whole into its area, never cut off, at any size or shape; the layer stack above it shrinks to the room that is left.",
+        "Light: your Cards style (fill, opacity, border, corners) now shows on Light as on Dark; a card color the text would not read on keeps your opacity in Light’s card color. Gauges and bars set to Primary or Secondary use Light’s colors (they…",
+        "The portal’s own touch controls (the night button, its brightness slider, the press-and-hold menu) read on every theme, Dark and Light: the night button on Ganymede Light was dark on black."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1209",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1210/NovaPanel-patch-1.1.1209-to-1.1.1210.zip",
-        "size": 11517891,
-        "sha256": "2d587093398d1e4d2777dc917d91419e55e7695b9e84aaa8dfbd4506ad2d7488"
+        "from": "1.1.1210",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1211/NovaPanel-patch-1.1.1210-to-1.1.1211.zip",
+        "size": 11520521,
+        "sha256": "74d4c04470c8b1d3df5f6ab4dd8a392999ccd12cd69b938cb7a26c2fa7306914"
     }
 }
