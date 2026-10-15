@@ -1,9 +1,10 @@
 {
-    "version": "1.1.1193",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1193/NovaPanel-v1.1.1193.zip",
+    "version": "1.1.1194",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1194/NovaPanel-v1.1.1194.zip",
     "notes": [
-        "A portal’s default name is a real one: a second Omen is “Omen 2” (then 3 …), in the tray, the right-click, the Control Panel and the notices, instead of “New Panel”.",
-        "A saved portal still named “New Panel” is renamed at start (to “Omen 2” and so on); a name you chose is kept. The window title stays “Sigil — Omen”."
+        "A new portal is named for the screen it is on: the monitor’s own name, shortened (“Xeneon Edge”, “Dell U2723QE”), or the screen’s shape when that name says nothing (“Bar”, “Round”, “Portrait”, “Square”, “Wide”). Two on one screen are told…",
+        "Naming: Rename… in a portal’s right-click opens its name in the Control Panel’s Portals tab, ready to type; a click on any portal’s name there does the same. Enter saves it, Escape keeps the old one, and a name you type is never changed by…",
+        "A portal named “Omen 2”, “Omen 3” or “New Panel” by an earlier version is named for its screen at start; names you typed are kept."
     ],
     "required": false,
     "date": "2026-10-14"
