@@ -1,10 +1,10 @@
 {
-    "version": "1.1.1194",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1194/NovaPanel-v1.1.1194.zip",
+    "version": "1.1.1195",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1195/NovaPanel-v1.1.1195.zip",
     "notes": [
-        "A new portal is named for the screen it is on: the monitor’s own name, shortened (“Xeneon Edge”, “Dell U2723QE”), or the screen’s shape when that name says nothing (“Bar”, “Round”, “Portrait”, “Square”, “Wide”). Two on one screen are told…",
-        "Naming: Rename… in a portal’s right-click opens its name in the Control Panel’s Portals tab, ready to type; a click on any portal’s name there does the same. Enter saves it, Escape keeps the old one, and a name you type is never changed by…",
-        "A portal named “Omen 2”, “Omen 3” or “New Panel” by an earlier version is named for its screen at start; names you typed are kept."
+        "Game guard is automatic: while a game is running, every portal keeps from taking focus, so a stray click on a second screen never pulls the game out of full screen; the portals are themselves again when the game ends. No switch (the old…",
+        "The portal’s background is always the theme’s, painted by Sigil (the background law): the touch deck and Arche’s phosphor screen no longer have a background setting of their own, and the setting is dropped from saved settings at start.",
+        "Editor › Customize: its tabs (Portal, Layers, Color, Fonts, Cards, Metrics, Card options) read as tabs: their own bar, the tab in use filled and joined to the page under it, a hover and a keyboard focus, and room for a finger. One shared…"
     ],
     "required": false,
     "date": "2026-10-14"
