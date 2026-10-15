@@ -1,18 +1,15 @@
 {
-    "version": "1.1.1211",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1211/NovaPanel-v1.1.1211.zip",
+    "version": "1.1.1212",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1212/NovaPanel-v1.1.1212.zip",
     "notes": [
-        "Right-click a portal › Always on top: a checkmark per portal, saved with it. While a full-screen game runs the portal steps back to the normal order and returns to your choice after; it never takes focus.",
-        "Editor › Customize: the live copy is the portal scaled whole into its area, never cut off, at any size or shape; the layer stack above it shrinks to the room that is left.",
-        "Light: your Cards style (fill, opacity, border, corners) now shows on Light as on Dark; a card color the text would not read on keeps your opacity in Light’s card color. Gauges and bars set to Primary or Secondary use Light’s colors (they…",
-        "The portal’s own touch controls (the night button, its brightness slider, the press-and-hold menu) read on every theme, Dark and Light: the night button on Ganymede Light was dark on black."
+        "Editor › Customize: the Undo that shows after a layer is removed is now in the accent color, with Undo as a filled button, so it is hard to miss."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1210",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1211/NovaPanel-patch-1.1.1210-to-1.1.1211.zip",
-        "size": 11520521,
-        "sha256": "74d4c04470c8b1d3df5f6ab4dd8a392999ccd12cd69b938cb7a26c2fa7306914"
+        "from": "1.1.1211",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1212/NovaPanel-patch-1.1.1211-to-1.1.1212.zip",
+        "size": 11520643,
+        "sha256": "95730d8bc6d49ff4b756da09ef5aca9878f9526f16a05b46adf7a0718d94b59c"
     }
 }
