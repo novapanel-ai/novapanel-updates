@@ -1,18 +1,16 @@
 {
-    "version": "1.1.1205",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1205/NovaPanel-v1.1.1205.zip",
+    "version": "1.1.1206",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1206/NovaPanel-v1.1.1206.zip",
     "notes": [
-        "Editor › Customize: the sections on the right are the layers of the stack on the left, one each, in the same order and by the same names (Content, Rune options, Cards, each background layer, Base, Image, Portal, Desktop). Each background…",
-        "Editor › Customize: Color and Fonts are focused sections of their own: Dark or light, Color sets, Colors, Font, Text effects and Icons. Adding a background layer is a section of its own.",
-        "“Card options” is now “Rune options”, everywhere.",
-        "The stack’s planes show the settings: the Portal plane draws the border as set (on or off, its width, color, glow and corners) and where the cards sit inside the outer margin, and the Desktop plane no longer shows a dotted box left over…"
+        "Editor › Customize: every plane of the layer stack is its real layer, taken from the live copy under it: Content the real time, readings and gauges; Rune options the runes as drawn, the picked card outlined; Cards the real card faces in…",
+        "Editor › Customize: the stack is drawn nearly front on, the planes in the portal’s own shape and closer together, so every layer reads. It still holds 1 second and opens fast."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1204",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1205/NovaPanel-patch-1.1.1204-to-1.1.1205.zip",
-        "size": 11510067,
-        "sha256": "c0dc036958630a0f2e641629698aa00e56f434f21225687ea5df9cbb6187cf62"
+        "from": "1.1.1205",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1206/NovaPanel-patch-1.1.1205-to-1.1.1206.zip",
+        "size": 11514283,
+        "sha256": "68c25dd69f8de2d9aa00e8343a6eaf10cdcf58255c31f433704e0da4ba4dff6a"
     }
 }
