@@ -1,17 +1,16 @@
 {
-    "version": "1.1.1203",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1203/NovaPanel-v1.1.1203.zip",
+    "version": "1.1.1204",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1204/NovaPanel-v1.1.1204.zip",
     "notes": [
-        "Fixed: on a screen with no home set (Ops’ 1920 × 515 bench), Touch’s “your own app” sized the portal from its own size (2560 × 720) instead of the screen, and ran past the screen’s edge. The shares are now always of the screen Omen is on…",
-        "Ganymede: a weather card much wider than it is tall now stands the icon and temperature on the left and the name, sky and high / low beside them, as one centred group. It was three small rows in the middle of an empty card. Empty weather…",
-        "The balance check now also runs Omen inside its ⅓ and ⅔ of every size (bob-check --split)."
+        "Customize › Portal: with Border on, its settings are there: width (1 to 4 px), color (Ganymede’s line, accent or text color, or your own), solid or a soft glow, and the portal’s corners (0 to 32 px, rounding the whole portal, its…",
+        "Fixed: a slider’s value (Outer margin’s “29 px”) ran past the edge of a narrow Customize. The track now gives way and every value keeps the room its widest form needs."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1202",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1203/NovaPanel-patch-1.1.1202-to-1.1.1203.zip",
-        "size": 11504756,
-        "sha256": "34e6b5be6dbe447a337389227e998279fc707c061176280abbb66ab852e10562"
+        "from": "1.1.1203",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1204/NovaPanel-patch-1.1.1203-to-1.1.1204.zip",
+        "size": 11507409,
+        "sha256": "17a459bb4d1348056292842ae1b4f0f3b663b6868a1b98a5f322f7e0cdbe4907"
     }
 }
