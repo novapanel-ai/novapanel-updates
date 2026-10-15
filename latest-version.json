@@ -1,15 +1,16 @@
 {
-    "version": "1.1.1214",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1214/NovaPanel-v1.1.1214.zip",
+    "version": "1.1.1215",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1215/NovaPanel-v1.1.1215.zip",
     "notes": [
-        "Displays that aren't screens are left out by themselves: an HDMI audio extractor, an AV receiver or soundbar, a capture card or a dummy plug (found by the name it gives Windows) is never shown in Size & screen and a portal never goes…"
+        "Editor › Customize, a picked card: every choice in “What this card shows” carries its icon (CPU, Memory, Temperatures, Weather, Calendar, FPS…), so the list scans at a glance.",
+        "Editor › Customize, a picked card: its header is one quiet line, the card’s name with a small Reset and a small ×. The helper sentence is gone; Esc and a second click on the card still put it down."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1213",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1214/NovaPanel-patch-1.1.1213-to-1.1.1214.zip",
-        "size": 11520045,
-        "sha256": "e27ad8133c10b0c44cc6c4b93a2ebd0b3a8b1af6d11b37598a50c93eda6b229f"
+        "from": "1.1.1214",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1215/NovaPanel-patch-1.1.1214-to-1.1.1215.zip",
+        "size": 11520899,
+        "sha256": "d7e1b41d3624b79ca4d03c94adc6b6bdd73a6c1c4f00c6d0ed54cc6a899ec08b"
     }
 }
