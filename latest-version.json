@@ -1,8 +1,9 @@
 {
-    "version": "1.1.1196",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1196/NovaPanel-v1.1.1196.zip",
+    "version": "1.1.1197",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1197/NovaPanel-v1.1.1197.zip",
     "notes": [
-        "Fixed: a portal’s own background is never covered by its theme’s. When the portal’s Layers carry your own picture or video, or a color changed from the default, the theme’s background steps aside and yours shows, on every theme, the touch…"
+        "Fixed: editor › Touch no longer marks a deck split “In use” on a screen too square to hold one (under 1.6 to 1, such as 960 × 640). There the portal is all Omen, so All Omen is the one marked, the splits cannot be picked, and the note says…",
+        "Fixed: the night-mode moon button never sits on the window’s own buttons (– □ ×) at the top right: its spot keeps that corner clear."
     ],
     "required": false,
     "date": "2026-10-14"
