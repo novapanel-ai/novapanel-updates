@@ -1,18 +1,17 @@
 {
-    "version": "1.1.1202",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1202/NovaPanel-v1.1.1202.zip",
+    "version": "1.1.1203",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1203/NovaPanel-v1.1.1203.zip",
     "notes": [
-        "Touch page: one clear set of tiles. Pick what Omen takes (all of the screen, two thirds or one third), what fills the rest (touch controls, or nothing, left free for your own app), and which side. Setting up the touch controls is a plain…",
-        "A true ⅓ or ⅔ portal: choose “Nothing: your own app” and the portal window itself becomes that share of its screen, pinned to the side you pick, so the rest of the screen is free for another app. It uses the same sizing as Size & screen…",
-        "Touch controls on every format that can hold them: the split runs along the long side, so on a tall screen Omen sits above or below the controls. A share is offered only where the controls keep touch-size buttons and Omen its core form.…",
-        "Release: every published release now carries its installer and sensor-binary hashes, for the fleet’s automatic roll."
+        "Fixed: on a screen with no home set (Ops’ 1920 × 515 bench), Touch’s “your own app” sized the portal from its own size (2560 × 720) instead of the screen, and ran past the screen’s edge. The shares are now always of the screen Omen is on…",
+        "Ganymede: a weather card much wider than it is tall now stands the icon and temperature on the left and the name, sky and high / low beside them, as one centred group. It was three small rows in the middle of an empty card. Empty weather…",
+        "The balance check now also runs Omen inside its ⅓ and ⅔ of every size (bob-check --split)."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1201",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1202/NovaPanel-patch-1.1.1201-to-1.1.1202.zip",
-        "size": 11503573,
-        "sha256": "c0c9e1bd691ee8dfefc99ba9ca43b93bc49aa32dc636586c8e68155e1befebd0"
+        "from": "1.1.1202",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1203/NovaPanel-patch-1.1.1202-to-1.1.1203.zip",
+        "size": 11504756,
+        "sha256": "34e6b5be6dbe447a337389227e998279fc707c061176280abbb66ab852e10562"
     }
 }
