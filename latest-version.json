@@ -1,19 +1,17 @@
 {
-    "version": "1.1.1209",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1209/NovaPanel-v1.1.1209.zip",
+    "version": "1.1.1210",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1210/NovaPanel-v1.1.1210.zip",
     "notes": [
-        "Each theme keeps its own background. A picture, colour, gradient or pattern set on one theme stays with that theme; switching themes brings that theme’s own background (its defaults the first time) and switching back brings yours back. The…",
-        "Light and Dark are one switch. Ganymede on Light now draws a pale ground, white cards and dark text however you got there (Light used to change nothing when it was set on another theme), and the editor’s copy and the layer stack show the…",
-        "Themes’ own art comes back: with each theme on its own background, a picture set on Ganymede no longer hides Europa’s graphics or Pandia’s grain. Europa’s art is now drawn in layers (its glow, its grunge texture, its graphic elements) and…",
-        "Fixed: with touch controls on, the controls overlapped Omen’s last cards at the seam. Omen keeps its whole share and its margin; the controls start beside it.",
-        "Editor › Customize: the Desktop section is gone (the Desktop stays at the foot of the stack). An Image or Video layer with nothing chosen is no longer shown; “+ Image” and “+ Video” ask for the file first. The editor follows Light/Dark…"
+        "A new portal gets a star’s name (Vega, Altair, Rigel …), one none of your other portals has, given once and never changed by itself; Rename stays yours. Portals named by earlier versions for their screen or shape (Wide, Bar, Round …, Omen…",
+        "Editor › Customize: a layer’s actions are icons at the top of its section (move up, move down, show or hide) with Remove set apart as the one that deletes, and an Undo for a few seconds after it.",
+        "Smaller windows: every tile in the editor (themes, layouts, sizes, Touch) is a fixed small tile instead of stretching across the page, and the editor and the Control Panel open as tool windows of at most 1280 × 900."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1208",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1209/NovaPanel-patch-1.1.1208-to-1.1.1209.zip",
-        "size": 11517133,
-        "sha256": "0051bbb2e8ea73223d4b6493e00b3114f6e6b9e239f90540f07e0ffc2f75fce2"
+        "from": "1.1.1209",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1210/NovaPanel-patch-1.1.1209-to-1.1.1210.zip",
+        "size": 11517891,
+        "sha256": "2d587093398d1e4d2777dc917d91419e55e7695b9e84aaa8dfbd4506ad2d7488"
     }
 }
