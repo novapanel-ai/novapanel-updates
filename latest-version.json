@@ -1,13 +1,9 @@
 {
-    "version": "1.1.1198",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1198/NovaPanel-v1.1.1198.zip",
+    "version": "1.1.1199",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1199/NovaPanel-v1.1.1199.zip",
     "notes": [
-        "Ganymede balance (CEO-approved): every layout at every size now shares its room by what each card shows. Rows are sized by their cards’ measured content, leftover room becomes more to show (a gauge adds its clock and power, the time card…",
-        "No placeholders on Ganymede: a reading this PC does not have is left out (no dash), a card with nothing to show hands its place to the next card in the order, the CPU or GPU card shows its first reading the PC has, and a rune’s “no…",
-        "Layouts are named by their shape, not their default content (“Row on top, main left”, “Large main left”, “Side rail”), and each one in the right-click Layout menu shows a small drawing of its arrangement.",
-        "Editor › Customize: its tabs are the top step bar’s own (one shared tab component), and Layers › Adjust the picture’s button reads “Reset to original image”.",
-        "Fixed: a window’s own buttons (– □ ×) no longer keep a focus ring after a click."
+        "The sensor programs (the sensor service, the sensor bridge and the cursor guard) now run on .NET 10 (long-term support) instead of .NET 8, whose support ends on 10 November 2026. Same readings from the same sources on every bench, same…"
     ],
     "required": false,
-    "date": "2026-10-14"
+    "date": "2026-10-15"
 }
