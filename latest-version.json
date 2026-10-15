@@ -1,16 +1,15 @@
 {
-    "version": "1.1.1215",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1215/NovaPanel-v1.1.1215.zip",
+    "version": "1.1.1216",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1216/NovaPanel-v1.1.1216.zip",
     "notes": [
-        "Editor › Customize, a picked card: every choice in “What this card shows” carries its icon (CPU, Memory, Temperatures, Weather, Calendar, FPS…), so the list scans at a glance.",
-        "Editor › Customize, a picked card: its header is one quiet line, the card’s name with a small Reset and a small ×. The helper sentence is gone; Esc and a second click on the card still put it down."
+        "Editor › Customize: a theme’s own art (Pandia’s grain, Europa’s texture and graphics…) is a layer of its own, in the stack and as a section, and can be turned off and on there. The choice is kept for that theme only."
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1214",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1215/NovaPanel-patch-1.1.1214-to-1.1.1215.zip",
-        "size": 11520899,
-        "sha256": "d7e1b41d3624b79ca4d03c94adc6b6bdd73a6c1c4f00c6d0ed54cc6a899ec08b"
+        "from": "1.1.1215",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1216/NovaPanel-patch-1.1.1215-to-1.1.1216.zip",
+        "size": 11521158,
+        "sha256": "d747513fcf4a1bdb8166c677f7be771f40561abe931df36f455776594e4bc4bd"
     }
 }
