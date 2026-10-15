@@ -1,10 +1,8 @@
 {
-    "version": "1.1.1195",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1195/NovaPanel-v1.1.1195.zip",
+    "version": "1.1.1196",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1196/NovaPanel-v1.1.1196.zip",
     "notes": [
-        "Game guard is automatic: while a game is running, every portal keeps from taking focus, so a stray click on a second screen never pulls the game out of full screen; the portals are themselves again when the game ends. No switch (the old…",
-        "The portal’s background is always the theme’s, painted by Sigil (the background law): the touch deck and Arche’s phosphor screen no longer have a background setting of their own, and the setting is dropped from saved settings at start.",
-        "Editor › Customize: its tabs (Portal, Layers, Color, Fonts, Cards, Metrics, Card options) read as tabs: their own bar, the tab in use filled and joined to the page under it, a hover and a keyboard focus, and room for a finger. One shared…"
+        "Fixed: a portal’s own background is never covered by its theme’s. When the portal’s Layers carry your own picture or video, or a color changed from the default, the theme’s background steps aside and yours shows, on every theme, the touch…"
     ],
     "required": false,
     "date": "2026-10-14"
