@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1217",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1217/NovaPanel-v1.1.1217.zip",
+    "version": "1.1.1218",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1218/NovaPanel-v1.1.1218.zip",
     "notes": [
-        "Editor: Layout is no longer a step of its own. The layouts that fit the size are a row of tiles under the live copy in Customize; one click changes the copy and the portal. A size with one layout shows no row. The editor's steps are now…"
+        "Ganymede: the portal and the editor's copy draw the same card sizes however they started. A portal or copy that started before the theme's font was in, or before the forecast came, measured its cards that way and kept it (at 720 × 1280…"
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1216",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1217/NovaPanel-patch-1.1.1216-to-1.1.1217.zip",
-        "size": 11521187,
-        "sha256": "87d12e0d373631a2e20bcb1f8de84128c651adb58e887cef1d6bdd3a83bd5ff9"
+        "from": "1.1.1217",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1218/NovaPanel-patch-1.1.1217-to-1.1.1218.zip",
+        "size": 11522217,
+        "sha256": "daa405778fad27e21ff0b0faf89269d5f40abd3db3c80d99dc1bb4b98e9b06bf"
     }
 }
