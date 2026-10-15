@@ -1,16 +1,18 @@
 {
-    "version": "1.1.1204",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1204/NovaPanel-v1.1.1204.zip",
+    "version": "1.1.1205",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1205/NovaPanel-v1.1.1205.zip",
     "notes": [
-        "Customize › Portal: with Border on, its settings are there: width (1 to 4 px), color (Ganymede’s line, accent or text color, or your own), solid or a soft glow, and the portal’s corners (0 to 32 px, rounding the whole portal, its…",
-        "Fixed: a slider’s value (Outer margin’s “29 px”) ran past the edge of a narrow Customize. The track now gives way and every value keeps the room its widest form needs."
+        "Editor › Customize: the sections on the right are the layers of the stack on the left, one each, in the same order and by the same names (Content, Rune options, Cards, each background layer, Base, Image, Portal, Desktop). Each background…",
+        "Editor › Customize: Color and Fonts are focused sections of their own: Dark or light, Color sets, Colors, Font, Text effects and Icons. Adding a background layer is a section of its own.",
+        "“Card options” is now “Rune options”, everywhere.",
+        "The stack’s planes show the settings: the Portal plane draws the border as set (on or off, its width, color, glow and corners) and where the cards sit inside the outer margin, and the Desktop plane no longer shows a dotted box left over…"
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1203",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1204/NovaPanel-patch-1.1.1203-to-1.1.1204.zip",
-        "size": 11507409,
-        "sha256": "17a459bb4d1348056292842ae1b4f0f3b663b6868a1b98a5f322f7e0cdbe4907"
+        "from": "1.1.1204",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1205/NovaPanel-patch-1.1.1204-to-1.1.1205.zip",
+        "size": 11510067,
+        "sha256": "c0dc036958630a0f2e641629698aa00e56f434f21225687ea5df9cbb6187cf62"
     }
 }
