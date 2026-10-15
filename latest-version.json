@@ -1,9 +1,12 @@
 {
-    "version": "1.1.1197",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1197/NovaPanel-v1.1.1197.zip",
+    "version": "1.1.1198",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1198/NovaPanel-v1.1.1198.zip",
     "notes": [
-        "Fixed: editor › Touch no longer marks a deck split “In use” on a screen too square to hold one (under 1.6 to 1, such as 960 × 640). There the portal is all Omen, so All Omen is the one marked, the splits cannot be picked, and the note says…",
-        "Fixed: the night-mode moon button never sits on the window’s own buttons (– □ ×) at the top right: its spot keeps that corner clear."
+        "Ganymede balance (CEO-approved): every layout at every size now shares its room by what each card shows. Rows are sized by their cards’ measured content, leftover room becomes more to show (a gauge adds its clock and power, the time card…",
+        "No placeholders on Ganymede: a reading this PC does not have is left out (no dash), a card with nothing to show hands its place to the next card in the order, the CPU or GPU card shows its first reading the PC has, and a rune’s “no…",
+        "Layouts are named by their shape, not their default content (“Row on top, main left”, “Large main left”, “Side rail”), and each one in the right-click Layout menu shows a small drawing of its arrangement.",
+        "Editor › Customize: its tabs are the top step bar’s own (one shared tab component), and Layers › Adjust the picture’s button reads “Reset to original image”.",
+        "Fixed: a window’s own buttons (– □ ×) no longer keep a focus ring after a click."
     ],
     "required": false,
     "date": "2026-10-14"
