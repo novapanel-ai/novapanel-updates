@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1212",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1212/NovaPanel-v1.1.1212.zip",
+    "version": "1.1.1213",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1213/NovaPanel-v1.1.1213.zip",
     "notes": [
-        "Editor › Customize: the Undo that shows after a layer is removed is now in the accent color, with Undo as a filled button, so it is hard to miss."
+        "Editor › Customize: Saved looks are gone. There is nothing to name, use or delete: every change you make is kept in that theme’s own settings. One quiet “Reset to the theme’s look” stays at the foot, with an Undo for a few seconds after. A…"
     ],
     "required": false,
     "date": "2026-10-15",
     "patch": {
-        "from": "1.1.1211",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1212/NovaPanel-patch-1.1.1211-to-1.1.1212.zip",
-        "size": 11520643,
-        "sha256": "95730d8bc6d49ff4b756da09ef5aca9878f9526f16a05b46adf7a0718d94b59c"
+        "from": "1.1.1212",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1213/NovaPanel-patch-1.1.1212-to-1.1.1213.zip",
+        "size": 11519914,
+        "sha256": "fc28ce9a8c083e141f9da071a1eed253eb43ef64f9b8a0e46edd37e0f72da861"
     }
 }
