@@ -1,19 +1,19 @@
 {
-    "version": "1.1.1222",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1222/NovaPanel-v1.1.1222.zip",
+    "version": "1.1.1223",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1223/NovaPanel-v1.1.1223.zip",
     "notes": [
-        "Editor (CEO: \"that's too tiny, I thought it would be on the side\"): the layer stack sits beside the portal's copy instead of above it, and the copy keeps its full fitted size. When the window is too short for the stack to be readable, the…",
-        "The editor's copy now matches the portal at every size and every minute. The clock fits its text to the time it shows, and the portal and the copy, measured at different minutes, could keep different rows all session (a tall portal shared…",
-        "In a short editor window (Gemkeeper's 655 x 467), the Layout row under the copy steps aside without flickering in and out, and the caption no longer spills the pane.",
-        "Memory card (CEO's report): the stray line across it is gone. A graph too short to draw no longer leaves its baseline behind.",
-        "\"Demo\" is now \"Rotate\" everywhere you see it: the right-click menus, Preferences, the designer's button and its message. It still moves through the themes (Omen) or the layouts and places (Mirage) by itself."
+        "Editor, one header (CEO: \"this is fine\", the proposal's H1): the portal's name, then Theme, Size and Layout chips that each open their picker, Dark or Light, Undo and Redo, a ⋯ menu (About, Preferences, Touch on a touch screen, God Mode)…",
+        "Undo and Redo for every change in the editor: the header's buttons, Ctrl+Z and Ctrl+Y (or Ctrl+Shift+Z). A slider's drag, a Reset or a Remove is one step. In a text field the keys stay the field's own.",
+        "God Mode's \"set as the default\" buttons show only while God Mode is checked in the ⋯ menu.",
+        "Ganymede, overlapping cards fixed (CEO's report): on the Edge (853 x 720), the Memory/Storage and Network/Weather pairs drew their faces 25 px over each other, which made the dark band. Every gap between cards is now the same 7 px.",
+        "Ganymede on a round screen in Light: the time pill and the two circles kept a fixed dark fill under Light's dark text, so the time was nearly invisible. They now take the theme's card color. In Dark they match Ganymede's other cards…"
     ],
     "required": false,
     "date": "2026-10-16",
     "patch": {
-        "from": "1.1.1221",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1222/NovaPanel-patch-1.1.1221-to-1.1.1222.zip",
-        "size": 119972787,
-        "sha256": "b2d5fa78a4a00a1acb85ef7872e7d830468cfa28c3160f5eca34c3ba8ad7401e"
+        "from": "1.1.1222",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1223/NovaPanel-patch-1.1.1222-to-1.1.1223.zip",
+        "size": 119983885,
+        "sha256": "e057aa86dc878f552ae52ea79a54f7acc997295d2fb946386eaa6b23f33c68a9"
     }
 }
