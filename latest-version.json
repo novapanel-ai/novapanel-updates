@@ -1,19 +1,18 @@
 {
-    "version": "1.1.1226",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1226/NovaPanel-v1.1.1226.zip",
+    "version": "1.1.1227",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1227/NovaPanel-v1.1.1227.zip",
     "notes": [
-        "Editor header (CEO 10-16): Customize is in the header, first, and lit while it is open.",
-        "Editor header: Dark or Light left the header (it is switched once, for a white PC build); it is in Customize › Colors.",
-        "Editor header: the Size chip says the screen too (e.g. 2560 × 720 · XENEON EDGE).",
-        "Editor header: the Layout chip is a small drawing of the layout, no words; it opens this portal's layouts as picture tiles, and a pick changes the portal.",
-        "Portal right-click: no Rename. An added portal is renamed by clicking its name in the editor header, or in the Control Panel."
+        "Editor (CEO 10-16): the header says Card layout; it opens a full sheet of the layouts, big, each drawn at the portal's own shape with no names, as many columns as lets them be biggest; a pick is on the portal at once, with Undo, and the…",
+        "Editor, Customize: no row of layouts under the copy, so the live copy has that room to click its cards.",
+        "Editor header: an added portal's name (click to rename) takes a real click; it sat in the window's drag region, where a click dragged the window instead.",
+        "Editor, picture tiles (Card layout and Theme): each picture stands on the portal's own base color, as the live copy does; in Light, Ganymede's tiles had drawn dark ink on the editor's dark ground."
     ],
     "required": false,
     "date": "2026-10-16",
     "patch": {
-        "from": "1.1.1225",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1226/NovaPanel-patch-1.1.1225-to-1.1.1226.zip",
-        "size": 12050165,
-        "sha256": "a548ed6124545a74ac19123acd8888434e66001ae9551c3a4553080922979c4d"
+        "from": "1.1.1226",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1227/NovaPanel-patch-1.1.1226-to-1.1.1227.zip",
+        "size": 12050405,
+        "sha256": "5fc55aaf1df68377e43e8c2e65781594688af3546da5df73651697b8e6a4891b"
     }
 }
