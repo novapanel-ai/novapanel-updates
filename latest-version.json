@@ -1,18 +1,16 @@
 {
-    "version": "1.1.1227",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1227/NovaPanel-v1.1.1227.zip",
+    "version": "1.1.1228",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1228/NovaPanel-v1.1.1228.zip",
     "notes": [
-        "Editor (CEO 10-16): the header says Card layout; it opens a full sheet of the layouts, big, each drawn at the portal's own shape with no names, as many columns as lets them be biggest; a pick is on the portal at once, with Undo, and the…",
-        "Editor, Customize: no row of layouts under the copy, so the live copy has that room to click its cards.",
-        "Editor header: an added portal's name (click to rename) takes a real click; it sat in the window's drag region, where a click dragged the window instead.",
-        "Editor, picture tiles (Card layout and Theme): each picture stands on the portal's own base color, as the live copy does; in Light, Ganymede's tiles had drawn dark ink on the editor's dark ground."
+        "Testing: the tester file Ops places is now %ProgramData%\\Sigil\\tester.json (CEO: no NovaPanel in it); a machine set up before keeps its %ProgramData%\\NovaPanel\\tester.json, read where the new one is not there. Test results and fleet events…",
+        "Ganymede: the ten sensor looks (Ring, Arc, Dial, Bar, Segments, Graph, Columns, Rows, Number, Split) are drawn by one shared family for the CPU, GPU, Memory, Storage, Network and Battery cards, each with Dense, Relaxed and Minimal; not…"
     ],
     "required": false,
     "date": "2026-10-16",
     "patch": {
-        "from": "1.1.1226",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1227/NovaPanel-patch-1.1.1226-to-1.1.1227.zip",
-        "size": 12050405,
-        "sha256": "5fc55aaf1df68377e43e8c2e65781594688af3546da5df73651697b8e6a4891b"
+        "from": "1.1.1227",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1228/NovaPanel-patch-1.1.1227-to-1.1.1228.zip",
+        "size": 12057726,
+        "sha256": "0fb2cbf99056d9c499212d5d61d7c61621934e390ed9d04c9fc5e816edde8a28"
     }
 }
