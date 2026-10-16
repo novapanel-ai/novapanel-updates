@@ -1,10 +1,8 @@
 {
-    "version": "1.1.1220",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1220/NovaPanel-v1.1.1220.zip",
+    "version": "1.1.1221",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1221/NovaPanel-v1.1.1221.zip",
     "notes": [
-        "Touch: a portal smaller than its screen (a 240 × 240 on a 2048 × 1280 screen) is never resized from the Touch page. Sharing the screen (touch controls, or the rest left free) is offered only for a portal that has its screen to itself, and…",
-        "Editor › Customize in a short window (a 1920 × 515 screen holds the editor at about 655 × 467): the live copy is never cut off or squeezed. When the layer stack would be too small to read it steps aside, and the copy keeps its shape.",
-        "Editor › Customize: the Layout row reads the live copy to tell when a size has only one layout, so it follows the portal on a scaled screen too. The weather card is always measured at its widest, so a portal and its copy that read the…"
+        "The Control Panel and the editor are normal windows again: they come to the front when opened or clicked and go behind other apps when you click elsewhere, so working on one screen is easy. Always on top is a portal’s own choice only."
     ],
     "required": false,
     "date": "2026-10-15"
