@@ -1,15 +1,9 @@
 {
-    "version": "1.1.1218",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1218/NovaPanel-v1.1.1218.zip",
+    "version": "1.1.1219",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1219/NovaPanel-v1.1.1219.zip",
     "notes": [
-        "Ganymede: the portal and the editor's copy draw the same card sizes however they started. A portal or copy that started before the theme's font was in, or before the forecast came, measured its cards that way and kept it (at 720 × 1280…"
+        "Platform: the app now runs on Electron 44.7.2 (was 36.9.5) and is built with electron-builder 26.15.3. Nothing in how Sigil looks or behaves changes: the theme gate (23 themes, Dark and Light), the fleet rig, the pinned Ganymede runs, the…"
     ],
     "required": false,
-    "date": "2026-10-15",
-    "patch": {
-        "from": "1.1.1217",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1218/NovaPanel-patch-1.1.1217-to-1.1.1218.zip",
-        "size": 11522217,
-        "sha256": "daa405778fad27e21ff0b0faf89269d5f40abd3db3c80d99dc1bb4b98e9b06bf"
-    }
+    "date": "2026-10-15"
 }
