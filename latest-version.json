@@ -1,8 +1,10 @@
 {
-    "version": "1.1.1219",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1219/NovaPanel-v1.1.1219.zip",
+    "version": "1.1.1220",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1220/NovaPanel-v1.1.1220.zip",
     "notes": [
-        "Platform: the app now runs on Electron 44.7.2 (was 36.9.5) and is built with electron-builder 26.15.3. Nothing in how Sigil looks or behaves changes: the theme gate (23 themes, Dark and Light), the fleet rig, the pinned Ganymede runs, the…"
+        "Touch: a portal smaller than its screen (a 240 × 240 on a 2048 × 1280 screen) is never resized from the Touch page. Sharing the screen (touch controls, or the rest left free) is offered only for a portal that has its screen to itself, and…",
+        "Editor › Customize in a short window (a 1920 × 515 screen holds the editor at about 655 × 467): the live copy is never cut off or squeezed. When the layer stack would be too small to read it steps aside, and the copy keeps its shape.",
+        "Editor › Customize: the Layout row reads the live copy to tell when a size has only one layout, so it follows the portal on a scaled screen too. The weather card is always measured at its widest, so a portal and its copy that read the…"
     ],
     "required": false,
     "date": "2026-10-15"
