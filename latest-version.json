@@ -1,9 +1,19 @@
 {
-    "version": "1.1.1221",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1221/NovaPanel-v1.1.1221.zip",
+    "version": "1.1.1222",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1222/NovaPanel-v1.1.1222.zip",
     "notes": [
-        "The Control Panel and the editor are normal windows again: they come to the front when opened or clicked and go behind other apps when you click elsewhere, so working on one screen is easy. Always on top is a portal’s own choice only."
+        "Editor (CEO: \"that's too tiny, I thought it would be on the side\"): the layer stack sits beside the portal's copy instead of above it, and the copy keeps its full fitted size. When the window is too short for the stack to be readable, the…",
+        "The editor's copy now matches the portal at every size and every minute. The clock fits its text to the time it shows, and the portal and the copy, measured at different minutes, could keep different rows all session (a tall portal shared…",
+        "In a short editor window (Gemkeeper's 655 x 467), the Layout row under the copy steps aside without flickering in and out, and the caption no longer spills the pane.",
+        "Memory card (CEO's report): the stray line across it is gone. A graph too short to draw no longer leaves its baseline behind.",
+        "\"Demo\" is now \"Rotate\" everywhere you see it: the right-click menus, Preferences, the designer's button and its message. It still moves through the themes (Omen) or the layouts and places (Mirage) by itself."
     ],
     "required": false,
-    "date": "2026-10-15"
+    "date": "2026-10-16",
+    "patch": {
+        "from": "1.1.1221",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1222/NovaPanel-patch-1.1.1221-to-1.1.1222.zip",
+        "size": 119972787,
+        "sha256": "b2d5fa78a4a00a1acb85ef7872e7d830468cfa28c3160f5eca34c3ba8ad7401e"
+    }
 }
