@@ -1,19 +1,18 @@
 {
-    "version": "1.1.1224",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1224/NovaPanel-v1.1.1224.zip",
+    "version": "1.1.1225",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1225/NovaPanel-v1.1.1225.zip",
     "notes": [
-        "Editor, the Theme sheet (CEO: \"we need to represent the category first ... we do not try to match their exact resolution ratio just convey the theme. But big so they see the details\"): it opens from the header's Theme chip with the…",
-        "Editor pictures stay whole when the window is resized (a picture fitted once was cropped as its tile shrank).",
-        "Ganymede, Minimal cards: the ring and its name, and the figure, its name and its bar, are each one evenly spaced group; the name and the bar sat pinned to the card's foot, leaving a hole above them.",
-        "Ganymede, Dense cards: a card whose last-minute graph has nothing to draw yet (a portal just started) shows its bar, or the load as a figure, instead of an empty band.",
-        "Ganymede, never blank: a rune in a side card (Memory's place on an 854 x 480 screen) draws there, or falls back to its card; it drew nothing."
+        "Editor, Customize (the proposal's C5): pointing at a layer, its plane in the stack, its section's header or its chip, outlines it on the copy: each card for Cards and Card options, the whole copy for the layers that cover it.",
+        "Editor, one control column (C3): every segment, menu, switch and slider in a section ends at the same right edge, and every slider's value sits in one column of one width after it (the sliders' tracks had ended a few pixels apart).",
+        "Editor, hints (C7): an open section's hint is an info mark beside its name instead of a line of text under it.",
+        "Editor, light motion (C9): a plane of the layer stack lifts as it is pointed at, and a section slides open as it opens; none when Windows asks for reduced motion."
     ],
     "required": false,
     "date": "2026-10-16",
     "patch": {
-        "from": "1.1.1223",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1224/NovaPanel-patch-1.1.1223-to-1.1.1224.zip",
-        "size": 12045739,
-        "sha256": "9ad7a332716e1ecfcc48d8eecc086128807f3c8050b3bf7da64617761daaf306"
+        "from": "1.1.1224",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1225/NovaPanel-patch-1.1.1224-to-1.1.1225.zip",
+        "size": 12047915,
+        "sha256": "44928489cc894e077d1153c16d1da865c64a935aa50582bd00ffebb6943ff4b5"
     }
 }
