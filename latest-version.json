@@ -1,16 +1,17 @@
 {
-    "version": "1.1.1233",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1233/NovaPanel-v1.1.1233.zip",
+    "version": "1.1.1234",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1234/NovaPanel-v1.1.1234.zip",
     "notes": [
-        "Ganymede, Rune Priorities (phase 2, live swaps): while music or a video plays, the Media card takes the place of the lowest card in the computer's order (never Time, CPU or GPU) and gives it back when playback stops. A paused song takes…",
-        "Media card: it said Paused while music was playing and its time did not move; it now says Playing and counts the time."
+        "Ganymede, the FPS card in a game: the frame rate, its graph, the title and the legend stand at even gaps (a gap opened above the graph when the figure was held small by the card's width); the graph spans the card from a game's first…",
+        "Ganymede, Rune Priorities: the computer type is remembered for the session, so a battery or graphics card read a moment late no longer turns a laptop's starting order into a desktop's.",
+        "Ganymede, the Network card:its unit goes with the card's name (NETWORK · MB/s) and the figure is the number, so the card no longer weighs to the right beside Memory and Storage."
     ],
     "required": false,
     "date": "2026-10-17",
     "patch": {
-        "from": "1.1.1232",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1233/NovaPanel-patch-1.1.1232-to-1.1.1233.zip",
-        "size": 12067270,
-        "sha256": "970db1217b9a8d1f569dadf9e9d5f4cfc74dd4defbf6f1859b3723ec08d49bcd"
+        "from": "1.1.1233",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1234/NovaPanel-patch-1.1.1233-to-1.1.1234.zip",
+        "size": 12069488,
+        "sha256": "f46e0c48c880979a731ea5e422cbcba0be52a289939d8a2370b36ea9936e8e96"
     }
 }
