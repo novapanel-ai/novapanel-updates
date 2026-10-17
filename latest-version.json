@@ -1,18 +1,16 @@
 {
-    "version": "1.1.1231",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1231/NovaPanel-v1.1.1231.zip",
+    "version": "1.1.1232",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1232/NovaPanel-v1.1.1232.zip",
     "notes": [
-        "Background picture, adaptive ratio (CEO: in for launch): a picture set to Cover keeps its subject in view at every portal shape (a 32:9 strip, a 9:16 column, a square), cropped round it instead of its middle. Sigil finds the subject from…",
-        "Editor, the Picture layer: Keep in view shows the whole picture with the point it keeps in view; click it to choose another point, Auto to go back to the subject Sigil found.",
-        "Editor: a local picture larger than 8 MB shows on the live copy (it was missing there while the portal showed it).",
-        "Ganymede, Weather Dense: the words in a wide card's now row weigh against the icon and the temperature."
+        "Ganymede, Rune Priorities (phase 1, the computer type): the cards a portal starts with come from what the computer has, never a label. A desktop with a graphics card starts Time, CPU, GPU, Memory, Storage; a desktop without one puts GPU…",
+        "1.1.1231 carried an unfinished copy of this (it misread some built-in graphics as separate cards); this release has the finished one."
     ],
     "required": false,
     "date": "2026-10-16",
     "patch": {
-        "from": "1.1.1230",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1231/NovaPanel-patch-1.1.1230-to-1.1.1231.zip",
-        "size": 12066200,
-        "sha256": "835f625f4d3d6358582d8bad45a272fc19a01a439918bcb6773f88111e0c089e"
+        "from": "1.1.1231",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1232/NovaPanel-patch-1.1.1231-to-1.1.1232.zip",
+        "size": 12066839,
+        "sha256": "77bd506332fc435ee1b2b64ca91b50bd12c50bf6e832c027620a4880f4243bcc"
     }
 }
