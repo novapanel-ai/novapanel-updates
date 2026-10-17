@@ -1,19 +1,18 @@
 {
-    "version": "1.1.1230",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1230/NovaPanel-v1.1.1230.zip",
+    "version": "1.1.1231",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1231/NovaPanel-v1.1.1231.zip",
     "notes": [
-        "Ganymede, the Weather pass: with no weather on this PC its card takes the next card the portal is not showing (it was one Uptime line in a wide card, 70% empty).",
-        "Ganymede, Weather: a wide card with no forecast keeps three lines (the place takes the high and low's line, or the sky's line grows); its words weigh against the icon and the temperature in every reading case.",
-        "Ganymede, Weather Dense: the hairline over the hours has its own room, the same above and below it (it sat a few pixels from the data), in tall and wide cards; the head, the now and the hours are one evenly spaced group.",
-        "Ganymede, Weather: with no readings at its foot the sky and the temperature take the room; Minimal is centred as one group and fills a wide card's height.",
-        "Placement rig: its \"no real screen\" step marks displays through a test hook in main (the panel setting it used left with the screen map's section); 47 of 47 again."
+        "Background picture, adaptive ratio (CEO: in for launch): a picture set to Cover keeps its subject in view at every portal shape (a 32:9 strip, a 9:16 column, a square), cropped round it instead of its middle. Sigil finds the subject from…",
+        "Editor, the Picture layer: Keep in view shows the whole picture with the point it keeps in view; click it to choose another point, Auto to go back to the subject Sigil found.",
+        "Editor: a local picture larger than 8 MB shows on the live copy (it was missing there while the portal showed it).",
+        "Ganymede, Weather Dense: the words in a wide card's now row weigh against the icon and the temperature."
     ],
     "required": false,
     "date": "2026-10-16",
     "patch": {
-        "from": "1.1.1229",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1230/NovaPanel-patch-1.1.1229-to-1.1.1230.zip",
-        "size": 12062558,
-        "sha256": "6dab559d9cacbf58449c516a35e6c47b9867149e13d0e6d0a423ff6726cc165a"
+        "from": "1.1.1230",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1231/NovaPanel-patch-1.1.1230-to-1.1.1231.zip",
+        "size": 12066200,
+        "sha256": "835f625f4d3d6358582d8bad45a272fc19a01a439918bcb6773f88111e0c089e"
     }
 }
