@@ -1,16 +1,19 @@
 {
-    "version": "1.1.1228",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1228/NovaPanel-v1.1.1228.zip",
+    "version": "1.1.1229",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1229/NovaPanel-v1.1.1229.zip",
     "notes": [
-        "Testing: the tester file Ops places is now %ProgramData%\\Sigil\\tester.json (CEO: no NovaPanel in it); a machine set up before keeps its %ProgramData%\\NovaPanel\\tester.json, read where the new one is not there. Test results and fleet events…",
-        "Ganymede: the ten sensor looks (Ring, Arc, Dial, Bar, Segments, Graph, Columns, Rows, Number, Split) are drawn by one shared family for the CPU, GPU, Memory, Storage, Network and Battery cards, each with Dense, Relaxed and Minimal; not…"
+        "Editor, Rune options (CEO 10-16): How it looks: the ten sensor looks (Ring, Arc, Dial, Bar, Segments, Graph, Columns, Rows, Number, Split) as live pictures of this portal's own cards; one for every sensor card, or a card picked on the copy…",
+        "Ganymede: the ten sensor looks drawn for the CPU, GPU, Memory, Storage, Network and Battery cards, each with Dense, Relaxed and Minimal, balanced with and without cards (a look with nothing of its own to draw is drawn as the look it stands…",
+        "Ganymede, small landscape screens (CEO pick a3: 854 x 480, 320 x 240 and the like): the time and the two rings on the left half, Memory, Storage and Battery as bar rows down the right half, each its name, its value on the right edge and…",
+        "Ganymede, small portrait screens (CEO pick b2: 272 x 480, 240 x 320, 320 x 480): the time, the two rings, then Memory and Storage as full-width bar rows.",
+        "Ganymede, the time card on wide screens (CEO pick c3: 1920 x 720, 2560 x 1080, 3440 x 1440): the time fills the left half; right of a hairline, the weekday and the date, then the card's next readings where the height allows."
     ],
     "required": false,
     "date": "2026-10-16",
     "patch": {
-        "from": "1.1.1227",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1228/NovaPanel-patch-1.1.1227-to-1.1.1228.zip",
-        "size": 12057726,
-        "sha256": "0fb2cbf99056d9c499212d5d61d7c61621934e390ed9d04c9fc5e816edde8a28"
+        "from": "1.1.1228",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1229/NovaPanel-patch-1.1.1228-to-1.1.1229.zip",
+        "size": 12061426,
+        "sha256": "7093f4bd877cb9aaf36f97079d655a017f5fce578b31e255e2bc148914475a08"
     }
 }
