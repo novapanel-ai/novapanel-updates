@@ -1,17 +1,18 @@
 {
-    "version": "1.1.1234",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1234/NovaPanel-v1.1.1234.zip",
+    "version": "1.1.1235",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1235/NovaPanel-v1.1.1235.zip",
     "notes": [
-        "Ganymede, the FPS card in a game: the frame rate, its graph, the title and the legend stand at even gaps (a gap opened above the graph when the figure was held small by the card's width); the graph spans the card from a game's first…",
-        "Ganymede, Rune Priorities: the computer type is remembered for the session, so a battery or graphics card read a moment late no longer turns a laptop's starting order into a desktop's.",
-        "Ganymede, the Network card:its unit goes with the card's name (NETWORK · MB/s) and the figure is the number, so the card no longer weighs to the right beside Memory and Storage."
+        "Ganymede on a round screen: the time fills its pill (the pill is sized to the time; it was half again too wide, the time a third of it), and a stray frosted card no longer stands in the top-left corner under the circle.",
+        "Ganymede on 21:9 screens: the Time card in the wide main card uses the two halves (the time left, the date and readings right) where it stood alone a quarter of the card's width, and the time keeps a margin from the card's edge; with no…",
+        "BOB rig: bob-check --shots <dir> saves a picture of every flagged drawing.",
+        "Ganymede on small screens:whether a reading fits (the readings under the time, the line under a gauge's value) is decided the same way whatever it reads, so a three-figure temperature or a long uptime no longer drops a reading and moves…"
     ],
     "required": false,
     "date": "2026-10-17",
     "patch": {
-        "from": "1.1.1233",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1234/NovaPanel-patch-1.1.1233-to-1.1.1234.zip",
-        "size": 12069488,
-        "sha256": "f46e0c48c880979a731ea5e422cbcba0be52a289939d8a2370b36ea9936e8e96"
+        "from": "1.1.1234",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1235/NovaPanel-patch-1.1.1234-to-1.1.1235.zip",
+        "size": 12071083,
+        "sha256": "20923a495c5bd2d54dec91a5ee91428d46646e46d2ca17bfdda1b43ad5f3fd57"
     }
 }
