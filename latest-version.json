@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1232",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1232/NovaPanel-v1.1.1232.zip",
+    "version": "1.1.1233",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1233/NovaPanel-v1.1.1233.zip",
     "notes": [
-        "Ganymede, Rune Priorities (phase 1, the computer type): the cards a portal starts with come from what the computer has, never a label. A desktop with a graphics card starts Time, CPU, GPU, Memory, Storage; a desktop without one puts GPU…",
-        "1.1.1231 carried an unfinished copy of this (it misread some built-in graphics as separate cards); this release has the finished one."
+        "Ganymede, Rune Priorities (phase 2, live swaps): while music or a video plays, the Media card takes the place of the lowest card in the computer's order (never Time, CPU or GPU) and gives it back when playback stops. A paused song takes…",
+        "Media card: it said Paused while music was playing and its time did not move; it now says Playing and counts the time."
     ],
     "required": false,
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "patch": {
-        "from": "1.1.1231",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1232/NovaPanel-patch-1.1.1231-to-1.1.1232.zip",
-        "size": 12066839,
-        "sha256": "77bd506332fc435ee1b2b64ca91b50bd12c50bf6e832c027620a4880f4243bcc"
+        "from": "1.1.1232",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1233/NovaPanel-patch-1.1.1232-to-1.1.1233.zip",
+        "size": 12067270,
+        "sha256": "970db1217b9a8d1f569dadf9e9d5f4cfc74dd4defbf6f1859b3723ec08d49bcd"
     }
 }
