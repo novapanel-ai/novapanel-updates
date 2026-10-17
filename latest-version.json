@@ -1,19 +1,19 @@
 {
-    "version": "1.1.1229",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1229/NovaPanel-v1.1.1229.zip",
+    "version": "1.1.1230",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1230/NovaPanel-v1.1.1230.zip",
     "notes": [
-        "Editor, Rune options (CEO 10-16): How it looks: the ten sensor looks (Ring, Arc, Dial, Bar, Segments, Graph, Columns, Rows, Number, Split) as live pictures of this portal's own cards; one for every sensor card, or a card picked on the copy…",
-        "Ganymede: the ten sensor looks drawn for the CPU, GPU, Memory, Storage, Network and Battery cards, each with Dense, Relaxed and Minimal, balanced with and without cards (a look with nothing of its own to draw is drawn as the look it stands…",
-        "Ganymede, small landscape screens (CEO pick a3: 854 x 480, 320 x 240 and the like): the time and the two rings on the left half, Memory, Storage and Battery as bar rows down the right half, each its name, its value on the right edge and…",
-        "Ganymede, small portrait screens (CEO pick b2: 272 x 480, 240 x 320, 320 x 480): the time, the two rings, then Memory and Storage as full-width bar rows.",
-        "Ganymede, the time card on wide screens (CEO pick c3: 1920 x 720, 2560 x 1080, 3440 x 1440): the time fills the left half; right of a hairline, the weekday and the date, then the card's next readings where the height allows."
+        "Ganymede, the Weather pass: with no weather on this PC its card takes the next card the portal is not showing (it was one Uptime line in a wide card, 70% empty).",
+        "Ganymede, Weather: a wide card with no forecast keeps three lines (the place takes the high and low's line, or the sky's line grows); its words weigh against the icon and the temperature in every reading case.",
+        "Ganymede, Weather Dense: the hairline over the hours has its own room, the same above and below it (it sat a few pixels from the data), in tall and wide cards; the head, the now and the hours are one evenly spaced group.",
+        "Ganymede, Weather: with no readings at its foot the sky and the temperature take the room; Minimal is centred as one group and fills a wide card's height.",
+        "Placement rig: its \"no real screen\" step marks displays through a test hook in main (the panel setting it used left with the screen map's section); 47 of 47 again."
     ],
     "required": false,
     "date": "2026-10-16",
     "patch": {
-        "from": "1.1.1228",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1229/NovaPanel-patch-1.1.1228-to-1.1.1229.zip",
-        "size": 12061426,
-        "sha256": "7093f4bd877cb9aaf36f97079d655a017f5fce578b31e255e2bc148914475a08"
+        "from": "1.1.1229",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1230/NovaPanel-patch-1.1.1229-to-1.1.1230.zip",
+        "size": 12062558,
+        "sha256": "6dab559d9cacbf58449c516a35e6c47b9867149e13d0e6d0a423ff6726cc165a"
     }
 }
