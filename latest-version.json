@@ -1,18 +1,19 @@
 {
-    "version": "1.1.1235",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1235/NovaPanel-v1.1.1235.zip",
+    "version": "1.1.1236",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1236/NovaPanel-v1.1.1236.zip",
     "notes": [
-        "Ganymede on a round screen: the time fills its pill (the pill is sized to the time; it was half again too wide, the time a third of it), and a stray frosted card no longer stands in the top-left corner under the circle.",
-        "Ganymede on 21:9 screens: the Time card in the wide main card uses the two halves (the time left, the date and readings right) where it stood alone a quarter of the card's width, and the time keeps a margin from the card's edge; with no…",
-        "BOB rig: bob-check --shots <dir> saves a picture of every flagged drawing.",
-        "Ganymede on small screens:whether a reading fits (the readings under the time, the line under a gauge's value) is decided the same way whatever it reads, so a three-figure temperature or a long uptime no longer drops a reading and moves…"
+        "Single is a layout type (CEO: \"just another layout type, not a new theme\"): Callisto is no longer a theme. Its singles (the clock, other times, the fan, the tachometers, the pulse, the weather, battery, network, drive, month and one big…",
+        "A single draws in Ganymede's colors and font, on Dark and on Light (its color sets, Customize › Color), over Sigil's own ground and your picture, instead of its own dark ground. The motion, faces and fans are as they were.",
+        "Card layout: two groups, Cards and Single, each drawn as it will look, the singles named, the whole sheet sized to the window; from a single, a card layout brings the cards back. The Card layout chip shows on a single too.",
+        "Card layout: the card layout pictures each show their own arrangement when the sheet is opened from a single (they all showed the one in use).",
+        "Editor: Touch is back in sight, as a header chip right of Card layout (CEO: \"touch should be offered up to the right of card layout\"). It shows wherever Omen is on a touch screen, including screens Windows does not report as touch (the…"
     ],
     "required": false,
     "date": "2026-10-17",
     "patch": {
-        "from": "1.1.1234",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1235/NovaPanel-patch-1.1.1234-to-1.1.1235.zip",
-        "size": 12071083,
-        "sha256": "20923a495c5bd2d54dec91a5ee91428d46646e46d2ca17bfdda1b43ad5f3fd57"
+        "from": "1.1.1235",
+        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1236/NovaPanel-patch-1.1.1235-to-1.1.1236.zip",
+        "size": 12072535,
+        "sha256": "086bbc5704fee17d89b8fef897ab08135d41bb8b3446fad96853dfe81dea6350"
     }
 }
