@@ -1,19 +1,13 @@
 {
-    "version": "1.1.1237",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1237/NovaPanel-v1.1.1237.zip",
+    "version": "1.1.1239",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1239/NovaPanel-v1.1.1239.zip",
     "notes": [
-        "Themes' art is its own layers (CEO: \"if a theme has graphics it needs a layer\"): Herse (Haze), Orthosie (Paper), Isonoe (HUD, Scan lines), Adrastea (Texture), Arche (Texture, Rulers), Pasiphae (Grid, Neon), Thebe (Weave), Dia (Dot grid)…",
-        "Cards › Opacity works on a fresh install: a card the text would not read on at the opacity chosen (white on Dark) is drawn at the most it can be and still read, where it went back to 10% and the slider looked dead.",
-        "Ganymede: a card you gave other data (a Calendar where the GPU was) keeps that card's place in the computer's card order; on a smaller layout it fell to the end of the list and was dropped (since 1.1.1232).",
-        "Editor: the Size chip names a screen Windows gives no name (a laptop's own panel) as Main screen, where it named none.",
-        "Placement rig: it waits for the portal window to come back before measuring it (Blink's hs156kcb home failed one gauntlet run in three on \"reading 'b'\")."
+        "The portal's window buttons work (CEO: \"the buttons do nothing\"): a click on minimize, full screen or close dragged the window instead, on Ganymede's portal, Fleet Command and Blackfield. The buttons are no longer inside the area that…",
+        "FPS and Media never draw empty (CEO: \"media player and FPS need to be handled specially ... these need fallbacks\"): with no game running or nothing playing, their card shows the next card in the portal's order, even where you picked FPS or…",
+        "Customize shows the portal larger (CEO: \"remove the 3D and just show the panel larger\"): the 3D layer stack beside the copy is gone; the copy takes the whole pane. Each layer is still its own section.",
+        "No \"Default\" next to the same choice (CEO law): Rune options › How it looks marks the look a card follows instead of adding an \"As all cards · Default\" tile; all cards' own mix is named Ganymede; a rune's own form is named Standard; a look…",
+        "Light: a theme drawn light by Sigil's light rule (Sinope, Isonoe and the others without their own light side) deepens its accent and grey text until it reads (4.5:1) on its light ground; Sinope's labels were 2.24:1."
     ],
     "required": false,
-    "date": "2026-10-17",
-    "patch": {
-        "from": "1.1.1236",
-        "url": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1237/NovaPanel-patch-1.1.1236-to-1.1.1237.zip",
-        "size": 12074589,
-        "sha256": "a69c7e9998d321b19b2dfee92a9eaee9014eb58389f272fb6f961c5f04d33e9c"
-    }
+    "date": "2026-10-17"
 }
