@@ -1,13 +1,12 @@
 {
-    "version": "1.1.1239",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1239/NovaPanel-v1.1.1239.zip",
+    "version": "1.1.1240",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1240/NovaPanel-v1.1.1240.zip",
     "notes": [
-        "The portal's window buttons work (CEO: \"the buttons do nothing\"): a click on minimize, full screen or close dragged the window instead, on Ganymede's portal, Fleet Command and Blackfield. The buttons are no longer inside the area that…",
-        "FPS and Media never draw empty (CEO: \"media player and FPS need to be handled specially ... these need fallbacks\"): with no game running or nothing playing, their card shows the next card in the portal's order, even where you picked FPS or…",
-        "Customize shows the portal larger (CEO: \"remove the 3D and just show the panel larger\"): the 3D layer stack beside the copy is gone; the copy takes the whole pane. Each layer is still its own section.",
-        "No \"Default\" next to the same choice (CEO law): Rune options › How it looks marks the look a card follows instead of adding an \"As all cards · Default\" tile; all cards' own mix is named Ganymede; a rune's own form is named Standard; a look…",
-        "Light: a theme drawn light by Sigil's light rule (Sinope, Isonoe and the others without their own light side) deepens its accent and grey text until it reads (4.5:1) on its light ground; Sinope's labels were 2.24:1."
+        "Rotate shows only what this computer offers (CEO: \"only displaying what that computer offers\"): a Single layout (one reading, drawn round) joins the rotation only on a square portal, and only when this computer has its reading (no Battery…",
+        "Fleet Command reads from across the room (CEO, the 1920x515 bar at 10 to 15 ft): big slides by default, 60 to 230 px type, one fact or two machines a slide, every 9 s; the dense dashboard stays with ?dense=1 (Ops).",
+        "Editor › Size: the screen Omen is on is marked gold on a fresh install too (none was, under a line saying \"the gold screen\"), and the line under the map no longer repeats the tile's \"Omen is here\".",
+        "Editor: the caption under the copy names a style called as its theme once (\"Ganymede · 1024 × 768\", was \"Ganymede · Ganymede · ...\")."
     ],
     "required": false,
-    "date": "2026-10-17"
+    "date": "2026-10-18"
 }
