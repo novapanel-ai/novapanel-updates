@@ -1,12 +1,11 @@
 {
-    "version": "1.1.1240",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1240/NovaPanel-v1.1.1240.zip",
+    "version": "1.1.1242",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1242/NovaPanel-v1.1.1242.zip",
     "notes": [
-        "Rotate shows only what this computer offers (CEO: \"only displaying what that computer offers\"): a Single layout (one reading, drawn round) joins the rotation only on a square portal, and only when this computer has its reading (no Battery…",
-        "Fleet Command reads from across the room (CEO, the 1920x515 bar at 10 to 15 ft): big slides by default, 60 to 230 px type, one fact or two machines a slide, every 9 s; the dense dashboard stays with ?dense=1 (Ops).",
-        "Editor › Size: the screen Omen is on is marked gold on a fresh install too (none was, under a line saying \"the gold screen\"), and the line under the map no longer repeats the tile's \"Omen is here\".",
-        "Editor: the caption under the copy names a style called as its theme once (\"Ganymede · 1024 × 768\", was \"Ganymede · Ganymede · ...\")."
+        "Game Guard keeps the mouse on your game (CEO: \"prevent the mouse from wandering out of a game, losing focus and onto that monitor\"): while a game fills its screen (or the screens it spans) in front, and a portal is on another screen, the…",
+        "Rest when idle (CEO ideas #18): with it on (Control Panel › Settings, off by default), when nothing has touched the PC for the time chosen (5 minutes unless set), every portal fades to its quiet Minimal (Ganymede: each card its one…",
+        "Game Guard's helper reads windows and screens in true pixels on scaled displays (125%, 150%), and says so when no window is in front (the lock screen, UAC)."
     ],
     "required": false,
-    "date": "2026-10-18"
+    "date": "2026-10-19"
 }
