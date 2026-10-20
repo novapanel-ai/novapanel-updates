@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1257",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1257/NovaPanel-v1.1.1257.zip",
+    "version": "1.1.1258",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1258/NovaPanel-v1.1.1258.zip",
     "notes": [
-        "The Card layout sheet tells the truth (CEO: \"image 1 the layout I selected image 2 the layout i got\"): each sketch is the portal's own drawing of that arrangement, the cards placed as the portal places them (by priority and the readings it…"
+        "Customize › Layers › Background image: the whole-picture thumbnail in the section (Keep in view) shows the picture as the portal draws it, hue, saturation, brightness, tint and opacity included, and follows the sliders as they move (CEO…"
     ],
     "required": false,
     "date": "2026-10-20"
