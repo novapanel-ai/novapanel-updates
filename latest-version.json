@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1256",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1256/NovaPanel-v1.1.1256.zip",
+    "version": "1.1.1257",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1257/NovaPanel-v1.1.1257.zip",
     "notes": [
-        "The volume dial's figure is its hero again (CEO on 1.1.1253: it was drawn smaller than its own 0 and 100 scale labels). A card may declare its figure a hero whatever its weight; the dial does, so the figure keeps the size its geometry…"
+        "The Card layout sheet tells the truth (CEO: \"image 1 the layout I selected image 2 the layout i got\"): each sketch is the portal's own drawing of that arrangement, the cards placed as the portal places them (by priority and the readings it…"
     ],
     "required": false,
     "date": "2026-10-20"
