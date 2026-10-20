@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1251",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1251/NovaPanel-v1.1.1251.zip",
+    "version": "1.1.1252",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1252/NovaPanel-v1.1.1252.zip",
     "notes": [
-        "Customize › Rune options › How it looks: each tile draws its own look again (CEO: \"They all look the same\"). A repaint after the fonts or the runes' register came in had drawn every tile as the card's real look."
+        "Customize › Layers: each layer's header shows its place, Top for Content, Bottom for Portal and a number for each layer between, and a background layer's up and down sit on its header beside the chevron (CEO: \"move the up/down chevrons to…"
     ],
     "required": false,
     "date": "2026-10-20"
