@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1249",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1249/NovaPanel-v1.1.1249.zip",
+    "version": "1.1.1250",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1250/NovaPanel-v1.1.1250.zip",
     "notes": [
-        "Customize is four groups, all closed when it opens: Layers (every layer in its order, and Add a layer), Colors (Dark or light, Color sets, Individual colors), Font (Font and sizes, Text effects) and Icons. One section is open at a time;…"
+        "Ganymede eases: what changes on the portal is no longer instant (CEO: \"a simple css animation on all elements that change\"). Each ring, bar, graph and color moves from how it was drawn to how it is drawn now over a third of a second; a…"
     ],
     "required": false,
     "date": "2026-10-20"
