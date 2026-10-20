@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1255",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1255/NovaPanel-v1.1.1255.zip",
+    "version": "1.1.1256",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1256/NovaPanel-v1.1.1256.zip",
     "notes": [
-        "Game Guard: a touch on a portal no longer costs a fullscreen game its pointer or its front (CEO: \"i tapped the Xeneon and my mouse went there\"). The cursor guard watches the pointer every 4 ms while it fences: found outside the game's…"
+        "The volume dial's figure is its hero again (CEO on 1.1.1253: it was drawn smaller than its own 0 and 100 scale labels). A card may declare its figure a hero whatever its weight; the dial does, so the figure keeps the size its geometry…"
     ],
     "required": false,
     "date": "2026-10-20"
