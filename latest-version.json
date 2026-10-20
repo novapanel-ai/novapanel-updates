@@ -1,9 +1,8 @@
 {
-    "version": "1.1.1248",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1248/NovaPanel-v1.1.1248.zip",
+    "version": "1.1.1249",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1249/NovaPanel-v1.1.1249.zip",
     "notes": [
-        "Sending a portal to an extra screen from its right-click menu (Screen) fills that screen again, whatever size it was last left at there (the Touch page's split had left the Xeneon at a third, so the portal arrived a third wide). Sent to…",
-        "The Control Panel opens as narrow as 600 px, so it fits beside the editor on a 1280 x 720 screen; every tab checked at 600 and 640. Knowledge stacks its roadmap and library below 760 px (side by side, each title was cut to a few words)."
+        "Customize is four groups, all closed when it opens: Layers (every layer in its order, and Add a layer), Colors (Dark or light, Color sets, Individual colors), Font (Font and sizes, Text effects) and Icons. One section is open at a time;…"
     ],
     "required": false,
     "date": "2026-10-20"
