@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1260",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1260/NovaPanel-v1.1.1260.zip",
+    "version": "1.1.1261",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1261/NovaPanel-v1.1.1261.zip",
     "notes": [
-        "Portal names as ruled (CEO: \"Omen, Charm and Mirage cannot be renamed, only new ones that get added. Auto-generate names from, like, Egyptian culture\"): a portal you add is named Anubis, Imhotep, Osiris and so on, every name once before…"
+        "Density explained as distance (CEO: \"Density = viewing distance ... The words Dense/Relaxed/Minimal undersell it\"): in Customize › Rune options each density word says what it is for, Dense for the desk (the most readings, in smaller type)…"
     ],
     "required": false,
     "date": "2026-10-20"
