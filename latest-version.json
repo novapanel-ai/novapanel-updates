@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1253",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1253/NovaPanel-v1.1.1253.zip",
+    "version": "1.1.1254",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1254/NovaPanel-v1.1.1254.zip",
     "notes": [
-        "Ganymede's type is one ladder per portal (CEO: \"the range of different font sizes here makes it all look overly busy ... limit to 6 sizes at the most. 4 are most common and 2 extra\"): four common steps from the portal's base size (label…"
+        "The Card layout sheet draws each arrangement as a sketch: every card a plain square in the portal's shape, the Time card filled stronger, and with the touch controls sharing the screen, their share one square reading Touch controls (CEO…"
     ],
     "required": false,
     "date": "2026-10-20"
