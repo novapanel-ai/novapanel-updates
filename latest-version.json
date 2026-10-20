@@ -1,11 +1,12 @@
 {
-    "version": "1.1.1246",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1246/NovaPanel-v1.1.1246.zip",
+    "version": "1.1.1247",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1247/NovaPanel-v1.1.1247.zip",
     "notes": [
-        "The editor's Touch page, redesigned (CEO: \"this seriously is so big… we need these panels to be small\"; the approved mock): one compact list in Customize's style. A small picture of the screen as it is shared, to its real shape, with its…",
-        "In a game, the 1% low and frame time cards are drawn as the FPS card is: the figure on top, its last minute under it, the name at the foot, evenly spaced (on 1.1.1245 they weighed low: the fleet's balance check flagged them at 1280 x 720).",
-        "The wide Time card's two halves are balanced again: right of the hairline the weekday, the date and the card's next readings, as it shipped in 1.1.1229 (drawn with the weekday and date alone it weighed left on every wide size)."
+        "The wide Time card is one grid on its own centre line (CEO: \"balance I want balance\"): the hairline at the card's centre, the time centred in the left half and the weekday over the date centred in the right, the same space from each to the…",
+        "Customize has one Layers section holding the portal's layers, top to bottom (Content, Rune options, Cards, the background layers, Portal) and Add a layer; Color and Fonts follow as their own sections. Background image is always a layer…",
+        "The Touch page is always the whole page. When Portent does not fill its screen it says so, with a button that makes it fill the screen, and each choice that needs that says why it cannot be made yet.",
+        "On the round and small forms the rings follow Thickness, Track and Ends, as they do on the cards (they were ignored there)."
     ],
     "required": false,
-    "date": "2026-10-19"
+    "date": "2026-10-20"
 }
