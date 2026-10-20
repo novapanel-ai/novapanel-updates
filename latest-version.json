@@ -1,11 +1,10 @@
 {
-    "version": "1.1.1245",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1245/NovaPanel-v1.1.1245.zip",
+    "version": "1.1.1246",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1246/NovaPanel-v1.1.1246.zip",
     "notes": [
-        "No control disappears at any width (CEO: \"if the editor is too narrow some of the buttons just vanish… Fix this!\"). In the editor's header, the chips that do not fit fold into the ⋯ menu one by one from the right (Touch, Card layout, Size…",
-        "The night moon is always at the portal's bottom centre (CEO: \"why is the moon control always in a different place? ... Most folks expect bottom center\"): wherever it shows (a touch portal 480 px or more on its short side, not round), the…",
-        "Touch controls can be chosen again (CEO, 10-15 and 10-19: \"I cannot choose touch controls still\"): a portal whose screen-shape setting said Round (left from another screen) had them turned off on the Touch page as \"not on a round screen…",
-        "Single layouts are offered only on square and round screens (CEO: \"singles shouldn't show for every resolution, just as additional layouts for square or round displays\"); a portal set to one on a wide or tall screen shows Ganymede's cards…"
+        "The editor's Touch page, redesigned (CEO: \"this seriously is so big… we need these panels to be small\"; the approved mock): one compact list in Customize's style. A small picture of the screen as it is shared, to its real shape, with its…",
+        "In a game, the 1% low and frame time cards are drawn as the FPS card is: the figure on top, its last minute under it, the name at the foot, evenly spaced (on 1.1.1245 they weighed low: the fleet's balance check flagged them at 1280 x 720).",
+        "The wide Time card's two halves are balanced again: right of the hairline the weekday, the date and the card's next readings, as it shipped in 1.1.1229 (drawn with the weekday and date alone it weighed left on every wide size)."
     ],
     "required": false,
     "date": "2026-10-19"
