@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1252",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1252/NovaPanel-v1.1.1252.zip",
+    "version": "1.1.1253",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1253/NovaPanel-v1.1.1253.zip",
     "notes": [
-        "Customize › Layers: each layer's header shows its place, Top for Content, Bottom for Portal and a number for each layer between, and a background layer's up and down sit on its header beside the chevron (CEO: \"move the up/down chevrons to…"
+        "Ganymede's type is one ladder per portal (CEO: \"the range of different font sizes here makes it all look overly busy ... limit to 6 sizes at the most. 4 are most common and 2 extra\"): four common steps from the portal's base size (label…"
     ],
     "required": false,
     "date": "2026-10-20"
