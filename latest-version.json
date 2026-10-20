@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1258",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1258/NovaPanel-v1.1.1258.zip",
+    "version": "1.1.1259",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1259/NovaPanel-v1.1.1259.zip",
     "notes": [
-        "Customize › Layers › Background image: the whole-picture thumbnail in the section (Keep in view) shows the picture as the portal draws it, hue, saturation, brightness, tint and opacity included, and follows the sliders as they move (CEO…"
+        "The touch controls act on the finger landing, not on its lift (CEO: \"if i touch or swipe there cannot be any (or an imperceptible) delay\"): every tap on the deck, in Ganymede's Cards look and in the other skins, acts on the first touch…"
     ],
     "required": false,
     "date": "2026-10-20"
