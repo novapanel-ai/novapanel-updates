@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1254",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1254/NovaPanel-v1.1.1254.zip",
+    "version": "1.1.1255",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1255/NovaPanel-v1.1.1255.zip",
     "notes": [
-        "The Card layout sheet draws each arrangement as a sketch: every card a plain square in the portal's shape, the Time card filled stronger, and with the touch controls sharing the screen, their share one square reading Touch controls (CEO…"
+        "Game Guard: a touch on a portal no longer costs a fullscreen game its pointer or its front (CEO: \"i tapped the Xeneon and my mouse went there\"). The cursor guard watches the pointer every 4 ms while it fences: found outside the game's…"
     ],
     "required": false,
     "date": "2026-10-20"
