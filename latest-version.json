@@ -1,11 +1,9 @@
 {
-    "version": "1.1.1247",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1247/NovaPanel-v1.1.1247.zip",
+    "version": "1.1.1248",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1248/NovaPanel-v1.1.1248.zip",
     "notes": [
-        "The wide Time card is one grid on its own centre line (CEO: \"balance I want balance\"): the hairline at the card's centre, the time centred in the left half and the weekday over the date centred in the right, the same space from each to the…",
-        "Customize has one Layers section holding the portal's layers, top to bottom (Content, Rune options, Cards, the background layers, Portal) and Add a layer; Color and Fonts follow as their own sections. Background image is always a layer…",
-        "The Touch page is always the whole page. When Portent does not fill its screen it says so, with a button that makes it fill the screen, and each choice that needs that says why it cannot be made yet.",
-        "On the round and small forms the rings follow Thickness, Track and Ends, as they do on the cards (they were ignored there)."
+        "Sending a portal to an extra screen from its right-click menu (Screen) fills that screen again, whatever size it was last left at there (the Touch page's split had left the Xeneon at a third, so the portal arrived a third wide). Sent to…",
+        "The Control Panel opens as narrow as 600 px, so it fits beside the editor on a 1280 x 720 screen; every tab checked at 600 and 640. Knowledge stacks its roadmap and library below 760 px (side by side, each title was cut to a few words)."
     ],
     "required": false,
     "date": "2026-10-20"
