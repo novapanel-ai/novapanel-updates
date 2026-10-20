@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1250",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1250/NovaPanel-v1.1.1250.zip",
+    "version": "1.1.1251",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1251/NovaPanel-v1.1.1251.zip",
     "notes": [
-        "Ganymede eases: what changes on the portal is no longer instant (CEO: \"a simple css animation on all elements that change\"). Each ring, bar, graph and color moves from how it was drawn to how it is drawn now over a third of a second; a…"
+        "Customize › Rune options › How it looks: each tile draws its own look again (CEO: \"They all look the same\"). A repaint after the fonts or the runes' register came in had drawn every tile as the card's real look."
     ],
     "required": false,
     "date": "2026-10-20"
