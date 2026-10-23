@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1264",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1264/NovaPanel-v1.1.1264.zip",
+    "version": "1.1.1265",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1265/NovaPanel-v1.1.1265.zip",
     "notes": [
-        "Ganymede Light-mode labels read: the secondary text (the Time card's WEEK and UPTIME, the PM, the captions such as \"30.2 of 31.4 GB\", the names) was the primary at 55%, 3.8 : 1 on Light's white cards; it is now made as strong as it needs…"
+        "Screens sleep when Windows is locked and dim at rest (CEO 10-22 free list, HYTE parity). While Windows is locked every portal goes dark and stops drawing new readings; unlocking brings it back clear with the latest readings (Control Panel…"
     ],
     "required": false,
     "date": "2026-10-22"
