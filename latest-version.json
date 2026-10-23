@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1267",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1267/NovaPanel-v1.1.1267.zip",
+    "version": "1.1.1268",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1268/NovaPanel-v1.1.1268.zip",
     "notes": [
-        "A Screensaver rune for the touch deck (CEO 10-21: \"I use the screensaver a lot on my OLED displays\"; free list). Start the screensaver now; turn Windows' screensaver on or off; the minutes before it starts (1, 5, 10, 15, 30, or the time…"
+        "Easy screen select (CEO 10-22 free list): right-click a portal › Screen › Pick on the screen…, or the editor's Size page › Show on the screens. Every screen shows, on the screen itself, its name and size over a dimmed veil (the one the…"
     ],
     "required": false,
     "date": "2026-10-22"
