@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1263",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1263/NovaPanel-v1.1.1263.zip",
+    "version": "1.1.1264",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1264/NovaPanel-v1.1.1264.zip",
     "notes": [
-        "Ganymede Minimal is readable across the room and keeps its cards (CEO 10-22: \"a huge temperature and then a super tiny CPU under it does not work\"; \"density never changes the card layout\"). Dense, Relaxed and Minimal now share one set of…"
+        "Ganymede Light-mode labels read: the secondary text (the Time card's WEEK and UPTIME, the PM, the captions such as \"30.2 of 31.4 GB\", the names) was the primary at 55%, 3.8 : 1 on Light's white cards; it is now made as strong as it needs…"
     ],
     "required": false,
     "date": "2026-10-22"
