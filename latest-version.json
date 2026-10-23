@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1268",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1268/NovaPanel-v1.1.1268.zip",
+    "version": "1.1.1269",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1269/NovaPanel-v1.1.1269.zip",
     "notes": [
-        "Easy screen select (CEO 10-22 free list): right-click a portal › Screen › Pick on the screen…, or the editor's Size page › Show on the screens. Every screen shows, on the screen itself, its name and size over a dimmed veil (the one the…"
+        "Keep the mouse off a screen, in a game or not (CEO 10-20 \"Game Guard everywhere\": the user picks which screen the mouse must never drift onto; the name is the CEO's to pick, so the menu says what it does). Right-click a portal › Keep the…"
     ],
     "required": false,
     "date": "2026-10-22"
