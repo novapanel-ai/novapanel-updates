@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1266",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1266/NovaPanel-v1.1.1266.zip",
+    "version": "1.1.1267",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1267/NovaPanel-v1.1.1267.zip",
     "notes": [
-        "Save a picture of a portal (CEO 10-22 free list, HYTE parity: panel screenshot button). Right-click a portal › Save a picture: the portal as it is drawn now (its own face, without the window's clear margin) is saved as a PNG in…"
+        "A Screensaver rune for the touch deck (CEO 10-21: \"I use the screensaver a lot on my OLED displays\"; free list). Start the screensaver now; turn Windows' screensaver on or off; the minutes before it starts (1, 5, 10, 15, 30, or the time…"
     ],
     "required": false,
     "date": "2026-10-22"
