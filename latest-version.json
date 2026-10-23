@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1269",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1269/NovaPanel-v1.1.1269.zip",
+    "version": "1.1.1270",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1270/NovaPanel-v1.1.1270.zip",
     "notes": [
-        "Keep the mouse off a screen, in a game or not (CEO 10-20 \"Game Guard everywhere\": the user picks which screen the mouse must never drift onto; the name is the CEO's to pick, so the menu says what it does). Right-click a portal › Keep the…"
+        "Ganymede's text reads over any background picture (free list, adaptive text color, basic: a readability guarantee of 4.5:1). Whenever the background picture changes, the portal measures it as it draws it (its hue, saturation, brightness…"
     ],
     "required": false,
-    "date": "2026-10-22"
+    "date": "2026-10-23"
 }
