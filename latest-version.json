@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1270",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1270/NovaPanel-v1.1.1270.zip",
+    "version": "1.1.1271",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1271/NovaPanel-v1.1.1271.zip",
     "notes": [
-        "Ganymede's text reads over any background picture (free list, adaptive text color, basic: a readability guarantee of 4.5:1). Whenever the background picture changes, the portal measures it as it draws it (its hue, saturation, brightness…"
+        "Ganymede Minimal is now an ambient, across-the-room screen (CEO 10-23: \"it just needs to be enough that I can read some numbers from across the room\"): no card backgrounds, the readings sit on the ground. The time leads in the middle with…"
     ],
     "required": false,
     "date": "2026-10-23"
