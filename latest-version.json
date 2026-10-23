@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1262",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1262/NovaPanel-v1.1.1262.zip",
+    "version": "1.1.1263",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1263/NovaPanel-v1.1.1263.zip",
     "notes": [
-        "Ganymede gold: the fleet's size stage of 1.1.1253 (122 of 695 drawings flagged against 68 on 1.1.1240) traced to four things since 1.1.1243, each fixed and measured on the Blink rig: the type ladder had clamped every figure of the compact…"
+        "Ganymede Minimal is readable across the room and keeps its cards (CEO 10-22: \"a huge temperature and then a super tiny CPU under it does not work\"; \"density never changes the card layout\"). Dense, Relaxed and Minimal now share one set of…"
     ],
     "required": false,
-    "date": "2026-10-20"
+    "date": "2026-10-22"
 }
