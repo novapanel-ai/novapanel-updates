@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1271",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1271/NovaPanel-v1.1.1271.zip",
+    "version": "1.1.1272",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1272/NovaPanel-v1.1.1272.zip",
     "notes": [
-        "Ganymede Minimal is now an ambient, across-the-room screen (CEO 10-23: \"it just needs to be enough that I can read some numbers from across the room\"): no card backgrounds, the readings sit on the ground. The time leads in the middle with…"
+        "Ganymede Minimal keeps the layout you chose again, and its cards respond to your Card settings (CEO 10-24: \"the whole thing shrunk on some of the layouts\", \"card settings broken\", \"layouts broken\"). 1.1.1271 had replaced Minimal with an…"
     ],
     "required": false,
-    "date": "2026-10-23"
+    "date": "2026-10-24"
 }
