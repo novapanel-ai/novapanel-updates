@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1273",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1273/NovaPanel-v1.1.1273.zip",
+    "version": "1.1.1274",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1274/NovaPanel-v1.1.1274.zip",
     "notes": [
-        "Two Ganymede fixes (CEO 10-25: \"color and its opacity are not correct\", \"I have moved it to the LG screen and the card layouts are still the 2560x720\"). (1) The Card layout page follows the portal to a new screen: it re-measured the…"
+        "Ganymede draws the card color and opacity you set (CEO 10-25 on 1.1.1273: the portal still showed flat grey cards while the editor copy showed the chosen white at 46%). Over a background picture the portal put a dark readability veil under…"
     ],
     "required": false,
     "date": "2026-10-25"
