@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1272",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1272/NovaPanel-v1.1.1272.zip",
+    "version": "1.1.1273",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1273/NovaPanel-v1.1.1273.zip",
     "notes": [
-        "Ganymede Minimal keeps the layout you chose again, and its cards respond to your Card settings (CEO 10-24: \"the whole thing shrunk on some of the layouts\", \"card settings broken\", \"layouts broken\"). 1.1.1271 had replaced Minimal with an…"
+        "Two Ganymede fixes (CEO 10-25: \"color and its opacity are not correct\", \"I have moved it to the LG screen and the card layouts are still the 2560x720\"). (1) The Card layout page follows the portal to a new screen: it re-measured the…"
     ],
     "required": false,
-    "date": "2026-10-24"
+    "date": "2026-10-25"
 }
