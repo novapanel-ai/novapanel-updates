@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1274",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1274/NovaPanel-v1.1.1274.zip",
+    "version": "1.1.1304",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1304/NovaPanel-v1.1.1304.zip",
     "notes": [
-        "Ganymede draws the card color and opacity you set (CEO 10-25 on 1.1.1273: the portal still showed flat grey cards while the editor copy showed the chosen white at 46%). Over a background picture the portal put a dark readability veil under…"
+        "Divination has a new door: Open Forge starts the design workbench in its own window (God Mode). If Forge is missing or fails to start, the door says why and where it looked."
     ],
     "required": false,
-    "date": "2026-10-25"
+    "date": "2026-11-09"
 }
