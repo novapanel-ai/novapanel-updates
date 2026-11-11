@@ -1,9 +1,13 @@
 {
-    "version": "1.1.1304",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1304/NovaPanel-v1.1.1304.zip",
+    "version": "1.1.1308",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1308/NovaPanel-v1.1.1308.zip",
     "notes": [
-        "Divination has a new door: Open Forge starts the design workbench in its own window (God Mode). If Forge is missing or fails to start, the door says why and where it looked."
+        "Dia is free: all three looks (Classic, Widgets, Ring), with its own short editor: the three looks, Dark or Light, the base colour and a background picture or video.",
+        "Dia Light: black type on white, in every look. Dia's red now reads clearly on black and on white.",
+        "Dia on wide screens shows more: the time, discs for the clock and power, loads and a departure board.",
+        "Dia on a desktop or mini PC with no battery shows Uptime where the battery would be.",
+        "Kore, an AIDA64 example theme, is free: pick its font and colour from its presets. Your own AIDA64 themes import in the Themes tab, which every plan now sees."
     ],
     "required": false,
-    "date": "2026-11-09"
+    "date": "2026-11-11"
 }
