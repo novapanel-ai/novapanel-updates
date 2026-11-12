@@ -1,10 +1,10 @@
 {
-    "version": "1.1.1312",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1312/NovaPanel-v1.1.1312.zip",
+    "version": "1.1.1313",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1313/NovaPanel-v1.1.1313.zip",
     "notes": [
-        "Minimal and Showcase open on every plan, Night Knight included.",
-        "Control Panel: the Themes page and the portal plans tidied.",
-        "Lian Li and Aorus pump and fan screens: the newer models drawn, and each screen turned the way it is mounted."
+        "Showcase keeps your layout: the big clock and your readings stay where you built them, whatever layout is picked.",
+        "The Themes tab is now the Store.",
+        "One portal list everywhere: the right-click menu and the editor show the same portals."
     ],
     "required": false,
     "date": "2026-11-12"
