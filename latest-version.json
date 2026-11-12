@@ -1,12 +1,10 @@
 {
-    "version": "1.1.1311",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1311/NovaPanel-v1.1.1311.zip",
+    "version": "1.1.1312",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1312/NovaPanel-v1.1.1312.zip",
     "notes": [
-        "Night Knight keeps its time and readings when you move the portal to another display, the XENEON EDGE included.",
-        "Moving or resizing a portal, going full screen and back: the loader covers it until the new layout is finished, then it fades in. Nothing jumps.",
-        "Portals: the five portals in one place, with pictures to choose from.",
-        "Forge: tweak the placements and values of a look.",
-        "Ganymede: rows line up across side-by-side cards, and no card is left hollow."
+        "Minimal and Showcase open on every plan, Night Knight included.",
+        "Control Panel: the Themes page and the portal plans tidied.",
+        "Lian Li and Aorus pump and fan screens: the newer models drawn, and each screen turned the way it is mounted."
     ],
     "required": false,
     "date": "2026-11-12"
