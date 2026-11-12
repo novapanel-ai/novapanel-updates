@@ -1,13 +1,13 @@
 {
-    "version": "1.1.1309",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1309/NovaPanel-v1.1.1309.zip",
+    "version": "1.1.1310",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1310/NovaPanel-v1.1.1310.zip",
     "notes": [
-        "Showcase mood: wear a Forge look on your portal, Night Knight first, with its live scene and readings.",
-        "Portals: five portals, one open at a time, each keeps its settings.",
-        "Forge looks drawn the way you laid them out: each card sized by its own content, so the text fills the box you draw, and a look's styles land on the right text.",
-        "Dia on USB screens: Dia Classic on the Thermalright pump screen and a round Dia on each Lian Li TL fan screen.",
-        "Smart weather words on every theme: the whole sky where it fits (\"Mainly clear\"), the word that names the weather where it does not."
+        "Night Knight shows the time and your CPU and GPU on every screen shape, round screens included, and after the portal reloads.",
+        "Your Forge placements hold: a reading stays where you put it, even when it arrives after the look has loaded.",
+        "Readings fade in once they are placed, so nothing jumps on start.",
+        "Ganymede Simple: a clean start page in Forge, and every Ganymede layout keeps its rows lined up with no empty cards.",
+        "Text sizes follow one shared scale on every theme."
     ],
     "required": false,
-    "date": "2026-11-11"
+    "date": "2026-11-12"
 }
