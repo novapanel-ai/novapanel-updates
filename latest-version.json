@@ -1,12 +1,12 @@
 {
-    "version": "1.1.1308",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1308/NovaPanel-v1.1.1308.zip",
+    "version": "1.1.1309",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1309/NovaPanel-v1.1.1309.zip",
     "notes": [
-        "Dia is free: all three looks (Classic, Widgets, Ring), with its own short editor: the three looks, Dark or Light, the base colour and a background picture or video.",
-        "Dia Light: black type on white, in every look. Dia's red now reads clearly on black and on white.",
-        "Dia on wide screens shows more: the time, discs for the clock and power, loads and a departure board.",
-        "Dia on a desktop or mini PC with no battery shows Uptime where the battery would be.",
-        "Kore, an AIDA64 example theme, is free: pick its font and colour from its presets. Your own AIDA64 themes import in the Themes tab, which every plan now sees."
+        "Showcase mood: wear a Forge look on your portal, Night Knight first, with its live scene and readings.",
+        "Portals: five portals, one open at a time, each keeps its settings.",
+        "Forge looks drawn the way you laid them out: each card sized by its own content, so the text fills the box you draw, and a look's styles land on the right text.",
+        "Dia on USB screens: Dia Classic on the Thermalright pump screen and a round Dia on each Lian Li TL fan screen.",
+        "Smart weather words on every theme: the whole sky where it fits (\"Mainly clear\"), the word that names the weather where it does not."
     ],
     "required": false,
     "date": "2026-11-11"
