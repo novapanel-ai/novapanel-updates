@@ -1,8 +1,12 @@
 {
-    "version": "1.1.1317",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1317/NovaPanel-v1.1.1317.zip",
+    "version": "1.1.1318",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1318/NovaPanel-v1.1.1318.zip",
     "notes": [
-        "AIDA64 Kore has its own editor: Resolution (the sizes for your screen) and Settings with its Font, Dark or light, and Accent, each accent shown in its colours, beside a picture of the theme as it looks now."
+        "Ganymede's three styles are Default, Simple and Technical, picked on its Portals card. All three work on every layout, your own Custom one too, and the card always shows the style the portal is drawing.",
+        "Simple is Ganymede's own layout with fewer items and bigger runes, never a different set of cards. Choose a layout lists only real layouts.",
+        "Technical (the Blackfield look) can be picked and draws.",
+        "Right-click any portal and Customize… is the first choice, AIDA64 Kore included.",
+        "Kore no longer goes black when its Settings are open."
     ],
     "required": false,
     "date": "2026-11-14"
