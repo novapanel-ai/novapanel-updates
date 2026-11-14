@@ -1,11 +1,13 @@
 {
-    "version": "1.1.1313",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1313/NovaPanel-v1.1.1313.zip",
+    "version": "1.1.1316",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1316/NovaPanel-v1.1.1316.zip",
     "notes": [
-        "Showcase keeps your layout: the big clock and your readings stay where you built them, whatever layout is picked.",
-        "The Themes tab is now the Store.",
-        "One portal list everywhere: the right-click menu and the editor show the same portals."
+        "Each theme has its own editor: it shows only the tabs that theme has (Resolution, Layouts where the theme has them, Layer order from Glamour, Settings, Touch). The Theme and Mood tabs are gone.",
+        "Ganymede's three options (Detailed, Simple, Blackfield) are picked right on its Portals card, with pictures, like the other portals. Blackfield shows as awaiting your OK.",
+        "Dia's three looks (Classic, Widgets, Ring) are picked on its Portals card.",
+        "The Portals tab (was Portals (panels)) lists every installed theme in groups you can fold: Free, AIDA64, Glamour themes, Premium. A group with nothing in it is hidden, and Sigil remembers which you left open.",
+        "Ganymede no longer wears another theme's Showcase look: it goes back to what it wore before."
     ],
     "required": false,
-    "date": "2026-11-12"
+    "date": "2026-11-14"
 }
