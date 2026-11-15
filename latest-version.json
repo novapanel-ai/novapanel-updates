@@ -1,12 +1,9 @@
 {
-    "version": "1.1.1318",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1318/NovaPanel-v1.1.1318.zip",
+    "version": "1.1.1319",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1319/NovaPanel-v1.1.1319.zip",
     "notes": [
-        "Ganymede's three styles are Default, Simple and Technical, picked on its Portals card. All three work on every layout, your own Custom one too, and the card always shows the style the portal is drawing.",
-        "Simple is Ganymede's own layout with fewer items and bigger runes, never a different set of cards. Choose a layout lists only real layouts.",
-        "Technical (the Blackfield look) can be picked and draws.",
-        "Right-click any portal and Customize… is the first choice, AIDA64 Kore included.",
-        "Kore no longer goes black when its Settings are open."
+        "Every portal's right-click menu is the same menu, AIDA64 Kore included: Customize, Portal, Layout, Style, Close, Screen, Resolution, Carousel, Always on top, Save a picture. Change Kore's resolution right from the right-click. Anything a…",
+        "A portal whose screen is unplugged no longer opens at that screen's size over your work: on your main display it opens at 1280×720 (or the size you gave it there before), as the screen rules always said."
     ],
     "required": false,
     "date": "2026-11-14"
