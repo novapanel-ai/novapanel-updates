@@ -1,12 +1,12 @@
 {
-    "version": "1.1.1325",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1325/NovaPanel-v1.1.1325.zip",
+    "version": "1.1.1326",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1326/NovaPanel-v1.1.1326.zip",
     "notes": [
-        "Dia has Soft cards: Widgets and Ring each offer Bold or Soft (dark grey cards on Dark, light grey cards on Light), and every word on them stays easy to read. TEST: Portals > Dia > Ring > Soft: the cards turn soft grey; switch Dark and…",
-        "The editor has a Styles tab, first in its row, to switch a portal's look without going back to the Control Panel. TEST: Customize Dia > Styles: pick Widgets, then Soft: the portal follows at once.",
-        "The first time you open any portal, its editor opens with it on the Styles tab; the first time you close the editor, a tip says how to open it again (right-click the portal, or the taskbar menu). After that it behaves as before. TEST: on a…",
-        "Dia's time colon sits in the middle of the digits. TEST: Dia Classic: the two dots of 12:14 are centred between the numbers.",
-        "Dia's Beach shoreline sits where you picked it (B, two thirds across). TEST: Dia > Animated background > Beach: the shore runs at about two thirds."
+        "New names: Dia is now Nil, Ganymede is now Aegis, Night Knight is now Dread Knight; the Balanced series is Veil and the Minimal series is Obscura. Portals you already have show the new names; a name you typed yourself stays. TEST: Control…",
+        "The Portals page lists the five launch themes in order: Nil, Aegis, Dread Knight (Obscura Series), Cyber City (Veil Series, still being built) and AIDA64 Kore. TEST: Control Panel > Portals, and right-click a portal > Portal: the same…",
+        "Styles tab: Dark / Light comes first, the style tiles are big and grow with the window, Nil's black-and-white looks sit in their own Contrast group, and the animated backgrounds (None, Black sand beach, Topographic map) are tiles too.…",
+        "Right-click menu cleaned up: one Style entry (as in the editor) and \"Customize in the editor\". TEST: right-click Nil: one Style, and Customize in the editor at the top.",
+        "Nil Widgets: the CPU and GPU temperatures stand over their dot gauges and fill the card, and the dial row reads CPU GPU MEM BAT; the degree mark never touches the gauge. TEST: Nil > Widgets (Bold and Soft) on a tall or wide screen: big…"
     ],
     "required": false,
     "date": "2026-11-16"
