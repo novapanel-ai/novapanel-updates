@@ -1,10 +1,13 @@
 {
-    "version": "1.1.1319",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1319/NovaPanel-v1.1.1319.zip",
+    "version": "1.1.1324",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1324/NovaPanel-v1.1.1324.zip",
     "notes": [
-        "Every portal's right-click menu is the same menu, AIDA64 Kore included: Customize, Portal, Layout, Style, Close, Screen, Resolution, Carousel, Always on top, Save a picture. Change Kore's resolution right from the right-click. Anything a…",
-        "A portal whose screen is unplugged no longer opens at that screen's size over your work: on your main display it opens at 1280×720 (or the size you gave it there before), as the screen rules always said."
+        "Dia has one animated background with two styles, Beach and Topography (your new topographic loop); Video and Background image are gone. It redraws only when the picture has moved a whole pixel (CPU about 2%, was about 11%). TEST: Customize…",
+        "On Light, Beach and Topography are drawn inverted (dark lines on white) and every reading on Dia stays easy to read on Light and Dark, the hot CPU reading included. TEST: Dia in Light: dark lines on a white picture, time and readings…",
+        "The animated background is a row in Layer order on every tier that has Layer order. TEST: Customize Dia > Layer order: Animated background moves up and down; under the Base it no longer shows.",
+        "Ganymede's cards no longer jump to a different layout the first time you touch the screen. TEST: Ganymede on the Xeneon: touch it: the moon shows and nothing else moves.",
+        "Ganymede shows the white-at-10% cards and the proper margins you ordered: card values Sigil itself had written into your settings (85% cards, 8 px corners, no margin) are replaced by the theme's own; values you set are kept (Dia Base 61%…"
     ],
     "required": false,
-    "date": "2026-11-14"
+    "date": "2026-11-15"
 }
