@@ -1,12 +1,9 @@
 {
-    "version": "1.1.1377",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1377/NovaPanel-v1.1.1377.zip",
+    "version": "1.1.1378",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1378/NovaPanel-v1.1.1378.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "Default on a square screen: the time over CPU and GPU, centred and kept inside the round edge, in place of five readings with an empty middle. A square shows one to three readings.",
-        "Default on small screens: where its usual layout would draw text too small to read at the desk, it uses the square-screen layout laid out on the rectangle, the time over CPU and GPU with the rail between.",
-        "Default sizes its text by the screen's real size, never below the legible size at the desk. On less glass a reading gives way from the end of the list, never the time.",
-        "Default: the time keeps a clear gap from the rail under it on every size."
+        "Default on a near-square screen (the portal's own 640x620 window): the time over CPU and GPU, centred and kept inside the round edge, as on an exactly square screen, in place of the stack run out to the borders."
     ],
     "required": false,
     "date": "2026-11-22"
