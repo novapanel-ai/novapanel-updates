@@ -1,13 +1,10 @@
 {
-    "version": "1.1.1326",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1326/NovaPanel-v1.1.1326.zip",
+    "version": "1.1.1376",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1376/NovaPanel-v1.1.1376.zip",
     "notes": [
-        "New names: Dia is now Nil, Ganymede is now Aegis, Night Knight is now Dread Knight; the Balanced series is Veil and the Minimal series is Obscura. Portals you already have show the new names; a name you typed yourself stays. TEST: Control…",
-        "The Portals page lists the five launch themes in order: Nil, Aegis, Dread Knight (Obscura Series), Cyber City (Veil Series, still being built) and AIDA64 Kore. TEST: Control Panel > Portals, and right-click a portal > Portal: the same…",
-        "Styles tab: Dark / Light comes first, the style tiles are big and grow with the window, Nil's black-and-white looks sit in their own Contrast group, and the animated backgrounds (None, Black sand beach, Topographic map) are tiles too.…",
-        "Right-click menu cleaned up: one Style entry (as in the editor) and \"Customize in the editor\". TEST: right-click Nil: one Style, and Customize in the editor at the top.",
-        "Nil Widgets: the CPU and GPU temperatures stand over their dot gauges and fill the card, and the dial row reads CPU GPU MEM BAT; the degree mark never touches the gauge. TEST: Nil > Widgets (Bold and Soft) on a tall or wide screen: big…"
+        "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
+        "Dread Knight: the once-a-second hitch in its animation is gone. The sensor runes are no longer rebuilt every second."
     ],
     "required": false,
-    "date": "2026-11-16"
+    "date": "2026-11-21"
 }
