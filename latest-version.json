@@ -1,11 +1,10 @@
 {
-    "version": "1.1.1385",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1385/NovaPanel-v1.1.1385.zip",
+    "version": "1.1.1386",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1386/NovaPanel-v1.1.1386.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "Every portal card has three buttons: Open, Edit and Editor panel.",
-        "Edit opens that portal's editor inside the Control Panel, its steps in a second row under Portals, the way God Mode shows its own.",
-        "Editor panel opens the floating editor, as Edit did before. The Editor tab at the top is gone."
+        "Default: pick a Layout to suit your picture (Data settings): Strip, the readings across the screen; Time, the time alone on the left with your picture clear; Split, the readings on the right with the picture's left side clear.",
+        "Default's lines now run to the screen edge and never cross the time or a reading."
     ],
     "required": false,
     "date": "2026-11-23"
