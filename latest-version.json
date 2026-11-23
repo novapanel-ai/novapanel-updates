@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1378",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1378/NovaPanel-v1.1.1378.zip",
+    "version": "1.1.1379",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1379/NovaPanel-v1.1.1379.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "Default on a near-square screen (the portal's own 640x620 window): the time over CPU and GPU, centred and kept inside the round edge, as on an exactly square screen, in place of the stack run out to the borders."
+        "A Background picture you have not placed now stands where the readings over it read: where a reading would sit on ground too busy for its ink, the picture zooms in the least it needs and turns toward its own subject, so every reading reads…"
     ],
     "required": false,
     "date": "2026-11-22"
