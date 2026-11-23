@@ -1,10 +1,9 @@
 {
-    "version": "1.1.1381",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1381/NovaPanel-v1.1.1381.zip",
+    "version": "1.1.1382",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1382/NovaPanel-v1.1.1382.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "New portal: Bathysphere. A submarine control wall whose monitors show your time and readings as glowing green screens. Small screens zoom in on the monitors so the numbers stay big; square and round screens show one to three readings…",
-        "New portal: Overdrive. Twin rings and a dome showing your temperatures and frame rate, with side panels whose readings you choose. On small screens it shows just the rings."
+        "Control panel, Editor tab: the editor and its row of steps are always there. With no portal on screen it edits your first saved portal, instead of a line of text."
     ],
     "required": false,
     "date": "2026-11-22"
