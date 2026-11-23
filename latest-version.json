@@ -1,11 +1,11 @@
 {
-    "version": "1.1.1387",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1387/NovaPanel-v1.1.1387.zip",
+    "version": "1.1.1388",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1388/NovaPanel-v1.1.1388.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "The Control Panel menu is down the left side again: every tab in view, God Mode at the foot.",
-        "The AIDA64 Importer has its own tab: how it works, and what the free and Glamour imports give you.",
-        "The Store is just the shop now."
+        "A monitoring tool (AIDA64, HWiNFO, HWMonitor, CPU-Z, GPU-Z, RTSS, Afterburner) keeping your graphics card busy is no longer taken for a game: Game mode, the mouse lock and the game pop-ups start only once a game is really drawing frames.",
+        "A screensaver or live wallpaper running on your desktop is no longer taken for a game.",
+        "USB screens (an AIO pump screen, fan screens): one that another program holds is tried once and left alone; one that stops answering is closed and tried again after growing gaps, then left alone, instead of being tried every few seconds…"
     ],
     "required": false,
     "date": "2026-11-23"
