@@ -1,9 +1,10 @@
 {
-    "version": "1.1.1382",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1382/NovaPanel-v1.1.1382.zip",
+    "version": "1.1.1383",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1383/NovaPanel-v1.1.1383.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "Control panel, Editor tab: the editor and its row of steps are always there. With no portal on screen it edits your first saved portal, instead of a line of text."
+        "Smaller update: Sigil is about 115 MB lighter. Bathysphere now carries only the five pictures it shows, in a compact format, with no visible difference.",
+        "Bathysphere on small screens: the zoom into its monitors now always keeps a sensor reading next to the time (it could show the time alone on a 240x320 screen)."
     ],
     "required": false,
     "date": "2026-11-22"
