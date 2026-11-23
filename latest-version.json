@@ -1,11 +1,13 @@
 {
-    "version": "1.1.1383",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1383/NovaPanel-v1.1.1383.zip",
+    "version": "1.1.1384",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1384/NovaPanel-v1.1.1384.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "Smaller update: Sigil is about 115 MB lighter. Bathysphere now carries only the five pictures it shows, in a compact format, with no visible difference.",
-        "Bathysphere on small screens: the zoom into its monitors now always keeps a sensor reading next to the time (it could show the time alone on a 240x320 screen)."
+        "Bathysphere comes alive: light shimmers in the sea windows, bubbles rise now and then, the lamp flickers, and a monitor sometimes rolls a scan line and a second of static. The new motion rests while you game.",
+        "Bathysphere: every monitor in view shows something. Monitors cut off by the screen edge, and any left over, show live sensor graphs.",
+        "Bathysphere: one radar and one depth gauge only, the label sits close to its value with the CPU or GPU model between them where it fits, and the degree mark is top-aligned with the number.",
+        "Bathysphere: the tall layouts' monitor glass now matches the others, and small screens zoom in further so the reading is bigger."
     ],
     "required": false,
-    "date": "2026-11-22"
+    "date": "2026-11-23"
 }
