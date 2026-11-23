@@ -1,10 +1,11 @@
 {
-    "version": "1.1.1386",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1386/NovaPanel-v1.1.1386.zip",
+    "version": "1.1.1387",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1387/NovaPanel-v1.1.1387.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "Default: pick a Layout to suit your picture (Data settings): Strip, the readings across the screen; Time, the time alone on the left with your picture clear; Split, the readings on the right with the picture's left side clear.",
-        "Default's lines now run to the screen edge and never cross the time or a reading."
+        "The Control Panel menu is down the left side again: every tab in view, God Mode at the foot.",
+        "The AIDA64 Importer has its own tab: how it works, and what the free and Glamour imports give you.",
+        "The Store is just the shop now."
     ],
     "required": false,
     "date": "2026-11-23"
