@@ -1,9 +1,12 @@
 {
-    "version": "1.1.1379",
-    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1379/NovaPanel-v1.1.1379.zip",
+    "version": "1.1.1380",
+    "downloadUrl": "https://github.com/novapanel-ai/novapanel-updates/releases/download/v1.1.1380/NovaPanel-v1.1.1380.zip",
     "notes": [
         "TESTER BUILD: this release has not had a clean fleet pass yet; it is published so testers can run the newest build.",
-        "A Background picture you have not placed now stands where the readings over it read: where a reading would sit on ground too busy for its ink, the picture zooms in the least it needs and turns toward its own subject, so every reading reads…"
+        "Control panel: the theme editor now opens inside the control panel, as an Editor tab after Portals. The separate editor window stays.",
+        "Portals shows every portal at once: the theme cards side by side, wrapping to fit the window. A card with no picture shows the Sigil mark.",
+        "A portal your plan does not include opens its editor whole but locked: every setting shown dimmed, with one Upgrade row naming the plan and its price. Nothing it writes is saved.",
+        "Cyber City: its editor opens at once, even on a new install (it could sit blank for up to 20 seconds), and the portal uses far less of the processor."
     ],
     "required": false,
     "date": "2026-11-22"
